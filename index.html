@@ -3,124 +3,1132 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>La Biblia del TT</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>TTpedia · La Biblia del Triangulito Team</title>
+  <style>
+    :root {
+      --bg: #0b141a;
+      --surface: #111b21;
+      --card: #1f2c34;
+      --card-hover: #273741;
+      --accent: #00a884;
+      --accent-soft: rgba(0, 168, 132, 0.16);
+      --gold: #f5b942;
+      --text: #e9edef;
+      --muted: #8696a0;
+      --danger: #ef5350;
+      --danger-soft: rgba(239, 83, 80, 0.18);
+      --border: rgba(255, 255, 255, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #13272e 0%, var(--bg) 60%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .app {
+      width: 100%;
+      max-width: 580px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .topbar {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .badge-tt {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #007a5e);
+      color: #062119;
+      font-weight: 900;
+      font-size: 16px;
+      display: grid;
+      place-items: center;
+      letter-spacing: -0.5px;
+      flex-shrink: 0;
+    }
+
+    .brand h1 {
+      font-size: 17px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .brand span {
+      font-size: 12px;
+      color: var(--muted);
+      display: block;
+    }
+
+    .user-chip {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #5cf2ce;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .nav-tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      background: var(--surface);
+      padding: 6px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .tab-btn.active {
+      background: var(--card);
+      color: var(--text);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 6px 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .hero-icon {
+      font-size: 40px;
+    }
+
+    .hero h2 {
+      font-size: 21px;
+      font-weight: 800;
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+      max-width: 440px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      width: 100%;
+    }
+
+    .stat-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 8px;
+      text-align: center;
+    }
+
+    .stat-box strong {
+      display: block;
+      font-size: 18px;
+      color: var(--text);
+    }
+
+    .stat-box span {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .player-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      width: 100%;
+    }
+
+    .player-pill {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 13px 8px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.12s ease;
+    }
+
+    .player-pill:hover, .player-pill.selected {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: #5cf2ce;
+    }
+
+    .status-banner {
+      width: 100%;
+      background: rgba(245, 185, 66, 0.12);
+      border: 1px solid rgba(245, 185, 66, 0.35);
+      color: #fbd37d;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: 13px;
+      line-height: 1.4;
+      text-align: left;
+    }
+
+    .status-banner.ok {
+      background: var(--accent-soft);
+      border-color: rgba(0, 168, 132, 0.35);
+      color: #6df5d4;
+    }
+
+    .progress-wrap {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 10px 14px;
+    }
+
+    .progress-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+
+    .progress-bar {
+      height: 7px;
+      background: #111b21;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), #34e0b8);
+      border-radius: 999px;
+      transition: width 0.3s ease;
+    }
+
+    .meta-tags {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tag-year {
+      background: var(--accent-soft);
+      color: #4ce3bf;
+      border: 1px solid rgba(0, 168, 132, 0.35);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .tag-date {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--muted);
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .question-text {
+      font-size: 18px;
+      line-height: 1.42;
+      font-weight: 700;
+      color: #f5f7f8;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .option-btn {
+      width: 100%;
+      text-align: left;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 14px 16px;
+      border-radius: 13px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: transform 0.1s ease, background 0.15s ease, border-color 0.15s ease;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      background: var(--card-hover);
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-1px);
+    }
+
+    .option-btn:disabled {
+      cursor: default;
+    }
+
+    .opt-letter {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.07);
+      display: grid;
+      place-items: center;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+
+    .option-btn.correct {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+
+    .option-btn.correct .opt-letter {
+      background: var(--accent);
+      color: #062119;
+    }
+
+    .option-btn.wrong {
+      background: var(--danger-soft);
+      border-color: var(--danger);
+      color: #ffd7d6;
+    }
+
+    .option-btn.wrong .opt-letter {
+      background: var(--danger);
+      color: #fff;
+    }
+
+    .feedback {
+      display: none;
+      flex-direction: column;
+      gap: 12px;
+      background: #16232b;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 15px;
+    }
+
+    .feedback.visible {
+      display: flex;
+    }
+
+    .wa-bubble {
+      background: #005c4b;
+      color: #e9edef;
+      padding: 10px 13px;
+      border-radius: 12px 12px 12px 2px;
+      font-size: 14px;
+      line-height: 1.38;
+    }
+
+    .wa-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #8ce3cf;
+      font-weight: 700;
+      margin-bottom: 3px;
+      display: block;
+    }
+
+    .explanation {
+      font-size: 14px;
+      line-height: 1.45;
+      color: #cfd8dc;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #062119;
+      border: none;
+      border-radius: 12px;
+      padding: 14px 18px;
+      font-size: 15px;
+      font-weight: 800;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.08);
+    }
+
+    .btn-secondary {
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 13px 18px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .rank-section-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+
+    .rank-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .rank-row {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 11px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .rank-row.me {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .rank-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .rank-pos {
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      display: grid;
+      place-items: center;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .rank-name {
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .rank-sub {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .rank-pts {
+      font-weight: 800;
+      font-size: 14px;
+      color: var(--gold);
+    }
+
+    .toast {
+      text-align: center;
+      font-size: 13px;
+      color: #5cf2ce;
+      min-height: 18px;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
 </head>
 <body>
-  <section id="login-screen" class="login-wrap">
-    <span class="badge">Triangulito Team • 2012–2026</span>
-    <h1>¿Quién eres hoy?</h1>
-    <p class="muted">Sin contraseñas ni verificaciones. Toca tu nombre para entrar.</p>
-    <div id="player-buttons" class="player-grid"></div>
-  </section>
-
-  <main id="app-screen" class="app-wrap" style="display:none;">
+  <main class="app">
     <header class="topbar">
-      <button type="button" class="efem-pill" onclick="switchTab('efemeride')">
-        <span id="efem-badge" class="efem-tag">Efeméride • 23/11</span>
-        <strong id="efem-corner-title">Tal día como hoy...</strong>
-      </button>
-      <div class="user-bar">
-        <span>Jugador: <strong id="current-user-label">-</strong></span>
-        <button type="button" class="link-btn" onclick="logoutUser()">Cambiar</button>
+      <div class="brand">
+        <div class="badge-tt">TT</div>
+        <div>
+          <h1>TTpedia</h1>
+          <span id="headerDateLabel">Efemérides · Cargando...</span>
+        </div>
       </div>
+      <button class="user-chip" id="userChip" onclick="openProfileModal()">👤 Elegir nombre</button>
     </header>
 
-    <section id="panel-inicio" class="tab-panel active">
-      <div class="hero-card">
-        <span class="badge">Archivo del TT</span>
-        <h2>Bienvenido a <span>La Biblia del TT</span></h2>
-        <p class="lead">
-          14 años de historial convertidos en droguiTTa para tus giñadas matutinas, momentos de zozobra y aburrimiento.
-        </p>
-        <div class="stats-grid">
-          <div class="stat-item">
-            <div id="hero-total-msgs" class="stat-num">384.482</div>
-            <div class="stat-lbl">Mensajes analizados</div>
+    <nav class="nav-tabs">
+      <button class="tab-btn active" id="tabPlay" onclick="switchTab('play')">📜 Efemérides Hoy</button>
+      <button class="tab-btn" id="tabRank" onclick="switchTab('rank')">🏆 Clasificación TT</button>
+    </nav>
+
+    <!-- SELECCIÓN DE JUGADOR (LOS 9 DEL TT) -->
+    <section class="card hidden" id="profileScreen">
+      <div class="hero">
+        <div class="hero-icon">🪪</div>
+        <h2>¿Quién eres del Triangulito Team?</h2>
+        <p>Selecciona tu nombre para registrar tus puntos en el ranking del grupo.</p>
+
+        <div class="player-grid" id="playerGrid"></div>
+      </div>
+    </section>
+
+    <!-- VISTA JUEGO -->
+    <div id="playView" style="display:flex;flex-direction:column;gap:14px;">
+      <!-- INICIO -->
+      <section class="card" id="startScreen">
+        <div class="hero">
+          <div class="hero-icon">📜</div>
+          <h2 id="heroDayTitle">Tal día como hoy en el TT</h2>
+          <p id="heroDayDesc">Cargando archivo histórico del grupo...</p>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <strong id="statMsgs">-</strong>
+              <span>Mensajes</span>
+            </div>
+            <div class="stat-box">
+              <strong id="statPregs">-</strong>
+              <span>Preguntas</span>
+            </div>
+            <div class="stat-box">
+              <strong id="statYears">-</strong>
+              <span>Años</span>
+            </div>
           </div>
-          <div class="stat-item">
-            <div id="hero-total-words" class="stat-num">1.860.352</div>
-            <div class="stat-lbl">Palabras contabilizadas</div>
+
+          <div class="status-banner ok" id="dailyStatusBanner">
+            Conectando con TTpedia Cloud...
           </div>
-          <div class="stat-item">
-            <div class="stat-num">14 años</div>
-            <div class="stat-lbl">2012 – 2026</div>
+
+          <button class="btn-primary" id="startBtn" onclick="startGame()">Jugar Efemérides</button>
+        </div>
+      </section>
+
+      <!-- PREGUNTA -->
+      <section class="card hidden" id="quizScreen">
+        <div class="progress-wrap">
+          <div class="progress-meta">
+            <span id="progressLabel">Pregunta 1</span>
+            <span id="scoreStreakLabel">0 pts · Racha 0 🔥</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
           </div>
         </div>
-      </div>
 
-      <div class="hub-grid">
-        <button type="button" class="hub-card" onclick="switchTab('efemeride')">
-          <strong>Efeméride del Día</strong>
-          <span>30 preguntas sobre este día (banco hasta 150 con recarga).</span>
-        </button>
-        <button type="button" class="hub-card" onclick="switchTab('reto')">
-          <strong>El Reto del Día</strong>
-          <span>30 preguntas aleatorias de todo el historial.</span>
-        </button>
-        <button type="button" class="hub-card" onclick="switchTab('trivial')">
-          <strong>TTrivial</strong>
-          <span>Política, Fútbol, Tenis, Basket, Fórmula 1, Geografía e Historia.</span>
-        </button>
-        <button type="button" class="hub-card" onclick="switchTab('juegos')">
-          <strong>Juegos</strong>
-          <span>Adivina el autor, ¿Lo dijo o no lo dijo?, El dato justo, Insultos, DebaTTes y La Calfada.</span>
-        </button>
-      </div>
-    </section>
-
-    <section id="panel-efemeride" class="tab-panel">
-      <div class="card">
-        <div class="card-head">
-          <div>
-            <h2 id="efem-heading">Efeméride: tal día como hoy</h2>
-            <p class="muted">Tandas de 30 preguntas • Recargable sobre banco de 150</p>
-          </div>
-          <button type="button" class="btn secondary" onclick="reloadEfemerideBatch()">Recargar tanda (30)</button>
+        <div class="meta-tags">
+          <span class="tag-year" id="qYear">Año 2021</span>
+          <span class="tag-date" id="qDateTag">Archivo TT</span>
+          <span class="tag-date" id="qModeTag">Partida Oficial</span>
         </div>
-        <div id="efemeride-quiz-container"></div>
-      </div>
-    </section>
 
-    <section id="panel-reto" class="tab-panel">
-      <div class="card">
-        <div class="card-head">
-          <div>
-            <h2>El Reto del Día</h2>
-            <p class="muted">30 preguntas aleatorias del historial</p>
+        <h2 class="question-text" id="qText"></h2>
+        <div class="options" id="optionsBox"></div>
+
+        <div class="feedback" id="feedbackBox">
+          <div class="wa-bubble">
+            <span class="wa-label">💬 Mensaje original en el grupo</span>
+            <span id="qQuote"></span>
           </div>
-          <button type="button" class="btn secondary" onclick="startRetoQuiz()">Nuevo reto (30)</button>
+          <p class="explanation" id="qExplanation"></p>
+          <button class="btn-primary" id="nextBtn" onclick="nextQuestion()">Siguiente pregunta →</button>
         </div>
-        <div id="reto-quiz-container"></div>
-      </div>
-    </section>
+      </section>
 
-    <section id="panel-trivial" class="tab-panel">
-      <div class="card">
-        <h2>TTrivial por categorías</h2>
-        <p class="muted">Elige categoría para jugar</p>
-        <div id="trivial-categories" class="cat-grid"></div>
-        <div id="trivial-quiz-container"></div>
-      </div>
-    </section>
+      <!-- RESULTADO FINAL -->
+      <section class="card hidden" id="endScreen">
+        <div class="hero">
+          <div class="hero-icon" id="endEmoji">🏆</div>
+          <h2 id="endTitle">¡Archivo completado!</h2>
+          <p id="endSubtitle"></p>
 
-    <section id="panel-juegos" class="tab-panel">
-      <div class="card">
-        <h2>Juegos</h2>
-        <p class="muted">Minijuegos, Insultos, DebaTTes y La Calfada</p>
-        <div id="minigames-list" class="hub-grid"></div>
+          <div class="stats-grid">
+            <div class="stat-box">
+              <strong id="finalHits">0/0</strong>
+              <span>Aciertos</span>
+            </div>
+            <div class="stat-box">
+              <strong id="finalScore">0</strong>
+              <span>Puntos</span>
+            </div>
+            <div class="stat-box">
+              <strong id="finalStreak">0</strong>
+              <span>Mejor racha</span>
+            </div>
+          </div>
+
+          <div class="status-banner ok" id="saveResultBanner">Guardando puntuación...</div>
+
+          <button class="btn-primary" onclick="shareWhatsApp()">📋 Copiar resultado para WhatsApp</button>
+          <div class="toast" id="copyToast"></div>
+          <button class="btn-secondary" onclick="switchTab('rank')">Ver Clasificación del TT 🏆</button>
+          <button class="btn-secondary" onclick="resetToStart()">Volver al inicio</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- VISTA RANKING -->
+    <section class="card hidden" id="rankView">
+      <div class="rank-section-title" id="todayRankTitle">📅 Podio de Hoy</div>
+      <div class="rank-list" id="todayRankList">
+        <div class="rank-sub">Cargando resultados de hoy...</div>
       </div>
-      <div id="minigame-stage" class="card" style="display:none;"></div>
+
+      <div class="rank-section-title" style="margin-top:8px;">👑 Clasificación General TTpedia</div>
+      <div class="rank-list" id="globalRankList">
+        <div class="rank-sub">Cargando clasificación general...</div>
+      </div>
+
+      <button class="btn-secondary" onclick="loadLeaderboards()">🔄 Actualizar marcadores</button>
     </section>
   </main>
 
-  <nav id="bottom-nav" class="bottom-nav" style="display:none;">
-    <button type="button" class="nav-btn" data-tab="efemeride" onclick="switchTab('efemeride')">Efeméride</button>
-    <button type="button" class="nav-btn" data-tab="reto" onclick="switchTab('reto')">Reto Día</button>
-    <button type="button" class="nav-btn" data-tab="trivial" onclick="switchTab('trivial')">TTrivial</button>
-    <button type="button" class="nav-btn" data-tab="juegos" onclick="switchTab('juegos')">Juegos</button>
-  </nav>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
+    import {
+      getFirestore, doc, getDoc, setDoc, collection, query, where, orderBy, limit, getDocs, serverTimestamp
+    } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
 
-  <script src="app.js"></script>
-</body>
-</html>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAlnLXGSBOJqi9GiTNVfpujAKLKfzQScN4",
+      authDomain: "ttpedia-d273e.firebaseapp.com",
+      projectId: "ttpedia-d273e",
+      storageBucket: "ttpedia-d273e.firebasestorage.app",
+      messagingSenderId: "517293767219",
+      appId: "1:517293767219:web:79d24f909c1fed50af8146",
+      measurementId: "G-40D390SFX8"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    const TT_MEMBERS = [
+      "Joni",
+      "Feme",
+      "Jorge",
+      "Germi",
+      "Humpa",
+      "Héctor",
+      "Hugo",
+      "Miki",
+      "Marzal"
+    ];
+
+    const ALIAS_DISPLAY = {
+      "joan": "Joni",
+      "joni": "Joni",
+      "feme": "Feme",
+      "feme i lopez": "Feme",
+      "feme i lópez": "Feme",
+      "adrià": "Feme",
+      "adria": "Feme",
+      "jorge": "Jorge",
+      "jorge alvarez": "Jorge",
+      "jorge álvarez": "Jorge",
+      "germán": "Germi",
+      "german": "Germi",
+      "germi": "Germi",
+      "humberto": "Humpa",
+      "unverto": "Humpa",
+      "humpa": "Humpa",
+      "héctor": "Héctor",
+      "hector": "Héctor",
+      "hugo": "Hugo",
+      "miki": "Miki",
+      "marzal": "Marzal",
+      "jm": "Marzal"
+    };
+
+    function normalizeDisplayOption(text) {
+      const key = (text || "").trim().toLowerCase();
+      return ALIAS_DISPLAY[key] || text;
+    }
+
+    const FALLBACK_11_23 = {
+      "fecha": "11-23",
+      "total_mensajes_dia": 467,
+      "preguntas": [
+        {
+          "pregunta": "¿Quién le ofreció a Miki un hueco libre en las últimas filas para subirse a la 'Xavineta'?",
+          "cita": "Puedes subirte a la xavineta aún miki. Hay hueco en las últimas filas aún",
+          "opciones": ["Joni", "Humpa", "Jorge", "Germi"],
+          "correcta": 0,
+          "explicacion": "En pleno arranque de la era Xavi en noviembre de 2021, Joni intentó subir a Miki al autobús culé antes de medirse al Benfica.",
+          "anio": 2021
+        },
+        {
+          "pregunta": "Miki pasó un vídeo al grupo diciendo 'tenéis que ver este vídeo', pero ¿quién lo descartó al instante por sus propios prejuicios capilares?",
+          "cita": "Da igual. Es un puto calvo 😂😂",
+          "opciones": ["Jorge", "Germi", "Feme", "Humpa"],
+          "correcta": 2,
+          "explicacion": "A Feme le bastaron segundos para sentenciar el vídeo de Miki sin molestarse en darle ni una oportunidad.",
+          "anio": 2021
+        },
+        {
+          "pregunta": "Al ver el panorama europeo del Barça tras empatar a cero en el Camp Nou, ¿quién predijo el fatídico viaje a Alemania?",
+          "cita": "La Xavineta road to Baviera a que le metan 20",
+          "opciones": ["Germi", "Joni", "Jorge", "Miki"],
+          "correcta": 0,
+          "explicacion": "Germi vio con meridiana claridad que la visita a Múnich no iba a terminar nada bien para la Xavineta.",
+          "anio": 2021
+        },
+        {
+          "pregunta": "Cuando Jorge rememoraba la final de Champions del 99 refiriéndose al estadio como 'Campo Nuevo', ¿quién le vaciló con las licencias de videojuegos?",
+          "cita": "Ostia Campo Nuevo. Eso es el Pro no? 🤣",
+          "opciones": ["Miki", "Humpa", "Germi", "Feme"],
+          "correcta": 3,
+          "explicacion": "Feme no dejó pasar la traducción literal de Jorge y le recordó rápidamente los nombres inventados del Pro Evolution Soccer.",
+          "anio": 2021
+        },
+        {
+          "pregunta": "¿Quién estuvo durante el partido buscando desesperadamente la camiseta que Luis Enrique llevó en su directo de Twitch?",
+          "cita": "No encuentro la camiseta que llevaba ayer Luis Enrique en Twitch",
+          "opciones": ["Humpa", "Jorge", "Miki", "Germi"],
+          "correcta": 0,
+          "explicacion": "Humpa se encaprichó de la camiseta roja de Adidas de Luis Padrique, aunque luego Jorge le aclaró que era una reedición de algodón difícil de pillar.",
+          "anio": 2022
+        },
+        {
+          "pregunta": "Tras la goleada a Costa Rica y la derrota alemana, ¿quién ideó pactar un 'biscotazo' con Japón saliendo disfrazados de Doraemon y Sisuka?",
+          "cita": "Así salimos de la manita, nosotros disfrazados de Doraemon y Sisuka y ellos de toreros y falleras",
+          "opciones": ["Jorge", "Joni", "Marzal", "Miki"],
+          "correcta": 1,
+          "explicacion": "Joni ya estaba planificando el empate amistoso de la última jornada para cargarse a Alemania con hermanamiento temático hispano-nipón.",
+          "anio": 2022
+        },
+        {
+          "pregunta": "Viendo el recital de Pedri con la Selección Española de Luis Enrique, ¿a quién llamó Jorge 'el talibán de Terrasa'?",
+          "cita": "No jugando de segunddo delantero como con el talibán de Terrasa",
+          "opciones": ["Pep Guardiola", "Xavi Hernández", "Albert Luque", "Sergio Busquets"],
+          "correcta": 1,
+          "explicacion": "Jorge aprovechó el golazo de España para soltarle un recado al entrenador culé por la posición en la que ponía al canario.",
+          "anio": 2022
+        },
+        {
+          "pregunta": "Mientras calculaba al milímetro los puntos y el golaveraje tras el 7-0 a Costa Rica, ¿a quién le lanzó Miki un dardo por no organizarse?",
+          "cita": "No como @adria hay que organizar",
+          "opciones": ["Jorge", "Humpa", "Feme", "Marzal"],
+          "correcta": 2,
+          "explicacion": "Miki sacó la pizarra mundialista para contemplar todas las cábalas del grupo y de paso le cayó el palo gratuito a Feme (Adrià).",
+          "anio": 2022
+        },
+        {
+          "pregunta": "En pleno Mundial de 2022, le preguntaron a Germi si en su época dorada ('peak') le ganaba una carrera a Balde y Nico Williams. ¿A qué admitió que sí les ganaba?",
+          "cita": "A los tazos siii",
+          "opciones": ["A los tazos siii", "A la petanca", "Al futbolín", "En una maratón en chanclas"],
+          "correcta": 0,
+          "explicacion": "Ante la velocidad de vértigo de las bandas de España, Germi fue realista y reconoció que solo podría competirles en el patio de colegio tirando tazos.",
+          "anio": 2022
+        },
+        {
+          "pregunta": "¿Quién sentenció con rotundidad en noviembre de 2023 que 'NO hay debate' al comparar a Inés Arrimadas con Begoña Villacís?",
+          "cita": "NO hay debate",
+          "opciones": ["Jorge", "Miki", "Feme", "Humpa"],
+          "correcta": 1,
+          "explicacion": "Jorge lanzó la comparativa política al TTVerse y Miki fue directo al grano sin vacilar un segundo en su veredicto.",
+          "anio": 2023
+        },
+        {
+          "pregunta": "Cuando se reavivó la nostalgia del equipo de fútbol sala, ¿qué promesa lanzó Marzal desatando la furia de Jorge?",
+          "cita": "Vamos a jugar en la 24/25",
+          "opciones": ["Vamos a jugar en la 24/25", "Yo pago todas las fichas", "El año que viene ganamos la copa", "Ficho a dos porteros buenos"],
+          "correcta": 0,
+          "explicacion": "Marzal soltó su garantía de que volverían a jugar para la 24/25, logrando que Jorge amenazara con pegarle un puñetazo por vender humo.",
+          "anio": 2023
+        },
+        {
+          "pregunta": "En noviembre de 2023, Jorge destacó lo bien que se oía hablar a Marzal mientras comía en un audio 'a lo Florentino'. ¿Qué dulce clásico se estaba zampando?",
+          "cita": "Tremendo huesito mientras voy a por Irina",
+          "opciones": ["Un Phoskitos", "Un Tigretón", "Un Huesito", "Un Donut"],
+          "correcta": 2,
+          "explicacion": "Marzal confesó que se estaba comiendo un Huesito de camino a recoger a Irina, celebrando que aún mantuviera su sabor auténtico.",
+          "anio": 2023
+        },
+        {
+          "pregunta": "En el debate filosófico sobre si el TT actual ganaría a su versión del pasado, ¿quién soltó este sincero análisis sobre el estado físico del equipo?",
+          "cita": "La base ya era mala y ahora lo sigue siendo",
+          "opciones": ["Humpa", "Marzal", "Jorge", "Germi"],
+          "correcta": 0,
+          "explicacion": "Humpa dejó claro que los años no pesan tanto cuando tu condición física original ya era inexistente.",
+          "anio": 2023
+        },
+        {
+          "pregunta": "Cuando Germi sugirió convocar a Litros y compañía para una pachanga, ¿quién mandó guardar silencio para no chafar la sorpresa del torneo?",
+          "cita": "Tsss, no desveles nada del trofeo TTino Carranza 2024",
+          "opciones": ["Marzal", "Joni", "Feme", "Jorge"],
+          "correcta": 1,
+          "explicacion": "Joni pidió máxima discreción para proteger los derechos del prestigioso torneo de verano.",
+          "anio": 2023
+        },
+        {
+          "pregunta": "¿Quién propuso aparcar el fútbol vistoso y recurrir a la táctica callejera para derrotar a su versión del pasado?",
+          "cita": "Si nos ponemos en plan pandillero les ganamos a esos niñatos de mierda",
+          "opciones": ["Germi", "Humpa", "Feme", "Miki"],
+          "correcta": 2,
+          "explicacion": "Feme confió ciegamente en el fútbol barriobajero y en intimidar a sus propios 'yo' del pasado.",
+          "anio": 2023
+        },
+        {
+          "pregunta": "Durante la quedada cumpleañera en 2024, ¿quién justificó su retraso recordando un histórico momento de sobada legendaria?",
+          "cita": "Mario está más sobado que JM la primera noche en Santiago",
+          "opciones": ["Héctor", "Marzal", "Jorge", "Feme"],
+          "correcta": 2,
+          "explicacion": "Jorge no dejó pasar la oportunidad de sacar a relucir la famosa noche compostelana de Marzal (JM) para justificar a Mario.",
+          "anio": 2024
+        }
+      ]
+    };
+
+    const MONTHS_ES = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    const LETTERS = ["A", "B", "C", "D"];
+
+    let currentUser = null;
+    let playerName = normalizeDisplayOption(localStorage.getItem("ttpedia_player_name") || "");
+    if (!TT_MEMBERS.includes(playerName)) playerName = "";
+
+    let todayKey = "";
+    let todayReadable = "";
+    let dayData = null;
+    let alreadyPlayedToday = false;
+    let todayRecord = null;
+
+    let questions = [];
+    let currentIndex = 0;
+    let score = 0;
+    let hits = 0;
+    let streak = 0;
+    let maxStreak = 0;
+    let answered = false;
+
+    function getTodayInfo() {
+      const params = new URLSearchParams(window.location.search);
+      const forced = params.get("fecha");
+      if (forced && /^\d{2}-\d{2}$/.test(forced)) {
+        const [mm, dd] = forced.split("-").map(Number);
+        return { key: forced, readable: `${dd} de${MONTHS_ES[mm - 1]}` };
+      }
+      const now = new Date();
+      const mm = String(now.getMonth() + 1).padStart(2, "0");
+      const dd = String(now.getDate()).padStart(2, "0");
+      return {
+        key: `${mm}-${dd}`,
+        readable: `${now.getDate()} de${MONTHS_ES[now.getMonth()]}`
+      };
+    }
+
+    async function loadDayJson(mmDd) {
+      try {
+        const res = await fetch(`./data/efemerides/${mmDd}.json`, { cache: "no-store" }); if (!res.ok) throw new Error("No encontrado"); return await res.json(); } catch (_) { todayKey = "11-23"; todayReadable = "23 de Noviembre"; return FALLBACK_11_23; } }  function renderPlayerGrid() { const grid = document.getElementById("playerGrid"); grid.innerHTML = ""; TT_MEMBERS.forEach(name => { const btn = document.createElement("button"); btn.className = "player-pill" + (playerName === name ? " selected" : ""); btn.textContent = name; btn.onclick = () => selectPlayerName(name); grid.appendChild(btn); }); }  function selectPlayerName(name) { playerName = name.trim(); if (!playerName) return; localStorage.setItem("ttpedia_player_name", playerName); document.getElementById("userChip").textContent = `👤 ${playerName}`;
+      document.getElementById("profileScreen").classList.add("hidden");
+      document.getElementById("playView").classList.remove("hidden");
+    }
+
+    window.openProfileModal = function() {
+      renderPlayerGrid();
+      document.getElementById("playView").classList.add("hidden");
+      document.getElementById("rankView").classList.add("hidden");
+      document.getElementById("profileScreen").classList.remove("hidden");
+    };
+
+    window.switchTab = function(tab) {
+      document.getElementById("tabPlay").classList.toggle("active", tab === "play");
+      document.getElementById("tabRank").classList.toggle("active", tab === "rank");
+      document.getElementById("profileScreen").classList.add("hidden");
+
+      if (tab === "play") {
+        document.getElementById("rankView").classList.add("hidden");
+        document.getElementById("playView").classList.remove("hidden");
+      } else {
+        document.getElementById("playView").classList.add("hidden");
+        document.getElementById("rankView").classList.remove("hidden");
+        loadLeaderboards();
+      }
+    };
+
+    async function checkTodayStatus() {
+      const banner = document.getElementById("dailyStatusBanner");
+      const startBtn = document.getElementById("startBtn");
+
+      if (!currentUser) {
+        banner.className = "status-banner";
+        banner.textContent = "Modo local sin conexión a Firebase (activa Anónimo en Authentication).";
+        return;
+      }
+
+      try {
+        const ref = doc(db, "efemerides_resultados", `${todayKey}_${currentUser.uid}`);
+        const snap = await getDoc(ref);
+        if (snap.exists()) {
+          alreadyPlayedToday = true;
+          todayRecord = snap.data();
+          banner.className = "status-banner";
+          banner.innerHTML = `✅ Ya completaste la partida oficial de hoy como <strong>${todayRecord.jugador}</strong>: <strong>${todayRecord.aciertos}/${todayRecord.total}</strong> aciertos (<strong>${todayRecord.puntos} pts</strong>). Puedes volver a jugar en <strong>modo entreno</strong>.`;
+          startBtn.textContent = "🎲 Jugar en Modo Entreno";
+        } else {
+          alreadyPlayedToday = false;
+          banner.className = "status-banner ok";
+          banner.innerHTML = `🟢 <strong>Partida Oficial disponible:</strong> tu primera partida de hoy contará para el podio del TT.`;
+          startBtn.textContent = "🚀 Empezar Partida Oficial";
+        }
+      } catch (e) {
+        banner.className = "status-banner";
+        banner.textContent = "No se pudo consultar Firestore todavía. Revisa las reglas de seguridad.";
+      }
+    }
+
+    window.startGame = function() {
+      if (!playerName) {
+        openProfileModal();
+        return;
+      }
+
+      questions = [...dayData.preguntas];
+      currentIndex = 0;
+      score = 0;
+      hits = 0;
+      streak = 0;
+      maxStreak = 0;
+
+      document.getElementById("startScreen").classList.add("hidden");
+      document.getElementById("endScreen").classList.add("hidden");
+      document.getElementById("quizScreen").classList.remove("hidden");
+
+      renderQuestion();
+    };
+
+    function renderQuestion() {
+      answered = false;
+      const q = questions[currentIndex];
+      const total = questions.length;
+
+      document.getElementById("progressLabel").textContent = `Pregunta ${currentIndex + 1} de${total}`;
+      document.getElementById("scoreStreakLabel").textContent = `${score} pts · Racha ${streak} 🔥`;
+      document.getElementById("progressFill").style.width = `${(currentIndex / total) * 100}\%`;  document.getElementById("qYear").textContent = `Año ${q.anio}`;
+      document.getElementById("qDateTag").textContent = todayReadable;
+      document.getElementById("qModeTag").textContent = alreadyPlayedToday ? "Modo Entreno" : "Partida Oficial";
+      document.getElementById("qText").textContent = q.pregunta;
+      document.getElementById("feedbackBox").classList.remove("visible");
+
+      const optionsBox = document.getElementById("optionsBox");
+      optionsBox.innerHTML = "";
+      q.opciones.forEach((optText, idx) => {
+        const cleanOption = normalizeDisplayOption(optText);
+        const btn = document.createElement("button");
+        btn.className = "option-btn";
+        btn.innerHTML = `<span class="opt-letter">${LETTERS[idx]}</span><span>${cleanOption}</span>`;
+        btn.onclick = () => selectOption(idx);
+        optionsBox.appendChild(btn);
+      });
+
+      document.getElementById("nextBtn").textContent =
+        currentIndex === total - 1 ? "Ver resultado final 🏆" : "Siguiente pregunta →";
+    }
+
+    function selectOption(selectedIdx) {
+      if (answered) return;
+      answered = true;
+
+      const q = questions[currentIndex];
+      const buttons = document.querySelectorAll(".option-btn");
+
+      buttons.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (idx === q.correcta) btn.classList.add("correct");
+        else if (idx === selectedIdx) btn.classList.add("wrong");
+      });
+
+      if (selectedIdx === q.correcta) {
+        hits++;
+        streak++;
+        if (streak > maxStreak) maxStreak = streak;
+        score += 100 + (streak > 1 ? (streak - 1) * 20 : 0);
+      } else {
+        streak = 0;
+      }
+
+      document.getElementById("scoreStreakLabel").textContent = `${score} pts · Racha ${streak} 🔥`;
+      document.getElementById("progressFill").style.width = `${((currentIndex + 1) / questions.length) * 100}\%`;  document.getElementById("qQuote").textContent = `«${q.cita}»`;
+      document.getElementById("qExplanation").textContent = q.explicacion;
+      document.getElementById("feedbackBox").classList.add("visible");
+    }
+
+    window.nextQuestion = function() {
+      currentIndex++;
+      if (currentIndex < questions.length) {
+        renderQuestion();
+      } else {
+        finishGame();
+      }
+    };
+
+    async function finishGame() {
+      document.getElementById("quizScreen").classList.add("hidden");
+      document.getElementById("endScreen").classList.remove("hidden");
+
+      const total = questions.length;
+      const ratio = hits / total;
+
+      let emoji = "🥉";
+      let title = "Memoria selectiva del TT";
+      let subtitle = "Se nota que algunos días estabas en modo avión o viendo el partido sin mirar el móvil.";
+
+      if (ratio >= 0.85) {
+        emoji = "👑";
+        title = "Historiador Mayor del TT";
+        subtitle = "Te sabes hasta lo que merendaba Marzal en 2023. Enciclopedia viva del grupo.";
+      } else if (ratio >= 0.6) {
+        emoji = "🏆";
+        title = "Veterano del TTVerse";
+        subtitle = "Buen nivel de lore acumulado. Apenas se te han escapado un par de perlitas.";
+      }
+
+      document.getElementById("endEmoji").textContent = emoji;
+      document.getElementById("endTitle").textContent = title;
+      document.getElementById("endSubtitle").textContent = subtitle;
+      document.getElementById("finalHits").textContent = `${hits}/${total}`;
+      document.getElementById("finalScore").textContent = `${score}`; document.getElementById("finalStreak").textContent = `${maxStreak} 🔥`;
+
+      const saveBanner = document.getElementById("saveResultBanner");
+
+      if (!currentUser) {
+        saveBanner.className = "status-banner";
+        saveBanner.textContent = "Sin sesión de Firebase activa: resultado solo local.";
+        return;
+      }
+
+      if (alreadyPlayedToday) {
+        saveBanner.className = "status-banner";
+        saveBanner.textContent = "Modo entreno: tu marca oficial de hoy no se ha modificado.";
+        return;
+      }
+
+      try {
+        const resRef = doc(db, "efemerides_resultados", `${todayKey}_${currentUser.uid}`);
+        await setDoc(resRef, {
+          uid: currentUser.uid,
+          fecha: todayKey,
+          jugador: playerName,
+          aciertos: hits,
+          total: total,
+          puntos: score,
+          mejorRacha: maxStreak,
+          timestamp: serverTimestamp()
+        });
+
+        const globalRef = doc(db, "ranking_global", currentUser.uid);
+        const globalSnap = await getDoc(globalRef);
+        const prev = globalSnap.exists() ? globalSnap.data() : {
+          puntosTotales: 0,
+          diasJugados: 0,
+          aciertosTotales: 0,
+          preguntasTotales: 0
+        };
+
+        await setDoc(globalRef, {
+          uid: currentUser.uid,
+          jugador: playerName,
+          puntosTotales: (prev.puntosTotales || 0) + score,
+          diasJugados: (prev.diasJugados || 0) + 1,
+          aciertosTotales: (prev.aciertosTotales || 0) + hits,
+          preguntasTotales: (prev.preguntasTotales || 0) + total,
+          ultimaPartida: todayKey,
+          actualizado: serverTimestamp()
+        });
+
+        alreadyPlayedToday = true;
+        saveBanner.className = "status-banner ok";
+        saveBanner.textContent = `✅ ¡Puntuación oficial guardada en TTpedia para ${playerName}!`;
+        await checkTodayStatus();
+      } catch (err) {
+        saveBanner.className = "status-banner";
+        saveBanner.textContent = "Error al guardar en Firestore. Revisa las reglas de seguridad.";
+      }
+    }
+
+    window.loadLeaderboards = async function() {
+      const todayList = document.getElementById("todayRankList");
+      const globalList = document.getElementById("globalRankList");
+      document.getElementById("todayRankTitle").textContent = `📅 Podio de Hoy (${todayReadable})`;
+
+      if (!currentUser) {
+        todayList.innerHTML = `<div class="rank-sub">Conecta Firebase Authentication para ver el podio.</div>`;
+        globalList.innerHTML = "";
+        return;
+      }
+
+      try {
+        const qToday = query(
+          collection(db, "efemerides_resultados"),
+          where("fecha", "==", todayKey)
+        );
+        const snapToday = await getDocs(qToday);
+        const rowsToday = [];
+        snapToday.forEach(d => rowsToday.push(d.data()));
+        rowsToday.sort((a, b) => (b.puntos - a.puntos) || (b.aciertos - a.aciertos));
+
+        if (rowsToday.length === 0) {
+          todayList.innerHTML = `<div class="rank-sub">Nadie ha jugado todavía hoy. ¡Sé el primero en marcar territorio
