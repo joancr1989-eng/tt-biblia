@@ -339,7 +339,6 @@
 
     .question-text { font-size: 18px; line-height: 1.42; font-weight: 700; color: #f5f7f8; }
 
-    /* Burbuja del mensaje previo (contexto antes de responder) */
     .prev-msg-box {
       background: rgba(255, 255, 255, 0.05);
       border-left: 3px solid var(--muted);
@@ -607,6 +606,13 @@
 
     <!-- LANDING PAGE PRINCIPAL -->
     <div id="homeView" style="display:flex;flex-direction:column;gap:14px;">
+      <!-- CONTADORES GLOBALES DE LA HEMEROTECA -->
+      <div class="stats-grid" id="globalHeroStats">
+        <div class="stat-box"><strong id="statGlobalMsgs">319.788</strong><span>Mensajes TT</span></div>
+        <div class="stat-box"><strong>9</strong><span>Integrantes</span></div>
+        <div class="stat-box"><strong>2012-26</strong><span>Hemeroteca</span></div>
+      </div>
+
       <!-- BLOQUE SUPERIOR: EFEMÉRIDE Y RETO DEL DÍA -->
       <section class="card daily-hero">
         <div class="hero">
@@ -632,10 +638,10 @@
         <button class="menu-tile" id="openQuotesTile" type="button">
           <div class="tile-top">
             <span class="tile-icon">💬</span>
-            <span class="tile-badge" id="tileQuotesCount">2.348 citas</span>
+            <span class="tile-badge" id="tileQuotesCount">Citas</span>
           </div>
           <div class="tile-title">¿Quién dijo esto?</div>
-          <div class="tile-desc">Rondas de 10 frases míticas con el mensaje previo del chat.</div>
+          <div class="tile-desc">Rondas de 10 opiniones y piques míticos con el mensaje previo.</div>
         </button>
 
         <button class="menu-tile" id="openWikiTile" type="button">
@@ -747,7 +753,7 @@
         <div class="hero">
           <div class="hero-icon">💬</div>
           <h2>¿Quién dijo esta barbaridad?</h2>
-          <p>Rondas rápidas de 10 frases míticas del chat histórico del TT.</p>
+          <p>Rondas rápidas de 10 opiniones, piques y frases llamativas del chat histórico del TT.</p>
           <div class="stats-grid">
             <div class="stat-box"><strong id="qPoolTotal">-</strong><span>Frases</span></div>
             <div class="stat-box"><strong>10</strong><span>Por ronda</span></div>
@@ -800,7 +806,7 @@
       </section>
     </div>
 
-    <!-- VISTA: PORNOPEDIA (SIN RANKING PREVIO) -->
+    <!-- VISTA: PORNOPEDIA -->
     <div id="pornoView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
       <section class="card porno-card" id="pStartScreen">
         <div class="hero">
@@ -859,7 +865,7 @@
       </section>
     </div>
 
-    <!-- VISTA: EL COMIDISTTA (SIN RANKING PREVIO) -->
+    <!-- VISTA: EL COMIDISTTA -->
     <div id="comidaView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
       <section class="card comida-card" id="cStartScreen">
         <div class="hero">
@@ -921,7 +927,7 @@
       </section>
     </div>
 
-    <!-- VISTA: ZONA VOX (SIN RANKING PREVIO) -->
+    <!-- VISTA: ZONA VOX -->
     <div id="voxView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
       <section class="card vox-card" id="vStartScreen">
         <div class="hero">
@@ -1025,6 +1031,10 @@
     function normalizeDisplayOption(text) {
       const key = (text || "").trim().toLowerCase();
       return ALIAS_DISPLAY[key] || text;
+    }
+
+    function cleanCompare(s) {
+      return (s || "").replace(/^[^:]+:\s*/, "").replace(/[«»"“”]/g, "").replace(/\s+/g, " ").trim().toLowerCase();
     }
 
     const FALLBACK_11_23 = {
@@ -1158,7 +1168,6 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    // --- EFEMÉRIDE DEL DÍA ---
     function startDailyGame() {
       if (!window.TT_STATE.playerName) { navigateTo("profile"); return; }
       const st = window.TT_STATE;
@@ -1232,7 +1241,6 @@
       if (st.saveScoreFn) await st.saveScoreFn();
     }
 
-    // --- MOTOR GENÉRICO DE RONDAS DE 10 CON MENSAJE PREVIO ---
     function setupRoundGame(cfg) {
       const poolObj = window.POOLS[cfg.key];
 
@@ -1267,14 +1275,15 @@
         if (cfg.catId) document.getElementById(cfg.catId).textContent = q.categoria || cfg.defaultCat;
         document.getElementById(cfg.yearId).textContent = `Año ${q.anio || 2023}`;
 
-        // Mostrar mensaje previo ANTES de responder si existe
         const prevBox = document.getElementById(cfg.prevBoxId);
         const prevTxt = document.getElementById(cfg.prevTextId);
         let previoStr = (q.previo || "").trim();
         if (!previoStr && q.contexto && q.contexto.startsWith("Antes ")) {
           previoStr = q.contexto.split("|")[0].replace(/^Antes\s+/i, "").trim();
         }
-        if (previoStr) {
+        const cNorm = cleanCompare(q.cita);
+        const pNorm = cleanCompare(previoStr);
+        if (previoStr && pNorm && pNorm !== cNorm && !cNorm.includes(pNorm) && !pNorm.includes(cNorm)) {
           prevTxt.textContent = previoStr;
           prevBox.classList.remove("hidden");
         } else {
