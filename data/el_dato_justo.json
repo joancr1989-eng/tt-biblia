@@ -1,0 +1,654 @@
+{
+  "modo": "el_dato_justo",
+  "total_preguntas": 81,
+  "preguntas": [
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Jorge en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Jorge ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Feme en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Feme ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2017?",
+      "respuesta": 44803,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2017 se registraron 44.803 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Feme (el líder del grupo en este término) 'paella'?",
+      "respuesta": 122,
+      "unidad": "veces",
+      "min": 0,
+      "max": 207,
+      "explicacion": "Feme lo ha soltado 122 veces de las 364 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha escrito 'puto' o 'puta' en todo el historial del TT?",
+      "respuesta": 4769,
+      "unidad": "veces",
+      "min": 0,
+      "max": 7630,
+      "explicacion": "Aparece 4.769 veces en total. El líder absoluto en usarla es Joni (1099 veces)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2020?",
+      "respuesta": 30226,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2020 se registraron 30.226 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha mencionado al 'Madrid' en todo el historial del TT?",
+      "respuesta": 2488,
+      "unidad": "veces",
+      "min": 0,
+      "max": 3980,
+      "explicacion": "Aparece 2.488 veces en total. El líder absoluto en usarla es Joni (617 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que aparece 'Gandia' en todo el historial del TT?",
+      "respuesta": 1241,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1985,
+      "explicacion": "Aparece 1.241 veces en total. El líder absoluto en usarla es Joni (329 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha escrito la palabra 'paella' en todo el historial del TT?",
+      "respuesta": 364,
+      "unidad": "veces",
+      "min": 0,
+      "max": 582,
+      "explicacion": "Aparece 364 veces en total. El líder absoluto en usarla es Feme (122 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Jorge (el líder del grupo en este término) 'dinero / pasta'?",
+      "respuesta": 170,
+      "unidad": "veces",
+      "min": 0,
+      "max": 289,
+      "explicacion": "Jorge lo ha soltado 170 veces de las 777 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2013?",
+      "respuesta": 6085,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2013 se registraron 6.085 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Jorge en toda la historia del grupo (2012-2026)?",
+      "respuesta": 93945,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 131523,
+      "explicacion": "Jorge acumula exactamente 93.945 mensajes de los 319.788 totales del archivo (un 29.4%)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha escrito 'Messi' en todo el historial del TT?",
+      "respuesta": 1194,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1910,
+      "explicacion": "Aparece 1.194 veces en total. El líder absoluto en usarla es Joni (522 veces)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Hugo en toda la historia del grupo (2012-2026)?",
+      "respuesta": 8627,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 65000,
+      "explicacion": "Hugo acumula exactamente 8.627 mensajes de los 319.788 totales del archivo (un 2.7%)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha mencionado kebab o durum en todo el historial del TT?",
+      "respuesta": 432,
+      "unidad": "veces",
+      "min": 0,
+      "max": 691,
+      "explicacion": "Aparece 432 veces en total. El líder absoluto en usarla es Miki (123 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Jorge (el líder del grupo en este término) 'santiago'?",
+      "respuesta": 35,
+      "unidad": "veces",
+      "min": 0,
+      "max": 100,
+      "explicacion": "Jorge lo ha soltado 35 veces de las 79 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2022?",
+      "respuesta": 21912,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2022 se registraron 21.912 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'barça / barcelona'?",
+      "respuesta": 617,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1048,
+      "explicacion": "Joni lo ha soltado 617 veces de las 2.367 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'gandia'?",
+      "respuesta": 329,
+      "unidad": "veces",
+      "min": 0,
+      "max": 559,
+      "explicacion": "Joni lo ha soltado 329 veces de las 1.241 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'valencia'?",
+      "respuesta": 537,
+      "unidad": "veces",
+      "min": 0,
+      "max": 912,
+      "explicacion": "Joni lo ha soltado 537 veces de las 2.199 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha hablado del 'Erasmus' en todo el historial del TT?",
+      "respuesta": 16,
+      "unidad": "veces",
+      "min": 0,
+      "max": 200,
+      "explicacion": "Aparece 16 veces en total. El líder absoluto en usarla es Feme (8 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'xavi'?",
+      "respuesta": 110,
+      "unidad": "veces",
+      "min": 0,
+      "max": 187,
+      "explicacion": "Joni lo ha soltado 110 veces de las 302 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha mencionado a 'Xavi' en todo el historial del TT?",
+      "respuesta": 302,
+      "unidad": "veces",
+      "min": 0,
+      "max": 483,
+      "explicacion": "Aparece 302 veces en total. El líder absoluto en usarla es Joni (110 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha mencionado 'Santiago' en todo el historial del TT?",
+      "respuesta": 79,
+      "unidad": "veces",
+      "min": 0,
+      "max": 200,
+      "explicacion": "Aparece 79 veces en total. El líder absoluto en usarla es Jorge (35 veces)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2024?",
+      "respuesta": 10184,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2024 se registraron 10.184 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Jorge (el líder del grupo en este término) 'dormir / sobado'?",
+      "respuesta": 74,
+      "unidad": "veces",
+      "min": 0,
+      "max": 125,
+      "explicacion": "Jorge lo ha soltado 74 veces de las 276 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha hablado de 'pádel' en todo el historial del TT?",
+      "respuesta": 120,
+      "unidad": "veces",
+      "min": 0,
+      "max": 200,
+      "explicacion": "Aparece 120 veces en total. El líder absoluto en usarla es Miki (32 veces)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Héctor en toda la historia del grupo (2012-2026)?",
+      "respuesta": 1784,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 65000,
+      "explicacion": "Héctor acumula exactamente 1.784 mensajes de los 319.788 totales del archivo (un 0.6%)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Miki (el líder del grupo en este término) 'coche'?",
+      "respuesta": 120,
+      "unidad": "veces",
+      "min": 0,
+      "max": 204,
+      "explicacion": "Miki lo ha soltado 120 veces de las 453 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2018?",
+      "respuesta": 33431,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2018 se registraron 33.431 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Joni en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Joni ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2012?",
+      "respuesta": 22209,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2012 se registraron 22.209 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'follar / polvo'?",
+      "respuesta": 268,
+      "unidad": "veces",
+      "min": 0,
+      "max": 455,
+      "explicacion": "Joni lo ha soltado 268 veces de las 1.004 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Feme (el líder del grupo en este término) 'fiesta'?",
+      "respuesta": 128,
+      "unidad": "veces",
+      "min": 0,
+      "max": 217,
+      "explicacion": "Feme lo ha soltado 128 veces de las 380 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Miki (el líder del grupo en este término) 'kebab / durum'?",
+      "respuesta": 123,
+      "unidad": "veces",
+      "min": 0,
+      "max": 209,
+      "explicacion": "Miki lo ha soltado 123 veces de las 432 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2016?",
+      "respuesta": 31870,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2016 se registraron 31.870 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha hablado de 'dinero' o 'pasta' en todo el historial del TT?",
+      "respuesta": 777,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1243,
+      "explicacion": "Aparece 777 veces en total. El líder absoluto en usarla es Jorge (170 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Feme (el líder del grupo en este término) 'hostia / ostia'?",
+      "respuesta": 752,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1278,
+      "explicacion": "Feme lo ha soltado 752 veces de las 2.172 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2026?",
+      "respuesta": 11498,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2026 se registraron 11.498 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2021?",
+      "respuesta": 30576,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2021 se registraron 30.576 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces que aparece 'dormir', 'siesta' o 'sobado' en todo el historial del TT?",
+      "respuesta": 276,
+      "unidad": "veces",
+      "min": 0,
+      "max": 441,
+      "explicacion": "Aparece 276 veces en total. El líder absoluto en usarla es Jorge (74 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha mencionado al 'Barça' o 'Barcelona' en todo el historial del TT?",
+      "respuesta": 2367,
+      "unidad": "veces",
+      "min": 0,
+      "max": 3787,
+      "explicacion": "Aparece 2.367 veces en total. El líder absoluto en usarla es Joni (617 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que aparece la palabra 'coche' en todo el historial del TT?",
+      "respuesta": 453,
+      "unidad": "veces",
+      "min": 0,
+      "max": 724,
+      "explicacion": "Aparece 453 veces en total. El líder absoluto en usarla es Miki (120 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'fifa / pro'?",
+      "respuesta": 135,
+      "unidad": "veces",
+      "min": 0,
+      "max": 229,
+      "explicacion": "Joni lo ha soltado 135 veces de las 433 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2025?",
+      "respuesta": 6111,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2025 se registraron 6.111 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Humpa en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Humpa ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Germi en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Germi ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Feme (el líder del grupo en este término) 'boda'?",
+      "respuesta": 98,
+      "unidad": "veces",
+      "min": 0,
+      "max": 166,
+      "explicacion": "Feme lo ha soltado 98 veces de las 343 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha mencionado el gimnasio o gym en todo el historial del TT?",
+      "respuesta": 55,
+      "unidad": "veces",
+      "min": 0,
+      "max": 200,
+      "explicacion": "Aparece 55 veces en total. El líder absoluto en usarla es Feme (19 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha hablado de 'boda' en todo el historial del TT?",
+      "respuesta": 343,
+      "unidad": "veces",
+      "min": 0,
+      "max": 548,
+      "explicacion": "Aparece 343 veces en total. El líder absoluto en usarla es Feme (98 veces)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Hugo en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Hugo ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Miki en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Miki ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Héctor en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Héctor ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Miki (el líder del grupo en este término) 'cabrón / cabrones'?",
+      "respuesta": 117,
+      "unidad": "veces",
+      "min": 0,
+      "max": 198,
+      "explicacion": "Miki lo ha soltado 117 veces de las 423 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'puto / puta'?",
+      "respuesta": 1099,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1868,
+      "explicacion": "Joni lo ha soltado 1.099 veces de las 4.769 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Miki en toda la historia del grupo (2012-2026)?",
+      "respuesta": 44267,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 65000,
+      "explicacion": "Miki acumula exactamente 44.267 mensajes de los 319.788 totales del archivo (un 13.8%)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha mencionado 'FIFA' o 'Pro' en todo el historial del TT?",
+      "respuesta": 433,
+      "unidad": "veces",
+      "min": 0,
+      "max": 692,
+      "explicacion": "Aparece 433 veces en total. El líder absoluto en usarla es Joni (135 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha escrito 'joder' en todo el historial del TT?",
+      "respuesta": 1955,
+      "unidad": "veces",
+      "min": 0,
+      "max": 3128,
+      "explicacion": "Aparece 1.955 veces en total. El líder absoluto en usarla es Miki (632 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que aparece 'cabrón' o derivados en todo el historial del TT?",
+      "respuesta": 423,
+      "unidad": "veces",
+      "min": 0,
+      "max": 676,
+      "explicacion": "Aparece 423 veces en total. El líder absoluto en usarla es Miki (117 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Miki (el líder del grupo en este término) 'padel / pádel'?",
+      "respuesta": 32,
+      "unidad": "veces",
+      "min": 0,
+      "max": 100,
+      "explicacion": "Miki lo ha soltado 32 veces de las 120 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2015?",
+      "respuesta": 21392,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2015 se registraron 21.392 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Feme (el líder del grupo en este término) 'cerveza / birra'?",
+      "respuesta": 33,
+      "unidad": "veces",
+      "min": 0,
+      "max": 100,
+      "explicacion": "Feme lo ha soltado 33 veces de las 95 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha escrito 'Valencia' en todo el historial del TT?",
+      "respuesta": 2199,
+      "unidad": "veces",
+      "min": 0,
+      "max": 3518,
+      "explicacion": "Aparece 2.199 veces en total. El líder absoluto en usarla es Joni (537 veces)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2019?",
+      "respuesta": 17477,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2019 se registraron 17.477 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Joni en toda la historia del grupo (2012-2026)?",
+      "respuesta": 46821,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 65549,
+      "explicacion": "Joni acumula exactamente 46.821 mensajes de los 319.788 totales del archivo (un 14.6%)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha hablado de cerveza o birras en todo el historial del TT?",
+      "respuesta": 95,
+      "unidad": "veces",
+      "min": 0,
+      "max": 200,
+      "explicacion": "Aparece 95 veces en total. El líder absoluto en usarla es Feme (33 veces)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2014?",
+      "respuesta": 21120,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2014 se registraron 21.120 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Marzal en toda la historia del grupo (2012-2026)?",
+      "respuesta": 8223,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 65000,
+      "explicacion": "Marzal acumula exactamente 8.223 mensajes de los 319.788 totales del archivo (un 2.6%)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Germi en toda la historia del grupo (2012-2026)?",
+      "respuesta": 32564,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 65000,
+      "explicacion": "Germi acumula exactamente 32.564 mensajes de los 319.788 totales del archivo (un 10.2%)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Humpa en toda la historia del grupo (2012-2026)?",
+      "respuesta": 12429,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 65000,
+      "explicacion": "Humpa acumula exactamente 12.429 mensajes de los 319.788 totales del archivo (un 3.9%)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'messi'?",
+      "respuesta": 522,
+      "unidad": "veces",
+      "min": 0,
+      "max": 887,
+      "explicacion": "Joni lo ha soltado 522 veces de las 1.194 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Miki (el líder del grupo en este término) 'joder'?",
+      "respuesta": 632,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1074,
+      "explicacion": "Miki lo ha soltado 632 veces de las 1.955 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha soltado 'hostia' u 'ostia' en todo el historial del TT?",
+      "respuesta": 2172,
+      "unidad": "veces",
+      "min": 0,
+      "max": 3475,
+      "explicacion": "Aparece 2.172 veces en total. El líder absoluto en usarla es Feme (752 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Joni (el líder del grupo en este término) 'madrid'?",
+      "respuesta": 617,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1048,
+      "explicacion": "Joni lo ha soltado 617 veces de las 2.488 totales del grupo."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes de madrugada (entre la 01:00 y las 05:59) ha enviado Marzal en total?",
+      "respuesta": 0,
+      "unidad": "mensajes nocturnos",
+      "min": 0,
+      "max": 5000,
+      "explicacion": "Marzal ha enviado 0 mensajes de madrugada a lo largo de toda la historia del chat."
+    },
+    {
+      "pregunta": "¿Cuántas veces que aparece la palabra 'fiesta' en todo el historial del TT?",
+      "respuesta": 380,
+      "unidad": "veces",
+      "min": 0,
+      "max": 608,
+      "explicacion": "Aparece 380 veces en total. El líder absoluto en usarla es Feme (128 veces)."
+    },
+    {
+      "pregunta": "¿Cuántas veces que se ha escrito 'follar' o 'polvo' en todo el historial del TT?",
+      "respuesta": 1004,
+      "unidad": "veces",
+      "min": 0,
+      "max": 1606,
+      "explicacion": "Aparece 1.004 veces en total. El líder absoluto en usarla es Joni (268 veces)."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes en total ha enviado Feme en toda la historia del grupo (2012-2026)?",
+      "respuesta": 71128,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 99579,
+      "explicacion": "Feme acumula exactamente 71.128 mensajes de los 319.788 totales del archivo (un 22.2%)."
+    },
+    {
+      "pregunta": "¿Cuál es el récord histórico de mensajes enviados en el grupo en UN SOLO DÍA?",
+      "respuesta": 836,
+      "unidad": "mensajes",
+      "min": 100,
+      "max": 1254,
+      "explicacion": "El récord absoluto ocurrió el 2017-12-18 con 836 mensajes en 24 horas."
+    },
+    {
+      "pregunta": "¿Cuántos mensajes se enviaron en total en el grupo durante todo el año 2023?",
+      "respuesta": 10894,
+      "unidad": "mensajes",
+      "min": 0,
+      "max": 55000,
+      "explicacion": "En 2023 se registraron 10.894 mensajes en el Triangulito Team."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha escrito Feme (el líder del grupo en este término) 'gimnasio / gym'?",
+      "respuesta": 19,
+      "unidad": "veces",
+      "min": 0,
+      "max": 100,
+      "explicacion": "Feme lo ha soltado 19 veces de las 55 totales del grupo."
+    }
+  ]
+}
