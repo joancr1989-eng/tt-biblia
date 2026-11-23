@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TTpedia · La Biblia del Triangulito Team</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2300a884'/><text x='50' y='67' font-size='50' font-family='Arial' font-weight='900' fill='%23062119' text-anchor='middle'>TT</text></svg>" />
   <style>
     :root {
       --bg: #0b141a;
@@ -515,28 +516,24 @@
           <span id="headerDateLabel">Efemérides · Cargando...</span>
         </div>
       </div>
-      <button class="user-chip" id="userChip" onclick="openProfileModal()">👤 Elegir nombre</button>
+      <button class="user-chip" id="userChip" type="button">👤 Elegir nombre</button>
     </header>
 
     <nav class="nav-tabs">
-      <button class="tab-btn active" id="tabPlay" onclick="switchTab('play')">📜 Efemérides Hoy</button>
-      <button class="tab-btn" id="tabRank" onclick="switchTab('rank')">🏆 Clasificación TT</button>
+      <button class="tab-btn active" id="tabPlay" type="button">📜 Efemérides Hoy</button>
+      <button class="tab-btn" id="tabRank" type="button">🏆 Clasificación TT</button>
     </nav>
 
-    <!-- SELECCIÓN DE JUGADOR (LOS 9 DEL TT) -->
     <section class="card hidden" id="profileScreen">
       <div class="hero">
         <div class="hero-icon">🪪</div>
         <h2>¿Quién eres del Triangulito Team?</h2>
         <p>Selecciona tu nombre para registrar tus puntos en el ranking del grupo.</p>
-
         <div class="player-grid" id="playerGrid"></div>
       </div>
     </section>
 
-    <!-- VISTA JUEGO -->
     <div id="playView" style="display:flex;flex-direction:column;gap:14px;">
-      <!-- INICIO -->
       <section class="card" id="startScreen">
         <div class="hero">
           <div class="hero-icon">📜</div>
@@ -562,11 +559,10 @@
             Conectando con TTpedia Cloud...
           </div>
 
-          <button class="btn-primary" id="startBtn" onclick="startGame()">Jugar Efemérides</button>
+          <button class="btn-primary" id="startBtn" type="button">Jugar Efemérides</button>
         </div>
       </section>
 
-      <!-- PREGUNTA -->
       <section class="card hidden" id="quizScreen">
         <div class="progress-wrap">
           <div class="progress-meta">
@@ -593,11 +589,10 @@
             <span id="qQuote"></span>
           </div>
           <p class="explanation" id="qExplanation"></p>
-          <button class="btn-primary" id="nextBtn" onclick="nextQuestion()">Siguiente pregunta →</button>
+          <button class="btn-primary" id="nextBtn" type="button">Siguiente pregunta →</button>
         </div>
       </section>
 
-      <!-- RESULTADO FINAL -->
       <section class="card hidden" id="endScreen">
         <div class="hero">
           <div class="hero-icon" id="endEmoji">🏆</div>
@@ -621,15 +616,14 @@
 
           <div class="status-banner ok" id="saveResultBanner">Guardando puntuación...</div>
 
-          <button class="btn-primary" onclick="shareWhatsApp()">📋 Copiar resultado para WhatsApp</button>
+          <button class="btn-primary" id="shareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
           <div class="toast" id="copyToast"></div>
-          <button class="btn-secondary" onclick="switchTab('rank')">Ver Clasificación del TT 🏆</button>
-          <button class="btn-secondary" onclick="resetToStart()">Volver al inicio</button>
+          <button class="btn-secondary" id="goRankBtn" type="button">Ver Clasificación del TT 🏆</button>
+          <button class="btn-secondary" id="restartBtn" type="button">Volver al inicio</button>
         </div>
       </section>
     </div>
 
-    <!-- VISTA RANKING -->
     <section class="card hidden" id="rankView">
       <div class="rank-section-title" id="todayRankTitle">📅 Podio de Hoy</div>
       <div class="rank-list" id="todayRankList">
@@ -641,66 +635,23 @@
         <div class="rank-sub">Cargando clasificación general...</div>
       </div>
 
-      <button class="btn-secondary" onclick="loadLeaderboards()">🔄 Actualizar marcadores</button>
+      <button class="btn-secondary" id="refreshRankBtn" type="button">🔄 Actualizar marcadores</button>
     </section>
   </main>
 
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
-    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
-    import {
-      getFirestore, doc, getDoc, setDoc, collection, query, where, orderBy, limit, getDocs, serverTimestamp
-    } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
-
-    const firebaseConfig = {
-      apiKey: "AIzaSyAlnLXGSBOJqi9GiTNVfpujAKLKfzQScN4",
-      authDomain: "ttpedia-d273e.firebaseapp.com",
-      projectId: "ttpedia-d273e",
-      storageBucket: "ttpedia-d273e.firebasestorage.app",
-      messagingSenderId: "517293767219",
-      appId: "1:517293767219:web:79d24f909c1fed50af8146",
-      measurementId: "G-40D390SFX8"
-    };
-
-    const app = initializeApp(firebaseConfig);
-    const auth = getAuth(app);
-    const db = getFirestore(app);
-
-    const TT_MEMBERS = [
-      "Joni",
-      "Feme",
-      "Jorge",
-      "Germi",
-      "Humpa",
-      "Héctor",
-      "Hugo",
-      "Miki",
-      "Marzal"
-    ];
+  <script>
+    const TT_MEMBERS = ["Joni", "Feme", "Jorge", "Germi", "Humpa", "Héctor", "Hugo", "Miki", "Marzal"];
 
     const ALIAS_DISPLAY = {
-      "joan": "Joni",
-      "joni": "Joni",
-      "feme": "Feme",
-      "feme i lopez": "Feme",
-      "feme i lópez": "Feme",
-      "adrià": "Feme",
-      "adria": "Feme",
-      "jorge": "Jorge",
-      "jorge alvarez": "Jorge",
-      "jorge álvarez": "Jorge",
-      "germán": "Germi",
-      "german": "Germi",
-      "germi": "Germi",
-      "humberto": "Humpa",
-      "unverto": "Humpa",
-      "humpa": "Humpa",
-      "héctor": "Héctor",
-      "hector": "Héctor",
+      "joan": "Joni", "joni": "Joni",
+      "feme": "Feme", "feme i lopez": "Feme", "feme i lópez": "Feme", "adrià": "Feme", "adria": "Feme",
+      "jorge": "Jorge", "jorge alvarez": "Jorge", "jorge álvarez": "Jorge",
+      "germán": "Germi", "german": "Germi", "germi": "Germi",
+      "humberto": "Humpa", "unverto": "Humpa", "humpa": "Humpa",
+      "héctor": "Héctor", "hector": "Héctor",
       "hugo": "Hugo",
       "miki": "Miki",
-      "marzal": "Marzal",
-      "jm": "Marzal"
+      "marzal": "Marzal", "jm": "Marzal"
     };
 
     function normalizeDisplayOption(text) {
@@ -846,55 +797,76 @@
     const MONTHS_ES = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
     const LETTERS = ["A", "B", "C", "D"];
 
-    let currentUser = null;
-    let playerName = normalizeDisplayOption(localStorage.getItem("ttpedia_player_name") || "");
-    if (!TT_MEMBERS.includes(playerName)) playerName = "";
+    window.TT_STATE = {
+      currentUser: null,
+      playerName: "",
+      todayKey: "",
+      todayReadable: "",
+      dayData: FALLBACK_11_23,
+      alreadyPlayedToday: false,
+      todayRecord: null,
+      questions: [],
+      currentIndex: 0,
+      score: 0,
+      hits: 0,
+      streak: 0,
+      maxStreak: 0,
+      answered: false,
+      firebaseReady: false,
+      saveScoreFn: null,
+      loadBoardsFn: null
+    };
 
-    let todayKey = "";
-    let todayReadable = "";
-    let dayData = null;
-    let alreadyPlayedToday = false;
-    let todayRecord = null;
-
-    let questions = [];
-    let currentIndex = 0;
-    let score = 0;
-    let hits = 0;
-    let streak = 0;
-    let maxStreak = 0;
-    let answered = false;
+    const storedName = normalizeDisplayOption(localStorage.getItem("ttpedia_player_name") || "");
+    if (TT_MEMBERS.includes(storedName)) {
+      window.TT_STATE.playerName = storedName;
+    }
 
     function getTodayInfo() {
       const params = new URLSearchParams(window.location.search);
       const forced = params.get("fecha");
       if (forced && /^\d{2}-\d{2}$/.test(forced)) {
         const [mm, dd] = forced.split("-").map(Number);
-        return { key: forced, readable: `${dd} de${MONTHS_ES[mm - 1]}` };
+        return { key: forced, readable: `${dd} de ${MONTHS_ES[mm - 1]}` };
       }
       const now = new Date();
       const mm = String(now.getMonth() + 1).padStart(2, "0");
       const dd = String(now.getDate()).padStart(2, "0");
       return {
         key: `${mm}-${dd}`,
-        readable: `${now.getDate()} de${MONTHS_ES[now.getMonth()]}`
+        readable: `${now.getDate()} de ${MONTHS_ES[now.getMonth()]}`
       };
     }
 
-    async function loadDayJson(mmDd) {
-      try {
-        const res = await fetch(`./data/efemerides/${mmDd}.json`, { cache: "no-store" }); if (!res.ok) throw new Error("No encontrado"); return await res.json(); } catch (_) { todayKey = "11-23"; todayReadable = "23 de Noviembre"; return FALLBACK_11_23; } }  function renderPlayerGrid() { const grid = document.getElementById("playerGrid"); grid.innerHTML = ""; TT_MEMBERS.forEach(name => { const btn = document.createElement("button"); btn.className = "player-pill" + (playerName === name ? " selected" : ""); btn.textContent = name; btn.onclick = () => selectPlayerName(name); grid.appendChild(btn); }); }  function selectPlayerName(name) { playerName = name.trim(); if (!playerName) return; localStorage.setItem("ttpedia_player_name", playerName); document.getElementById("userChip").textContent = `👤 ${playerName}`;
+    function renderPlayerGrid() {
+      const grid = document.getElementById("playerGrid");
+      grid.innerHTML = "";
+      TT_MEMBERS.forEach(name => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "player-pill" + (window.TT_STATE.playerName === name ? " selected" : "");
+        btn.textContent = name;
+        btn.addEventListener("click", () => selectPlayerName(name));
+        grid.appendChild(btn);
+      });
+    }
+
+    function selectPlayerName(name) {
+      window.TT_STATE.playerName = name.trim();
+      localStorage.setItem("ttpedia_player_name", window.TT_STATE.playerName);
+      document.getElementById("userChip").textContent = `👤 ${window.TT_STATE.playerName}`;
       document.getElementById("profileScreen").classList.add("hidden");
       document.getElementById("playView").classList.remove("hidden");
     }
 
-    window.openProfileModal = function() {
+    function openProfileModal() {
       renderPlayerGrid();
       document.getElementById("playView").classList.add("hidden");
       document.getElementById("rankView").classList.add("hidden");
       document.getElementById("profileScreen").classList.remove("hidden");
-    };
+    }
 
-    window.switchTab = function(tab) {
+    function switchTab(tab) {
       document.getElementById("tabPlay").classList.toggle("active", tab === "play");
       document.getElementById("tabRank").classList.toggle("active", tab === "rank");
       document.getElementById("profileScreen").classList.add("hidden");
@@ -905,71 +877,44 @@
       } else {
         document.getElementById("playView").classList.add("hidden");
         document.getElementById("rankView").classList.remove("hidden");
-        loadLeaderboards();
-      }
-    };
-
-    async function checkTodayStatus() {
-      const banner = document.getElementById("dailyStatusBanner");
-      const startBtn = document.getElementById("startBtn");
-
-      if (!currentUser) {
-        banner.className = "status-banner";
-        banner.textContent = "Modo local sin conexión a Firebase (activa Anónimo en Authentication).";
-        return;
-      }
-
-      try {
-        const ref = doc(db, "efemerides_resultados", `${todayKey}_${currentUser.uid}`);
-        const snap = await getDoc(ref);
-        if (snap.exists()) {
-          alreadyPlayedToday = true;
-          todayRecord = snap.data();
-          banner.className = "status-banner";
-          banner.innerHTML = `✅ Ya completaste la partida oficial de hoy como <strong>${todayRecord.jugador}</strong>: <strong>${todayRecord.aciertos}/${todayRecord.total}</strong> aciertos (<strong>${todayRecord.puntos} pts</strong>). Puedes volver a jugar en <strong>modo entreno</strong>.`;
-          startBtn.textContent = "🎲 Jugar en Modo Entreno";
-        } else {
-          alreadyPlayedToday = false;
-          banner.className = "status-banner ok";
-          banner.innerHTML = `🟢 <strong>Partida Oficial disponible:</strong> tu primera partida de hoy contará para el podio del TT.`;
-          startBtn.textContent = "🚀 Empezar Partida Oficial";
-        }
-      } catch (e) {
-        banner.className = "status-banner";
-        banner.textContent = "No se pudo consultar Firestore todavía. Revisa las reglas de seguridad.";
+        if (window.TT_STATE.loadBoardsFn) window.TT_STATE.loadBoardsFn();
       }
     }
 
-    window.startGame = function() {
-      if (!playerName) {
+    function startGame() {
+      if (!window.TT_STATE.playerName) {
         openProfileModal();
         return;
       }
 
-      questions = [...dayData.preguntas];
-      currentIndex = 0;
-      score = 0;
-      hits = 0;
-      streak = 0;
-      maxStreak = 0;
+      const st = window.TT_STATE;
+      st.questions = [...st.dayData.preguntas];
+      st.currentIndex = 0;
+      st.score = 0;
+      st.hits = 0;
+      st.streak = 0;
+      st.maxStreak = 0;
 
       document.getElementById("startScreen").classList.add("hidden");
       document.getElementById("endScreen").classList.add("hidden");
       document.getElementById("quizScreen").classList.remove("hidden");
 
       renderQuestion();
-    };
+    }
 
     function renderQuestion() {
-      answered = false;
-      const q = questions[currentIndex];
-      const total = questions.length;
+      const st = window.TT_STATE;
+      st.answered = false;
+      const q = st.questions[st.currentIndex];
+      const total = st.questions.length;
 
-      document.getElementById("progressLabel").textContent = `Pregunta ${currentIndex + 1} de${total}`;
-      document.getElementById("scoreStreakLabel").textContent = `${score} pts · Racha ${streak} 🔥`;
-      document.getElementById("progressFill").style.width = `${(currentIndex / total) * 100}\%`;  document.getElementById("qYear").textContent = `Año ${q.anio}`;
-      document.getElementById("qDateTag").textContent = todayReadable;
-      document.getElementById("qModeTag").textContent = alreadyPlayedToday ? "Modo Entreno" : "Partida Oficial";
+      document.getElementById("progressLabel").textContent = `Pregunta ${st.currentIndex + 1} de ${total}`;
+      document.getElementById("scoreStreakLabel").textContent = `${st.score} pts · Racha ${st.streak} 🔥`;
+      document.getElementById("progressFill").style.width = `${(st.currentIndex / total) * 100}%`;
+
+      document.getElementById("qYear").textContent = `Año ${q.anio}`;
+      document.getElementById("qDateTag").textContent = st.todayReadable;
+      document.getElementById("qModeTag").textContent = st.alreadyPlayedToday ? "Modo Entreno" : "Partida Oficial";
       document.getElementById("qText").textContent = q.pregunta;
       document.getElementById("feedbackBox").classList.remove("visible");
 
@@ -978,21 +923,23 @@
       q.opciones.forEach((optText, idx) => {
         const cleanOption = normalizeDisplayOption(optText);
         const btn = document.createElement("button");
+        btn.type = "button";
         btn.className = "option-btn";
         btn.innerHTML = `<span class="opt-letter">${LETTERS[idx]}</span><span>${cleanOption}</span>`;
-        btn.onclick = () => selectOption(idx);
+        btn.addEventListener("click", () => selectOption(idx));
         optionsBox.appendChild(btn);
       });
 
       document.getElementById("nextBtn").textContent =
-        currentIndex === total - 1 ? "Ver resultado final 🏆" : "Siguiente pregunta →";
+        st.currentIndex === total - 1 ? "Ver resultado final 🏆" : "Siguiente pregunta →";
     }
 
     function selectOption(selectedIdx) {
-      if (answered) return;
-      answered = true;
+      const st = window.TT_STATE;
+      if (st.answered) return;
+      st.answered = true;
 
-      const q = questions[currentIndex];
+      const q = st.questions[st.currentIndex];
       const buttons = document.querySelectorAll(".option-btn");
 
       buttons.forEach((btn, idx) => {
@@ -1002,35 +949,39 @@
       });
 
       if (selectedIdx === q.correcta) {
-        hits++;
-        streak++;
-        if (streak > maxStreak) maxStreak = streak;
-        score += 100 + (streak > 1 ? (streak - 1) * 20 : 0);
+        st.hits++;
+        st.streak++;
+        if (st.streak > st.maxStreak) st.maxStreak = st.streak;
+        st.score += 100 + (st.streak > 1 ? (st.streak - 1) * 20 : 0);
       } else {
-        streak = 0;
+        st.streak = 0;
       }
 
-      document.getElementById("scoreStreakLabel").textContent = `${score} pts · Racha ${streak} 🔥`;
-      document.getElementById("progressFill").style.width = `${((currentIndex + 1) / questions.length) * 100}\%`;  document.getElementById("qQuote").textContent = `«${q.cita}»`;
+      document.getElementById("scoreStreakLabel").textContent = `${st.score} pts · Racha ${st.streak} 🔥`;
+      document.getElementById("progressFill").style.width = `${((st.currentIndex + 1) / st.questions.length) * 100}%`;
+
+      document.getElementById("qQuote").textContent = `«${q.cita}»`;
       document.getElementById("qExplanation").textContent = q.explicacion;
       document.getElementById("feedbackBox").classList.add("visible");
     }
 
-    window.nextQuestion = function() {
-      currentIndex++;
-      if (currentIndex < questions.length) {
+    function nextQuestion() {
+      const st = window.TT_STATE;
+      st.currentIndex++;
+      if (st.currentIndex < st.questions.length) {
         renderQuestion();
       } else {
         finishGame();
       }
-    };
+    }
 
     async function finishGame() {
+      const st = window.TT_STATE;
       document.getElementById("quizScreen").classList.add("hidden");
       document.getElementById("endScreen").classList.remove("hidden");
 
-      const total = questions.length;
-      const ratio = hits / total;
+      const total = st.questions.length;
+      const ratio = st.hits / total;
 
       let emoji = "🥉";
       let title = "Memoria selectiva del TT";
@@ -1049,86 +1000,278 @@
       document.getElementById("endEmoji").textContent = emoji;
       document.getElementById("endTitle").textContent = title;
       document.getElementById("endSubtitle").textContent = subtitle;
-      document.getElementById("finalHits").textContent = `${hits}/${total}`;
-      document.getElementById("finalScore").textContent = `${score}`; document.getElementById("finalStreak").textContent = `${maxStreak} 🔥`;
+      document.getElementById("finalHits").textContent = `${st.hits}/${total}`;
+      document.getElementById("finalScore").textContent = `${st.score}`;
+      document.getElementById("finalStreak").textContent = `${st.maxStreak} 🔥`;
 
-      const saveBanner = document.getElementById("saveResultBanner");
-
-      if (!currentUser) {
+      if (st.saveScoreFn) {
+        await st.saveScoreFn();
+      } else {
+        const saveBanner = document.getElementById("saveResultBanner");
         saveBanner.className = "status-banner";
-        saveBanner.textContent = "Sin sesión de Firebase activa: resultado solo local.";
-        return;
+        saveBanner.textContent = "Conectando con Firebase... si no guarda, revisa Authentication Anónimo.";
+      }
+    }
+
+    function shareWhatsApp() {
+      const st = window.TT_STATE;
+      const text =
+        `📜 *TTpedia · Efemérides ${st.todayReadable}*\n` +
+        `👤 Jugador: *${st.playerName || "TT"}*\n` +
+        `✅ Aciertos: ${st.hits}/${st.questions.length}\n` +
+        `⭐ Puntuación: ${st.score} pts (Mejor racha: ${st.maxStreak}🔥)\n` +
+        `¿Superas mi marca en el lore del grupo?`;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          document.getElementById("copyToast").textContent = "¡Resultado copiado! Listo para pegar en el grupo.";
+        });
+      } else {
+        document.getElementById("copyToast").textContent = text;
+      }
+    }
+
+    function resetToStart() {
+      document.getElementById("endScreen").classList.add("hidden");
+      document.getElementById("startScreen").classList.remove("hidden");
+    }
+
+    function applyDayDataToUI(data) {
+      const st = window.TT_STATE;
+      st.dayData = data;
+      document.getElementById("headerDateLabel").textContent = `Efemérides · ${st.todayReadable}`;
+      document.getElementById("heroDayTitle").textContent = `Tal día como hoy (${st.todayReadable})`;
+      document.getElementById("heroDayDesc").innerHTML =
+        `Archivo histórico extraído de <strong>${data.total_mensajes_dia} mensajes</strong> reales del grupo. Demuestra cuánto te acuerdas de las perlitas del TT.`;
+
+      const years = [...new Set(data.preguntas.map(p => p.anio))].sort();
+      const yearText = years.length > 1
+        ? `${String(years[0]).slice(2)}-${String(years[years.length - 1]).slice(2)}`
+        : `${years[0] || "-"}`;
+
+      document.getElementById("statMsgs").textContent = data.total_mensajes_dia;
+      document.getElementById("statPregs").textContent = data.preguntas.length;
+      document.getElementById("statYears").textContent = yearText;
+    }
+
+    // Vincular eventos inmediatamente al cargar el DOM
+    document.getElementById("userChip").addEventListener("click", openProfileModal);
+    document.getElementById("tabPlay").addEventListener("click", () => switchTab("play"));
+    document.getElementById("tabRank").addEventListener("click", () => switchTab("rank"));
+    document.getElementById("startBtn").addEventListener("click", startGame);
+    document.getElementById("nextBtn").addEventListener("click", nextQuestion);
+    document.getElementById("shareBtn").addEventListener("click", shareWhatsApp);
+    document.getElementById("goRankBtn").addEventListener("click", () => switchTab("rank"));
+    document.getElementById("restartBtn").addEventListener("click", resetToStart);
+    document.getElementById("refreshRankBtn").addEventListener("click", () => {
+      if (window.TT_STATE.loadBoardsFn) window.TT_STATE.loadBoardsFn();
+    });
+
+    (async function bootLocal() {
+      const info = getTodayInfo();
+      window.TT_STATE.todayKey = info.key;
+      window.TT_STATE.todayReadable = info.readable;
+
+      try {
+        const res = await fetch(`./data/efemerides/${info.key}.json`, { cache: "no-store" });
+        if (!res.ok) throw new Error("Sin JSON diario");
+        const json = await res.json();
+        applyDayDataToUI(json);
+      } catch (_) {
+        window.TT_STATE.todayKey = "11-23";
+        window.TT_STATE.todayReadable = "23 de Noviembre";
+        applyDayDataToUI(FALLBACK_11_23);
       }
 
-      if (alreadyPlayedToday) {
-        saveBanner.className = "status-banner";
-        saveBanner.textContent = "Modo entreno: tu marca oficial de hoy no se ha modificado.";
+      if (window.TT_STATE.playerName) {
+        document.getElementById("userChip").textContent = `👤 ${window.TT_STATE.playerName}`;
+      } else {
+        openProfileModal();
+      }
+    })();
+  </script>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
+    import {
+      getFirestore, doc, getDoc, setDoc, collection, query, where, orderBy, limit, getDocs, serverTimestamp
+    } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAlnLXGSBOJqi9GiTNVfpujAKLKfzQScN4",
+      authDomain: "ttpedia-d273e.firebaseapp.com",
+      projectId: "ttpedia-d273e",
+      storageBucket: "ttpedia-d273e.firebasestorage.app",
+      messagingSenderId: "517293767219",
+      appId: "1:517293767219:web:79d24f909c1fed50af8146",
+      measurementId: "G-40D390SFX8"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+    const st = window.TT_STATE;
+
+    async function checkTodayStatus() {
+      const banner = document.getElementById("dailyStatusBanner");
+      const startBtn = document.getElementById("startBtn");
+
+      if (!st.currentUser) {
+        banner.className = "status-banner";
+        banner.textContent = "Activa Authentication -> Anónimo en Firebase para guardar tus puntos en la nube.";
         return;
       }
 
       try {
-        const resRef = doc(db, "efemerides_resultados", `${todayKey}_${currentUser.uid}`);
-        await setDoc(resRef, {
-          uid: currentUser.uid,
-          fecha: todayKey,
-          jugador: playerName,
-          aciertos: hits,
-          total: total,
-          puntos: score,
-          mejorRacha: maxStreak,
-          timestamp: serverTimestamp()
-        });
-
-        const globalRef = doc(db, "ranking_global", currentUser.uid);
-        const globalSnap = await getDoc(globalRef);
-        const prev = globalSnap.exists() ? globalSnap.data() : {
-          puntosTotales: 0,
-          diasJugados: 0,
-          aciertosTotales: 0,
-          preguntasTotales: 0
-        };
-
-        await setDoc(globalRef, {
-          uid: currentUser.uid,
-          jugador: playerName,
-          puntosTotales: (prev.puntosTotales || 0) + score,
-          diasJugados: (prev.diasJugados || 0) + 1,
-          aciertosTotales: (prev.aciertosTotales || 0) + hits,
-          preguntasTotales: (prev.preguntasTotales || 0) + total,
-          ultimaPartida: todayKey,
-          actualizado: serverTimestamp()
-        });
-
-        alreadyPlayedToday = true;
-        saveBanner.className = "status-banner ok";
-        saveBanner.textContent = `✅ ¡Puntuación oficial guardada en TTpedia para ${playerName}!`;
-        await checkTodayStatus();
-      } catch (err) {
-        saveBanner.className = "status-banner";
-        saveBanner.textContent = "Error al guardar en Firestore. Revisa las reglas de seguridad.";
+        const ref = doc(db, "efemerides_resultados", `${st.todayKey}_${st.currentUser.uid}`);
+        const snap = await getDoc(ref);
+        if (snap.exists()) {
+          st.alreadyPlayedToday = true;
+          st.todayRecord = snap.data();
+          banner.className = "status-banner";
+          banner.innerHTML = `✅ Ya jugaste hoy como <strong>${st.todayRecord.jugador}</strong>: <strong>${st.todayRecord.aciertos}/${st.todayRecord.total}</strong> aciertos (<strong>${st.todayRecord.puntos} pts</strong>). Puedes repetir en <strong>modo entreno</strong>.`;
+          startBtn.textContent = "🎲 Jugar en Modo Entreno";
+        } else {
+          st.alreadyPlayedToday = false;
+          banner.className = "status-banner ok";
+          banner.innerHTML = `🟢 <strong>Partida Oficial disponible:</strong> tu primera partida de hoy contará para el podio del TT.`;
+          startBtn.textContent = "🚀 Empezar Partida Oficial";
+        }
+      } catch (e) {
+        console.error("Error Firestore:", e);
+        banner.className = "status-banner";
+        banner.textContent = "Firestore pendiente de activar o reglas sin publicar.";
       }
     }
 
-    window.loadLeaderboards = async function() {
+    st.saveScoreFn = async function() {
+      const saveBanner = document.getElementById("saveResultBanner");
+
+      if (!st.currentUser) {
+        saveBanner.className = "status-banner";
+        saveBanner.textContent = "Sin sesión activa en Firebase: partida jugada en modo local.";
+        return;
+      }
+
+      if (st.alreadyPlayedToday) {
+        saveBanner.className = "status-banner";
+        saveBanner.textContent = "Modo entreno: tu puntuación oficial de hoy no se ha modificado.";
+        return;
+      }
+
+      try {
+        const resRef = doc(db, "efemerides_resultados", `${st.todayKey}_${st.currentUser.uid}`);
+        await setDoc(resRef, {
+          uid: st.currentUser.uid,
+          fecha: st.todayKey,
+          jugador: st.playerName,
+          aciertos: st.hits,
+          total: st.questions.length,
+          puntos: st.score,
+          mejorRacha: st.maxStreak,
+          timestamp: serverTimestamp()
+        });
+
+        const globalRef = doc(db, "ranking_global", st.currentUser.uid);
+        const globalSnap = await getDoc(globalRef);
+        const prev = globalSnap.exists() ? globalSnap.data() : {
+          puntosTotales: 0, diasJugados: 0, aciertosTotales: 0, preguntasTotales: 0
+        };
+
+        await setDoc(globalRef, {
+          uid: st.currentUser.uid,
+          jugador: st.playerName,
+          puntosTotales: (prev.puntosTotales || 0) + st.score,
+          diasJugados: (prev.diasJugados || 0) + 1,
+          aciertosTotales: (prev.aciertosTotales || 0) + st.hits,
+          preguntasTotales: (prev.preguntasTotales || 0) + st.questions.length,
+          ultimaPartida: st.todayKey,
+          actualizado: serverTimestamp()
+        });
+
+        st.alreadyPlayedToday = true;
+        saveBanner.className = "status-banner ok";
+        saveBanner.textContent = `✅ ¡Puntuación oficial guardada en TTpedia para ${st.playerName}!`;
+        await checkTodayStatus();
+      } catch (err) {
+        console.error("Error guardando:", err);
+        saveBanner.className = "status-banner";
+        saveBanner.textContent = "Error al guardar en Firestore. Revisa las reglas de seguridad.";
+      }
+    };
+
+    st.loadBoardsFn = async function() {
       const todayList = document.getElementById("todayRankList");
       const globalList = document.getElementById("globalRankList");
-      document.getElementById("todayRankTitle").textContent = `📅 Podio de Hoy (${todayReadable})`;
+      document.getElementById("todayRankTitle").textContent = `📅 Podio de Hoy (${st.todayReadable})`;
 
-      if (!currentUser) {
-        todayList.innerHTML = `<div class="rank-sub">Conecta Firebase Authentication para ver el podio.</div>`;
+      if (!st.currentUser) {
+        todayList.innerHTML = `<div class="rank-sub">Activa Authentication Anónimo para ver el podio.</div>`;
         globalList.innerHTML = "";
         return;
       }
 
       try {
-        const qToday = query(
-          collection(db, "efemerides_resultados"),
-          where("fecha", "==", todayKey)
-        );
+        const qToday = query(collection(db, "efemerides_resultados"), where("fecha", "==", st.todayKey));
         const snapToday = await getDocs(qToday);
         const rowsToday = [];
         snapToday.forEach(d => rowsToday.push(d.data()));
         rowsToday.sort((a, b) => (b.puntos - a.puntos) || (b.aciertos - a.aciertos));
 
-        if (rowsToday.length === 0) {
-          todayList.innerHTML = `<div class="rank-sub">Nadie ha jugado todavía hoy. ¡Sé el primero en marcar territorio
+        todayList.innerHTML = rowsToday.length === 0
+          ? `<div class="rank-sub">Nadie ha jugado todavía hoy. ¡Sé el primero!</div>`
+          : rowsToday.map((r, i) => `
+              <div class="rank-row ${r.uid === st.currentUser.uid ? "me" : ""}">
+                <div class="rank-left">
+                  <div class="rank-pos">${i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : i + 1}</div>
+                  <div>
+                    <div class="rank-name">${r.jugador}</div>
+                    <div class="rank-sub">${r.aciertos}/${r.total} aciertos · Racha ${r.mejorRacha}🔥</div>
+                  </div>
+                </div>
+                <div class="rank-pts">${r.puntos} pts</div>
+              </div>
+            `).join("");
+
+        const qGlobal = query(collection(db, "ranking_global"), orderBy("puntosTotales", "desc"), limit(25));
+        const snapGlobal = await getDocs(qGlobal);
+        const rowsGlobal = [];
+        snapGlobal.forEach(d => rowsGlobal.push(d.data()));
+
+        globalList.innerHTML = rowsGlobal.length === 0
+          ? `<div class="rank-sub">Aún no hay puntos acumulados en la clasificación general.</div>`
+          : rowsGlobal.map((r, i) => `
+              <div class="rank-row ${r.uid === st.currentUser.uid ? "me" : ""}">
+                <div class="rank-left">
+                  <div class="rank-pos">${i === 0 ? "👑" : i + 1}</div>
+                  <div>
+                    <div class="rank-name">${r.jugador}</div>
+                    <div class="rank-sub">${r.diasJugados} días · ${r.aciertosTotales}/${r.preguntasTotales} aciertos</div>
+                  </div>
+                </div>
+                <div class="rank-pts">${r.puntosTotales} pts</div>
+              </div>
+            `).join("");
+      } catch (e) {
+        console.error("Error leyendo ranking:", e);
+        todayList.innerHTML = `<div class="rank-sub">No se pudo leer el ranking. Comprueba Firestore y sus reglas.</div>`;
+      }
+    };
+
+    onAuthStateChanged(auth, async (user) => {
+      if (user) {
+        st.currentUser = user;
+        await checkTodayStatus();
+      }
+    });
+
+    try {
+      await signInAnonymously(auth);
+    } catch (e) {
+      console.error("Error Auth:", e);
+      await checkTodayStatus();
+    }
+  </script>
+</body>
+</html>
