@@ -39,7 +39,7 @@
 
     .app {
       width: 100%;
-      max-width: 580px;
+      max-width: 600px;
       display: flex;
       flex-direction: column;
       gap: 14px;
@@ -103,8 +103,8 @@
 
     .nav-tabs {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5px;
       background: var(--surface);
       padding: 6px;
       border-radius: 14px;
@@ -115,9 +115,9 @@
       background: transparent;
       border: none;
       color: var(--muted);
-      padding: 10px;
+      padding: 10px 4px;
       border-radius: 10px;
-      font-size: 13px;
+      font-size: 11.5px;
       font-weight: 700;
       cursor: pointer;
       transition: all 0.15s ease;
@@ -294,6 +294,17 @@
       line-height: 1.42;
       font-weight: 700;
       color: #f5f7f8;
+    }
+
+    .quote-highlight {
+      background: #005c4b;
+      color: #e9edef;
+      padding: 15px 16px;
+      border-radius: 14px 14px 14px 3px;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.45;
+      border: 1px solid rgba(255, 255, 255, 0.12);
     }
 
     .options {
@@ -494,6 +505,51 @@
       color: var(--gold);
     }
 
+    .bio-header {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .bio-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: #5cf2ce;
+    }
+
+    .bio-role {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+    }
+
+    .bio-lore {
+      font-size: 14px;
+      line-height: 1.55;
+      color: #d7e0e5;
+      white-space: pre-line;
+    }
+
+    .bio-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .bio-tag {
+      background: var(--accent-soft);
+      border: 1px solid rgba(0, 168, 132, 0.35);
+      color: #6df5d4;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
     .toast {
       text-align: center;
       font-size: 13px;
@@ -520,10 +576,13 @@
     </header>
 
     <nav class="nav-tabs">
-      <button class="tab-btn active" id="tabPlay" type="button">📜 Efemérides Hoy</button>
-      <button class="tab-btn" id="tabRank" type="button">🏆 Clasificación TT</button>
+      <button class="tab-btn active" id="tabPlay" type="button">📜 Efemérides</button>
+      <button class="tab-btn" id="tabQuotes" type="button">💬 Frases</button>
+      <button class="tab-btn" id="tabWiki" type="button">📖 Enciclopedia</button>
+      <button class="tab-btn" id="tabRank" type="button">🏆 Ranking</button>
     </nav>
 
+    <!-- SELECCIÓN DE JUGADOR -->
     <section class="card hidden" id="profileScreen">
       <div class="hero">
         <div class="hero-icon">🪪</div>
@@ -533,6 +592,7 @@
       </div>
     </section>
 
+    <!-- VISTA 1: EFEMÉRIDES -->
     <div id="playView" style="display:flex;flex-direction:column;gap:14px;">
       <section class="card" id="startScreen">
         <div class="hero">
@@ -624,8 +684,103 @@
       </section>
     </div>
 
+    <!-- VISTA 2: ¿QUIÉN DIJO ESTO? -->
+    <div id="quotesView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
+      <section class="card" id="qStartScreen">
+        <div class="hero">
+          <div class="hero-icon">💬</div>
+          <h2>¿Quién dijo esta barbaridad?</h2>
+          <p id="qPoolDesc">Rondas rápidas de 10 frases míticas sacadas de contexto del chat histórico del TT.</p>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <strong id="qPoolTotal">-</strong>
+              <span>Frases en archivo</span>
+            </div>
+            <div class="stat-box">
+              <strong>10</strong>
+              <span>Por ronda</span>
+            </div>
+            <div class="stat-box">
+              <strong>9</strong>
+              <span>Sospechosos</span>
+            </div>
+          </div>
+
+          <button class="btn-primary" id="qStartBtn" type="button">🚀 Empezar Ronda de 10 Frases</button>
+        </div>
+      </section>
+
+      <section class="card hidden" id="qQuizScreen">
+        <div class="progress-wrap">
+          <div class="progress-meta">
+            <span id="qqProgressLabel">Frase 1 de 10</span>
+            <span id="qqScoreStreakLabel">0 pts · Racha 0 🔥</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="qqProgressFill"></div>
+          </div>
+        </div>
+
+        <div class="meta-tags">
+          <span class="tag-year" id="qqYear">Año 2023</span>
+          <span class="tag-date">¿Quién lo soltó en el TT?</span>
+        </div>
+
+        <div class="quote-highlight" id="qqQuoteText"></div>
+        <div class="options" id="qqOptionsBox"></div>
+
+        <div class="feedback" id="qqFeedbackBox">
+          <p class="explanation" id="qqExplanation"></p>
+          <button class="btn-primary" id="qqNextBtn" type="button">Siguiente frase →</button>
+        </div>
+      </section>
+
+      <section class="card hidden" id="qEndScreen">
+        <div class="hero">
+          <div class="hero-icon" id="qqEndEmoji">🎯</div>
+          <h2 id="qqEndTitle">¡Ronda completada!</h2>
+          <p id="qqEndSubtitle"></p>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <strong id="qqFinalHits">0/10</strong>
+              <span>Aciertos</span>
+            </div>
+            <div class="stat-box">
+              <strong id="qqFinalScore">0</strong>
+              <span>Puntos</span>
+            </div>
+            <div class="stat-box">
+              <strong id="qqFinalStreak">0</strong>
+              <span>Mejor racha</span>
+            </div>
+          </div>
+
+          <div class="status-banner ok" id="qqSaveBanner">Sumando puntos al ranking general...</div>
+
+          <button class="btn-primary" id="qqShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
+          <div class="toast" id="qqCopyToast"></div>
+          <button class="btn-primary" id="qqPlayAgainBtn" type="button">🎲 Jugar otras 10 frases</button>
+          <button class="btn-secondary" id="qqGoRankBtn" type="button">Ver Clasificación del TT 🏆</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- VISTA 3: ENCICLOPEDIA TT -->
+    <section class="card hidden" id="wikiView">
+      <div class="hero" style="padding-bottom:0;">
+        <div class="hero-icon">📖</div>
+        <h2>Enciclopedia del Triangulito Team</h2>
+        <p>Pulsa en un integrante para abrir su ficha biográfica, estadísticas y citas míticas.</p>
+      </div>
+      <div class="player-grid" id="wikiGrid"></div>
+      <div id="wikiDetailBox" class="hidden" style="display:flex;flex-direction:column;gap:12px;"></div>
+    </section>
+
+    <!-- VISTA 4: RANKING -->
     <section class="card hidden" id="rankView">
-      <div class="rank-section-title" id="todayRankTitle">📅 Podio de Hoy</div>
+      <div class="rank-section-title" id="todayRankTitle">📅 Podio Efemérides de Hoy</div>
       <div class="rank-list" id="todayRankList">
         <div class="rank-sub">Cargando resultados de hoy...</div>
       </div>
@@ -812,9 +967,22 @@
       streak: 0,
       maxStreak: 0,
       answered: false,
-      firebaseReady: false,
+      biosMap: {},
       saveScoreFn: null,
+      saveQuoteScoreFn: null,
       loadBoardsFn: null
+    };
+
+    window.QUOTE_STATE = {
+      pool: [],
+      usedIndices: new Set(),
+      roundQuestions: [],
+      idx: 0,
+      score: 0,
+      hits: 0,
+      streak: 0,
+      maxStreak: 0,
+      answered: false
     };
 
     const storedName = normalizeDisplayOption(localStorage.getItem("ttpedia_player_name") || "");
@@ -856,37 +1024,40 @@
       localStorage.setItem("ttpedia_player_name", window.TT_STATE.playerName);
       document.getElementById("userChip").textContent = `👤 ${window.TT_STATE.playerName}`;
       document.getElementById("profileScreen").classList.add("hidden");
-      document.getElementById("playView").classList.remove("hidden");
+      switchTab("play");
     }
 
     function openProfileModal() {
       renderPlayerGrid();
       document.getElementById("playView").classList.add("hidden");
+      document.getElementById("quotesView").classList.add("hidden");
+      document.getElementById("wikiView").classList.add("hidden");
       document.getElementById("rankView").classList.add("hidden");
       document.getElementById("profileScreen").classList.remove("hidden");
     }
 
     function switchTab(tab) {
       document.getElementById("tabPlay").classList.toggle("active", tab === "play");
+      document.getElementById("tabQuotes").classList.toggle("active", tab === "quotes");
+      document.getElementById("tabWiki").classList.toggle("active", tab === "wiki");
       document.getElementById("tabRank").classList.toggle("active", tab === "rank");
-      document.getElementById("profileScreen").classList.add("hidden");
 
-      if (tab === "play") {
-        document.getElementById("rankView").classList.add("hidden");
-        document.getElementById("playView").classList.remove("hidden");
-      } else {
-        document.getElementById("playView").classList.add("hidden");
-        document.getElementById("rankView").classList.remove("hidden");
-        if (window.TT_STATE.loadBoardsFn) window.TT_STATE.loadBoardsFn();
-      }
+      document.getElementById("profileScreen").classList.add("hidden");
+      document.getElementById("playView").classList.toggle("hidden", tab !== "play");
+      document.getElementById("quotesView").classList.toggle("hidden", tab !== "quotes");
+      document.getElementById("wikiView").classList.toggle("hidden", tab !== "wiki");
+      document.getElementById("rankView").classList.toggle("hidden", tab !== "rank");
+
+      if (tab === "wiki") renderWikiGrid();
+      if (tab === "rank" && window.TT_STATE.loadBoardsFn) window.TT_STATE.loadBoardsFn();
     }
 
+    // --- VISTA 1: EFEMÉRIDES ---
     function startGame() {
       if (!window.TT_STATE.playerName) {
         openProfileModal();
         return;
       }
-
       const st = window.TT_STATE;
       st.questions = [...st.dayData.preguntas];
       st.currentIndex = 0;
@@ -898,7 +1069,6 @@
       document.getElementById("startScreen").classList.add("hidden");
       document.getElementById("endScreen").classList.add("hidden");
       document.getElementById("quizScreen").classList.remove("hidden");
-
       renderQuestion();
     }
 
@@ -940,7 +1110,7 @@
       st.answered = true;
 
       const q = st.questions[st.currentIndex];
-      const buttons = document.querySelectorAll(".option-btn");
+      const buttons = document.querySelectorAll("#optionsBox .option-btn");
 
       buttons.forEach((btn, idx) => {
         btn.disabled = true;
@@ -968,11 +1138,8 @@
     function nextQuestion() {
       const st = window.TT_STATE;
       st.currentIndex++;
-      if (st.currentIndex < st.questions.length) {
-        renderQuestion();
-      } else {
-        finishGame();
-      }
+      if (st.currentIndex < st.questions.length) renderQuestion();
+      else finishGame();
     }
 
     async function finishGame() {
@@ -983,17 +1150,13 @@
       const total = st.questions.length;
       const ratio = st.hits / total;
 
-      let emoji = "🥉";
-      let title = "Memoria selectiva del TT";
-      let subtitle = "Se nota que algunos días estabas en modo avión o viendo el partido sin mirar el móvil.";
-
+      let emoji = "🥉", title = "Memoria selectiva del TT",
+          subtitle = "Se nota que algunos días estabas en modo avión o viendo el partido sin mirar el móvil.";
       if (ratio >= 0.85) {
-        emoji = "👑";
-        title = "Historiador Mayor del TT";
+        emoji = "👑"; title = "Historiador Mayor del TT";
         subtitle = "Te sabes hasta lo que merendaba Marzal en 2023. Enciclopedia viva del grupo.";
       } else if (ratio >= 0.6) {
-        emoji = "🏆";
-        title = "Veterano del TTVerse";
+        emoji = "🏆"; title = "Veterano del TTVerse";
         subtitle = "Buen nivel de lore acumulado. Apenas se te han escapado un par de perlitas.";
       }
 
@@ -1004,13 +1167,7 @@
       document.getElementById("finalScore").textContent = `${st.score}`;
       document.getElementById("finalStreak").textContent = `${st.maxStreak} 🔥`;
 
-      if (st.saveScoreFn) {
-        await st.saveScoreFn();
-      } else {
-        const saveBanner = document.getElementById("saveResultBanner");
-        saveBanner.className = "status-banner";
-        saveBanner.textContent = "Conectando con Firebase... si no guarda, revisa Authentication Anónimo.";
-      }
+      if (st.saveScoreFn) await st.saveScoreFn();
     }
 
     function shareWhatsApp() {
@@ -1021,19 +1178,215 @@
         `✅ Aciertos: ${st.hits}/${st.questions.length}\n` +
         `⭐ Puntuación: ${st.score} pts (Mejor racha: ${st.maxStreak}🔥)\n` +
         `¿Superas mi marca en el lore del grupo?`;
+      navigator.clipboard?.writeText(text).then(() => {
+        document.getElementById("copyToast").textContent = "¡Resultado copiado! Listo para pegar en el grupo.";
+      });
+    }
 
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(() => {
-          document.getElementById("copyToast").textContent = "¡Resultado copiado! Listo para pegar en el grupo.";
-        });
+    // --- VISTA 2: ¿QUIÉN DIJO ESTO? ---
+    function startQuotesGame() {
+      if (!window.TT_STATE.playerName) {
+        openProfileModal();
+        return;
+      }
+      const qs = window.QUOTE_STATE;
+      if (!qs.pool.length) return;
+
+      if (qs.usedIndices.size > qs.pool.length - 10) {
+        qs.usedIndices.clear();
+      }
+
+      const available = [];
+      for (let i = 0; i < qs.pool.length; i++) {
+        if (!qs.usedIndices.has(i)) available.push(i);
+      }
+
+      for (let i = available.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [available[i], available[j]] = [available[j], available[i]];
+      }
+
+      const picked = available.slice(0, Math.min(10, available.length));
+      picked.forEach(i => qs.usedIndices.add(i));
+
+      qs.roundQuestions = picked.map(i => qs.pool[i]);
+      qs.idx = 0;
+      qs.score = 0;
+      qs.hits = 0;
+      qs.streak = 0;
+      qs.maxStreak = 0;
+
+      document.getElementById("qStartScreen").classList.add("hidden");
+      document.getElementById("qEndScreen").classList.add("hidden");
+      document.getElementById("qQuizScreen").classList.remove("hidden");
+      renderQuoteQuestion();
+    }
+
+    function renderQuoteQuestion() {
+      const qs = window.QUOTE_STATE;
+      qs.answered = false;
+      const q = qs.roundQuestions[qs.idx];
+      const total = qs.roundQuestions.length;
+
+      document.getElementById("qqProgressLabel").textContent = `Frase ${qs.idx + 1} de ${total}`;
+      document.getElementById("qqScoreStreakLabel").textContent = `${qs.score} pts · Racha ${qs.streak} 🔥`;
+      document.getElementById("qqProgressFill").style.width = `${(qs.idx / total) * 100}%`;
+
+      document.getElementById("qqYear").textContent = `Año ${q.anio}`;
+      document.getElementById("qqQuoteText").textContent = `«${q.cita}»`;
+      document.getElementById("qqFeedbackBox").classList.remove("visible");
+
+      const optionsBox = document.getElementById("qqOptionsBox");
+      optionsBox.innerHTML = "";
+      q.opciones.forEach((optText, idx) => {
+        const cleanOption = normalizeDisplayOption(optText);
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "option-btn";
+        btn.innerHTML = `<span class="opt-letter">${LETTERS[idx]}</span><span>${cleanOption}</span>`;
+        btn.addEventListener("click", () => selectQuoteOption(idx));
+        optionsBox.appendChild(btn);
+      });
+
+      document.getElementById("qqNextBtn").textContent =
+        qs.idx === total - 1 ? "Ver resultado de la ronda 🏆" : "Siguiente frase →";
+    }
+
+    function selectQuoteOption(selectedIdx) {
+      const qs = window.QUOTE_STATE;
+      if (qs.answered) return;
+      qs.answered = true;
+
+      const q = qs.roundQuestions[qs.idx];
+      const buttons = document.querySelectorAll("#qqOptionsBox .option-btn");
+
+      buttons.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (idx === q.correcta) btn.classList.add("correct");
+        else if (idx === selectedIdx) btn.classList.add("wrong");
+      });
+
+      if (selectedIdx === q.correcta) {
+        qs.hits++;
+        qs.streak++;
+        if (qs.streak > qs.maxStreak) qs.maxStreak = qs.streak;
+        qs.score += 80 + (qs.streak > 1 ? (qs.streak - 1) * 15 : 0);
       } else {
-        document.getElementById("copyToast").textContent = text;
+        qs.streak = 0;
+      }
+
+      document.getElementById("qqScoreStreakLabel").textContent = `${qs.score} pts · Racha ${qs.streak} 🔥`;
+      document.getElementById("qqProgressFill").style.width = `${((qs.idx + 1) / qs.roundQuestions.length) * 100}%`;
+
+      const autorReal = normalizeDisplayOption(q.autor);
+      document.getElementById("qqExplanation").innerHTML =
+        `<strong>Lo soltó ${autorReal}:</strong> ${q.contexto}`;
+      document.getElementById("qqFeedbackBox").classList.add("visible");
+    }
+
+    function nextQuoteQuestion() {
+      const qs = window.QUOTE_STATE;
+      qs.idx++;
+      if (qs.idx < qs.roundQuestions.length) renderQuoteQuestion();
+      else finishQuotesGame();
+    }
+
+    async function finishQuotesGame() {
+      const qs = window.QUOTE_STATE;
+      document.getElementById("qQuizScreen").classList.add("hidden");
+      document.getElementById("qEndScreen").classList.remove("hidden");
+
+      const total = qs.roundQuestions.length;
+      const ratio = qs.hits / total;
+
+      let emoji = "🎭", title = "Oído despistado",
+          subtitle = "Te cuesta distinguir quién suelta cada burrada sin ver la foto de perfil.";
+      if (ratio >= 0.8) {
+        emoji = "🕵️‍♂️"; title = "Detector Humano del TT";
+        subtitle = "Reconoces el estilo literario de cada miembro del grupo con los ojos cerrados.";
+      } else if (ratio >= 0.5) {
+        emoji = "🎯"; title = "Buen olfato grupal";
+        subtitle = "Has cazado la mayoría de perlitas históricas.";
+      }
+
+      document.getElementById("qqEndEmoji").textContent = emoji;
+      document.getElementById("qqEndTitle").textContent = title;
+      document.getElementById("qqEndSubtitle").textContent = subtitle;
+      document.getElementById("qqFinalHits").textContent = `${qs.hits}/${total}`;
+      document.getElementById("qqFinalScore").textContent = `${qs.score}`;
+      document.getElementById("qqFinalStreak").textContent = `${qs.maxStreak} 🔥`;
+
+      if (window.TT_STATE.saveQuoteScoreFn) {
+        await window.TT_STATE.saveQuoteScoreFn(qs.score, qs.hits, total);
       }
     }
 
-    function resetToStart() {
-      document.getElementById("endScreen").classList.add("hidden");
-      document.getElementById("startScreen").classList.remove("hidden");
+    function shareQuotesWhatsApp() {
+      const st = window.TT_STATE;
+      const qs = window.QUOTE_STATE;
+      const text =
+        `💬 *TTpedia · ¿Quién dijo esto?*\n` +
+        `👤 Jugador: *${st.playerName || "TT"}*\n` +
+        `✅ Aciertos: ${qs.hits}/${qs.roundQuestions.length}\n` +
+        `⭐ Puntuación: +${qs.score} pts (Racha: ${qs.maxStreak}🔥)\n` +
+        `¿Sabes quién soltó estas barbaridades en el grupo?`;
+      navigator.clipboard?.writeText(text).then(() => {
+        document.getElementById("qqCopyToast").textContent = "¡Resultado copiado para WhatsApp!";
+      });
+    }
+
+    // --- VISTA 3: ENCICLOPEDIA TT ---
+    function renderWikiGrid() {
+      const grid = document.getElementById("wikiGrid");
+      grid.innerHTML = "";
+      TT_MEMBERS.forEach(name => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "player-pill";
+        btn.textContent = name;
+        btn.addEventListener("click", () => showWikiMember(name, btn));
+        grid.appendChild(btn);
+      });
+    }
+
+    function showWikiMember(name, activeBtn) {
+      document.querySelectorAll("#wikiGrid .player-pill").forEach(b => b.classList.remove("selected"));
+      activeBtn.classList.add("selected");
+
+      const box = document.getElementById("wikiDetailBox");
+      box.classList.remove("hidden");
+      const bio = window.TT_STATE.biosMap[name];
+
+      if (!bio) {
+        const sampleQuotes = window.QUOTE_STATE.pool.filter(q => normalizeDisplayOption(q.autor) === name).slice(0, 4);
+        box.innerHTML = `
+          <div class="bio-header">
+            <div class="bio-title">${name}</div>
+            <div class="bio-role">Miembro Oficial del Triangulito Team</div>
+          </div>
+          <div class="status-banner">Ficha biográfica completa pendiente de subir (<code>data/biografias_tt.json</code>). Mientras tanto, aquí van sus perlitas archivadas:</div>
+          ${sampleQuotes.map(q => `<div class="wa-bubble"><span class="wa-label">Año ${q.anio}</span>«${q.cita}»</div>`).join("")}
+        `;
+        return;
+      }
+
+      box.innerHTML = `
+        <div class="bio-header">
+          <div class="bio-title">${bio.nombre} · ${bio.apodo_titulo}</div>
+          <div class="bio-role">${bio.rol_en_el_grupo}</div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-box"><strong>${bio.total_mensajes}</strong><span>Mensajes</span></div>
+          <div class="stat-box"><strong>${bio.hora_pico}</strong><span>Hora pico</span></div>
+          <div class="stat-box"><strong>${bio.periodo}</strong><span>Historial</span></div>
+        </div>
+        <div class="bio-tags">
+          ${(bio.temas_obsesion || []).map(t => `<span class="bio-tag">#${t}</span>`).join("")}
+        </div>
+        <p class="bio-lore">${bio.biografia_lore}</p>
+        <div class="rank-section-title">💬 Citas para la posteridad</div>
+        ${(bio.citas_miticas || []).map(c => `<div class="wa-bubble">«${c}»</div>`).join("")}
+      `;
     }
 
     function applyDayDataToUI(data) {
@@ -1054,15 +1407,28 @@
       document.getElementById("statYears").textContent = yearText;
     }
 
-    // Vincular eventos inmediatamente al cargar el DOM
+    // Eventos UI
     document.getElementById("userChip").addEventListener("click", openProfileModal);
     document.getElementById("tabPlay").addEventListener("click", () => switchTab("play"));
+    document.getElementById("tabQuotes").addEventListener("click", () => switchTab("quotes"));
+    document.getElementById("tabWiki").addEventListener("click", () => switchTab("wiki"));
     document.getElementById("tabRank").addEventListener("click", () => switchTab("rank"));
+
     document.getElementById("startBtn").addEventListener("click", startGame);
     document.getElementById("nextBtn").addEventListener("click", nextQuestion);
     document.getElementById("shareBtn").addEventListener("click", shareWhatsApp);
     document.getElementById("goRankBtn").addEventListener("click", () => switchTab("rank"));
-    document.getElementById("restartBtn").addEventListener("click", resetToStart);
+    document.getElementById("restartBtn").addEventListener("click", () => {
+      document.getElementById("endScreen").classList.add("hidden");
+      document.getElementById("startScreen").classList.remove("hidden");
+    });
+
+    document.getElementById("qStartBtn").addEventListener("click", startQuotesGame);
+    document.getElementById("qqNextBtn").addEventListener("click", nextQuoteQuestion);
+    document.getElementById("qqShareBtn").addEventListener("click", shareQuotesWhatsApp);
+    document.getElementById("qqPlayAgainBtn").addEventListener("click", startQuotesGame);
+    document.getElementById("qqGoRankBtn").addEventListener("click", () => switchTab("rank"));
+
     document.getElementById("refreshRankBtn").addEventListener("click", () => {
       if (window.TT_STATE.loadBoardsFn) window.TT_STATE.loadBoardsFn();
     });
@@ -1072,16 +1438,46 @@
       window.TT_STATE.todayKey = info.key;
       window.TT_STATE.todayReadable = info.readable;
 
+      // 1. Efeméride diaria
       try {
         const res = await fetch(`./data/efemerides/${info.key}.json`, { cache: "no-store" });
         if (!res.ok) throw new Error("Sin JSON diario");
-        const json = await res.json();
-        applyDayDataToUI(json);
+        applyDayDataToUI(await res.json());
       } catch (_) {
         window.TT_STATE.todayKey = "11-23";
         window.TT_STATE.todayReadable = "23 de Noviembre";
         applyDayDataToUI(FALLBACK_11_23);
       }
+
+      // 2. Archivo ¿Quién dijo esto? (2.348 preguntas)
+      try {
+        const resQ = await fetch("./data/quien_dijo_esto.json", { cache: "no-store" });
+        if (!resQ.ok) throw new Error("Sin archivo de citas");
+        const dataQ = await resQ.json();
+        window.QUOTE_STATE.pool = dataQ.preguntas || [];
+        document.getElementById("qPoolTotal").textContent = window.QUOTE_STATE.pool.length;
+      } catch (_) {
+        window.QUOTE_STATE.pool = FALLBACK_11_23.preguntas.map(p => ({
+          cita: p.cita,
+          opciones: p.opciones,
+          correcta: p.correcta,
+          autor: p.opciones[p.correcta],
+          anio: p.anio,
+          contexto: p.explicacion
+        }));
+        document.getElementById("qPoolTotal").textContent = `${window.QUOTE_STATE.pool.length} (demo)`;
+      }
+
+      // 3. Archivo Enciclopedia TT (opcional si ya lo subiste)
+      try {
+        const resB = await fetch("./data/biografias_tt.json", { cache: "no-store" });
+        if (resB.ok) {
+          const dataB = await resB.json();
+          (dataB.miembros || []).forEach(m => {
+            window.TT_STATE.biosMap[m.nombre] = m;
+          });
+        }
+      } catch (_) {}
 
       if (window.TT_STATE.playerName) {
         document.getElementById("userChip").textContent = `👤 ${window.TT_STATE.playerName}`;
@@ -1119,7 +1515,7 @@
 
       if (!st.currentUser) {
         banner.className = "status-banner";
-        banner.textContent = "Activa Authentication -> Anónimo en Firebase para guardar tus puntos en la nube.";
+        banner.textContent = "Activa Authentication -> Anónimo en Firebase para guardar tus puntos.";
         return;
       }
 
@@ -1139,10 +1535,28 @@
           startBtn.textContent = "🚀 Empezar Partida Oficial";
         }
       } catch (e) {
-        console.error("Error Firestore:", e);
         banner.className = "status-banner";
         banner.textContent = "Firestore pendiente de activar o reglas sin publicar.";
       }
+    }
+
+    async function addPointsToGlobalRanking(pts, hitsCount, totalCount, lastTag) {
+      const globalRef = doc(db, "ranking_global", st.currentUser.uid);
+      const globalSnap = await getDoc(globalRef);
+      const prev = globalSnap.exists() ? globalSnap.data() : {
+        puntosTotales: 0, diasJugados: 0, aciertosTotales: 0, preguntasTotales: 0
+      };
+
+      await setDoc(globalRef, {
+        uid: st.currentUser.uid,
+        jugador: st.playerName,
+        puntosTotales: (prev.puntosTotales || 0) + pts,
+        diasJugados: (prev.diasJugados || 0) + 1,
+        aciertosTotales: (prev.aciertosTotales || 0) + hitsCount,
+        preguntasTotales: (prev.preguntasTotales || 0) + totalCount,
+        ultimaPartida: lastTag,
+        actualizado: serverTimestamp()
+      });
     }
 
     st.saveScoreFn = async function() {
@@ -1173,38 +1587,39 @@
           timestamp: serverTimestamp()
         });
 
-        const globalRef = doc(db, "ranking_global", st.currentUser.uid);
-        const globalSnap = await getDoc(globalRef);
-        const prev = globalSnap.exists() ? globalSnap.data() : {
-          puntosTotales: 0, diasJugados: 0, aciertosTotales: 0, preguntasTotales: 0
-        };
-
-        await setDoc(globalRef, {
-          uid: st.currentUser.uid,
-          jugador: st.playerName,
-          puntosTotales: (prev.puntosTotales || 0) + st.score,
-          diasJugados: (prev.diasJugados || 0) + 1,
-          aciertosTotales: (prev.aciertosTotales || 0) + st.hits,
-          preguntasTotales: (prev.preguntasTotales || 0) + st.questions.length,
-          ultimaPartida: st.todayKey,
-          actualizado: serverTimestamp()
-        });
+        await addPointsToGlobalRanking(st.score, st.hits, st.questions.length, st.todayKey);
 
         st.alreadyPlayedToday = true;
         saveBanner.className = "status-banner ok";
         saveBanner.textContent = `✅ ¡Puntuación oficial guardada en TTpedia para ${st.playerName}!`;
         await checkTodayStatus();
       } catch (err) {
-        console.error("Error guardando:", err);
         saveBanner.className = "status-banner";
         saveBanner.textContent = "Error al guardar en Firestore. Revisa las reglas de seguridad.";
+      }
+    };
+
+    st.saveQuoteScoreFn = async function(pts, hitsCount, totalCount) {
+      const banner = document.getElementById("qqSaveBanner");
+      if (!st.currentUser) {
+        banner.className = "status-banner";
+        banner.textContent = "Sin sesión activa en Firebase: puntos solo locales.";
+        return;
+      }
+      try {
+        await addPointsToGlobalRanking(pts, hitsCount, totalCount, "quien_dijo_esto");
+        banner.className = "status-banner ok";
+        banner.textContent = `✅ ¡+${pts} pts sumados a la Clasificación General para ${st.playerName}!`;
+      } catch (e) {
+        banner.className = "status-banner";
+        banner.textContent = "No se pudieron sumar los puntos a Firestore.";
       }
     };
 
     st.loadBoardsFn = async function() {
       const todayList = document.getElementById("todayRankList");
       const globalList = document.getElementById("globalRankList");
-      document.getElementById("todayRankTitle").textContent = `📅 Podio de Hoy (${st.todayReadable})`;
+      document.getElementById("todayRankTitle").textContent = `📅 Podio Efemérides (${st.todayReadable})`;
 
       if (!st.currentUser) {
         todayList.innerHTML = `<div class="rank-sub">Activa Authentication Anónimo para ver el podio.</div>`;
@@ -1220,7 +1635,7 @@
         rowsToday.sort((a, b) => (b.puntos - a.puntos) || (b.aciertos - a.aciertos));
 
         todayList.innerHTML = rowsToday.length === 0
-          ? `<div class="rank-sub">Nadie ha jugado todavía hoy. ¡Sé el primero!</div>`
+          ? `<div class="rank-sub">Nadie ha jugado todavía las efemérides de hoy. ¡Sé el primero!</div>`
           : rowsToday.map((r, i) => `
               <div class="rank-row ${r.uid === st.currentUser.uid ? "me" : ""}">
                 <div class="rank-left">
@@ -1247,14 +1662,13 @@
                   <div class="rank-pos">${i === 0 ? "👑" : i + 1}</div>
                   <div>
                     <div class="rank-name">${r.jugador}</div>
-                    <div class="rank-sub">${r.diasJugados} días · ${r.aciertosTotales}/${r.preguntasTotales} aciertos</div>
+                    <div class="rank-sub">${r.diasJugados} partidas · ${r.aciertosTotales}/${r.preguntasTotales} aciertos</div>
                   </div>
                 </div>
                 <div class="rank-pts">${r.puntosTotales} pts</div>
               </div>
             `).join("");
       } catch (e) {
-        console.error("Error leyendo ranking:", e);
         todayList.innerHTML = `<div class="rank-sub">No se pudo leer el ranking. Comprueba Firestore y sus reglas.</div>`;
       }
     };
@@ -1269,7 +1683,6 @@
     try {
       await signInAnonymously(auth);
     } catch (e) {
-      console.error("Error Auth:", e);
       await checkTodayStatus();
     }
   </script>
