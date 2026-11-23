@@ -3,1957 +3,1582 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TTpedia · La Biblia del Triangulito Team</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2300a884'/><text x='50' y='67' font-size='50' font-family='Arial' font-weight='900' fill='%23062119' text-anchor='middle'>TT</text></svg>" />
+  <title>TTpedia — Archivo Histórico del Triangulito Team</title>
   <style>
     :root {
-      --bg: #0b141a;
-      --surface: #111b21;
-      --card: #1f2c34;
-      --card-hover: #273741;
-      --accent: #00a884;
-      --accent-soft: rgba(0, 168, 132, 0.16);
-      --pink: #ff2a85;
-      --pink-soft: rgba(255, 42, 133, 0.16);
-      --amber: #f59e0b;
-      --amber-soft: rgba(245, 158, 11, 0.16);
-      --vox: #63be21;
-      --vox-soft: rgba(99, 190, 33, 0.16);
-      --blue: #38bdf8;
-      --blue-soft: rgba(56, 189, 248, 0.16);
+      --bg: #0b0e14;
+      --bg-elevated: #121722;
+      --card: #161c2a;
+      --card-hover: #1d2536;
+      --border: #263044;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --accent: #f59e0b;
+      --accent-soft: rgba(245, 158, 11, 0.14);
+      --red: #ef4444;
+      --red-soft: rgba(239, 68, 68, 0.14);
+      --green: #10b981;
+      --green-soft: rgba(16, 185, 129, 0.14);
+      --blue: #3b82f6;
+      --blue-soft: rgba(59, 130, 246, 0.14);
       --purple: #a855f7;
-      --purple-soft: rgba(168, 85, 247, 0.16);
-      --gold: #f5b942;
-      --text: #e9edef;
-      --muted: #8696a0;
-      --danger: #ef5350;
-      --danger-soft: rgba(239, 83, 80, 0.18);
-      --border: rgba(255, 255, 255, 0.08);
+      --purple-soft: rgba(168, 85, 247, 0.14);
+      --pink: #ec4899;
+      --pink-soft: rgba(236, 72, 153, 0.14);
+      --radius: 16px;
+      --shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
     }
 
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
 
     body {
-      background: radial-gradient(circle at top, #13272e 0%, var(--bg) 60%);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at top center, #151c2c 0%, var(--bg) 55%);
       color: var(--text);
       min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      padding: 14px;
+      line-height: 1.5;
+      padding-bottom: 48px;
     }
 
-    .app {
-      width: 100%;
-      max-width: 620px;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
+    a, button, select, input {
+      font-family: inherit;
     }
 
-    .topbar {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 12px 16px;
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* HEADER */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(11, 14, 20, 0.86);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-bar {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+      height: 64px;
+      gap: 12px;
     }
 
-    .brand { display: flex; align-items: center; gap: 10px; cursor: pointer; }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      user-select: none;
+    }
 
-    .badge-tt {
-      width: 38px;
-      height: 38px;
-      border-radius: 11px;
-      background: linear-gradient(135deg, var(--accent), #007a5e);
-      color: #062119;
-      font-weight: 900;
-      font-size: 15px;
+    .brand-logo {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #f59e0b, #ef4444);
       display: grid;
       place-items: center;
+      font-weight: 900;
+      font-size: 16px;
+      color: #0b0e14;
       letter-spacing: -0.5px;
-      flex-shrink: 0;
+      box-shadow: 0 4px 14px rgba(245, 158, 11, 0.35);
     }
 
-    .brand h1 { font-size: 17px; font-weight: 800; line-height: 1.15; }
-    .brand span { font-size: 12px; color: var(--muted); display: block; }
+    .brand-title {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+    }
 
-    .top-actions { display: flex; align-items: center; gap: 8px; }
+    .brand-title span {
+      color: var(--accent);
+    }
 
-    .home-btn {
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icon-btn {
       background: var(--card);
       border: 1px solid var(--border);
       color: var(--text);
-      padding: 6px 11px;
-      border-radius: 999px;
-      font-size: 12px;
-      font-weight: 700;
-      cursor: pointer;
-    }
-
-    .user-chip {
-      background: var(--card);
-      border: 1px solid var(--border);
-      padding: 6px 12px;
-      border-radius: 999px;
-      font-size: 12px;
-      font-weight: 700;
-      color: #5cf2ce;
-      cursor: pointer;
-      white-space: nowrap;
-    }
-
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 18px;
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .card.daily-hero {
-      background: linear-gradient(160deg, #122d2a 0%, var(--surface) 65%);
-      border-color: rgba(0, 168, 132, 0.35);
-    }
-
-    .card.porno-card { border-color: rgba(255, 42, 133, 0.32); background: linear-gradient(180deg, #1d121d 0%, var(--surface) 50%); }
-    .card.comida-card { border-color: rgba(245, 158, 11, 0.32); background: linear-gradient(180deg, #211a11 0%, var(--surface) 50%); }
-    .card.vox-card { border-color: rgba(99, 190, 33, 0.32); background: linear-gradient(180deg, #142112 0%, var(--surface) 50%); }
-    .card.lodijo-card { border-color: rgba(56, 189, 248, 0.32); background: linear-gradient(180deg, #101e2b 0%, var(--surface) 50%); }
-    .card.dato-card { border-color: rgba(168, 85, 247, 0.32); background: linear-gradient(180deg, #1b1229 0%, var(--surface) 50%); }
-
-    .section-heading {
-      font-size: 13px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-      color: var(--muted);
-      padding-left: 4px;
-      margin-top: 2px;
-    }
-
-    .menu-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-
-    .menu-tile {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 15px 14px;
-      text-align: left;
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      transition: transform 0.12s ease, border-color 0.15s ease, background 0.15s ease;
-    }
-
-    .menu-tile:hover { background: var(--card); transform: translateY(-2px); border-color: rgba(255, 255, 255, 0.2); }
-    .menu-tile.full { grid-column: span 2; }
-    .menu-tile.tile-porno { border-color: rgba(255, 42, 133, 0.3); }
-    .menu-tile.tile-comida { border-color: rgba(245, 158, 11, 0.3); }
-    .menu-tile.tile-vox { border-color: rgba(99, 190, 33, 0.3); }
-    .menu-tile.tile-lodijo { border-color: rgba(56, 189, 248, 0.3); }
-    .menu-tile.tile-dato { border-color: rgba(168, 85, 247, 0.3); }
-
-    .tile-top { display: flex; align-items: center; justify-content: space-between; }
-    .tile-icon { font-size: 24px; }
-    .tile-badge {
-      font-size: 11px;
-      font-weight: 800;
-      padding: 3px 8px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.07);
-      color: var(--muted);
-    }
-    .tile-title { font-size: 15px; font-weight: 800; color: var(--text); }
-    .tile-desc { font-size: 12px; color: var(--muted); line-height: 1.35; }
-
-    .hero { text-align: center; padding: 4px 2px; display: flex; flex-direction: column; align-items: center; gap: 11px; }
-    .hero-icon { font-size: 38px; }
-    .hero h2 { font-size: 20px; font-weight: 800; }
-    .hero p { color: var(--muted); font-size: 13.5px; line-height: 1.48; max-width: 460px; }
-
-    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; width: 100%; }
-    .stat-box { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px 6px; text-align: center; }
-    .stat-box strong { display: block; font-size: 17px; color: var(--text); }
-    .stat-box span { font-size: 11px; color: var(--muted); }
-
-    .player-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: 100%; }
-    .player-pill {
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 13px 8px;
-      border-radius: 12px;
-      font-size: 14px;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.12s ease;
-    }
-    .player-pill:hover, .player-pill.selected { background: var(--accent-soft); border-color: var(--accent); color: #5cf2ce; }
-
-    .status-banner {
-      width: 100%;
-      background: rgba(245, 185, 66, 0.12);
-      border: 1px solid rgba(245, 185, 66, 0.35);
-      color: #fbd37d;
-      padding: 10px 13px;
-      border-radius: 12px;
-      font-size: 12.5px;
-      line-height: 1.4;
-      text-align: left;
-    }
-    .status-banner.ok { background: var(--accent-soft); border-color: rgba(0, 168, 132, 0.35); color: #6df5d4; }
-
-    .progress-wrap { background: var(--card); border-radius: 12px; padding: 10px 14px; }
-    .progress-meta { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-bottom: 6px; font-weight: 700; }
-    .progress-bar { height: 7px; background: #111b21; border-radius: 999px; overflow: hidden; }
-    .progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent), #34e0b8); border-radius: 999px; transition: width 0.3s ease; }
-    .progress-fill.pink { background: linear-gradient(90deg, var(--pink), #ff7ab8); }
-    .progress-fill.amber { background: linear-gradient(90deg, var(--amber), #fcd34d); }
-    .progress-fill.vox { background: linear-gradient(90deg, var(--vox), #a3e635); }
-    .progress-fill.blue { background: linear-gradient(90deg, var(--blue), #7dd3fc); }
-    .progress-fill.purple { background: linear-gradient(90deg, var(--purple), #d8b4fe); }
-
-    .meta-tags { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-    .tag-year { background: var(--accent-soft); color: #4ce3bf; border: 1px solid rgba(0, 168, 132, 0.35); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
-    .tag-pink { background: var(--pink-soft); color: #ff7ab8; border: 1px solid rgba(255, 42, 133, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
-    .tag-amber { background: var(--amber-soft); color: #fcd34d; border: 1px solid rgba(245, 158, 11, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
-    .tag-vox { background: var(--vox-soft); color: #a3e635; border: 1px solid rgba(99, 190, 33, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
-    .tag-blue { background: var(--blue-soft); color: #7dd3fc; border: 1px solid rgba(56, 189, 248, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
-    .tag-purple { background: var(--purple-soft); color: #d8b4fe; border: 1px solid rgba(168, 85, 247, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
-    .tag-date { background: rgba(255, 255, 255, 0.05); color: var(--muted); font-size: 12px; padding: 4px 10px; border-radius: 999px; }
-
-    .question-text { font-size: 18px; line-height: 1.42; font-weight: 700; color: #f5f7f8; }
-
-    .prev-msg-box {
-      background: rgba(255, 255, 255, 0.05);
-      border-left: 3px solid var(--muted);
-      padding: 9px 12px;
+      height: 38px;
+      padding: 0 12px;
       border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
       font-size: 13px;
-      color: #b8c4cc;
-      line-height: 1.38;
-    }
-
-    .prev-msg-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--muted); font-weight: 800; display: block; margin-bottom: 2px; }
-
-    .quote-highlight {
-      background: #005c4b;
-      color: #e9edef;
-      padding: 15px 16px;
-      border-radius: 14px 14px 14px 3px;
-      font-size: 16.5px;
-      font-weight: 700;
-      line-height: 1.45;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-    }
-
-    .quote-highlight.porno-bubble { background: linear-gradient(135deg, #4b1230, #2c1324); border-color: rgba(255, 42, 133, 0.38); color: #ffe6f2; }
-    .quote-highlight.comida-bubble { background: linear-gradient(135deg, #473011, #291d11); border-color: rgba(245, 158, 11, 0.38); color: #fef3c7; }
-    .quote-highlight.vox-bubble { background: linear-gradient(135deg, #1f3d12, #152611); border-color: rgba(99, 190, 33, 0.38); color: #ecfccb; }
-    .quote-highlight.lodijo-bubble { background: linear-gradient(135deg, #12344d, #112233); border-color: rgba(56, 189, 248, 0.38); color: #e0f2fe; }
-
-    .options { display: flex; flex-direction: column; gap: 9px; }
-    .options.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-
-    .option-btn {
-      width: 100%;
-      text-align: left;
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 13px 15px;
-      border-radius: 13px;
-      font-size: 15px;
       font-weight: 600;
       cursor: pointer;
-      display: flex;
+      transition: 0.18s ease;
+    }
+
+    .icon-btn:hover {
+      background: var(--card-hover);
+      border-color: var(--accent);
+    }
+
+    .player-chip {
+      background: var(--accent-soft);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      color: #fcd34d;
+      height: 38px;
+      padding: 0 12px;
+      border-radius: 10px;
+      display: inline-flex;
       align-items: center;
-      gap: 12px;
-      transition: transform 0.1s ease, background 0.15s ease, border-color 0.15s ease;
-    }
-
-    .option-btn.center-btn { justify-content: center; text-align: center; padding: 16px 10px; font-weight: 800; }
-    .option-btn:hover:not(:disabled) { background: var(--card-hover); border-color: rgba(255, 255, 255, 0.2); transform: translateY(-1px); }
-    .option-btn:disabled { cursor: default; }
-
-    .opt-letter {
-      width: 28px;
-      height: 28px;
-      border-radius: 8px;
-      background: rgba(255, 255, 255, 0.07);
-      display: grid;
-      place-items: center;
+      gap: 6px;
       font-size: 13px;
-      font-weight: 800;
-      color: var(--muted);
-      flex-shrink: 0;
+      font-weight: 700;
+      cursor: pointer;
     }
 
-    .option-btn.correct { background: var(--accent-soft); border-color: var(--accent); color: #ffffff; }
-    .option-btn.correct .opt-letter { background: var(--accent); color: #062119; }
-    .option-btn.wrong { background: var(--danger-soft); border-color: var(--danger); color: #ffd7d6; }
-    .option-btn.wrong .opt-letter { background: var(--danger); color: #fff; }
+    /* MANIFESTO HERO */
+    .hero {
+      padding: 28px 0 18px;
+      text-align: center;
+    }
 
-    /* Controles El Dato Justo */
-    .dato-controls {
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      border-radius: 999px;
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      align-items: center;
-    }
-
-    .dato-input-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      width: 100%;
-    }
-
-    .dato-number-input {
-      flex: 1;
-      background: #111b21;
-      border: 1px solid rgba(168, 85, 247, 0.5);
-      color: #ffffff;
-      font-size: 22px;
-      font-weight: 800;
-      padding: 12px;
-      border-radius: 12px;
-      text-align: center;
-      outline: none;
-    }
-
-    .dato-slider {
-      width: 100%;
-      accent-color: var(--purple);
-      cursor: pointer;
-    }
-
-    .dato-range-labels {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      font-size: 11.5px;
       color: var(--muted);
-      font-weight: 700;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 12px;
     }
 
-    .feedback { display: none; flex-direction: column; gap: 11px; background: #16232b; border: 1px solid var(--border); border-radius: 14px; padding: 14px; }
-    .feedback.visible { display: flex; }
+    .hero h1 {
+      font-size: clamp(24px, 4vw, 34px);
+      font-weight: 900;
+      letter-spacing: -0.6px;
+      margin-bottom: 8px;
+    }
 
-    .wa-bubble { background: #005c4b; color: #e9edef; padding: 10px 13px; border-radius: 12px 12px 12px 2px; font-size: 14px; line-height: 1.38; }
-    .wa-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #8ce3cf; font-weight: 700; margin-bottom: 3px; display: block; }
-    .explanation { font-size: 13.5px; line-height: 1.45; color: #cfd8dc; }
+    .hero h1 span {
+      color: var(--accent);
+    }
+
+    .hero p {
+      color: var(--muted);
+      max-width: 650px;
+      margin: 0 auto;
+      font-size: 15px;
+    }
+
+    /* EFEMERIDE PROTAGONIST CARD */
+    .efem-card {
+      margin: 18px 0 30px;
+      background: linear-gradient(145deg, #1b2234 0%, #121722 100%);
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .efem-card::before {
+      content: "";
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 210px;
+      height: 210px;
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.18), transparent 70%);
+      pointer-events: none;
+    }
+
+    .efem-info {
+      flex: 1 1 340px;
+    }
+
+    .efem-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .efem-info h2 {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .efem-info p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .efem-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .date-input {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 11px 14px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+    }
 
     .btn-primary {
-      background: var(--accent);
-      color: #062119;
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: #0b0e14;
       border: none;
+      padding: 12px 20px;
       border-radius: 12px;
-      padding: 13px 16px;
-      font-size: 14.5px;
       font-weight: 800;
+      font-size: 14px;
       cursor: pointer;
-      width: 100%;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      box-shadow: 0 6px 18px rgba(245, 158, 11, 0.3);
     }
-    .btn-primary.pink { background: linear-gradient(135deg, var(--pink), #d81b60); color: #fff; }
-    .btn-primary.amber { background: linear-gradient(135deg, var(--amber), #d97706); color: #1f1202; }
-    .btn-primary.vox { background: linear-gradient(135deg, var(--vox), #4d9a16); color: #0b1c04; }
-    .btn-primary.blue { background: linear-gradient(135deg, var(--blue), #0284c7); color: #061826; }
-    .btn-primary.purple { background: linear-gradient(135deg, var(--purple), #7e22ce); color: #ffffff; }
-    .btn-primary:hover { filter: brightness(1.08); }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 22px rgba(245, 158, 11, 0.45);
+    }
 
     .btn-secondary {
       background: var(--card);
       color: var(--text);
       border: 1px solid var(--border);
+      padding: 10px 16px;
       border-radius: 12px;
-      padding: 12px 16px;
-      font-size: 13.5px;
       font-weight: 700;
+      font-size: 13px;
       cursor: pointer;
-      width: 100%;
+      transition: 0.15s ease;
     }
 
-    .debate-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
-    .debate-title { font-size: 15px; font-weight: 800; color: #fcd34d; }
-    .debate-resumen { font-size: 13px; color: #cfd8dc; line-height: 1.4; }
-    .debate-line { background: #142026; padding: 8px 11px; border-radius: 10px; font-size: 13px; line-height: 1.38; border-left: 3px solid var(--amber); }
+    .btn-secondary:hover {
+      background: var(--card-hover);
+      border-color: var(--muted);
+    }
 
-    .rank-section-title { font-size: 13px; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: 0.4px; }
-    .rank-list { display: flex; flex-direction: column; gap: 8px; }
-    .rank-row { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px 13px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-    .rank-row.me { border-color: var(--accent); background: var(--accent-soft); }
-    .rank-left { display: flex; align-items: center; gap: 10px; }
-    .rank-pos { width: 26px; height: 26px; border-radius: 8px; background: rgba(255, 255, 255, 0.08); display: grid; place-items: center; font-size: 12px; font-weight: 800; }
-    .rank-name { font-weight: 700; font-size: 14px; }
-    .rank-sub { font-size: 11px; color: var(--muted); }
-    .rank-pts { font-weight: 800; font-size: 13.5px; color: var(--gold); }
+    /* SECTION HEADERS */
+    .section-block {
+      margin-top: 32px;
+    }
 
-    .bio-header { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 15px; display: flex; flex-direction: column; gap: 6px; }
-    .bio-title { font-size: 19px; font-weight: 800; color: #5cf2ce; }
-    .bio-role { font-size: 13px; font-weight: 700; color: var(--gold); }
-    .bio-lore { font-size: 13.5px; line-height: 1.55; color: #d7e0e5; white-space: pre-line; }
-    .bio-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-    .bio-tag { background: var(--accent-soft); border: 1px solid rgba(0, 168, 132, 0.35); color: #6df5d4; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px; }
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 14px;
+      gap: 12px;
+    }
 
-    .toast { text-align: center; font-size: 13px; color: #5cf2ce; min-height: 18px; }
-    .hidden { display: none !important; }
+    .section-header h3 {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .section-header span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* GRID CARDS */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+
+    .mode-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      cursor: pointer;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .mode-card:hover {
+      transform: translateY(-3px);
+      background: var(--card-hover);
+      border-color: var(--accent);
+    }
+
+    .mode-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .mode-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 11px;
+      display: grid;
+      place-items: center;
+      font-size: 20px;
+    }
+
+    .mode-pill {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--muted);
+    }
+
+    .mode-card h4 {
+      font-size: 16px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .mode-card p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    /* ESTRENOS DE CARTTELERA */
+    .carttelera-box {
+      background: linear-gradient(135deg, #1b1326 0%, #121722 65%, #1d1518 100%);
+      border: 1px solid rgba(239, 68, 68, 0.45);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    @media (min-width: 760px) {
+      .carttelera-box {
+        grid-template-columns: 1.45fr 1fr;
+        align-items: stretch;
+      }
+    }
+
+    .poster-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .cinema-badges {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .badge-live {
+      background: var(--red);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 6px;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+    }
+
+    .badge-season {
+      background: rgba(255, 255, 255, 0.08);
+      color: #e2e8f0;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .poster-main h4 {
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+      color: #fff;
+    }
+
+    .poster-main p {
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+
+    .poster-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .poster-side {
+      background: rgba(11, 14, 20, 0.65);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .countdown-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .countdown-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .cd-cell {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 4px;
+      text-align: center;
+    }
+
+    .cd-num {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--accent);
+      display: block;
+      line-height: 1.1;
+    }
+
+    .cd-unit {
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .next-preview {
+      border-top: 1px dashed var(--border);
+      padding-top: 10px;
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+
+    .next-preview strong {
+      color: var(--text);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* VIEW PANELS (GAME / ARCHIVE / MODAL) */
+    .view-panel {
+      display: none;
+      margin-top: 22px;
+      animation: fadeIn 0.2s ease;
+    }
+
+    .view-panel.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .panel-topbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .quiz-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .quiz-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 14px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .pill-score {
+      background: var(--accent-soft);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+    }
+
+    .quote-box {
+      background: var(--bg);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+      padding: 16px;
+      margin: 14px 0 18px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #f8fafc;
+    }
+
+    .quote-context {
+      display: block;
+      font-size: 12.5px;
+      font-weight: 400;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .censored {
+      background: var(--red-soft);
+      color: #fca5a5;
+      border: 1px dashed var(--red);
+      padding: 1px 7px;
+      border-radius: 6px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+
+    .options-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .opt-btn {
+      width: 100%;
+      text-align: left;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 14px 16px;
+      border-radius: 12px;
+      font-size: 14.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.15s ease;
+    }
+
+    .opt-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      background: var(--card-hover);
+    }
+
+    .opt-btn.correct {
+      background: var(--green-soft);
+      border-color: var(--green);
+      color: #6ee7b7;
+    }
+
+    .opt-btn.wrong {
+      background: var(--red-soft);
+      border-color: var(--red);
+      color: #fca5a5;
+    }
+
+    .feedback-box {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      font-size: 13.5px;
+      display: none;
+    }
+
+    .feedback-box.show {
+      display: block;
+    }
+
+    /* ARCHIVE / ENCYCLOPEDIA LISTS */
+    .archive-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+
+    .archive-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .member-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+    }
+
+    .member-card h4 {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+
+    .member-role {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .member-stats {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .stat-tag {
+      font-size: 11px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 3px 8px;
+      border-radius: 8px;
+      color: #cbd5e1;
+    }
+
+    /* MODAL */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.72);
+      backdrop-filter: blur(4px);
+      display: none;
+      place-items: center;
+      z-index: 60;
+      padding: 16px;
+    }
+
+    .modal-backdrop.open {
+      display: grid;
+    }
+
+    .modal-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      max-width: 460px;
+      width: 100%;
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .modal-card h3 {
+      font-size: 19px;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .player-select-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .rank-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1e293b;
+      color: #fff;
+      border: 1px solid var(--accent);
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      z-index: 80;
+      display: none;
+    }
   </style>
 </head>
 <body>
-  <main class="app">
-    <header class="topbar">
-      <div class="brand" id="brandHomeBtn">
-        <div class="badge-tt">TT</div>
-        <div>
-          <h1>TTpedia</h1>
-          <span id="headerDateLabel">La Biblia del Triangulito Team</span>
-        </div>
+
+  <!-- CABECERA -->
+  <header>
+    <div class="container nav-bar">
+      <div class="brand" onclick="goHome()">
+        <div class="brand-logo">TT</div>
+        <div class="brand-title">TT<span>pedia</span></div>
       </div>
-      <div class="top-actions">
-        <button class="home-btn hidden" id="backHomeBtn" type="button">← Inicio</button>
-        <button class="user-chip" id="userChip" type="button">👤 Elegir nombre</button>
-      </div>
-    </header>
-
-    <!-- PANTALLA 0: SELECCIÓN DE USUARIO -->
-    <section class="card hidden" id="profileScreen">
-      <div class="hero">
-        <div class="hero-icon">🪪</div>
-        <h2>¿Quién eres del Triangulito Team?</h2>
-        <p>Elige tu perfil una única vez para entrar a la TTpedia y sumar puntos en el ranking del grupo.</p>
-        <div class="player-grid" id="playerGrid"></div>
-      </div>
-    </section>
-
-    <!-- LANDING PAGE PRINCIPAL -->
-    <div id="homeView" style="display:flex;flex-direction:column;gap:14px;">
-      <div class="stats-grid" id="globalHeroStats">
-        <div class="stat-box"><strong id="statGlobalMsgs">319.788</strong><span>Mensajes TT</span></div>
-        <div class="stat-box"><strong>9</strong><span>Integrantes</span></div>
-        <div class="stat-box"><strong>2012-26</strong><span>Hemeroteca</span></div>
-      </div>
-
-      <section class="card daily-hero">
-        <div class="hero">
-          <div class="hero-icon">📜</div>
-          <h2 id="heroDayTitle">Efeméride del Día</h2>
-          <p id="heroDayDesc">Cargando archivo histórico del grupo...</p>
-
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="statMsgs">-</strong><span>Mensajes hoy</span></div>
-            <div class="stat-box"><strong id="statPregs">-</strong><span>Preguntas</span></div>
-            <div class="stat-box"><strong id="statYears">-</strong><span>Años</span></div>
-          </div>
-
-          <div class="status-banner ok" id="dailyStatusBanner">Conectando con TTpedia Cloud...</div>
-
-          <button class="btn-primary" id="startDailyBtn" type="button">🚀 Jugar Efeméride del Día</button>
-        </div>
-      </section>
-
-      <!-- BLOQUE JUEGOS -->
-      <div class="section-heading">🎮 Juegos del TT</div>
-      <div class="menu-grid">
-        <button class="menu-tile" id="openQuotesTile" type="button">
-          <div class="tile-top">
-            <span class="tile-icon">💬</span>
-            <span class="tile-badge" id="tileQuotesCount">Citas</span>
-          </div>
-          <div class="tile-title">¿Quién dijo esto?</div>
-          <div class="tile-desc">Rondas de 10 opiniones y piques míticos con el mensaje previo.</div>
+      <div class="nav-actions">
+        <button class="icon-btn" onclick="openRankingModal()" title="Clasificación y Podio">
+          🏆 <span>Clasificación</span>
         </button>
-
-        <button class="menu-tile tile-lodijo" id="openLoDijoTile" type="button">
-          <div class="tile-top">
-            <span class="tile-icon">⚖️</span>
-            <span class="tile-badge" id="tileLoDijoCount">Real o Invent</span>
-          </div>
-          <div class="tile-title">¿Lo dijo o no lo dijo?</div>
-          <div class="tile-desc">Adivina si la frase es real del chat o un invento al estilo TT.</div>
-        </button>
-
-        <button class="menu-tile tile-dato" id="openDatoTile" type="button">
-          <div class="tile-top">
-            <span class="tile-icon">🎯</span>
-            <span class="tile-badge" id="tileDatoCount">Estadística</span>
-          </div>
-          <div class="tile-title">El Dato Justo</div>
-          <div class="tile-desc">Clava el número exacto de mensajes, récords y palabrotas del grupo.</div>
-        </button>
-
-        <button class="menu-tile" id="openWikiTile" type="button">
-          <div class="tile-top">
-            <span class="tile-icon">📖</span>
-            <span class="tile-badge">9 perfiles</span>
-          </div>
-          <div class="tile-title">Enciclopedia TT</div>
-          <div class="tile-desc">Biografías, estadísticas, obsesiones y citas de cada miembro.</div>
-        </button>
-
-        <button class="menu-tile full" id="openRankTile" type="button">
-          <div class="tile-top">
-            <span class="tile-icon">🏆</span>
-            <span class="tile-badge">En vivo</span>
-          </div>
-          <div class="tile-title">Clasificación y Podio del Día</div>
-          <div class="tile-desc">Consulta quién lidera las efemérides de hoy y el ranking histórico del grupo.</div>
-        </button>
-      </div>
-
-      <!-- BLOQUE SECCIONES TEMÁTICAS -->
-      <div class="section-heading">📂 Secciones Temáticas</div>
-      <div class="menu-grid">
-        <button class="menu-tile tile-porno" id="openPornoTile" type="button">
-          <div class="tile-top">
-            <span class="tile-icon">🔞</span>
-            <span class="tile-badge" id="tilePornoCount">+18</span>
-          </div>
-          <div class="tile-title">Pornopedia</div>
-          <div class="tile-desc">Confesiones sexuales, posturas y guarradas sin censura.</div>
-        </button>
-
-        <button class="menu-tile tile-comida" id="openComidaTile" type="button">
-          <div class="tile-top">
-            <span class="tile-icon">🍽️</span>
-            <span class="tile-badge" id="tileComidaCount">Gastronomía</span>
-          </div>
-          <div class="tile-title">El ComidisTTa</div>
-          <div class="tile-desc">Debates culinarios, paellas, kebabs y piques de comida.</div>
-        </button>
-
-        <button class="menu-tile full tile-vox" id="openVoxTile" type="button">
-          <div class="tile-top">
-            <span class="tile-icon">🟩</span>
-            <span class="tile-badge" id="tileVoxCount">Archivo</span>
-          </div>
-          <div class="tile-title">Zona VOX</div>
-          <div class="tile-desc">Hemeroteca sin filtros de las salidas de tono más bestias del grupo.</div>
+        <button class="player-chip" onclick="openPlayerModal()" id="currentPlayerChip">
+          👤 <span id="currentPlayerName">Joni</span>
         </button>
       </div>
     </div>
+  </header>
 
-    <!-- VISTA: EFEMÉRIDES QUIZ -->
-    <div id="dailyView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
-      <section class="card" id="quizScreen">
-        <div class="progress-wrap">
-          <div class="progress-meta">
-            <span id="progressLabel">Pregunta 1</span>
-            <span id="scoreStreakLabel">0 pts · Racha 0 🔥</span>
-          </div>
-          <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  <main class="container">
+    <!-- VISTA PORTADA (HOME) -->
+    <div id="homeView">
+      <!-- MANIFIESTO -->
+      <section class="hero">
+        <div class="hero-badge">📜 Archivo histórico · 2012 – 2026</div>
+        <h1><span>311.419 mensajes</span> recopilados para amenizar tus giñadas</h1>
+        <p>Toda la hemeroteca, piques, rajadas, apuestas ruinosas y salidas de tono del Triangulito Team convertidos en archivo interactivo.</p>
+      </section>
+
+      <!-- BLOQUE CENTRAL PROTAGONISTA: EFEMÉRIDE DEL DÍA -->
+      <section class="efem-card">
+        <div class="efem-info">
+          <div class="efem-tag">📅 Reto Diario Oficial</div>
+          <h2>Efeméride del Día · <span id="efemDateLabel">Hoy</span></h2>
+          <p>Preguntas reales extraídas de lo que pasó exactamente tal día como hoy en el grupo a lo largo de los años.</p>
         </div>
-
-        <div class="meta-tags">
-          <span class="tag-year" id="qYear">Año 2021</span>
-          <span class="tag-date" id="qDateTag">Archivo TT</span>
-          <span class="tag-date" id="qModeTag">Partida Oficial</span>
-        </div>
-
-        <h2 class="question-text" id="qText"></h2>
-        <div class="options" id="optionsBox"></div>
-
-        <div class="feedback" id="feedbackBox">
-          <div class="wa-bubble">
-            <span class="wa-label">💬 Mensaje original en el grupo</span>
-            <span id="qQuote"></span>
-          </div>
-          <p class="explanation" id="qExplanation"></p>
-          <button class="btn-primary" id="nextBtn" type="button">Siguiente pregunta →</button>
+        <div class="efem-controls">
+          <input type="date" id="efemDatePicker" class="date-input" />
+          <button class="btn-primary" onclick="startEfemeride()">Jugar Efeméride</button>
         </div>
       </section>
 
-      <section class="card hidden" id="endScreen">
-        <div class="hero">
-          <div class="hero-icon" id="endEmoji">🏆</div>
-          <h2 id="endTitle">¡Archivo completado!</h2>
-          <p id="endSubtitle"></p>
-
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="finalHits">0/0</strong><span>Aciertos</span></div>
-            <div class="stat-box"><strong id="finalScore">0</strong><span>Puntos</span></div>
-            <div class="stat-box"><strong id="finalStreak">0</strong><span>Mejor racha</span></div>
+      <!-- JUEGOS DEL TT -->
+      <section class="section-block">
+        <div class="section-header">
+          <h3>🎮 Juegos del TT</h3>
+          <span>Rondas rápidas · 10 preguntas por partida</span>
+        </div>
+        <div class="grid-2">
+          <div class="mode-card" onclick="startGame('quien_dijo')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--blue-soft); color: var(--blue);">💬</div>
+                <span class="mode-pill">¿Quién lo soltó?</span>
+              </div>
+              <h4>¿Quién dijo esto?</h4>
+              <p>Te damos el mensaje previo de contexto y una perla histórica del chat. Adivina quién fue el autor.</p>
+            </div>
           </div>
 
-          <div class="status-banner ok" id="saveResultBanner">Guardando puntuación...</div>
-
-          <button class="btn-primary" id="shareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
-          <div class="toast" id="copyToast"></div>
-          <button class="btn-secondary" id="goRankBtn" type="button">Ver Clasificación del TT 🏆</button>
-          <button class="btn-secondary" id="restartBtn" type="button">← Volver al Inicio</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- VISTA: ¿QUIÉN DIJO ESTO? -->
-    <div id="quotesView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
-      <section class="card" id="qStartScreen">
-        <div class="hero">
-          <div class="hero-icon">💬</div>
-          <h2>¿Quién dijo esta barbaridad?</h2>
-          <p>Rondas rápidas de 10 opiniones, piques y frases llamativas del chat histórico del TT.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="qPoolTotal">-</strong><span>Frases</span></div>
-            <div class="stat-box"><strong>10</strong><span>Por ronda</span></div>
-            <div class="stat-box"><strong>9</strong><span>Sospechosos</span></div>
+          <div class="mode-card" onclick="startGame('lo_dijo_o_no')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--purple-soft); color: var(--purple);">⚖️</div>
+                <span class="mode-pill">2 Verdades · 1 Impostor</span>
+              </div>
+              <h4>Lo dijo o no lo dijo</h4>
+              <p>Tres frases reales de la misma temática: dos salieron de su teclado y una es de otro compañero. Caza al impostor.</p>
+            </div>
           </div>
-          <button class="btn-primary" id="qStartBtn" type="button">🚀 Empezar Ronda de 10 Frases</button>
-        </div>
-      </section>
 
-      <section class="card hidden" id="qQuizScreen">
-        <div class="progress-wrap">
-          <div class="progress-meta">
-            <span id="qqProgressLabel">Frase 1 de 10</span>
-            <span id="qqScoreStreakLabel">0 pts · Racha 0 🔥</span>
+          <div class="mode-card" onclick="startGame('rajaditta')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--red-soft); color: var(--red);">🤬</div>
+                <span class="mode-pill">Censura activa</span>
+              </div>
+              <h4>La RajadiTTa</h4>
+              <p>Palo o vacile real con el nombre de la víctima censurado (<code style="color:#fca5a5;">***</code>). Adivina quién recibió el golpe.</p>
+            </div>
           </div>
-          <div class="progress-bar"><div class="progress-fill" id="qqProgressFill"></div></div>
-        </div>
-        <div class="meta-tags">
-          <span class="tag-year" id="qqYear">Año 2023</span>
-          <span class="tag-date">¿Quién lo soltó en el TT?</span>
-        </div>
-        <div class="prev-msg-box hidden" id="qqPrevBox">
-          <span class="prev-msg-label">↩️ Mensaje anterior en el hilo</span>
-          <span id="qqPrevText"></span>
-        </div>
-        <div class="quote-highlight" id="qqQuoteText"></div>
-        <div class="options" id="qqOptionsBox"></div>
-        <div class="feedback" id="qqFeedbackBox">
-          <p class="explanation" id="qqExplanation"></p>
-          <button class="btn-primary" id="qqNextBtn" type="button">Siguiente frase →</button>
+
+          <div class="mode-card" onclick="startGame('dato_justo')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--green-soft); color: var(--green);">🎯</div>
+                <span class="mode-pill">Duelos y Cifras</span>
+              </div>
+              <h4>El Dato Justo</h4>
+              <p>Duelos de menciones entre mitos del lore y retos de clavar cuántas veces se dijo cada palabreja en 14 años.</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="card hidden" id="qEndScreen">
-        <div class="hero">
-          <div class="hero-icon">🎯</div>
-          <h2>¡Ronda completada!</h2>
-          <p>Ronda de frases históricas completada.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="qqFinalHits">0/10</strong><span>Aciertos</span></div>
-            <div class="stat-box"><strong id="qqFinalScore">0</strong><span>Puntos</span></div>
-            <div class="stat-box"><strong id="qqFinalStreak">0</strong><span>Mejor racha</span></div>
+      <!-- ESTRENOS DE CARTTELERA -->
+      <section class="section-block">
+        <div class="section-header">
+          <h3>🎬 Estrenos de CarTTelera</h3>
+          <span>Sagas semanales por capítulos</span>
+        </div>
+        <div class="carttelera-box">
+          <div class="poster-main">
+            <div>
+              <div class="cinema-badges">
+                <span class="badge-live">En cartelera</span>
+                <span class="badge-season">Temporada 1 · 25 capítulos</span>
+              </div>
+              <h4 style="margin-top: 10px;">La Balada de Marzal y la Turca</h4>
+              <p style="margin-top: 6px;">Crónica cronológica íntegra de una de las tramas más legendarias del grupo, reconstruida mensaje a mensaje desde el primer tonteo hasta el desenlace.</p>
+            </div>
+            <div class="poster-actions">
+              <button class="btn-primary" onclick="openCarttelera()">Ver Estreno y Capítulos</button>
+              <button class="btn-secondary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>
+            </div>
           </div>
-          <div class="status-banner ok" id="qqSaveBanner">Sumando puntos al ranking general...</div>
-          <button class="btn-primary" id="qqShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
-          <div class="toast" id="qqCopyToast"></div>
-          <button class="btn-primary" id="qqPlayAgainBtn" type="button">🎲 Jugar otras 10 frases</button>
-          <button class="btn-secondary" id="qqGoRankBtn" type="button">Ver Clasificación 🏆</button>
+
+          <div class="poster-side">
+            <div>
+              <div class="countdown-label">⏳ Próximo estreno de cartelera en</div>
+              <div class="countdown-grid" id="countdownGrid">
+                <div class="cd-cell"><span class="cd-num" id="cdDays">00</span><span class="cd-unit">Días</span></div>
+                <div class="cd-cell"><span class="cd-num" id="cdHours">00</span><span class="cd-unit">Horas</span></div>
+                <div class="cd-cell"><span class="cd-num" id="cdMins">00</span><span class="cd-unit">Min</span></div>
+                <div class="cd-cell"><span class="cd-num" id="cdSecs">00</span><span class="cd-unit">Seg</span></div>
+              </div>
+            </div>
+            <div class="next-preview">
+              <strong>🎞️ Preview Próximamente en Salas:</strong>
+              <em>"La Boda de Humpa"</em> vs <em>"Verano Gandia Shore 2012"</em> vs <em>"Especial Rajadas Barça/Valencia"</em>.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIONES TEMÁTICAS Y ARCHIVO -->
+      <section class="section-block">
+        <div class="section-header">
+          <h3>📚 Secciones Temáticas y Archivo</h3>
+          <span>Hemeroteca filtrada por temática</span>
+        </div>
+        <div class="grid-2">
+          <div class="mode-card" onclick="openSection('pornopedia')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--pink-soft); color: var(--pink);">🔞</div>
+                <span class="mode-pill">+18 Sin Filtro</span>
+              </div>
+              <h4>Pornopedia</h4>
+              <p>Confesiones sexuales, teorías de alcoba y anécdotas sin censura (ocultando el autor del mensaje previo).</p>
+            </div>
+          </div>
+
+          <div class="mode-card" onclick="openSection('comidistta')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--accent-soft); color: var(--accent);">🍽️</div>
+                <span class="mode-pill">Gastronomía TT</span>
+              </div>
+              <h4>El ComidisTTa</h4>
+              <p>Debates cruzados sobre paellas, kebabs, esmorzarets en la Safor y sacrilegios culinarios.</p>
+            </div>
+          </div>
+
+          <div class="mode-card" onclick="openSection('zona_vox')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--green-soft); color: var(--green);">🟩</div>
+                <span class="mode-pill">Archivo Bruto</span>
+              </div>
+              <h4>Zona VOX</h4>
+              <p>Las salidas de tono, opiniones políticas sin filtro y burradas más bestias rescatadas del chat.</p>
+            </div>
+          </div>
+
+          <div class="mode-card" onclick="openSection('enciclopedia')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--purple-soft); color: var(--purple);">📖</div>
+                <span class="mode-pill">Biografías y Lore</span>
+              </div>
+              <h4>Enciclopedia TT</h4>
+              <p>Fichas biográficas, estadísticas de mensajes, motes oficiales y citas míticas de cada miembro del grupo.</p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
 
-    <!-- VISTA: ¿LO DIJO O NO LO DIJO? -->
-    <div id="loDijoView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
-      <section class="card lodijo-card" id="ldStartScreen">
-        <div class="hero">
-          <div class="hero-icon">⚖️</div>
-          <h2>¿Lo dijo o no lo dijo?</h2>
-          <p>Te damos un autor y una frase: decide si salió realmente de su teclado en el TT o si es un invento.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="ldPoolTotal">-</strong><span>Cartas</span></div>
-            <div class="stat-box"><strong>10</strong><span>Por ronda</span></div>
-            <div class="stat-box"><strong>50/50</strong><span>Real / Invent</span></div>
-          </div>
-          <button class="btn-primary blue" id="ldStartBtn" type="button">⚖️ Empezar Ronda Real o Invent</button>
-        </div>
-      </section>
-
-      <section class="card lodijo-card hidden" id="ldQuizScreen">
-        <div class="progress-wrap">
-          <div class="progress-meta">
-            <span id="ldProgressLabel">Carta 1 de 10</span>
-            <span id="ldScoreStreakLabel">0 pts · Racha 0 🔥</span>
-          </div>
-          <div class="progress-bar"><div class="progress-fill blue" id="ldProgressFill"></div></div>
-        </div>
-        <div class="meta-tags">
-          <span class="tag-blue" id="ldAuthorTag">Supuesto autor: Joni</span>
-          <span class="tag-year" id="ldYear">Año 2021</span>
-        </div>
-        <div class="quote-highlight lodijo-bubble" id="ldQuoteText"></div>
-        <div class="options two-col" id="ldOptionsBox"></div>
-        <div class="feedback" id="ldFeedbackBox">
-          <p class="explanation" id="ldExplanation"></p>
-          <button class="btn-primary blue" id="ldNextBtn" type="button">Siguiente carta →</button>
-        </div>
-      </section>
-
-      <section class="card lodijo-card hidden" id="ldEndScreen">
-        <div class="hero">
-          <div class="hero-icon">⚖️</div>
-          <h2>¡Juicio completado!</h2>
-          <p>Has puesto a prueba tu detector de trolas del Triangulito Team.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="ldFinalHits">0/10</strong><span>Aciertos</span></div>
-            <div class="stat-box"><strong id="ldFinalScore">0</strong><span>Puntos</span></div>
-            <div class="stat-box"><strong id="ldFinalStreak">0</strong><span>Mejor racha</span></div>
-          </div>
-          <div class="status-banner ok" id="ldSaveBanner">Sumando puntos al ranking general...</div>
-          <button class="btn-primary blue" id="ldShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
-          <div class="toast" id="ldCopyToast"></div>
-          <button class="btn-primary" id="ldPlayAgainBtn" type="button">⚖️ Jugar otras 10 cartas</button>
-          <button class="btn-secondary" id="ldGoRankBtn" type="button">Ver Clasificación 🏆</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- VISTA: EL DATO JUSTO -->
-    <div id="datoView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
-      <section class="card dato-card" id="dtStartScreen">
-        <div class="hero">
-          <div class="hero-icon">🎯</div>
-          <h2>El Dato Justo</h2>
-          <p>Rondas de 8 preguntas estadísticas reales sobre los 319.788 mensajes del grupo. Cuanto más te acerques al número exacto, más puntos sumas.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="dtPoolTotal">-</strong><span>Retos</span></div>
-            <div class="stat-box"><strong>8</strong><span>Por ronda</span></div>
-            <div class="stat-box"><strong>100</strong><span>Pts por pleno</span></div>
-          </div>
-          <button class="btn-primary purple" id="dtStartBtn" type="button">🎯 Empezar El Dato Justo</button>
-        </div>
-      </section>
-
-      <section class="card dato-card hidden" id="dtQuizScreen">
-        <div class="progress-wrap">
-          <div class="progress-meta">
-            <span id="dtProgressLabel">Reto 1 de 8</span>
-            <span id="dtScoreLabel">0 pts</span>
-          </div>
-          <div class="progress-bar"><div class="progress-fill purple" id="dtProgressFill"></div></div>
-        </div>
-
-        <div class="meta-tags">
-          <span class="tag-purple">📊 Estadística 2012-2026</span>
-          <span class="tag-date" id="dtUnitTag">mensajes</span>
-        </div>
-
-        <h2 class="question-text" id="dtQuestionText"></h2>
-
-        <div class="dato-controls" id="dtControlsBox">
-          <div class="dato-input-row">
-            <input type="number" class="dato-number-input" id="dtNumberInput" value="1000" min="0" />
-          </div>
-          <input type="range" class="dato-slider" id="dtSliderInput" min="0" max="50000" value="1000" />
-          <div class="dato-range-labels">
-            <span id="dtMinLabel">0</span>
-            <span id="dtMaxLabel">50.000</span>
-          </div>
-          <button class="btn-primary purple" id="dtSubmitBtn" type="button">🔒 Fijar cifra</button>
-        </div>
-
-        <div class="feedback" id="dtFeedbackBox">
-          <div class="wa-bubble" style="background:#2d1b4e;">
-            <span class="wa-label" style="color:#d8b4fe;">🎯 Dato exacto en la hemeroteca</span>
-            <strong id="dtExactResult" style="font-size:18px;"></strong>
-          </div>
-          <p class="explanation" id="dtExplanation"></p>
-          <button class="btn-primary purple" id="dtNextBtn" type="button">Siguiente reto →</button>
-        </div>
-      </section>
-
-      <section class="card dato-card hidden" id="dtEndScreen">
-        <div class="hero">
-          <div class="hero-icon">📊</div>
-          <h2>¡Reto estadístico completado!</h2>
-          <p>Así de bien controlas los números reales del Triangulito Team.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="dtFinalHits">0/8</strong><span>Aciertos (&lt;20% err)</span></div>
-            <div class="stat-box"><strong id="dtFinalScore">0</strong><span>Puntos</span></div>
-            <div class="stat-box"><strong id="dtFinalAvgErr">0%</strong><span>Error medio</span></div>
-          </div>
-          <div class="status-banner ok" id="dtSaveBanner">Sumando puntos al ranking general...</div>
-          <button class="btn-primary purple" id="dtShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
-          <div class="toast" id="dtCopyToast"></div>
-          <button class="btn-primary" id="dtPlayAgainBtn" type="button">🎯 Jugar otra ronda</button>
-          <button class="btn-secondary" id="dtGoRankBtn" type="button">Ver Clasificación 🏆</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- VISTA: PORNOPEDIA (AUTOR DEL PREVIO OCULTO) -->
-    <div id="pornoView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
-      <section class="card porno-card" id="pStartScreen">
-        <div class="hero">
-          <div class="hero-icon">🔞</div>
-          <h2>Pornopedia del TT</h2>
-          <p>Confesiones sexuales, posturas, fetiches y guarradas históricas del grupo sin censura.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="pPoolTotal">-</strong><span>Perlas +18</span></div>
-            <div class="stat-box"><strong>10</strong><span>Por ronda</span></div>
-            <div class="stat-box"><strong>+18</strong><span>Sin filtro</span></div>
-          </div>
-          <button class="btn-primary pink" id="pStartBtn" type="button">🔥 Empezar Ronda +18</button>
-        </div>
-      </section>
-
-      <section class="card porno-card hidden" id="pQuizScreen">
-        <div class="progress-wrap">
-          <div class="progress-meta">
-            <span id="ppProgressLabel">Perla 1 de 10</span>
-            <span id="ppScoreStreakLabel">0 pts · Racha 0 🔥</span>
-          </div>
-          <div class="progress-bar"><div class="progress-fill pink" id="ppProgressFill"></div></div>
-        </div>
-        <div class="meta-tags">
-          <span class="tag-pink" id="ppCatTag">🔞 Salseo +18</span>
-          <span class="tag-year" id="ppYear">Año 2023</span>
-        </div>
-        <div class="prev-msg-box hidden" id="ppPrevBox">
-          <span class="prev-msg-label">↩️ Mensaje anterior en el hilo (autor oculto)</span>
-          <span id="ppPrevText"></span>
-        </div>
-        <div class="quote-highlight porno-bubble" id="ppQuoteText"></div>
-        <div class="options" id="ppOptionsBox"></div>
-        <div class="feedback" id="ppFeedbackBox">
-          <p class="explanation" id="ppExplanation"></p>
-          <button class="btn-primary pink" id="ppNextBtn" type="button">Siguiente guarrada →</button>
-        </div>
-      </section>
-
-      <section class="card porno-card hidden" id="pEndScreen">
-        <div class="hero">
-          <div class="hero-icon">🍑</div>
-          <h2>¡Ronda +18 completada!</h2>
-          <p>Sabes perfectamente de qué pie cojea cada uno en la cama.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="ppFinalHits">0/10</strong><span>Aciertos</span></div>
-            <div class="stat-box"><strong id="ppFinalScore">0</strong><span>Puntos</span></div>
-            <div class="stat-box"><strong id="ppFinalStreak">0</strong><span>Mejor racha</span></div>
-          </div>
-          <div class="status-banner ok" id="ppSaveBanner">Sumando puntos al ranking general...</div>
-          <button class="btn-primary pink" id="ppShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
-          <div class="toast" id="ppCopyToast"></div>
-          <button class="btn-primary" id="ppPlayAgainBtn" type="button">🔥 Jugar otras 10 perlas +18</button>
-          <button class="btn-secondary" id="ppGoRankBtn" type="button">Ver Clasificación 🏆</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- VISTA: EL COMIDISTTA -->
-    <div id="comidaView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
-      <section class="card comida-card" id="cStartScreen">
-        <div class="hero">
-          <div class="hero-icon">🍽️</div>
-          <h2>El ComidisTTa</h2>
-          <p>Discusiones culinarias, guerras por la paella, esmorzarets, kebabs y piques gastronómicos.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="cDebatesTotal">-</strong><span>Debates</span></div>
-            <div class="stat-box"><strong id="cPoolTotal">-</strong><span>Citas</span></div>
-            <div class="stat-box"><strong>10</strong><span>Por ronda</span></div>
-          </div>
-          <button class="btn-primary amber" id="cStartBtn" type="button">🍔 Jugar Trivia Gastronómico</button>
-        </div>
-
-        <div class="rank-section-title" style="color:#fcd34d;">🔥 Debates Cruzados del Grupo</div>
-        <div id="comidaDebatesList" style="display:flex;flex-direction:column;gap:10px;"></div>
-      </section>
-
-      <section class="card comida-card hidden" id="cQuizScreen">
-        <div class="progress-wrap">
-          <div class="progress-meta">
-            <span id="ccProgressLabel">Cita 1 de 10</span>
-            <span id="ccScoreStreakLabel">0 pts · Racha 0 🔥</span>
-          </div>
-          <div class="progress-bar"><div class="progress-fill amber" id="ccProgressFill"></div></div>
-        </div>
-        <div class="meta-tags">
-          <span class="tag-amber">🍽️ El ComidisTTa</span>
-          <span class="tag-year" id="ccYear">Año 2023</span>
-        </div>
-        <div class="prev-msg-box hidden" id="ccPrevBox">
-          <span class="prev-msg-label">↩️ Mensaje anterior en el hilo</span>
-          <span id="ccPrevText"></span>
-        </div>
-        <div class="quote-highlight comida-bubble" id="ccQuoteText"></div>
-        <div class="options" id="ccOptionsBox"></div>
-        <div class="feedback" id="ccFeedbackBox">
-          <p class="explanation" id="ccExplanation"></p>
-          <button class="btn-primary amber" id="ccNextBtn" type="button">Siguiente plato →</button>
-        </div>
-      </section>
-
-      <section class="card comida-card hidden" id="cEndScreen">
-        <div class="hero">
-          <div class="hero-icon">👨‍🍳</div>
-          <h2>¡Menú degustación completado!</h2>
-          <p>Controlas el paladar oficial del Triangulito Team.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="ccFinalHits">0/10</strong><span>Aciertos</span></div>
-            <div class="stat-box"><strong id="ccFinalScore">0</strong><span>Puntos</span></div>
-            <div class="stat-box"><strong id="ccFinalStreak">0</strong><span>Mejor racha</span></div>
-          </div>
-          <div class="status-banner ok" id="ccSaveBanner">Sumando puntos al ranking general...</div>
-          <button class="btn-primary amber" id="ccShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
-          <div class="toast" id="ccCopyToast"></div>
-          <button class="btn-primary" id="ccPlayAgainBtn" type="button">🍔 Otra ronda culinaria</button>
-          <button class="btn-secondary" id="ccGoRankBtn" type="button">Ver Clasificación 🏆</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- VISTA: ZONA VOX -->
-    <div id="voxView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
-      <section class="card vox-card" id="vStartScreen">
-        <div class="hero">
-          <div class="hero-icon">🟩</div>
-          <h2>Zona VOX</h2>
-          <p>Archivo histórico sin filtros de las salidas de tono y burradas más bestias del chat.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="vPoolTotal">-</strong><span>Registros</span></div>
-            <div class="stat-box"><strong>10</strong><span>Por ronda</span></div>
-            <div class="stat-box"><strong>9</strong><span>Sospechosos</span></div>
-          </div>
-          <button class="btn-primary vox" id="vStartBtn" type="button">🟩 Empezar Ronda Zona VOX</button>
-        </div>
-      </section>
-
-      <section class="card vox-card hidden" id="vQuizScreen">
-        <div class="progress-wrap">
-          <div class="progress-meta">
-            <span id="vvProgressLabel">Cita 1 de 10</span>
-            <span id="vvScoreStreakLabel">0 pts · Racha 0 🔥</span>
-          </div>
-          <div class="progress-bar"><div class="progress-fill vox" id="vvProgressFill"></div></div>
-        </div>
-        <div class="meta-tags">
-          <span class="tag-vox">🟩 Zona VOX</span>
-          <span class="tag-year" id="vvYear">Año 2023</span>
-        </div>
-        <div class="prev-msg-box hidden" id="vvPrevBox">
-          <span class="prev-msg-label">↩️ Mensaje anterior en el hilo</span>
-          <span id="vvPrevText"></span>
-        </div>
-        <div class="quote-highlight vox-bubble" id="vvQuoteText"></div>
-        <div class="options" id="vvOptionsBox"></div>
-        <div class="feedback" id="vvFeedbackBox">
-          <p class="explanation" id="vvExplanation"></p>
-          <button class="btn-primary vox" id="vvNextBtn" type="button">Siguiente cita →</button>
-        </div>
-      </section>
-
-      <section class="card vox-card hidden" id="vEndScreen">
-        <div class="hero">
-          <div class="hero-icon">🟩</div>
-          <h2>¡Ronda Zona VOX completada!</h2>
-          <p>Conoces cada barbaridad soltada en el grupo.</p>
-          <div class="stats-grid">
-            <div class="stat-box"><strong id="vvFinalHits">0/10</strong><span>Aciertos</span></div>
-            <div class="stat-box"><strong id="vvFinalScore">0</strong><span>Puntos</span></div>
-            <div class="stat-box"><strong id="vvFinalStreak">0</strong><span>Mejor racha</span></div>
-          </div>
-          <div class="status-banner ok" id="vvSaveBanner">Sumando puntos al ranking general...</div>
-          <button class="btn-primary vox" id="vvShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
-          <div class="toast" id="vvCopyToast"></div>
-          <button class="btn-primary" id="vvPlayAgainBtn" type="button">🟩 Jugar otras 10 citas</button>
-          <button class="btn-secondary" id="vvGoRankBtn" type="button">Ver Clasificación 🏆</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- VISTA: ENCICLOPEDIA TT -->
-    <section class="card hidden" id="wikiView">
-      <div class="hero" style="padding-bottom:0;">
-        <div class="hero-icon">📖</div>
-        <h2>Enciclopedia del Triangulito Team</h2>
-        <p>Pulsa en un integrante para abrir su ficha biográfica, estadísticas y citas míticas.</p>
-      </div>
-      <div class="player-grid" id="wikiGrid"></div>
-      <div id="wikiDetailBox" class="hidden" style="display:flex;flex-direction:column;gap:12px;"></div>
-    </section>
-
-    <!-- VISTA: RANKING -->
-    <section class="card hidden" id="rankView">
-      <div class="rank-section-title" id="todayRankTitle">📅 Podio Efemérides de Hoy</div>
-      <div class="rank-list" id="todayRankList">
-        <div class="rank-sub">Cargando resultados de hoy...</div>
+    <!-- VISTA DE JUEGO / EFEMÉRIDE -->
+    <div id="gameView" class="view-panel">
+      <div class="panel-topbar">
+        <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
+        <div id="gameTitleHeader" style="font-weight: 800; font-size: 16px;"></div>
+        <span class="pill-score" id="gameScorePill">0 pts · Racha 0</span>
       </div>
 
-      <div class="rank-section-title" style="margin-top:8px;">👑 Clasificación General TTpedia</div>
-      <div class="rank-list" id="globalRankList">
-        <div class="rank-sub">Cargando clasificación general...</div>
-      </div>
+      <div class="quiz-box" id="quizContainer"></div>
+    </div>
 
-      <button class="btn-secondary" id="refreshRankBtn" type="button">🔄 Actualizar marcadores</button>
-    </section>
+    <!-- VISTA DE SECCIONES / CARTTELERA / ENCICLOPEDIA -->
+    <div id="sectionView" class="view-panel">
+      <div class="panel-topbar">
+        <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
+        <div id="sectionTitleHeader" style="font-weight: 800; font-size: 17px;"></div>
+        <div id="sectionExtraAction"></div>
+      </div>
+      <div id="sectionContent"></div>
+    </div>
   </main>
 
-  <script>
-    const TT_MEMBERS = ["Joni", "Feme", "Jorge", "Germi", "Humpa", "Héctor", "Hugo", "Miki", "Marzal"];
+  <!-- MODAL SELECCIÓN DE JUGADOR -->
+  <div class="modal-backdrop" id="playerModal" onclick="if(event.target===this) closeModals()">
+    <div class="modal-card">
+      <h3>👤 ¿Quién está en el trono ahora?</h3>
+      <p style="font-size: 13px; color: var(--muted);">Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.</p>
+      <div class="player-select-grid" id="playerButtonsGrid"></div>
+    </div>
+  </div>
 
-    const ALIAS_DISPLAY = {
-      "joan": "Joni", "joni": "Joni",
-      "feme": "Feme", "feme i lopez": "Feme", "feme i lópez": "Feme", "adrià": "Feme", "adria": "Feme",
-      "jorge": "Jorge", "jorge alvarez": "Jorge", "jorge álvarez": "Jorge",
-      "germán": "Germi", "german": "Germi", "germi": "Germi",
-      "humberto": "Humpa", "unverto": "Humpa", "humpa": "Humpa",
-      "héctor": "Héctor", "hector": "Héctor",
-      "hugo": "Hugo",
-      "miki": "Miki",
-      "marzal": "Marzal", "jm": "Marzal"
+  <!-- MODAL CLASIFICACIÓN -->
+  <div class="modal-backdrop" id="rankingModal" onclick="if(event.target===this) closeModals()">
+    <div class="modal-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h3 style="margin:0;">🏆 Clasificación y Podio</h3>
+        <button class="btn-secondary" style="padding:5px 10px;" onclick="closeModals()">✕</button>
+      </div>
+      <div style="display:flex; gap:8px; margin-bottom:12px;">
+        <button class="btn-secondary" id="tabRankDaily" onclick="renderRanking('daily')">Podio de Hoy</button>
+        <button class="btn-secondary" id="tabRankGlobal" onclick="renderRanking('global')">Ranking General</button>
+      </div>
+      <div id="rankingList"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // =========================================================================
+    // CONFIGURACIÓN Y RUTAS DE DATOS JSON (con fallback integrado si no existen)
+    // =========================================================================
+    const MIEMBROS = ["Joni", "Feme", "Jorge", "Germi", "Humpa", "Héctor", "Hugo", "Miki", "Marzal"];
+
+    const DATA_PATHS = {
+      efemeridesDir: "data/efemerides/",
+      quien_dijo: "data/quien_dijo_esto.json",
+      lo_dijo_o_no: "data/lo_dijo_o_no.json",
+      rajaditta: "data/a_quien_insultan.json",
+      dato_justo: "data/el_dato_justo.json",
+      pornopedia: "data/pornopedia_tt.json",
+      comidistta: "data/comidistta.json",
+      zona_vox: "data/zona_vox.json",
+      carttelera: "data/saga_marzal_turca.json",
+      enciclopedia: "data/enciclopedia_tt.json"
     };
 
-    function normalizeDisplayOption(text) {
-      const key = (text || "").trim().toLowerCase();
-      return ALIAS_DISPLAY[key] || text;
-    }
-
-    function cleanCompare(s) {
-      return (s || "").replace(/^[^:]+:\s*/, "").replace(/[«»"“”]/g, "").replace(/\s+/g, " ").trim().toLowerCase();
-    }
-
-    function stripPrevAuthor(s) {
-      return (s || "").replace(/^[^:]{1,25}:\s*/, "").trim();
-    }
-
-    const FALLBACK_11_23 = {
-      "fecha": "11-23",
-      "total_mensajes_dia": 467,
-      "preguntas": [
+    // Datos de respaldo para que el index funcione al instante incluso antes de subir todos los JSON
+    const FALLBACK_DATA = {
+      efemeride: [
         {
-          "pregunta": "¿Quién le ofreció a Miki un hueco libre en las últimas filas para subirse a la 'Xavineta'?",
-          "cita": "Puedes subirte a la xavineta aún miki. Hay hueco en las últimas filas aún",
-          "opciones": ["Joni", "Humpa", "Jorge", "Germi"],
-          "correcta": 0,
-          "explicacion": "En pleno arranque de la era Xavi en noviembre de 2021, Joni intentó subir a Miki al autobús culé antes de medirse al Benfica.",
-          "anio": 2021
+          pregunta: "En abril de 2016, cuando Germi soltó optimistamente 'El city pasa' tras el 0-0 ante el Real Madrid, ¿cómo le vaciló Joni?",
+          cita: "Sí, farlopa en el parking de masia",
+          opciones: ["Sí, y yo soy astronauta", "Sí, farlopa en el parking de masia", "Tu optimismo no tiene cura", "Pásame de lo que fumas"],
+          correcta: 1,
+          explicacion: "Joni cortó de raíz la euforia europea de Germi con una de sus respuestas más míticas.",
+          anio: 2016
+        },
+        {
+          pregunta: "Tras una foto montando la tienda de campaña en abril de 2014, ¿qué confesión hizo Miki que sorprendió al grupo?",
+          cita: "He fumao tío",
+          opciones: ["He fumao tío", "Me he cargado una varilla", "He pillado una cogorza fina", "He perdido el saco de dormir"],
+          correcta: 0,
+          explicacion: "Miki confesó haber caído en la tentación y Feme le bautizó al momento como 'el próximo estanquero'.",
+          anio: 2014
         }
+      ],
+      quien_dijo: [
+        {
+          contexto: "Debatiendo sobre el rendimiento del Barça y las alineaciones",
+          cita: "El rayo de Iraola nos baila cual City de Guardiola jaja que bazofia somos",
+          opciones: ["Joni", "Jorge", "Miki", "Germi"],
+          correcta: 0,
+          anio: 2023,
+          explicacion: "Joni indignado viendo el repaso táctico del Rayo Vallecano."
+        },
+        {
+          contexto: "Hablando sobre el reparto económico de la Supercopa en Arabia",
+          cita: "A llorar al Carmen",
+          opciones: ["Feme", "Germi", "Humpa", "Hugo"],
+          correcta: 1,
+          anio: 2019,
+          explicacion: "Germi mandando a los valencianistas a quejarse al barrio del Carmen."
+        }
+      ],
+      lo_dijo_o_no: [
+        {
+          miembro: "Germi",
+          frases: [
+            "Por el culo no se considera infidelidad",
+            "Me sale en favoritos al abrir el safari jajajajaja",
+            "Yo llevo todo el dia con la pantaloneta del city puesta"
+          ],
+          impostor: 2,
+          explicacion: "La pantaloneta del City la llevaba Feme todo el día puesta; las otras dos perlas sí son 100% Germi."
+        }
+      ],
+      rajaditta: [
+        {
+          agresor: "Joni",
+          victima: "Marzal",
+          cita: "A ver, no es *** el hombre más indicado para dar lecciones sobre a que tías no tirar los trastos en plena calfamenta",
+          cita_sin_censura: "A ver, no es JM el hombre más indicado para dar lecciones sobre a que tías no tirar los trastos en plena calfamenta",
+          opciones: ["Hugo", "Marzal", "Humpa"],
+          correcta: 1,
+          anio: 2015,
+          contexto: "Vacile a Marzal (JM) por dar lecciones morales sobre no tirar la caña estando caliente."
+        },
+        {
+          agresor: "Miki",
+          victima: "Feme",
+          cita: "Ahí ahí! Así llegamos sin hambre a la "paella" de *** jajajaja",
+          cita_sin_censura: "Ahí ahí! Así llegamos sin hambre a la "paella" de feme jajajaja",
+          opciones: ["Joni", "Hugo", "Feme"],
+          correcta: 2,
+          anio: 2014,
+          contexto: "Miki poniendo entre comillas las dotes de Feme haciendo paellas."
+        }
+      ],
+      dato_justo: [
+        {
+          pregunta: "Duelo de menciones en los 311.419 mensajes: ¿quién aparece más veces mencionado en el chat?",
+          cita: "Lidia Balada vs Zach Morley",
+          opciones: ["Lidia Balada", "Zach Morley", "Empate técnico", "Ninguno llega a 20"],
+          correcta: 0,
+          anio: "2012-2026",
+          explicacion: "El lore local manda sobre cualquier fichaje extranjero."
+        }
+      ],
+      pornopedia: [
+        { autor: "Germi", anio: 2018, cita: "Voy a hacerme una paja ahira vuelvo", contexto: "Anunciado con total naturalidad en mitad de una conversación grupal." },
+        { autor: "Jorge", anio: 2020, cita: "Mira que pollito al horno de domingo te podria hacer Mar Saura despues del polvo de la 11:30", contexto: "Planazo dominical tras ver stories de cocina." }
+      ],
+      comidistta: [
+        { autor: "Feme", anio: 2019, cita: "Esta en el Vaya Tela de Bellreguard", contexto: "Sentenciando dónde se come la mejor hamburguesa de la Safor." },
+        { autor: "Hugo", anio: 2019, cita: "Lo mejor del fosters era cuando ofrecían cacahuetes en la barra", contexto: "Nostalgia gastronómica de franquicia." }
+      ],
+      zona_vox: [
+        { autor: "Humpa", anio: 2020, cita: "Si de algo ha servido todo esto , es para corroborar el fracaso del estado autonómico", contexto: "Aprovechando cualquier debate para sacar la vena centralista." },
+        { autor: "Humpa", anio: 2021, cita: "Pues yo a Rocio monasterio...le daba. Buenos días", contexto: "Saludo mañanero a las 8:27 de la mañana sin anestesia." }
+      ],
+      carttelera: [
+        { cap: 1, titulo: "El primer contacto", anio: 2019, resumen: "Empiezan las primeras menciones sospechosas y el grupo detecta movimiento internacional." },
+        { cap: 2, titulo: "Consejos del comité TT", anio: 2019, resumen: "Los 8 restantes intervienen con tácticas de dudosa eficacia para guiar a Marzal." },
+        { cap: 3, titulo: "Giro de guion en Estambul", anio: 2020, resumen: "Nuevos audios, capturas y el desenlace que pasó a los anales de TTpedia." }
+      ],
+      enciclopedia: [
+        { nombre: "Joni", apodo: "El Archivero / Jonas", mensajes: "46.800+", especialidad: "Datos históricos, pullas quirúrgicas y piratería deportiva", cita: "Con el Madrid de por medio, mayúsculas solo a partir del 6-0" },
+        { nombre: "Feme", apodo: "El Presidente / Feme i López", mensajes: "41.200+", especialidad: "Paellas cuestionadas, filosofía de casal y memes instantáneos", cita: "Demuestrale que polla manda en el oeste" },
+        { nombre: "Jorge", apodo: "El Letrado / Chus", mensajes: "44.500+", especialidad: "Discursos de abogado, sufrimiento ché y comparaciones con Los Simpson", cita: "Aprenda a expresarse señor Moratal" },
+        { nombre: "Germi", apodo: "El Director de la Manada / Mostro", mensajes: "39.900+", especialidad: "Anécdotas sin filtro, tips de apuestas y palabrejas propias", cita: "Pon comas máquina (sobre sí mismo)" },
+        { nombre: "Humpa", apodo: "Unverto / El Centralista", mensajes: "28.400+", especialidad: "Buenos días políticos, celebraciones intensas y lore judicial", cita: "al final harán que echemos de menos el bipartidismo" },
+        { nombre: "Héctor", apodo: "La Voz de El Palmar", mensajes: "21.100+", especialidad: "Apariciones estelares, esguinces navideños y doblaje de Alcaraz", cita: "Putos frikis de mierda futboleros" },
+        { nombre: "Hugo", apodo: "La Estrella en Ciernes", mensajes: "27.600+", especialidad: "Recetas en mitad de debates tensos y piques con Jorge", cita: "Ye chavales, me ha salido buenísima, la foto no hace justicia" },
+        { nombre: "Miki", apodo: "Mr Anfitrión Moratal", mensajes: "35.300+", especialidad: "Previas en Cómics, sufrimiento europeo y rigor en el trivial", cita: "He fumao tío" },
+        { nombre: "Marzal", apodo: "JM / Marcial / Marsalet / Machalet", mensajes: "26.600+", especialidad: "Sagas internacionales, defensa legal express y llegadas a última hora", cita: "Menos gracia para bailar que una sera" }
       ]
     };
 
-    const MONTHS_ES = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-    const LETTERS = ["A", "B", "C", "D"];
-
-    window.TT_STATE = {
-      currentUser: null,
-      playerName: "",
-      todayKey: "",
-      todayReadable: "",
-      dayData: FALLBACK_11_23,
-      alreadyPlayedToday: false,
-      todayRecord: null,
-      questions: [],
-      currentIndex: 0,
-      score: 0,
-      hits: 0,
+    // =========================================================================
+    // ESTADO DE LA APP
+    // =========================================================================
+    let state = {
+      player: localStorage.getItem("ttpedia_player") || "Joni",
+      scores: JSON.parse(localStorage.getItem("ttpedia_scores") || "{}"),
+      votes: JSON.parse(localStorage.getItem("ttpedia_votes") || "{}"),
+      currentQuestions: [],
+      qIndex: 0,
+      roundScore: 0,
       streak: 0,
-      maxStreak: 0,
-      answered: false,
-      biosMap: {},
-      comidaDebates: [],
-      saveScoreFn: null,
-      saveBonusScoreFn: null,
-      loadBoardsFn: null
+      currentModeTitle: ""
     };
 
-    function createPoolState() {
-      return { pool: [], usedIndices: new Set(), roundQuestions: [], idx: 0, score: 0, hits: 0, streak: 0, maxStreak: 0, answered: false, errorsPct: [] };
+    // Inicializar fecha de hoy en el selector de Efeméride
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, "0");
+    const dd = String(today.getDate()).padStart(2, "0");
+    const datePicker = document.getElementById("efemDatePicker");
+    datePicker.value = `${yyyy}-${mm}-${dd}`;
+    updateEfemDateLabel();
+    datePicker.addEventListener("change", updateEfemDateLabel);
+
+    function updateEfemDateLabel() {
+      const val = datePicker.value;
+      if (!val) return;
+      const [, m, d] = val.split("-");
+      const meses = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
+      document.getElementById("efemDateLabel").textContent = `${parseInt(d, 10)} ${meses[parseInt(m, 10) - 1]}`;
     }
 
-    window.POOLS = {
-      quotes: createPoolState(),
-      porno: createPoolState(),
-      comida: createPoolState(),
-      vox: createPoolState(),
-      loDijo: createPoolState(),
-      dato: createPoolState()
-    };
-
-    const storedName = normalizeDisplayOption(localStorage.getItem("ttpedia_player_name") || "");
-    if (TT_MEMBERS.includes(storedName)) {
-      window.TT_STATE.playerName = storedName;
-    }
-
-    function getTodayInfo() {
-      const params = new URLSearchParams(window.location.search);
-      const forced = params.get("fecha");
-      if (forced && /^\d{2}-\d{2}$/.test(forced)) {
-        const [mm, dd] = forced.split("-").map(Number);
-        return { key: forced, readable: `${dd} de ${MONTHS_ES[mm - 1]}` };
-      }
+    // =========================================================================
+    // CUENTA ATRÁS HASTA EL PRÓXIMO LUNES 00:00 (ESTRENOS DE CARTTELERA)
+    // =========================================================================
+    function updateCountdown() {
       const now = new Date();
-      const mm = String(now.getMonth() + 1).padStart(2, "0");
-      const dd = String(now.getDate()).padStart(2, "0");
-      return { key: `${mm}-${dd}`, readable: `${now.getDate()} de ${MONTHS_ES[now.getMonth()]}` };
+      const nextMonday = new Date(now);
+      const day = now.getDay(); // 0 = Domingo, 1 = Lunes
+      const diff = day === 0 ? 1 : (8 - day);
+      nextMonday.setDate(now.getDate() + diff);
+      nextMonday.setHours(0, 0, 0, 0);
+
+      const ms = Math.max(0, nextMonday - now);
+      const d = Math.floor(ms / (1000 * 60 * 60 * 24));
+      const h = Math.floor((ms / (1000 * 60 * 60)) % 24);
+      const m = Math.floor((ms / (1000 * 60)) % 60);
+      const s = Math.floor((ms / 1000) % 60);
+
+      document.getElementById("cdDays").textContent = String(d).padStart(2, "0");
+      document.getElementById("cdHours").textContent = String(h).padStart(2, "0");
+      document.getElementById("cdMins").textContent = String(m).padStart(2, "0");
+      document.getElementById("cdSecs").textContent = String(s).padStart(2, "0");
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    // =========================================================================
+    // GESTIÓN DE JUGADOR Y RANKING
+    // =========================================================================
+    document.getElementById("currentPlayerName").textContent = state.player;
+
+    function openPlayerModal() {
+      const grid = document.getElementById("playerButtonsGrid");
+      grid.innerHTML = MIEMBROS.map(m => `
+        <button class="btn-secondary" style="${m === state.player ? 'border-color: var(--accent); color: var(--accent);' : ''}" onclick="selectPlayer('${m}')">
+          ${m}
+        </button>
+      `).join("");
+      document.getElementById("playerModal").classList.add("open");
     }
 
-    function renderPlayerGrid() {
-      const grid = document.getElementById("playerGrid");
-      grid.innerHTML = "";
-      TT_MEMBERS.forEach(name => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "player-pill" + (window.TT_STATE.playerName === name ? " selected" : "");
-        btn.textContent = name;
-        btn.addEventListener("click", () => selectPlayerName(name));
-        grid.appendChild(btn);
-      });
+    function selectPlayer(name) {
+      state.player = name;
+      localStorage.setItem("ttpedia_player", name);
+      document.getElementById("currentPlayerName").textContent = name;
+      closeModals();
+      showToast(`Jugador activo: ${name}`);
     }
 
-    function selectPlayerName(name) {
-      window.TT_STATE.playerName = name.trim();
-      localStorage.setItem("ttpedia_player_name", window.TT_STATE.playerName);
-      document.getElementById("userChip").textContent = `👤 ${window.TT_STATE.playerName}`;
-      navigateTo("home");
-    }
-
-    function navigateTo(view) {
-      const allViews = ["profileScreen", "homeView", "dailyView", "quotesView", "loDijoView", "datoView", "pornoView", "comidaView", "voxView", "wikiView", "rankView"];
-      allViews.forEach(id => document.getElementById(id).classList.add("hidden"));
-      document.getElementById("backHomeBtn").classList.toggle("hidden", view === "home" || view === "profile");
-
-      if (view === "profile") {
-        renderPlayerGrid();
-        document.getElementById("profileScreen").classList.remove("hidden");
-      } else if (view === "home") {
-        document.getElementById("homeView").classList.remove("hidden");
-      } else if (view === "daily") {
-        document.getElementById("dailyView").classList.remove("hidden");
-      } else if (view === "quotes") {
-        document.getElementById("quotesView").classList.remove("hidden");
-        document.getElementById("qStartScreen").classList.remove("hidden");
-        document.getElementById("qQuizScreen").classList.add("hidden");
-        document.getElementById("qEndScreen").classList.add("hidden");
-      } else if (view === "lodijo") {
-        document.getElementById("loDijoView").classList.remove("hidden");
-        document.getElementById("ldStartScreen").classList.remove("hidden");
-        document.getElementById("ldQuizScreen").classList.add("hidden");
-        document.getElementById("ldEndScreen").classList.add("hidden");
-      } else if (view === "dato") {
-        document.getElementById("datoView").classList.remove("hidden");
-        document.getElementById("dtStartScreen").classList.remove("hidden");
-        document.getElementById("dtQuizScreen").classList.add("hidden");
-        document.getElementById("dtEndScreen").classList.add("hidden");
-      } else if (view === "porno") {
-        document.getElementById("pornoView").classList.remove("hidden");
-        document.getElementById("pStartScreen").classList.remove("hidden");
-        document.getElementById("pQuizScreen").classList.add("hidden");
-        document.getElementById("pEndScreen").classList.add("hidden");
-      } else if (view === "comida") {
-        document.getElementById("comidaView").classList.remove("hidden");
-        document.getElementById("cStartScreen").classList.remove("hidden");
-        document.getElementById("cQuizScreen").classList.add("hidden");
-        document.getElementById("cEndScreen").classList.add("hidden");
-      } else if (view === "vox") {
-        document.getElementById("voxView").classList.remove("hidden");
-        document.getElementById("vStartScreen").classList.remove("hidden");
-        document.getElementById("vQuizScreen").classList.add("hidden");
-        document.getElementById("vEndScreen").classList.add("hidden");
-      } else if (view === "wiki") {
-        renderWikiGrid();
-        document.getElementById("wikiView").classList.remove("hidden");
-      } else if (view === "rank") {
-        document.getElementById("rankView").classList.remove("hidden");
-        if (window.TT_STATE.loadBoardsFn) window.TT_STATE.loadBoardsFn();
+    function addPoints(pts) {
+      const todayKey = `${mm}-${dd}`;
+      if (!state.scores[state.player]) {
+        state.scores[state.player] = { global: 0, daily: {} };
       }
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      state.scores[state.player].global += pts;
+      state.scores[state.player].daily[todayKey] = (state.scores[state.player].daily[todayKey] || 0) + pts;
+      localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
     }
 
-    // --- EFEMÉRIDE DEL DÍA ---
-    function startDailyGame() {
-      if (!window.TT_STATE.playerName) { navigateTo("profile"); return; }
-      const st = window.TT_STATE;
-      st.questions = [...st.dayData.preguntas];
-      st.currentIndex = 0; st.score = 0; st.hits = 0; st.streak = 0; st.maxStreak = 0;
-      navigateTo("daily");
-      document.getElementById("endScreen").classList.add("hidden");
-      document.getElementById("quizScreen").classList.remove("hidden");
-      renderDailyQuestion();
+    function openRankingModal() {
+      renderRanking("daily");
+      document.getElementById("rankingModal").classList.add("open");
     }
 
-    function renderDailyQuestion() {
-      const st = window.TT_STATE;
-      st.answered = false;
-      const q = st.questions[st.currentIndex];
-      const total = st.questions.length;
-      document.getElementById("progressLabel").textContent = `Pregunta ${st.currentIndex + 1} de ${total}`;
-      document.getElementById("scoreStreakLabel").textContent = `${st.score} pts · Racha ${st.streak} 🔥`;
-      document.getElementById("progressFill").style.width = `${(st.currentIndex / total) * 100}%`;
-      document.getElementById("qYear").textContent = `Año ${q.anio}`;
-      document.getElementById("qDateTag").textContent = st.todayReadable;
-      document.getElementById("qModeTag").textContent = st.alreadyPlayedToday ? "Modo Entreno" : "Partida Oficial";
-      document.getElementById("qText").textContent = q.pregunta;
-      document.getElementById("feedbackBox").classList.remove("visible");
+    function renderRanking(type) {
+      const todayKey = `${mm}-${dd}`;
+      document.getElementById("tabRankDaily").style.borderColor = type === "daily" ? "var(--accent)" : "var(--border)";
+      document.getElementById("tabRankGlobal").style.borderColor = type === "global" ? "var(--accent)" : "var(--border)";
 
-      const optionsBox = document.getElementById("optionsBox");
-      optionsBox.innerHTML = "";
-      q.opciones.forEach((optText, idx) => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "option-btn";
-        btn.innerHTML = `<span class="opt-letter">${LETTERS[idx]}</span><span>${normalizeDisplayOption(optText)}</span>`;
-        btn.addEventListener("click", () => {
-          if (st.answered) return;
-          st.answered = true;
-          document.querySelectorAll("#optionsBox .option-btn").forEach((b, i) => {
-            b.disabled = true;
-            if (i === q.correcta) b.classList.add("correct");
-            else if (i === idx) b.classList.add("wrong");
-          });
-          if (idx === q.correcta) {
-            st.hits++; st.streak++;
-            if (st.streak > st.maxStreak) st.maxStreak = st.streak;
-            st.score += 100 + (st.streak > 1 ? (st.streak - 1) * 20 : 0);
-          } else { st.streak = 0; }
-          document.getElementById("scoreStreakLabel").textContent = `${st.score} pts · Racha ${st.streak} 🔥`;
-          document.getElementById("progressFill").style.width = `${((st.currentIndex + 1) / total) * 100}%`;
-          document.getElementById("qQuote").textContent = `«${q.cita}»`;
-          document.getElementById("qExplanation").textContent = q.explicacion;
-          document.getElementById("feedbackBox").classList.add("visible");
-        });
-        optionsBox.appendChild(btn);
-      });
-      document.getElementById("nextBtn").textContent = st.currentIndex === total - 1 ? "Ver resultado final 🏆" : "Siguiente pregunta →";
-    }
+      const rows = MIEMBROS.map(m => {
+        const entry = state.scores[m] || { global: 0, daily: {} };
+        const pts = type === "daily" ? (entry.daily[todayKey] || 0) : (entry.global || 0);
+        return { name: m, pts };
+      }).sort((a, b) => b.pts - a.pts);
 
-    async function nextDailyQuestion() {
-      const st = window.TT_STATE;
-      st.currentIndex++;
-      if (st.currentIndex < st.questions.length) { renderDailyQuestion(); return; }
-      document.getElementById("quizScreen").classList.add("hidden");
-      document.getElementById("endScreen").classList.remove("hidden");
-      const total = st.questions.length;
-      const ratio = st.hits / total;
-      document.getElementById("endEmoji").textContent = ratio >= 0.85 ? "👑" : ratio >= 0.6 ? "🏆" : "🥉";
-      document.getElementById("endTitle").textContent = ratio >= 0.85 ? "Historiador Mayor del TT" : ratio >= 0.6 ? "Veterano del TTVerse" : "Memoria selectiva del TT";
-      document.getElementById("endSubtitle").textContent = "Efeméride del día completada.";
-      document.getElementById("finalHits").textContent = `${st.hits}/${total}`;
-      document.getElementById("finalScore").textContent = `${st.score}`;
-      document.getElementById("finalStreak").textContent = `${st.maxStreak} 🔥`;
-      if (st.saveScoreFn) await st.saveScoreFn();
-    }
-
-    // --- MOTOR RONDAS 4 OPCIONES ---
-    function setupRoundGame(cfg) {
-      const poolObj = window.POOLS[cfg.key];
-
-      function start() {
-        if (!window.TT_STATE.playerName) { navigateTo("profile"); return; }
-        if (!poolObj.pool.length) return;
-        if (poolObj.usedIndices.size > poolObj.pool.length - 10) poolObj.usedIndices.clear();
-        const avail = [];
-        for (let i = 0; i < poolObj.pool.length; i++) if (!poolObj.usedIndices.has(i)) avail.push(i);
-        for (let i = avail.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [avail[i], avail[j]] = [avail[j], avail[i]];
-        }
-        const picked = avail.slice(0, Math.min(10, avail.length));
-        picked.forEach(i => poolObj.usedIndices.add(i));
-        poolObj.roundQuestions = picked.map(i => poolObj.pool[i]);
-        poolObj.idx = 0; poolObj.score = 0; poolObj.hits = 0; poolObj.streak = 0; poolObj.maxStreak = 0;
-
-        document.getElementById(cfg.startId).classList.add("hidden");
-        document.getElementById(cfg.endId).classList.add("hidden");
-        document.getElementById(cfg.quizId).classList.remove("hidden");
-        render();
-      }
-
-      function render() {
-        poolObj.answered = false;
-        const q = poolObj.roundQuestions[poolObj.idx];
-        const total = poolObj.roundQuestions.length;
-        document.getElementById(cfg.progLabelId).textContent = `Cita ${poolObj.idx + 1} de ${total}`;
-        document.getElementById(cfg.scoreLabelId).textContent = `${poolObj.score} pts · Racha ${poolObj.streak} 🔥`;
-        document.getElementById(cfg.fillId).style.width = `${(poolObj.idx / total) * 100}%`;
-        if (cfg.catId) document.getElementById(cfg.catId).textContent = q.categoria || cfg.defaultCat;
-        document.getElementById(cfg.yearId).textContent = `Año ${q.anio || 2020}`;
-
-        const prevBox = document.getElementById(cfg.prevBoxId);
-        const prevTxt = document.getElementById(cfg.prevTextId);
-        let previoStr = (q.previo || "").trim();
-        if (!previoStr && q.contexto && q.contexto.startsWith("Antes ")) {
-          previoStr = q.contexto.split("|")[0].replace(/^Antes\s+/i, "").trim();
-        }
-        const cNorm = cleanCompare(q.cita);
-        const pNorm = cleanCompare(previoStr);
-        if (previoStr && pNorm && pNorm !== cNorm && !cNorm.includes(pNorm) && !pNorm.includes(cNorm)) {
-          prevTxt.textContent = cfg.hidePrevAuthor ? stripPrevAuthor(previoStr) : previoStr;
-          prevBox.classList.remove("hidden");
-        } else {
-          prevBox.classList.add("hidden");
-        }
-
-        document.getElementById(cfg.quoteId).textContent = `«${q.cita}»`;
-        document.getElementById(cfg.fbId).classList.remove("visible");
-
-        const box = document.getElementById(cfg.optsId);
-        box.innerHTML = "";
-        q.opciones.forEach((optText, idx) => {
-          const btn = document.createElement("button");
-          btn.type = "button";
-          btn.className = "option-btn";
-          btn.innerHTML = `<span class="opt-letter">${LETTERS[idx]}</span><span>${normalizeDisplayOption(optText)}</span>`;
-          btn.addEventListener("click", () => {
-            if (poolObj.answered) return;
-            poolObj.answered = true;
-            document.querySelectorAll(`#${cfg.optsId} .option-btn`).forEach((b, i) => {
-              b.disabled = true;
-              if (i === q.correcta) b.classList.add("correct");
-              else if (i === idx) b.classList.add("wrong");
-            });
-            if (idx === q.correcta) {
-              poolObj.hits++; poolObj.streak++;
-              if (poolObj.streak > poolObj.maxStreak) poolObj.maxStreak = poolObj.streak;
-              poolObj.score += 85 + (poolObj.streak > 1 ? (poolObj.streak - 1) * 15 : 0);
-            } else { poolObj.streak = 0; }
-            document.getElementById(cfg.scoreLabelId).textContent = `${poolObj.score} pts · Racha ${poolObj.streak} 🔥`;
-            document.getElementById(cfg.fillId).style.width = `${((poolObj.idx + 1) / total) * 100}%`;
-            document.getElementById(cfg.expId).innerHTML = `<strong>Autor (${normalizeDisplayOption(q.autor)}):</strong> ${q.contexto || ""}`;
-            document.getElementById(cfg.fbId).classList.add("visible");
-          });
-          box.appendChild(btn);
-        });
-        document.getElementById(cfg.nextId).textContent = poolObj.idx === total - 1 ? "Ver resultado 🏆" : "Siguiente →";
-      }
-
-      async function next() {
-        poolObj.idx++;
-        if (poolObj.idx < poolObj.roundQuestions.length) { render(); return; }
-        document.getElementById(cfg.quizId).classList.add("hidden");
-        document.getElementById(cfg.endId).classList.remove("hidden");
-        const total = poolObj.roundQuestions.length;
-        document.getElementById(cfg.hitsId).textContent = `${poolObj.hits}/${total}`;
-        document.getElementById(cfg.ptsId).textContent = `${poolObj.score}`;
-        document.getElementById(cfg.streakId).textContent = `${poolObj.maxStreak} 🔥`;
-        if (window.TT_STATE.saveBonusScoreFn) {
-          await window.TT_STATE.saveBonusScoreFn(poolObj.score, poolObj.hits, total, cfg.key, cfg.bannerId);
-        }
-      }
-
-      document.getElementById(cfg.startBtnId).addEventListener("click", start);
-      document.getElementById(cfg.nextId).addEventListener("click", next);
-      document.getElementById(cfg.againBtnId).addEventListener("click", start);
-      document.getElementById(cfg.rankBtnId).addEventListener("click", () => navigateTo("rank"));
-      document.getElementById(cfg.shareBtnId).addEventListener("click", () => {
-        const st = window.TT_STATE;
-        const txt = `${cfg.shareTitle}\n👤 *${st.playerName}*: ${poolObj.hits}/${poolObj.roundQuestions.length} aciertos · +${poolObj.score} pts (${poolObj.maxStreak}🔥)`;
-        navigator.clipboard?.writeText(txt).then(() => document.getElementById(cfg.toastId).textContent = "¡Copiado para WhatsApp!");
-      });
-    }
-
-    // --- JUEGO: ¿LO DIJO O NO LO DIJO? ---
-    function startLoDijoGame() {
-      if (!window.TT_STATE.playerName) { navigateTo("profile"); return; }
-      const p = window.POOLS.loDijo;
-      if (!p.pool.length) return;
-      if (p.usedIndices.size > p.pool.length - 10) p.usedIndices.clear();
-      const avail = [];
-      for (let i = 0; i < p.pool.length; i++) if (!p.usedIndices.has(i)) avail.push(i);
-      for (let i = avail.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [avail[i], avail[j]] = [avail[j], avail[i]];
-      }
-      const picked = avail.slice(0, Math.min(10, avail.length));
-      picked.forEach(i => p.usedIndices.add(i));
-      p.roundQuestions = picked.map(i => p.pool[i]);
-      p.idx = 0; p.score = 0; p.hits = 0; p.streak = 0; p.maxStreak = 0;
-
-      document.getElementById("ldStartScreen").classList.add("hidden");
-      document.getElementById("ldEndScreen").classList.add("hidden");
-      document.getElementById("ldQuizScreen").classList.remove("hidden");
-      renderLoDijoQuestion();
-    }
-
-    function renderLoDijoQuestion() {
-      const p = window.POOLS.loDijo;
-      p.answered = false;
-      const q = p.roundQuestions[p.idx];
-      const total = p.roundQuestions.length;
-      document.getElementById("ldProgressLabel").textContent = `Carta ${p.idx + 1} de ${total}`;
-      document.getElementById("ldScoreStreakLabel").textContent = `${p.score} pts · Racha ${p.streak} 🔥`;
-      document.getElementById("ldProgressFill").style.width = `${(p.idx / total) * 100}%`;
-      document.getElementById("ldAuthorTag").textContent = `Supuesto autor: ${normalizeDisplayOption(q.autor)}`;
-      document.getElementById("ldYear").textContent = `Año ${q.anio || 2020}`;
-      document.getElementById("ldQuoteText").textContent = `«${q.cita}»`;
-      document.getElementById("ldFeedbackBox").classList.remove("visible");
-
-      const box = document.getElementById("ldOptionsBox");
-      box.innerHTML = "";
-      [
-        { label: "✅ SÍ LO DIJO", val: true },
-        { label: "❌ NO LO DIJO (Invent)", val: false }
-      ].forEach(opt => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "option-btn center-btn";
-        btn.textContent = opt.label;
-        btn.addEventListener("click", () => {
-          if (p.answered) return;
-          p.answered = true;
-          const allBtns = box.querySelectorAll(".option-btn");
-          allBtns[0].disabled = true;
-          allBtns[1].disabled = true;
-          allBtns[q.es_real ? 0 : 1].classList.add("correct");
-          if (opt.val !== q.es_real) {
-            btn.classList.add("wrong");
-            p.streak = 0;
-          } else {
-            p.hits++; p.streak++;
-            if (p.streak > p.maxStreak) p.maxStreak = p.streak;
-            p.score += 80 + (p.streak > 1 ? (p.streak - 1) * 15 : 0);
-          }
-          document.getElementById("ldScoreStreakLabel").textContent = `${p.score} pts · Racha ${p.streak} 🔥`;
-          document.getElementById("ldProgressFill").style.width = `${((p.idx + 1) / total) * 100}%`;
-          document.getElementById("ldExplanation").textContent = q.explicacion || "";
-          document.getElementById("ldFeedbackBox").classList.add("visible");
-        });
-        box.appendChild(btn);
-      });
-      document.getElementById("ldNextBtn").textContent = p.idx === total - 1 ? "Ver resultado 🏆" : "Siguiente carta →";
-    }
-
-    async function nextLoDijoQuestion() {
-      const p = window.POOLS.loDijo;
-      p.idx++;
-      if (p.idx < p.roundQuestions.length) { renderLoDijoQuestion(); return; }
-      document.getElementById("ldQuizScreen").classList.add("hidden");
-      document.getElementById("ldEndScreen").classList.remove("hidden");
-      const total = p.roundQuestions.length;
-      document.getElementById("ldFinalHits").textContent = `${p.hits}/${total}`;
-      document.getElementById("ldFinalScore").textContent = `${p.score}`;
-      document.getElementById("ldFinalStreak").textContent = `${p.maxStreak} 🔥`;
-      if (window.TT_STATE.saveBonusScoreFn) {
-        await window.TT_STATE.saveBonusScoreFn(p.score, p.hits, total, "lo_dijo_o_no", "ldSaveBanner");
-      }
-    }
-
-    // --- JUEGO: EL DATO JUSTO ---
-    function startDatoGame() {
-      if (!window.TT_STATE.playerName) { navigateTo("profile"); return; }
-      const p = window.POOLS.dato;
-      if (!p.pool.length) return;
-      if (p.usedIndices.size > p.pool.length - 8) p.usedIndices.clear();
-      const avail = [];
-      for (let i = 0; i < p.pool.length; i++) if (!p.usedIndices.has(i)) avail.push(i);
-      for (let i = avail.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [avail[i], avail[j]] = [avail[j], avail[i]];
-      }
-      const picked = avail.slice(0, Math.min(8, avail.length));
-      picked.forEach(i => p.usedIndices.add(i));
-      p.roundQuestions = picked.map(i => p.pool[i]);
-      p.idx = 0; p.score = 0; p.hits = 0; p.errorsPct = [];
-
-      document.getElementById("dtStartScreen").classList.add("hidden");
-      document.getElementById("dtEndScreen").classList.add("hidden");
-      document.getElementById("dtQuizScreen").classList.remove("hidden");
-      renderDatoQuestion();
-    }
-
-    function renderDatoQuestion() {
-      const p = window.POOLS.dato;
-      p.answered = false;
-      const q = p.roundQuestions[p.idx];
-      const total = p.roundQuestions.length;
-      document.getElementById("dtProgressLabel").textContent = `Reto ${p.idx + 1} de ${total}`;
-      document.getElementById("dtScoreLabel").textContent = `${p.score} pts`;
-      document.getElementById("dtProgressFill").style.width = `${(p.idx / total) * 100}%`;
-      document.getElementById("dtUnitTag").textContent = q.unidad || "mensajes";
-      document.getElementById("dtQuestionText").textContent = q.pregunta;
-
-      const minV = Number(q.min || 0);
-      const maxV = Number(q.max || 50000);
-      const midV = Math.round((minV + maxV) / 3);
-
-      const numInp = document.getElementById("dtNumberInput");
-      const sldInp = document.getElementById("dtSliderInput");
-      numInp.min = minV; numInp.max = maxV * 2; numInp.value = midV; numInp.disabled = false;
-      sldInp.min = minV; sldInp.max = maxV; sldInp.value = midV; sldInp.disabled = false;
-      document.getElementById("dtMinLabel").textContent = minV.toLocaleString("es-ES");
-      document.getElementById("dtMaxLabel").textContent = maxV.toLocaleString("es-ES");
-      document.getElementById("dtSubmitBtn").disabled = false;
-      document.getElementById("dtFeedbackBox").classList.remove("visible");
-      document.getElementById("dtNextBtn").textContent = p.idx === total - 1 ? "Ver resultado 🏆" : "Siguiente reto →";
-    }
-
-    document.getElementById("dtSliderInput").addEventListener("input", (e) => {
-      document.getElementById("dtNumberInput").value = e.target.value;
-    });
-    document.getElementById("dtNumberInput").addEventListener("input", (e) => {
-      const sld = document.getElementById("dtSliderInput");
-      const v = Number(e.target.value) || 0;
-      sld.value = Math.min(Number(sld.max), Math.max(Number(sld.min), v));
-    });
-
-    document.getElementById("dtSubmitBtn").addEventListener("click", () => {
-      const p = window.POOLS.dato;
-      if (p.answered) return;
-      p.answered = true;
-      const q = p.roundQuestions[p.idx];
-      const guess = Math.max(0, Number(document.getElementById("dtNumberInput").value) || 0);
-      const exact = Number(q.respuesta);
-
-      document.getElementById("dtNumberInput").disabled = true;
-      document.getElementById("dtSliderInput").disabled = true;
-      document.getElementById("dtSubmitBtn").disabled = true;
-
-      const diff = Math.abs(guess - exact);
-      const relErr = exact > 0 ? (diff / exact) * 100 : (guess === 0 ? 0 : 100);
-      p.errorsPct.push(Math.min(100, relErr));
-
-      let earned = 0;
-      if (relErr === 0) earned = 120;
-      else if (relErr <= 5) earned = 100;
-      else if (relErr <= 15) earned = 80;
-      else if (relErr <= 30) earned = 55;
-      else if (relErr <= 50) earned = 30;
-      else if (relErr <= 80) earned = 10;
-
-      if (relErr <= 20) p.hits++;
-      p.score += earned;
-
-      document.getElementById("dtScoreLabel").textContent = `${p.score} pts`;
-      document.getElementById("dtProgressFill").style.width = `${((p.idx + 1) / p.roundQuestions.length) * 100}%`;
-      document.getElementById("dtExactResult").textContent = `${exact.toLocaleString("es-ES")} ${q.unidad || ""} (Dijiste ${guess.toLocaleString("es-ES")} · Desviación ${relErr.toFixed(1)}% · +${earned} pts)`;
-      document.getElementById("dtExplanation").textContent = q.explicacion || "";
-      document.getElementById("dtFeedbackBox").classList.add("visible");
-    });
-
-    async function nextDatoQuestion() {
-      const p = window.POOLS.dato;
-      p.idx++;
-      if (p.idx < p.roundQuestions.length) { renderDatoQuestion(); return; }
-      document.getElementById("dtQuizScreen").classList.add("hidden");
-      document.getElementById("dtEndScreen").classList.remove("hidden");
-      const total = p.roundQuestions.length;
-      const avgErr = p.errorsPct.length ? (p.errorsPct.reduce((a, b) => a + b, 0) / p.errorsPct.length) : 0;
-      document.getElementById("dtFinalHits").textContent = `${p.hits}/${total}`;
-      document.getElementById("dtFinalScore").textContent = `${p.score}`;
-      document.getElementById("dtFinalAvgErr").textContent = `${avgErr.toFixed(1)}%`;
-      if (window.TT_STATE.saveBonusScoreFn) {
-        await window.TT_STATE.saveBonusScoreFn(p.score, p.hits, total, "el_dato_justo", "dtSaveBanner");
-      }
-    }
-
-    function renderComidaDebates() {
-      const box = document.getElementById("comidaDebatesList");
-      const debates = window.TT_STATE.comidaDebates || [];
-      document.getElementById("cDebatesTotal").textContent = debates.length || "0";
-      if (!debates.length) {
-        box.innerHTML = `<div class="rank-sub">Sube <code>data/comidistta.json</code> a GitHub para leer los debates gastronómicos.</div>`;
-        return;
-      }
-      box.innerHTML = debates.slice(0, 40).map(d => `
-        <div class="debate-card">
-          <div class="meta-tags">
-            <span class="tag-amber">${d.tema || "Gastronomía"}</span>
-            <span class="tag-date">${d.anio || ""}</span>
-          </div>
-          <div class="debate-title">${d.titulo}</div>
-          <div class="debate-resumen">${d.resumen}</div>
-          ${(d.fragmentos || []).map(f => `<div class="debate-line">${f}</div>`).join("")}
+      const medals = ["🥇", "🥈", "🥉"];
+      document.getElementById("rankingList").innerHTML = rows.map((r, i) => `
+        <div class="rank-row">
+          <span><strong>${medals[i] || `#${i + 1}`}</strong> ${r.name}</span>
+          <span style="color: var(--accent); font-weight: 800;">${r.pts} pts</span>
         </div>
       `).join("");
     }
 
-    function renderWikiGrid() {
-      const grid = document.getElementById("wikiGrid");
-      grid.innerHTML = "";
-      TT_MEMBERS.forEach(name => {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "player-pill";
-        btn.textContent = name;
-        btn.addEventListener("click", () => {
-          document.querySelectorAll("#wikiGrid .player-pill").forEach(b => b.classList.remove("selected"));
-          btn.classList.add("selected");
-          const box = document.getElementById("wikiDetailBox");
-          box.classList.remove("hidden");
-          const bio = window.TT_STATE.biosMap[name];
-          if (!bio) {
-            box.innerHTML = `<div class="status-banner">No se encontró ficha en <code>./data/biografias_tt.json</code> para ${name}.</div>`;
-            return;
-          }
-          box.innerHTML = `
-            <div class="bio-header">
-              <div class="bio-title">${bio.nombre} · ${bio.apodo_titulo}</div>
-              <div class="bio-role">${bio.rol_en_el_grupo}</div>
-            </div>
-            <div class="stats-grid">
-              <div class="stat-box"><strong>${bio.total_mensajes}</strong><span>Mensajes</span></div>
-              <div class="stat-box"><strong>${bio.hora_pico}</strong><span>Hora pico</span></div>
-              <div class="stat-box"><strong>${bio.periodo}</strong><span>Historial</span></div>
-            </div>
-            <div class="bio-tags">${(bio.temas_obsesion || []).map(t => `<span class="bio-tag">#${t}</span>`).join("")}</div>
-            <p class="bio-lore">${bio.biografia_lore}</p>
-            <div class="rank-section-title">💬 Citas para la posteridad</div>
-            ${(bio.citas_miticas || []).map(c => `<div class="wa-bubble">«${c}»</div>`).join("")}
-          `;
-        });
-        grid.appendChild(btn);
-      });
+    function closeModals() {
+      document.querySelectorAll(".modal-backdrop").forEach(el => el.classList.remove("open"));
     }
 
-    setupRoundGame({
-      key: "quotes", startBtnId: "qStartBtn", startId: "qStartScreen", quizId: "qQuizScreen", endId: "qEndScreen",
-      progLabelId: "qqProgressLabel", scoreLabelId: "qqScoreStreakLabel", fillId: "qqProgressFill",
-      yearId: "qqYear", prevBoxId: "qqPrevBox", prevTextId: "qqPrevText", quoteId: "qqQuoteText",
-      optsId: "qqOptionsBox", fbId: "qqFeedbackBox", expId: "qqExplanation", nextId: "qqNextBtn",
-      hitsId: "qqFinalHits", ptsId: "qqFinalScore", streakId: "qqFinalStreak", bannerId: "qqSaveBanner",
-      shareBtnId: "qqShareBtn", toastId: "qqCopyToast", againBtnId: "qqPlayAgainBtn", rankBtnId: "qqGoRankBtn",
-      shareTitle: "💬 *TTpedia · ¿Quién dijo esto?*", hidePrevAuthor: false
-    });
-
-    setupRoundGame({
-      key: "porno", startBtnId: "pStartBtn", startId: "pStartScreen", quizId: "pQuizScreen", endId: "pEndScreen",
-      progLabelId: "ppProgressLabel", scoreLabelId: "ppScoreStreakLabel", fillId: "ppProgressFill",
-      catId: "ppCatTag", defaultCat: "🔞 Salseo +18", yearId: "ppYear", prevBoxId: "ppPrevBox", prevTextId: "ppPrevText",
-      quoteId: "ppQuoteText", optsId: "ppOptionsBox", fbId: "ppFeedbackBox", expId: "ppExplanation",
-      nextId: "ppNextBtn", hitsId: "ppFinalHits", ptsId: "ppFinalScore", streakId: "ppFinalStreak",
-      bannerId: "ppSaveBanner", shareBtnId: "ppShareBtn", toastId: "ppCopyToast", againBtnId: "ppPlayAgainBtn",
-      rankBtnId: "ppGoRankBtn", shareTitle: "🔞 *TTpedia · Pornopedia +18*", hidePrevAuthor: true
-    });
-
-    setupRoundGame({
-      key: "comida", startBtnId: "cStartBtn", startId: "cStartScreen", quizId: "cQuizScreen", endId: "cEndScreen",
-      progLabelId: "ccProgressLabel", scoreLabelId: "ccScoreStreakLabel", fillId: "ccProgressFill",
-      yearId: "ccYear", prevBoxId: "ccPrevBox", prevTextId: "ccPrevText", quoteId: "ccQuoteText",
-      optsId: "ccOptionsBox", fbId: "ccFeedbackBox", expId: "ccExplanation", nextId: "ccNextBtn",
-      hitsId: "ccFinalHits", ptsId: "ccFinalScore", streakId: "ccFinalStreak", bannerId: "ccSaveBanner",
-      shareBtnId: "ccShareBtn", toastId: "ccCopyToast", againBtnId: "ccPlayAgainBtn", rankBtnId: "ccGoRankBtn",
-      shareTitle: "🍽️ *TTpedia · El ComidisTTa*", hidePrevAuthor: false
-    });
-
-    setupRoundGame({
-      key: "vox", startBtnId: "vStartBtn", startId: "vStartScreen", quizId: "vQuizScreen", endId: "vEndScreen",
-      progLabelId: "vvProgressLabel", scoreLabelId: "vvScoreStreakLabel", fillId: "vvProgressFill",
-      yearId: "vvYear", prevBoxId: "vvPrevBox", prevTextId: "vvPrevText", quoteId: "vvQuoteText",
-      optsId: "vvOptionsBox", fbId: "vvFeedbackBox", expId: "vvExplanation", nextId: "vvNextBtn",
-      hitsId: "vvFinalHits", ptsId: "vvFinalScore", streakId: "vvFinalStreak", bannerId: "vvSaveBanner",
-      shareBtnId: "vvShareBtn", toastId: "vvCopyToast", againBtnId: "vvPlayAgainBtn", rankBtnId: "vvGoRankBtn",
-      shareTitle: "🟩 *TTpedia · Zona VOX*", hidePrevAuthor: false
-    });
-
-    // Eventos Lo Dijo o No
-    document.getElementById("ldStartBtn").addEventListener("click", startLoDijoGame);
-    document.getElementById("ldNextBtn").addEventListener("click", nextLoDijoQuestion);
-    document.getElementById("ldPlayAgainBtn").addEventListener("click", startLoDijoGame);
-    document.getElementById("ldGoRankBtn").addEventListener("click", () => navigateTo("rank"));
-    document.getElementById("ldShareBtn").addEventListener("click", () => {
-      const st = window.TT_STATE, p = window.POOLS.loDijo;
-      const txt = `⚖️ *TTpedia · ¿Lo dijo o no lo dijo?*\n👤 *${st.playerName}*: ${p.hits}/${p.roundQuestions.length} aciertos · +${p.score} pts (${p.maxStreak}🔥)`;
-      navigator.clipboard?.writeText(txt).then(() => document.getElementById("ldCopyToast").textContent = "¡Copiado para WhatsApp!");
-    });
-
-    // Eventos El Dato Justo
-    document.getElementById("dtStartBtn").addEventListener("click", startDatoGame);
-    document.getElementById("dtNextBtn").addEventListener("click", nextDatoQuestion);
-    document.getElementById("dtPlayAgainBtn").addEventListener("click", startDatoGame);
-    document.getElementById("dtGoRankBtn").addEventListener("click", () => navigateTo("rank"));
-    document.getElementById("dtShareBtn").addEventListener("click", () => {
-      const st = window.TT_STATE, p = window.POOLS.dato;
-      const txt = `🎯 *TTpedia · El Dato Justo*\n👤 *${st.playerName}*: ${p.hits}/${p.roundQuestions.length} clavadas · +${p.score} pts`;
-      navigator.clipboard?.writeText(txt).then(() => document.getElementById("dtCopyToast").textContent = "¡Copiado para WhatsApp!");
-    });
-
-    // Navegación general
-    document.getElementById("brandHomeBtn").addEventListener("click", () => { if (window.TT_STATE.playerName) navigateTo("home"); });
-    document.getElementById("backHomeBtn").addEventListener("click", () => navigateTo("home"));
-    document.getElementById("userChip").addEventListener("click", () => navigateTo("profile"));
-    document.getElementById("startDailyBtn").addEventListener("click", startDailyGame);
-    document.getElementById("nextBtn").addEventListener("click", nextDailyQuestion);
-    document.getElementById("goRankBtn").addEventListener("click", () => navigateTo("rank"));
-    document.getElementById("restartBtn").addEventListener("click", () => navigateTo("home"));
-    document.getElementById("shareBtn").addEventListener("click", () => {
-      const st = window.TT_STATE;
-      const txt = `📜 *TTpedia · Efeméride ${st.todayReadable}*\n👤 *${st.playerName}*: ${st.hits}/${st.questions.length} aciertos · ${st.score} pts (${st.maxStreak}🔥)`;
-      navigator.clipboard?.writeText(txt).then(() => document.getElementById("copyToast").textContent = "¡Copiado para WhatsApp!");
-    });
-
-    document.getElementById("openQuotesTile").addEventListener("click", () => navigateTo("quotes"));
-    document.getElementById("openLoDijoTile").addEventListener("click", () => navigateTo("lodijo"));
-    document.getElementById("openDatoTile").addEventListener("click", () => navigateTo("dato"));
-    document.getElementById("openWikiTile").addEventListener("click", () => navigateTo("wiki"));
-    document.getElementById("openRankTile").addEventListener("click", () => navigateTo("rank"));
-    document.getElementById("openPornoTile").addEventListener("click", () => navigateTo("porno"));
-    document.getElementById("openComidaTile").addEventListener("click", () => navigateTo("comida"));
-    document.getElementById("openVoxTile").addEventListener("click", () => navigateTo("vox"));
-    document.getElementById("refreshRankBtn").addEventListener("click", () => { if (window.TT_STATE.loadBoardsFn) window.TT_STATE.loadBoardsFn(); });
-
-    function applyDayDataToUI(data) {
-      const st = window.TT_STATE;
-      st.dayData = data;
-      document.getElementById("headerDateLabel").textContent = `Efemérides · ${st.todayReadable}`;
-      document.getElementById("heroDayTitle").textContent = `Efeméride del ${st.todayReadable}`;
-      document.getElementById("heroDayDesc").innerHTML = `Reto diario extraído de <strong>${data.total_mensajes_dia} mensajes</strong> reales del chat del TT.`;
-      const years = [...new Set(data.preguntas.map(p => p.anio))].sort();
-      document.getElementById("statMsgs").textContent = data.total_mensajes_dia;
-      document.getElementById("statPregs").textContent = data.preguntas.length;
-      document.getElementById("statYears").textContent = years.length > 1 ? `${String(years[0]).slice(2)}-${String(years[years.length - 1]).slice(2)}` : `${years[0] || "-"}`;
+    // =========================================================================
+    // NAVEGACIÓN ENTRE VISTAS
+    // =========================================================================
+    function goHome() {
+      document.getElementById("homeView").style.display = "block";
+      document.getElementById("gameView").classList.remove("active");
+      document.getElementById("sectionView").classList.remove("active");
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    (async function bootApp() {
-      const info = getTodayInfo();
-      window.TT_STATE.todayKey = info.key;
-      window.TT_STATE.todayReadable = info.readable;
+    function showGameView(title) {
+      document.getElementById("homeView").style.display = "none";
+      document.getElementById("sectionView").classList.remove("active");
+      document.getElementById("gameView").classList.add("active");
+      document.getElementById("gameTitleHeader").textContent = title;
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
 
+    function showSectionView(title, extraHtml = "") {
+      document.getElementById("homeView").style.display = "none";
+      document.getElementById("gameView").classList.remove("active");
+      document.getElementById("sectionView").classList.add("active");
+      document.getElementById("sectionTitleHeader").textContent = title;
+      document.getElementById("sectionExtraAction").innerHTML = extraHtml;
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    // =========================================================================
+    // CARGA DE JSON CON FALLBACK AUTOMÁTICO
+    // =========================================================================
+    async function loadJsonSafe(url, fallback) {
       try {
-        const res = await fetch(`./data/efemerides/${info.key}.json`, { cache: "no-store" });
-        if (!res.ok) throw new Error();
-        applyDayDataToUI(await res.json());
-      } catch (_) {
-        window.TT_STATE.todayKey = "11-23";
-        window.TT_STATE.todayReadable = "23 de Noviembre";
-        applyDayDataToUI(FALLBACK_11_23);
+        const res = await fetch(url);
+        if (!res.ok) throw new Error("No encontrado");
+        return await res.json();
+      } catch (e) {
+        return fallback;
+      }
+    }
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    // =========================================================================
+    // MOTOR DE JUEGOS Y EFEMÉRIDE DEL DÍA
+    // =========================================================================
+    async function startEfemeride() {
+      const val = datePicker.value || `${yyyy}-${mm}-${dd}`;
+      const [, m, d] = val.split("-");
+      const mm_dd = `${m}-${d}`;
+      const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK_DATA.efemeride });
+      const pool = shuffle(data.preguntas || FALLBACK_DATA.efemeride).slice(0, 10);
+
+      state.currentQuestions = pool.map(q => ({ type: "efemeride", ...q }));
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.streak = 0;
+      state.currentModeTitle = `📜 Efeméride del Día (${mm_dd})`;
+      showGameView(state.currentModeTitle);
+      renderQuestion();
+    }
+
+    async function startGame(mode) {
+      let pool = [];
+      if (mode === "quien_dijo") {
+        const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: FALLBACK_DATA.quien_dijo });
+        pool = shuffle(data.preguntas || data).slice(0, 10).map(q => ({ type: "quien_dijo", ...q }));
+        state.currentModeTitle = "💬 ¿Quién dijo esto?";
+      } else if (mode === "lo_dijo_o_no") {
+        const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK_DATA.lo_dijo_o_no });
+        pool = shuffle(data.preguntas || data).slice(0, 10).map(q => ({ type: "lo_dijo_o_no", ...q }));
+        state.currentModeTitle = "⚖️ Lo dijo o no lo dijo";
+      } else if (mode === "rajaditta") {
+        const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK_DATA.rajaditta });
+        pool = shuffle(data.preguntas || data).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
+        state.currentModeTitle = "🤬 La RajadiTTa";
+      } else if (mode === "dato_justo") {
+        const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: FALLBACK_DATA.dato_justo });
+        pool = shuffle(data.preguntas || data).slice(0, 10).map(q => ({ type: "dato_justo", ...q }));
+        state.currentModeTitle = "🎯 El Dato Justo";
       }
 
-      try {
-        const resQ = await fetch("./data/quien_dijo_esto.json", { cache: "no-store" });
-        if (resQ.ok) {
-          const dataQ = await resQ.json();
-          window.POOLS.quotes.pool = dataQ.preguntas || [];
-          document.getElementById("qPoolTotal").textContent = window.POOLS.quotes.pool.length;
-          document.getElementById("tileQuotesCount").textContent = `${window.POOLS.quotes.pool.length} citas`;
-        }
-      } catch (_) {}
+      state.currentQuestions = pool;
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.streak = 0;
+      showGameView(state.currentModeTitle);
+      renderQuestion();
+    }
 
-      try {
-        const resLD = await fetch("./data/lo_dijo_o_no.json", { cache: "no-store" });
-        if (resLD.ok) {
-          const dataLD = await resLD.json();
-          window.POOLS.loDijo.pool = dataLD.preguntas || [];
-          document.getElementById("ldPoolTotal").textContent = window.POOLS.loDijo.pool.length;
-          document.getElementById("tileLoDijoCount").textContent = `${window.POOLS.loDijo.pool.length} cartas`;
-        }
-      } catch (_) {}
+    function renderQuestion() {
+      const container = document.getElementById("quizContainer");
+      document.getElementById("gameScorePill").textContent = `${state.roundScore} pts · Racha ${state.streak}`;
 
-      try {
-        const resDT = await fetch("./data/el_dato_justo.json", { cache: "no-store" });
-        if (resDT.ok) {
-          const dataDT = await resDT.json();
-          window.POOLS.dato.pool = dataDT.preguntas || [];
-          document.getElementById("dtPoolTotal").textContent = window.POOLS.dato.pool.length;
-          document.getElementById("tileDatoCount").textContent = `${window.POOLS.dato.pool.length} retos`;
-        }
-      } catch (_) {}
-
-      try {
-        const resP = await fetch("./data/pornopedia_tt.json", { cache: "no-store" });
-        if (resP.ok) {
-          const dataP = await resP.json();
-          window.POOLS.porno.pool = dataP.preguntas || [];
-          document.getElementById("pPoolTotal").textContent = window.POOLS.porno.pool.length;
-          document.getElementById("tilePornoCount").textContent = `${window.POOLS.porno.pool.length} perlas`;
-        }
-      } catch (_) {}
-
-      try {
-        const resC = await fetch("./data/comidistta.json", { cache: "no-store" });
-        if (resC.ok) {
-          const dataC = await resC.json();
-          window.POOLS.comida.pool = dataC.preguntas || [];
-          window.TT_STATE.comidaDebates = dataC.debates || [];
-          document.getElementById("cPoolTotal").textContent = window.POOLS.comida.pool.length;
-          document.getElementById("tileComidaCount").textContent = `${window.TT_STATE.comidaDebates.length} debates`;
-        }
-      } catch (_) {}
-      renderComidaDebates();
-
-      for (const fname of ["./data/zona_vox.json", "./data/zona_custom.json"]) {
-        try {
-          const resV = await fetch(fname, { cache: "no-store" });
-          if (resV.ok) {
-            const dataV = await resV.json();
-            window.POOLS.vox.pool = dataV.preguntas || [];
-            document.getElementById("vPoolTotal").textContent = window.POOLS.vox.pool.length;
-            document.getElementById("tileVoxCount").textContent = `${window.POOLS.vox.pool.length} citas`;
-            break;
-          }
-        } catch (_) {}
-      }
-
-      try {
-        const resB = await fetch("./data/biografias_tt.json", { cache: "no-store" });
-        if (resB.ok) {
-          const dataB = await resB.json();
-          (dataB.miembros || []).forEach(m => { window.TT_STATE.biosMap[m.nombre] = m; });
-        }
-      } catch (_) {}
-
-      if (window.TT_STATE.playerName) {
-        document.getElementById("userChip").textContent = `👤 ${window.TT_STATE.playerName}`;
-        navigateTo("home");
-      } else {
-        navigateTo("profile");
-      }
-    })();
-  </script>
-
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
-    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
-    import {
-      getFirestore, doc, getDoc, setDoc, collection, query, where, orderBy, limit, getDocs, serverTimestamp
-    } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
-
-    const firebaseConfig = {
-      apiKey: "AIzaSyAlnLXGSBOJqi9GiTNVfpujAKLKfzQScN4",
-      authDomain: "ttpedia-d273e.firebaseapp.com",
-      projectId: "ttpedia-d273e",
-      storageBucket: "ttpedia-d273e.firebasestorage.app",
-      messagingSenderId: "517293767219",
-      appId: "1:517293767219:web:79d24f909c1fed50af8146",
-      measurementId: "G-40D390SFX8"
-    };
-
-    const app = initializeApp(firebaseConfig);
-    const auth = getAuth(app);
-    const db = getFirestore(app);
-    const st = window.TT_STATE;
-
-    async function checkTodayStatus() {
-      const banner = document.getElementById("dailyStatusBanner");
-      const startBtn = document.getElementById("startDailyBtn");
-      if (!st.currentUser) {
-        banner.className = "status-banner";
-        banner.textContent = "Activa Authentication -> Anónimo en Firebase para guardar tus puntos.";
+      if (state.qIndex >= state.currentQuestions.length) {
+        container.innerHTML = `
+          <div style="text-align:center; padding: 18px 8px;">
+            <div style="font-size: 42px; margin-bottom: 10px;">🏁</div>
+            <h3 style="font-size: 24px; font-weight: 900; margin-bottom: 6px;">¡Ronda completada, ${state.player}!</h3>
+            <p style="color: var(--muted); margin-bottom: 18px;">Has sumado <strong style="color:var(--accent);">${state.roundScore} puntos</strong> en ${state.currentModeTitle}.</p>
+            <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+              <button class="btn-primary" onclick="copyShareSummary()">📋 Copiar resultado para WhatsApp</button>
+              <button class="btn-secondary" onclick="goHome()">Volver a Portada</button>
+            </div>
+          </div>
+        `;
         return;
       }
-      try {
-        const ref = doc(db, "efemerides_resultados", `${st.todayKey}_${st.currentUser.uid}`);
-        const snap = await getDoc(ref);
-        if (snap.exists()) {
-          st.alreadyPlayedToday = true;
-          st.todayRecord = snap.data();
-          banner.className = "status-banner";
-          banner.innerHTML = `✅ Ya jugaste hoy como <strong>${st.todayRecord.jugador}</strong>: <strong>${st.todayRecord.aciertos}/${st.todayRecord.total}</strong> aciertos (<strong>${st.todayRecord.puntos} pts</strong>). Puedes repetir en <strong>modo entreno</strong>.`;
-          startBtn.textContent = "🎲 Repetir en Modo Entreno";
-        } else {
-          st.alreadyPlayedToday = false;
-          banner.className = "status-banner ok";
-          banner.innerHTML = `🟢 <strong>Reto Oficial disponible:</strong> tu primera partida de hoy contará para el podio del TT.`;
-          startBtn.textContent = "🚀 Jugar Efeméride del Día";
-        }
-      } catch (e) {
-        banner.className = "status-banner";
-        banner.textContent = "Firestore pendiente de activar o reglas sin publicar.";
+
+      const q = state.currentQuestions[state.qIndex];
+      const total = state.currentQuestions.length;
+      let promptHtml = "";
+      let options = [];
+      let correctIdx = 0;
+
+      if (q.type === "rajaditta") {
+        const formattedQuote = (q.cita || "").replace(/\*\*\*/g, '<span class="censored">[CENSURADO]</span>');
+        promptHtml = `
+          <div style="font-weight:700; font-size:17px;">¿A quién está poniendo fino <span style="color:var(--accent);">${q.agresor}</span>?</div>
+          <div class="quote-box">
+            <span class="quote-context">Año ${q.anio || "Histórico"}</span>
+            “${formattedQuote}”
+          </div>
+        `;
+        options = q.opciones;
+        correctIdx = q.correcta;
+      } else if (q.type === "lo_dijo_o_no") {
+        promptHtml = `
+          <div style="font-weight:700; font-size:17px;">2 verdades y 1 impostor sobre <span style="color:var(--accent);">${q.miembro}</span>: ¿cuál NO dijo?</div>
+          <p style="font-size:13px; color:var(--muted); margin: 6px 0 14px;">Pulsa sobre la frase que pertenece a otro miembro del grupo:</p>
+        `;
+        options = q.frases.map(f => `“${f}”`);
+        correctIdx = q.impostor;
+      } else {
+        promptHtml = `
+          <div style="font-weight:700; font-size:17px;">${q.pregunta || "¿Quién soltó esta frase en el grupo?"}</div>
+          ${q.cita ? `<div class="quote-box">${q.contexto ? `<span class="quote-context">Previo: ${q.contexto}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
+        `;
+        options = q.opciones;
+        correctIdx = q.correcta;
       }
+
+      container.innerHTML = `
+        <div class="quiz-meta">
+          <span>Pregunta <strong>${state.qIndex + 1}</strong> de ${total}</span>
+          <span>Año: <strong>${q.anio || "Lore TT"}</strong></span>
+        </div>
+        ${promptHtml}
+        <div class="options-list">
+          ${options.map((op, i) => `
+            <button class="opt-btn" onclick="handleAnswer(${i}, ${correctIdx})">${op}</button>
+          `).join("")}
+        </div>
+        <div class="feedback-box" id="feedbackBox"></div>
+        <div style="margin-top: 16px; text-align: right; display: none;" id="nextBtnWrap">
+          <button class="btn-primary" onclick="nextQuestion()">Siguiente →</button>
+        </div>
+      `;
     }
 
-    async function addPointsToGlobalRanking(pts, hitsCount, totalCount, lastTag) {
-      const globalRef = doc(db, "ranking_global", st.currentUser.uid);
-      const globalSnap = await getDoc(globalRef);
-      const prev = globalSnap.exists() ? globalSnap.data() : {
-        puntosTotales: 0, diasJugados: 0, aciertosTotales: 0, preguntasTotales: 0
+    function handleAnswer(selected, correct) {
+      const btns = document.querySelectorAll(".opt-btn");
+      btns.forEach(b => b.disabled = true);
+
+      const q = state.currentQuestions[state.qIndex];
+      const isOk = selected === correct;
+
+      if (isOk) {
+        btns[selected].classList.add("correct");
+        state.streak += 1;
+        const gained = 10 + Math.min(state.streak * 2, 10);
+        state.roundScore += gained;
+        addPoints(gained);
+      } else {
+        btns[selected].classList.add("wrong");
+        if (btns[correct]) btns[correct].classList.add("correct");
+        state.streak = 0;
+      }
+
+      document.getElementById("gameScorePill").textContent = `${state.roundScore} pts · Racha ${state.streak}`;
+
+      const fb = document.getElementById("feedbackBox");
+      let extraText = q.explicacion || q.contexto || "";
+      if (q.type === "rajaditta" && q.cita_sin_censura) {
+        extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”<br><span style="color:var(--muted);">${q.contexto || ""}</span>`;
+      }
+      fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:4px;">${extraText}</div>`;
+      fb.classList.add("show");
+      document.getElementById("nextBtnWrap").style.display = "block";
+    }
+
+    function nextQuestion() {
+      state.qIndex += 1;
+      renderQuestion();
+    }
+
+    function copyShareSummary() {
+      const txt = `🏆 TTpedia · ${state.currentModeTitle}
+👤 ${state.player}: ${state.roundScore} pts
+📜 Archivo 2012–2026`;
+      navigator.clipboard?.writeText(txt);
+      showToast("Resultado copiado para pegar en WhatsApp");
+    }
+
+    // =========================================================================
+    // SECCIONES TEMÁTICAS, CARTTELERA Y ENCICLOPEDIA
+    // =========================================================================
+    async function openCarttelera() {
+      const data = await loadJsonSafe(DATA_PATHS.carttelera, { capitulos: FALLBACK_DATA.carttelera });
+      const caps = data.capitulos || FALLBACK_DATA.carttelera;
+      showSectionView(
+        "🎬 Estrenos de CarTTelera · La Balada de Marzal y la Turca",
+        `<button class="btn-secondary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>`
+      );
+
+      document.getElementById("sectionContent").innerHTML = caps.map(c => `
+        <div class="archive-item">
+          <div class="archive-head">
+            <span style="color:var(--accent); font-weight:800;">CAPÍTULO ${c.cap}</span>
+            <span>Año ${c.anio}</span>
+          </div>
+          <h4 style="font-size:17px; margin-bottom:6px;">${c.titulo}</h4>
+          <p style="font-size:14px; color:#cbd5e1;">${c.resumen}</p>
+        </div>
+      `).join("");
+    }
+
+    function openVoteSaga() {
+      const candidatas = [
+        { id: "boda_humpa", title: "La Boda de Humpa", desc: "Preparativos, despedida y resaca histórica." },
+        { id: "gandia_2012", title: "Verano Gandia Shore 2012", desc: "Los orígenes del grupo cuando aún había pelo y tiempo libre." },
+        { id: "rajadas_futbol", title: "Especial Rajadas Barça / Valencia", desc: "Los mayores calentones futboleros de 14 años." }
+      ];
+      showSectionView("🗳️ Urna de Próximo Estreno en CarTTelera");
+      document.getElementById("sectionContent").innerHTML = candidatas.map(c => {
+        const voted = state.votes[state.player] === c.id;
+        return `
+          <div class="archive-item" style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+            <div>
+              <h4 style="font-size:16px; margin-bottom:4px;">${c.title}</h4>
+              <p style="font-size:13px; color:var(--muted);">${c.desc}</p>
+            </div>
+            <button class="${voted ? 'btn-primary' : 'btn-secondary'}" onclick="voteForSaga('${c.id}')">
+              ${voted ? '✅ Tu voto (' + state.player + ')' : 'Votar esta saga'}
+            </button>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function voteForSaga(id) {
+      state.votes[state.player] = id;
+      localStorage.setItem("ttpedia_votes", JSON.stringify(state.votes));
+      showToast(`Voto registrado para ${state.player}`);
+      openVoteSaga();
+    }
+
+    async function openSection(sec) {
+      if (sec === "enciclopedia") {
+        const data = await loadJsonSafe(DATA_PATHS.enciclopedia, { miembros: FALLBACK_DATA.enciclopedia });
+        const list = data.miembros || FALLBACK_DATA.enciclopedia;
+        showSectionView("📖 Enciclopedia TT");
+        document.getElementById("sectionContent").innerHTML = `
+          <div class="member-grid">
+            ${list.map(m => `
+              <div class="member-card">
+                <h4>${m.nombre}</h4>
+                <div class="member-role">${m.apodo}</div>
+                <div class="member-stats">
+                  <span class="stat-tag">💬 ${m.mensajes}</span>
+                </div>
+                <p style="font-size:13px; color:#cbd5e1; margin-bottom:10px;">${m.especialidad}</p>
+                <div style="font-size:12.5px; color:var(--accent); font-style:italic;">“${m.cita}”</div>
+              </div>
+            `).join("")}
+          </div>
+        `;
+        return;
+      }
+
+      const titles = {
+        pornopedia: "🔞 Pornopedia · Archivo +18",
+        comidistta: "🍽️ El ComidisTTa · Gastronomía TT",
+        zona_vox: "🟩 Zona VOX · Salidas de tono"
       };
-      await setDoc(globalRef, {
-        uid: st.currentUser.uid,
-        jugador: st.playerName,
-        puntosTotales: (prev.puntosTotales || 0) + pts,
-        diasJugados: (prev.diasJugados || 0) + 1,
-        aciertosTotales: (prev.aciertosTotales || 0) + hitsCount,
-        preguntasTotales: (prev.preguntasTotales || 0) + totalCount,
-        ultimaPartida: lastTag,
-        actualizado: serverTimestamp()
-      });
+      const data = await loadJsonSafe(DATA_PATHS[sec], { items: FALLBACK_DATA[sec] });
+      const items = data.items || data.preguntas || FALLBACK_DATA[sec];
+      showSectionView(titles[sec]);
+
+      document.getElementById("sectionContent").innerHTML = items.map(it => `
+        <div class="archive-item">
+          <div class="archive-head">
+            <strong style="color:var(--accent);">${it.autor || "Archivo TT"}</strong>
+            <span>${it.anio || ""}</span>
+          </div>
+          <p style="font-size:15px; font-weight:600; margin-bottom:6px;">“${it.cita}”</p>
+          ${it.contexto ? `<p style="font-size:13px; color:var(--muted);">${it.contexto}</p>` : ""}
+        </div>
+      `).join("");
     }
 
-    st.saveScoreFn = async function() {
-      const saveBanner = document.getElementById("saveResultBanner");
-      if (!st.currentUser) { saveBanner.className = "status-banner"; saveBanner.textContent = "Sin sesión activa en Firebase."; return; }
-      if (st.alreadyPlayedToday) { saveBanner.className = "status-banner"; saveBanner.textContent = "Modo entreno: tu puntuación oficial de hoy no se ha modificado."; return; }
-      try {
-        const resRef = doc(db, "efemerides_resultados", `${st.todayKey}_${st.currentUser.uid}`);
-        await setDoc(resRef, {
-          uid: st.currentUser.uid, fecha: st.todayKey, jugador: st.playerName,
-          aciertos: st.hits, total: st.questions.length, puntos: st.score, mejorRacha: st.maxStreak, timestamp: serverTimestamp()
-        });
-        await addPointsToGlobalRanking(st.score, st.hits, st.questions.length, st.todayKey);
-        st.alreadyPlayedToday = true;
-        saveBanner.className = "status-banner ok";
-        saveBanner.textContent = `✅ ¡Puntuación oficial guardada en TTpedia para ${st.playerName}!`;
-        await checkTodayStatus();
-      } catch (err) {
-        saveBanner.className = "status-banner";
-        saveBanner.textContent = "Error al guardar en Firestore.";
-      }
-    };
-
-    st.saveBonusScoreFn = async function(pts, hitsCount, totalCount, modeTag, bannerId) {
-      const banner = document.getElementById(bannerId);
-      if (!st.currentUser) { banner.className = "status-banner"; banner.textContent = "Sin sesión activa en Firebase."; return; }
-      try {
-        await addPointsToGlobalRanking(pts, hitsCount, totalCount, modeTag);
-        banner.className = "status-banner ok";
-        banner.textContent = `✅ ¡+${pts} pts sumados a la Clasificación General para ${st.playerName}!`;
-      } catch (e) {
-        banner.className = "status-banner";
-        banner.textContent = "No se pudieron sumar los puntos a Firestore.";
-      }
-    };
-
-    st.loadBoardsFn = async function() {
-      const todayList = document.getElementById("todayRankList");
-      const globalList = document.getElementById("globalRankList");
-      document.getElementById("todayRankTitle").textContent = `📅 Podio Efemérides (${st.todayReadable})`;
-      if (!st.currentUser) { todayList.innerHTML = `<div class="rank-sub">Activa Authentication Anónimo.</div>`; return; }
-
-      try {
-        const qToday = query(collection(db, "efemerides_resultados"), where("fecha", "==", st.todayKey));
-        const snapToday = await getDocs(qToday);
-        const rowsToday = [];
-        snapToday.forEach(d => rowsToday.push(d.data()));
-        rowsToday.sort((a, b) => (b.puntos - a.puntos) || (b.aciertos - a.aciertos));
-
-        todayList.innerHTML = rowsToday.length === 0
-          ? `<div class="rank-sub">Nadie ha jugado todavía las efemérides de hoy. ¡Sé el primero!</div>`
-          : rowsToday.map((r, i) => `
-              <div class="rank-row ${r.uid === st.currentUser.uid ? "me" : ""}">
-                <div class="rank-left">
-                  <div class="rank-pos">${i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : i + 1}</div>
-                  <div>
-                    <div class="rank-name">${r.jugador}</div>
-                    <div class="rank-sub">${r.aciertos}/${r.total} aciertos · Racha ${r.mejorRacha}🔥</div>
-                  </div>
-                </div>
-                <div class="rank-pts">${r.puntos} pts</div>
-              </div>
-            `).join("");
-
-        const qGlobal = query(collection(db, "ranking_global"), orderBy("puntosTotales", "desc"), limit(25));
-        const snapGlobal = await getDocs(qGlobal);
-        const rowsGlobal = [];
-        snapGlobal.forEach(d => rowsGlobal.push(d.data()));
-
-        globalList.innerHTML = rowsGlobal.length === 0
-          ? `<div class="rank-sub">Aún no hay puntos acumulados.</div>`
-          : rowsGlobal.map((r, i) => `
-              <div class="rank-row ${r.uid === st.currentUser.uid ? "me" : ""}">
-                <div class="rank-left">
-                  <div class="rank-pos">${i === 0 ? "👑" : i + 1}</div>
-                  <div>
-                    <div class="rank-name">${r.jugador}</div>
-                    <div class="rank-sub">${r.diasJugados} partidas · ${r.aciertosTotales}/${r.preguntasTotales} aciertos</div>
-                  </div>
-                </div>
-                <div class="rank-pts">${r.puntosTotales} pts</div>
-              </div>
-            `).join("");
-      } catch (e) {
-        todayList.innerHTML = `<div class="rank-sub">No se pudo leer el ranking.</div>`;
-      }
-    };
-
-    onAuthStateChanged(auth, async (user) => { if (user) { st.currentUser = user; await checkTodayStatus(); } });
-    try { await signInAnonymously(auth); } catch (e) { await checkTodayStatus(); }
+    function showToast(msg) {
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.style.display = "block";
+      setTimeout(() => { t.style.display = "none"; }, 2600);
+    }
   </script>
 </body>
 </html>
