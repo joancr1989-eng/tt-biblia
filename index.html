@@ -19,6 +19,10 @@
       --amber-soft: rgba(245, 158, 11, 0.16);
       --vox: #63be21;
       --vox-soft: rgba(99, 190, 33, 0.16);
+      --blue: #38bdf8;
+      --blue-soft: rgba(56, 189, 248, 0.16);
+      --purple: #a855f7;
+      --purple-soft: rgba(168, 85, 247, 0.16);
       --gold: #f5b942;
       --text: #e9edef;
       --muted: #8696a0;
@@ -63,12 +67,7 @@
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      cursor: pointer;
-    }
+    .brand { display: flex; align-items: center; gap: 10px; cursor: pointer; }
 
     .badge-tt {
       width: 38px;
@@ -128,20 +127,11 @@
       border-color: rgba(0, 168, 132, 0.35);
     }
 
-    .card.porno-card {
-      border-color: rgba(255, 42, 133, 0.32);
-      background: linear-gradient(180deg, #1d121d 0%, var(--surface) 50%);
-    }
-
-    .card.comida-card {
-      border-color: rgba(245, 158, 11, 0.32);
-      background: linear-gradient(180deg, #211a11 0%, var(--surface) 50%);
-    }
-
-    .card.vox-card {
-      border-color: rgba(99, 190, 33, 0.32);
-      background: linear-gradient(180deg, #142112 0%, var(--surface) 50%);
-    }
+    .card.porno-card { border-color: rgba(255, 42, 133, 0.32); background: linear-gradient(180deg, #1d121d 0%, var(--surface) 50%); }
+    .card.comida-card { border-color: rgba(245, 158, 11, 0.32); background: linear-gradient(180deg, #211a11 0%, var(--surface) 50%); }
+    .card.vox-card { border-color: rgba(99, 190, 33, 0.32); background: linear-gradient(180deg, #142112 0%, var(--surface) 50%); }
+    .card.lodijo-card { border-color: rgba(56, 189, 248, 0.32); background: linear-gradient(180deg, #101e2b 0%, var(--surface) 50%); }
+    .card.dato-card { border-color: rgba(168, 85, 247, 0.32); background: linear-gradient(180deg, #1b1229 0%, var(--surface) 50%); }
 
     .section-heading {
       font-size: 13px;
@@ -153,11 +143,7 @@
       margin-top: 2px;
     }
 
-    .menu-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
+    .menu-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 
     .menu-tile {
       background: var(--surface);
@@ -172,16 +158,13 @@
       transition: transform 0.12s ease, border-color 0.15s ease, background 0.15s ease;
     }
 
-    .menu-tile:hover {
-      background: var(--card);
-      transform: translateY(-2px);
-      border-color: rgba(255, 255, 255, 0.2);
-    }
-
+    .menu-tile:hover { background: var(--card); transform: translateY(-2px); border-color: rgba(255, 255, 255, 0.2); }
     .menu-tile.full { grid-column: span 2; }
     .menu-tile.tile-porno { border-color: rgba(255, 42, 133, 0.3); }
     .menu-tile.tile-comida { border-color: rgba(245, 158, 11, 0.3); }
     .menu-tile.tile-vox { border-color: rgba(99, 190, 33, 0.3); }
+    .menu-tile.tile-lodijo { border-color: rgba(56, 189, 248, 0.3); }
+    .menu-tile.tile-dato { border-color: rgba(168, 85, 247, 0.3); }
 
     .tile-top { display: flex; align-items: center; justify-content: space-between; }
     .tile-icon { font-size: 24px; }
@@ -196,44 +179,17 @@
     .tile-title { font-size: 15px; font-weight: 800; color: var(--text); }
     .tile-desc { font-size: 12px; color: var(--muted); line-height: 1.35; }
 
-    .hero {
-      text-align: center;
-      padding: 4px 2px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 11px;
-    }
-
+    .hero { text-align: center; padding: 4px 2px; display: flex; flex-direction: column; align-items: center; gap: 11px; }
     .hero-icon { font-size: 38px; }
     .hero h2 { font-size: 20px; font-weight: 800; }
     .hero p { color: var(--muted); font-size: 13.5px; line-height: 1.48; max-width: 460px; }
 
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 8px;
-      width: 100%;
-    }
-
-    .stat-box {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 10px 6px;
-      text-align: center;
-    }
-
+    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; width: 100%; }
+    .stat-box { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px 6px; text-align: center; }
     .stat-box strong { display: block; font-size: 17px; color: var(--text); }
     .stat-box span { font-size: 11px; color: var(--muted); }
 
-    .player-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      width: 100%;
-    }
-
+    .player-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: 100%; }
     .player-pill {
       background: var(--card);
       border: 1px solid var(--border);
@@ -245,12 +201,7 @@
       cursor: pointer;
       transition: all 0.12s ease;
     }
-
-    .player-pill:hover, .player-pill.selected {
-      background: var(--accent-soft);
-      border-color: var(--accent);
-      color: #5cf2ce;
-    }
+    .player-pill:hover, .player-pill.selected { background: var(--accent-soft); border-color: var(--accent); color: #5cf2ce; }
 
     .status-banner {
       width: 100%;
@@ -263,79 +214,26 @@
       line-height: 1.4;
       text-align: left;
     }
-
-    .status-banner.ok {
-      background: var(--accent-soft);
-      border-color: rgba(0, 168, 132, 0.35);
-      color: #6df5d4;
-    }
+    .status-banner.ok { background: var(--accent-soft); border-color: rgba(0, 168, 132, 0.35); color: #6df5d4; }
 
     .progress-wrap { background: var(--card); border-radius: 12px; padding: 10px 14px; }
-    .progress-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 6px;
-      font-weight: 700;
-    }
+    .progress-meta { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-bottom: 6px; font-weight: 700; }
     .progress-bar { height: 7px; background: #111b21; border-radius: 999px; overflow: hidden; }
-    .progress-fill {
-      height: 100%;
-      width: 0%;
-      background: linear-gradient(90deg, var(--accent), #34e0b8);
-      border-radius: 999px;
-      transition: width 0.3s ease;
-    }
+    .progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent), #34e0b8); border-radius: 999px; transition: width 0.3s ease; }
     .progress-fill.pink { background: linear-gradient(90deg, var(--pink), #ff7ab8); }
     .progress-fill.amber { background: linear-gradient(90deg, var(--amber), #fcd34d); }
     .progress-fill.vox { background: linear-gradient(90deg, var(--vox), #a3e635); }
+    .progress-fill.blue { background: linear-gradient(90deg, var(--blue), #7dd3fc); }
+    .progress-fill.purple { background: linear-gradient(90deg, var(--purple), #d8b4fe); }
 
     .meta-tags { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-
-    .tag-year {
-      background: var(--accent-soft);
-      color: #4ce3bf;
-      border: 1px solid rgba(0, 168, 132, 0.35);
-      font-size: 12px;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 999px;
-    }
-    .tag-pink {
-      background: var(--pink-soft);
-      color: #ff7ab8;
-      border: 1px solid rgba(255, 42, 133, 0.4);
-      font-size: 12px;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 999px;
-    }
-    .tag-amber {
-      background: var(--amber-soft);
-      color: #fcd34d;
-      border: 1px solid rgba(245, 158, 11, 0.4);
-      font-size: 12px;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 999px;
-    }
-    .tag-vox {
-      background: var(--vox-soft);
-      color: #a3e635;
-      border: 1px solid rgba(99, 190, 33, 0.4);
-      font-size: 12px;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 999px;
-    }
-    .tag-date {
-      background: rgba(255, 255, 255, 0.05);
-      color: var(--muted);
-      font-size: 12px;
-      padding: 4px 10px;
-      border-radius: 999px;
-    }
+    .tag-year { background: var(--accent-soft); color: #4ce3bf; border: 1px solid rgba(0, 168, 132, 0.35); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+    .tag-pink { background: var(--pink-soft); color: #ff7ab8; border: 1px solid rgba(255, 42, 133, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+    .tag-amber { background: var(--amber-soft); color: #fcd34d; border: 1px solid rgba(245, 158, 11, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+    .tag-vox { background: var(--vox-soft); color: #a3e635; border: 1px solid rgba(99, 190, 33, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+    .tag-blue { background: var(--blue-soft); color: #7dd3fc; border: 1px solid rgba(56, 189, 248, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+    .tag-purple { background: var(--purple-soft); color: #d8b4fe; border: 1px solid rgba(168, 85, 247, 0.4); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+    .tag-date { background: rgba(255, 255, 255, 0.05); color: var(--muted); font-size: 12px; padding: 4px 10px; border-radius: 999px; }
 
     .question-text { font-size: 18px; line-height: 1.42; font-weight: 700; color: #f5f7f8; }
 
@@ -349,15 +247,7 @@
       line-height: 1.38;
     }
 
-    .prev-msg-label {
-      font-size: 10.5px;
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-      color: var(--muted);
-      font-weight: 800;
-      display: block;
-      margin-bottom: 2px;
-    }
+    .prev-msg-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--muted); font-weight: 800; display: block; margin-bottom: 2px; }
 
     .quote-highlight {
       background: #005c4b;
@@ -370,25 +260,13 @@
       border: 1px solid rgba(255, 255, 255, 0.12);
     }
 
-    .quote-highlight.porno-bubble {
-      background: linear-gradient(135deg, #4b1230, #2c1324);
-      border-color: rgba(255, 42, 133, 0.38);
-      color: #ffe6f2;
-    }
-
-    .quote-highlight.comida-bubble {
-      background: linear-gradient(135deg, #473011, #291d11);
-      border-color: rgba(245, 158, 11, 0.38);
-      color: #fef3c7;
-    }
-
-    .quote-highlight.vox-bubble {
-      background: linear-gradient(135deg, #1f3d12, #152611);
-      border-color: rgba(99, 190, 33, 0.38);
-      color: #ecfccb;
-    }
+    .quote-highlight.porno-bubble { background: linear-gradient(135deg, #4b1230, #2c1324); border-color: rgba(255, 42, 133, 0.38); color: #ffe6f2; }
+    .quote-highlight.comida-bubble { background: linear-gradient(135deg, #473011, #291d11); border-color: rgba(245, 158, 11, 0.38); color: #fef3c7; }
+    .quote-highlight.vox-bubble { background: linear-gradient(135deg, #1f3d12, #152611); border-color: rgba(99, 190, 33, 0.38); color: #ecfccb; }
+    .quote-highlight.lodijo-bubble { background: linear-gradient(135deg, #12344d, #112233); border-color: rgba(56, 189, 248, 0.38); color: #e0f2fe; }
 
     .options { display: flex; flex-direction: column; gap: 9px; }
+    .options.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 
     .option-btn {
       width: 100%;
@@ -407,12 +285,8 @@
       transition: transform 0.1s ease, background 0.15s ease, border-color 0.15s ease;
     }
 
-    .option-btn:hover:not(:disabled) {
-      background: var(--card-hover);
-      border-color: rgba(255, 255, 255, 0.2);
-      transform: translateY(-1px);
-    }
-
+    .option-btn.center-btn { justify-content: center; text-align: center; padding: 16px 10px; font-weight: 800; }
+    .option-btn:hover:not(:disabled) { background: var(--card-hover); border-color: rgba(255, 255, 255, 0.2); transform: translateY(-1px); }
     .option-btn:disabled { cursor: default; }
 
     .opt-letter {
@@ -433,37 +307,58 @@
     .option-btn.wrong { background: var(--danger-soft); border-color: var(--danger); color: #ffd7d6; }
     .option-btn.wrong .opt-letter { background: var(--danger); color: #fff; }
 
-    .feedback {
-      display: none;
-      flex-direction: column;
-      gap: 11px;
-      background: #16232b;
+    /* Controles El Dato Justo */
+    .dato-controls {
+      background: var(--card);
       border: 1px solid var(--border);
       border-radius: 14px;
-      padding: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
     }
 
+    .dato-input-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .dato-number-input {
+      flex: 1;
+      background: #111b21;
+      border: 1px solid rgba(168, 85, 247, 0.5);
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 800;
+      padding: 12px;
+      border-radius: 12px;
+      text-align: center;
+      outline: none;
+    }
+
+    .dato-slider {
+      width: 100%;
+      accent-color: var(--purple);
+      cursor: pointer;
+    }
+
+    .dato-range-labels {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 11.5px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .feedback { display: none; flex-direction: column; gap: 11px; background: #16232b; border: 1px solid var(--border); border-radius: 14px; padding: 14px; }
     .feedback.visible { display: flex; }
 
-    .wa-bubble {
-      background: #005c4b;
-      color: #e9edef;
-      padding: 10px 13px;
-      border-radius: 12px 12px 12px 2px;
-      font-size: 14px;
-      line-height: 1.38;
-    }
-
-    .wa-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: #8ce3cf;
-      font-weight: 700;
-      margin-bottom: 3px;
-      display: block;
-    }
-
+    .wa-bubble { background: #005c4b; color: #e9edef; padding: 10px 13px; border-radius: 12px 12px 12px 2px; font-size: 14px; line-height: 1.38; }
+    .wa-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #8ce3cf; font-weight: 700; margin-bottom: 3px; display: block; }
     .explanation { font-size: 13.5px; line-height: 1.45; color: #cfd8dc; }
 
     .btn-primary {
@@ -477,10 +372,11 @@
       cursor: pointer;
       width: 100%;
     }
-
     .btn-primary.pink { background: linear-gradient(135deg, var(--pink), #d81b60); color: #fff; }
     .btn-primary.amber { background: linear-gradient(135deg, var(--amber), #d97706); color: #1f1202; }
     .btn-primary.vox { background: linear-gradient(135deg, var(--vox), #4d9a16); color: #0b1c04; }
+    .btn-primary.blue { background: linear-gradient(135deg, var(--blue), #0284c7); color: #061826; }
+    .btn-primary.purple { background: linear-gradient(135deg, var(--purple), #7e22ce); color: #ffffff; }
     .btn-primary:hover { filter: brightness(1.08); }
 
     .btn-secondary {
@@ -495,84 +391,27 @@
       width: 100%;
     }
 
-    .debate-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 14px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
+    .debate-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
     .debate-title { font-size: 15px; font-weight: 800; color: #fcd34d; }
     .debate-resumen { font-size: 13px; color: #cfd8dc; line-height: 1.4; }
-    .debate-line {
-      background: #142026;
-      padding: 8px 11px;
-      border-radius: 10px;
-      font-size: 13px;
-      line-height: 1.38;
-      border-left: 3px solid var(--amber);
-    }
+    .debate-line { background: #142026; padding: 8px 11px; border-radius: 10px; font-size: 13px; line-height: 1.38; border-left: 3px solid var(--amber); }
 
-    .rank-section-title {
-      font-size: 13px;
-      font-weight: 800;
-      color: var(--gold);
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-    }
-
+    .rank-section-title { font-size: 13px; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: 0.4px; }
     .rank-list { display: flex; flex-direction: column; gap: 8px; }
-    .rank-row {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 10px 13px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-    }
+    .rank-row { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 10px 13px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
     .rank-row.me { border-color: var(--accent); background: var(--accent-soft); }
     .rank-left { display: flex; align-items: center; gap: 10px; }
-    .rank-pos {
-      width: 26px;
-      height: 26px;
-      border-radius: 8px;
-      background: rgba(255, 255, 255, 0.08);
-      display: grid;
-      place-items: center;
-      font-size: 12px;
-      font-weight: 800;
-    }
+    .rank-pos { width: 26px; height: 26px; border-radius: 8px; background: rgba(255, 255, 255, 0.08); display: grid; place-items: center; font-size: 12px; font-weight: 800; }
     .rank-name { font-weight: 700; font-size: 14px; }
     .rank-sub { font-size: 11px; color: var(--muted); }
     .rank-pts { font-weight: 800; font-size: 13.5px; color: var(--gold); }
 
-    .bio-header {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 15px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
+    .bio-header { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 15px; display: flex; flex-direction: column; gap: 6px; }
     .bio-title { font-size: 19px; font-weight: 800; color: #5cf2ce; }
     .bio-role { font-size: 13px; font-weight: 700; color: var(--gold); }
     .bio-lore { font-size: 13.5px; line-height: 1.55; color: #d7e0e5; white-space: pre-line; }
     .bio-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-    .bio-tag {
-      background: var(--accent-soft);
-      border: 1px solid rgba(0, 168, 132, 0.35);
-      color: #6df5d4;
-      font-size: 12px;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: 999px;
-    }
+    .bio-tag { background: var(--accent-soft); border: 1px solid rgba(0, 168, 132, 0.35); color: #6df5d4; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px; }
 
     .toast { text-align: center; font-size: 13px; color: #5cf2ce; min-height: 18px; }
     .hidden { display: none !important; }
@@ -594,7 +433,7 @@
       </div>
     </header>
 
-    <!-- PANTALLA 0: SELECCIÓN DE USUARIO (SOLO LA PRIMERA VEZ) -->
+    <!-- PANTALLA 0: SELECCIÓN DE USUARIO -->
     <section class="card hidden" id="profileScreen">
       <div class="hero">
         <div class="hero-icon">🪪</div>
@@ -606,14 +445,12 @@
 
     <!-- LANDING PAGE PRINCIPAL -->
     <div id="homeView" style="display:flex;flex-direction:column;gap:14px;">
-      <!-- CONTADORES GLOBALES DE LA HEMEROTECA -->
       <div class="stats-grid" id="globalHeroStats">
         <div class="stat-box"><strong id="statGlobalMsgs">319.788</strong><span>Mensajes TT</span></div>
         <div class="stat-box"><strong>9</strong><span>Integrantes</span></div>
         <div class="stat-box"><strong>2012-26</strong><span>Hemeroteca</span></div>
       </div>
 
-      <!-- BLOQUE SUPERIOR: EFEMÉRIDE Y RETO DEL DÍA -->
       <section class="card daily-hero">
         <div class="hero">
           <div class="hero-icon">📜</div>
@@ -642,6 +479,24 @@
           </div>
           <div class="tile-title">¿Quién dijo esto?</div>
           <div class="tile-desc">Rondas de 10 opiniones y piques míticos con el mensaje previo.</div>
+        </button>
+
+        <button class="menu-tile tile-lodijo" id="openLoDijoTile" type="button">
+          <div class="tile-top">
+            <span class="tile-icon">⚖️</span>
+            <span class="tile-badge" id="tileLoDijoCount">Real o Invent</span>
+          </div>
+          <div class="tile-title">¿Lo dijo o no lo dijo?</div>
+          <div class="tile-desc">Adivina si la frase es real del chat o un invento al estilo TT.</div>
+        </button>
+
+        <button class="menu-tile tile-dato" id="openDatoTile" type="button">
+          <div class="tile-top">
+            <span class="tile-icon">🎯</span>
+            <span class="tile-badge" id="tileDatoCount">Estadística</span>
+          </div>
+          <div class="tile-title">El Dato Justo</div>
+          <div class="tile-desc">Clava el número exacto de mensajes, récords y palabrotas del grupo.</div>
         </button>
 
         <button class="menu-tile" id="openWikiTile" type="button">
@@ -806,7 +661,135 @@
       </section>
     </div>
 
-    <!-- VISTA: PORNOPEDIA -->
+    <!-- VISTA: ¿LO DIJO O NO LO DIJO? -->
+    <div id="loDijoView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
+      <section class="card lodijo-card" id="ldStartScreen">
+        <div class="hero">
+          <div class="hero-icon">⚖️</div>
+          <h2>¿Lo dijo o no lo dijo?</h2>
+          <p>Te damos un autor y una frase: decide si salió realmente de su teclado en el TT o si es un invento.</p>
+          <div class="stats-grid">
+            <div class="stat-box"><strong id="ldPoolTotal">-</strong><span>Cartas</span></div>
+            <div class="stat-box"><strong>10</strong><span>Por ronda</span></div>
+            <div class="stat-box"><strong>50/50</strong><span>Real / Invent</span></div>
+          </div>
+          <button class="btn-primary blue" id="ldStartBtn" type="button">⚖️ Empezar Ronda Real o Invent</button>
+        </div>
+      </section>
+
+      <section class="card lodijo-card hidden" id="ldQuizScreen">
+        <div class="progress-wrap">
+          <div class="progress-meta">
+            <span id="ldProgressLabel">Carta 1 de 10</span>
+            <span id="ldScoreStreakLabel">0 pts · Racha 0 🔥</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill blue" id="ldProgressFill"></div></div>
+        </div>
+        <div class="meta-tags">
+          <span class="tag-blue" id="ldAuthorTag">Supuesto autor: Joni</span>
+          <span class="tag-year" id="ldYear">Año 2021</span>
+        </div>
+        <div class="quote-highlight lodijo-bubble" id="ldQuoteText"></div>
+        <div class="options two-col" id="ldOptionsBox"></div>
+        <div class="feedback" id="ldFeedbackBox">
+          <p class="explanation" id="ldExplanation"></p>
+          <button class="btn-primary blue" id="ldNextBtn" type="button">Siguiente carta →</button>
+        </div>
+      </section>
+
+      <section class="card lodijo-card hidden" id="ldEndScreen">
+        <div class="hero">
+          <div class="hero-icon">⚖️</div>
+          <h2>¡Juicio completado!</h2>
+          <p>Has puesto a prueba tu detector de trolas del Triangulito Team.</p>
+          <div class="stats-grid">
+            <div class="stat-box"><strong id="ldFinalHits">0/10</strong><span>Aciertos</span></div>
+            <div class="stat-box"><strong id="ldFinalScore">0</strong><span>Puntos</span></div>
+            <div class="stat-box"><strong id="ldFinalStreak">0</strong><span>Mejor racha</span></div>
+          </div>
+          <div class="status-banner ok" id="ldSaveBanner">Sumando puntos al ranking general...</div>
+          <button class="btn-primary blue" id="ldShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
+          <div class="toast" id="ldCopyToast"></div>
+          <button class="btn-primary" id="ldPlayAgainBtn" type="button">⚖️ Jugar otras 10 cartas</button>
+          <button class="btn-secondary" id="ldGoRankBtn" type="button">Ver Clasificación 🏆</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- VISTA: EL DATO JUSTO -->
+    <div id="datoView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
+      <section class="card dato-card" id="dtStartScreen">
+        <div class="hero">
+          <div class="hero-icon">🎯</div>
+          <h2>El Dato Justo</h2>
+          <p>Rondas de 8 preguntas estadísticas reales sobre los 319.788 mensajes del grupo. Cuanto más te acerques al número exacto, más puntos sumas.</p>
+          <div class="stats-grid">
+            <div class="stat-box"><strong id="dtPoolTotal">-</strong><span>Retos</span></div>
+            <div class="stat-box"><strong>8</strong><span>Por ronda</span></div>
+            <div class="stat-box"><strong>100</strong><span>Pts por pleno</span></div>
+          </div>
+          <button class="btn-primary purple" id="dtStartBtn" type="button">🎯 Empezar El Dato Justo</button>
+        </div>
+      </section>
+
+      <section class="card dato-card hidden" id="dtQuizScreen">
+        <div class="progress-wrap">
+          <div class="progress-meta">
+            <span id="dtProgressLabel">Reto 1 de 8</span>
+            <span id="dtScoreLabel">0 pts</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill purple" id="dtProgressFill"></div></div>
+        </div>
+
+        <div class="meta-tags">
+          <span class="tag-purple">📊 Estadística 2012-2026</span>
+          <span class="tag-date" id="dtUnitTag">mensajes</span>
+        </div>
+
+        <h2 class="question-text" id="dtQuestionText"></h2>
+
+        <div class="dato-controls" id="dtControlsBox">
+          <div class="dato-input-row">
+            <input type="number" class="dato-number-input" id="dtNumberInput" value="1000" min="0" />
+          </div>
+          <input type="range" class="dato-slider" id="dtSliderInput" min="0" max="50000" value="1000" />
+          <div class="dato-range-labels">
+            <span id="dtMinLabel">0</span>
+            <span id="dtMaxLabel">50.000</span>
+          </div>
+          <button class="btn-primary purple" id="dtSubmitBtn" type="button">🔒 Fijar cifra</button>
+        </div>
+
+        <div class="feedback" id="dtFeedbackBox">
+          <div class="wa-bubble" style="background:#2d1b4e;">
+            <span class="wa-label" style="color:#d8b4fe;">🎯 Dato exacto en la hemeroteca</span>
+            <strong id="dtExactResult" style="font-size:18px;"></strong>
+          </div>
+          <p class="explanation" id="dtExplanation"></p>
+          <button class="btn-primary purple" id="dtNextBtn" type="button">Siguiente reto →</button>
+        </div>
+      </section>
+
+      <section class="card dato-card hidden" id="dtEndScreen">
+        <div class="hero">
+          <div class="hero-icon">📊</div>
+          <h2>¡Reto estadístico completado!</h2>
+          <p>Así de bien controlas los números reales del Triangulito Team.</p>
+          <div class="stats-grid">
+            <div class="stat-box"><strong id="dtFinalHits">0/8</strong><span>Aciertos (&lt;20% err)</span></div>
+            <div class="stat-box"><strong id="dtFinalScore">0</strong><span>Puntos</span></div>
+            <div class="stat-box"><strong id="dtFinalAvgErr">0%</strong><span>Error medio</span></div>
+          </div>
+          <div class="status-banner ok" id="dtSaveBanner">Sumando puntos al ranking general...</div>
+          <button class="btn-primary purple" id="dtShareBtn" type="button">📋 Copiar resultado para WhatsApp</button>
+          <div class="toast" id="dtCopyToast"></div>
+          <button class="btn-primary" id="dtPlayAgainBtn" type="button">🎯 Jugar otra ronda</button>
+          <button class="btn-secondary" id="dtGoRankBtn" type="button">Ver Clasificación 🏆</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- VISTA: PORNOPEDIA (AUTOR DEL PREVIO OCULTO) -->
     <div id="pornoView" class="hidden" style="display:flex;flex-direction:column;gap:14px;">
       <section class="card porno-card" id="pStartScreen">
         <div class="hero">
@@ -835,7 +818,7 @@
           <span class="tag-year" id="ppYear">Año 2023</span>
         </div>
         <div class="prev-msg-box hidden" id="ppPrevBox">
-          <span class="prev-msg-label">↩️ Mensaje anterior en el hilo</span>
+          <span class="prev-msg-label">↩️ Mensaje anterior en el hilo (autor oculto)</span>
           <span id="ppPrevText"></span>
         </div>
         <div class="quote-highlight porno-bubble" id="ppQuoteText"></div>
@@ -1037,6 +1020,10 @@
       return (s || "").replace(/^[^:]+:\s*/, "").replace(/[«»"“”]/g, "").replace(/\s+/g, " ").trim().toLowerCase();
     }
 
+    function stripPrevAuthor(s) {
+      return (s || "").replace(/^[^:]{1,25}:\s*/, "").trim();
+    }
+
     const FALLBACK_11_23 = {
       "fecha": "11-23",
       "total_mensajes_dia": 467,
@@ -1078,14 +1065,16 @@
     };
 
     function createPoolState() {
-      return { pool: [], usedIndices: new Set(), roundQuestions: [], idx: 0, score: 0, hits: 0, streak: 0, maxStreak: 0, answered: false };
+      return { pool: [], usedIndices: new Set(), roundQuestions: [], idx: 0, score: 0, hits: 0, streak: 0, maxStreak: 0, answered: false, errorsPct: [] };
     }
 
     window.POOLS = {
       quotes: createPoolState(),
       porno: createPoolState(),
       comida: createPoolState(),
-      vox: createPoolState()
+      vox: createPoolState(),
+      loDijo: createPoolState(),
+      dato: createPoolState()
     };
 
     const storedName = normalizeDisplayOption(localStorage.getItem("ttpedia_player_name") || "");
@@ -1127,7 +1116,7 @@
     }
 
     function navigateTo(view) {
-      const allViews = ["profileScreen", "homeView", "dailyView", "quotesView", "pornoView", "comidaView", "voxView", "wikiView", "rankView"];
+      const allViews = ["profileScreen", "homeView", "dailyView", "quotesView", "loDijoView", "datoView", "pornoView", "comidaView", "voxView", "wikiView", "rankView"];
       allViews.forEach(id => document.getElementById(id).classList.add("hidden"));
       document.getElementById("backHomeBtn").classList.toggle("hidden", view === "home" || view === "profile");
 
@@ -1143,6 +1132,16 @@
         document.getElementById("qStartScreen").classList.remove("hidden");
         document.getElementById("qQuizScreen").classList.add("hidden");
         document.getElementById("qEndScreen").classList.add("hidden");
+      } else if (view === "lodijo") {
+        document.getElementById("loDijoView").classList.remove("hidden");
+        document.getElementById("ldStartScreen").classList.remove("hidden");
+        document.getElementById("ldQuizScreen").classList.add("hidden");
+        document.getElementById("ldEndScreen").classList.add("hidden");
+      } else if (view === "dato") {
+        document.getElementById("datoView").classList.remove("hidden");
+        document.getElementById("dtStartScreen").classList.remove("hidden");
+        document.getElementById("dtQuizScreen").classList.add("hidden");
+        document.getElementById("dtEndScreen").classList.add("hidden");
       } else if (view === "porno") {
         document.getElementById("pornoView").classList.remove("hidden");
         document.getElementById("pStartScreen").classList.remove("hidden");
@@ -1168,6 +1167,7 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
+    // --- EFEMÉRIDE DEL DÍA ---
     function startDailyGame() {
       if (!window.TT_STATE.playerName) { navigateTo("profile"); return; }
       const st = window.TT_STATE;
@@ -1241,6 +1241,7 @@
       if (st.saveScoreFn) await st.saveScoreFn();
     }
 
+    // --- MOTOR RONDAS 4 OPCIONES ---
     function setupRoundGame(cfg) {
       const poolObj = window.POOLS[cfg.key];
 
@@ -1273,7 +1274,7 @@
         document.getElementById(cfg.scoreLabelId).textContent = `${poolObj.score} pts · Racha ${poolObj.streak} 🔥`;
         document.getElementById(cfg.fillId).style.width = `${(poolObj.idx / total) * 100}%`;
         if (cfg.catId) document.getElementById(cfg.catId).textContent = q.categoria || cfg.defaultCat;
-        document.getElementById(cfg.yearId).textContent = `Año ${q.anio || 2023}`;
+        document.getElementById(cfg.yearId).textContent = `Año ${q.anio || 2020}`;
 
         const prevBox = document.getElementById(cfg.prevBoxId);
         const prevTxt = document.getElementById(cfg.prevTextId);
@@ -1284,7 +1285,7 @@
         const cNorm = cleanCompare(q.cita);
         const pNorm = cleanCompare(previoStr);
         if (previoStr && pNorm && pNorm !== cNorm && !cNorm.includes(pNorm) && !pNorm.includes(cNorm)) {
-          prevTxt.textContent = previoStr;
+          prevTxt.textContent = cfg.hidePrevAuthor ? stripPrevAuthor(previoStr) : previoStr;
           prevBox.classList.remove("hidden");
         } else {
           prevBox.classList.add("hidden");
@@ -1346,6 +1347,200 @@
         const txt = `${cfg.shareTitle}\n👤 *${st.playerName}*: ${poolObj.hits}/${poolObj.roundQuestions.length} aciertos · +${poolObj.score} pts (${poolObj.maxStreak}🔥)`;
         navigator.clipboard?.writeText(txt).then(() => document.getElementById(cfg.toastId).textContent = "¡Copiado para WhatsApp!");
       });
+    }
+
+    // --- JUEGO: ¿LO DIJO O NO LO DIJO? ---
+    function startLoDijoGame() {
+      if (!window.TT_STATE.playerName) { navigateTo("profile"); return; }
+      const p = window.POOLS.loDijo;
+      if (!p.pool.length) return;
+      if (p.usedIndices.size > p.pool.length - 10) p.usedIndices.clear();
+      const avail = [];
+      for (let i = 0; i < p.pool.length; i++) if (!p.usedIndices.has(i)) avail.push(i);
+      for (let i = avail.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [avail[i], avail[j]] = [avail[j], avail[i]];
+      }
+      const picked = avail.slice(0, Math.min(10, avail.length));
+      picked.forEach(i => p.usedIndices.add(i));
+      p.roundQuestions = picked.map(i => p.pool[i]);
+      p.idx = 0; p.score = 0; p.hits = 0; p.streak = 0; p.maxStreak = 0;
+
+      document.getElementById("ldStartScreen").classList.add("hidden");
+      document.getElementById("ldEndScreen").classList.add("hidden");
+      document.getElementById("ldQuizScreen").classList.remove("hidden");
+      renderLoDijoQuestion();
+    }
+
+    function renderLoDijoQuestion() {
+      const p = window.POOLS.loDijo;
+      p.answered = false;
+      const q = p.roundQuestions[p.idx];
+      const total = p.roundQuestions.length;
+      document.getElementById("ldProgressLabel").textContent = `Carta ${p.idx + 1} de ${total}`;
+      document.getElementById("ldScoreStreakLabel").textContent = `${p.score} pts · Racha ${p.streak} 🔥`;
+      document.getElementById("ldProgressFill").style.width = `${(p.idx / total) * 100}%`;
+      document.getElementById("ldAuthorTag").textContent = `Supuesto autor: ${normalizeDisplayOption(q.autor)}`;
+      document.getElementById("ldYear").textContent = `Año ${q.anio || 2020}`;
+      document.getElementById("ldQuoteText").textContent = `«${q.cita}»`;
+      document.getElementById("ldFeedbackBox").classList.remove("visible");
+
+      const box = document.getElementById("ldOptionsBox");
+      box.innerHTML = "";
+      [
+        { label: "✅ SÍ LO DIJO", val: true },
+        { label: "❌ NO LO DIJO (Invent)", val: false }
+      ].forEach(opt => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "option-btn center-btn";
+        btn.textContent = opt.label;
+        btn.addEventListener("click", () => {
+          if (p.answered) return;
+          p.answered = true;
+          const allBtns = box.querySelectorAll(".option-btn");
+          allBtns[0].disabled = true;
+          allBtns[1].disabled = true;
+          allBtns[q.es_real ? 0 : 1].classList.add("correct");
+          if (opt.val !== q.es_real) {
+            btn.classList.add("wrong");
+            p.streak = 0;
+          } else {
+            p.hits++; p.streak++;
+            if (p.streak > p.maxStreak) p.maxStreak = p.streak;
+            p.score += 80 + (p.streak > 1 ? (p.streak - 1) * 15 : 0);
+          }
+          document.getElementById("ldScoreStreakLabel").textContent = `${p.score} pts · Racha ${p.streak} 🔥`;
+          document.getElementById("ldProgressFill").style.width = `${((p.idx + 1) / total) * 100}%`;
+          document.getElementById("ldExplanation").textContent = q.explicacion || "";
+          document.getElementById("ldFeedbackBox").classList.add("visible");
+        });
+        box.appendChild(btn);
+      });
+      document.getElementById("ldNextBtn").textContent = p.idx === total - 1 ? "Ver resultado 🏆" : "Siguiente carta →";
+    }
+
+    async function nextLoDijoQuestion() {
+      const p = window.POOLS.loDijo;
+      p.idx++;
+      if (p.idx < p.roundQuestions.length) { renderLoDijoQuestion(); return; }
+      document.getElementById("ldQuizScreen").classList.add("hidden");
+      document.getElementById("ldEndScreen").classList.remove("hidden");
+      const total = p.roundQuestions.length;
+      document.getElementById("ldFinalHits").textContent = `${p.hits}/${total}`;
+      document.getElementById("ldFinalScore").textContent = `${p.score}`;
+      document.getElementById("ldFinalStreak").textContent = `${p.maxStreak} 🔥`;
+      if (window.TT_STATE.saveBonusScoreFn) {
+        await window.TT_STATE.saveBonusScoreFn(p.score, p.hits, total, "lo_dijo_o_no", "ldSaveBanner");
+      }
+    }
+
+    // --- JUEGO: EL DATO JUSTO ---
+    function startDatoGame() {
+      if (!window.TT_STATE.playerName) { navigateTo("profile"); return; }
+      const p = window.POOLS.dato;
+      if (!p.pool.length) return;
+      if (p.usedIndices.size > p.pool.length - 8) p.usedIndices.clear();
+      const avail = [];
+      for (let i = 0; i < p.pool.length; i++) if (!p.usedIndices.has(i)) avail.push(i);
+      for (let i = avail.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [avail[i], avail[j]] = [avail[j], avail[i]];
+      }
+      const picked = avail.slice(0, Math.min(8, avail.length));
+      picked.forEach(i => p.usedIndices.add(i));
+      p.roundQuestions = picked.map(i => p.pool[i]);
+      p.idx = 0; p.score = 0; p.hits = 0; p.errorsPct = [];
+
+      document.getElementById("dtStartScreen").classList.add("hidden");
+      document.getElementById("dtEndScreen").classList.add("hidden");
+      document.getElementById("dtQuizScreen").classList.remove("hidden");
+      renderDatoQuestion();
+    }
+
+    function renderDatoQuestion() {
+      const p = window.POOLS.dato;
+      p.answered = false;
+      const q = p.roundQuestions[p.idx];
+      const total = p.roundQuestions.length;
+      document.getElementById("dtProgressLabel").textContent = `Reto ${p.idx + 1} de ${total}`;
+      document.getElementById("dtScoreLabel").textContent = `${p.score} pts`;
+      document.getElementById("dtProgressFill").style.width = `${(p.idx / total) * 100}%`;
+      document.getElementById("dtUnitTag").textContent = q.unidad || "mensajes";
+      document.getElementById("dtQuestionText").textContent = q.pregunta;
+
+      const minV = Number(q.min || 0);
+      const maxV = Number(q.max || 50000);
+      const midV = Math.round((minV + maxV) / 3);
+
+      const numInp = document.getElementById("dtNumberInput");
+      const sldInp = document.getElementById("dtSliderInput");
+      numInp.min = minV; numInp.max = maxV * 2; numInp.value = midV; numInp.disabled = false;
+      sldInp.min = minV; sldInp.max = maxV; sldInp.value = midV; sldInp.disabled = false;
+      document.getElementById("dtMinLabel").textContent = minV.toLocaleString("es-ES");
+      document.getElementById("dtMaxLabel").textContent = maxV.toLocaleString("es-ES");
+      document.getElementById("dtSubmitBtn").disabled = false;
+      document.getElementById("dtFeedbackBox").classList.remove("visible");
+      document.getElementById("dtNextBtn").textContent = p.idx === total - 1 ? "Ver resultado 🏆" : "Siguiente reto →";
+    }
+
+    document.getElementById("dtSliderInput").addEventListener("input", (e) => {
+      document.getElementById("dtNumberInput").value = e.target.value;
+    });
+    document.getElementById("dtNumberInput").addEventListener("input", (e) => {
+      const sld = document.getElementById("dtSliderInput");
+      const v = Number(e.target.value) || 0;
+      sld.value = Math.min(Number(sld.max), Math.max(Number(sld.min), v));
+    });
+
+    document.getElementById("dtSubmitBtn").addEventListener("click", () => {
+      const p = window.POOLS.dato;
+      if (p.answered) return;
+      p.answered = true;
+      const q = p.roundQuestions[p.idx];
+      const guess = Math.max(0, Number(document.getElementById("dtNumberInput").value) || 0);
+      const exact = Number(q.respuesta);
+
+      document.getElementById("dtNumberInput").disabled = true;
+      document.getElementById("dtSliderInput").disabled = true;
+      document.getElementById("dtSubmitBtn").disabled = true;
+
+      const diff = Math.abs(guess - exact);
+      const relErr = exact > 0 ? (diff / exact) * 100 : (guess === 0 ? 0 : 100);
+      p.errorsPct.push(Math.min(100, relErr));
+
+      let earned = 0;
+      if (relErr === 0) earned = 120;
+      else if (relErr <= 5) earned = 100;
+      else if (relErr <= 15) earned = 80;
+      else if (relErr <= 30) earned = 55;
+      else if (relErr <= 50) earned = 30;
+      else if (relErr <= 80) earned = 10;
+
+      if (relErr <= 20) p.hits++;
+      p.score += earned;
+
+      document.getElementById("dtScoreLabel").textContent = `${p.score} pts`;
+      document.getElementById("dtProgressFill").style.width = `${((p.idx + 1) / p.roundQuestions.length) * 100}%`;
+      document.getElementById("dtExactResult").textContent = `${exact.toLocaleString("es-ES")} ${q.unidad || ""} (Dijiste ${guess.toLocaleString("es-ES")} · Desviación ${relErr.toFixed(1)}% · +${earned} pts)`;
+      document.getElementById("dtExplanation").textContent = q.explicacion || "";
+      document.getElementById("dtFeedbackBox").classList.add("visible");
+    });
+
+    async function nextDatoQuestion() {
+      const p = window.POOLS.dato;
+      p.idx++;
+      if (p.idx < p.roundQuestions.length) { renderDatoQuestion(); return; }
+      document.getElementById("dtQuizScreen").classList.add("hidden");
+      document.getElementById("dtEndScreen").classList.remove("hidden");
+      const total = p.roundQuestions.length;
+      const avgErr = p.errorsPct.length ? (p.errorsPct.reduce((a, b) => a + b, 0) / p.errorsPct.length) : 0;
+      document.getElementById("dtFinalHits").textContent = `${p.hits}/${total}`;
+      document.getElementById("dtFinalScore").textContent = `${p.score}`;
+      document.getElementById("dtFinalAvgErr").textContent = `${avgErr.toFixed(1)}%`;
+      if (window.TT_STATE.saveBonusScoreFn) {
+        await window.TT_STATE.saveBonusScoreFn(p.score, p.hits, total, "el_dato_justo", "dtSaveBanner");
+      }
     }
 
     function renderComidaDebates() {
@@ -1414,7 +1609,7 @@
       optsId: "qqOptionsBox", fbId: "qqFeedbackBox", expId: "qqExplanation", nextId: "qqNextBtn",
       hitsId: "qqFinalHits", ptsId: "qqFinalScore", streakId: "qqFinalStreak", bannerId: "qqSaveBanner",
       shareBtnId: "qqShareBtn", toastId: "qqCopyToast", againBtnId: "qqPlayAgainBtn", rankBtnId: "qqGoRankBtn",
-      shareTitle: "💬 *TTpedia · ¿Quién dijo esto?*"
+      shareTitle: "💬 *TTpedia · ¿Quién dijo esto?*", hidePrevAuthor: false
     });
 
     setupRoundGame({
@@ -1424,7 +1619,7 @@
       quoteId: "ppQuoteText", optsId: "ppOptionsBox", fbId: "ppFeedbackBox", expId: "ppExplanation",
       nextId: "ppNextBtn", hitsId: "ppFinalHits", ptsId: "ppFinalScore", streakId: "ppFinalStreak",
       bannerId: "ppSaveBanner", shareBtnId: "ppShareBtn", toastId: "ppCopyToast", againBtnId: "ppPlayAgainBtn",
-      rankBtnId: "ppGoRankBtn", shareTitle: "🔞 *TTpedia · Pornopedia +18*"
+      rankBtnId: "ppGoRankBtn", shareTitle: "🔞 *TTpedia · Pornopedia +18*", hidePrevAuthor: true
     });
 
     setupRoundGame({
@@ -1434,7 +1629,7 @@
       optsId: "ccOptionsBox", fbId: "ccFeedbackBox", expId: "ccExplanation", nextId: "ccNextBtn",
       hitsId: "ccFinalHits", ptsId: "ccFinalScore", streakId: "ccFinalStreak", bannerId: "ccSaveBanner",
       shareBtnId: "ccShareBtn", toastId: "ccCopyToast", againBtnId: "ccPlayAgainBtn", rankBtnId: "ccGoRankBtn",
-      shareTitle: "🍽️ *TTpedia · El ComidisTTa*"
+      shareTitle: "🍽️ *TTpedia · El ComidisTTa*", hidePrevAuthor: false
     });
 
     setupRoundGame({
@@ -1444,9 +1639,32 @@
       optsId: "vvOptionsBox", fbId: "vvFeedbackBox", expId: "vvExplanation", nextId: "vvNextBtn",
       hitsId: "vvFinalHits", ptsId: "vvFinalScore", streakId: "vvFinalStreak", bannerId: "vvSaveBanner",
       shareBtnId: "vvShareBtn", toastId: "vvCopyToast", againBtnId: "vvPlayAgainBtn", rankBtnId: "vvGoRankBtn",
-      shareTitle: "🟩 *TTpedia · Zona VOX*"
+      shareTitle: "🟩 *TTpedia · Zona VOX*", hidePrevAuthor: false
     });
 
+    // Eventos Lo Dijo o No
+    document.getElementById("ldStartBtn").addEventListener("click", startLoDijoGame);
+    document.getElementById("ldNextBtn").addEventListener("click", nextLoDijoQuestion);
+    document.getElementById("ldPlayAgainBtn").addEventListener("click", startLoDijoGame);
+    document.getElementById("ldGoRankBtn").addEventListener("click", () => navigateTo("rank"));
+    document.getElementById("ldShareBtn").addEventListener("click", () => {
+      const st = window.TT_STATE, p = window.POOLS.loDijo;
+      const txt = `⚖️ *TTpedia · ¿Lo dijo o no lo dijo?*\n👤 *${st.playerName}*: ${p.hits}/${p.roundQuestions.length} aciertos · +${p.score} pts (${p.maxStreak}🔥)`;
+      navigator.clipboard?.writeText(txt).then(() => document.getElementById("ldCopyToast").textContent = "¡Copiado para WhatsApp!");
+    });
+
+    // Eventos El Dato Justo
+    document.getElementById("dtStartBtn").addEventListener("click", startDatoGame);
+    document.getElementById("dtNextBtn").addEventListener("click", nextDatoQuestion);
+    document.getElementById("dtPlayAgainBtn").addEventListener("click", startDatoGame);
+    document.getElementById("dtGoRankBtn").addEventListener("click", () => navigateTo("rank"));
+    document.getElementById("dtShareBtn").addEventListener("click", () => {
+      const st = window.TT_STATE, p = window.POOLS.dato;
+      const txt = `🎯 *TTpedia · El Dato Justo*\n👤 *${st.playerName}*: ${p.hits}/${p.roundQuestions.length} clavadas · +${p.score} pts`;
+      navigator.clipboard?.writeText(txt).then(() => document.getElementById("dtCopyToast").textContent = "¡Copiado para WhatsApp!");
+    });
+
+    // Navegación general
     document.getElementById("brandHomeBtn").addEventListener("click", () => { if (window.TT_STATE.playerName) navigateTo("home"); });
     document.getElementById("backHomeBtn").addEventListener("click", () => navigateTo("home"));
     document.getElementById("userChip").addEventListener("click", () => navigateTo("profile"));
@@ -1461,6 +1679,8 @@
     });
 
     document.getElementById("openQuotesTile").addEventListener("click", () => navigateTo("quotes"));
+    document.getElementById("openLoDijoTile").addEventListener("click", () => navigateTo("lodijo"));
+    document.getElementById("openDatoTile").addEventListener("click", () => navigateTo("dato"));
     document.getElementById("openWikiTile").addEventListener("click", () => navigateTo("wiki"));
     document.getElementById("openRankTile").addEventListener("click", () => navigateTo("rank"));
     document.getElementById("openPornoTile").addEventListener("click", () => navigateTo("porno"));
@@ -1502,6 +1722,26 @@
           window.POOLS.quotes.pool = dataQ.preguntas || [];
           document.getElementById("qPoolTotal").textContent = window.POOLS.quotes.pool.length;
           document.getElementById("tileQuotesCount").textContent = `${window.POOLS.quotes.pool.length} citas`;
+        }
+      } catch (_) {}
+
+      try {
+        const resLD = await fetch("./data/lo_dijo_o_no.json", { cache: "no-store" });
+        if (resLD.ok) {
+          const dataLD = await resLD.json();
+          window.POOLS.loDijo.pool = dataLD.preguntas || [];
+          document.getElementById("ldPoolTotal").textContent = window.POOLS.loDijo.pool.length;
+          document.getElementById("tileLoDijoCount").textContent = `${window.POOLS.loDijo.pool.length} cartas`;
+        }
+      } catch (_) {}
+
+      try {
+        const resDT = await fetch("./data/el_dato_justo.json", { cache: "no-store" });
+        if (resDT.ok) {
+          const dataDT = await resDT.json();
+          window.POOLS.dato.pool = dataDT.preguntas || [];
+          document.getElementById("dtPoolTotal").textContent = window.POOLS.dato.pool.length;
+          document.getElementById("tileDatoCount").textContent = `${window.POOLS.dato.pool.length} retos`;
         }
       } catch (_) {}
 
