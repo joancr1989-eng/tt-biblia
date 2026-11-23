@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Biblia del TT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section id="login-screen" class="login-wrap">
+    <span class="badge">Triangulito Team • 2012–2026</span>
+    <h1>¿Quién eres hoy?</h1>
+    <p class="muted">Sin contraseñas ni verificaciones. Toca tu nombre para entrar.</p>
+    <div id="player-buttons" class="player-grid"></div>
+  </section>
+
+  <main id="app-screen" class="app-wrap" style="display:none;">
+    <header class="topbar">
+      <button type="button" class="efem-pill" onclick="switchTab('efemeride')">
+        <span id="efem-badge" class="efem-tag">Efeméride • 23/11</span>
+        <strong id="efem-corner-title">Tal día como hoy...</strong>
+      </button>
+      <div class="user-bar">
+        <span>Jugador: <strong id="current-user-label">-</strong></span>
+        <button type="button" class="link-btn" onclick="logoutUser()">Cambiar</button>
+      </div>
+    </header>
+
+    <section id="panel-inicio" class="tab-panel active">
+      <div class="hero-card">
+        <span class="badge">Archivo del TT</span>
+        <h2>Bienvenido a <span>La Biblia del TT</span></h2>
+        <p class="lead">
+          14 años de historial convertidos en droguiTTa para tus giñadas matutinas, momentos de zozobra y aburrimiento.
+        </p>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div id="hero-total-msgs" class="stat-num">384.482</div>
+            <div class="stat-lbl">Mensajes analizados</div>
+          </div>
+          <div class="stat-item">
+            <div id="hero-total-words" class="stat-num">1.860.352</div>
+            <div class="stat-lbl">Palabras contabilizadas</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">14 años</div>
+            <div class="stat-lbl">2012 – 2026</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hub-grid">
+        <button type="button" class="hub-card" onclick="switchTab('efemeride')">
+          <strong>Efeméride del Día</strong>
+          <span>30 preguntas sobre este día (banco hasta 150 con recarga).</span>
+        </button>
+        <button type="button" class="hub-card" onclick="switchTab('reto')">
+          <strong>El Reto del Día</strong>
+          <span>30 preguntas aleatorias de todo el historial.</span>
+        </button>
+        <button type="button" class="hub-card" onclick="switchTab('trivial')">
+          <strong>TTrivial</strong>
+          <span>Política, Fútbol, Tenis, Basket, Fórmula 1, Geografía e Historia.</span>
+        </button>
+        <button type="button" class="hub-card" onclick="switchTab('juegos')">
+          <strong>Juegos</strong>
+          <span>Adivina el autor, ¿Lo dijo o no lo dijo?, El dato justo, Insultos, DebaTTes y La Calfada.</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="panel-efemeride" class="tab-panel">
+      <div class="card">
+        <div class="card-head">
+          <div>
+            <h2 id="efem-heading">Efeméride: tal día como hoy</h2>
+            <p class="muted">Tandas de 30 preguntas • Recargable sobre banco de 150</p>
+          </div>
+          <button type="button" class="btn secondary" onclick="reloadEfemerideBatch()">Recargar tanda (30)</button>
+        </div>
+        <div id="efemeride-quiz-container"></div>
+      </div>
+    </section>
+
+    <section id="panel-reto" class="tab-panel">
+      <div class="card">
+        <div class="card-head">
+          <div>
+            <h2>El Reto del Día</h2>
+            <p class="muted">30 preguntas aleatorias del historial</p>
+          </div>
+          <button type="button" class="btn secondary" onclick="startRetoQuiz()">Nuevo reto (30)</button>
+        </div>
+        <div id="reto-quiz-container"></div>
+      </div>
+    </section>
+
+    <section id="panel-trivial" class="tab-panel">
+      <div class="card">
+        <h2>TTrivial por categorías</h2>
+        <p class="muted">Elige categoría para jugar</p>
+        <div id="trivial-categories" class="cat-grid"></div>
+        <div id="trivial-quiz-container"></div>
+      </div>
+    </section>
+
+    <section id="panel-juegos" class="tab-panel">
+      <div class="card">
+        <h2>Juegos</h2>
+        <p class="muted">Minijuegos, Insultos, DebaTTes y La Calfada</p>
+        <div id="minigames-list" class="hub-grid"></div>
+      </div>
+      <div id="minigame-stage" class="card" style="display:none;"></div>
+    </section>
+  </main>
+
+  <nav id="bottom-nav" class="bottom-nav" style="display:none;">
+    <button type="button" class="nav-btn" data-tab="efemeride" onclick="switchTab('efemeride')">Efeméride</button>
+    <button type="button" class="nav-btn" data-tab="reto" onclick="switchTab('reto')">Reto Día</button>
+    <button type="button" class="nav-btn" data-tab="trivial" onclick="switchTab('trivial')">TTrivial</button>
+    <button type="button" class="nav-btn" data-tab="juegos" onclick="switchTab('juegos')">Juegos</button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
