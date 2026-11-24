@@ -1,0 +1,1034 @@
+{
+  "fecha": "01-05",
+  "total_mensajes_dia": 896,
+  "total_preguntas": 79,
+  "preguntas": [
+    {
+      "pregunta": "¿Qué jugador fue objeto del debate futbolero en enero de 2014, provocando que Jorge mandara a los 'anti' a comprar pomada?",
+      "cita": "Ojala los anti-alexis hayan comprando pomada hemoal o algo, porque...",
+      "opciones": [
+        "Alexis Sánchez",
+        "Piatti",
+        "Postiga",
+        "Negredo"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge y Miki discutían sobre Alexis Sánchez, al que Miki llamaba 'Alexis the paquet', desatando las burlas tras una buena actuación del chileno.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿A quién llamó 'MVP de la jornada' Miki en tono de mofa tras meter un gol?",
+      "cita": "Jajajaja Soso MVP de la jornada",
+      "opciones": [
+        "Postiga",
+        "Piatti",
+        "Alexis",
+        "Negredo"
+      ],
+      "correcta": 0,
+      "explicacion": "Tras decir Joni que 'Postiga también la mete', Miki contestó con risas nombrándole MVP sarcásticamente por su conocido apodo de 'Soso'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Según Jorge en la víspera de Reyes de 2014, ¿de qué tipo de ideología era abrir los regalos esa misma tarde-noche?",
+      "cita": "Abrir regalos ahora es de rojos/comunistas",
+      "opciones": [
+        "De rojos/comunistas",
+        "De anarquistas",
+        "De podemitas",
+        "De burgueses"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge es un fiel defensor de abrir los regalos estrictamente la mañana del día 6, tildando de rojos o comunistas a los que se impacientan.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿Qué material deportivo anunció Joni al grupo que les acababa de traer 'el señor de Nike' en enero de 2014?",
+      "cita": "Xiquets,les sabates del TT 14 recien traidas por el señor de nike",
+      "opciones": [
+        "Las botas/zapatillas del TT 14",
+        "Las camisetas oficiales de entreno",
+        "Unas mallas térmicas",
+        "Los balones de la temporada"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni anunció emocionado la llegada de las botas de fútbol del Triangulito Team para la temporada 2014 recién traídas por Nike.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "En el debate futbolístico de Reyes de 2015, ¿qué teoría sobre Luis Enrique compartió Miki en el grupo?",
+      "cita": "¿Y si Luis Enrique aún es madridista? ¿Y si toda su carrera ha sido un malvado plan para entrenar al Barça y destruirlo desde dentro?",
+      "opciones": [
+        "Que aún era madridista encubierto",
+        "Que no le hablaba a Messi",
+        "Que iba a fichar por el Valencia",
+        "Que dimitiría en enero"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki compartió un tuit con la conspiración humorística de si Lucho seguía siendo madridista para hundir al Barça.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Ante tanto debate futbolístico amargo el día de Reyes de 2015, ¿cómo protestó Joni?",
+      "cita": "Por que habláis de cosas desagradables el día de Reyes? Un respeto al niño Jesús por dios",
+      "opciones": [
+        "Pidiendo respeto al niño Jesús",
+        "Mandándolos a rezar",
+        "Insultando a Luis Enrique",
+        "Pidiendo que pusieran la cabalgata"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni pidió calma y respeto al niño Jesús por ser día de Reyes en vez de hablar de crisis y polémicas culés.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Quién reaccionó con insultos e indignación al despido de Andoni Zubizarreta en el Barça en enero de 2015?",
+      "cita": "Zubizarreta a su puta casa",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Joni",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge celebró efusivamente el cese del director deportivo culé diciendo que ya era tarde pero mejor que nada.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Por qué motivo estaba 'acojonado' Feme tras la destitución de Zubizarreta del FC Barcelona?",
+      "cita": "Fue portero del ath bilbao, luego del barça, i despues del valencia",
+      "opciones": [
+        "Temía que su siguiente paso como director deportivo fuera el Valencia",
+        "Pensaba que vendría de entrenador a Mestalla",
+        "Creía que ficharía a las estrellas ché",
+        "Temía que se retirara del fútbol"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme repasó la trayectoria de Zubizarreta (Athletic, Barça y Valencia de portero; Athletic y Barça de director deportivo) temiendo que acabara en el Valencia.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Quién soltó que 'cualquier china del todo a 100 te gestiona mejor los fichajes que zubi'?",
+      "cita": "Hombre, cualquier china del todo a 100 te gestiona mejor los fichajes que zubi no me jodas",
+      "opciones": [
+        "Joni",
+        "Jorge",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni no dudó en cargar contra la gestión de Zubizarreta comparándola con una tienda de barrio.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿A qué mítico personaje infantil de la televisión alabó Joni en Telecinco llamándolo 'genio y figura'?",
+      "cita": "Si Santiago viera el hombre que se ha convertido su currito.. Cómo se emocionaria",
+      "opciones": [
+        "Currito (Los Serrano)",
+        "Josete (Cuéntame)",
+        "Chechu (Médico de Familia)",
+        "Manolito Gafotas"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni vio a Currito de 'Los Serrano' en televisión y se maravilló de lo mayor que estaba y de su talento actoral.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿A qué bar comparó Joni con 'el Negredo de los bares' por pedir un traspaso astronómico?",
+      "cita": "El Negredo de los bares",
+      "opciones": [
+        "Radio City",
+        "The Fitzgerald",
+        "The Good Burger",
+        "Lateral"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki comentó que Radio City pedía 400.000€ de traspaso y Joni no tardó en bautizarlo como el 'Negredo de los bares'.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Por qué motivo Miki llamó 'rata' a Joni sin 'olvido ni perdón' en enero de 2016?",
+      "cita": "Joni calla rata que me has quitado a Jozabed.",
+      "opciones": [
+        "Le quitó al jugador Jozabed en el Comunio",
+        "Le robó unas patatas en el bar",
+        "Le levantó una entrada para un partido",
+        "Se quedó su regalo de reyes"
+      ],
+      "correcta": 0,
+      "explicacion": "En pleno pique por el fantasy/comunio, Miki le reprochó a Joni haberle arrebatado a Jozabed, a lo que Joni contestó con 'oferta y demanda'.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿De qué restaurante de hamburguesas empezó Jorge pidiendo la opinión al TT en 2016?",
+      "cita": "Opinion del TT sobre \"TheGoodBurguer\".",
+      "opciones": [
+        "The Good Burger",
+        "The Fitzgerald",
+        "Five Guys",
+        "Goiko"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge preguntó qué opinaba el grupo sobre TGB, iniciando una intensa discusión gastronómica.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Cuál fue la queja principal de Joni, Jorge y Feme sobre las hamburguesas tipo TGB o Fitzgerald?",
+      "cita": "Que la calidad nadie la ha discutido, pero la cantidad es un pero bastante reseñado por los clientes",
+      "opciones": [
+        "Que la cantidad era poquísima para lo que cobraban",
+        "Que la carne estaba demasiado cruda",
+        "Que el pan se rompía",
+        "Que tardaban demasiado en servir"
+      ],
+      "correcta": 0,
+      "explicacion": "Coincidieron en que, aunque estaban buenas, eran caras y te dejaban con hambre para tener que recogerlas tú mismo.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Cómo vaciló Joni a Hugo cuando este opinó que por un poco más había hamburgueserías 'buenas buenas'?",
+      "cita": "En la revista de runners no ve cap recomanació de hamburgueseries?",
+      "opciones": [
+        "Preguntándole si no salían recomendaciones en la revista de runners",
+        "Diciéndole que solo comía ensaladas",
+        "Recordándole sus tiempos de dieta",
+        "Diciéndole que en Gandía no había nada de eso"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni le lanzó la pullita runner a Hugo al meterse en la conversación sobre hamburguesas.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Por qué Germi defendía abrir los regalos la noche del 5 en vez de esperar a la mañana de Reyes?",
+      "cita": "Tio te regalan el fifa y quieres viciarte toda la noche",
+      "opciones": [
+        "Porque si te regalan el FIFA quieres viciarte toda la noche",
+        "Porque madrugar el 6 de enero da pereza",
+        "Porque así juegas antes de comer con la familia",
+        "Porque en su casa siempre se hizo así"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi argumentaba la necesidad vital de abrir los regalos de noche para poder pasar la madrugada jugando al FIFA sin esperar.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Cómo calificó Jorge a sus amigos que abrían los regalos la víspera del día de Reyes?",
+      "cita": "Hay cosas con las que los nazis del DIA de reyes no estamos dispuestos a negociae",
+      "opciones": [
+        "Nazis del día de reyes frente a unos contraculturales",
+        "Tradicionalistas incomprendidos",
+        "Simples herejes del roscón",
+        "Vagos que no madrugan"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge se autoproclamó 'nazi del día de reyes' y llamó a los demás contraculturales y 'gays de los reyes' por no esperar a la mañana.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿A quién le ordenó Jorge que se quitara metafóricamente la pulsera de España por no respetar las tradiciones de Reyes?",
+      "cita": "Humberto.. eres un no español",
+      "opciones": [
+        "Humpa (Humberto)",
+        "Germi",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge atacó a Humberto (Humpa) acusándolo de no ser español y mandándole quitarse la pulsera rojigualda e irse con las 'tres reinas magas'.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Cómo bautizó Jorge a la versión 'cutre' de los Reyes Magos que entrega los regalos la tarde del 5 de enero tras la cabalgata?",
+      "cita": "Son los señores de la tarde",
+      "opciones": [
+        "Los señores de la tarde",
+        "Los pajes del crepúsculo",
+        "Los carteros de Gandía",
+        "Los reyes de gitanolandia"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge no concebía abrir regalos la tarde del 5 tras la cabalgata y los calificó despectivamente de 'los señores de la tarde'.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Qué extraña entidad acusó Joni que le había comido el coco a Jorge por defender la tradición de dejar leche y zapatos a los Reyes?",
+      "cita": "Dejar leche, los zapatos? Tiooo te ha comido el coco el consejo del huevo",
+      "opciones": [
+        "El consejo del huevo",
+        "El lobby de los bataneros",
+        "La hermandad del polvorón",
+        "La corte de Gandía"
+      ],
+      "correcta": 0,
+      "explicacion": "Para Joni, la liturgia tradicional de dejarle leche y zapatos a los Reyes Magos era una conspiración pura del 'consejo del huevo'.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Quién confesó en pleno debate navideño que los regalos le daban igual porque su auténtico vicio era el carbón dulce?",
+      "cita": "Yo solo queria el carbón dulce",
+      "opciones": [
+        "Feme",
+        "Joni",
+        "Jorge",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme intervino para asegurar que los juguetes le importaban poco, que para él el carbón dulce era 'pura drogs'.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Qué dejaba Jorge de pequeño para demostrar que tenía 'clase' y que era de España y no de 'gitanolandia'?",
+      "cita": "Yo dejaba bomboncicos",
+      "opciones": [
+        "Bomboncicos",
+        "Polvorones de canela",
+        "Turrón del blando",
+        "Mantecados de la estepa"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge presumía de su infancia señorial afirmando que él a los Reyes Magos les dejaba bomboncicos.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Qué dulce típico valenciano reivindicaron Joni y Feme como pilar sagrado de la tarde de Reyes?",
+      "cita": "Cooorrecto. La casca, típico valenciani",
+      "opciones": [
+        "La casca",
+        "El panquemao",
+        "La mocadorà",
+        "La coca de llanda"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni y Feme sacaron a relucir 'la casca', dulce navideño tradicional valenciano repleto de chocolate.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿A qué comparó Jorge la desesperación de abrir los regalos 12 horas antes?",
+      "cita": "Como la aficion del valencia",
+      "opciones": [
+        "Como la aficion del valencia",
+        "Como los bataneros con resaca",
+        "Como Feme con hambre",
+        "Como Negredo fallando goles"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge acusó a los valencianos de ansiosos comparándolos directamente con la afición del Valencia CF.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Con qué festín culinario celebró Joni el haber abierto sus regalos de Reyes el 5 por la noche?",
+      "cita": "Perdona Jorge, estaba paladeando una majestuosa cena del chino postapertura de regalos",
+      "opciones": [
+        "Cena del chino",
+        "Kebab mixto gigante",
+        "Pizza barbacoa familiar",
+        "Roscón con chocolate caliente"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni presumió de cenar comida china tras abrir los regalos, sintiéndose pletórico 'cual Negredo de destapat'.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "Según Jorge, la imagen de abrir los regalos de noche con pantalón de pana y suéter era tan bizarra que...",
+      "cita": "No te firma ese guion ni Tarantino",
+      "opciones": [
+        "No te firma ese guion ni Tarantino",
+        "Ni Almodóvar se atreve a grabarlo",
+        "Es de película de sobremesa",
+        "Parece una pesadilla de Berlanga"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge remató su burla diciendo que ese guion con ropa de calle nocturna no lo firmaba ni Quentin Tarantino.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Quién dedicó una emotiva alabanza a los padres de Gandía por adelantar la entrega de regalos?",
+      "cita": "Bendita generación aquella de padres gandienses que decidieron regalar 12 horas mágicas a sus hijos",
+      "opciones": [
+        "Joni",
+        "Jorge",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni defendió con orgullo la decisión de los padres gandienses de ahorrarles una noche de suplicio y ansiedad a los niños.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Qué indumentaria utilizaba Joni para el 'acelerón de los últimos 100 metros Road to Regalos'?",
+      "cita": "Tejano cómodo",
+      "opciones": [
+        "Tejano cómodo",
+        "Pantalón de pana fino",
+        "Chándal de tactel",
+        "Pijama por debajo"
+      ],
+      "correcta": 0,
+      "explicacion": "Preguntado por si llevaba pana, Joni aclaró que usaba un 'tejano cómodo' para encarar la recta final hacia los regalos.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿A qué comparó Jorge el follar cuando Germi le preguntó si tenía fuerzas en la víspera de Reyes de 2017?",
+      "cita": "Tio, eso es como el futbol. Si puedes meter 5.. hay que meterlos",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge decía que no tenía fuerzas ni para debatir de reyes, pero cuando Germi le picó con el tema folleteo, tiró de pura metáfora goleadora.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Quién se marcó este vacile de 'playboy' asegurando que no daba abasto en el móvil?",
+      "cita": "Estoy hablando con tantas tiad que mezclo conversaciones",
+      "opciones": [
+        "Miki",
+        "Joni",
+        "Germi",
+        "Héctor"
+      ],
+      "correcta": 2,
+      "explicacion": "Germi prometió contar historias tras Reyes y soltó que tenía tantas conversaciones abiertas que ya ni sabía con quién hablaba.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Quién resumió su estado anímico con la frase 'No tengo fuerza.. Ni para debatir lo de los reyes' en 2017?",
+      "cita": "No tengo fuerza..",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Joni",
+        "Germi"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge estaba derrotado tras el fútbol y la hora punta de debates nocturnos de Reyes en Gandia.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Quién sentenció tajantemente que Papá Noel trae casi todo y los Reyes solo las sobras?",
+      "cita": "No hay debate. casi todos los regalos los trae papá Noel",
+      "opciones": [
+        "Miki",
+        "Germi",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki cerró el debate de 2017 asegurando que Papá Noel traía lo gordo y Reyes solo 'los restos'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué regalos catalogó Miki de 'restos' que tocan en el día de Reyes?",
+      "cita": "Hoy los restos, tipo bufandas y zapatillas de ir por csss",
+      "opciones": [
+        "Bufandas y zapatillas de ir por csss",
+        "Calzoncillos y calcetines ejecutivos",
+        "Pijamas y colonias baratas",
+        "Chocolates y desodorante Axe"
+      ],
+      "correcta": 0,
+      "explicacion": "Para Miki el día de Reyes quedaba relegado a 'bufandas y zapatillas de ir por casa'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Quién se quedó perplejo preguntando quién demonios era Papá Noel?",
+      "cita": "Papa noel??",
+      "opciones": [
+        "Germi",
+        "Jorge",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi reaccionó con incredulidad ante el mensaje de Miki preguntando quién era ese tal Papá Noel.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "En la retorcida teoría de Feme sobre los orígenes de Papá Noel, ¿qué hacía el gordo barbudo?",
+      "cita": "Y se follaba a renos",
+      "opciones": [
+        "Y se follaba a renos",
+        "Vendía elfos en el mercado negro",
+        "Robaba carbón de las minas",
+        "Se emborrachaba con champán barato"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme soltó una de sus perlas afirmando que en verdad Papá Noel se comía a niños y se follaba a renos drogado.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Cómo describió Jorge, con fina ironía, la rajada de Paco Roig contra García Pitarch en El Chiringuito?",
+      "cita": "Sosegado, con temple, lleno de matices",
+      "opciones": [
+        "Sosegado, con temple, lleno de matices",
+        "Brutal, despiadado y destructivo",
+        "Puro odio valencianista sin filtro",
+        "Una clase magistral de oratoria fallera"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge bromeó diciendo que el análisis de Paco Roig ('ha traído jugadores que son una puta mierda') era puro estilo TT: sosegado, con temple y lleno de matices.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿A quién catalogó Miki de 'DIOS bajado a la tierra' tras sus declaraciones públicas?",
+      "cita": "Ese hombre es DIOS",
+      "opciones": [
+        "Paco Roig",
+        "García Pitarch",
+        "Aritz Aduriz",
+        "Michael Jackson"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki alabó sin filtros al expresidente del Valencia Paco Roig por hablar 'clarito'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Con qué curioso apelativo se refirió Feme a la persona sin la cual supuestamente no se montaban pachangas?",
+      "cita": "Que pasa que si no esta el percebe no se hacen paxangas aqui?",
+      "opciones": [
+        "El percebe",
+        "El fanegas",
+        "El batanero",
+        "El lache"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme se quejó de la falta de fútbol sala preguntando si es que no se jugaba si faltaba 'el percebe'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿A qué futbolista le dedicó Joni una de sus mayores explosiones de ira durante un Athletic - Barça?",
+      "cita": "Aduriz etarra miserable",
+      "opciones": [
+        "Aritz Aduriz",
+        "Raúl García",
+        "Iker Muniain",
+        "Mikel San José"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni perdió los papeles con Aduriz tras una jugada polémica y soltó toda su bilis contra el delantero rojiblanco.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué jugador del Barça desató los elogios desmedidos de Jorge a primera hora de una mañana de 2018?",
+      "cita": "Por que no se esta hablando del partido de Andre Gomes ayer?",
+      "opciones": [
+        "Paulinho",
+        "Andre Gomes",
+        "Denis Suárez",
+        "Paco Alcácer"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge se quedó fascinado con el partido de André Gomes y se indignó porque nadie en los medios ni en el chat destacaba sus 'regates, presión y llegada'.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Quién dedicó esta agresiva y gráfica frase a los detractores de Leo Messi a cuenta de las polémicas políticas?",
+      "cita": "Hay que entender a esta gente, son ya más de diez años violación tras violación",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Miki",
+        "Hugo"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni salió con todo a defender a Messi frente a las noticias sobre su cláusula en caso de independencia de Cataluña.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿A quién le soltó Miki un 'Llig llig a vore si no se tatrofia el cervell cabro'?",
+      "cita": "Llig llig a vore si no se tatrofia el cervell cabro",
+      "opciones": [
+        "Germi",
+        "Joni",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki le mandó esta pulla cariñosa a Joni en valenciano para que siguiera leyendo sobre fútbol e independencia.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "En 2019, Miki reclamaba explicaciones por una pifiada en el Comunio, pero ¿qué pulla le soltó Joni?",
+      "cita": "Seguro que pasear al chucho no se te ha olvidado",
+      "opciones": [
+        "Humpa",
+        "Jorge",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "explicacion": "Mientras hablaban de la liada en el Comunio, Joni no perdió la oportunidad de recordar las obligaciones caninas.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "Viendo un partido del Valencia en 2019, ¿contra qué canterano ché cargó duramente Joni tras fallar un gol cantado?",
+      "cita": "Lato es muy malo o muy retrasao?",
+      "opciones": [
+        "Ferran Torres",
+        "Lato",
+        "Gayà",
+        "Soler"
+      ],
+      "correcta": 1,
+      "explicacion": "Tras una jugada en la que Toni Lato perdonó el 0-2 y el rival empató acto seguido, Joni estalló sin filtros.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "¿Qué comparación 'gamer' hizo Joni cuando el Valencia se dejó remontar mientras él salía un momento al patio?",
+      "cita": "Típico partido del football manager : te adelantas fuera casa, te empatan en nada y gol en el descuento",
+      "opciones": [
+        "Jorge",
+        "Humpa",
+        "Miki",
+        "Joni"
+      ],
+      "correcta": 3,
+      "explicacion": "Joni salió a fumarse un cigarro y al volver el rival ya había clavado el 2-1 en el descuento, tal cual le pasa a cualquiera en el Football Manager.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "En plena noche de Reyes de 2019, ¿sobre qué comida rápida consultó Jorge desesperadamente a Humpa?",
+      "cita": "Cual era el relleno de kebab que estaba bueno? El de Hacendado no.. no?",
+      "opciones": [
+        "Relleno de kebab",
+        "Masa de pizza",
+        "Hamburguesas veganas",
+        "Burritos congelados"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge recurrió a la sabiduría culinaria de Humpa para saber qué carne de kebab de supermercado merecía la pena.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "¿A qué jugador de LaLiga sentenció Miki en Biwenger a primeros de 2021?",
+      "cita": "que perra. puito gonzalo melero. mañana lo vendo en el biwenger",
+      "opciones": [
+        "Rubén Rochina",
+        "Gonzalo Melero",
+        "Roger Martí",
+        "José Luis Morales"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki no aguantó más al centrocampista del Levante y anunció su venta inmediata del fantasy tras un berrinche matutino.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En pleno debate sobre el ritmo de vacunación contra el COVID en 2021, ¿qué puntualización le hizo Jorge a Germi?",
+      "cita": "Vacunar no es follar en este caso eh Gemri",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Humpa",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi exigía poner vacunas 24/7 sin descanso, y Jorge aprovechó el ansia viva de Germán para hacer el chiste sexual.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Cuando se anunciaron los confinamientos perimetrales de 2021 en la Comunidad Valenciana, ¿qué pueblo alarmó a Miki por no poder entrar ni salir?",
+      "cita": "no se puede entrar ni salir de oliva?",
+      "opciones": [
+        "Gandia",
+        "Oliva",
+        "Dénia",
+        "Tavernes"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki entró en pánico al enterarse de que Oliva estaba entre los 25 municipios perimetrados con restricciones críticas.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué formato exigía Joni para tomarse en serio la lista de restricciones sanitarias anunciadas por la Generalitat?",
+      "cita": "Esta lista si no me la comenta hugo y Germán con un audio diciendo que vaya miki a recoger sacos de porlan a mi no me aporta nada",
+      "opciones": [
+        "Feme",
+        "Miki",
+        "Joni",
+        "Jorge"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni pedía que las medidas oficiales le llegasen explicadas por Hugo y Germi con la dosis habitual de cachondeo y albañilería mandando a Miki a currar.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En la víspera de Reyes de 2021, ¿qué mítico tema de Los Suaves se puso a cantar Feme en el chat?",
+      "cita": "Eras la chicaaa de andres!",
+      "opciones": [
+        "Dolores se llamaba Lola",
+        "Peligrosa María",
+        "Eras la chica de Andrés",
+        "Si pudiera"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme entró en modo rockero recordando '¿Dónde vas triste de ti?' de Los Suaves en medio de los mensajes festivos.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿De qué plan legendario se lamentaba Joni que se habían quedado sin ir los 'viejazos' del trabajo de Jorge en la cena de empresa cancelada?",
+      "cita": "Tus viejazos se han quedado sin su visita al club pétalos",
+      "opciones": [
+        "Al casino",
+        "Al club pétalos",
+        "A la marisquería",
+        "Al billar de Gandia"
+      ],
+      "correcta": 1,
+      "explicacion": "Marzal y Joni se compadecían de Jorge porque el COVID le había quitado la clásica cena con los veteranos de la empresa y su posterior remate en el club.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué exigencia matrimonial y gastronómica le lanzó Hugo a Jorge en 2021?",
+      "cita": "Va cásate ya E iremos a Galicia a comer marisquito",
+      "opciones": [
+        "Germi",
+        "Miki",
+        "Hugo",
+        "Feme"
+      ],
+      "correcta": 2,
+      "explicacion": "Hugo le metía prisa a Jorge para que pasara por el altar y así tener la excusa perfecta para pegarse un homenaje de marisco en Galicia.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué contestó Feme cuando Hugo propuso ir a comer marisco a Galicia tras una boda?",
+      "cita": "Tu portes tota la vida menjante clotxines No ne vuigues mes coxino",
+      "opciones": [
+        "Joni",
+        "Feme",
+        "Jorge",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme le bajó los humos a Hugo recordándole en valenciano que él lo que come son clóchinas de toda la vida.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿A qué entrenador del fútbol español dedicó Jorge sus más cariñosas palabras en enero de 2021?",
+      "cita": "Qué payaso es Marcelino",
+      "opciones": [
+        "José Bordalás",
+        "Marcelino García Toral",
+        "Cholo Simeone",
+        "Ronald Koeman"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge no pudo contenerse viendo el partido y calificó a Marcelino de auténtico 'payaso' y 'terrible'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Quién se sorprendió al ver una noticia de prensa rosa y soltó una de sus reflexiones más poéticas sobre las relaciones humanas?",
+      "cita": "Gonzalo melero? Jajajajaja que random es la vida y que zorrupias son las damiselas",
+      "opciones": [
+        "Joni",
+        "Jorge",
+        "Feme",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Al ver la noticia que vinculaba a Gonzalo Melero, Joni dejó para la posteridad su lúcida reflexión sobre el destino y las damiselas.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué catastrofista conclusión sacó Feme a última hora de la noche de Reyes de 2021?",
+      "cita": "Nos vamos a extinguir",
+      "opciones": [
+        "Vamos a morir todos",
+        "Nos vamos a extinguir",
+        "Este país se va a la mierda",
+        "No tenemos salvación"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme cerró el debate nocturno con un lapidario y derrotista 'Nos vamos a extinguir'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Cómo bautizó Feme a la dimensión paralela donde Joni supuestamente tendría cordura?",
+      "cita": "El Joniverso",
+      "opciones": [
+        "El Jonimundo",
+        "El Joniverso",
+        "Jonilandia",
+        "Multijoni"
+      ],
+      "correcta": 1,
+      "explicacion": "Cuando Jorge mencionó a un 'Joni de otro universo', Feme lo bautizó al instante como 'El Joniverso'.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Quién pronunció esta patriótica defensa de los valores tradicionales a las doce de la noche?",
+      "cita": "Un hombre cabal y que ama a su país. Pero claro, eso en este país de rojos no está bien visto",
+      "opciones": [
+        "Joni",
+        "Marzal",
+        "Germi",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni sacó su faceta más patriota y antisistema quejándose de lo mal visto que está ser un hombre cabal en un 'país de rojos'.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿De qué viaje volvieron Miki y su cuadrilla con un brote épico de Covid justo antes de Reyes?",
+      "cita": "En el viaje a andorra ha habido una explosión de 🦠 interesante",
+      "opciones": [
+        "Sierra Nevada",
+        "Andorra",
+        "Baqueira",
+        "Madrid"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki relató cómo del viaje a Andorra salieron contagiados unos 10 de 20 personas.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Dónde afirmó Joni que no había habido ningún brote de Covid en plenas navidades?",
+      "cita": "Sabes donde no ha habido una explosión de covid? En la recogida de sacos de porlan en Castellonet de la conquesta",
+      "opciones": [
+        "En el puerto de Gandia cargando cajas",
+        "En la recogida de sacos de porlan en Castellonet de la conquesta",
+        "En el almacén de naranjas de Beniopa",
+        "Picando piedra en la cantera de Marxuquera"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni contrastó el viaje de esquí a Andorra con el duro trabajo físico de cargar sacos de cemento porland en Castellonet.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Qué mítico clásico del cine para adultos prometió Joni ripearle en DVD a Miki si salía positivo en Covid?",
+      "cita": "Si sales tú positivo te ripeo en DVD posesión otra vez miki",
+      "opciones": [
+        "Torrente",
+        "Posesión de Lucía Lapiedra",
+        "Garganta Profunda",
+        "Showgirls"
+      ],
+      "correcta": 1,
+      "explicacion": "Para amenizarle el confinamiento a Miki, Joni amenazó con volver a ripearle en DVD la mítica cinta de Lucía Lapiedra.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Según la parodia de Joni, ¿qué partido histórico de LEB Oro se iba a poner Miki a analizar durante su encierro?",
+      "cita": "Es que tengo un partido del gandia baske contra el akavasyu Vic jornada 24 de leb oro que me gustaría analizar el juego al poste de Zach Morley",
+      "opciones": [
+        "Gandia Básquet contra Lucentum Alicante",
+        "Gandia Básquet contra Akasvayu Vic",
+        "Valencia Basket contra Tau Cerámica",
+        "Gandia Básquet contra Menorca"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni recreó una conversación ficticia de Miki buscando DVDs en casa para analizar a fondo a Zach Morley en el Gandia Bàsquet - Vic.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Qué respondió Feme cuando Humpa preguntó inocentemente si Miki se había hecho una PCR?",
+      "cita": "Eso ya no se lleva hermano",
+      "opciones": [
+        "Eso es de ricos",
+        "Eso ya no se lleva hermano",
+        "Paso de meterme el palo",
+        "Ya no quedan en farmacias"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme le dejó claro a Humpa que las PCR estaban demodé y que ahora el rollo eran los test de antígenos de andar por casa.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Qué célebre frase patriótica soltó Joni al ver una factura eléctrica desorbitada y que Miki recordó riéndose?",
+      "cita": "cuando te llego la factura de 180€..... Y un español no puede permitir que un niño pase frio!",
+      "opciones": [
+        "La calefacción es un derecho constitucional",
+        "Y un español no puede permitir que un niño pase frio!",
+        "Antes arruinado que con pulmonía",
+        "España no se congela por culpa de las eléctricas"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki recordó llorando de risa la excusa de Joni cuando le llegó la luz a 180 euros justificándose en que los niños españoles no deben pasar frío.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿A qué bar invitó Feme al grupo la tarde de Reyes para tomarse un aperitivo 'si alguien se aburría con la parienta'?",
+      "cita": "Hui estare en el Blanco fentme un piscolabis per ahi",
+      "opciones": [
+        "Al Blanco",
+        "Al Varadero",
+        "Al Dublin",
+        "Al Mirador"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme avisó por el grupo que estaría en el Blanco tomándose algo por si alguien quería sumarse o huir de la rutina conyugal.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿A quién le dolió en el alma darle la razón Miki cuando finalmente dio positivo tras varios test negativos?",
+      "cita": "Odio darle la razón a Jorge peeeero… Miki positivo",
+      "opciones": [
+        "Germi",
+        "Humpa",
+        "Jorge",
+        "Joni"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge llevaba todo el día vaticinando que Miki caería en dos días, y Miki tuvo que claudicar anunciando su positivo.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Qué mítico exjugador del Gandia Básquet filtró Joni en exclusiva que iba a interpretar a Baltasar en la cabalgata?",
+      "cita": "Fuentes internas me filtran que Ricky Volcy hará de Baltasar",
+      "opciones": [
+        "Ricky Volcy",
+        "Zach Morley",
+        "Shammgod",
+        "Derrick Alston"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni bromeó con que la cabalgata de Gandia contaría con el inolvidable jugador canadiense Ricky Volcy de Rey Mago.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Desde qué año asegura Jorge que Miki es incapaz de reconocer nada en un debate?",
+      "cita": "No reconoce nada since 2007 pero no pasa nada",
+      "opciones": [
+        "Since 2007",
+        "Since 2010",
+        "Since 1999",
+        "Since 2015"
+      ],
+      "correcta": 0,
+      "explicacion": "Discutiendo sobre abrir los regalos el 5 o el 6 de enero, Jorge atacó la cabezonería de Miki alegando que no da su brazo a torcer desde 2007.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Qué plan veraniego propuso Germi en el grupo la mañana del 5 de enero de 2023?",
+      "cita": "Este año se plantea Camino 2023?",
+      "opciones": [
+        "El descenso del Sella",
+        "El Camino de Santiago",
+        "Viaje a Formentera",
+        "Alquilar una casa en Ibiza"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi abrió la veda preguntando si se plantearía hacer el Camino en el verano de 2023, a lo que Feme y Miki se sumaron.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "En pleno debate sobre la nostalgia y el mito de Irene Canto, ¿con qué estrella de la NBA comparó Joni a Jorge Jiménez?",
+      "cita": "Y Jorge Jiménez no era Magic Johnson. Pero nos la suda, no puedes luchar contra la fuerza de la nostalgia",
+      "opciones": [
+        "Michael Jordan",
+        "Larry Bird",
+        "Magic Johnson",
+        "Kobe Bryant"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni defendió que la nostalgia ciega a la gente recordando que Jorge Jiménez no era Magic Johnson, pero que aún así se le recuerda como tal.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "¿A quién describió con tremenda ironía Humpa como 'el pacífico presidente'?",
+      "cita": "El pacífico presidente de la federación de Camerún",
+      "opciones": [
+        "Didier Drogba",
+        "Samuel Eto'o",
+        "Roger Milla",
+        "Rigobert Song"
+      ],
+      "correcta": 1,
+      "explicacion": "Tras salir noticias de incidentes protagonizados por Samuel Eto'o, Humpa le apodó sarcásticamente como 'el pacífico presidente de la federación de Camerún'.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "En víspera/noche de Reyes en 2024, ¿quién se interesó por ver qué tal le habían ido los regalos a Jorge?",
+      "cita": "Bueno Jorge, que tal los regalos??",
+      "opciones": [
+        "Marzal",
+        "Feme",
+        "Héctor",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "explicacion": "Marzal abrió la veda de cotilleo preguntándole a Jorge cómo habían ido los regalos.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Qué cuenta o etiqueta inventada mencionó Germi al compartir una trágica noticia sobre un ataque de cinco perros?",
+      "cita": "@fallasyperros",
+      "opciones": [
+        "@perrosasesinos",
+        "@fallasyperros",
+        "@rottweilersuelta",
+        "@mascotaspeligro"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi pasó la noticia de un chaval atacado por sus rottweilers y arrobó a la mítica temática ficticia de @fallasyperros.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Tras la noticia de un joven devorado por sus cinco rottweilers, ¿quién soltó una de las reacciones más salvajes y con cero empatía del chat?",
+      "cita": "Jajajajajajaja que se joda. Que haces viviendo con 5 asesinos? Ojalá después de despedazarlo le echaran salsa chimichurri y se lo jalaran encima de su cama",
+      "opciones": [
+        "Germi",
+        "Miki",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni no tuvo piedad alguna con el dueño de los cinco canes y fantaseó con salsa chimichurri incluida.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Qué curioso aderezo culinario deseó Joni que los rottweilers le echaran a su dueño antes de comérselo?",
+      "cita": "Ojalá después de despedazarlo le echaran salsa chimichurri y se lo jalaran encima de su cama",
+      "opciones": [
+        "Salsa barbacoa",
+        "Salsa chimichurri",
+        "Salsa brava",
+        "Alioli casero"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni especificó con todo detalle gastronómico que los perros debían aderezarlo con salsa chimichurri.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Según la macabra descripción de Joni sobre los cinco rottweilers, ¿dónde deseaba que se jalaran a su víctima?",
+      "cita": "se lo jalaran encima de su cama",
+      "opciones": [
+        "En el jardín",
+        "Encima de su cama",
+        "En el sofá del salón",
+        "En el suelo de la cocina"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni remató su comentario diciendo que esperaba que se lo jalaran directamente 'encima de su cama'.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "En 2026, Jorge compartió una noticia de Voz Pópuli con una frase de esperanza a futuro. ¿Qué dijo exactamente?",
+      "cita": "Algún día, algún día",
+      "opciones": [
+        "Ya falta menos",
+        "Algún día, algún día",
+        "Se viene la buena",
+        "Tarde o temprano"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge enlazó el artículo y comentó 'Algún día, algún día', soñando con que ocurriera.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Cuando Jorge compartió un tweet de SpainReacti0ns en 2026, ¿quién fue el único en darle la razón de forma tajante?",
+      "cita": "Efectivamente",
+      "opciones": [
+        "Humpa",
+        "Feme",
+        "Héctor",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "explicacion": "Humpa sentenció la jugada con un escueto y definitivo 'Efectivamente'.",
+      "anio": 2026
+    }
+  ]
+}

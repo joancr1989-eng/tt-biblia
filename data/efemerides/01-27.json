@@ -1,0 +1,930 @@
+{
+  "fecha": "01-27",
+  "total_mensajes_dia": 888,
+  "total_preguntas": 71,
+  "preguntas": [
+    {
+      "pregunta": "En pleno debate electoral sobre quién debía ser el delegado del TT y qué información turbia ocultaba Miki, ¿con qué personaje televisivo lo comparó Feme?",
+      "cita": "Como alan harper",
+      "opciones": [
+        "Alan Harper",
+        "Homer Simpson",
+        "Peter Griffin",
+        "Michael Scott"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme comparó la estrategia opaca de Miki para postularse a delegado del equipo con las maniobras rastreras de Alan Harper en 'Dos hombres y medio'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿Qué fichaje ruinoso le reprocharon a Miki en su gestión deportiva pidiéndole el desglose exacto de su sueldo y extras?",
+      "cita": "Miki cuanto pagaste x el fixaje de quico?",
+      "opciones": [
+        "Quico",
+        "Orengo",
+        "Alberto",
+        "Salva"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme y Jorge le exigieron a Miki las cuentas claras por haber traído a Quico al equipo, especulando sobre primas, sueldos y 'paguitas'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Repasando la tabla de goleadores de los rivales, ¿a quién bautizó Joni como 'el Vieri de la Safor'?",
+      "cita": "Home el perillas numero 16 aka el vieri de la safor",
+      "opciones": [
+        "Al perillas número 16 de los sordos",
+        "A Quico",
+        "A Miki jugando en punta",
+        "Al portero de Benicadell"
+      ],
+      "correcta": 0,
+      "explicacion": "Al ver que en el equipo de los sordos (que llevaban 88 goles en contra) había uno quinto en el pichichi, Joni lo identificó al instante con ese apodo de leyenda.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿Quién sintetizó con orgullo el estilo agonístico y poco goleador del TT en la liga de fútbol sala?",
+      "cita": "A ver,somos el equipo de las remontadas y victoria por la mínima",
+      "opciones": [
+        "Joni",
+        "Jorge",
+        "Hugo",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni defendió el ADN del Triangulito Team frente a equipos que goleaban mucho más pero sumaban menos puntos.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿Qué mítico episodio de Los Simpson anunció Jorge al grupo con su habitual 'Alerta Simpsons' de sobremesa?",
+      "cita": "Capitulode... Alf ha vueltoooo",
+      "opciones": [
+        "Alf ha vuelto en forma de chapas",
+        "El flameado de Moe",
+        "Homer en el espacio exterior",
+        "El viaje misterioso de Homer"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge avisó con emoción de la emisión del clásico episodio donde Milhouse cambia el alma de Bart por fichas de Alf.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿Quién defendió la candidatura de Miki a delegado recordando que en su momento les dio un campeonato?",
+      "cita": "Xo miki nos dio una liga con su gol",
+      "opciones": [
+        "Feme",
+        "Jorge",
+        "Joni",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "explicacion": "En medio del fuego cruzado contra Miki por sus fichajes, Feme salió en su defensa recordando su histórico gol decisivo.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Tras una dura derrota de Rafa Nadal en Australia, ¿quién aprovechó para mofarse de Jorge y de los fans del tenista balear?",
+      "cita": "Claro que peor seria ser fan de Rafael Nadal y comerse un 3-0 para desayunar. Ojala con magdalenas... que asi a palo seco entrara mal",
+      "opciones": [
+        "Joni",
+        "Hugo",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni no tuvo piedad de buena mañana al ver que Nadal había caído 3-0 y le dedicó un desayuno con magdalenas a Jorge.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Ante los ataques despiadados de Joni hacia Rafa Nadal, ¿cómo defendió Jorge al manacorí sacando pecho por sus títulos?",
+      "cita": "Pero... con 14 GS... te sientas mejor",
+      "opciones": [
+        "Jorge",
+        "Miki",
+        "Hugo",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge respondió que tras haber ganado 14 Grand Slams las derrotas duelen bastante menos que conformarse con ganar el torneo de Acapulco como Ferrer.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Qué problema médico anunció Hugo que causaba la baja de Álex para el partido de fin de semana?",
+      "cita": "Alex no puede jugar el sábado, que lo operan de las muelas",
+      "opciones": [
+        "Lo operan de las muelas",
+        "Rotura de fibras en el abductor",
+        "Faringitis con placas",
+        "Esguince de rodilla"
+      ],
+      "correcta": 0,
+      "explicacion": "Hugo avisó de que Álex pasaba por el quirófano para sacarse las muelas, sumándose a la larga lista de bajas del equipo.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Al enterarse de que el equipo rival se negaba a aplazar el partido pese a estar en cuadro, ¿qué amenaza soltó Joni?",
+      "cita": "Dile que como no acepten convertimos al 3D en formato 2D",
+      "opciones": [
+        "Convertimos al 3D en formato 2D",
+        "Les pinchamos las ruedas al llegar",
+        "Les vamos a meter siete",
+        "No nos presentamos y que les den"
+      ],
+      "correcta": 0,
+      "explicacion": "Indignado por la falta de empatía del equipo rival, Joni tiró de amenazas dimensionales para intimidar al rival.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Quién tomó la iniciativa de contactar al capitán rival para convencerles de aplazar advirtiendo que no serían ni cuatro?",
+      "cita": "He hablado con el capi de ese equipo",
+      "opciones": [
+        "Héctor",
+        "Miki",
+        "Jorge",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Héctor intentó negociar diplomáticamente con el capitán contrario explicándole que si no aplazaban directamente no habría partido por falta de gente.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Ante la perspectiva de tener que jugar con bajas y cabreados, ¿cuál fue el plan de choque planteado por Joni?",
+      "cita": "Metemos el 1-0, tanganica y pa casa como el otro día",
+      "opciones": [
+        "Joni",
+        "Hugo",
+        "Jorge",
+        "Héctor"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni propuso una estrategia infalible: marcar un gol rápido, montar una tangana para suspender el partido e irse calentitos a casa.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Qué enlace cómico compartió Feme a altas horas de la madrugada pidiéndole a todos que se lo leyeran?",
+      "cita": "http://m.asivaespana.com/politica/los-mejores-tuits-antiguos-de-pedro-sanchez-psoe-que-estan-dando-al-vuelta-a-internet",
+      "opciones": [
+        "Los mejores tuits antiguos de Pedro Sánchez",
+        "Los mejores memes de Rajoy",
+        "Las declaraciones de Mou contra el Barça",
+        "Un tutorial de jugadas ensayadas"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme rescató de 'Así va España' la recopilación de los antiguos y virales tuits de Pedro Sánchez para deleite del grupo.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "Hablando de cometer 'locuras' en la vida, ¿qué peligro doméstico extremo confesó Jorge haber afrontado con valentía?",
+      "cita": "Y apenas quedaba medio rollo de papel",
+      "opciones": [
+        "Ir a jiñar cuando apenas quedaba medio rollo de papel",
+        "Cocinar croquetas sin camiseta",
+        "Dormir con la puerta abierta",
+        "Conducir en reserva durante 50 km"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge tiró de ironía contando que su momento más temerario fue atreverse a jiñar con las reservas de papel higiénico bajo mínimos.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Quién recordó como auténtica locura el haber jugado al fútbol a 30 grados con la comida subiéndole por la garganta?",
+      "cita": "O ir a jugar a 30 gradazos con la pucherada aún regurjitando. Me viste llamar la atención en las noticias?",
+      "opciones": [
+        "Joni",
+        "Jorge",
+        "Feme",
+        "Héctor"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni replicó la anécdota de Jorge recordando sus partidos sofocantes recién salido de la mesa tras meterse un puchero entre pecho y espalda.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Quién propuso un domingo por la mañana un idílico 'Bunker matinal con TTino' tras debatir sobre madrugar para el deporte?",
+      "cita": "Ojalá Bunker matinal con TTino",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki y Jorge comentaban el horario de las 9:30 de la mañana de un domingo cuando Joni invocó al gran TTino.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Feme compartió un artículo con el once de futbolistas más vagos del mundo para definir... ¿a quiénes?",
+      "cita": "Aqui la preparacion fisica del TT",
+      "opciones": [
+        "Al vestuario del Valencia CF",
+        "Aqui la preparacion fisica del TT",
+        "A los veteranos de Gandia",
+        "A la pachanga de los jueves"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme tiró de fina ironía compartiendo un once de jugadores vagos para retratar el estado de forma del grupo.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Por qué motivo argumentaba Germi que TTino era férreamente 'antiNadal'?",
+      "cita": "Por su condicion se madridista",
+      "opciones": [
+        "Por manía personal",
+        "Porque prefería a Federer",
+        "Por su condicion se madridista",
+        "Porque el tenis le parecía aburrido"
+      ],
+      "correcta": 2,
+      "explicacion": "Germi recordó que TTino y el tenis no se llevaban bien, y que además era antiNadal por su madridismo puro.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Miki le aconseja a Germi que lleve su coche a la cena por si le entra una 'urgencia sexual'. ¿Cuál fue la tajante réplica de Germi?",
+      "cita": "Ya folle ayer",
+      "opciones": [
+        "Hoy me quedo a dormir",
+        "Ya folle ayer",
+        "No tengo prisa maqui",
+        "Tranquilo que voy en bici"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi dejó claro que los deberes ya estaban hechos el día anterior y no le corría ninguna prisa fugarse.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿A qué ilustre capital regional rebautizó Feme en 2017 como 'Capital de Marzalandia'?",
+      "cita": "Capital de Marzalandia",
+      "opciones": [
+        "Valencia",
+        "Murcia",
+        "Gandía",
+        "Alicante"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme invitó a todos al grito de 'Axo veniros a murcia city Capital de Marzalandia'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Cuando se habló de pedir kebabs para cenar, ¿qué insólita petición soltó Feme alegando que estaba a dieta?",
+      "cita": "Hugo a mi pillamen uno vegetariano",
+      "opciones": [
+        "Hugo a mi pillamen uno vegetariano",
+        "Pídeme solo ensalada",
+        "A mí uno de falafel sin salsa",
+        "Yo paso de comer hoy"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme le pidió a Hugo un kebab vegetariano para cuidar la línea en plena cena basura del TT.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Miki prefería pedir al Cómics antes que desplazarse a Gandía por kebab, a lo que Feme le espetó:",
+      "cita": "Te follas al dueño",
+      "opciones": [
+        "Eres un comodón",
+        "Te follas al dueño",
+        "Te cobran el doble ahí",
+        "Vago nivel Dios"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme le reprochó a Miki su fidelidad ciega al bar Cómics con una de sus habituales exageraciones.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Hugo dijo que cenaría comida de su casa, pero no pudo evitar tener un antojo de última hora del Cómics. ¿Qué pidió?",
+      "cita": "Es por si me podéis pedir unas patatuelas fritas",
+      "opciones": [
+        "Unos nachos con queso",
+        "Una hamburguesa de pollo",
+        "Es por si me podéis pedir unas patatuelas fritas",
+        "Unos aros de cebolla"
+      ],
+      "correcta": 2,
+      "explicacion": "Hugo avisó a Miki de que si pedían a Cómics le pillasen unas patatuelas fritas por puro capricho.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿A qué exjugador del Gandía de baloncesto elogió Joni calificándolo como 'leyenda del ascenso con sus ricitos mágicos'?",
+      "cita": "Victor Pérez, leyenda del ascenso con sus ricitos mágicos",
+      "opciones": [
+        "Víctor Pérez",
+        "David Guardia",
+        "Shay Miller",
+        "Javi Rodríguez"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge avisó de que Víctor Pérez estaba en la final de Copa LEB Oro y Joni no tardó en rememorar su pasado gandiense.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Al recordar los partidos de fútbol del colegio, ¿cuál revelaron que era el auténtico plan táctico cuando iban por delante en el marcador?",
+      "cita": "Solo te digo que nuestro plan cuando nos poníamos por delante era mandar a willy de falso 9",
+      "opciones": [
+        "Meter a Orengo en el medio",
+        "Mandar a Willy de falso 9",
+        "Poner el autobús con Andreu y Miki",
+        "Darle el balón a Paco Borrull"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni explicó que la prioridad absoluta era alejar a Willy de su propia área por puro peligro para el equipo.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué peculiar estadística de videojuego le atribuyó Feme a Willy recordando sus achaques físicos en el colegio?",
+      "cita": "Willy resistencia a lesiones Z",
+      "opciones": [
+        "Potencia de tiro 99",
+        "Velocidad máxima 3",
+        "Resistencia física roja",
+        "Resistencia a lesiones Z"
+      ],
+      "correcta": 3,
+      "explicacion": "Feme bromeó con que la resistencia a lesiones de Willy era 'Z' (la peor posible) y se preguntó si ahora trabajaba de doble de cine.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿A qué mítica dupla de centrales del fútbol profesional comparó Joni a Andreu y Miki en las ligas colegiales?",
+      "cita": "Y la imperial dupla de centrales Andreu miki aka los Godin y Giménez de las ligas colegiales",
+      "opciones": [
+        "Puyol y Piqué",
+        "Godin y Giménez",
+        "Ramos y Pepe",
+        "Hierro y Sanchís"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni los bautizó como los Godín y Giménez de las ligas colegiales por su contundencia y dureza atrás.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Al recordar a los defensas más leñeros de su etapa escolar, ¿qué apodo le dedicaron a Paco Borrull?",
+      "cita": "A part de que es pensava Piquenbauer i tenia velocitat màxima 3 en el pro",
+      "opciones": [
+        "Piquenbauer",
+        "El Gattuso del colegio",
+        "Gravesen de La Salle",
+        "Hierro colegial"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni recordó que Borrull se creía 'Piquenbauer' a pesar de tener velocidad 3 en el Pro Evolution Soccer.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Al hablar de los defensas más expeditivos del colegio, ¿quién no dudó en catalogar a Miki directamente de 'cerdo'?",
+      "cita": "Miki el cerdo",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Germi",
+        "Feme"
+      ],
+      "correcta": 2,
+      "explicacion": "Germi soltó 'Miki el cerdo' y añadió que le hubiese gustado ver a ese chaval jugando en fútbol federado.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Dónde se encontraba Feme pasando el fin de semana el viernes 27 de enero de 2017?",
+      "cita": "Estoy en murcia este finde",
+      "opciones": [
+        "En Murcia",
+        "En Barcelona",
+        "En Madrid",
+        "En Gandía"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme avisó por la mañana de que ese finde estaba de viaje por tierras murcianas.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Antes de engancharse al agónico partido de Nadal, ¿qué frase lapidaria soltó Jorge citando a Tino?",
+      "cita": "El tenis.. no vale un duro eh",
+      "opciones": [
+        "Vaya aburrimiento de deporte",
+        "El tenis.. no vale un duro eh",
+        "Solo sirve para dormir la siesta",
+        "El pádel le da mil vueltas"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge empezó el mediodía diciendo que, como diría Tino, el tenis 'no vale un duro', quejándose de los descansos y parones.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Durante las semifinales de Australia contra Nadal, ¿cómo apodó Joni al tenista búlgaro Grigor Dimitrov?",
+      "cita": "Calma nadaliebers, que dimitroll esta haciendo el partido de su vida y solo ha conseguido forzar el 5° set",
+      "opciones": [
+        "Bulgaroski",
+        "Dimitrovski",
+        "Dimitroll",
+        "El zar búlgaro"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni llamó 'Dimitroll' al búlgaro para calmar a los 'nadaliebers' del grupo cuando el partido se marchó al quinto set.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Cuando Jorge criticaba los parones y toallas en el tenis, ¿por qué advirtió Germi que había que tener respeto?",
+      "cita": "Sino el enano se nos cabrea",
+      "opciones": [
+        "Porque Miki nos echa del grupo",
+        "Que Joni se pone nervioso",
+        "Que nos cae gafe para el Madrid",
+        "Sino el enano se nos cabrea"
+      ],
+      "correcta": 3,
+      "explicacion": "Germi avisó a Jorge de que tuviese cuidado con meterse con el tenis porque Hugo ('el enano') se iba a enfadar.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿A qué tenista español le cayó una pulla de Jorge preguntando irónicamente si jugaba la otra semifinal?",
+      "cita": "Ahora juega Ferrer la otra semi, no?",
+      "opciones": [
+        "David Ferrer",
+        "Feliciano López",
+        "Nicolás Almagro",
+        "Fernando Verdasco"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge preguntó con recodo por David Ferrer para luego rematar él mismo con 'Ah no, que no vale un duro'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Desesperado por los parones y con ganas de marcharse, ¿a qué personaje animado recurrió Joni para apelar a Nadal?",
+      "cita": "Ye por dios, que me quiero ir, Rafiki carallo",
+      "opciones": [
+        "Simba",
+        "Rafiki",
+        "Mufasa",
+        "Scar"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni pidió a gritos 'Rafiki carallo' porque quería que Rafa cerrase el partido de una vez para poder salir de casa.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Durante el agónico desenlace del quinto set entre Nadal y Dimitrov, ¿a quién invocaba Jorge para que obrara el milagro?",
+      "cita": "Humpasca vuelve!",
+      "opciones": [
+        "Hugo",
+        "Miki",
+        "Germi",
+        "Humpa"
+      ],
+      "correcta": 3,
+      "explicacion": "Jorge no paraba de invocar a Humberto al grito de '¡Humpasca vuelve!' como amuleto decisivo.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Con el éxtasis absoluto de la victoria de Rafa Nadal en 5 sets, ¿cómo felicitó Germi a Hugo por el chat?",
+      "cita": "HUGO ENANO HIJO DE PUTA",
+      "opciones": [
+        "ERES DIOS HUGO",
+        "HUGO ENANO HIJO DE PUTA",
+        "GRANDE HUGUITO CARAJO",
+        "TE LO DIJE ENANO CABRON"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi celebró el pase a la final de Nadal dedicándole un eufórico y cariñoso 'HUGO ENANO HIJO DE PUTA'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Tras culminar la épica remontada de Nadal, ¿qué proclamó Jorge sintiéndose plenamente solidario con el tenista balear?",
+      "cita": "Los pelados podemos",
+      "opciones": [
+        "El pelo ya no importa",
+        "Los pelados podemos",
+        "Los zurdos dominamos el mundo",
+        "La calvicie da poder"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge celebró la victoria de Rafa con el lema 'Los pelados podemos, claro que siii'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿A quién le atribuyó Jorge con ironía el verdadero mérito de la resurrección y victoria de Nadal?",
+      "cita": "Todo gracias a Charly Moya",
+      "opciones": [
+        "Toni Nadal",
+        "Al encordador",
+        "Charly Moya",
+        "A Humpa"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge sentenció que la victoria fue gracias a Charly Moyà, a quien definió como 'un verdadero fucker'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Al acabar el tenis, ¿qué temido maleficio le preguntó Jorge a Humpa si había rondado por su tejado?",
+      "cita": "El gafazo de Abu Dhabi ha sobrevolado tu casa?",
+      "opciones": [
+        "La maldición de Milán",
+        "El desastre de Lisboa",
+        "El fantasma de Cardiff",
+        "El gafazo de Abu Dhabi"
+      ],
+      "correcta": 3,
+      "explicacion": "Jorge le preguntó a Humberto si 'el gafazo de Abu Dhabi' había sobrevolado su casa durante el partido.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Entre set y set, Jorge comentó el sorteo de semifinales de Copa del Rey. ¿Qué emparejamiento le fastidió especialmente?",
+      "cita": "Para una vez que queria el Celta..",
+      "opciones": [
+        "Celta - Alavés",
+        "Atlético - Barcelona",
+        "Real Madrid - Celta",
+        "Sevilla - Alavés"
+      ],
+      "correcta": 0,
+      "explicacion": "Al salir los cruces Celta - Alavés y Atlético - Barça, Jorge se lamentó diciendo que para una vez que quería que le tocara el Celta al Barça, les cayó el Alavés.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Quién estaba rabiando a mediodía al no poder seguir en directo la épica semifinal de Rafa Nadal?",
+      "cita": "Dios q rabia no poder ver e partido",
+      "opciones": [
+        "Feme",
+        "Miki",
+        "Héctor",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki no podía ver el partido y entraba al grupo preguntando el marcador y animando a Rafa desesperado.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Al compartir un recorte periodístico del triunfo copero de su antiguo equipo, ¿qué apodo le dedicó Joni al mítico Salva Climent?",
+      "cita": "Salva Climent aka La Araña de Santa Joaquina de Vedruna",
+      "opciones": [
+        "La Araña de Santa Joaquina de Vedruna",
+        "El Tigre de Miramar",
+        "El Murciélago de Beniopa",
+        "El Pulpo de Gandía"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni rescató el glorioso pasado escolar de Salva Climent bajo los palos asignándole tan pomposo título.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Por qué motivo Germi lamentó amargamente no haber formado parte de la plantilla que ganó aquella copa histórica?",
+      "cita": "A mi porque no me dejaban jugar",
+      "opciones": [
+        "Porque estaba federado y no se lo permitían",
+        "Porque estaba castigado sin salir de casa",
+        "Porque no tenía zapatillas de fútbol sala",
+        "Porque no quiso pagar la cuota de la ropa"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi protestó al grito de 'FEDERATS NOOO', recordando la norma que le impidió disputar ese torneo colegial.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Al preguntar Feme quién había redactado la crónica de aquel triunfo copero escolar, ¿a quién señaló Joni como el único intelectualmente capacitado?",
+      "cita": "Diría que Andreu que es el único sin ninguna deficiencia psíquica mental",
+      "opciones": [
+        "Andreu",
+        "Salva Climent",
+        "Guille",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni asumió que el autor debía ser Andreu, argumentando con cariño que era el único de ese roster sin taras mentales apreciables.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué conocida periodista deportiva captó la atención visual de Jorge durante una previa en 2018?",
+      "cita": "Ojo a las mamellas de Lucia Villalon",
+      "opciones": [
+        "Sara Carbonero",
+        "Lucía Villalón",
+        "Lara Álvarez",
+        "Danae Boronat"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge comentó con mucha sutileza los atributos de Lucía Villalón en plena retransmisión televisiva.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Viendo un Valencia-Madrid en 2018, ¿qué gráfica comparación usó Germi para resumir el cansancio de Gonçalo Guedes?",
+      "cita": "Guedes mas quemao que la pipa de un indio",
+      "opciones": [
+        "Guedes está fundido del todo",
+        "Guedes no puede ni con las botas",
+        "Guedes mas quemao que la pipa de un indio",
+        "Guedes está para el arrastre"
+      ],
+      "correcta": 2,
+      "explicacion": "Germi coincidió con el diagnóstico de Miki sobre el extremo portugués del Valencia.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Pese a ir por detrás en el marcador frente al Real Madrid, ¿qué delirante diagnóstico psicológico hizo Jorge sobre los blancos?",
+      "cita": "Defecandose encima los jugadores madridistas",
+      "opciones": [
+        "Defecandose encima los jugadores madridistas",
+        "Tienen el autobús metido",
+        "No saben ni por dónde les viene",
+        "Pidiendo la hora en Mestalla"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge vio al Madrid acojonado y al Valencia empujando antes del desenlace fatal del partido.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Cuando la tropa se organizó para acudir al Family en 2018, ¿dónde fijó Feme el punto de encuentro?",
+      "cita": "Nos vemos en la puerta de atras",
+      "opciones": [
+        "En el parking de arriba",
+        "En la puerta principal",
+        "Nos vemos en la puerta de atras",
+        "En la cafetería"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme coordinó la llegada al Family citando al resto directamente en la puerta trasera.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "En el Open de Australia 2019, Miki vio cómo Djokovic arrollaba a Rafa Nadal y descargó toda su rabia llamándole:",
+      "cita": "El serbio hijo de mil putas",
+      "opciones": [
+        "El robot infalible",
+        "El serbio hijo de mil putas",
+        "Puto pasabolas insufrible",
+        "La peor pesadilla de España"
+      ],
+      "correcta": 1,
+      "explicacion": "A Miki le desesperaba la superioridad de Djokovic sobre Nadal, contrastándolo con lo que le pasaba a Federer.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "¿Por qué manjar casero propuso Jorge cambiar 'a pelo' a Philippe Coutinho tras ver su decadente nivel en el Barça?",
+      "cita": "Por dos tuppers tuyos de croquetas",
+      "opciones": [
+        "Por una tortilla de patatas",
+        "Por un plato de paella de tu madre",
+        "Por dos tuppers tuyos de croquetas",
+        "Por un bocata de calamares"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge tasó al millonario fichaje del Barcelona en dos simples tuppers de croquetas caseras.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "En enero de 2021 hizo un calor anómalo que disparó el termómetro 20 grados. ¿Qué destino veraniego proclamó Feme como próxima parada?",
+      "cita": "Proxima parada El Romani",
+      "opciones": [
+        "El Romani",
+        "Playa de Gandía",
+        "Cullera",
+        "Xeraco"
+      ],
+      "correcta": 0,
+      "explicacion": "Ante la súbita subida térmica a 24 grados en pleno enero, Feme ya se veía en la piscina de El Romaní.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Al enterarse de que Guedes no iba ni convocado por desidia y sobrepeso, ¿cuál fue el desahogo de Jorge sobre el fútbol actual?",
+      "cita": "Odio eterno a los profesionales modernos",
+      "opciones": [
+        "El fútbol actual da asco",
+        "Odio eterno a los profesionales modernos",
+        "Vaya banda de mercenarios",
+        "Se ríen del escudo en la cara"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge explotó contra la actitud de futbolistas que cobran millones, están fuera de forma y ponen pegas por la posición táctica.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué tarea de su propio trabajo puso Jorge como ejemplo de algo que él no puede negarse a hacer, a diferencia de los futbolistas que no bajan a defender?",
+      "cita": "A mi los tramites con la seguridad social no me gustan",
+      "opciones": [
+        "Atender a clientes pesados",
+        "Los trámites con la seguridad social",
+        "Hacer horas extra los viernes",
+        "Fichar por la mañana"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge se indignaba comparando a las estrellas del fútbol con la vida real: si a él no le gusta lidiar con la Seguridad Social en su curro, se tiene que aguantar y hacerlo.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Germi propuso hacer videollamada y Kahoot un viernes de enero de 2021 porque 'no podemos salir'. ¿Qué le contestó Feme con toda la chulería?",
+      "cita": "No pots ixir tu, Jo si",
+      "opciones": [
+        "Yo paso de videollamadas",
+        "No pots ixir tu, Jo si",
+        "Mejor jugamos al Among Us",
+        "A mí no me encierra nadie"
+      ],
+      "correcta": 1,
+      "explicacion": "Con la incidencia disparada por encima de 1400, Germi propuso plan casero y Feme le dejó claro que las restricciones no iban con él de la misma manera.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Quién defendió la ética de trabajo de Cristiano Ronaldo diciendo que, a pesar de sus payasadas, 'es ante todo un profesional dedicado al fútbol'?",
+      "cita": "Es ante todo un profesional dedicado al futbol",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge reconoció que CR7 entrena como una bestia y que las nuevas generaciones solo le copian las tonterías y el egocentrismo en vez de su profesionalidad.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Viendo un partido del Barça en enero de 2021, ¿a qué jugador le dedicó Joni la perla 'Cintura peor que mi abuela, que en paz descanse'?",
+      "cita": "Cintura peor que mi abuela, que en paz descanse",
+      "opciones": [
+        "Umtiti",
+        "Lenglet",
+        "Mingueza",
+        "Piqué"
+      ],
+      "correcta": 1,
+      "explicacion": "Clement Lenglet estaba completando otra de sus actuaciones para el olvido y Joni no tuvo piedad al comparar su agilidad con la de su difunta abuela.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En pleno debate futbolero sobre la delantera culé, ¿qué proclamaron Joni y Feme sobre la jerarquía del gol?",
+      "cita": "El 9 del TT >>>> el 9 del Barça",
+      "opciones": [
+        "Que Braithwaite era mejor que Benzema",
+        "Que el 9 del TT era muy superior al 9 del Barça",
+        "Que Marzal de delantero centro enchufaba más",
+        "Que jugaban mejor sin nueve"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni soltó que el 9 del TT superaba con creces al 9 del Barça de entonces, a lo que Feme apostilló proclamando al 'Real 9, no el impostor'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Cuando Humpa alertó de que al día siguiente harían 27 grados en pleno enero, ¿con qué pullita saltó Joni hacia Jorge?",
+      "cita": "27 grados. Jorge, has tramitado ya la baja?",
+      "opciones": [
+        "Jorge, saca ya las bermudas",
+        "Jorge, has tramitado ya la baja?",
+        "Jorge ya está sudando en la cueva",
+        "Jorge, enciende el aire acondicionado"
+      ],
+      "correcta": 1,
+      "explicacion": "Conocedor del odio visceral de Jorge hacia el calor y el bochorno, Joni le preguntó de inmediato si ya había pedido la baja laboral.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué surrealista pesadilla confesó Humpa haber tenido al despertarse una mañana de 2022?",
+      "cita": "hoy he soñado que me iba de \"erasmus\" a Rusia y entraba a vivir a un piso lleno de rusos",
+      "opciones": [
+        "Que volvía a hacer la selectividad",
+        "Que se iba de Erasmus a Rusia a un piso lleno de rusos",
+        "Que lo fichaba el equipo de Marzal de portero",
+        "Que se quedaba encerrado en el ayuntamiento"
+      ],
+      "correcta": 1,
+      "explicacion": "Humpa se levantó traumatizado tras soñar que compartía piso con rusos de Erasmus, concluyendo lo caseros y apegados a la familia que somos los españoles.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Ante el sueño de Humpa de irse a vivir con rusos, ¿qué puntualizó Germi?",
+      "cita": "Si es en Yakutsk si hermano",
+      "opciones": [
+        "Eso no es un sueño, es una peli de terror",
+        "Si es en Yakutsk si hermano",
+        "Peor sería compartir piso con Feme",
+        "A ti cualquier frío te parece pesadilla"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi le aclaró que compartir piso en Rusia solo cuenta formalmente como pesadilla si el destino era la gélida ciudad de Yakutsk.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Al recordar una foto de Nochevieja de 2009 en la Alhambra que saltó en Facebook, ¿de quién dijeron que parecía que tuviera 12 años?",
+      "cita": "Menos Hugo que parece que tenga 12 años",
+      "opciones": [
+        "Hugo",
+        "Héctor",
+        "Marzal",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki y Humpa se fijaron en la foto del 'book de Hugo' en Granada y coincidieron en que parecía literalmente un crío de doce años.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Cuando se quemó un coche en la calle, ¿qué frase le inventó Jorge a Humpa para que fuera a investigar con autoridad?",
+      "cita": "- Discúlpenme, trabajo en el ayuntamiento, qué ha ocurrido aquí?",
+      "opciones": [
+        "- Soy perito judicial, apártense",
+        "- Discúlpenme, trabajo en el ayuntamiento, qué ha ocurrido aquí?",
+        "- Alto en nombre del Triangulito Team",
+        "- Dejen paso a la brigada municipal"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge animó a Humpa a personarse en la escena del siniestro aprovechando su condición de empleado municipal para interrogar a los presentes.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Germi comparó la falta de compromiso de Gareth Bale con la de Dembélé. ¿Quién salió al cruce recordando que Bale les dio 'dos shempions'?",
+      "cita": "Este hijo de puta les ha dado dos shempions",
+      "opciones": [
+        "Marzal",
+        "Joni",
+        "Humpa",
+        "Jorge"
+      ],
+      "correcta": 0,
+      "explicacion": "Marzal no toleró que se pusiera al mismo nivel a Dembélé con Bale, argumentando con contundencia las finales y Champions ganadas por el galés.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Qué apodo le puso Feme a Adama Traoré cuando sonó con fuerza su fichaje por el Barça?",
+      "cita": "Que vais a fichar al Hulk nigga",
+      "opciones": [
+        "El culturista de Hospitalet",
+        "Hulk nigga",
+        "El velocista del aceite",
+        "El tanque de Wolves"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme se sorprendió con la llegada del musculado extremo hispanomaliense y lo bautizó espontáneamente como 'Hulk nigga'.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Qué mítico programa de televisión recordó Germi que se ponían a ver los viernes en Marxu?",
+      "cita": "Aquellos viernes en Marxu viendo hermano mayor",
+      "opciones": [
+        "Callejeros",
+        "Hermano Mayor",
+        "Gran Hermano",
+        "El Chiringuito"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge definió al presentador (Pedro García Aguado) como 'el que un día fue mentor de este grupo' y Germi recordó con nostalgia aquellas tardes de Hermano Mayor.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Tras una debacle culé recibiendo goles a pares, ¿qué plan propuso Joni a Germi utilizando su Opel?",
+      "cita": "Maqui, como tienes el BlablaGermi para hacer un road to Liverpool y meter al gafas alemán en el maletero del Opel y soltarlo en la puerta de la ovella negra?",
+      "opciones": [
+        "Ir a Manchester a secuestrar a Guardiola",
+        "Hacer un road to Liverpool y meter a Klopp en el maletero para soltarlo en l'Ovella Negra",
+        "Ir a Múnich a traerse a Flick en el asiento trasero",
+        "Hacer un viaje a Madrid a quemar el VAR"
+      ],
+      "correcta": 1,
+      "explicacion": "Desesperado con el banquillo del Barça, Joni propuso fletar el 'BlablaGermi' para secuestrar a Jürgen Klopp y soltarlo en la mítica taberna barcelonesa.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Qué dijo Joni que pasaría si los jugadores del equipo que entrena Marzal hicieran los mismos errores que Frenkie, Araujo e Iñaki Peña?",
+      "cita": "lo hacen mañana los del equipo de Marzal y los coge del cuello",
+      "opciones": [
+        "Los manda a la grada un mes",
+        "Los coge del cuello",
+        "Los echa del entrenamiento a patadas",
+        "Dimite en el descanso"
+      ],
+      "correcta": 1,
+      "explicacion": "Viendo el despropósito defensivo ante el Villarreal, Joni aseguró que si chavales federados de Marzal hacían eso, su míster no dudaría en agarrarlos del cuello.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Con qué mote bautizó Joni a Xavi Hernández cuando se anunció en prensa que dejaría el Barça a final de temporada aunque ganase la Champions?",
+      "cita": "Aunque gane la Champions dice el cenicero jajajajajaja",
+      "opciones": [
+        "El filósofo de Terrassa",
+        "El jardinero",
+        "El cenicero",
+        "El loco de la hierba"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni no pudo contener la risa ante las declaraciones y llamó despectivamente 'el cenicero' a Xavi.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "A la hora de organizar un almuerzo en enero de 2026, ¿qué contratiempo familiar obligó a Héctor a ausentarse del plan original?",
+      "cita": "Tengo pediatra con la nena",
+      "opciones": [
+        "Tenía que llevar el coche a la ITV",
+        "Tenía pediatra con la nena",
+        "Iba a ver salones de bautizo",
+        "Tenía reunión en el trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "Héctor avisó de que tenía visita pediátrica, lo que hizo mover el almuerzo al jueves para cuadrar las agendas de todos.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿A qué bar acordaron finalmente llamar para reservar el almuerzo del jueves en 2026?",
+      "cita": "Casa Juan entonces?",
+      "opciones": [
+        "Bar Central",
+        "Casa Juan",
+        "El Temple",
+        "La Pascuala"
+      ],
+      "correcta": 1,
+      "explicacion": "Marzal preguntó si confirmaban 'Casa Juan' para llamar a reservar, cerrando el plan gastronómico del grupo.",
+      "anio": 2026
+    }
+  ]
+}
