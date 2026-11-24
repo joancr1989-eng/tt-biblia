@@ -1,0 +1,2003 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TTpedia — Archivo Histórico del Triangulito Team</title>
+  <style>
+    :root {
+      --bg: #0b0e14;
+      --bg-elevated: #121722;
+      --card: #161c2a;
+      --card-hover: #1d2536;
+      --border: #263044;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --accent: #f59e0b;
+      --accent-soft: rgba(245, 158, 11, 0.14);
+      --red: #ef4444;
+      --red-soft: rgba(239, 68, 68, 0.14);
+      --green: #10b981;
+      --green-soft: rgba(16, 185, 129, 0.14);
+      --blue: #3b82f6;
+      --blue-soft: rgba(59, 130, 246, 0.14);
+      --purple: #a855f7;
+      --purple-soft: rgba(168, 85, 247, 0.14);
+      --pink: #ec4899;
+      --pink-soft: rgba(236, 72, 153, 0.14);
+      --radius: 16px;
+      --shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at top center, #151c2c 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+      padding-bottom: 56px;
+    }
+
+    a, button, select, input {
+      font-family: inherit;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* HEADER */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(11, 14, 20, 0.86);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .brand-logo {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #f59e0b, #ef4444);
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      font-size: 16px;
+      color: #0b0e14;
+      letter-spacing: -0.5px;
+      box-shadow: 0 4px 14px rgba(245, 158, 11, 0.35);
+    }
+
+    .brand-title {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+    }
+
+    .brand-title span {
+      color: var(--accent);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icon-btn {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      height: 38px;
+      padding: 0 12px;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.18s ease;
+    }
+
+    .icon-btn:hover {
+      background: var(--card-hover);
+      border-color: var(--accent);
+    }
+
+    .player-chip {
+      background: var(--accent-soft);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      color: #fcd34d;
+      height: 38px;
+      padding: 0 12px;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* MANIFESTO HERO */
+    .hero {
+      padding: 28px 0 18px;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 4vw, 34px);
+      font-weight: 900;
+      letter-spacing: -0.6px;
+      margin-bottom: 8px;
+    }
+
+    .hero h1 span {
+      color: var(--accent);
+    }
+
+    .hero p {
+      color: var(--muted);
+      max-width: 650px;
+      margin: 0 auto;
+      font-size: 15px;
+    }
+
+    /* EFEMERIDE PROTAGONIST CARD */
+    .efem-card {
+      margin: 18px 0 30px;
+      background: linear-gradient(145deg, #1b2234 0%, #121722 100%);
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .efem-card::before {
+      content: "";
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 210px;
+      height: 210px;
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.18), transparent 70%);
+      pointer-events: none;
+    }
+
+    .efem-info {
+      flex: 1 1 340px;
+    }
+
+    .efem-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .efem-info h2 {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .efem-info p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .efem-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: #0b0e14;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-weight: 800;
+      font-size: 14px;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.2s ease;
+      box-shadow: 0 6px 18px rgba(245, 158, 11, 0.3);
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.48;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 22px rgba(245, 158, 11, 0.45);
+    }
+
+    .btn-secondary {
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 10px 16px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+      transition: 0.15s ease;
+    }
+
+    .btn-secondary:hover {
+      background: var(--card-hover);
+      border-color: var(--muted);
+    }
+
+    /* SECTION HEADERS */
+    .section-block {
+      margin-top: 32px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 14px;
+      gap: 12px;
+    }
+
+    .section-header h3 {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* GRID CARDS */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+
+    .mode-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      cursor: pointer;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .mode-card:hover {
+      transform: translateY(-3px);
+      background: var(--card-hover);
+      border-color: var(--accent);
+    }
+
+    .mode-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .mode-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 11px;
+      display: grid;
+      place-items: center;
+      font-size: 20px;
+    }
+
+    .mode-pill {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--muted);
+    }
+
+    .mode-card h4 {
+      font-size: 16px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .mode-card p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    /* ESTRENOS DE CARTTELERA */
+    .carttelera-box {
+      background: linear-gradient(135deg, #1b1326 0%, #121722 65%, #1d1518 100%);
+      border: 1px solid rgba(239, 68, 68, 0.45);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    @media (min-width: 760px) {
+      .carttelera-box {
+        grid-template-columns: 1.45fr 1fr;
+        align-items: stretch;
+      }
+    }
+
+    .poster-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .cinema-badges {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .badge-live {
+      background: var(--red);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 6px;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+    }
+
+    .badge-season {
+      background: rgba(255, 255, 255, 0.08);
+      color: #e2e8f0;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .poster-main h4 {
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+      color: #fff;
+    }
+
+    .poster-main p {
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+
+    .poster-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .poster-side {
+      background: rgba(11, 14, 20, 0.65);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .countdown-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .countdown-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .cd-cell {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 4px;
+      text-align: center;
+    }
+
+    .cd-num {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--accent);
+      display: block;
+      line-height: 1.1;
+    }
+
+    .cd-unit {
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    /* VIEW PANELS */
+    .view-panel {
+      display: none;
+      margin-top: 14px;
+      animation: fadeIn 0.2s ease;
+    }
+
+    .view-panel.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .quiz-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .quiz-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 14px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .pill-score {
+      background: var(--accent-soft);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 12.5px;
+    }
+
+    .quote-box {
+      background: var(--bg);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+      padding: 15px 16px;
+      margin: 12px 0 18px;
+      font-size: 15.5px;
+      font-weight: 600;
+      color: #f8fafc;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .quote-context {
+      display: block;
+      font-size: 12.5px;
+      font-weight: 400;
+      color: var(--muted);
+      margin-bottom: 6px;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .censored {
+      background: var(--red-soft);
+      color: #fca5a5;
+      border: 1px dashed var(--red);
+      padding: 1px 7px;
+      border-radius: 6px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+
+    .options-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .opt-btn {
+      width: 100%;
+      text-align: left;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 14px 16px;
+      border-radius: 12px;
+      font-size: 14.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.15s ease;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .opt-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      background: var(--card-hover);
+    }
+
+    .opt-btn.correct {
+      background: var(--green-soft);
+      border-color: var(--green);
+      color: #6ee7b7;
+    }
+
+    .opt-btn.wrong {
+      background: var(--red-soft);
+      border-color: var(--red);
+      color: #fca5a5;
+    }
+
+    .feedback-box {
+      margin-top: 16px;
+      padding: 16px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      font-size: 14px;
+      line-height: 1.55;
+      display: none !important;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .feedback-box.show {
+      display: block !important;
+    }
+
+    .relato-box {
+      margin-top: 12px;
+      background: rgba(11, 14, 20, 0.65);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 14px;
+      color: #e2e8f0;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .quotes-list {
+      margin-top: 10px;
+      display: grid;
+      gap: 6px;
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+
+    .quote-chip {
+      background: var(--bg);
+      border-left: 3px solid var(--accent);
+      padding: 6px 10px;
+      border-radius: 6px;
+      color: #cbd5e1;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .archive-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+
+    /* MODAL */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.72);
+      backdrop-filter: blur(4px);
+      display: none;
+      place-items: center;
+      z-index: 60;
+      padding: 16px;
+    }
+
+    .modal-backdrop.open {
+      display: grid;
+    }
+
+    .modal-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      max-width: 460px;
+      width: 100%;
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .modal-card h3 {
+      font-size: 19px;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .player-select-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .rank-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1e293b;
+      color: #fff;
+      border: 1px solid var(--accent);
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      z-index: 80;
+      display: none;
+    }
+      /* MODO INAUGURACIÓN HASTA LAS 17:00 */
+    .inaug-banner {
+      margin: 16px 0 18px;
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.16), rgba(239, 68, 68, 0.14));
+      border: 1px solid rgba(245, 158, 11, 0.55);
+      border-radius: 18px;
+      padding: 18px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .inaug-banner-title {
+      font-size: 16px;
+      font-weight: 900;
+      color: #fcd34d;
+      margin-bottom: 4px;
+    }
+
+    .inaug-banner-sub {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .inaug-timer-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .inaug-unit-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 6px 10px;
+      min-width: 58px;
+      text-align: center;
+    }
+
+    .inaug-unit-num {
+      font-size: 17px;
+      font-weight: 900;
+      color: var(--accent);
+      display: block;
+      line-height: 1.15;
+    }
+
+    .inaug-unit-lbl {
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    body.inauguracion-activa #homeView .efem-card,
+    body.inauguracion-activa #homeView .section-block,
+    body.inauguracion-activa header .nav-actions {
+      opacity: 0.45;
+      pointer-events: none;
+      user-select: none;
+      filter: grayscale(0.35);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CABECERA PRINCIPAL ÚNICA -->
+  <header>
+    <div class="container nav-bar">
+      <div class="brand" onclick="goHome()" title="Volver a Portada">
+        <div class="brand-logo">TT</div>
+        <div class="brand-title">TT<span>pedia</span></div>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn" onclick="openRankingModal()" title="Clasificación y Podio">
+          🏆 <span>Clasificación</span>
+        </button>
+        <button class="player-chip" onclick="openPlayerModal()" id="currentPlayerChip">
+          👤 <span id="currentPlayerName">Joni</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- VISTA PORTADA (HOME) -->
+    <div id="homeView">
+      <!-- BANNER DE INAUGURACIÓN HASTA LAS 17:00 -->
+      <div class="inaug-banner" id="inaugBanner" style="display: none;">
+        <div>
+          <div class="inaug-banner-title">🔒 Inauguración oficial de TTpedia a las 17:00</div>
+          <div class="inaug-banner-sub">Puedes echar un vistazo a la portada, pero todo queda bloqueado hasta que llegue la hora.</div>
+        </div>
+        <div class="inaug-timer-row">
+          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inHours">00</span><span class="inaug-unit-lbl">Horas</span></div>
+          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inMins">00</span><span class="inaug-unit-lbl">Min</span></div>
+          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inSecs">00</span><span class="inaug-unit-lbl">Seg</span></div>
+        </div>
+      </div>
+
+      <!-- MANIFIESTO -->
+      <section class="hero">
+        <div class="hero-badge">📜 Archivo histórico · 2012 – 2026</div>
+        <h1><span>311.419 mensajes</span> recopilados para amenizar tus giñadas</h1>
+        <p>Toda la hemeroteca, piques, rajadas, apuestas ruinosas y salidas de tono del Triangulito Team convertidos en archivo interactivo.</p>
+      </section>
+
+      <!-- BLOQUE CENTRAL PROTAGONISTA: EFEMÉRIDE DEL DÍA -->
+      <section class="efem-card">
+        <div class="efem-info">
+          <div class="efem-tag">📅 Reto Diario Oficial</div>
+          <h2>Efeméride del Día</h2>
+          <p>Todas las preguntas extraídas de lo que ocurrió exactamente un día como hoy en el archivo del grupo.</p>
+        </div>
+        <div class="efem-controls">
+          <button class="btn-primary" onclick="startEfemeride()">Jugar Efeméride de Hoy</button>
+        </div>
+      </section>
+
+      <!-- ESTRENOS DE CARTTELERA -->
+      <section class="section-block">
+        <div class="section-header">
+          <h3>🎬 Estrenos de CarTTelera</h3>
+        </div>
+        <div class="carttelera-box">
+          <div class="poster-main">
+            <div>
+              <div class="cinema-badges">
+                <span class="badge-live">Próximamente</span>
+                <span class="badge-season">25 capítulos</span>
+              </div>
+              <h4 style="margin-top: 10px;">La Pasión TTurca</h4>
+              <p style="margin-top: 6px;">Crónica cronológica íntegra de Marzal y la turca: responde capítulo a capítulo para ir desbloqueando la historia y las citas reales.</p>
+            </div>
+            <div class="poster-actions">
+              <button class="btn-primary" id="btnStartCarttelera" onclick="startPasionTTurca()" disabled>Bloqueado hasta las 00:00</button>
+              <span id="cartteleraUnlockHint" style="font-size: 12px; color: var(--muted);">Estreno a las 00:00</span>
+            </div>
+          </div>
+
+          <div class="poster-side">
+            <div>
+              <div class="countdown-label">⏳ Próximo estreno de cartelera en</div>
+              <div class="countdown-grid" id="countdownGrid">
+                <div class="cd-cell"><span class="cd-num" id="cdDays">00</span><span class="cd-unit">Días</span></div>
+                <div class="cd-cell"><span class="cd-num" id="cdHours">00</span><span class="cd-unit">Horas</span></div>
+                <div class="cd-cell"><span class="cd-num" id="cdMins">00</span><span class="cd-unit">Min</span></div>
+                <div class="cd-cell"><span class="cd-num" id="cdSecs">00</span><span class="cd-unit">Seg</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MINIJUEGOS -->
+      <section class="section-block">
+        <div class="section-header">
+          <h3>🎮 Minijuegos</h3>
+        </div>
+        <div class="grid-2">
+          <div class="mode-card" onclick="startGame('quien_dijo')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--blue-soft); color: var(--blue);">💬</div>
+                <span class="mode-pill">¿Quién lo soltó?</span>
+              </div>
+              <h4>¿Quién dijo esto?</h4>
+              <p>Te damos el mensaje previo de contexto y una perla histórica del chat. Adivina quién fue el autor.</p>
+            </div>
+          </div>
+
+          <div class="mode-card" onclick="startGame('lo_dijo_o_no')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--purple-soft); color: var(--purple);">⚖️</div>
+                <span class="mode-pill">2 Verdades · 1 Impostor</span>
+              </div>
+              <h4>Lo dijo o no lo dijo</h4>
+              <p>Tres frases reales de la misma temática: dos salieron de su teclado y una es de otro compañero. Caza al impostor.</p>
+            </div>
+          </div>
+
+          <div class="mode-card" onclick="startGame('rajaditta')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--red-soft); color: var(--red);">🤬</div>
+                <span class="mode-pill">Censura activa</span>
+              </div>
+              <h4>La RajadiTTa</h4>
+              <p>Palo o vacile real con el nombre de la víctima censurado (<code style="color:#fca5a5;">***</code>). Adivina quién recibió el golpe.</p>
+            </div>
+          </div>
+
+          <div class="mode-card" onclick="startGame('dato_justo')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--green-soft); color: var(--green);">🎯</div>
+                <span class="mode-pill">Duelos y Cifras</span>
+              </div>
+              <h4>El Dato Justo</h4>
+              <p>Duelos de menciones entre mitos del lore y retos de clavar cuántas veces se dijo cada palabreja en 14 años.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CATEGORÍAS -->
+      <section class="section-block">
+        <div class="section-header">
+          <h3>📚 Categorías</h3>
+        </div>
+        <div class="grid-2">
+          <div class="mode-card" onclick="startSectionQuiz('pornopedia')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--pink-soft); color: var(--pink);">🔞</div>
+                <span class="mode-pill">Modo Trivia +18</span>
+              </div>
+              <h4>Pornopedia</h4>
+              <p>Adivina quién soltó o protagonizó las confesiones, teorías de alcoba y anécdotas más subidas de tono.</p>
+            </div>
+          </div>
+
+          <div class="mode-card" onclick="startSectionQuiz('comidistta')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--accent-soft); color: var(--accent);">🍽️</div>
+                <span class="mode-pill">Modo Trivia Gastro</span>
+              </div>
+              <h4>El ComidisTTa</h4>
+              <p>Pon a prueba tus conocimientos sobre paellas, kebabs, esmorzarets y veredictos culinarios del chat.</p>
+            </div>
+          </div>
+
+          <div class="mode-card" onclick="startSectionQuiz('zona_vox')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--green-soft); color: var(--green);">🟩</div>
+                <span class="mode-pill">Modo Trivia VOX</span>
+              </div>
+              <h4>Zona VOX</h4>
+              <p>Preguntas tipo test sobre las salidas de tono, opiniones políticas sin filtro y burradas del archivo.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VISTA DE JUEGO (SIN SEGUNDA CABECERA) -->
+    <div id="gameView" class="view-panel">
+      <div class="quiz-box" id="quizContainer"></div>
+    </div>
+
+    <!-- VISTA DE VOTACIÓN -->
+    <div id="sectionView" class="view-panel">
+      <div id="sectionContent"></div>
+    </div>
+  </main>
+
+  <!-- MODAL SELECCIÓN DE JUGADOR -->
+  <div class="modal-backdrop" id="playerModal" onclick="if(event.target===this && state.hasChosenPlayer) closeModals()">
+    <div class="modal-card">
+      <h3>👤 ¿Quién está en el trono ahora?</h3>
+      <p style="font-size: 13px; color: var(--muted);">Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.</p>
+      <div class="player-select-grid" id="playerButtonsGrid"></div>
+    </div>
+  </div>
+
+  <!-- MODAL CLASIFICACIÓN -->
+  <div class="modal-backdrop" id="rankingModal" onclick="if(event.target===this) closeModals()">
+    <div class="modal-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h3 style="margin:0;">🏆 Clasificación</h3>
+        <button class="btn-secondary" style="padding:5px 10px;" onclick="closeModals()">✕</button>
+      </div>
+      <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px;">
+        <button class="btn-secondary" id="tabRankDaily" onclick="renderRanking('daily')">📅 Reto Diario</button>
+        <button class="btn-secondary" id="tabRankCarttelera" onclick="renderRanking('carttelera')">🎬 CarTTelera</button>
+        <button class="btn-secondary" id="tabRankGlobal" onclick="renderRanking('global')">🏆 Ranking Total</button>
+      </div>
+      <div id="rankingList"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const MIEMBROS = ["Joni", "Feme", "Jorge", "Germi", "Humpa", "Héctor", "Hugo", "Miki", "Marzal"];
+    const ALIAS_NOMBRES = [
+      "Joni", "Joan", "Jonas", "Feme", "Adrià", "Adria", "Jorge", "Chus",
+      "Germi", "Germán", "German", "Humpa", "Humberto", "Unverto",
+      "Héctor", "Hector", "Hugo", "Miki", "Miguel", "Marzal", "JM", "Marcial", "Marsalet", "Machalet", "Josep"
+    ];
+
+    const DATA_PATHS = {
+      efemeridesDir: "data/efemerides/",
+      quien_dijo: "data/quien_dijo_esto.json",
+      lo_dijo_o_no: "data/lo_dijo_o_no.json",
+      rajaditta: "data/a_quien_insultan.json",
+      dato_justo: "data/el_dato_justo.json",
+      pornopedia: "data/pornopedia_tt.json",
+      comidistta: "data/comidistta.json",
+      zona_vox: "data/zona_vox.json",
+      pasion_tturca: "data/marzal_turca.json"
+    };
+
+    const FALLBACK = {
+      efemeride: [
+        {
+          pregunta: "En abril de 2016, cuando Germi soltó optimistamente 'El city pasa' tras el 0-0 ante el Real Madrid, ¿cómo le vaciló Joni?",
+          cita: "Sí, farlopa en el parking de masia",
+          opciones: ["Sí, y yo soy astronauta", "Sí, farlopa en el parking de masia", "Tu optimismo no tiene cura", "Pásame de lo que fumas"],
+          correcta: 1,
+          explicacion: "Joni cortó de raíz la euforia europea de Germi con una de sus respuestas más míticas.",
+          anio: 2016
+        }
+      ],
+      quien_dijo: [
+        {
+          pregunta: "¿Quién soltó esta frase en el grupo?",
+          cita: "El rayo de Iraola nos baila cual City de Guardiola jaja que bazofia somos",
+          opciones: ["Joni", "Jorge", "Miki", "Germi"],
+          correcta: 0,
+          anio: 2023,
+          explicacion: "La soltó Joni tras ver el repaso táctico del Rayo."
+        }
+      ],
+      lo_dijo_o_no: [
+        {
+          miembro: "Germi",
+          frases: [
+            "Por el culo no se considera infidelidad",
+            "Me sale en favoritos al abrir el safari jajajajaja",
+            "Yo llevo todo el dia con la pantaloneta del city puesta"
+          ],
+          impostor: 2,
+          explicacion: "La frase de la pantaloneta del City es de Feme; las otras dos sí las dijo Germi."
+        }
+      ],
+      rajaditta: [
+        {
+          agresor: "Joni",
+          victima: "Marzal",
+          cita: "A ver, no es *** el hombre más indicado para dar lecciones sobre a que tías no tirar los trastos en plena calfamenta",
+          cita_sin_censura: "A ver, no es JM el hombre más indicado para dar lecciones sobre a que tías no tirar los trastos en plena calfamenta",
+          opciones: ["Hugo", "Marzal", "Humpa"],
+          correcta: 1,
+          anio: 2015,
+          contexto: "Vacile a Marzal (JM) por dar lecciones morales."
+        }
+      ],
+      dato_justo: [
+        {
+          pregunta: "¿A quién se ha nombrado MÁS VECES en toda la historia del TT (2012-2026)?",
+          opciones: ["LeBron James", "Mourinho"],
+          correcta: 1,
+          anio: "2012-2026",
+          explicacion: "Gana Mourinho: LeBron James aparece 15 veces frente a Mourinho con 35 menciones."
+        }
+      ],
+      pornopedia: [
+        {
+          pregunta: "¿Quién confesó que una web porno le aparecía directamente en favoritos al abrir Safari?",
+          cita: "Me sale en favoritos al abrir el safari jajajajaja",
+          opciones: ["Germi", "Jorge", "Miki", "Feme"],
+          correcta: 0,
+          anio: 2018,
+          explicacion: "Germi lo admitió entre risas en mitad de la conversación."
+        }
+      ],
+      comidistta: [
+        {
+          pregunta: "¿Dónde situó Feme la mejor hamburguesa de la comarca de la Safor?",
+          cita: "Esta en el Vaya Tela de Bellreguard",
+          opciones: ["En el Vaya Tela de Bellreguard", "En el Foster's", "En un kebab de Gandía", "En el bar de la playa"],
+          correcta: 0,
+          anio: 2019,
+          explicacion: "Feme zanjó el debate gastronómico apostando por Bellreguard."
+        }
+      ],
+      zona_vox: [
+        {
+          pregunta: "¿Quién soltó esta sentencia sobre el modelo territorial durante la pandemia?",
+          cita: "Si de algo ha servido todo esto , es para corroborar el fracaso del estado autonómico",
+          opciones: ["Humpa", "Jorge", "Joni", "Hugo"],
+          correcta: 0,
+          anio: 2020,
+          explicacion: "Humpa sacó su argumento habitual en pleno debate del grupo."
+        }
+      ],
+      pasion_tturca: [
+        {
+          numero: 1,
+          fecha: "2015-09-16",
+          titulo_capitulo: "Cuotas de carcel polaca y wifi desaprovechado",
+          pregunta: "¿Qué anécdota previa recordó Jorge para justificar el desplome de cuotas sobre Marzal en Polonia?",
+          opciones: [
+            "Que se olvidó el pasaporte en Manises",
+            "Que teniendo wifi y sin hotel en Alemania, prefirió comentar banalidades en el grupo del TT",
+            "Que intentó pagar con zlotys en Múnich",
+            "Que perdió las llaves en una cabina"
+          ],
+          correcta: 1,
+          relato_desbloqueado: "Antes de aterrizar en Polonia, el grupo ya apostaba por su supervivencia recordando cuando tuvo wifi y buscaba alojamiento y prefirió chatear en el TT.",
+          citas_reales: ["Jorge: Recordemos su momento estrella", "Jorge: Y aqui estaba, comentando banalidades en el grupo del TT"]
+        }
+      ]
+    };
+
+    const hasChosenSaved = localStorage.getItem("ttpedia_player_chosen") === "1";
+
+    let state = {
+      hasChosenPlayer: hasChosenSaved,
+      player: localStorage.getItem("ttpedia_player") || "Joni",
+      scores: JSON.parse(localStorage.getItem("ttpedia_scores") || "{}"),
+      votes: JSON.parse(localStorage.getItem("ttpedia_votes") || "{}"),
+      currentQuestions: [],
+      qIndex: 0,
+      roundScore: 0,
+      streak: 0,
+      currentModeTitle: "",
+      flowMode: "quiz",
+      lastAction: null
+    };
+
+    const nowInit = new Date();
+    const mm = String(nowInit.getMonth() + 1).padStart(2, "0");
+    const dd = String(nowInit.getDate()).padStart(2, "0");
+
+    // Estreno programado a las 00:00 (medianoche del día siguiente si ya pasó la medianoche de hoy)
+    function getNextMidnightTarget() {
+      const now = new Date();
+      const target = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
+      return target;
+    }
+    const ESTRENO_CARTTELERA = getNextMidnightTarget();
+
+    function syncCartteleraLock(unlocked) {
+      const btn = document.getElementById("btnStartCarttelera");
+      const hint = document.getElementById("cartteleraUnlockHint");
+      const badge = document.querySelector(".carttelera-box .badge-live");
+      if (!btn) return;
+      if (unlocked) {
+        btn.disabled = false;
+        btn.textContent = "Empezar Capítulo 1";
+        if (hint) hint.textContent = "¡Ya disponible!";
+        if (badge) badge.textContent = "En cartelera";
+      } else {
+        btn.disabled = true;
+        btn.textContent = "Disponible a las 00:00";
+        if (hint) hint.textContent = "Se desbloquea automáticamente a las 00:00";
+        if (badge) badge.textContent = "Próximamente";
+      }
+    }
+
+    function updateCountdown() {
+      const now = new Date();
+      const ms = Math.max(0, ESTRENO_CARTTELERA - now);
+      const unlocked = now >= ESTRENO_CARTTELERA;
+
+      document.getElementById("cdDays").textContent = String(Math.floor(ms / 86400000)).padStart(2, "0");
+      document.getElementById("cdHours").textContent = String(Math.floor((ms / 3600000) % 24)).padStart(2, "0");
+      document.getElementById("cdMins").textContent = String(Math.floor((ms / 60000) % 60)).padStart(2, "0");
+      document.getElementById("cdSecs").textContent = String(Math.floor((ms / 1000) % 60)).padStart(2, "0");
+
+      syncCartteleraLock(unlocked);
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    const HORA_INAUGURACION = new Date(2026, 10, 24, 17, 0, 0);
+    function updateInauguracionLock() {
+      const now = new Date();
+      const locked = now < HORA_INAUGURACION;
+      const banner = document.getElementById("inaugBanner");
+      if (locked) {
+        document.body.classList.add("inauguracion-activa");
+        if (banner) banner.style.display = "flex";
+        const diffMs = Math.max(0, HORA_INAUGURACION - now);
+        const h = Math.floor(diffMs / 3600000);
+        const m = Math.floor((diffMs / 60000) % 60);
+        const s = Math.floor((diffMs / 1000) % 60);
+        const elH = document.getElementById("inHours");
+        const elM = document.getElementById("inMins");
+        const elS = document.getElementById("inSecs");
+        if (elH) elH.textContent = String(h).padStart(2, "0");
+        if (elM) elM.textContent = String(m).padStart(2, "0");
+        if (elS) elS.textContent = String(s).padStart(2, "0");
+      } else {
+        document.body.classList.remove("inauguracion-activa");
+        if (banner) banner.style.display = "none";
+      }
+    }
+    setInterval(updateInauguracionLock, 1000);
+    updateInauguracionLock();
+    document.getElementById("currentPlayerName").textContent = state.hasChosenPlayer ? state.player : "Elegir";
+    if (!state.hasChosenPlayer && new Date() >= HORA_INAUGURACION) {
+      openPlayerModal(true);
+    }
+
+    function openPlayerModal(forceFirstVisit = false) {
+      const modalCard = document.querySelector("#playerModal .modal-card");
+      const titleEl = modalCard?.querySelector("h3");
+      const descEl = modalCard?.querySelector("p");
+      if (forceFirstVisit || !state.hasChosenPlayer) {
+        if (titleEl) titleEl.textContent = "👋 ¡Bienvenido a TTpedia! ¿Quién eres?";
+        if (descEl) descEl.textContent = "Antes de entrar, selecciona qué miembro del Triangulito Team eres para guardar tus puntos y clasificaciones.";
+      } else {
+        if (titleEl) titleEl.textContent = "👤 ¿Quién está en el trono ahora?";
+        if (descEl) descEl.textContent = "Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.";
+      }
+
+      document.getElementById("playerButtonsGrid").innerHTML = MIEMBROS.map(m => `
+        <button class="btn-secondary" style="${(state.hasChosenPlayer && m === state.player) ? 'border-color: var(--accent); color: var(--accent);' : ''}" onclick="selectPlayer('${m}')">
+          ${m}
+        </button>
+      `).join("");
+      document.getElementById("playerModal").classList.add("open");
+    }
+
+    function selectPlayer(name) {
+      state.player = name;
+      state.hasChosenPlayer = true;
+      localStorage.setItem("ttpedia_player", name);
+      localStorage.setItem("ttpedia_player_chosen", "1");
+      document.getElementById("currentPlayerName").textContent = name;
+      closeModals();
+      showToast(`Jugador activo: ${name}`);
+    }
+
+    function getTodayISO() {
+      const d = new Date();
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    }
+
+    function ensurePlayerEntry(name) {
+      const todayISO = getTodayISO();
+      if (!state.scores[name]) {
+        state.scores[name] = {
+          nombre: name,
+          ranking_total: 0,
+          reto_diario: { fecha: todayISO, puntos: 0 },
+          carttelera: { saga_activa: "pasion_tturca", puntos: 0, capitulos_completados: 0 }
+        };
+      } else {
+        if (!state.scores[name].reto_diario || state.scores[name].reto_diario.fecha !== todayISO) {
+          state.scores[name].reto_diario = { fecha: todayISO, puntos: 0 };
+        }
+        if (!state.scores[name].carttelera) {
+          state.scores[name].carttelera = { saga_activa: "pasion_tturca", puntos: 0, capitulos_completados: 0 };
+        }
+        if (typeof state.scores[name].ranking_total !== "number") {
+          state.scores[name].ranking_total = 0;
+        }
+      }
+      return state.scores[name];
+    }
+
+    function addPoints(pts) {
+      const entry = ensurePlayerEntry(state.player);
+      entry.ranking_total += pts;
+
+      const isDaily = state.currentModeTitle.includes("Efeméride");
+      const isCarttelera = state.flowMode === "pasion_tturca";
+
+      if (isDaily) {
+        entry.reto_diario.puntos += pts;
+      } else if (isCarttelera) {
+        entry.carttelera.puntos += pts;
+      }
+
+      localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
+      if (window.TTFirebase && typeof window.TTFirebase.syncPlayerPoints === "function") {
+        window.TTFirebase.syncPlayerPoints(state.player, pts, { isDaily, isCarttelera });
+      }
+    }
+
+    async function openRankingModal() {
+      if (new Date() < HORA_INAUGURACION) return;
+      if (window.TTFirebase && typeof window.TTFirebase.fetchAllPlayers === "function") {
+        const remote = await window.TTFirebase.fetchAllPlayers();
+        if (remote) {
+          for (const m of MIEMBROS) {
+            const id = m.toLowerCase();
+            if (remote[id]) {
+              state.scores[m] = { ...ensurePlayerEntry(m), ...remote[id], nombre: m };
+            }
+          }
+          localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
+        }
+      }
+      renderRanking("daily");
+      document.getElementById("rankingModal").classList.add("open");
+    }
+
+    function renderRanking(type) {
+      const todayISO = getTodayISO();
+      document.getElementById("tabRankDaily").style.borderColor = type === "daily" ? "var(--accent)" : "var(--border)";
+      document.getElementById("tabRankCarttelera").style.borderColor = type === "carttelera" ? "var(--accent)" : "var(--border)";
+      document.getElementById("tabRankGlobal").style.borderColor = type === "global" ? "var(--accent)" : "var(--border)";
+
+      const rows = MIEMBROS.map(m => {
+        const entry = ensurePlayerEntry(m);
+        let pts = 0;
+        if (type === "daily") {
+          pts = entry.reto_diario && entry.reto_diario.fecha === todayISO ? (entry.reto_diario.puntos || 0) : 0;
+        } else if (type === "carttelera") {
+          pts = entry.carttelera ? (entry.carttelera.puntos || 0) : 0;
+        } else {
+          pts = entry.ranking_total || 0;
+        }
+        return { name: m, pts };
+      }).sort((a, b) => b.pts - a.pts);
+
+      const medals = ["🥇", "🥈", "🥉"];
+      document.getElementById("rankingList").innerHTML = rows.map((r, i) => `
+        <div class="rank-row">
+          <span><strong>${medals[i] || `#${i + 1}`}</strong> ${r.name}</span>
+          <span style="color: var(--accent); font-weight: 800;">${r.pts} pts</span>
+        </div>
+      `).join("");
+    }
+
+    function closeModals() {
+      document.querySelectorAll(".modal-backdrop").forEach(el => el.classList.remove("open"));
+    }
+
+    function goHome() {
+      document.getElementById("homeView").style.display = "block";
+      document.getElementById("gameView").classList.remove("active");
+      document.getElementById("sectionView").classList.remove("active");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function showGameView(title) {
+      document.getElementById("homeView").style.display = "none";
+      document.getElementById("sectionView").classList.remove("active");
+      document.getElementById("gameView").classList.add("active");
+      state.currentModeTitle = title;
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function showSectionView(title, extraHtml = "") {
+      document.getElementById("homeView").style.display = "none";
+      document.getElementById("gameView").classList.remove("active");
+      document.getElementById("sectionView").classList.add("active");
+      document.getElementById("sectionContent").innerHTML =
+        `<div style="margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
+          <strong style="font-size:17px;">${title}</strong>
+          <div>${extraHtml}</div>
+        </div><div id="sectionDynamicBody"></div>`;
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    async function loadJsonSafe(url, fallback) {
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error("No encontrado");
+        return await res.json();
+      } catch (e) {
+        return fallback;
+      }
+    }
+
+    function extractArray(data, fallback) {
+      if (Array.isArray(data) && data.length > 0) return data;
+      if (!data || typeof data !== "object") return fallback;
+      for (const k of ["preguntas", "items", "capitulos", "datos", "rondas", "duelos", "retos"]) {
+        if (Array.isArray(data[k]) && data[k].length > 0) return data[k];
+      }
+      return fallback;
+    }
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function sanitizePrevContext(contexto, cita) {
+      if (!contexto) return "";
+      let clean = String(contexto).trim();
+      clean = clean.replace(/^(Respuesta de|Mensaje de|Dicho por|Contesta|Responde)\s+[^:]+:\s*/i, "");
+      const namePattern = ALIAS_NOMBRES.join("|");
+      clean = clean.replace(new RegExp(`^(${namePattern})\s*:\s*`, "i"), "");
+      clean = clean.replace(/^[«"“]+|[»"”]+$/g, "").trim();
+
+      const normClean = clean.toLowerCase().replace(/[^a-z0-9]/g, "");
+      const normCita = String(cita || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+      if (!clean || (normCita && normClean.includes(normCita.slice(0, 20)))) {
+        return "";
+      }
+      return clean;
+    }
+
+    function extractMemberFromText(txt) {
+      if (!txt) return "";
+      const match = String(txt).match(new RegExp(`\\b(${MIEMBROS.join("|")})\\b`, "i"));
+      if (match) {
+        const found = MIEMBROS.find(m => m.toLowerCase() === match[1].toLowerCase());
+        return found || match[1];
+      }
+      return "";
+    }
+
+    function resolveLoDijoMember(item, fallbackSeed = 0) {
+      const direct = item.miembro || item.autor || item.protagonista || item.jugador || item.nombre || item.persona || item.sujeto || "";
+      if (typeof direct === "string" && direct.trim()) {
+        const cleanDirect = direct.trim();
+        const exact = MIEMBROS.find(m => m.toLowerCase() === cleanDirect.toLowerCase());
+        return exact || cleanDirect;
+      }
+
+      const expText = String(item.explicacion || item.contexto || item.mensaje_previo || "");
+      const falsaMatch = expText.match(new RegExp(`(?:falsa\\s+para|para)\\s+(${MIEMBROS.join("|")})\\b`, "i"));
+      if (falsaMatch) {
+        const found = MIEMBROS.find(m => m.toLowerCase() === falsaMatch[1].toLowerCase());
+        if (found) return found;
+      }
+
+      // En desgloses tipo "A: Feme (2012) | B: Marzal (2020) | C: Feme (2023)",
+      // el autor de las 2 frases verdaderas es el que aparece más veces en la explicación
+      let bestMember = "";
+      let bestCount = 0;
+      for (const m of MIEMBROS) {
+        const re = new RegExp(`\\b${m}\\b`, "gi");
+        const matches = expText.match(re);
+        const cnt = matches ? matches.length : 0;
+        if (cnt > bestCount) {
+          bestCount = cnt;
+          bestMember = m;
+        }
+      }
+      if (bestMember) return bestMember;
+
+      const fromPregunta = extractMemberFromText(item.pregunta || "");
+      if (fromPregunta) return fromPregunta;
+
+      return MIEMBROS[Math.abs(Number(fallbackSeed) || 0) % MIEMBROS.length];
+    }
+
+    function buildNumericOptions(exactNum) {
+      const n = Math.max(0, Math.round(Number(exactNum)));
+      const set = new Set([n]);
+      const factors = n < 15
+        ? [-4, -2, 2, 4, 6, 9, 12]
+        : [0.55, 0.75, 1.3, 1.65, 2.0, 0.4, 2.4];
+
+      for (const f of factors) {
+        if (set.size >= 4) break;
+        const cand = n < 15 ? Math.max(1, n + f) : Math.max(1, Math.round(n * f));
+        if (cand !== n) set.add(cand);
+      }
+      let extra = 1;
+      while (set.size < 4) {
+        set.add(n + extra * 5);
+        extra++;
+      }
+      const arr = shuffle(Array.from(set)).map(v => `${v.toLocaleString("es-ES")} veces`);
+      const corrStr = `${n.toLocaleString("es-ES")} veces`;
+      return { opciones: arr, correcta: arr.indexOf(corrStr) };
+    }
+
+    function normalizeQuizItem(item, modeTag) {
+      if (modeTag === "lo_dijo_o_no") {
+        const listFrases = item.frases || item.citas || item.afirmaciones;
+        if (Array.isArray(listFrases) && listFrases.length >= 2) {
+          const impIdx = typeof item.impostor === "number" ? item.impostor
+            : (typeof item.correcta === "number" ? item.correcta : 0);
+          const miembro = item.miembro || item.autor || item.protagonista || extractMemberFromText(item.pregunta) || extractMemberFromText(item.explicacion) || "";
+          return {
+            type: "lo_dijo_o_no",
+            miembro,
+            frases: listFrases,
+            impostor: impIdx,
+            anio: item.anio || "",
+            explicacion: item.explicacion || item.contexto || ""
+          };
+        }
+      }
+
+      if (Array.isArray(item.opciones) && item.opciones.length >= 2) {
+        let corrIdx = -1;
+        const candidates = [item.correcta, item.respuesta_correcta, item.respuesta, item.ganador, item.impostor, item.valor_real];
+        for (const val of candidates) {
+          if (val === undefined || val === null) continue;
+          if (typeof val === "number" && Number.isInteger(val) && val >= 0 && val < item.opciones.length) {
+            corrIdx = val;
+            break;
+          }
+          const target = String(val).trim().toLowerCase();
+          const found = item.opciones.findIndex(o => String(o).trim().toLowerCase() === target);
+          if (found >= 0) {
+            corrIdx = found;
+            break;
+          }
+        }
+        if (corrIdx >= 0 && corrIdx < item.opciones.length) {
+          const memberName = modeTag === "lo_dijo_o_no"
+            ? resolveLoDijoMember(item, String(item.pregunta || "").length)
+            : (item.miembro || item.autor || item.protagonista || item.jugador || "");
+          let finalPregunta = item.pregunta || "¿Cuál es la respuesta correcta?";
+          if (modeTag === "lo_dijo_o_no") {
+            finalPregunta = `2 frases son de ${memberName} y una no`;
+          }
+
+          return {
+            type: modeTag === "lo_dijo_o_no" ? "lo_dijo_o_no_opciones" : modeTag,
+            miembro: memberName,
+            pregunta: finalPregunta,
+            cita: item.cita || "",
+            contexto: item.contexto || item.mensaje_previo || "",
+            opciones: item.opciones,
+            correcta: corrIdx,
+            anio: item.anio || item.fecha || "",
+            explicacion: item.explicacion || item.dato || item.contexto || ""
+          };
+        }
+      }
+
+      const optA = item.opcion_a || item.termino_a || item.a || item.personaje_a;
+      const optB = item.opcion_b || item.termino_b || item.b || item.personaje_b;
+      if (optA && optB) {
+        const opciones = [String(optA), String(optB)];
+        let corrIdx = 0;
+        const win = String(item.ganador || item.correcta || item.respuesta || "").trim().toLowerCase();
+        if (win === String(optB).trim().toLowerCase() || win === "b" || win === "1") {
+          corrIdx = 1;
+        }
+        return {
+          type: modeTag,
+          pregunta: item.pregunta || "¿Cuál tiene más menciones en la historia del TT?",
+          cita: item.cita || `${optA} vs ${optB}`,
+          contexto: "",
+          opciones,
+          correcta: corrIdx,
+          anio: item.anio || "",
+          explicacion: item.explicacion || item.dato || ""
+        };
+      }
+
+      const numFields = [item.respuesta_exacta, item.valor_real, item.respuesta_real, item.numero, item.cantidad, item.total, item.menciones, item.valor, item.respuesta, item.correcta];
+      const rawNum = numFields.find(v => v !== undefined && v !== null && v !== "" && !isNaN(Number(v)));
+      if (modeTag === "dato_justo" && rawNum !== undefined) {
+        const { opciones, correcta } = buildNumericOptions(Number(rawNum));
+        return {
+          type: "dato_justo",
+          pregunta: item.pregunta || "¿Cuántas veces se ha mencionado en el grupo?",
+          cita: item.cita || "",
+          contexto: "",
+          opciones,
+          correcta,
+          anio: item.anio || "",
+          explicacion: item.explicacion || item.dato || `El dato exacto en el archivo es ${Number(rawNum).toLocaleString("es-ES")}.`
+        };
+      }
+
+      const autorCorrecto = MIEMBROS.includes(item.autor) ? item.autor : "Germi";
+      const distractores = shuffle(MIEMBROS.filter(m => m !== autorCorrecto)).slice(0, 3);
+      const opciones = shuffle([autorCorrecto, ...distractores]);
+      let pregTexto = item.pregunta || "¿Quién soltó esta frase en el grupo?";
+      if (modeTag === "efemeride" && item.autor) {
+        // Evita que aparezca el nombre del autor en la pregunta si se trata de adivinar quién lo dijo
+        const autorRegex = new RegExp(`\\b${item.autor}\\b`, "gi");
+        if (autorRegex.test(pregTexto) && item.opciones && item.opciones.some(o => MIEMBROS.includes(o))) {
+          pregTexto = pregTexto.replace(autorRegex, "alguien del grupo");
+        }
+      }
+      return {
+        type: modeTag,
+        pregunta: pregTexto,
+        cita: item.cita || "",
+        contexto: modeTag === "efemeride" ? "" : (item.contexto || item.mensaje_previo || ""),
+        opciones,
+        correcta: opciones.indexOf(autorCorrecto),
+        anio: item.anio || "",
+        explicacion: item.explicacion || item.contexto || `Lo dijo ${autorCorrecto}.`
+      };
+    }
+
+    function toQuizItems(rawList, fallbackList, modeTag, maxItems = 10) {
+      const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
+      const barajadas = shuffle(source);
+      const seleccion = (typeof maxItems === "number" && maxItems > 0) ? barajadas.slice(0, maxItems) : barajadas;
+      return seleccion.map((item, idx) => {
+        const norm = normalizeQuizItem(item, modeTag);
+        if (modeTag === "lo_dijo_o_no" && !norm.miembro) {
+          const m = MIEMBROS[idx % MIEMBROS.length];
+          norm.miembro = m;
+          norm.pregunta = `2 frases son de ${m} y una no`;
+        }
+        return norm;
+      });
+    }
+
+    async function startEfemeride() {
+      if (new Date() < HORA_INAUGURACION) return;
+      const mm_dd = `${mm}-${dd}`;
+      const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK.efemeride });
+      state.flowMode = "quiz";
+      state.lastAction = () => startEfemeride();
+      state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.efemeride), FALLBACK.efemeride, "efemeride", null);
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.streak = 0;
+      showGameView("📜 Efeméride del Día");
+      renderQuestion();
+    }
+
+    async function startGame(mode) {
+      if (new Date() < HORA_INAUGURACION) return;
+      state.flowMode = "quiz";
+      state.lastAction = () => startGame(mode);
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.streak = 0;
+
+      if (mode === "quien_dijo") {
+        const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: FALLBACK.quien_dijo });
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.quien_dijo), FALLBACK.quien_dijo, "quien_dijo", 10);
+        showGameView("💬 ¿Quién dijo esto?");
+      } else if (mode === "lo_dijo_o_no") {
+        const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK.lo_dijo_o_no });
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.lo_dijo_o_no), FALLBACK.lo_dijo_o_no, "lo_dijo_o_no", 10);
+        showGameView("⚖️ Lo dijo o no lo dijo");
+      } else if (mode === "rajaditta") {
+        const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK.rajaditta });
+        state.currentQuestions = shuffle(extractArray(data, FALLBACK.rajaditta)).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
+        showGameView("🤬 La RajadiTTa");
+      } else if (mode === "dato_justo") {
+        const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: FALLBACK.dato_justo });
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.dato_justo), FALLBACK.dato_justo, "dato_justo", 10);
+        showGameView("🎯 El Dato Justo");
+      }
+
+      renderQuestion();
+    }
+
+    async function startSectionQuiz(sec) {
+      if (new Date() < HORA_INAUGURACION) return;
+      const meta = {
+        pornopedia: { title: "🔞 Pornopedia", fb: FALLBACK.pornopedia },
+        comidistta: { title: "🍽️ El ComidisTTa", fb: FALLBACK.comidistta },
+        zona_vox: { title: "🟩 Zona VOX", fb: FALLBACK.zona_vox }
+      }[sec];
+
+      const data = await loadJsonSafe(DATA_PATHS[sec], { items: meta.fb });
+      state.flowMode = "quiz";
+      state.lastAction = () => startSectionQuiz(sec);
+      state.currentQuestions = toQuizItems(extractArray(data, meta.fb), meta.fb, sec, 10);
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.streak = 0;
+      showGameView(meta.title);
+      renderQuestion();
+    }
+
+    async function startPasionTTurca() {
+      if (new Date() < ESTRENO_CARTTELERA) {
+        showToast("El estreno se desbloquea a las 00:00");
+        return;
+      }
+      const data = await loadJsonSafe(DATA_PATHS.pasion_tturca, { capitulos: FALLBACK.pasion_tturca });
+      const caps = [...extractArray(data, FALLBACK.pasion_tturca)].sort((a, b) => (a.numero || 0) - (b.numero || 0));
+
+      state.flowMode = "pasion_tturca";
+      state.lastAction = () => startPasionTTurca();
+      state.currentQuestions = caps.map((c, idx) => ({ type: "pasion_tturca", numero: c.numero || idx + 1, ...c }));
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.streak = 0;
+      showGameView("🎬 La Pasión TTurca");
+      renderQuestion();
+    }
+
+    function replayCurrentMode() {
+      if (typeof state.lastAction === "function") {
+        state.lastAction();
+      } else {
+        goHome();
+      }
+    }
+
+    function renderQuestion() {
+      state.answered = false;
+      const container = document.getElementById("quizContainer");
+
+      if (state.qIndex >= state.currentQuestions.length) {
+        const voteBtnHtml = state.flowMode === "pasion_tturca"
+          ? `<button class="btn-primary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>`
+          : `<button class="btn-primary" onclick="replayCurrentMode()">🔄 Jugar otra ronda</button>`;
+
+        container.innerHTML = `
+          <div style="text-align:center; padding: 18px 8px;">
+            <div style="font-size: 42px; margin-bottom: 10px;">🏁</div>
+            <h3 style="font-size: 24px; font-weight: 900; margin-bottom: 6px;">¡Finalizado, ${state.player}!</h3>
+            <p style="color: var(--muted); margin-bottom: 18px;">Has sumado <strong style="color:var(--accent);">${state.roundScore} puntos</strong> en ${state.currentModeTitle}.</p>
+            <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+              ${voteBtnHtml}
+              <button class="btn-secondary" onclick="copyShareSummary()">📋 Copiar resultado</button>
+              <button class="btn-secondary" onclick="goHome()">Volver a Portada</button>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      const q = state.currentQuestions[state.qIndex];
+      const total = state.currentQuestions.length;
+      let promptHtml = "";
+      let options = [];
+      let correctIdx = 0;
+      let metaLeft = `<strong>${state.qIndex + 1}/${total}</strong> · Racha ${state.streak}`;
+      let metaRight = q.anio ? `<strong>${q.anio}</strong>` : "";
+
+      if (q.type === "pasion_tturca") {
+        metaLeft = `<strong>${q.numero}/${total}</strong> · Racha ${state.streak}`;
+        metaRight = q.fecha ? `<strong>${q.fecha}</strong>` : "";
+        promptHtml = `
+          <div style="color:var(--accent); font-size:12px; font-weight:800; text-transform:uppercase; margin-bottom:4px;">
+            Capítulo ${q.numero} · ${q.titulo_capitulo || ""}
+          </div>
+          <div style="font-weight:700; font-size:17px;">${q.pregunta}</div>
+        `;
+        options = q.opciones;
+        correctIdx = q.correcta;
+      } else if (q.type === "rajaditta") {
+        metaRight = "";
+        const formattedQuote = (q.cita || "").replace(/\*\*\*/g, '<span class="censored">[CENSURADO]</span>');
+        promptHtml = `
+          <div style="font-weight:700; font-size:17px;">¿A quién está poniendo fino <span style="color:var(--accent);">${q.agresor}</span>?</div>
+          <div class="quote-box">
+            “${formattedQuote}”
+          </div>
+        `;
+        options = q.opciones;
+        correctIdx = q.correcta;
+      } else if (q.type === "lo_dijo_o_no" && Array.isArray(q.frases)) {
+        metaRight = "";
+        const autorTxt = q.miembro ? `2 frases son de ${q.miembro} y una no` : "2 frases son del mismo autor y una no";
+        promptHtml = `
+          <div style="font-weight:700; font-size:17px;">${autorTxt}</div>
+        `;
+        options = q.frases.map(f => `“${f}”`);
+        correctIdx = q.impostor;
+      } else {
+        const safePrev = sanitizePrevContext(q.contexto, q.cita);
+        const tituloPreg = q.type === "lo_dijo_o_no_opciones"
+          ? (q.miembro ? `2 frases son de ${q.miembro} y una no` : q.pregunta)
+          : (q.pregunta || "¿Quién soltó esta frase en el grupo?");
+        promptHtml = `
+          <div style="font-weight:700; font-size:17px;">${tituloPreg}</div>
+          ${q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
+        `;
+        options = q.opciones;
+        correctIdx = q.correcta;
+      }
+
+      const nextLabel = (q.type === "pasion_tturca" && state.qIndex + 1 < total)
+        ? `Pasar al Capítulo ${q.numero + 1} →`
+        : "Siguiente →";
+
+      container.innerHTML = `
+        <div class="quiz-meta">
+          <span>${metaLeft}</span>
+          <span>${metaRight}</span>
+        </div>
+        ${promptHtml}
+        <div class="options-list">
+          ${options.map((op, i) => `
+            <button type="button" class="opt-btn" data-opt-index="${i}" onclick="handleAnswer(${i}, ${correctIdx})">${op}</button>
+          `).join("")}
+        </div>
+        <div class="feedback-box" id="feedbackBox" style="display: none;"></div>
+        <div style="margin-top: 16px; text-align: right; display: none;" id="nextBtnWrap">
+          <button class="btn-primary" onclick="nextQuestion()">${nextLabel}</button>
+        </div>
+      `;
+    }
+
+    function handleAnswer(selected, correct) {
+      if (state.answered) return;
+      state.answered = true;
+      const btns = document.querySelectorAll(".opt-btn");
+      btns.forEach(b => b.disabled = true);
+
+      const q = state.currentQuestions[state.qIndex];
+      const isOk = selected === correct;
+
+      if (isOk) {
+        btns[selected].classList.add("correct");
+        state.streak += 1;
+        const gained = 10 + Math.min(state.streak * 2, 10);
+        state.roundScore += gained;
+        addPoints(gained);
+      } else {
+        btns[selected].classList.add("wrong");
+        if (btns[correct]) btns[correct].classList.add("correct");
+        state.streak = 0;
+      }
+
+      const fb = document.getElementById("feedbackBox");
+      if (q.type === "pasion_tturca") {
+        const citasHtml = Array.isArray(q.citas_reales) && q.citas_reales.length > 0
+          ? `<div class="quotes-list">${q.citas_reales.map(c => `<div class="quote-chip">“${c}”</div>`).join("")}</div>`
+          : "";
+        fb.innerHTML = `
+          <div>${isOk ? "✅ <strong>¡Respuesta correcta!</strong>" : "❌ <strong>No era esa.</strong>"}</div>
+          <div class="relato-box">
+            <strong style="color:var(--accent); display:block; margin-bottom:4px;">Contexto del capítulo ${q.numero}:</strong>
+            ${q.relato_desbloqueado || ""}
+            ${citasHtml}
+          </div>
+        `;
+      } else {
+        let extraText = q.explicacion || "";
+        if (q.type === "rajaditta" && q.cita_sin_censura) {
+          extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”`;
+        }
+        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>`;
+      }
+
+      fb.style.display = "block";
+      fb.classList.add("show");
+      document.getElementById("nextBtnWrap").style.display = "block";
+    }
+
+    function nextQuestion() {
+      state.qIndex += 1;
+      renderQuestion();
+    }
+
+    function copyShareSummary() {
+      const txt = `🏆 TTpedia · ${state.currentModeTitle}
+👤 ${state.player}: ${state.roundScore} pts
+📜 Archivo 2012–2026`;
+      navigator.clipboard?.writeText(txt);
+      showToast("Resultado copiado para pegar en WhatsApp");
+    }
+
+    function openVoteSaga() {
+      const candidatas = [
+        { id: "boda_humpa", title: "La Boda de Humpa", desc: "Preparativos, despedida y resaca histórica." }
+      ];
+      showSectionView("🗳️ Urna de Próximo Estreno en CarTTelera");
+      document.getElementById("sectionDynamicBody").innerHTML = candidatas.map(c => {
+        const voted = state.votes[state.player] === c.id;
+        return `
+          <div class="archive-item" style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+            <div>
+              <h4 style="font-size:16px; margin-bottom:4px;">${c.title}</h4>
+              <p style="font-size:13px; color:var(--muted);">${c.desc}</p>
+            </div>
+            <button class="${voted ? 'btn-primary' : 'btn-secondary'}" onclick="voteForSaga('${c.id}')">
+              ${voted ? '✅ Tu voto (' + state.player + ')' : 'Votar esta saga'}
+            </button>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function voteForSaga(id) {
+      state.votes[state.player] = id;
+      localStorage.setItem("ttpedia_votes", JSON.stringify(state.votes));
+      if (window.TTFirebase && typeof window.TTFirebase.syncVote === "function") {
+        window.TTFirebase.syncVote(state.player, id);
+      }
+      showToast(`Voto registrado para ${state.player}`);
+      openVoteSaga();
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.style.display = "block";
+      setTimeout(() => { t.style.display = "none"; }, 2600);
+    }
+  </script>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+    import {
+      getFirestore,
+      doc,
+      setDoc,
+      getDocs,
+      collection,
+      increment,
+      serverTimestamp
+    } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAlnLXGSBOJqi9GiTNVfpujAKLKfzQScN4",
+      authDomain: "ttpedia-d273e.firebaseapp.com",
+      projectId: "ttpedia-d273e",
+      storageBucket: "ttpedia-d273e.firebasestorage.app",
+      messagingSenderId: "517293767219",
+      appId: "1:517293767219:web:79d24f909c1fed50af8146",
+      measurementId: "G-40D390SFX8"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    function todayISOStr() {
+      const d = new Date();
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    }
+
+    window.TTFirebase = {
+      async syncPlayerPoints(playerName, pts, { isDaily, isCarttelera }) {
+        try {
+          const docId = String(playerName).toLowerCase();
+          const ref = doc(db, "ranking_global", docId);
+          const todayISO = todayISOStr();
+          const payload = {
+            nombre: playerName,
+            ranking_total: increment(pts),
+            actualizado_en: serverTimestamp()
+          };
+          if (isDaily) {
+            payload["reto_diario.fecha"] = todayISO;
+            payload["reto_diario.puntos"] = increment(pts);
+          }
+          if (isCarttelera) {
+            payload["carttelera.saga_activa"] = "pasion_tturca";
+            payload["carttelera.puntos"] = increment(pts);
+          }
+          await setDoc(ref, payload, { merge: true });
+        } catch (err) {
+          console.warn("Firestore syncPlayerPoints fallback:", err);
+        }
+      },
+
+      async fetchAllPlayers() {
+        try {
+          const snap = await getDocs(collection(db, "ranking_global"));
+          const out = {};
+          snap.forEach(d => {
+            out[d.id] = d.data();
+          });
+          return out;
+        } catch (err) {
+          console.warn("Firestore fetchAllPlayers fallback:", err);
+          return null;
+        }
+      },
+
+      async syncVote(playerName, sagaId) {
+        try {
+          const docId = String(playerName).toLowerCase();
+          await setDoc(doc(db, "votos_carttelera", docId), {
+            jugador: playerName,
+            voto: sagaId,
+            actualizado_en: serverTimestamp()
+          }, { merge: true });
+        } catch (err) {
+          console.warn("Firestore syncVote fallback:", err);
+        }
+      }
+    };
+  </script>
+</body>
+</html>
