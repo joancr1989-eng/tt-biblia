@@ -917,7 +917,7 @@
   </main>
 
   <!-- MODAL SELECCIÓN DE JUGADOR -->
-  <div class="modal-backdrop" id="playerModal" onclick="if(event.target===this) closeModals()">
+  <div class="modal-backdrop" id="playerModal" onclick="if(event.target===this && state.hasChosenPlayer) closeModals()">
     <div class="modal-card">
       <h3>👤 ¿Quién está en el trono ahora?</h3>
       <p style="font-size: 13px; color: var(--muted);">Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.</p>
@@ -1066,7 +1066,10 @@
       ]
     };
 
+    const hasChosenSaved = localStorage.getItem("ttpedia_player_chosen") === "1";
+
     let state = {
+      hasChosenPlayer: hasChosenSaved,
       player: localStorage.getItem("ttpedia_player") || "Joni",
       scores: JSON.parse(localStorage.getItem("ttpedia_scores") || "{}"),
       votes: JSON.parse(localStorage.getItem("ttpedia_votes") || "{}"),
@@ -1124,11 +1127,25 @@
     setInterval(updateCountdown, 1000);
     updateCountdown();
 
-    document.getElementById("currentPlayerName").textContent = state.player;
+    document.getElementById("currentPlayerName").textContent = state.hasChosenPlayer ? state.player : "Elegir";
+    if (!state.hasChosenPlayer) {
+      openPlayerModal(true);
+    }
 
-    function openPlayerModal() {
+    function openPlayerModal(forceFirstVisit = false) {
+      const modalCard = document.querySelector("#playerModal .modal-card");
+      const titleEl = modalCard?.querySelector("h3");
+      const descEl = modalCard?.querySelector("p");
+      if (forceFirstVisit || !state.hasChosenPlayer) {
+        if (titleEl) titleEl.textContent = "👋 ¡Bienvenido a TTpedia! ¿Quién eres?";
+        if (descEl) descEl.textContent = "Antes de entrar, selecciona qué miembro del Triangulito Team eres para guardar tus puntos y clasificaciones.";
+      } else {
+        if (titleEl) titleEl.textContent = "👤 ¿Quién está en el trono ahora?";
+        if (descEl) descEl.textContent = "Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.";
+      }
+
       document.getElementById("playerButtonsGrid").innerHTML = MIEMBROS.map(m => `
-        <button class="btn-secondary" style="${m === state.player ? 'border-color: var(--accent); color: var(--accent);' : ''}" onclick="selectPlayer('${m}')">
+        <button class="btn-secondary" style="${(state.hasChosenPlayer && m === state.player) ? 'border-color: var(--accent); color: var(--accent);' : ''}" onclick="selectPlayer('${m}')">
           ${m}
         </button>
       `).join("");
@@ -1137,7 +1154,9 @@
 
     function selectPlayer(name) {
       state.player = name;
+      state.hasChosenPlayer = true;
       localStorage.setItem("ttpedia_player", name);
+      localStorage.setItem("ttpedia_player_chosen", "1");
       document.getElementById("currentPlayerName").textContent = name;
       closeModals();
       showToast(`Jugador activo: ${name}`);
