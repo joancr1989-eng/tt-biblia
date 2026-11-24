@@ -249,16 +249,6 @@
       gap: 10px;
     }
 
-    .date-input {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 11px 14px;
-      border-radius: 12px;
-      font-size: 14px;
-      font-weight: 600;
-    }
-
     .btn-primary {
       background: linear-gradient(135deg, #f59e0b, #d97706);
       color: #0b0e14;
@@ -517,7 +507,7 @@
       margin-bottom: 2px;
     }
 
-    /* VIEW PANELS (GAME / ARCHIVE / MODAL) */
+    /* VIEW PANELS */
     .view-panel {
       display: none;
       margin-top: 22px;
@@ -638,11 +628,11 @@
 
     .feedback-box {
       margin-top: 16px;
-      padding: 14px 16px;
+      padding: 16px;
       border-radius: 12px;
       background: rgba(255, 255, 255, 0.04);
       border: 1px solid var(--border);
-      font-size: 13.5px;
+      font-size: 14px;
       display: none;
     }
 
@@ -650,24 +640,33 @@
       display: block;
     }
 
-    /* ARCHIVE / ENCYCLOPEDIA LISTS */
-    .archive-item {
-      background: var(--card);
+    .relato-box {
+      margin-top: 14px;
+      background: rgba(11, 14, 20, 0.65);
       border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 16px;
-      margin-bottom: 12px;
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 14px;
+      color: #e2e8f0;
     }
 
-    .archive-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 12px;
+    .quotes-list {
+      margin-top: 10px;
+      display: grid;
+      gap: 6px;
+      font-size: 12.5px;
       color: var(--muted);
-      margin-bottom: 8px;
     }
 
+    .quote-chip {
+      background: var(--bg);
+      border-left: 3px solid var(--accent);
+      padding: 6px 10px;
+      border-radius: 6px;
+      color: #cbd5e1;
+    }
+
+    /* ENCYCLOPEDIA */
     .member-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -679,6 +678,14 @@
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 18px;
+      cursor: pointer;
+      transition: 0.18s ease;
+    }
+
+    .member-card:hover {
+      border-color: var(--accent);
+      background: var(--card-hover);
+      transform: translateY(-2px);
     }
 
     .member-card h4 {
@@ -708,6 +715,14 @@
       padding: 3px 8px;
       border-radius: 8px;
       color: #cbd5e1;
+    }
+
+    .archive-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 12px;
     }
 
     /* MODAL */
@@ -808,16 +823,15 @@
         <p>Toda la hemeroteca, piques, rajadas, apuestas ruinosas y salidas de tono del Triangulito Team convertidos en archivo interactivo.</p>
       </section>
 
-      <!-- BLOQUE CENTRAL PROTAGONISTA: EFEMÉRIDE DEL DÍA -->
+      <!-- BLOQUE CENTRAL PROTAGONISTA: EFEMÉRIDE DEL DÍA (FECHA FIJA DE HOY) -->
       <section class="efem-card">
         <div class="efem-info">
           <div class="efem-tag">📅 Reto Diario Oficial</div>
           <h2>Efeméride del Día · <span id="efemDateLabel">Hoy</span></h2>
-          <p>Preguntas reales extraídas de lo que pasó exactamente tal día como hoy en el grupo a lo largo de los años.</p>
+          <p>Lo que ocurrió exactamente un día como hoy en el archivo del grupo a lo largo de los años.</p>
         </div>
         <div class="efem-controls">
-          <input type="date" id="efemDatePicker" class="date-input" />
-          <button class="btn-primary" onclick="startEfemeride()">Jugar Efeméride</button>
+          <button class="btn-primary" onclick="startEfemeride()">Jugar Efeméride de Hoy</button>
         </div>
       </section>
 
@@ -878,7 +892,7 @@
       <section class="section-block">
         <div class="section-header">
           <h3>🎬 Estrenos de CarTTelera</h3>
-          <span>Sagas semanales por capítulos</span>
+          <span>Sagas semanales capítulo a capítulo</span>
         </div>
         <div class="carttelera-box">
           <div class="poster-main">
@@ -887,11 +901,11 @@
                 <span class="badge-live">En cartelera</span>
                 <span class="badge-season">Temporada 1 · 25 capítulos</span>
               </div>
-              <h4 style="margin-top: 10px;">La Balada de Marzal y la Turca</h4>
-              <p style="margin-top: 6px;">Crónica cronológica íntegra de una de las tramas más legendarias del grupo, reconstruida mensaje a mensaje desde el primer tonteo hasta el desenlace.</p>
+              <h4 style="margin-top: 10px;">La Pasión TTurca</h4>
+              <p style="margin-top: 6px;">Crónica cronológica íntegra de Marzal y la turca: responde capítulo a capítulo para ir desbloqueando la historia y las citas reales.</p>
             </div>
             <div class="poster-actions">
-              <button class="btn-primary" onclick="openCarttelera()">Ver Estreno y Capítulos</button>
+              <button class="btn-primary" onclick="startPasionTTurca()">Empezar Capítulo 1</button>
               <button class="btn-secondary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>
             </div>
           </div>
@@ -918,57 +932,57 @@
       <section class="section-block">
         <div class="section-header">
           <h3>📚 Secciones Temáticas y Archivo</h3>
-          <span>Hemeroteca filtrada por temática</span>
+          <span>Trivias temáticas y fichas de miembros</span>
         </div>
         <div class="grid-2">
-          <div class="mode-card" onclick="openSection('pornopedia')">
+          <div class="mode-card" onclick="startSectionQuiz('pornopedia')">
             <div>
               <div class="mode-top">
                 <div class="mode-icon" style="background: var(--pink-soft); color: var(--pink);">🔞</div>
-                <span class="mode-pill">+18 Sin Filtro</span>
+                <span class="mode-pill">Modo Trivia +18</span>
               </div>
               <h4>Pornopedia</h4>
-              <p>Confesiones sexuales, teorías de alcoba y anécdotas sin censura (ocultando el autor del mensaje previo).</p>
+              <p>Adivina quién soltó o protagonizó las confesiones, teorías de alcoba y anécdotas más subidas de tono.</p>
             </div>
           </div>
 
-          <div class="mode-card" onclick="openSection('comidistta')">
+          <div class="mode-card" onclick="startSectionQuiz('comidistta')">
             <div>
               <div class="mode-top">
                 <div class="mode-icon" style="background: var(--accent-soft); color: var(--accent);">🍽️</div>
-                <span class="mode-pill">Gastronomía TT</span>
+                <span class="mode-pill">Modo Trivia Gastro</span>
               </div>
               <h4>El ComidisTTa</h4>
-              <p>Debates cruzados sobre paellas, kebabs, esmorzarets en la Safor y sacrilegios culinarios.</p>
+              <p>Pon a prueba tus conocimientos sobre paellas, kebabs, esmorzarets y veredictos culinarios del chat.</p>
             </div>
           </div>
 
-          <div class="mode-card" onclick="openSection('zona_vox')">
+          <div class="mode-card" onclick="startSectionQuiz('zona_vox')">
             <div>
               <div class="mode-top">
                 <div class="mode-icon" style="background: var(--green-soft); color: var(--green);">🟩</div>
-                <span class="mode-pill">Archivo Bruto</span>
+                <span class="mode-pill">Modo Trivia VOX</span>
               </div>
               <h4>Zona VOX</h4>
-              <p>Las salidas de tono, opiniones políticas sin filtro y burradas más bestias rescatadas del chat.</p>
+              <p>Preguntas tipo test sobre las salidas de tono, opiniones políticas sin filtro y burradas del archivo.</p>
             </div>
           </div>
 
-          <div class="mode-card" onclick="openSection('enciclopedia')">
+          <div class="mode-card" onclick="openEnciclopedia()">
             <div>
               <div class="mode-top">
                 <div class="mode-icon" style="background: var(--purple-soft); color: var(--purple);">📖</div>
-                <span class="mode-pill">Biografías y Lore</span>
+                <span class="mode-pill">Perfiles Interactivos</span>
               </div>
               <h4>Enciclopedia TT</h4>
-              <p>Fichas biográficas, estadísticas de mensajes, motes oficiales y citas míticas de cada miembro del grupo.</p>
+              <p>Pulsa en cualquier miembro para abrir su ficha completa con motes, estadísticas, biografía y citas míticas.</p>
             </div>
           </div>
         </div>
       </section>
     </div>
 
-    <!-- VISTA DE JUEGO / EFEMÉRIDE -->
+    <!-- VISTA DE JUEGO / EFEMÉRIDE / PASIÓN TTURCA / QUIZ TEMÁTICO -->
     <div id="gameView" class="view-panel">
       <div class="panel-topbar">
         <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
@@ -979,7 +993,7 @@
       <div class="quiz-box" id="quizContainer"></div>
     </div>
 
-    <!-- VISTA DE SECCIONES / CARTTELERA / ENCICLOPEDIA -->
+    <!-- VISTA DE ENCICLOPEDIA / VOTACIÓN -->
     <div id="sectionView" class="view-panel">
       <div class="panel-topbar">
         <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
@@ -997,6 +1011,11 @@
       <p style="font-size: 13px; color: var(--muted);">Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.</p>
       <div class="player-select-grid" id="playerButtonsGrid"></div>
     </div>
+  </div>
+
+  <!-- MODAL DETALLE DE MIEMBRO EN ENCICLOPEDIA -->
+  <div class="modal-backdrop" id="memberModal" onclick="if(event.target===this) closeModals()">
+    <div class="modal-card" id="memberModalCard"></div>
   </div>
 
   <!-- MODAL CLASIFICACIÓN -->
@@ -1017,9 +1036,6 @@
   <div class="toast" id="toast"></div>
 
   <script>
-    // =========================================================================
-    // CONFIGURACIÓN Y RUTAS DE DATOS JSON (con fallback integrado si no existen)
-    // =========================================================================
     const MIEMBROS = ["Joni", "Feme", "Jorge", "Germi", "Humpa", "Héctor", "Hugo", "Miki", "Marzal"];
 
     const DATA_PATHS = {
@@ -1031,12 +1047,12 @@
       pornopedia: "data/pornopedia_tt.json",
       comidistta: "data/comidistta.json",
       zona_vox: "data/zona_vox.json",
-      carttelera: "data/marzal_turca.json",
-      enciclopedia: "data/biografias_tt.json"
+      pasion_tturca: "data/marzal_turca.json",
+      biografias: "data/biografias_tt.json"
     };
 
-    // Datos de respaldo para que el index funcione al instante incluso antes de subir todos los JSON
-    const FALLBACK_DATA = {
+    // Bancos diferenciados de respaldo por modo para que NUNCA se mezclen entre juegos
+    const FALLBACK = {
       efemeride: [
         {
           pregunta: "En abril de 2016, cuando Germi soltó optimistamente 'El city pasa' tras el 0-0 ante el Real Madrid, ¿cómo le vaciló Joni?",
@@ -1045,32 +1061,26 @@
           correcta: 1,
           explicacion: "Joni cortó de raíz la euforia europea de Germi con una de sus respuestas más míticas.",
           anio: 2016
-        },
-        {
-          pregunta: "Tras una foto montando la tienda de campaña en abril de 2014, ¿qué confesión hizo Miki que sorprendió al grupo?",
-          cita: "He fumao tío",
-          opciones: ["He fumao tío", "Me he cargado una varilla", "He pillado una cogorza fina", "He perdido el saco de dormir"],
-          correcta: 0,
-          explicacion: "Miki confesó haber caído en la tentación y Feme le bautizó al momento como 'el próximo estanquero'.",
-          anio: 2014
         }
       ],
       quien_dijo: [
         {
-          contexto: "Debatiendo sobre el rendimiento del Barça y las alineaciones",
+          pregunta: "¿Quién dijo esta frase tras ver el partido del equipo?",
+          contexto: "Debatiendo sobre el rendimiento futbolístico en el chat",
           cita: "El rayo de Iraola nos baila cual City de Guardiola jaja que bazofia somos",
           opciones: ["Joni", "Jorge", "Miki", "Germi"],
           correcta: 0,
           anio: 2023,
-          explicacion: "Joni indignado viendo el repaso táctico del Rayo Vallecano."
+          explicacion: "La soltó Joni tras ver el repaso táctico del Rayo."
         },
         {
-          contexto: "Hablando sobre el reparto económico de la Supercopa en Arabia",
+          pregunta: "¿Quién mandó a los valencianistas a quejarse a ese barrio?",
+          contexto: "Discusión por el reparto de millones de la Supercopa",
           cita: "A llorar al Carmen",
           opciones: ["Feme", "Germi", "Humpa", "Hugo"],
           correcta: 1,
           anio: 2019,
-          explicacion: "Germi mandando a los valencianistas a quejarse al barrio del Carmen."
+          explicacion: "Germi tiró de retranca en medio del debate de la Supercopa."
         }
       ],
       lo_dijo_o_no: [
@@ -1082,7 +1092,17 @@
             "Yo llevo todo el dia con la pantaloneta del city puesta"
           ],
           impostor: 2,
-          explicacion: "La pantaloneta del City la llevaba Feme todo el día puesta; las otras dos perlas sí son 100% Germi."
+          explicacion: "La frase de la pantaloneta del City es de Feme; las otras dos sí las dijo Germi."
+        },
+        {
+          miembro: "Feme",
+          frases: [
+            "Demuestrale que polla manda en el oeste",
+            "Los actores españoles estan flipaos",
+            "El portero de aqui no hay quien viva"
+          ],
+          impostor: 2,
+          explicacion: "El comentario del portero de ANHQV lo abrió Feme, pero la frase exacta 'El portero de aqui no hay quien viva' es de otro hilo: el impostor es la 3ª."
         }
       ],
       rajaditta: [
@@ -1094,62 +1114,150 @@
           opciones: ["Hugo", "Marzal", "Humpa"],
           correcta: 1,
           anio: 2015,
-          contexto: "Vacile a Marzal (JM) por dar lecciones morales sobre no tirar la caña estando caliente."
-        },
-        {
-          agresor: "Miki",
-          victima: "Feme",
-          cita: "Ahí ahí! Así llegamos sin hambre a la 'paella' de *** jajajaja",
-          cita_sin_censura: "Ahí ahí! Así llegamos sin hambre a la 'paella' de feme jajajaja",
-          opciones: ["Joni", "Hugo", "Feme"],
-          correcta: 2,
-          anio: 2014,
-          contexto: "Miki poniendo entre comillas las dotes de Feme haciendo paellas."
+          contexto: "Vacile a Marzal (JM) por dar lecciones morales."
         }
       ],
       dato_justo: [
         {
-          pregunta: "Duelo de menciones en los 311.419 mensajes: ¿quién aparece más veces mencionado en el chat?",
+          pregunta: "Duelo de menciones en 14 años de chat: ¿a quién nombran más veces?",
           cita: "Lidia Balada vs Zach Morley",
-          opciones: ["Lidia Balada", "Zach Morley", "Empate técnico", "Ninguno llega a 20"],
+          opciones: ["Lidia Balada", "Zach Morley", "Empate técnico", "Menos de 10 veces ambos"],
           correcta: 0,
           anio: "2012-2026",
-          explicacion: "El lore local manda sobre cualquier fichaje extranjero."
+          explicacion: "Lidia Balada supera claramente en menciones en el historial del grupo."
+        },
+        {
+          pregunta: "¿Qué expresión aparece con más frecuencia en los piques del grupo?",
+          cita: "'lache' vs 'parguela'",
+          opciones: ["lache", "parguela", "ambas igual", "ninguna pasa de 50"],
+          correcta: 0,
+          anio: "2012-2026",
+          explicacion: "'Lache' es uno de los clásicos indiscutibles del vocabulario TT."
         }
       ],
       pornopedia: [
-        { autor: "Germi", anio: 2018, cita: "Voy a hacerme una paja ahira vuelvo", contexto: "Anunciado con total naturalidad en mitad de una conversación grupal." },
-        { autor: "Jorge", anio: 2020, cita: "Mira que pollito al horno de domingo te podria hacer Mar Saura despues del polvo de la 11:30", contexto: "Planazo dominical tras ver stories de cocina." }
+        {
+          pregunta: "¿Quién confesó que una web porno le aparecía directamente en favoritos al abrir Safari?",
+          cita: "Me sale en favoritos al abrir el safari jajajajaja",
+          opciones: ["Germi", "Jorge", "Miki", "Feme"],
+          correcta: 0,
+          anio: 2018,
+          explicacion: "Germi lo admitió entre risas en mitad de la conversación."
+        }
       ],
       comidistta: [
-        { autor: "Feme", anio: 2019, cita: "Esta en el Vaya Tela de Bellreguard", contexto: "Sentenciando dónde se come la mejor hamburguesa de la Safor." },
-        { autor: "Hugo", anio: 2019, cita: "Lo mejor del fosters era cuando ofrecían cacahuetes en la barra", contexto: "Nostalgia gastronómica de franquicia." }
+        {
+          pregunta: "¿Dónde situó Feme la mejor hamburguesa de la comarca de la Safor?",
+          cita: "Esta en el Vaya Tela de Bellreguard",
+          opciones: ["En el Vaya Tela de Bellreguard", "En el Foster's", "En un kebab de Gandía", "En el bar de la playa"],
+          correcta: 0,
+          anio: 2019,
+          explicacion: "Feme zanjó el debate gastronómico apostando por Bellreguard."
+        }
       ],
       zona_vox: [
-        { autor: "Humpa", anio: 2020, cita: "Si de algo ha servido todo esto , es para corroborar el fracaso del estado autonómico", contexto: "Aprovechando cualquier debate para sacar la vena centralista." },
-        { autor: "Humpa", anio: 2021, cita: "Pues yo a Rocio monasterio...le daba. Buenos días", contexto: "Saludo mañanero a las 8:27 de la mañana sin anestesia." }
+        {
+          pregunta: "¿Quién soltó esta sentencia sobre el modelo territorial durante la pandemia?",
+          cita: "Si de algo ha servido todo esto , es para corroborar el fracaso del estado autonómico",
+          opciones: ["Humpa", "Jorge", "Joni", "Hugo"],
+          correcta: 0,
+          anio: 2020,
+          explicacion: "Humpa sacó su argumento habitual en pleno debate del grupo."
+        }
       ],
-      carttelera: [
-        { cap: 1, titulo: "El primer contacto", anio: 2019, resumen: "Empiezan las primeras menciones sospechosas y el grupo detecta movimiento internacional." },
-        { cap: 2, titulo: "Consejos del comité TT", anio: 2019, resumen: "Los 8 restantes intervienen con tácticas de dudosa eficacia para guiar a Marzal." },
-        { cap: 3, titulo: "Giro de guion en Estambul", anio: 2020, resumen: "Nuevos audios, capturas y el desenlace que pasó a los anales de TTpedia." }
+      pasion_tturca: [
+        {
+          numero: 1,
+          fecha: "2015-09-16",
+          titulo_capitulo: "Cuotas de carcel polaca y wifi desaprovechado",
+          pregunta: "¿Qué anécdota previa recordo Jorge para justificar el desplome de cuotas sobre Marzal en Polonia?",
+          opciones: [
+            "Que se olvido el pasaporte en Manises",
+            "Que teniendo wifi y sin hotel en Alemania, prefirio comentar banalidades en el grupo del TT",
+            "Que intento pagar con zlotys en Munich",
+            "Que perdio las llaves en una cabina"
+          ],
+          correcta: 1,
+          relato_desbloqueado: "Antes de aterrizar en Polonia, el grupo ya apostaba por su supervivencia recordando cuando tuvo wifi y buscaba alojamiento y prefirió chatear en el TT.",
+          citas_reales: ["Jorge: Recordemos su momento estrella", "Jorge: Y aqui estaba, comentando banalidades en el grupo del TT"]
+        }
       ],
-      enciclopedia: [
-        { nombre: "Joni", apodo: "El Archivero / Jonas", mensajes: "46.800+", especialidad: "Datos históricos, pullas quirúrgicas y piratería deportiva", cita: "Con el Madrid de por medio, mayúsculas solo a partir del 6-0" },
-        { nombre: "Feme", apodo: "El Presidente / Feme i López", mensajes: "41.200+", especialidad: "Paellas cuestionadas, filosofía de casal y memes instantáneos", cita: "Demuestrale que polla manda en el oeste" },
-        { nombre: "Jorge", apodo: "El Letrado / Chus", mensajes: "44.500+", especialidad: "Discursos de abogado, sufrimiento ché y comparaciones con Los Simpson", cita: "Aprenda a expresarse señor Moratal" },
-        { nombre: "Germi", apodo: "El Director de la Manada / Mostro", mensajes: "39.900+", especialidad: "Anécdotas sin filtro, tips de apuestas y palabrejas propias", cita: "Pon comas máquina (sobre sí mismo)" },
-        { nombre: "Humpa", apodo: "Unverto / El Centralista", mensajes: "28.400+", especialidad: "Buenos días políticos, celebraciones intensas y lore judicial", cita: "al final harán que echemos de menos el bipartidismo" },
-        { nombre: "Héctor", apodo: "La Voz de El Palmar", mensajes: "21.100+", especialidad: "Apariciones estelares, esguinces navideños y doblaje de Alcaraz", cita: "Putos frikis de mierda futboleros" },
-        { nombre: "Hugo", apodo: "La Estrella en Ciernes", mensajes: "27.600+", especialidad: "Recetas en mitad de debates tensos y piques con Jorge", cita: "Ye chavales, me ha salido buenísima, la foto no hace justicia" },
-        { nombre: "Miki", apodo: "Mr Anfitrión Moratal", mensajes: "35.300+", especialidad: "Previas en Cómics, sufrimiento europeo y rigor en el trivial", cita: "He fumao tío" },
-        { nombre: "Marzal", apodo: "JM / Marcial / Marsalet / Machalet", mensajes: "26.600+", especialidad: "Sagas internacionales, defensa legal express y llegadas a última hora", cita: "Menos gracia para bailar que una sera" }
+      biografias: [
+        {
+          nombre: "Joni",
+          apodo: "El Archivero / Jonas",
+          mensajes: "46.800+",
+          biografia: "Cronista oficial del historial, siempre atento a los datos, las hemerotecas y las pullas a tiempo.",
+          especialidad: "Hemeroteca, piques deportivos y estadísticas",
+          cita: "Con el Madrid de por medio, mayúsculas solo a partir del 6-0"
+        },
+        {
+          nombre: "Feme",
+          apodo: "El Presidente / Feme i López",
+          mensajes: "41.200+",
+          biografia: "Motor de las sagas y debates del grupo, capaz de soltar un mote o un giro de guion en cualquier hilo.",
+          especialidad: "Paellas cuestionadas, sagas y memes",
+          cita: "Demuestrale que polla manda en el oeste"
+        },
+        {
+          nombre: "Jorge",
+          apodo: "El Letrado / Chus",
+          mensajes: "44.500+",
+          biografia: "Abogado de oficio en las discusiones del chat, con réplicas afiladas y referencias televisivas.",
+          especialidad: "Argumentación legal, fútbol y series",
+          cita: "Aprenda a expresarse señor Moratal"
+        },
+        {
+          nombre: "Germi",
+          apodo: "El Director de la Manada / Mostro",
+          mensajes: "39.900+",
+          biografia: "Protagonista de mil anécdotas sin filtro, pronósticos arriesgados y vocabulario propio.",
+          especialidad: "Historias sin filtro, apuestas y palabrejas",
+          cita: "Por el culo no se considera infidelidad"
+        },
+        {
+          nombre: "Humpa",
+          apodo: "Unverto / El Centralista",
+          mensajes: "28.400+",
+          biografia: "Siempre presente con salidas de tono, debates políticos y anécdotas de primera mano.",
+          especialidad: "Salidas de tono y debates intensos",
+          cita: "al final harán que echemos de menos el bipartidismo"
+        },
+        {
+          nombre: "Héctor",
+          apodo: "La Voz de El Palmar",
+          mensajes: "21.100+",
+          biografia: "Apariciones certeras y momentos memorables dentro y fuera del campo.",
+          especialidad: "Apariciones clave y vaciles puntuales",
+          cita: "Putos frikis de mierda futboleros"
+        },
+        {
+          nombre: "Hugo",
+          apodo: "La Estrella en Ciernes",
+          mensajes: "27.600+",
+          biografia: "Capaz de irrumpir con una receta o una réplica inesperada en medio de cualquier discusión.",
+          especialidad: "Cocina, réplicas y lore TT",
+          cita: "Ye chavales, me ha salido buenísima, la foto no hace justicia"
+        },
+        {
+          nombre: "Miki",
+          apodo: "Mr Anfitrión Moratal",
+          mensajes: "35.300+",
+          biografia: "Anfitrión habitual de cenas y previas, intenso con el fútbol y siempre al pie del cañón.",
+          especialidad: "Previas, cenas y fútbol europeo",
+          cita: "He fumao tío"
+        },
+        {
+          nombre: "Marzal",
+          apodo: "JM / Marcial / Marsalet / Machalet",
+          mensajes: "26.600+",
+          biografia: "Centro de grandes sagas del grupo como La Pasión TTurca y siempre con mil motes encima.",
+          especialidad: "Grandes sagas y llegadas justas",
+          cita: "Menos gracia para bailar que una sera"
+        }
       ]
     };
 
-    // =========================================================================
-    // ESTADO DE LA APP
-    // =========================================================================
     let state = {
       player: localStorage.getItem("ttpedia_player") || "Joni",
       scores: JSON.parse(localStorage.getItem("ttpedia_scores") || "{}"),
@@ -1158,60 +1266,40 @@
       qIndex: 0,
       roundScore: 0,
       streak: 0,
-      currentModeTitle: ""
+      currentModeTitle: "",
+      flowMode: "quiz" // "quiz" | "pasion_tturca"
     };
 
-    // Inicializar fecha de hoy en el selector de Efeméride
-    const today = new Date();
-    const yyyy = today.getFullYear();
-    const mm = String(today.getMonth() + 1).padStart(2, "0");
-    const dd = String(today.getDate()).padStart(2, "0");
-    const datePicker = document.getElementById("efemDatePicker");
-    datePicker.value = `${yyyy}-${mm}-${dd}`;
-    updateEfemDateLabel();
-    datePicker.addEventListener("change", updateEfemDateLabel);
+    // Fecha fija de hoy (no seleccionable por el usuario)
+    const nowInit = new Date();
+    const mm = String(nowInit.getMonth() + 1).padStart(2, "0");
+    const dd = String(nowInit.getDate()).padStart(2, "0");
+    const mesesCortos = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
+    document.getElementById("efemDateLabel").textContent = `${parseInt(dd, 10)} ${mesesCortos[parseInt(mm, 10) - 1]} (${mm}-${dd})`;
 
-    function updateEfemDateLabel() {
-      const val = datePicker.value;
-      if (!val) return;
-      const [, m, d] = val.split("-");
-      const meses = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
-      document.getElementById("efemDateLabel").textContent = `${parseInt(d, 10)} ${meses[parseInt(m, 10) - 1]}`;
-    }
-
-    // =========================================================================
-    // CUENTA ATRÁS HASTA EL PRÓXIMO LUNES 00:00 (ESTRENOS DE CARTTELERA)
-    // =========================================================================
+    // Cuenta atrás hasta el próximo lunes 00:00
     function updateCountdown() {
       const now = new Date();
       const nextMonday = new Date(now);
-      const day = now.getDay(); // 0 = Domingo, 1 = Lunes
+      const day = now.getDay();
       const diff = day === 0 ? 1 : (8 - day);
       nextMonday.setDate(now.getDate() + diff);
       nextMonday.setHours(0, 0, 0, 0);
 
       const ms = Math.max(0, nextMonday - now);
-      const d = Math.floor(ms / (1000 * 60 * 60 * 24));
-      const h = Math.floor((ms / (1000 * 60 * 60)) % 24);
-      const m = Math.floor((ms / (1000 * 60)) % 60);
-      const s = Math.floor((ms / 1000) % 60);
-
-      document.getElementById("cdDays").textContent = String(d).padStart(2, "0");
-      document.getElementById("cdHours").textContent = String(h).padStart(2, "0");
-      document.getElementById("cdMins").textContent = String(m).padStart(2, "0");
-      document.getElementById("cdSecs").textContent = String(s).padStart(2, "0");
+      document.getElementById("cdDays").textContent = String(Math.floor(ms / 86400000)).padStart(2, "0");
+      document.getElementById("cdHours").textContent = String(Math.floor((ms / 3600000) % 24)).padStart(2, "0");
+      document.getElementById("cdMins").textContent = String(Math.floor((ms / 60000) % 60)).padStart(2, "0");
+      document.getElementById("cdSecs").textContent = String(Math.floor((ms / 1000) % 60)).padStart(2, "0");
     }
     setInterval(updateCountdown, 1000);
     updateCountdown();
 
-    // =========================================================================
-    // GESTIÓN DE JUGADOR Y RANKING
-    // =========================================================================
+    // Jugador y ranking
     document.getElementById("currentPlayerName").textContent = state.player;
 
     function openPlayerModal() {
-      const grid = document.getElementById("playerButtonsGrid");
-      grid.innerHTML = MIEMBROS.map(m => `
+      document.getElementById("playerButtonsGrid").innerHTML = MIEMBROS.map(m => `
         <button class="btn-secondary" style="${m === state.player ? 'border-color: var(--accent); color: var(--accent);' : ''}" onclick="selectPlayer('${m}')">
           ${m}
         </button>
@@ -1229,9 +1317,7 @@
 
     function addPoints(pts) {
       const todayKey = `${mm}-${dd}`;
-      if (!state.scores[state.player]) {
-        state.scores[state.player] = { global: 0, daily: {} };
-      }
+      if (!state.scores[state.player]) state.scores[state.player] = { global: 0, daily: {} };
       state.scores[state.player].global += pts;
       state.scores[state.player].daily[todayKey] = (state.scores[state.player].daily[todayKey] || 0) + pts;
       localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
@@ -1266,9 +1352,7 @@
       document.querySelectorAll(".modal-backdrop").forEach(el => el.classList.remove("open"));
     }
 
-    // =========================================================================
-    // NAVEGACIÓN ENTRE VISTAS
-    // =========================================================================
+    // Navegación
     function goHome() {
       document.getElementById("homeView").style.display = "block";
       document.getElementById("gameView").classList.remove("active");
@@ -1293,9 +1377,6 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    // =========================================================================
-    // CARGA DE JSON CON FALLBACK AUTOMÁTICO
-    // =========================================================================
     async function loadJsonSafe(url, fallback) {
       try {
         const res = await fetch(url);
@@ -1307,12 +1388,35 @@
     }
 
     function extractArray(data, fallback) {
-      if (Array.isArray(data)) return data;
+      if (Array.isArray(data) && data.length > 0) return data;
       if (!data || typeof data !== "object") return fallback;
       for (const k of ["preguntas", "items", "capitulos", "miembros", "perfiles", "datos", "rondas", "duelos"]) {
         if (Array.isArray(data[k]) && data[k].length > 0) return data[k];
       }
       return fallback;
+    }
+
+    // Convierte items temáticos (con o sin opciones) en preguntas tipo test reales
+    function toQuizItems(rawList, fallbackList, modeTag) {
+      const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
+      return shuffle(source).slice(0, 10).map(item => {
+        if (Array.isArray(item.opciones) && item.opciones.length >= 2 && typeof item.correcta === "number") {
+          return { type: modeTag, ...item };
+        }
+        const autorCorrecto = MIEMBROS.includes(item.autor) ? item.autor : "Germi";
+        const distractores = shuffle(MIEMBROS.filter(m => m !== autorCorrecto)).slice(0, 3);
+        const opciones = shuffle([autorCorrecto, ...distractores]);
+        return {
+          type: modeTag,
+          pregunta: item.pregunta || "¿Quién soltó esta perla en el grupo?",
+          cita: item.cita || "",
+          contexto: item.contexto || "",
+          opciones,
+          correcta: opciones.indexOf(autorCorrecto),
+          anio: item.anio || "Archivo TT",
+          explicacion: item.explicacion || item.contexto || `Lo dijo ${autorCorrecto}.`
+        };
+      });
     }
 
     function shuffle(arr) {
@@ -1325,15 +1429,14 @@
     }
 
     // =========================================================================
-    // MOTOR DE JUEGOS Y EFEMÉRIDE DEL DÍA
+    // EFEMÉRIDE DE HOY (SIN SELECTOR DE FECHA)
     // =========================================================================
     async function startEfemeride() {
-      const val = datePicker.value || `${yyyy}-${mm}-${dd}`;
-      const [, m, d] = val.split("-");
-      const mm_dd = `${m}-${d}`;
-      const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK_DATA.efemeride });
-      const pool = shuffle(extractArray(data, FALLBACK_DATA.efemeride)).slice(0, 10);
+      const mm_dd = `${mm}-${dd}`;
+      const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK.efemeride });
+      const pool = shuffle(extractArray(data, FALLBACK.efemeride)).slice(0, 10);
 
+      state.flowMode = "quiz";
       state.currentQuestions = pool.map(q => ({ type: "efemeride", ...q }));
       state.qIndex = 0;
       state.roundScore = 0;
@@ -1343,30 +1446,71 @@
       renderQuestion();
     }
 
+    // =========================================================================
+    // JUEGOS PRINCIPALES (CADA UNO CON SU JSON Y SU FALLBACK PROPIO)
+    // =========================================================================
     async function startGame(mode) {
-      let pool = [];
-      if (mode === "quien_dijo") {
-        const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: FALLBACK_DATA.quien_dijo });
-        pool = shuffle(extractArray(data, FALLBACK_DATA.quien_dijo)).slice(0, 10).map(q => ({ type: "quien_dijo", ...q }));
-        state.currentModeTitle = "💬 ¿Quién dijo esto?";
-      } else if (mode === "lo_dijo_o_no") {
-        const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK_DATA.lo_dijo_o_no });
-        pool = shuffle(extractArray(data, FALLBACK_DATA.lo_dijo_o_no)).slice(0, 10).map(q => ({ type: "lo_dijo_o_no", ...q }));
-        state.currentModeTitle = "⚖️ Lo dijo o no lo dijo";
-      } else if (mode === "rajaditta") {
-        const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK_DATA.rajaditta });
-        pool = shuffle(extractArray(data, FALLBACK_DATA.rajaditta)).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
-        state.currentModeTitle = "🤬 La RajadiTTa";
-      } else if (mode === "dato_justo") {
-        const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: FALLBACK_DATA.dato_justo });
-        pool = shuffle(extractArray(data, FALLBACK_DATA.dato_justo)).slice(0, 10).map(q => ({ type: "dato_justo", ...q }));
-        state.currentModeTitle = "🎯 El Dato Justo";
-      }
-
-      state.currentQuestions = pool;
+      state.flowMode = "quiz";
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
+
+      if (mode === "quien_dijo") {
+        const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: FALLBACK.quien_dijo });
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.quien_dijo), FALLBACK.quien_dijo, "quien_dijo");
+        state.currentModeTitle = "💬 ¿Quién dijo esto?";
+      } else if (mode === "lo_dijo_o_no") {
+        const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK.lo_dijo_o_no });
+        state.currentQuestions = shuffle(extractArray(data, FALLBACK.lo_dijo_o_no)).slice(0, 10).map(q => ({ type: "lo_dijo_o_no", ...q }));
+        state.currentModeTitle = "⚖️ Lo dijo o no lo dijo";
+      } else if (mode === "rajaditta") {
+        const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK.rajaditta });
+        state.currentQuestions = shuffle(extractArray(data, FALLBACK.rajaditta)).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
+        state.currentModeTitle = "🤬 La RajadiTTa";
+      } else if (mode === "dato_justo") {
+        const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: FALLBACK.dato_justo });
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.dato_justo), FALLBACK.dato_justo, "dato_justo");
+        state.currentModeTitle = "🎯 El Dato Justo";
+      }
+
+      showGameView(state.currentModeTitle);
+      renderQuestion();
+    }
+
+    // =========================================================================
+    // SECCIONES TEMÁTICAS COMO TRIVIA / PREGUNTAS
+    // =========================================================================
+    async function startSectionQuiz(sec) {
+      const meta = {
+        pornopedia: { title: "🔞 Pornopedia · Quiz +18", fb: FALLBACK.pornopedia },
+        comidistta: { title: "🍽️ El ComidisTTa · Quiz Gastro", fb: FALLBACK.comidistta },
+        zona_vox: { title: "🟩 Zona VOX · Quiz Archivo", fb: FALLBACK.zona_vox }
+      }[sec];
+
+      const data = await loadJsonSafe(DATA_PATHS[sec], { items: meta.fb });
+      state.flowMode = "quiz";
+      state.currentQuestions = toQuizItems(extractArray(data, meta.fb), meta.fb, sec);
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.streak = 0;
+      state.currentModeTitle = meta.title;
+      showGameView(state.currentModeTitle);
+      renderQuestion();
+    }
+
+    // =========================================================================
+    // LA PASIÓN TTURCA — CAPÍTULO A CAPÍTULO DESDE EL 1
+    // =========================================================================
+    async function startPasionTTurca() {
+      const data = await loadJsonSafe(DATA_PATHS.pasion_tturca, { capitulos: FALLBACK.pasion_tturca });
+      const caps = [...extractArray(data, FALLBACK.pasion_tturca)].sort((a, b) => (a.numero || 0) - (b.numero || 0));
+
+      state.flowMode = "pasion_tturca";
+      state.currentQuestions = caps.map((c, idx) => ({ type: "pasion_tturca", numero: c.numero || idx + 1, ...c }));
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.streak = 0;
+      state.currentModeTitle = "🎬 Estrenos de CarTTelera · La Pasión TTurca";
       showGameView(state.currentModeTitle);
       renderQuestion();
     }
@@ -1379,7 +1523,7 @@
         container.innerHTML = `
           <div style="text-align:center; padding: 18px 8px;">
             <div style="font-size: 42px; margin-bottom: 10px;">🏁</div>
-            <h3 style="font-size: 24px; font-weight: 900; margin-bottom: 6px;">¡Ronda completada, ${state.player}!</h3>
+            <h3 style="font-size: 24px; font-weight: 900; margin-bottom: 6px;">¡Finalizado, ${state.player}!</h3>
             <p style="color: var(--muted); margin-bottom: 18px;">Has sumado <strong style="color:var(--accent);">${state.roundScore} puntos</strong> en ${state.currentModeTitle}.</p>
             <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
               <button class="btn-primary" onclick="copyShareSummary()">📋 Copiar resultado para WhatsApp</button>
@@ -1395,8 +1539,21 @@
       let promptHtml = "";
       let options = [];
       let correctIdx = 0;
+      let metaLeft = `Pregunta <strong>${state.qIndex + 1}</strong> de ${total}`;
+      let metaRight = `Año: <strong>${q.anio || "Lore TT"}</strong>`;
 
-      if (q.type === "rajaditta") {
+      if (q.type === "pasion_tturca") {
+        metaLeft = `Capítulo <strong>${q.numero}</strong> de ${total}`;
+        metaRight = `Fecha: <strong>${q.fecha || "Erasmus"}</strong>`;
+        promptHtml = `
+          <div style="color:var(--accent); font-size:12px; font-weight:800; text-transform:uppercase; margin-bottom:4px;">
+            Capítulo ${q.numero} · ${q.titulo_capitulo || ""}
+          </div>
+          <div style="font-weight:700; font-size:17px;">${q.pregunta}</div>
+        `;
+        options = q.opciones;
+        correctIdx = q.correcta;
+      } else if (q.type === "rajaditta") {
         const formattedQuote = (q.cita || "").replace(/\*\*\*/g, '<span class="censored">[CENSURADO]</span>');
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">¿A quién está poniendo fino <span style="color:var(--accent);">${q.agresor}</span>?</div>
@@ -1410,7 +1567,7 @@
       } else if (q.type === "lo_dijo_o_no") {
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">2 verdades y 1 impostor sobre <span style="color:var(--accent);">${q.miembro}</span>: ¿cuál NO dijo?</div>
-          <p style="font-size:13px; color:var(--muted); margin: 6px 0 14px;">Pulsa sobre la frase que pertenece a otro miembro del grupo:</p>
+          <p style="font-size:13px; color:var(--muted); margin: 6px 0 14px;">Pulsa sobre la frase que pertenece a otro compañero:</p>
         `;
         options = q.frases.map(f => `“${f}”`);
         correctIdx = q.impostor;
@@ -1423,10 +1580,14 @@
         correctIdx = q.correcta;
       }
 
+      const nextLabel = (q.type === "pasion_tturca" && state.qIndex + 1 < total)
+        ? `Pasar al Capítulo ${q.numero + 1} →`
+        : "Siguiente →";
+
       container.innerHTML = `
         <div class="quiz-meta">
-          <span>Pregunta <strong>${state.qIndex + 1}</strong> de ${total}</span>
-          <span>Año: <strong>${q.anio || "Lore TT"}</strong></span>
+          <span>${metaLeft}</span>
+          <span>${metaRight}</span>
         </div>
         ${promptHtml}
         <div class="options-list">
@@ -1436,7 +1597,7 @@
         </div>
         <div class="feedback-box" id="feedbackBox"></div>
         <div style="margin-top: 16px; text-align: right; display: none;" id="nextBtnWrap">
-          <button class="btn-primary" onclick="nextQuestion()">Siguiente →</button>
+          <button class="btn-primary" onclick="nextQuestion()">${nextLabel}</button>
         </div>
       `;
     }
@@ -1463,11 +1624,26 @@
       document.getElementById("gameScorePill").textContent = `${state.roundScore} pts · Racha ${state.streak}`;
 
       const fb = document.getElementById("feedbackBox");
-      let extraText = q.explicacion || q.contexto || "";
-      if (q.type === "rajaditta" && q.cita_sin_censura) {
-        extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”<br><span style="color:var(--muted);">${q.contexto || ""}</span>`;
+      if (q.type === "pasion_tturca") {
+        const citasHtml = Array.isArray(q.citas_reales) && q.citas_reales.length > 0
+          ? `<div class="quotes-list">${q.citas_reales.map(c => `<div class="quote-chip">“${c}”</div>`).join("")}</div>`
+          : "";
+        fb.innerHTML = `
+          <div>${isOk ? "✅ <strong>¡Respuesta correcta!</strong> Capítulo desbloqueado." : "❌ <strong>No era esa.</strong> Aquí tienes la crónica del capítulo:"}</div>
+          <div class="relato-box">
+            <strong style="color:var(--accent); display:block; margin-bottom:4px;">Contexto y crónica del capítulo ${q.numero}:</strong>
+            ${q.relato_desbloqueado || ""}
+            ${citasHtml}
+          </div>
+        `;
+      } else {
+        let extraText = q.explicacion || q.contexto || "";
+        if (q.type === "rajaditta" && q.cita_sin_censura) {
+          extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”<br><span style="color:var(--muted);">${q.contexto || ""}</span>`;
+        }
+        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:4px;">${extraText}</div>`;
       }
-      fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:4px;">${extraText}</div>`;
+
       fb.classList.add("show");
       document.getElementById("nextBtnWrap").style.display = "block";
     }
@@ -1486,26 +1662,48 @@
     }
 
     // =========================================================================
-    // SECCIONES TEMÁTICAS, CARTTELERA Y ENCICLOPEDIA
+    // ENCICLOPEDIA INTERACTIVA (AL PULSAR ABRE SU FICHA)
     // =========================================================================
-    async function openCarttelera() {
-      const data = await loadJsonSafe(DATA_PATHS.carttelera, { capitulos: FALLBACK_DATA.carttelera });
-      const caps = extractArray(data, FALLBACK_DATA.carttelera);
-      showSectionView(
-        "🎬 Estrenos de CarTTelera · La Balada de Marzal y la Turca",
-        `<button class="btn-secondary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>`
-      );
+    let enciclopediaList = [];
 
-      document.getElementById("sectionContent").innerHTML = caps.map(c => `
-        <div class="archive-item">
-          <div class="archive-head">
-            <span style="color:var(--accent); font-weight:800;">CAPÍTULO ${c.cap || c.numero || ""}</span>
-            <span>${c.anio || c.fecha || ""}</span>
-          </div>
-          <h4 style="font-size:17px; margin-bottom:6px;">${c.titulo || c.titulo_capitulo || ""}</h4>
-          <p style="font-size:14px; color:#cbd5e1;">${c.resumen || c.relato_desbloqueado || ""}</p>
+    async function openEnciclopedia() {
+      const data = await loadJsonSafe(DATA_PATHS.biografias, { miembros: FALLBACK.biografias });
+      enciclopediaList = extractArray(data, FALLBACK.biografias);
+      showSectionView("📖 Enciclopedia TT · Pulsa un perfil");
+
+      document.getElementById("sectionContent").innerHTML = `
+        <div class="member-grid">
+          ${enciclopediaList.map((m, idx) => `
+            <div class="member-card" onclick="openMemberDetail(${idx})">
+              <h4>${m.nombre}</h4>
+              <div class="member-role">${m.apodo || ""}</div>
+              <div class="member-stats">
+                ${m.mensajes ? `<span class="stat-tag">💬 ${m.mensajes}</span>` : ""}
+              </div>
+              <p style="font-size:13px; color:#cbd5e1; margin-bottom:10px;">${m.especialidad || ""}</p>
+              <div style="font-size:12px; color:var(--accent); font-weight:700;">Ver ficha completa →</div>
+            </div>
+          `).join("")}
         </div>
-      `).join("");
+      `;
+    }
+
+    function openMemberDetail(idx) {
+      const m = enciclopediaList[idx];
+      if (!m) return;
+      document.getElementById("memberModalCard").innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:10px; margin-bottom:10px;">
+          <div>
+            <h3 style="margin:0; color:var(--accent);">${m.nombre}</h3>
+            <div style="font-size:12.5px; color:var(--muted);">${m.apodo || ""}</div>
+          </div>
+          <button class="btn-secondary" style="padding:5px 10px;" onclick="closeModals()">✕</button>
+        </div>
+        ${m.mensajes ? `<div class="stat-tag" style="display:inline-block; margin-bottom:12px;">💬 Mensajes en archivo: ${m.mensajes}</div>` : ""}
+        <p style="font-size:14px; color:#e2e8f0; margin-bottom:12px;">${m.biografia || m.especialidad || "Miembro histórico del Triangulito Team."}</p>
+        ${m.cita ? `<div class="quote-box" style="margin:10px 0 0; font-size:14px;">“${m.cita}”</div>` : ""}
+      `;
+      document.getElementById("memberModal").classList.add("open");
     }
 
     function openVoteSaga() {
@@ -1536,50 +1734,6 @@
       localStorage.setItem("ttpedia_votes", JSON.stringify(state.votes));
       showToast(`Voto registrado para ${state.player}`);
       openVoteSaga();
-    }
-
-    async function openSection(sec) {
-      if (sec === "enciclopedia") {
-        const data = await loadJsonSafe(DATA_PATHS.enciclopedia, { miembros: FALLBACK_DATA.enciclopedia });
-        const list = extractArray(data, FALLBACK_DATA.enciclopedia);
-        showSectionView("📖 Enciclopedia TT");
-        document.getElementById("sectionContent").innerHTML = `
-          <div class="member-grid">
-            ${list.map(m => `
-              <div class="member-card">
-                <h4>${m.nombre}</h4>
-                <div class="member-role">${m.apodo || ""}</div>
-                <div class="member-stats">
-                  ${m.mensajes ? `<span class="stat-tag">💬 ${m.mensajes}</span>` : ""}
-                </div>
-                <p style="font-size:13px; color:#cbd5e1; margin-bottom:10px;">${m.especialidad || m.biografia || ""}</p>
-                ${m.cita ? `<div style="font-size:12.5px; color:var(--accent); font-style:italic;">“${m.cita}”</div>` : ""}
-              </div>
-            `).join("")}
-          </div>
-        `;
-        return;
-      }
-
-      const titles = {
-        pornopedia: "🔞 Pornopedia · Archivo +18",
-        comidistta: "🍽️ El ComidisTTa · Gastronomía TT",
-        zona_vox: "🟩 Zona VOX · Salidas de tono"
-      };
-      const data = await loadJsonSafe(DATA_PATHS[sec], { items: FALLBACK_DATA[sec] });
-      const items = extractArray(data, FALLBACK_DATA[sec]);
-      showSectionView(titles[sec]);
-
-      document.getElementById("sectionContent").innerHTML = items.map(it => `
-        <div class="archive-item">
-          <div class="archive-head">
-            <strong style="color:var(--accent);">${it.autor || "Archivo TT"}</strong>
-            <span>${it.anio || ""}</span>
-          </div>
-          <p style="font-size:15px; font-weight:600; margin-bottom:6px;">“${it.cita}”</p>
-          ${it.contexto ? `<p style="font-size:13px; color:var(--muted);">${it.contexto}</p>` : ""}
-        </div>
-      `).join("");
     }
 
     function showToast(msg) {
