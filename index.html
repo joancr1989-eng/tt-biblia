@@ -448,7 +448,7 @@
       padding: 16px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       gap: 12px;
     }
 
@@ -487,19 +487,6 @@
       font-size: 10px;
       color: var(--muted);
       text-transform: uppercase;
-    }
-
-    .next-preview {
-      border-top: 1px dashed var(--border);
-      padding-top: 10px;
-      font-size: 12.5px;
-      color: var(--muted);
-    }
-
-    .next-preview strong {
-      color: var(--text);
-      display: block;
-      margin-bottom: 2px;
     }
 
     /* VIEW PANELS */
@@ -772,7 +759,7 @@
         <div class="efem-info">
           <div class="efem-tag">📅 Reto Diario Oficial</div>
           <h2>Efeméride del Día</h2>
-          <p>Lo que ocurrió exactamente un día como hoy en el archivo del grupo a lo largo de los años.</p>
+          <p>Todas las preguntas extraídas de lo que ocurrió exactamente un día como hoy en el archivo del grupo.</p>
         </div>
         <div class="efem-controls">
           <button class="btn-primary" onclick="startEfemeride()">Jugar Efeméride de Hoy</button>
@@ -861,7 +848,6 @@
                 <div class="cd-cell"><span class="cd-num" id="cdSecs">00</span><span class="cd-unit">Seg</span></div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -1283,18 +1269,14 @@
       return a;
     }
 
-    // Oculta el autor en el mensaje previo (ej. "Respuesta de Germi: «...»" o "Joni: ...")
-    // y evita mostrarlo si simplemente duplica la cita principal
     function sanitizePrevContext(contexto, cita) {
       if (!contexto) return "";
       let clean = String(contexto).trim();
-      // Elimina prefijos tipo "Respuesta de Germi:", "Mensaje de Joni:", "Germi:"
       clean = clean.replace(/^(Respuesta de|Mensaje de|Dicho por|Contesta|Responde)\s+[^:]+:\s*/i, "");
       const namePattern = ALIAS_NOMBRES.join("|");
       clean = clean.replace(new RegExp(`^(${namePattern})\s*:\s*`, "i"), "");
       clean = clean.replace(/^[«"“]+|[»"”]+$/g, "").trim();
 
-      // Si tras limpiar es prácticamente igual a la cita principal, no lo mostramos
       const normClean = clean.toLowerCase().replace(/[^a-z0-9]/g, "");
       const normCita = String(cita || "").toLowerCase().replace(/[^a-z0-9]/g, "");
       if (!clean || (normCita && normClean.includes(normCita.slice(0, 20)))) {
@@ -1303,7 +1285,6 @@
       return clean;
     }
 
-    // Genera 4 opciones numéricas plausibles alrededor de un valor exacto
     function buildNumericOptions(exactNum) {
       const n = Math.max(0, Math.round(Number(exactNum)));
       const set = new Set([n]);
@@ -1326,9 +1307,7 @@
       return { opciones: arr, correcta: arr.indexOf(corrStr) };
     }
 
-    // Normalizador inteligente de preguntas (soporta El Dato Justo con duelos/cifras, Lo dijo o no lo dijo y categorías)
     function normalizeQuizItem(item, modeTag) {
-      // 0) Si es "lo_dijo_o_no" con formato frases + impostor
       if (modeTag === "lo_dijo_o_no") {
         const listFrases = item.frases || item.citas || item.afirmaciones;
         if (Array.isArray(listFrases) && listFrases.length >= 2) {
@@ -1345,7 +1324,6 @@
         }
       }
 
-      // 1) Si ya trae opciones array (soporta correcta como índice numérico o como valor exacto)
       if (Array.isArray(item.opciones) && item.opciones.length >= 2) {
         let corrIdx = -1;
         const candidates = [item.correcta, item.respuesta_correcta, item.respuesta, item.ganador, item.impostor, item.valor_real];
@@ -1363,9 +1341,18 @@
           }
         }
         if (corrIdx >= 0 && corrIdx < item.opciones.length) {
+          let memberName = item.miembro || item.autor || item.protagonista || item.jugador || "";
+          if (!memberName && modeTag === "lo_dijo_o_no" && item.pregunta) {
+            const mMatch = String(item.pregunta).match(new RegExp(`\b(${MIEMBROS.join("|")})\b`, "i"));
+            if (mMatch) memberName = mMatch[1];
+          }
+          const finalPregunta = (modeTag === "lo_dijo_o_no" && (!item.pregunta || item.pregunta.trim() === "¿Cuál es la respuesta correcta?"))
+            ? (memberName ? `¿Qué frase NO dijo ${memberName} (o cuál es la impostora)?` : "¿Qué frase es la impostora en este lote?")
+            : (item.pregunta || "¿Cuál es la respuesta correcta?");
+
           return {
             type: modeTag === "lo_dijo_o_no" ? "quiz_generic" : modeTag,
-            pregunta: item.pregunta || "¿Cuál es la respuesta correcta?",
+            pregunta: finalPregunta,
             cita: item.cita || "",
             contexto: item.contexto || item.mensaje_previo || "",
             opciones: item.opciones,
@@ -1376,7 +1363,6 @@
         }
       }
 
-      // 2) Formato duelo A vs B (habitual en El Dato Justo)
       const optA = item.opcion_a || item.termino_a || item.a || item.personaje_a;
       const optB = item.opcion_b || item.termino_b || item.b || item.personaje_b;
       if (optA && optB) {
@@ -1398,7 +1384,6 @@
         };
       }
 
-      // 3) Formato numérico de El Dato Justo ("¿Cuántas veces...?") sin array de opciones
       const numFields = [item.respuesta_exacta, item.valor_real, item.respuesta_real, item.numero, item.cantidad, item.total, item.menciones, item.valor, item.respuesta, item.correcta];
       const rawNum = numFields.find(v => v !== undefined && v !== null && v !== "" && !isNaN(Number(v)));
       if (modeTag === "dato_justo" && rawNum !== undefined) {
@@ -1415,7 +1400,6 @@
         };
       }
 
-      // 4) Fallback para frases con autor (Pornopedia, ComidisTTa, Zona VOX, ¿Quién dijo esto?)
       const autorCorrecto = MIEMBROS.includes(item.autor) ? item.autor : "Germi";
       const distractores = shuffle(MIEMBROS.filter(m => m !== autorCorrecto)).slice(0, 3);
       const opciones = shuffle([autorCorrecto, ...distractores]);
@@ -1431,20 +1415,22 @@
       };
     }
 
-    function toQuizItems(rawList, fallbackList, modeTag) {
+    function toQuizItems(rawList, fallbackList, modeTag, maxItems = 10) {
       const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
-      return shuffle(source).slice(0, 10).map(item => normalizeQuizItem(item, modeTag));
+      const barajadas = shuffle(source);
+      const seleccion = (typeof maxItems === "number" && maxItems > 0) ? barajadas.slice(0, maxItems) : barajadas;
+      return seleccion.map(item => normalizeQuizItem(item, modeTag));
     }
 
     // =========================================================================
-    // EFEMÉRIDE DE HOY
+    // EFEMÉRIDE DE HOY — MUESTRA TODAS LAS PREGUNTAS DEL JSON DEL DÍA
     // =========================================================================
     async function startEfemeride() {
       const mm_dd = `${mm}-${dd}`;
       const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK.efemeride });
       state.flowMode = "quiz";
       state.lastAction = () => startEfemeride();
-      state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.efemeride), FALLBACK.efemeride, "efemeride");
+      state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.efemeride), FALLBACK.efemeride, "efemeride", null);
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
@@ -1465,11 +1451,11 @@
 
       if (mode === "quien_dijo") {
         const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: FALLBACK.quien_dijo });
-        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.quien_dijo), FALLBACK.quien_dijo, "quien_dijo");
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.quien_dijo), FALLBACK.quien_dijo, "quien_dijo", 10);
         state.currentModeTitle = "💬 ¿Quién dijo esto?";
       } else if (mode === "lo_dijo_o_no") {
         const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK.lo_dijo_o_no });
-        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.lo_dijo_o_no), FALLBACK.lo_dijo_o_no, "lo_dijo_o_no");
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.lo_dijo_o_no), FALLBACK.lo_dijo_o_no, "lo_dijo_o_no", 10);
         state.currentModeTitle = "⚖️ Lo dijo o no lo dijo";
       } else if (mode === "rajaditta") {
         const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK.rajaditta });
@@ -1477,7 +1463,7 @@
         state.currentModeTitle = "🤬 La RajadiTTa";
       } else if (mode === "dato_justo") {
         const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: FALLBACK.dato_justo });
-        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.dato_justo), FALLBACK.dato_justo, "dato_justo");
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.dato_justo), FALLBACK.dato_justo, "dato_justo", 10);
         state.currentModeTitle = "🎯 El Dato Justo";
       }
 
@@ -1498,7 +1484,7 @@
       const data = await loadJsonSafe(DATA_PATHS[sec], { items: meta.fb });
       state.flowMode = "quiz";
       state.lastAction = () => startSectionQuiz(sec);
-      state.currentQuestions = toQuizItems(extractArray(data, meta.fb), meta.fb, sec);
+      state.currentQuestions = toQuizItems(extractArray(data, meta.fb), meta.fb, sec, 10);
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
