@@ -1,0 +1,462 @@
+{
+  "fecha": "07-10",
+  "total_mensajes_dia": 376,
+  "total_preguntas": 35,
+  "preguntas": [
+    {
+      "pregunta": "En julio de 2014, tras la semifinal del Mundial donde Argentina eliminó en penaltis a Países Bajos, ¿quién celebró con júbilo la eliminación neerlandesa?",
+      "cita": "A la puta calle Holanda! Siiii",
+      "opciones": [
+        "Jorge",
+        "Miki",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki celebró efusivamente que Holanda cayera eliminada ante la Argentina de Messi en la tanda de penaltis del Mundial 2014.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "En 2014, a raíz de una foto con pinta de malote de Humberto, ¿quién lo presentó como si fuera un caso extremo del programa 'Hermano Mayor'?",
+      "cita": "Hoy en hermano mayor... humpasca \" el dictador\"",
+      "opciones": [
+        "Feme",
+        "Jorge",
+        "Joni",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme hizo la narración parodiando la voz en off de Hermano Mayor describiendo a Humpa como un auténtico tirano doméstico.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "A la hora de preparar una buena comilona en 2014, ¿quién detalló el contundente menú con embutido y chuletas?",
+      "cita": "Butifarreta, llonganiseta, chulletes de palo, samorra, cacues",
+      "opciones": [
+        "Feme",
+        "Germi",
+        "Hugo",
+        "Miki"
+      ],
+      "correcta": 2,
+      "explicacion": "Hugo enumeró todos los manjares típicos valencianos que iban a disfrutar en la torrà.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "En pleno mercado de fichajes culé de 2014, ¿hacia qué exjugador del Barça confesó Joni tener mucho más rencor que hacia Alexis Sánchez?",
+      "cita": "Le guardo más rencor a cesc que a alexis, el tio al menos lo veías que lo intentaba",
+      "opciones": [
+        "Cesc",
+        "Song",
+        "Pedro",
+        "Tello"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni defendió el esfuerzo de Alexis mientras criticaba la desidia que transmitía Cesc Fàbregas en sus últimos meses.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Debatiendo sobre la televisión pública en 2015, ¿a quién acusó Joni de conformarse simplemente con tener Barça TV para ver niños?",
+      "cita": "Dice germán que a él con que le pongan Barça tv y poder ver los mejores goles del alevin C le vale",
+      "opciones": [
+        "Jorge",
+        "Humpa",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni bromeó con que a Germi le daba igual TV3 y la política con tal de tener Barça TV para mirar los goles del alevín C.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "En 2015, recordando un ligue de Marzal, ¿quién aprovechó para mofarse sin piedad de la chica comparándola con una que salía en pantalla?",
+      "cita": "Marzal veus a esta vasca? Pues la teua era la germana lletja de la familia",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Feme",
+        "Hugo"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni no tuvo piedad al comparar a la chica que conoció Marzal con la supuesta hermana fea de la familia.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "En Wimbledon 2017, tras la derrota de Nadal ante Gilles Müller, Hugo llamó 'puto alemán' al verdugo. ¿Quién le corrigió de inmediato?",
+      "cita": "De Luxemburgo mostro, un respeto a la leyenda",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Joni",
+        "Germi"
+      ],
+      "correcta": 2,
+      "explicacion": "Hugo lo confundió con un tenista alemán y Joni le puntualizó al instante que Gilles Müller era la leyenda de Luxemburgo.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "En julio de 2017, organizando las salidas de fiesta veraniegas, ¿qué mítico plan con piscina propuso Germi?",
+      "cita": "6 de agosto Eden o que???",
+      "opciones": [
+        "Falkata",
+        "Eden",
+        "Bacarrá",
+        "Varadero"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi intentó liar al grupo para ir el 6 de agosto a la fiesta de la piscina del Eden.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "En 2018, Joni contó que se cruzó con TTino en moto yendo de forma temeraria mientras saludaba. ¿Quién iba de copiloto mirándole con cara de circunstancias?",
+      "cita": "Ir por la calle, cruzarme con TTino con la moto, que suelte el manillar y gire la cabeza para saludarme descojonao de la risa mientras la madre de Germán, de paquete, le mira con cara de puto tarado",
+      "opciones": [
+        "La abuela de Joni",
+        "La madre de Germán",
+        "La madre de Feme",
+        "La hermana de Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni presenció a TTino soltando el manillar en marcha para saludarle con la madre de Germi de paquete mirando anonadada.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Según relató Joni en 2018, ¿a qué famoso futbolista de élite le sacó parecido su padre mientras veía 'Los Serrano' en FDF?",
+      "cita": "Ojo que mi padre el otro día viendo los serrano (que se los graba de fdf) dijo que fran perea se parecía a Fàbregas",
+      "opciones": [
+        "Iniesta",
+        "Fàbregas",
+        "Xavi",
+        "Torres"
+      ],
+      "correcta": 1,
+      "explicacion": "El padre de Joni, viendo episodios grabados de Los Serrano, afirmó convencido que Fran Perea se parecía a Cesc Fàbregas.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "El grupo hacía planes para ver el Mundial y cenar esperando la llegada de Germi a Gandía. ¿Con qué bomba respondió Germi a las 17:12 de la tarde?",
+      "cita": "Chavales me acabo de levantar",
+      "opciones": [
+        "Chavales me acabo de levantar",
+        "He pinchado rueda de camino",
+        "Me han puesto guardia sorpresa",
+        "Me quedo durmiendo en Valencia"
+      ],
+      "correcta": 0,
+      "explicacion": "Mientras todos hacían cábalas con su hora de llegada, Germán soltó a las 5 de la tarde que se acababa de despertar de la siesta o resaca.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Tras una exhibición en el Mundial 2018, ¿quién elevó a Kylian Mbappé muy por encima de Neymar con su habitual sutileza verbal?",
+      "cita": "Ahora mismo Neymar le come los cojones a Mbape",
+      "opciones": [
+        "Feme",
+        "Jorge",
+        "Joni",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme se rindió al partidazo y momento de forma de Kylian Mbappé dejándolo bien claro en el grupo.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Tras un debate sobre pensiones en 2019, ¿qué particular tasa impositiva propuso Jorge para sanear las cuentas públicas?",
+      "cita": "Impuesto para las pensiones / A todas las actividades de ocio de los viejos",
+      "opciones": [
+        "Un 10% a todas las actividades de ocio de los viejos",
+        "Un recargo al IMSERSO",
+        "Copago en los parques y petancas",
+        "Un 20% a los cafés del hogar del jubilado"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge propuso en tono cómico gravar con un 10% cualquier actividad de ocio de la tercera edad para costear las pensiones.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "Hablando de manías futboleras, ¿qué surrealista anécdota relató Humpa sobre su pareja Sandra durante un partido de la selección?",
+      "cita": "Contra croacia íbamos 3 a 1 , llegó de mercadona y nos empataron . Y ella sola dijo...vale me vuelvo a mercadona",
+      "opciones": [
+        "Tuvo que quedarse encerrada en el baño toda la prórroga",
+        "Llegó de Mercadona con 3-1, empataron y se volvió a ir al Mercadona",
+        "Se puso la camiseta al revés y no pudo hablar en 45 minutos",
+        "Le obligó a apagar la tele y ver el resultado por Twitter"
+      ],
+      "correcta": 1,
+      "explicacion": "Humpa contó que Sandra asumió la maldición tras el empate de Croacia y decidió marcharse voluntariamente de vuelta a la compra.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Tras la investidura del nuevo alcalde de Gandía en julio de 2021, ¿qué mote fallero e irónico le adjudicó Joni de inmediato?",
+      "cita": "José Faller Prieto, primer alcalde gayer de Gandía, toma su primera medida : no ir por la calle sin blusón fallero será motivo de cárcel.",
+      "opciones": [
+        "José Faller Prieto",
+        "Prieto el Pirotécnico",
+        "El Blusón Mayor",
+        "Alcalde Masclet"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni bromeó con la vinculación fallera de José Manuel Prieto inventando un falso titular cómico sobre Gandía.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Para no herir sensibilidades en el grupo tras el cambio en la alcaldía de Gandía, ¿cómo denominó Joni a los defensores acérrimos del nuevo mandatario?",
+      "cita": "Voy a crear un grupo paralelo a este para cuando haya que criticar algo de José Faller Prieto, que aquí consta que hay muchos prietliebers",
+      "opciones": [
+        "Prietliebers",
+        "GandiaLovers",
+        "Falleritos",
+        "Socialprietistas"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni bautizó a los defensores de José Manuel Prieto como 'prietliebers' al estilo de las fans de Justin Bieber.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En 2021, haciendo risas con los sketches virales de Jero Freixas sobre cábalas, ¿quién transcribió el famoso diálogo del vinito y la picadita?",
+      "cita": "Primer partido con la camiseta de Argentina, vinito y pocadita y no ganamo. Segundo partido sin la camiseta, sin vinito y sin picasita y ganmos. Porque tengo que ir con los chicos ahora?",
+      "opciones": [
+        "Germi",
+        "Jorge",
+        "Joni",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi se vio el vídeo cinco veces seguidas y transcribió el diálogo calcado imitando el acento argentino de Freixas.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué célebre personaje animado de ciencia ficción sacó Feme a relucir tras un vídeo que pasó Jorge en 2022?",
+      "cita": "Zap Branigan",
+      "opciones": [
+        "Zap Branigan",
+        "Bender",
+        "Capitán Cavernícola",
+        "Homer Simpson"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge compartió un enlace de YouTube y Feme enseguida identificó al incompetente y ególatra militar de Futurama, catalogándolo como 'tremebundo personaje'.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Quién se quejó del tiempo con un escueto 'Vaya olita de calor. Joder….' en julio de 2022?",
+      "cita": "Vaya olita de calor. Joder….",
+      "opciones": [
+        "Miki",
+        "Joni",
+        "Germi",
+        "Héctor"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki apareció por la noche sufriendo las sofocantes temperaturas del verano de 2022.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "En pleno mediodía de julio de 2022, ¿qué copa de primera hora compartían Jorge y Miki?",
+      "cita": "Más vodka con naranja?",
+      "opciones": [
+        "Vodka con naranja",
+        "Gin tonic",
+        "Ron con limón",
+        "Destornillador con tequila"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki y Jorge arrancaron el festín veraniego con sendos vasos de vodka con zumo de naranja.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Tras el golazo de Lamine Yamal a Francia en la Eurocopa 2024, ¿en qué categoría histórica lo colocó Joni?",
+      "cita": "Ye, pero el gol de Lamine que desfase, y en que momento. Top3 goles de España en grandes torneos",
+      "opciones": [
+        "El mejor gol de la historia de España",
+        "Top3 goles de España en grandes torneos",
+        "El segundo mejor tras el de Iniesta",
+        "Un gol de chiripa que no volverá a meter"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni no dudó en meter el zarpazo de Lamine Yamal directamente en el podio histórico de los goles de la selección española en torneos importantes.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Debatiendo sobre el rival para la final de la Eurocopa 2024, ¿cómo definió Joni a la selección de Inglaterra comparándola con Francia?",
+      "cita": "A ver, Inglaterra por un lado da respeto porque tiene tíos muy buenos, pero como equipo es una banda diez veces peor que Francia eh",
+      "opciones": [
+        "Una auténtica apisonadora táctica",
+        "Un equipo con mucho oficio y suerte",
+        "Una banda diez veces peor que Francia eh",
+        "Los favoritos indiscutibles del torneo"
+      ],
+      "correcta": 2,
+      "explicacion": "Para Joni, a pesar de las estrellas individuales que tenía Inglaterra, tácticamente funcionaban como una auténtica banda si se les comparaba con los galos.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Ante la semifinal entre Países Bajos e Inglaterra, ¿qué mítica frase atribuida a Mendilibar soltó Jorge sobre lo que deseaba que pasara?",
+      "cita": "Que se maten (Mendilibar)",
+      "opciones": [
+        "Que gane el mejor",
+        "Que se maten (Mendilibar)",
+        "Que haya prórroga y penaltis",
+        "Fútbol champagne"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge tiró de la famosa filosofía de Mendilibar esperando que ingleses y neerlandeses se destrozaran físicamente en su semifinal.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Qué lema triunfal exclamó Germi tras confirmarse el pase a la final de la Eurocopa 2024?",
+      "cita": "Autopista hasta el cielo.... ROAD TO BERLIN",
+      "opciones": [
+        "A por la cuarta copa",
+        "Autopista hasta el cielo.... ROAD TO BERLIN",
+        "Ya nos vemos en Cibeles",
+        "Directos a Neptuno chavales"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi se vino arriba celebrando el billete a la gran final con su 'Autopista hasta el cielo.... ROAD TO BERLIN'.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Qué revelación higiénica o confesión juvenil soltó Feme en pleno debate matutino en 2024?",
+      "cita": "“Yo con 16 años descubrí la diferencia entre Champú y gel”",
+      "opciones": [
+        "“Yo hasta los 18 no usaba desodorante”",
+        "“Yo con 16 años descubrí la diferencia entre Champú y gel”",
+        "“Yo pensaba que el acondicionador era para la ropa”",
+        "“Yo me lavaba el pelo con jabón Lagarto”"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme dejó esta perla en el grupo, citando o reconociendo cuándo descubrió que el champú y el gel no eran exactamente lo mismo.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Humpa admitió que hacía muchísimo tiempo que no disfrutaba tanto con el fútbol, ¿a quién le dio las 'gracias' de forma irónica?",
+      "cita": "Yo hacía muchísimo que no lo hacía ( gracias Barça )",
+      "opciones": [
+        "gracias Simeone",
+        "gracias Barça",
+        "gracias Florentino",
+        "gracias Valencia CF"
+      ],
+      "correcta": 1,
+      "explicacion": "Humpa bromeó con que la sequía de alegrías que le daba el Barça en los últimos tiempos hacía que disfrutase el doble con la Selección.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Burlándose de que Canadá estuviera en semifinales de la Copa América, ¿a qué tres deportistas no futbolistas colocó Joni en su alineación?",
+      "cita": "Hombre, te toca Canadá en semis y ojo, que tienen a Lance Stroll, Milos Raonic y Steve Nash",
+      "opciones": [
+        "Lance Stroll, Milos Raonic y Steve Nash",
+        "Wayne Gretzky, Denis Shapovalov y Alphonso Davies",
+        "Jacques Villeneuve, Steve Nash y Bryan Adams",
+        "Milos Raonic, Sidney Crosby y Jim Carrey"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni ironizó sobre el nivel de los rivales de Argentina nombrando a un piloto de F1, un tenista y un exjugador de la NBA como las estrellas canadienses.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Qué país mencionó Germi para desacreditar el nivel competitivo de la Copa América frente a la Eurocopa?",
+      "cita": "una copa america donde ha jugado Jamaica",
+      "opciones": [
+        "Haití",
+        "Bolivia",
+        "Jamaica",
+        "Panamá"
+      ],
+      "correcta": 2,
+      "explicacion": "Germi rebatió el supuesto alto nivel del torneo americano recordando que hasta la selección de Jamaica había participado en esa edición.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿A quién le agradeció Marzal su hospitalidad tras las semifinales de la Eurocopa 2024?",
+      "cita": "Y una vez más, tremenda anfitrionada de Miguel Moratal",
+      "opciones": [
+        "Jorge",
+        "Miguel Moratal",
+        "Joni",
+        "Germi"
+      ],
+      "correcta": 1,
+      "explicacion": "Marzal felicitó a Miki (Miguel Moratal) por la tremenda acogida en su casa para disfrutar del partido de España.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Cuando Humpa comentó en 2024 que para la final de la Eurocopa 'solo quedan entradas VIP', ¿cuál fue la rápida conclusión vital de Feme?",
+      "cita": "Tio, hay que hacerse rico",
+      "opciones": [
+        "Tio, hay que hacerse rico",
+        "Pedimos un crédito y vamos",
+        "Menuda estafa la UEFA",
+        "Para eso nos vamos a Gandía"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme tuvo clara la moraleja al ver los precios y la disponibilidad de las entradas: la única solución es hacerse rico.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Cuando se habló de la 'polsera centinela' para festivales, ¿con qué elemento friki de la cultura pop lo relacionó inmediatamente Feme?",
+      "cita": "Centinelas, ixen en los Xmen, i son uns cyborgs gegants creats per a perseguir als mutants",
+      "opciones": [
+        "Los robots de Matrix",
+        "Centinelas, ixen en los Xmen, i son uns cyborgs gegants creats per a perseguir als mutants",
+        "Los soldados del Imperio de Star Wars",
+        "Los guardianes de Warhammer 40k"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme no pudo evitar asociar la pulsera con los Centinelas de los cómics de Marvel encargados de cazar a los mutantes.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿A qué conocido comunicador o periodista deportivo insultó Feme llamándole 'PAYASO' en mayúsculas?",
+      "cita": "Ruben Martin",
+      "opciones": [
+        "Ruben Martin",
+        "Edu Aguirre",
+        "Juanma Castaño",
+        "Josep Pedrerol"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme compartió un clip de Twitter y se despachó a gusto contra el narrador Rubén Martín deletreando 'P A Y A S O'.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Preocupado por la mala suerte y las supersticiones antes de un gran partido en 2026, ¿qué le preguntó Marzal a Miki?",
+      "cita": "Miguel, hoy puedo ir a ver el partido.... La cábala me lo permite?? (Sin coñas)",
+      "opciones": [
+        "¿Tienes birras en la nevera?",
+        "Miguel, hoy puedo ir a ver el partido.... La cábala me lo permite?? (Sin coñas)",
+        "¿Llevo la camiseta roja o la blanca por si gafamos?",
+        "¿Podemos pedir pizza o da mal fario?"
+      ],
+      "correcta": 1,
+      "explicacion": "Marzal quiso asegurarse 'sin coñas' de que su presencia no rompería ninguna cábala o gafe en casa de Miki.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Qué exclamó Feme desahogándose y celebrando a la vez en los compases finales de un partido tenso en 2026?",
+      "cita": "Puto unai xe",
+      "opciones": [
+        "Puto unai xe",
+        "Menudo paradón",
+        "Árbitro la hora",
+        "Grande Morata"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme soltó el clásico 'Puto unai xe / Vaaaamoooos', sufriendo y festejando al mismo tiempo con las intervenciones de Unai Simón.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Qué tema de vídeo propuso Jorge ponerse 'en bucle hasta las 20:55' antes de una cita futbolera?",
+      "cita": "En bucle hasta las 20:55",
+      "opciones": [
+        "En bucle hasta las 20:55",
+        "Himno de España con letra de Marta Sánchez",
+        "Highlights del Mundial 2010",
+        "El discurso de Luis Aragonés"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge compartió un enlace de YouTube indicando que debía escucharse sin parar hasta cinco minutos antes del pitido inicial.",
+      "anio": 2026
+    }
+  ]
+}

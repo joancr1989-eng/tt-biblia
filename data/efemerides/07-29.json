@@ -1,0 +1,943 @@
+{
+  "fecha": "07-29",
+  "total_mensajes_dia": 782,
+  "total_preguntas": 72,
+  "preguntas": [
+    {
+      "pregunta": "¿Con qué motivo propuso Feme organizar una pachanga de fútbol sala a finales de julio de 2012?",
+      "cita": "Asi aprovexams antes de k se vaya jorge",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme lanzó la idea de montar una pachanga para aprovechar los últimos días antes de que Jorge se fuera de viaje.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién advirtió al grupo de que necesitaban entrenar para estar en forma de cara a las 24 horas?",
+      "cita": "Kerems jugar 24 horas hay k cojer un pokillo de fisico",
+      "opciones": [
+        "Miki",
+        "Feme",
+        "Jorge",
+        "Germi"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme insistió en que para competir en el torneo de 24 horas hacía falta ponerse mínimamente en forma.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Por qué motivo retrasaron la hora de la pachanga de las 18:00 a las 18:15?",
+      "cita": "Pero Q salía a als 6 de currar",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Humpa",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki avisó de que Marzal podía jugar pero terminaba de trabajar justo a las seis de la tarde.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿De qué miembro del grupo celebró Feme su fichaje para la pachanga diciendo que necesitaban su garra?",
+      "cita": "Necesitamos su garra",
+      "opciones": [
+        "Humpa",
+        "Jorge",
+        "Marzal",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Cuando Humberto confirmó que se apuntaba a la pachanga, Feme celebró poder contar con su intensidad y 'garra' en pista.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Siguiendo los Juegos Olímpicos de Londres 2012, ¿quién abrió el debate sobre el judo con esta perlita?",
+      "cita": "Hay deporte mas ratero que el judo?",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge inauguró una larga tertulia olímpica criticando las mañas y la pasividad de los judokas en los Juegos.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién se imaginó a Marzal compitiendo en judo mientras gritaba digievoluciones?",
+      "cita": "Y chillando...digievolucion!!!!",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "A Jorge le pareció una fantasía pensar en Marzalet en un tatami olímpico gritando como si fuera un Digimon.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién se lió con el nombre del judoka español Sugoi Uriarte y preguntó desconcertado?",
+      "cita": "Quien se llama ugoi?",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Miki",
+        "Joni"
+      ],
+      "correcta": 2,
+      "explicacion": "Miki estaba viendo el combate y no entendía bien la retransmisión, preguntando si el judoka se llamaba 'ugoi'.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué curiosa y gráfica metáfora zoológica soltó Miki mientras veía el combate de judo?",
+      "cita": "Parecen dos caracoles follando",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Feme",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki no le encontraba ritmo al combate entre tanto agarre y pasividad y lo comparó con dos moluscos en celo.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Hablando de agarres de judo, ¿qué mitiquísimo combate del pasado de Gandía recordó Miki?",
+      "cita": "Jajajaa la mítica batalla entre Marzal y hugo",
+      "opciones": [
+        "Germi y Miki",
+        "Marzal y Hugo",
+        "Feme y Joni",
+        "Jorge y Humpa"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki trajo al presente la legendaria pelea entre Marzal y Hugo en el parque de las Esclavas.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién se indignó al descubrir que en los Juegos Olímpicos se repartían dos medallas de bronce en judo?",
+      "cita": "Vaya tela k se dan 2 medallas de bronce",
+      "opciones": [
+        "Feme",
+        "Miki",
+        "Jorge",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "A Feme le pareció indignante que en judo no hubiera un único tercer puesto y se entregasen dos bronces.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿A quién le pidió Jorge una disertación sobre la importancia histórica de la vela en España?",
+      "cita": "Que opinas de la vela Humberto?",
+      "opciones": [
+        "Humpa",
+        "Marzal",
+        "Germi",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge interpeló a Humberto para que compartiese sus reflexiones patrióticas sobre el deporte de la vela.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué disciplina olímpica confesó Feme que le flipaba un montón y no se perdía?",
+      "cita": "Y x supuesto.. Natacion sincronizada k me flipa un monton",
+      "opciones": [
+        "Curling",
+        "Natación sincronizada",
+        "Halterofilia",
+        "Salto con pértiga"
+      ],
+      "correcta": 1,
+      "explicacion": "Repasando los deportes de piscina, Feme admitió sin complejos que la natación sincronizada le fascinaba.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién aportó su particular criterio estético al analizar el torneo olímpico de tenis de mesa?",
+      "cita": "Ayer vi el partido de ping pong de la española yvestaba buena",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Joni",
+        "Jorge"
+      ],
+      "correcta": 0,
+      "explicacion": "Germán intervino en la tertulia olímpica para dejar su valoración estrictamente visual del partido de tenis de mesa.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Cómo definió Feme el curling en medio de la lluvia de deportes olímpicos?",
+      "cita": "Un deporte de limpiar con una escoba",
+      "opciones": [
+        "Joni",
+        "Jorge",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme resumió el deporte del hielo de forma muy gráfica y minimalista.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién activó el gafe instantáneo quejándose de que casi nunca se ganaba por ippon justo antes de que cayera uno?",
+      "cita": "Casi nunca se gana por ippon",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Miki",
+        "Feme"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi se quejó de la falta de ippons y automáticamente una judoka francesa ganó su combate por ippon en directo.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Cuál era el único deporte de equipo que Feme aseguró que no le gustaba ver?",
+      "cita": "Ami el unico deporte d ekipos k no me mola ver es el voley en pista",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme reconoció que, aunque le gustaban casi todos los deportes, el vóleibol en pista se le atragantaba.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién propuso crear una cuenta oficial de Twitter para el Triangulito Team?",
+      "cita": "Xq el triangulito team no tiene twitter??",
+      "opciones": [
+        "Germi",
+        "Jorge",
+        "Feme",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Germán tuvo la visión de abrir la presencia digital del equipo en Twitter para darse a conocer al mundo.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Por qué argumentó Germi que el Triangulito Team debía tener una cuenta de Twitter?",
+      "cita": "Yo pienso que deberia tener twiiter, para que la gente sepa de nuestra existencia",
+      "opciones": [
+        "Feme",
+        "Germi",
+        "Joni",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi defendió la necesidad de crear el perfil del equipo para ganar visibilidad y que la gente supiera quiénes eran.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué gran aspecto de los Juegos Olímpicos destacó Jorge para justificar la emoción de estar enganchado a la tele?",
+      "cita": "El apoyar a un tio que no conoces de nada xDD",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge estaba viviendo con pasión los JJOO de Londres 2012 y reflexionó sobre la magia de animar a muerte a completos desconocidos.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Viendo a Sugoi Uriarte competir en judo contra un rival surcoreano, ¿quién demostró seguir traumatizado con el Mundial de fútbol de 2002?",
+      "cita": "Desde el 2002 solo les deseo la muerte",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Feme",
+        "Joni"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme todavía no había superado el arbitraje del España - Corea del Sur del Mundial 2002 y le deseaba lo peor al judoca rival.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién tuvo que confesar su estado alterado de conciencia al no enterarse de nada de lo que pasaba en el tatami?",
+      "cita": "Voy fumado y esto no hay quien lo entienda",
+      "opciones": [
+        "Miki",
+        "Germi",
+        "Héctor",
+        "Joni"
+      ],
+      "correcta": 3,
+      "explicacion": "Joni admitió que iba fumado y que con las reglas del judo olímpico se le estaba haciendo imposible seguir el combate.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿A qué mítica agresión o choque interno del grupo recurrió Joni para sugerir cómo ganar el combate de judo?",
+      "cita": "Que le haga la entrada de miki a palmer joder!",
+      "opciones": [
+        "Joni",
+        "Jorge",
+        "Feme",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni propuso una solución 'callejera' y muy de la casa recordando la famosa entrada que Miki le propinó a Palmer.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Cuando Miki preguntó ingenuamente si tras la prórroga de judo venían los penaltis, ¿cómo le explicó Feme el sistema de desempate?",
+      "cita": "El k no muere gana",
+      "opciones": [
+        "Germi",
+        "Jorge",
+        "Feme",
+        "Hugo"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme le vaciló a Miki explicándole que después iba una patada cada uno a turnos y que el que sobrevivía ganaba.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué curioso detalle físico de los jueces de judo le llamó poderosamente la atención a Jorge?",
+      "cita": "Lo mejor los jueces gordacos sentadks en las esquinas, que se tienen que levantar cuandi la pelea se acerca",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge se fijó en los jueces de esquina y en lo cómico que era verlos levantarse cada vez que los atletas rodaban hacia ellos.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Indignado por la sequía de medallas española en los primeros días de Londres 2012, ¿contra qué país arremetió Jorge?",
+      "cita": "Los laches de los italianos x ejemplo ya llevan 6 medallas",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge no soportaba que Italia ya llevara seis medallas olímpicas mientras España seguía con el casillero totalmente a cero.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Durante el partido de baloncesto de España contra China, ¿cómo describió Joni al combinado asiático sin Yao Ming?",
+      "cita": "sin yao son una broma digna de leb plata",
+      "opciones": [
+        "Germi",
+        "Joni",
+        "Jorge",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Para Joni, la selección china sin su gigantesca estrella Yao Ming no tenía nivel ni para competir en LEB Plata.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "En pleno partido de basket de España, ¿quién soltó una perla completamente retrógrada e indignada sobre la colegiada del encuentro?",
+      "cita": "Q cojones hace pitando una mujer?",
+      "opciones": [
+        "Miki",
+        "Feme",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki se coronó con varios comentarios totalmente incendiarios sobre la árbitra que pitaba a la selección española de baloncesto.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Tras una tarde intensa de deportes olímpicos y protagonismo en el grupo, ¿cómo sugirió Feme bautizar la jornada en honor a Humber?",
+      "cita": "La locura Holimpica",
+      "opciones": [
+        "Feme",
+        "Jorge",
+        "Miki",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge dijo que Humber había tenido un papel destacado en la tarde y Feme propuso bautizarla como 'La locura Holimpica' con H de Humber.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué deporte olímpico sentenció Germi mandándolo directamente a la hoguera tras ensalzar la gimnasia artística?",
+      "cita": "A LA HOGUERA",
+      "opciones": [
+        "Germi",
+        "Miki",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi dejó claro que los saltos de la artística estaban bien, pero que la gimnasia rítmica merecía arder.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Al ver que España caía eliminada de los Juegos Olímpicos contra Honduras, ¿a qué veterano mito de la Copa del Rey reivindicó Jorge?",
+      "cita": "Esto no estaria pasando si hubieramos llevado a Pablo Infante...",
+      "opciones": [
+        "Feme",
+        "Joni",
+        "Germi",
+        "Jorge"
+      ],
+      "correcta": 3,
+      "explicacion": "Jorge recordó que él ya había avisado de que hacía falta llevarse a Pablo Infante, la estrella del Mirandés, a los Juegos.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Cuando Feme criticó el peinado de David De Gea tras encajar gol contra Honduras, ¿cómo le defendió Jorge?",
+      "cita": "Se folla a Edurne",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Miki",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "explicacion": "A Jorge le dio igual el pelo o el rendimiento del portero: zanjó el debate recordando que era la pareja de Edurne.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "En plena rajada histórica contra la selección de fútbol tras caer ante Honduras, ¿qué precio le puso Germi a Javi Martínez?",
+      "cita": "Hoy se ha demostrado que javi martinez no vale ni 30MM€",
+      "opciones": [
+        "Germi",
+        "Jorge",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "El Bayern estaba a punto de pagar 40 millones por Javi Martínez y Germi aprovechó el fiasco olímpico para asegurar que no valía ni 30.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Destrozando uno a uno a todos los futbolistas de la selección olímpica, ¿por qué jugador preguntó Germi con evidente desprecio?",
+      "cita": "Me queda por rajar del koke",
+      "opciones": [
+        "Miki",
+        "Feme",
+        "Germi",
+        "Hugo"
+      ],
+      "correcta": 2,
+      "explicacion": "Germi se quedó a gusto rajando de Mata, Jordi Alba, De Gea, Adrián... y remató preguntando despectivamente quién era Koke.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué expresión utilizó Feme en 2014 al enterarse a última hora de que tenía que currar al día siguiente a las 7:30?",
+      "cita": "Made in miki total",
+      "opciones": [
+        "Made in miki total",
+        "Planazo de Germi",
+        "Típico del Tino",
+        "Costumbrismo puro"
+      ],
+      "correcta": 0,
+      "explicacion": "A Feme le llamó su jefe a las 22:43 para decirle que curraba al día siguiente a las 7:30 y lo catalogó de 'Made in miki total'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "En verano de 2014, cuando Jorge intentó cuadrar una quedada, ¿qué compromiso festivo y laboral alegó Feme?",
+      "cita": "Jueves viernes y sábado curro en la barra de fiestas de rotova",
+      "opciones": [
+        "Germi",
+        "Miki",
+        "Feme",
+        "Joni"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme sólo podía quedar el miércoles o domingo porque tenía que atender la barra en las fiestas de Rótova.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Cuando se planteó montar una 'torrà' veraniega en Marxuquera en 2014, ¿qué gran inconveniente recordó Germi?",
+      "cita": "Pero ya sabeis el handicap de que no podemos hacer ruido",
+      "opciones": [
+        "Joni",
+        "Germi",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi estaba a favor de Marxu, pero avisó de que allí tenían el problema vecinal de no poder armar jaleo.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Para completar gente y jugar un partido en las pistas de Géminis, ¿a quién ofreció reclutar Joni?",
+      "cita": "Yo te pongo a nestor y a otro colega",
+      "opciones": [
+        "Feme",
+        "Miki",
+        "Jorge",
+        "Joni"
+      ],
+      "correcta": 3,
+      "explicacion": "Joni propuso llevar a su colega Néstor y a otro amigo para alcanzar el número necesario y jugar un 4 contra 4 o 5 contra 5.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "En 2015, ¿a qué pueblo invitó Feme al grupo presumiendo de barra libre?",
+      "cita": "Venir a rotova maricas",
+      "opciones": [
+        "Tavernes",
+        "Altea",
+        "Rótova",
+        "Gandia"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme estaba en la barra en Rótova ('rottova') y les dijo que si iban tenían barra libre, a lo que Miki flipó con 'Rotovaaaaaaaa??????'.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Quién le tiró un dardo a Marc en 2015 por proponer planes tras desaparecer toda la semana?",
+      "cita": "Marc buscando planes / Cuando en una semana no ha sido capaz ni de vernos 5 min",
+      "opciones": [
+        "Germi",
+        "Héctor",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi ironizó con 'Grande tanque' después de que Marc buscase planes un domingo noche tras no haber dado señales en toda la semana.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Hablando de juegos de fútbol y licencias en 2016, ¿qué alternativa económica propuso Joni con sorna?",
+      "cita": "Jajaja vete a comprar el álbum de panini para jugar a los cromos y te ahorras 70€",
+      "opciones": [
+        "Jajaja vete a comprar el álbum de panini para jugar a los cromos y te ahorras 70€",
+        "Pillate el PC Fútbol de 1998 que ese sí que no falla",
+        "Págate una birra y déjate los juegos de frikis",
+        "Juega a la ruleta rusa con el mando roto"
+      ],
+      "correcta": 0,
+      "explicacion": "En pleno debate sobre FIFA, licencias y Ultimate Team, Joni soltó que para eso mejor pillarse el álbum de cromos Panini.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿A dónde especuló Feme en 2016 que se había marchado Miki tras días desaparecido del chat?",
+      "cita": "Se habra ido a oriente a combatir el Isis?",
+      "opciones": [
+        "Se habrá ido a Denia en AVE?",
+        "Se habra ido a oriente a combatir el Isis?",
+        "Estará encerrado en la cueva de Tavernes?",
+        "Se habrá fugado a Rótova a beber?"
+      ],
+      "correcta": 1,
+      "explicacion": "Como Miki no daba señales de vida, Feme se preguntó si se habría ido a Oriente Medio a combatir al ISIS tras el disgusto con André Gomes.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Qué incorporación bizarra propuso Joni para el cuerpo técnico de Luis Enrique en 2016?",
+      "cita": "Un tío que asuma el rol de instigador, que si se le ha de expulsar se sacrifica",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Héctor",
+        "Joni"
+      ],
+      "correcta": 3,
+      "explicacion": "Joni propuso fichar a alguien tipo Stoichkov de segundo entrenador para hacer de instigador y que le pegara dos hostias a los rivales al estilo Rui Faria.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "En 2017, ¿a qué importante cargo vecinal anunciaron que habían nombrado a Miki?",
+      "cita": "Me acaban de hacer presidente de la comunidad del ullal, y aquí si hay energúmenos",
+      "opciones": [
+        "Tesorero de la falla",
+        "Presidente de la comunidad del Ullal",
+        "Secretario de Front Pixavi",
+        "Vocal de festejos de Tavernes"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki anunció resignado que le habían nombrado presidente de la comunidad del Ullal y que las reuniones estaban llenas de energúmenos gritándose.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Ante el nuevo cargo de presidente de Miki en 2017, ¿qué credenciales de liderazgo sacó Joni para ofrecerle asesoría?",
+      "cita": "Yo he sido presi de la peña Front Pixavi durante años, te puedo asesorar en lo que sea",
+      "opciones": [
+        "Yo he llevado la directiva del club de pádel",
+        "Yo he sido presi de la peña Front Pixavi durante años, te puedo asesorar en lo que sea",
+        "Yo gestionaba las cuentas del viaje a Ibiza",
+        "Yo negocié las derramas con el obispado de Gandia"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni le ofreció asesoría inmediata recordándole sus años de veteranía y presidencia en la peña Front Pixavi.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Con qué apodo geopolítico bautizó Jorge a Miki cuando este le contó el caos y las broncas en su reunión de vecinos?",
+      "cita": "Miguel Arafat",
+      "opciones": [
+        "Miguel Arafat",
+        "Miki Gadafi",
+        "El pacificador de Cullera",
+        "Miki Kissinger"
+      ],
+      "correcta": 0,
+      "explicacion": "Viendo a Miki mediar entre vecinos enfadados, Jorge le llamó 'Miguel Arafat / Mediando en la franja de gaza y cisjordania'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué detalle crucial dijo Jorge en 2017 que le faltaba a la nueva adaptación del himno del TT?",
+      "cita": "Le falta el audio de Humberto cantandolo",
+      "opciones": [
+        "La guitarra de Germi",
+        "El solo de autotune de Feme",
+        "Le falta el audio de Humberto cantandolo",
+        "La narración de Joni"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge comentó que a la nueva versión del himno del TT le faltaba de manera imprescindible el audio de Humberto cantándolo.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué término acuñó Miki en 2018 para referirse a la huelga y protestas salvajes del sector del taxi?",
+      "cita": "Que os parece lo de los taxi-nazis?",
+      "opciones": [
+        "Los piquetes locos",
+        "Los gremiales furiosos",
+        "Los taxi-nazis",
+        "La mafia del taxímetro"
+      ],
+      "correcta": 2,
+      "explicacion": "Miki abrió el debate preguntando: 'Que os parece lo de los taxi-nazis?'.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Quién se quejó airadamente en 2018 de la presencia constante de 'la amiga gorda' en los vídeos y fotos?",
+      "cita": "Toooodo el mundo se refiere a ti como la amiga gorda, aceptalo",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Hugo",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge se encendió criticando cómo en los vídeos siempre acaba apareciendo 'la puta amiga gorduca macho'.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "En 2019, ¿cómo justificó Feme su afición a llevar gorra ante las mofas del grupo?",
+      "cita": "Pero jo porte gorra perque vuic / No pa taparme la calva",
+      "opciones": [
+        "Es que fa molta solana al taller",
+        "Pero jo porte gorra perque vuic / No pa taparme la calva",
+        "Es per estil, vosatros no en teniu",
+        "Perque tinc el monyo fet una merda"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme quiso dejar clarísimo que si se ponía gorra era por puro capricho y no por esconder ninguna calvicie incipiente.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "En julio de 2019, ¿a quién señaló Jorge diciendo que estaba superando a varios miembros del TT en el ámbito sexual?",
+      "cita": "Arnau eh / Arnau / Adelantando a parte del TT",
+      "opciones": [
+        "Arnau",
+        "Humberto",
+        "Marc",
+        "El primo de Hugo"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge llegó con rumores y pruebas gráficas diciendo que Arnau estaba adelantando por la derecha a parte del TT 'en el aspecto folleril'.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "¿Qué plato clásico propuso Humpa en 2021 como 'remedio español' para combatir los efectos de la vacuna del COVID?",
+      "cita": "Unos huevos freidos",
+      "opciones": [
+        "Un carajillo doble",
+        "Unos huevos freidos",
+        "Un plato de paella",
+        "Un ibuprofeno con gintonic"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge habló del remedio español y Humpa sentenció: 'Unos huevos freidos'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Tras vacunarse de la COVID en 2021, ¿con qué broma reapareció Feme en el grupo?",
+      "cita": "Voleu 5g fresquet? / El tinc acabat de posar",
+      "opciones": [
+        "Voleu 5g fresquet? / El tinc acabat de posar",
+        "Ya tengo el chip de Bill Gates activado",
+        "Tengo imán en el hombro maricones",
+        "Pfizer pura en vena mostros"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme recurrió a la mítica teoría conspiranoica del 5G recién inyectado con su dosis de Pfizer.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Durante un partido de los Juegos Olímpicos de 2021, ¿de qué jugador de la selección de basket dijo Miki que parecía 'haber salido bebido'?",
+      "cita": "Ha salido bebido",
+      "opciones": [
+        "Marc Gasol",
+        "Ricky Rubio",
+        "Pau Gasol",
+        "Usman Garuba"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki rajó del pésimo partido de Marc Gasol asegurando que había salido al campo borracho y llevaba 0 puntos y pérdidas mil.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Por qué motivo declaró Feme su máxima devoción y respeto por Luka Doncic en 2021?",
+      "cita": "Un tio qje mete 50 puntos y luego monta una bacanal con cachimbas y vodzka y perras / Solo / Merece mi respeto",
+      "opciones": [
+        "Porque le mete triples en la cara a los americanos",
+        "Porque se fuma un puro antes de entrar a la pista",
+        "Un tio qje mete 50 puntos y luego monta una bacanal con cachimbas y vodzka y perras / Solo / Merece mi respeto",
+        "Porque juega con resaca y aún así es MVP"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme dejó claro que Doncic se ganó su respeto absoluto por enchufar 50 puntos y después liarse de bacanal con cachimbas, vodka y compañía.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Quién soltó esta castiza y jerárquica frase en julio de 2021 tras pasar un dato de MisterChip?",
+      "cita": "Papa siempre encima de mama",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge compartió un tuit estadístico de MisterChip y no dudó en resumir la relación de fuerzas con su clásica sutileza.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En 2021, antes de un partido de baloncesto de los Juegos Olímpicos, ¿quién demostró su inquebrantable fe derrotista en la selección española?",
+      "cita": "Lastima que no tengamos ninguna opción contra Eslovenia",
+      "opciones": [
+        "Hugo",
+        "Miki",
+        "Germi",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki, fiel a su estilo de gafe preventivo o pesimismo crónico, ya daba a España por enterrada contra la Eslovenia de Doncic.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué culé del grupo se mostró gratamente sorprendido con la cobertura de DAZN en el verano de 2022?",
+      "cita": "Al final voy a querer que el Barça lo den en dazn siempre",
+      "opciones": [
+        "Germi",
+        "Héctor",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni vio una promo de DAZN tan bien hecha que deseó que todos los partidos de su Barça se emitieran en esa plataforma.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Al ver un escabroso vídeo de El Mundo compartido por Jorge en 2022, ¿quién exclamó horrorizado por la víctima?",
+      "cita": "Le aplasta la puta cabeza",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Humpa",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Marzal no pudo contener el impacto visual al ver el vídeo del accidente y preguntó directamente si la persona la había espichado.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "En el debate forense sobre el vídeo del accidente en 2022, ¿quién zanjó el debate asegurando que era biológicamente inviable sobrevivir?",
+      "cita": "es imposible que este vivo",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 2,
+      "explicacion": "Mientras Miki argumentaba que la noticia hablaba de heridos, Feme dictaminó que con semejante golpe era médicamente imposible seguir respirando.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Quién bromeó con la autoría de una polémica campaña institucional acusando con ironía a Joni?",
+      "cita": "Joni chopeando fotos?",
+      "opciones": [
+        "Marzal",
+        "Feme",
+        "Jorge",
+        "Humpa"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge vio la chapuza de campaña del ministerio y soltó si la había hecho Joni recortando y pegando con Photoshop.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Agotado de las medidas políticas del verano de 2022, ¿quién proclamó que vivíamos en una auténtica distopía?",
+      "cita": "Entre eso y lo de la corbata para ahorrar energía…",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Miki",
+        "Joni"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme se indignó entre la polémica campaña y el consejo de Pedro Sánchez de quitarse la corbata para ahorrar aire acondicionado.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Quién inauguró la madrugada del 29 de julio de 2023 quejándose del apalanque del grupo?",
+      "cita": "El ttt ya no hace nada",
+      "opciones": [
+        "Miki",
+        "Héctor",
+        "Marzal",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki soltó la pulla a las 00:29 de la noche al ver la poca vida social y fiestera que tenía últimamente el Triangulito Team.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Cuando Germi insinuó que la gente salía con los del CrossFit, ¿cómo le respondió Feme para ubicarlo?",
+      "cita": "En els d Alqueria boberot",
+      "opciones": [
+        "Feme",
+        "Marzal",
+        "Jorge",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme le aclaró a Germi, con el cariñoso apelativo de 'boberot', que en realidad salían con la gente de Alquería.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Durante los Juegos Olímpicos de París 2024, Nadal se enfrentó a Djokovic en Roland Garros. ¿Quién parodió el nombre del serbio?",
+      "cita": "\"Lo, lo coge el Jakovic este..\"",
+      "opciones": [
+        "Marzal",
+        "Jorge",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge recurrió a la gracia castiza de deformar el apellido del serbio Novak Djokovic al ver que se venía una buena tunda contra Rafa.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Cuando Miki se quejó de que Nadal tuviera que jugar días seguidos en los JJOO, ¿quién le respondió con este tremendo sarcasmo minero?",
+      "cita": "Inhumano eh. Está trabajar en la mina y ya lo de jugar dos partidos de tenis seguidos",
+      "opciones": [
+        "Joni",
+        "Germi",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni no tuvo piedad ante las quejas de Miki sobre el cansancio físico de los tenistas profesionales de élite.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Qué nivel tenístico le atribuyó Germi al mermado servicio de Rafa Nadal en París 2024?",
+      "cita": "el saque de Rafa... Nivel club de tenis de Rotova",
+      "opciones": [
+        "Germi",
+        "Jorge",
+        "Miki",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi vio el saque de Nadal tan flojo y vulnerable frente a Djokovic que lo comparó con los torneos locales del club de tenis de Rótova.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "En pleno salseo sobre festivales y mujeres, ¿qué perla confesó Germi haber soltado en el pasado?",
+      "cita": "eso no, pero puta catalufa si que se lo solte a una",
+      "opciones": [
+        "Germi",
+        "Marzal",
+        "Jorge",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Hablando de si había dicho 'Viva España' a alguien, Germi admitió entre risas que su aportación a la diplomacia interregional fue soltarle eso a una chica.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Qué profunda disyuntiva filosófica recordó Marzal sobre una chica que conocieron en Barcelona?",
+      "cita": "La de.... Messi o la pau al mon?",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Feme",
+        "Jorge"
+      ],
+      "correcta": 0,
+      "explicacion": "Marzal trajo al presente el recuerdo de una tía cañón que les planteó la gran cuestión vital: ¿prefieres a Messi o la paz en el mundo?",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿Quién se mofó de Miki por seguir creyendo que un deportista veterano puede ganarlo todo?",
+      "cita": "Per gent con Miguel, que pensa que pot guanyar encara tots els partits jajaja",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Feme",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Marzal se descojonó de la ingenuidad de Miguel, convencido de que Nadal aún estaba para ganar el oro individual en 2024.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Cuando Marzal mencionó a Humpa en el grupo en 2025, ¿cuál fue la misteriosa promesa que hizo Humberto?",
+      "cita": "Y ahí sacaré la camiseta",
+      "opciones": [
+        "Humpa",
+        "Miki",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Humpa prometió que algún día se cumpliría lo suyo y que en ese glorioso momento sacaría la camiseta a relucir.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "En julio de 2026, indignado con la actualidad política y judicial, ¿quién definió así los indultos por corrupción?",
+      "cita": "Por trocear contratos públicos para darlos a sus amigos, o sea por robarnos en nuestra puta cara",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Humpa",
+        "Feme"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni explotó ante la noticia de las rebajas de condena e indultos a cargos públicos condenados por corrupción.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "En 2026, con los incendios estivales arrasando el país, ¿quién denunció la falta de medios aéreos del Estado?",
+      "cita": "Que se está quemando media España y no se puede hacer nada porque no hay ni una puta flota de aviones decentes",
+      "opciones": [
+        "Miki",
+        "Joni",
+        "Germi",
+        "Humpa"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni se calentó al ver que cada verano ardía el monte sin que hubiera hidroaviones suficientes por culpa de la burocracia.",
+      "anio": 2026
+    }
+  ]
+}

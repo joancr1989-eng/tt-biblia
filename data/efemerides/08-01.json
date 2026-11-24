@@ -1,0 +1,709 @@
+{
+  "fecha": "08-01",
+  "total_mensajes_dia": 632,
+  "total_preguntas": 54,
+  "preguntas": [
+    {
+      "pregunta": "En el verano de 2012, ¿quién anunció dramáticamente el trágico final de su carrera futbolística antes de empezar la pretemporada?",
+      "cita": "X cierto, os informo: corte produndo en el dedo del pie. Adios a mi carrera futbolistica",
+      "opciones": [
+        "Feme",
+        "Germi",
+        "Jorge",
+        "Miki"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge informó al grupo de un corte en el pie en la piscina que, según él, truncaba sus entrenamientos y su prometedora carrera deportiva.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Haciendo qué legendario movimiento de waterpolo en la piscina sufrió Jorge su corte en el pie?",
+      "cita": "He hecho la clasica maniobra de Ivan Perez (el idolo de Marzal) y me he cortado.",
+      "opciones": [
+        "La clásica maniobra de Iván Pérez",
+        "El salto del tigre de David Meca",
+        "La patada de bicicleta de Manel Estiarte",
+        "El viraje invertido de Michael Phelps"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge estaba jugando con su hermano y emuló a Iván Pérez (ídolo de Marzal), cortándose con un azulejo suelto.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Al enterarse del sangriento incidente de Jorge en la piscina, ¿quién le preguntó con sorna si había ido a que lo curara el brujo del pueblo?",
+      "cita": "Y fuiste al brujo del pueblo no??",
+      "opciones": [
+        "Hugo",
+        "Germi",
+        "Joni",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi no perdió la oportunidad de vacilar a Jorge preguntándole si había recurrido al brujo local para curar su herida.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Hablando de bañadores rosas y de Humberto, ¿quién reivindicó que la moda del color rosa en el grupo la inició Marzal?",
+      "cita": "Aunque la moda del rosa la inicio marzal con su polo rosa #quenoosembauquen",
+      "opciones": [
+        "Feme",
+        "Joni",
+        "Jorge",
+        "Hugo"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni sacó a la luz la mítica etiqueta #quenoosembauquen recordando el icónico polo rosa con el que Marzal marcó tendencia.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Cuando Jorge planteó en serio si debían incorporar a Marzal al equipo, ¿qué respondió Feme?",
+      "cita": "Hay reticencias con el fixaje de marzal",
+      "opciones": [
+        "Hay reticencias con el fixaje de marzal",
+        "No da el perfil físico necesario",
+        "Si viene con polo rosa ni de coña",
+        "Fichado ya, necesitamos banquillo"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme frenó el entusiasmo de golpe advirtiendo que en el Triangulito Team había ciertas dudas sobre el fichaje de Marzal.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Ante la propuesta de Miki de verse en 'Hawai', ¿quién soltó una contundente rajada contra ese sitio y contra quienes juegan a vóley-playa?",
+      "cita": "A Hawai van los maricones, los que van a la colmena y los que juegan a voley-playa",
+      "opciones": [
+        "Feme",
+        "Jorge",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge despachó sin miramientos la propuesta de Miki metiendo en el mismo saco a los de Hawai, la colmena y el vóley-playa.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Miki salió en defensa del vóley-playa situándolo en el podio del deporte mundial, ¿por detrás de qué otra disciplina?",
+      "cita": "El mejor deporte q hay solo después del esqu",
+      "opciones": [
+        "El fútbol sala",
+        "El esquí",
+        "El tenis",
+        "El pádel"
+      ],
+      "correcta": 1,
+      "explicacion": "Para Miki el vóley-playa era la cúspide deportiva, únicamente superado por el esquí, desatando la indignación de Feme.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Durante los Juegos Olímpicos de 2012, ¿con qué país comparó Germi a España para evidenciar la sequía inicial de medallas?",
+      "cita": "De momento en estos juegos, MONGOLIA tiene mas medallas que nosotros",
+      "opciones": [
+        "Kazajistán",
+        "Mongolia",
+        "Bielorrusia",
+        "Armenia"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi resaltó la crisis del medallero español con un mayúsculo 'MONGOLIA tiene mas medallas que nosotros'.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "En agosto de 2015, Hugo preguntó a Miki si televisaban el partido del Valencia usando un peculiar apodo, ¿cuál?",
+      "cita": "Miliki sabes si televisan el valencia ??",
+      "opciones": [
+        "Miki",
+        "Miliki",
+        "Mikiman",
+        "Miguelón"
+      ],
+      "correcta": 1,
+      "explicacion": "Hugo rebautizó cariñosamente a Miki como 'Miliki' para consultarle por la retransmisión televisiva del VCF.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Miki celebró una victoria de Rafa Nadal proclamando «Ha vuelto. The king». ¿Con qué pullita le rebajó el suflé Joni?",
+      "cita": "The King. The ranking 10",
+      "opciones": [
+        "The King. The ranking 10",
+        "The King lesionao",
+        "The King de la tierra y gracias",
+        "The King de las rodillas de manteca"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni le recordó al instante a Miki que 'The King' estaba por aquel entonces sufriendo en el décimo puesto del ranking mundial.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿A ver a quién invitó Hugo a Joni a las pistas del Club de Tenis Bellreguard en agosto de 2015?",
+      "cita": "Bueno Joni, demà vens a vore al doble de ferru en el ct. Bellreguard",
+      "opciones": [
+        "Al doble de Ferru",
+        "Al sparring de Nadal",
+        "Al primo de Bautista",
+        "Al clon de Feliciano López"
+      ],
+      "correcta": 0,
+      "explicacion": "Hugo le ofreció el planazo de ir a Bellreguard a ver en directo a un jugador idéntico a David Ferrer.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Debatiendo cómo hacer la compra para una ceniTTa, ¿quién se puso nostálgico por la magia perdida del supermercado?",
+      "cita": "Pero.. Donde quedó la magia de ir pasillo por pasillo del mercadroga?",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni cuestionó el uso de listas de compra cerradas y reivindicó la liturgia de recorrer el 'mercadroga' sin rumbo fijo.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "Germi propuso organizar una 'ceniTTa' de viernes, pero ¿con qué frase lo frenó Feme en seco?",
+      "cita": "El viernes se trabaja makimostro",
+      "opciones": [
+        "El viernes se trabaja makimostro",
+        "Yo el viernes ya tengo plan makina",
+        "Ni de coña salgo un viernes",
+        "El viernes descanso que estoy molido"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme le dejó claro que las obligaciones laborales no perdonaban un viernes llamándolo 'makimostro'.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Jorge escuchó una frase en un vídeo y aseguró que era «100% Miki». ¿Cuál era la célebre frase?",
+      "cita": "para que coja y diga mañana.. me voy del Madrid",
+      "opciones": [
+        "para que coja y diga mañana.. me voy del Madrid",
+        "yo es que flipo con esta peña tío",
+        "si no quieres no vengas y ya está",
+        "y me quedo tan pancho socio"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge identificó la entonación y estructura de esa frase como algo que Miki soltaría palabra por palabra.",
+      "anio": 2019
+    },
+    {
+      "pregunta": "Hugo le dijo a Jorge que Twitter no le dejaba enviarle un mensaje directo. ¿Cuál fue la reacción inmediata de Jorge?",
+      "cita": "Que has trencat, Hugo?",
+      "opciones": [
+        "Que has trencat, Hugo?",
+        "Me tienes bloqueado seguro",
+        "Eso es tu móvil prehistórico",
+        "Pásamelo por el grupo inútil"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge asumió inmediatamente que si algo fallaba a nivel tecnológico era porque Hugo había roto algo.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "Durante los Juegos Olímpicos de 2021, ¿a qué estrella rival del baloncesto dedicó Joni un cariñoso piropo en pleno partido?",
+      "cita": "Doncic, zampabollos hijo de puta",
+      "opciones": [
+        "Luka Doncic",
+        "Bogdan Bogdanovic",
+        "Evan Fournier",
+        "Goran Dragic"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni descargó toda su adrenalina contra Doncic llamándole zampabollos durante un igualado choque olímpico.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Viendo a la selección española de baloncesto atascada en ataque, ¿a qué jugador le reclamó Joni sus triples al grito de «mostro»?",
+      "cita": "Ricky mostro, donde están tu 90% en triples?",
+      "opciones": [
+        "Rudy Fernández",
+        "Ricky Rubio",
+        "Sergio Llull",
+        "Víctor Claver"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni le exigió irónicamente a Ricky Rubio ese 90% en triples que supuestamente llevaba en el torneo.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En los instantes finales del agónico España-Eslovenia de 2021, ¿cómo describió Jorge el intento de rebote de Marc Gasol?",
+      "cita": "Que es un gordo patata y ni estaba cerca",
+      "opciones": [
+        "Que es un gordo patata y ni estaba cerca",
+        "Que parecía un cono de obra",
+        "Que no salta ni un paquete de folios",
+        "Que está para jugar en veteranos de Gandia"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge se indignó creyendo que Marc Gasol tocaba el rebote decisivo para luego rematar que era un gordo patata lejos de la jugada.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Tras una dolorosa derrota de la selección española de baloncesto en los Juegos Olímpicos de Tokio, ¿quién se desahogó rajando contra Luka Doncic?",
+      "cita": "Qué basura es Doncic",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "A Jorge no le sentó nada bien el recital de Eslovenia y no dudó en soltar que ojalá Doncic nunca ganase nada en la NBA.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Quién describió con esta finísima metáfora el destrozo que les hizo el pívot de Eslovenia en la pintura?",
+      "cita": "Mike Tobey, un matao del Pamesa nos ha reventado el ojete",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge no daba crédito con el partido que se marcó Mike Tobey ante el juego interior español.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Debatiendo sobre el bajo rendimiento de los hermanos Gasol en el torneo olímpico, ¿quién sugirió irónicamente cuál debía ser su nuevo destino?",
+      "cita": "Para ir de campus en campus enseñando a niños",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 2,
+      "explicacion": "Germi sentenció el fin de ciclo de Pau y Marc Gasol mandándolos a dar clases formativas para críos.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Cuando se confirmó que el cruce de cuartos de final de baloncesto sería contra el 'Dream Team' de Estados Unidos, ¿quién fue el único optimista del grupo?",
+      "cita": "Les ganamos",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Miki",
+        "Feme"
+      ],
+      "correcta": 3,
+      "explicacion": "Mientras todos se lamentaban por el durísimo cruce ante USA, Feme soltó con toda la chulería un escueto 'Les ganamos'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Durante la final olímpica de triple salto, Marzal animaba con fuerza a Ana Peleteiro. ¿Cuál era su principal motivo para apoyarla?",
+      "cita": "La sigo en tik tok",
+      "opciones": [
+        "Es gallega como parte de su familia",
+        "La sigo en tik tok",
+        "Apostó 20 euros a su medalla",
+        "La conoció en una fiesta"
+      ],
+      "correcta": 1,
+      "explicacion": "Marzal celebró el salto y la medalla de bronce de Peleteiro respaldándola con el argumento definitivo: la seguía en TikTok.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Quién comparó las quejas de los tenistas por las condiciones climáticas de Tokio con la dureza de otros atletas?",
+      "cita": "No vi a los triatletas llorar",
+      "opciones": [
+        "Jorge",
+        "Hugo",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge cargó contra los tenistas que lloraban por el calor asfixiante de Tokio recordando que los triatletas no se quejaban de nada.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En los prolegómenos de la mítica final de 100 metros lisos de Tokio 2020, ¿quién se la jugó con un pronóstico fallido?",
+      "cita": "Va a ganar el chino",
+      "opciones": [
+        "Marzal",
+        "Jorge",
+        "Miki",
+        "Hugo"
+      ],
+      "correcta": 2,
+      "explicacion": "Miki apostó por Su Bingtian en la final de los 100m, pero el velocista chino no pudo llevarse el oro.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Al ver la explosiva arrancada del velocista chino en la pista de Tokio, ¿a qué miembro del grupo recordó Jorge?",
+      "cita": "Ese es el que sale como Germán en la carrera",
+      "opciones": [
+        "A Feme",
+        "A Hugo",
+        "A Joni",
+        "A Germi"
+      ],
+      "correcta": 3,
+      "explicacion": "Jorge bromeó diciendo que el velocista salía disparado igual que Germán cuando compite.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Tras la sorprendente victoria de Marcell Jacobs representando a Italia en los 100m lisos, ¿quién se atribuyó el mérito?",
+      "cita": "Como se nota mi influencia",
+      "opciones": [
+        "Marzal",
+        "Feme",
+        "Jorge",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme bromeó con que la victoria italiana en la prueba reina del atletismo se debía a su propia influencia.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Debatiendo sobre si el campeón olímpico de 100m era o no 100% italiano, ¿con qué comparó Marzal sus raíces?",
+      "cita": "Tiene lo mismo que Germán de pelo liso",
+      "opciones": [
+        "Con las ganas de madrugar de Joni",
+        "Con el saque de tenis de Hugo",
+        "Tiene lo mismo que Germán de pelo liso",
+        "Con la puntualidad de Feme"
+      ],
+      "correcta": 2,
+      "explicacion": "Marzal tiró de humor a costa de los rizos de Germán para dudar del origen puramente italiano del velocista.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Cuando Bottas arrasó en la primera curva del GP de Hungría de F1 llevándose por delante a los Red Bull, ¿con qué pique mítico de consola lo comparó Joni?",
+      "cita": "Como cuando en el moto GP chocabas contra guille para tirar a miki",
+      "opciones": [
+        "Como tirar un caparazón azul en Mario Kart",
+        "Como cuando en el moto GP chocabas contra guille para tirar a miki",
+        "Como empotrarse en Monza en el F1 2020",
+        "Como una carambola en el FIFA"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni vio la montonera de Bottas y recordó instantáneamente cuando usaban a terceros como ariete para tirarse en el MotoGP.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Viendo el coche de Max Verstappen completamente destrozado tras la carambola de Bottas, ¿a qué ilustre mecánico de la ficción española invocó Joni?",
+      "cita": "Bua, ni fiti te arregla en su taller semejante destrozo",
+      "opciones": [
+        "Fiti de Los Serrano",
+        "Manolo de Manolo y Benito",
+        "Chema de Aída",
+        "Fermín Trujillo de LQSA"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni soltó que ni Fiti, el mítico mecánico de 'Los Serrano', era capaz de reparar semejante siniestro.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Quién no aguantaba los comentarios de Pedro de la Rosa en DAZN F1 y estalló llamándole payaso?",
+      "cita": "Qué vomitivo es Pedro De la rosa",
+      "opciones": [
+        "Joni",
+        "Miki",
+        "Jorge",
+        "Germi"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge se indignó con las justificaciones constantes del comentarista hacia la escudería Mercedes y Lewis Hamilton.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Viendo que no se despegaba de la tele entre baloncesto, atletismo y Fórmula 1, ¿quién le preguntó a Jorge si pensaba salir de casa algún día?",
+      "cita": "Jorge vas empalmandondeporte tras deporte o que??",
+      "opciones": [
+        "Germi",
+        "Miki",
+        "Hugo",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi alucinaba con el maratón olímpico y automovilístico que se estaba metiendo Jorge sin despegar el culo del sofá.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué excusa meteorológica puso Jorge en pleno 1 de agosto para justificar estar tapado con la manta viendo la tele?",
+      "cita": "Estoy tapadico con la manta",
+      "opciones": [
+        "El aire acondicionado estaba roto a 16 grados",
+        "Llovía y hacía 14 grados",
+        "Tenía escalofríos por la vacuna",
+        "Tenía la persiana bajada para evitar el sol"
+      ],
+      "correcta": 1,
+      "explicacion": "Ante las mofas de Germi por estar en casa en pleno verano, Jorge argumentó que llovía, hacía 14 grados y estaba en la gloria con su manta.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En la histórica resalida del GP de Hungría donde todos cambiaron ruedas y Hamilton se quedó solo en la parrilla, ¿cómo bautizó Jorge a la Fórmula 1?",
+      "cita": "El deporte de la trolleada",
+      "opciones": [
+        "El circo de la maFIA",
+        "La comedia de la década",
+        "El deporte de la trolleada",
+        "Una auténtica verbena"
+      ],
+      "correcta": 2,
+      "explicacion": "Ver a un solo coche en parrilla y al resto en el pit lane llevó a Jorge a coronar la F1 como 'el deporte de la trolleada'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Tras la mítica defensa de Fernando Alonso frente a Lewis Hamilton en Hungaroring, ¿a qué locutor ensalzó Jorge?",
+      "cita": "LOBATO, LEGENDARIO",
+      "opciones": [
+        "De la Rosa",
+        "Cuquerella",
+        "Lobato",
+        "Montes"
+      ],
+      "correcta": 2,
+      "explicacion": "La épica narración de Antonio Lobato al ver a Alonso aguantar los ataques de Hamilton hizo que Jorge se rindiera a su voz.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué nombre de campaña o documental de la selección española de baloncesto criticó amargamente Jorge?",
+      "cita": "Y su nuevo mote, \"la familia\"",
+      "opciones": [
+        "ÑBA",
+        "Los Chicos de Oro",
+        "La Roja del Basket",
+        "La familia"
+      ],
+      "correcta": 3,
+      "explicacion": "A Jorge le pareció una cursilada comercial que llamaran a la selección 'La familia' mientras caían eliminados.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Tras la mítica defensa de Fernando Alonso a Hamilton en Hungría 2021, ¿quién confesó haber votado a Magic como 'piloto del día'?",
+      "cita": "Como he votado a magic por piloto del día",
+      "opciones": [
+        "Jorge",
+        "Miki",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki estaba en modo ultra fan de Fernando Alonso viendo cómo frenaba a Hamilton durante vueltas y vueltas para salvar los muebles de la carrera.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Lamentando los campeonatos que la mala suerte le arrebató a Fernando Alonso en F1, ¿quién recordó el terreno en el que el nano sigue invicto?",
+      "cita": "En follarse chotas no le ha ganado nadie",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Jorge",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Marzal zanjó el debate sobre el palmarés deportivo de Fernando Alonso recordando su intachable currículum amoroso.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿A qué piloto de Fórmula 1 bautizó Miki despectivamente como 'el Bartolo' por llevarse la victoria de rebote?",
+      "cita": "Y el Bartolo de ocon ahí ganando. Mala chamba ha tenido",
+      "opciones": [
+        "Lewis Hamilton",
+        "Sebastian Vettel",
+        "Esteban Ocon",
+        "Carlos Sainz"
+      ],
+      "correcta": 2,
+      "explicacion": "Esteban Ocon pescó una victoria inesperada en Hungría 2021 gracias en gran parte al muro defensivo que montó Alonso contra Hamilton.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Cuando en agosto de 2022 saltó el fichaje de Alonso por Aston Martin, ¿qué catastrofista predicción soltó Miki sobre el nuevo monoplaza?",
+      "cita": "coche para no pasar de Q2",
+      "opciones": [
+        "Peleará por no ser último",
+        "coche para no pasar de Q2",
+        "Un tractor con motor Mercedes",
+        "Coche de mitad de tabla"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki se llevó un bajón monumental con la salida de Alonso de Alpine hacia Aston Martin, augurando que ni pasaría de la Q2.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿A qué joven piloto acusó Miki de ser el motivo por el cual Alpine le enseñó la puerta de salida a Fernando Alonso?",
+      "cita": "quieren meter al niñato de piastri",
+      "opciones": [
+        "Logan Sargeant",
+        "Jack Doohan",
+        "Théo Pourchaire",
+        "Oscar Piastri"
+      ],
+      "correcta": 3,
+      "explicacion": "Miki estaba que trinaba con Alpine por prescindir de Alonso para darle asiento al australiano Oscar Piastri.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Al especular sobre el futuro de Alonso en 2022, ¿a costa de qué piloto tenía Joni una loca esperanza de que Fernando recalase en Red Bull?",
+      "cita": "Yo tenía la esperanza (?) que fuera a Red bull por el manta de Pérez",
+      "opciones": [
+        "Pérez",
+        "Ricciardo",
+        "Tsunoda",
+        "Bottas"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni mantenía la ilusión de ver a Fernando en un Red Bull puntero reemplazando al mexicano Checo Pérez, aunque sabía que Verstappen manda.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿En qué modesta posición auguró Jorge que terminaría Alonso en la primera carrera de 2023 tras toda la venta de humo de Aston Martin?",
+      "cita": "P11",
+      "opciones": [
+        "P8",
+        "P15",
+        "P11",
+        "P19"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge imitaba el clásico optimismo de pretemporada de 'Aston Martin mejora' que siempre acaba con un jarro de agua fría en la P11.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Al fantasear con una escudería patriótica española en la Fórmula 1, ¿qué marcas patrocinadoras propuso Joni para el alerón y los pontones?",
+      "cita": "Coche rojigualdo con el águila y propaganda de, Dulcesol, putalocura, aceitunas guerola",
+      "opciones": [
+        "Mercadona, Forocoches y El Pozo",
+        "Dulcesol, putalocura, aceitunas guerola",
+        "Donettes, Telecinco y Anís del Mono",
+        "Chupa Chups, Wallapop y Pipas Grefusa"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni soñaba con un F1 patrio decorado con el águila y esponsorizado por Dulcesol, putalocura y las inimitables aceitunas Guerola.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿A qué mítico periodista del motor llamó Joni 'morbido facha' tras verle confiar ciegamente en el nuevo proyecto de Fernando?",
+      "cita": "Gonzalo Serrano confía. Imagina no confiar en ese morbido facha",
+      "opciones": [
+        "Gonzalo Serrano",
+        "Antonio Lobato",
+        "Pedro de la Rosa",
+        "Cristóbal Rosaleny"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni compartió un tuit del mítico Gonzalo Serrano animando a la afición alonsista y propuso ficharlo como portavoz del piloto.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Cuando Jorge preguntó al grupo si alguien había estado en el restaurante 'D-Cow', ¿quién saltó diciendo que conocía al cocinero?",
+      "cita": "No jorge, pero conozco al cocinero",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Humpa",
+        "Feme"
+      ],
+      "correcta": 3,
+      "explicacion": "Nadie había ido todavía al sitio, pero Feme tenía enchufe directo asegurando que conocía personalmente al chef.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Quién proclamó el despegue del 'Comandante Alvarez a bordo del vuelo 28191 road to la GERMINETA'?",
+      "cita": "Comandante Alvarez a bordo del vuelo 28191 road to la GERMINETA",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Joni",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge anunció por todo lo alto el trayecto para unirse a la Germineta con destino a un buen almuerzo en Santiago.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "En 2023, Feme contó con cachondeo la insólita victoria de Potano a nivel interempresarial. ¿En qué disciplina arrasó?",
+      "cita": "Potano ha ganado el premio de andar",
+      "opciones": [
+        "De comer perritos calientes",
+        "De pádel interempresas",
+        "De andar",
+        "De ciclismo estático"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme desveló que Potano se proclamó campeón del reto de caminar entre todas las empresas participantes.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "¿Qué premio tecnológico le fue entregado en mano a Potano por un comité tras ganar el concurso de caminar?",
+      "cita": "Y le han regalado u Garmin",
+      "opciones": [
+        "Un jamón ibérico",
+        "u Garmin",
+        "Unas zapatillas de running",
+        "Un Apple Watch"
+      ],
+      "correcta": 1,
+      "explicacion": "Un comité fue personalmente a la empresa a hacer la entrega solemne de un reloj Garmin por su kilometraje a pie.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Al escuchar que a Potano 'no le costó mucho' ganar el reto de andar, ¿con qué escena mítica de Los Simpson lo comparó Jorge?",
+      "cita": "Es Homer ganándole a los niños el concurso de la maqueta de la central nuclear",
+      "opciones": [
+        "Es Homer ganándole a los niños el concurso de la maqueta de la central nuclear",
+        "Bart haciendo trampa en el test de inteligencia",
+        "Barney Gumble ganando el festival de cine",
+        "El señor Burns sobornando a los inspectores"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge vio clara la similitud con Homer Simpson llevándose el trofeo infantil de maquetas con todos sus huevazos.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "¿Qué excusa soltó Potano a los organizadores del concurso de andar para justificar su éxito, según desveló Feme?",
+      "cita": "Y el tío aún les dice que le ha venido muy bien la app para bajar 10 kilos",
+      "opciones": [
+        "Hacer 20.000 pasos al día",
+        "Dejar de fumar",
+        "Ganar masa muscular",
+        "bajar 10 kilos"
+      ],
+      "correcta": 3,
+      "explicacion": "Potano aseguró que la app le había servido para perder 10 kilos, ante lo cual Feme remató en el grupo: 'Y está más gordo que nunca'.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "En pleno debate sobre bodas en 2026, ¿qué servicio gratuito ofreció Joni a cualquiera del grupo que decidiera pasar por el altar?",
+      "cita": "yo me encargo de vuestro perro. Gratis",
+      "opciones": [
+        "Ser el DJ de la fiesta",
+        "yo me encargo de vuestro perro. Gratis",
+        "Conducir el coche nupcial",
+        "Pagar la primera ronda"
+      ],
+      "correcta": 1,
+      "explicacion": "A Joni le pasaron un reel de bodas y dejó claro que su única aportación al enlace sería cuidar de las mascotas sin cobrar un duro.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Durante una acalorada rajada contra la monarquía en 2026, ¿a qué miembro del grupo propuso Jorge como nuevo Jefe del Estado?",
+      "cita": "Que pongan a Feme",
+      "opciones": [
+        "Feme",
+        "Joni",
+        "Germi",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge defendía someter la jefatura del estado a votación popular, proponiendo a Feme aunque fuera para reírse como en primaria.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Qué movimiento baloncestístico juró Joni que haría de camino a la urna si Pedro Sánchez convocase un referéndum sobre la república?",
+      "cita": "haciendo la finta de pase por la espalda de Jorge Jiménez",
+      "opciones": [
+        "El gancho celestial de Abdul-Jabbar",
+        "La bandeja flotante de Ricky Rubio",
+        "haciendo la finta de pase por la espalda de Jorge Jiménez",
+        "El triple agónico de Stephen Curry"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni prometió ir a votar en masa con su papeleta republicana emulando el clásico pase de fantasía del baloncesto gandiense de Jorge Jiménez.",
+      "anio": 2026
+    }
+  ]
+}
