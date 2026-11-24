@@ -1297,19 +1297,30 @@
         return exact || cleanDirect;
       }
 
-      const blob = [
-        item.pregunta,
-        item.explicacion,
-        item.contexto,
-        item.mensaje_previo,
-        item.desglose,
-        item.nota,
-        ...(Array.isArray(item.opciones) ? item.opciones : []),
-        ...(Array.isArray(item.frases) ? item.frases : [])
-      ].filter(Boolean).join(" | ");
+      const expText = String(item.explicacion || item.contexto || item.mensaje_previo || item.pregunta || "");
+      // 1) Busca patrón "falsa para <Nombre>" o "de <Nombre>" en la explicación
+      const falsaMatch = expText.match(new RegExp(`(?:falsa\s+para|para)\s+(${MIEMBROS.join("|")})\b`, "i"));
+      if (falsaMatch) {
+        const found = MIEMBROS.find(m => m.toLowerCase() === falsaMatch[1].toLowerCase());
+        if (found) return found;
+      }
 
-      const fromBlob = extractMemberFromText(blob);
-      if (fromBlob) return fromBlob;
+      // 2) Cuenta apariciones de cada miembro en la explicación (el protagonista de las 2 frases verdaderas suele aparecer más)
+      let bestMember = "";
+      let bestCount = 0;
+      for (const m of MIEMBROS) {
+        const re = new RegExp(`\b${m}\b`, "gi");
+        const matches = expText.match(re);
+        const cnt = matches ? matches.length : 0;
+        if (cnt > bestCount) {
+          bestCount = cnt;
+          bestMember = m;
+        }
+      }
+      if (bestMember) return bestMember;
+
+      const fromPregunta = extractMemberFromText(item.pregunta || "");
+      if (fromPregunta) return fromPregunta;
 
       return MIEMBROS[Math.abs(Number(fallbackSeed) || 0) % MIEMBROS.length];
     }
