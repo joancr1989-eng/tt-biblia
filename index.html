@@ -258,8 +258,15 @@
       font-weight: 800;
       font-size: 14px;
       cursor: pointer;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.2s ease;
       box-shadow: 0 6px 18px rgba(245, 158, 11, 0.3);
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.48;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
     }
 
     .btn-primary:hover {
@@ -830,14 +837,15 @@
           <div class="poster-main">
             <div>
               <div class="cinema-badges">
-                <span class="badge-live">En cartelera</span>
+                <span class="badge-live">Próximamente</span>
                 <span class="badge-season">25 capítulos</span>
               </div>
               <h4 style="margin-top: 10px;">La Pasión TTurca</h4>
               <p style="margin-top: 6px;">Crónica cronológica íntegra de Marzal y la turca: responde capítulo a capítulo para ir desbloqueando la historia y las citas reales.</p>
             </div>
             <div class="poster-actions">
-              <button class="btn-primary" onclick="startPasionTTurca()">Empezar Capítulo 1</button>
+              <button class="btn-primary" id="btnStartCarttelera" onclick="startPasionTTurca()" disabled>Bloqueado hasta las 22:00</button>
+              <span id="cartteleraUnlockHint" style="font-size: 12px; color: var(--muted);">Estreno hoy a las 22:00</span>
             </div>
           </div>
 
@@ -1075,20 +1083,38 @@
     const mm = String(nowInit.getMonth() + 1).padStart(2, "0");
     const dd = String(nowInit.getDate()).padStart(2, "0");
 
-    // Cuenta atrás hasta el próximo lunes 00:00
+    // Estreno programado: hoy 24 de noviembre de 2026 a las 22:00:00
+    const ESTRENO_CARTTELERA = new Date(2026, 10, 24, 22, 0, 0);
+
+    function syncCartteleraLock(unlocked) {
+      const btn = document.getElementById("btnStartCarttelera");
+      const hint = document.getElementById("cartteleraUnlockHint");
+      const badge = document.querySelector(".carttelera-box .badge-live");
+      if (!btn) return;
+      if (unlocked) {
+        btn.disabled = false;
+        btn.textContent = "Empezar Capítulo 1";
+        if (hint) hint.textContent = "¡Ya disponible!";
+        if (badge) badge.textContent = "En cartelera";
+      } else {
+        btn.disabled = true;
+        btn.textContent = "Disponible a las 22:00";
+        if (hint) hint.textContent = "Se desbloquea automáticamente hoy a las 22:00";
+        if (badge) badge.textContent = "Próximamente";
+      }
+    }
+
     function updateCountdown() {
       const now = new Date();
-      const nextMonday = new Date(now);
-      const day = now.getDay();
-      const diff = day === 0 ? 1 : (8 - day);
-      nextMonday.setDate(now.getDate() + diff);
-      nextMonday.setHours(0, 0, 0, 0);
+      const ms = Math.max(0, ESTRENO_CARTTELERA - now);
+      const unlocked = now >= ESTRENO_CARTTELERA;
 
-      const ms = Math.max(0, nextMonday - now);
       document.getElementById("cdDays").textContent = String(Math.floor(ms / 86400000)).padStart(2, "0");
       document.getElementById("cdHours").textContent = String(Math.floor((ms / 3600000) % 24)).padStart(2, "0");
       document.getElementById("cdMins").textContent = String(Math.floor((ms / 60000) % 60)).padStart(2, "0");
       document.getElementById("cdSecs").textContent = String(Math.floor((ms / 1000) % 60)).padStart(2, "0");
+
+      syncCartteleraLock(unlocked);
     }
     setInterval(updateCountdown, 1000);
     updateCountdown();
@@ -1531,6 +1557,10 @@
     }
 
     async function startPasionTTurca() {
+      if (new Date() < ESTRENO_CARTTELERA) {
+        showToast("El estreno se desbloquea hoy a las 22:00");
+        return;
+      }
       const data = await loadJsonSafe(DATA_PATHS.pasion_tturca, { capitulos: FALLBACK.pasion_tturca });
       const caps = [...extractArray(data, FALLBACK.pasion_tturca)].sort((a, b) => (a.numero || 0) - (b.numero || 0));
 
