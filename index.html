@@ -1031,8 +1031,8 @@
       pornopedia: "data/pornopedia_tt.json",
       comidistta: "data/comidistta.json",
       zona_vox: "data/zona_vox.json",
-      carttelera: "data/saga_marzal_turca.json",
-      enciclopedia: "data/enciclopedia_tt.json"
+      carttelera: "data/marzal_turca.json",
+      enciclopedia: "data/biografias_tt.json"
     };
 
     // Datos de respaldo para que el index funcione al instante incluso antes de subir todos los JSON
@@ -1334,23 +1334,32 @@
       renderQuestion();
     }
 
+    function extractArray(data, fallback) {
+      if (Array.isArray(data)) return data;
+      if (!data || typeof data !== "object") return fallback;
+      for (const k of ["preguntas", "items", "capitulos", "miembros", "perfiles", "datos", "rondas", "duelos"]) {
+        if (Array.isArray(data[k]) && data[k].length > 0) return data[k];
+      }
+      return fallback;
+    }
+
     async function startGame(mode) {
       let pool = [];
       if (mode === "quien_dijo") {
         const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: FALLBACK_DATA.quien_dijo });
-        pool = shuffle(data.preguntas || data).slice(0, 10).map(q => ({ type: "quien_dijo", ...q }));
+        pool = shuffle(extractArray(data, FALLBACK_DATA.quien_dijo)).slice(0, 10).map(q => ({ type: "quien_dijo", ...q }));
         state.currentModeTitle = "💬 ¿Quién dijo esto?";
       } else if (mode === "lo_dijo_o_no") {
         const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK_DATA.lo_dijo_o_no });
-        pool = shuffle(data.preguntas || data).slice(0, 10).map(q => ({ type: "lo_dijo_o_no", ...q }));
+        pool = shuffle(extractArray(data, FALLBACK_DATA.lo_dijo_o_no)).slice(0, 10).map(q => ({ type: "lo_dijo_o_no", ...q }));
         state.currentModeTitle = "⚖️ Lo dijo o no lo dijo";
       } else if (mode === "rajaditta") {
         const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK_DATA.rajaditta });
-        pool = shuffle(data.preguntas || data).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
+        pool = shuffle(extractArray(data, FALLBACK_DATA.rajaditta)).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
         state.currentModeTitle = "🤬 La RajadiTTa";
       } else if (mode === "dato_justo") {
         const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: FALLBACK_DATA.dato_justo });
-        pool = shuffle(data.preguntas || data).slice(0, 10).map(q => ({ type: "dato_justo", ...q }));
+        pool = shuffle(extractArray(data, FALLBACK_DATA.dato_justo)).slice(0, 10).map(q => ({ type: "dato_justo", ...q }));
         state.currentModeTitle = "🎯 El Dato Justo";
       }
 
@@ -1481,7 +1490,7 @@
     // =========================================================================
     async function openCarttelera() {
       const data = await loadJsonSafe(DATA_PATHS.carttelera, { capitulos: FALLBACK_DATA.carttelera });
-      const caps = data.capitulos || FALLBACK_DATA.carttelera;
+      const caps = extractArray(data, FALLBACK_DATA.carttelera);
       showSectionView(
         "🎬 Estrenos de CarTTelera · La Balada de Marzal y la Turca",
         `<button class="btn-secondary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>`
@@ -1532,7 +1541,7 @@
     async function openSection(sec) {
       if (sec === "enciclopedia") {
         const data = await loadJsonSafe(DATA_PATHS.enciclopedia, { miembros: FALLBACK_DATA.enciclopedia });
-        const list = data.miembros || FALLBACK_DATA.enciclopedia;
+        const list = extractArray(data, FALLBACK_DATA.enciclopedia);
         showSectionView("📖 Enciclopedia TT");
         document.getElementById("sectionContent").innerHTML = `
           <div class="member-grid">
@@ -1558,7 +1567,7 @@
         zona_vox: "🟩 Zona VOX · Salidas de tono"
       };
       const data = await loadJsonSafe(DATA_PATHS[sec], { items: FALLBACK_DATA[sec] });
-      const items = data.items || data.preguntas || FALLBACK_DATA[sec];
+      const items = extractArray(data, FALLBACK_DATA[sec]);
       showSectionView(titles[sec]);
 
       document.getElementById("sectionContent").innerHTML = items.map(it => `
