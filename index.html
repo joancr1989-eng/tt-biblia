@@ -1494,11 +1494,19 @@
       const autorCorrecto = MIEMBROS.includes(item.autor) ? item.autor : "Germi";
       const distractores = shuffle(MIEMBROS.filter(m => m !== autorCorrecto)).slice(0, 3);
       const opciones = shuffle([autorCorrecto, ...distractores]);
+      let pregTexto = item.pregunta || "¿Quién soltó esta frase en el grupo?";
+      if (modeTag === "efemeride" && item.autor) {
+        // Evita que aparezca el nombre del autor en la pregunta si se trata de adivinar quién lo dijo
+        const autorRegex = new RegExp(`\b${item.autor}\b`, "gi");
+        if (autorRegex.test(pregTexto) && item.opciones && item.opciones.some(o => MIEMBROS.includes(o))) {
+          pregTexto = pregTexto.replace(autorRegex, "alguien del grupo");
+        }
+      }
       return {
         type: modeTag,
-        pregunta: item.pregunta || "¿Quién soltó esta frase en el grupo?",
+        pregunta: pregTexto,
         cita: item.cita || "",
-        contexto: item.contexto || item.mensaje_previo || "",
+        contexto: modeTag === "efemeride" ? "" : (item.contexto || item.mensaje_previo || ""),
         opciones,
         correcta: opciones.indexOf(autorCorrecto),
         anio: item.anio || "",
@@ -1695,7 +1703,7 @@
             <button class="opt-btn" onclick="handleAnswer(${i}, ${correctIdx})">${op}</button>
           `).join("")}
         </div>
-        <div class="feedback-box" id="feedbackBox"></div>
+        <div class="feedback-box" id="feedbackBox" style="display: none;"></div>
         <div style="margin-top: 16px; text-align: right; display: none;" id="nextBtnWrap">
           <button class="btn-primary" onclick="nextQuestion()">${nextLabel}</button>
         </div>
@@ -1742,6 +1750,7 @@
         fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>`;
       }
 
+      fb.style.display = "block";
       fb.classList.add("show");
       document.getElementById("nextBtnWrap").style.display = "block";
     }
