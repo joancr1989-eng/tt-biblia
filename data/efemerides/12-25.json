@@ -1,0 +1,410 @@
+{
+  "fecha": "12-25",
+  "total_mensajes_dia": 384,
+  "total_preguntas": 31,
+  "preguntas": [
+    {
+      "pregunta": "¿Qué dijo Jorge en 2013 al ver el careto del joven Miki en una foto antigua de archivo?",
+      "cita": "Años despues seria condenado por varios homicidiis",
+      "opciones": [
+        "Años despues seria condenado por varios homicidiis",
+        "Parece sacado del casting de Cuéntame",
+        "Ese chaval apuntaba maneras de tertuliano",
+        "Vaya cara de no haber roto un plato en su vida"
+      ],
+      "correcta": 0,
+      "explicacion": "Revisando fotos del baúl de los recuerdos en plena tarde de Navidad, Jorge no tuvo piedad al describir la cara del joven Miki.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "En plena sesión nostálgica de fotos en 2013, ¿cuál coronó Miki como el 'best meme ever'?",
+      "cita": "La de sal de la cocina....best meme ever",
+      "opciones": [
+        "La de Joni en la canasta",
+        "La de sal de la cocina....best meme ever",
+        "La de Marzal sobando en el aparta",
+        "La de Feme tirado en la playa"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki recordó con entusiasmo la foto de 'sal de la cocina' llamándola directamente la reina de todos los memes del grupo.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Qué antojo navideño de madrugada propuso Feme a las once de la noche el día de Navidad de 2013?",
+      "cita": "Alguine kiere un kebaba del jardinet??",
+      "opciones": [
+        "Un montadito de Los Fueros",
+        "Unos churros con chocolate",
+        "Alguine kiere un kebaba del jardinet??",
+        "Un McFlurry del Burger King"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme tiró de clásico gandiense ofreciendo a la tropa pillar un buen kebab del Jardinet.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿De qué manera tan peculiar despertaron a Feme la mañana de Navidad de 2014?",
+      "cita": "Mi padre acaba de despertarme con hard core",
+      "opciones": [
+        "Con una cacerolada y villancicos",
+        "Con la alarma de incendios del edificio",
+        "Mi padre acaba de despertarme con hard core",
+        "Tirándole un cubo de agua fría"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme juró por el grupo que su señor padre le había dado los buenos días a base de música hardcore bien temprano.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "El día de Navidad de 2015, ¿quién se autoproclamó 'maestro paellero in action'?",
+      "cita": "Maestro paellero in action",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Héctor",
+        "Feme"
+      ],
+      "correcta": 3,
+      "explicacion": "Feme se puso los galones de chef oficial para cocinar la paella navideña a fuego lento para comer a las 3 y media.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Cuando Feme mandó foto de su paella en 2015, ¿qué comentario socarrón soltó Joni?",
+      "cita": "Y que no está el blanco cerca (?)",
+      "opciones": [
+        "Y que el arroz no está socarrat",
+        "Y que no está el blanco cerca (?)",
+        "Y que no le has echado alcachofas",
+        "Y que compraste el caldo de brik"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni apreció la buena mano de Feme, pero no pudo evitar dejar caer la pullita de que el secreto era la ausencia de 'el blanco'.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "En 2016, tras conocer que un chico llamado Sivi pasó la Nochebuena con Miki, ¿qué canción le dedicó Jorge?",
+      "cita": "Sivi, Sivi-Sivi, Sivi-Sivi, Siviiii Toureeee",
+      "opciones": [
+        "Sivi, Sivi-Sivi, Sivi-Sivi, Siviiii Toureeee",
+        "Baila Sivi, baila sin parar",
+        "Oh Sivi can you see, by the dawn's early light",
+        "Sivi llegó ya, con su alegría habitual"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge adaptó el archiconocido cántico futbolero de los hermanos Kolo y Yaya Touré al recién conocido Sivi.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Qué duda reglamentaria tenía Joni ante el supuesto fichaje navideño del TT en 2016?",
+      "cita": "Ocuparía plaza de extracomunitario o tiene pasaporte?",
+      "opciones": [
+        "Tendrá ficha del filial o del primer equipo?",
+        "Ocuparía plaza de extracomunitario o tiene pasaporte?",
+        "Cobra prima de fichaje o viene gratis?",
+        "Pasará el reconocimiento médico en Gandía?"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni sacó su faceta de director deportivo preocupándose por los cupos de extranjeros en la plantilla del TT.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "Discutiendo con Germi sobre si coger el coche con los controles policiales en 2016, ¿qué le espetó Feme?",
+      "cita": "Si vols el pase el numero del policia i parles en ell",
+      "opciones": [
+        "Si vols el pase el numero del policia i parles en ell",
+        "Tu ves fentte el xulito i voras com acabes en chirona",
+        "A mi no me vinguis plorant quant te buiden la cartera",
+        "Jo me'n vaig en taxi que no vull problemes"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme le aseguró que acababa de hablar con un agente y le ofreció sarcásticamente pasarle su número a Germi para que se entendiera con él.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Qué planazo casero propuso Joni para la noche de Navidad de 2017?",
+      "cita": "Por mi ceniTTa en mi casa, nba y burri kin",
+      "opciones": [
+        "Un torneo de FIFA, cervezas y pizza",
+        "Por mi ceniTTa en mi casa, nba y burri kin",
+        "Irnos todos a la bolera y luego copas",
+        "Un maratón de películas malas y turrón"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni planteó el combo definitivo de tranquilidad navideña: comida rápida, partiditos de NBA y el cuartel general de su casa.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Cuando Miki se quejó de que le avisaban con poca antelación para la cena en 2017, ¿qué le replicó Joni?",
+      "cita": "Que eres el Bulli que hay que avisar con 3 meses de antelación?",
+      "opciones": [
+        "Que eres el Papa de Roma para tener tanta agenda?",
+        "Que te crees el rey de España para pedir cita previa?",
+        "Que eres el Bulli que hay que avisar con 3 meses de antelación?",
+        "Que necesitas un intermediario para salir de tu cuarto?"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni se mofó de los aires de inaccesibilidad de Miki comparando su disponibilidad con la lista de espera del mítico restaurante de Ferran Adrià.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Con quién sugirió Joni que podían empezar la previa en su casa en 2017 si él aún no había llegado?",
+      "cita": "Si no estoy llamáis y hacéis la previa con ella",
+      "opciones": [
+        "Con su hermana",
+        "Con su perro",
+        "Con su madre",
+        "Con su abuela"
+      ],
+      "correcta": 3,
+      "explicacion": "Joni avisó de que su abuela ya estaba en la casa y que podían subir a hacer la previa con ella tranquilamente.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "En la Navidad pandémica de 2020, ¿qué estaba haciendo Germi en Marxuquera a las dos del mediodía?",
+      "cita": "Fent foc",
+      "opciones": [
+        "Fent foc",
+        "Pelant creïlles",
+        "Montant les taules",
+        "Posant la música"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi confirmó que ya estaba en la caseta de Marxuquera preparando las brasas para la comida del día de Navidad.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "En las Navidades con restricciones de 2020, ¿por qué motivo Feme metía prisa para aprovechar la tarde?",
+      "cita": "Porque a las 22:30 hay que pirarse a casa",
+      "opciones": [
+        "Porque a las 22:30 hay que pirarse a casa",
+        "Porque cerraban los bares a las ocho",
+        "Porque entraba a currar de guardia a las diez",
+        "Porque tenía cena formal con sus suegros"
+      ],
+      "correcta": 0,
+      "explicacion": "Era 2020 y el toque de queda obligaba a estar recogido en casa a las diez y media de la noche, recortando drásticamente el tardeo.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "El día de Navidad de 2020, ¿quién se ofreció a subir 'alguna botella de alpiste' para que el grupo entrara en calor?",
+      "cita": "Tengo alguna botella de alpiste",
+      "opciones": [
+        "Feme",
+        "Jorge",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge anunció que subiría una botella de alpiste para combatir el frío durante el encuentro navideño.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "¿Quién bautizó su coche como el 'Taxi Crazy' y ofreció llevar a quien quisiera subir la tarde de Navidad de 2020?",
+      "cita": "Por si alguien mas le interesa venirse en el Taxi Crazy",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme avisó de que él y Germán estaban listos y puso a disposición su 'Taxi Crazy' para el resto.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "Tras una timba navideña de póker llena de jugadas locas en el river, ¿la bomba de humo de quién exigió Jorge que debía comentarse?",
+      "cita": "Habrá que comentr la bomba de humo de JM18",
+      "opciones": [
+        "Humpa",
+        "JM18",
+        "Hugo",
+        "Germi"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge y Miki comentaron la partida y Jorge señaló lo tremenda y fea que había sido la bomba de humo de JM18.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "Al enterarse de una trifulca la noche de Navidad en Gandia, ¿a qué ilustre alter ego ficticio mencionó Jorge diciendo que llegaba tarde?",
+      "cita": "El comisario Moratal llega tarde a la acción esta vez",
+      "opciones": [
+        "El comisario Moratal",
+        "El comisario Feme",
+        "El comisario Jorge",
+        "El comisario Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge informó de una pelea multitudinaria en la plaza del Prado lamentando que el comisario Moratal llegara tarde.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "En la partida de cartas de Navidad de 2020, ¿quién reprochó al resto que no hubieran inmortalizado una jugada épica diciendo: 'Cabron del poker de 5 no has hecho foto eh'?",
+      "cita": "Cabron del poker de 5 no has hecho foto eh",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 2,
+      "explicacion": "Miki se picó medio en broma al recordar que nadie le sacó foto a la tremenda mano que se dio en la mesa.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "Al enterarse de que Jorge subiría alpiste la tarde de Navidad de 2020, ¿quién sugirió motivado hacer una queimada?",
+      "cita": "@⁨Jorge⁩ hacemos una queimada?",
+      "opciones": [
+        "Miki",
+        "Hugo",
+        "Germi",
+        "Feme"
+      ],
+      "correcta": 2,
+      "explicacion": "Germi vio la oportunidad perfecta con el alcohol disponible para proponer hacer una queimada.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "Al ver una carta personalizada de Germi estilo FIFA con estadísticas dopadas, ¿a quién le pareció poco creíble que tuviera 'físico 98'?",
+      "cita": "Pero físico 98…",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Feme",
+        "Humpa"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme le dijo a Germi con cariño: 'Coleguilla, jo te vuic, pero físico 98... estem en ello pero encara queda'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Bromeando con hacerle también una carta personalizada a Marta, la pareja de Germi, ¿qué estadística clave de 99 propuso Jorge para ella?",
+      "cita": "Resistencia 99",
+      "opciones": [
+        "Paciencia 100",
+        "Resistencia 99",
+        "Cielo ganado 9999",
+        "Físico 98"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge propuso que la carta de Marta tuviera Resistencia 99 por aguantar a Germi.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Siguiendo con la broma de la carta FUT de Marta por aguantar a Germi, ¿quién remató diciendo que su estadística debía ser 'Cielo ganado 9999'?",
+      "cita": "Jajajajajajaja Cielo ganado 9999",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni fue el que coronó el chiste diciendo que Marta tenía ganado el cielo multiplicado por 9999.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "La Navidad de 2021 trajo temperaturas primaverales a Gandia. ¿Quién ironizó con 'Los terribles 22 grados de finales de diciembre'?",
+      "cita": "Los terribles 22 grados de finales de diciembre",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge tiró de sarcasmo para mofarse del supuesto 'frío invierno gandiense' cuando estaban a 22 grados en plena Navidad.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En pleno debate navideño sobre el calor gandiense, ¿quién acusó a Jorge de ser el hater oficial del clima asegurando: 'Nosotros nos lo gozamos los 12 meses del año'?",
+      "cita": "Jajajajajajaja si aquí el hater de este maravilloso clima eres tú",
+      "opciones": [
+        "Joni",
+        "Miki",
+        "Feme",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni defendió a ultranza el calor mediterráneo frente a las críticas de Jorge sobre las altas temperaturas.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Al compartir en el grupo fotos del pasado con anécdotas locas, ¿quién bautizó una imagen como 'la secuela de Spiderman, el trepamuros gandiense'?",
+      "cita": "Tremenda la secuela de Spiderman, el trepamuros gandiense",
+      "opciones": [
+        "Humpa",
+        "Feme",
+        "Jorge",
+        "Germi"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge soltó este mítico comentario al recordar cuando alguien intentó saltar de un balcón.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Quién convocó al grupo la tarde de Navidad de 2021 para tomar gintonics en el Prado despidiéndose con un elegante 'Call me perras'?",
+      "cita": "Call me perras",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Humpa",
+        "Feme"
+      ],
+      "correcta": 3,
+      "explicacion": "Feme avisó de que se iba con el Blanco al Prado de tardeo y soltó su famosa llamada a filas.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Cuando en 2021 diseñaban la carta ficticia para Marta, ¿qué texto sugirió Feme que se incluyera para 'que se sienta parte de la manada'?",
+      "cita": "Equipo TT",
+      "opciones": [
+        "Sufaridora TT",
+        "Equipo TT",
+        "Familia Colometa",
+        "Manada TT"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme propuso que la carta pusiera 'Equipo TT' para acogerla de pleno derecho en el grupo.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Comentando fotos antiguas la tarde de Navidad de 2021, ¿quién recordó una pulla histórica diciendo: 'Alguien dijo en su día que en esa foto parecía una lesbiana'?",
+      "cita": "Alguien dijo en su día que en esa foto parecía una lesbiana",
+      "opciones": [
+        "Feme",
+        "Humpa",
+        "Marzal",
+        "Jorge"
+      ],
+      "correcta": 1,
+      "explicacion": "Humpa desempolvó el recuerdo de cómo habían calificado aquella foto en su momento.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "La mañana de Navidad de 2022, ¿quién se levantó a las 8:00 AM para subir al Mondúver con la única justificación de 'su locura de tener hambre'?",
+      "cita": "Esta mañana le he levantado a las 8 y me he ido al montduber",
+      "opciones": [
+        "Jorge",
+        "Miki",
+        "Germi",
+        "Humpa"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki confesó que tras la gran cena de Nochebuena se subió al Mondúver a primera hora para abrir hueco a la comida de Navidad.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "En la Navidad de 2025, ¿quién anunció que iría un día antes a la boda de su hermano a un pueblo manchego para llenarle la habitación a su prima indepe de símbolos patrióticos?",
+      "cita": "Solo para llenarle el cuarto de simbolos Patrioticos",
+      "opciones": [
+        "Jorge",
+        "Miki",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 3,
+      "explicacion": "Feme pidió ideas al grupo para trolear la habitación de su prima en el pueblo del Quijote.",
+      "anio": 2025
+    }
+  ]
+}
