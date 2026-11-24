@@ -1,0 +1,657 @@
+{
+  "fecha": "10-13",
+  "total_mensajes_dia": 473,
+  "total_preguntas": 50,
+  "preguntas": [
+    {
+      "pregunta": "¿En qué exótico país sugirió Jorge que Feme debería vivir tras ver un reportaje en Cuatro?",
+      "cita": "Feme, pon cuatro. Cqllejeros viajeros Brasil. Has nacido para.vivir alli tio! Jajaja",
+      "opciones": [
+        "Colombia",
+        "Brasil",
+        "Cuba",
+        "Tailandia"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge vio Callejeros Viajeros en la tele y tuvo claro que el hábitat natural de Feme era Brasil, a lo que Feme contestó con entusiasmo: 'Femaoooo'.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién pilló a Germi saliendo en segundo plano en una foto del diario Levante?",
+      "cita": "Ese germi en el diario levante viendo la jugada en segundo plano!",
+      "opciones": [
+        "Hugo",
+        "Jorge",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni vio a Germán inmortalizado en la prensa local mirando una jugada y le prometió llevarle el periódico a la pachanga.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué motivo malicioso insinuó Jorge cuando Feme soltó de repente 'En mi no conteu' para la pachanga?",
+      "cita": "Feme borrandose. Eso es qu el tiramiento de caña funciono",
+      "opciones": [
+        "Que su tiramiento de caña nocturno había funcionado",
+        "Que se había quedado dormido en la playa de Piles",
+        "Que tenía miedo de enfrentarse a los chavales de Beniopa",
+        "Que se había enfadado por marear tanto"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge no tardó en sospechar que si Feme se borraba del plan no era por pereza, sino porque había tenido éxito ligando la noche anterior.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Para igualar los equipos en el partido 'TT vs Hija de Albano', ¿qué solución propuso Feme respecto a Marzal?",
+      "cita": "A marzal darle un peto i k vaya de comodin",
+      "opciones": [
+        "Ponerlo de portero fijo para que no corriera",
+        "Hacer que jugara descalzo para compensar",
+        "Mandarlo a comprar las aguas para el descanso",
+        "Darle un peto y que fuera de comodín"
+      ],
+      "correcta": 3,
+      "explicacion": "Feme no dudó en adjudicarle a Marzal el papel comodín con peto para evitar desequilibrios tácticos.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿En qué consistía el salvaje reto gastronómico estilo 'Crónicas Carnívoras' que Jorge se planteaba acometer?",
+      "cita": "Tengo entendido que es una barra d pan de mercadona rellena de kebab",
+      "opciones": [
+        "Una hamburguesa triple de dos kilos en La Cabaña",
+        "Un menú gigante de McDonald's con cuatro hamburguesas",
+        "Una barra de pan de Mercadona entera rellena de kebab",
+        "Cincuenta alitas de pollo picantes en diez minutos"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge se enteró de que en un kebab de su barrio hacían esa aberración en una barra de Mercadona y un amigo 'gordaco' de su hermano no pudo acabársela.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Al escuchar la descripción de la barra de pan rellena de kebab de Jorge, ¿qué comida casera estuvo a punto de devolver Joni?",
+      "cita": "Jorge tio q voy a bosar el puchero",
+      "opciones": [
+        "La fideuà",
+        "El puchero",
+        "La paella",
+        "El arroz al horno"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni acababa de comerse el mítico puchero de su abuela y casi se le revuelve el estómago al leer la monstruosidad que planeaba zamparse Jorge.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién llegó el primero al campo de Beniopa e informó de la presencia de 4 chavales ocupando la pista?",
+      "cita": "Hay 4 gitanicos",
+      "opciones": [
+        "Germi",
+        "Hugo",
+        "Jorge",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi fue el primero en personarse a las 16:51 en el campo de Beniopa para inspeccionar el terreno y reportar el aforo.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Cuál era la verdadera e innegociable finalidad de la cena de esa noche según las sabias palabras de Joni?",
+      "cita": "A mi em te igual,anem a fer lo mateix,sopar i burlarmos de algu jajaja",
+      "opciones": [
+        "Discutir el quinteto titular de la liga",
+        "Ahorrar dinero cenando del euroahorro",
+        "Ver repeticiones de la Fórmula 1",
+        "Cenar y burlarse de alguien"
+      ],
+      "correcta": 3,
+      "explicacion": "Tanto si iban a McDonald's como al apartamento o a la caseta de Germi, Joni tenía claro el objetivo sagrado del Triangulito: reírse a costa de alguien.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Tras ser acusado de estar tirándole la caña a menores a las 3 de la madrugada, ¿qué aseguró Feme que estaba haciendo en realidad?",
+      "cita": "Estava viendo monologos de ernesto sevilla",
+      "opciones": [
+        "Jugando a la consola a oscuras",
+        "Viendo monólogos de Ernesto Sevilla",
+        "Mirando coches de segunda mano",
+        "Estudiando para un examen de repesca"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme desmintió cualquier rumor de conquista nocturna afirmando que estaba tranquilamente partiéndose de risa con Ernesto Sevilla.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién entró al grupo en 'modo Manolo Lama total' soltando las estadísticas de Zach Morley en Siena?",
+      "cita": "Por cierto Morley 8 puntos 6 rebotes 6 asistencias 14 de valoracion han ganado 82-92 en siena..para los que decian que Claver era mejor,que si Zach no tenia nivel ACB.. (modo Manolo lama total)",
+      "opciones": [
+        "Hugo",
+        "Jorge",
+        "Joni",
+        "Miki"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni no perdió la ocasión de reivindicar a su ídolo Zach Morley frente a los haters que defendían a Víctor Claver a altas horas de la madrugada.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién celebró triunfalmente a las 5 de la mañana haber conseguido botellita gratis en la discoteca Cocoloco?",
+      "cita": "Reservado cocoloco Maaaaaaaaa Botellica gratisssss",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Jorge",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi triunfó en la noche gandiense colándose en un reservado de Cocoloco y festejando la botella regalada a las tantas de la madrugada.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿A quién le preguntó Feme de madrugada 'K tal las mozas???z' buscando salseo nocturno?",
+      "cita": "Jorgeeeee K tal las mozas???z",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Joni",
+        "Jorge"
+      ],
+      "correcta": 3,
+      "explicacion": "Feme despertó el chat a las 3:38 pidiendo un reporte exhaustivo a Jorge sobre sus aventuras amorosas nocturnas.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Qué insólito patrocinador le asignó Joni al quinteto titular de la jornada donde aparecían Alberto Álvarez y Aitor López?",
+      "cita": "@afes : Alberto Álvarez, el bueno de los Álvarez, y Aitor López, el bueno de los López, en el quinteto titular de la Jornada 1 patrocinado por Pinturas Boluda",
+      "opciones": [
+        "Pinturas Boluda",
+        "Talleres Beniopa",
+        "Carpintería Marzal",
+        "Kebab Estación"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni bromeó con la crónica baloncestística de la liga local bautizando el quinteto estelar de la mano del mítico 'Pinturas Boluda'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "En pleno debate denso sobre el referéndum del 1-O y la independencia de Cataluña, ¿quién cortó el rollo con un troleo monumental?",
+      "cita": "Yo ya he quedado con tu madre",
+      "opciones": [
+        "Germi",
+        "Hugo",
+        "Feme",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "explicacion": "Mientras Miki y Jorge debatían sobre la fuga de empresas y la política nacional, Hugo reapareció de la nada con un mítico 'Yo ya he quedado con tu madre'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué mecanismo legal bromeó Joni que tuvo que aplicar para cancelar la cena del cumple de su padre y poder ir a 'The Bunker'?",
+      "cita": "Mañana es el cumple de mi padre mostro. He tenido que aplicar el 155 para poder anular esa cena",
+      "opciones": [
+        "La moción de censura",
+        "El estado de alarma",
+        "El artículo 155",
+        "El toque de queda"
+      ],
+      "correcta": 2,
+      "explicacion": "En pleno fervor político de octubre de 2017, Joni aplicó el 155 a su propia familia para priorizar bunkear y ver al Barça con los chavales.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Según Joni, ¿cuál habría sido el expeditivo destino judicial de Puigdemont si la madre de Joni dirigiera el Tribunal Constitucional?",
+      "cita": "Bua. Puigdemont fusilado al alba y televisado",
+      "opciones": [
+        "Fusilado al alba y televisado",
+        "Destierro perpetuo en la playa de Piles",
+        "Trabajos forzados cortando césped en Beniopa",
+        "Prisión incomunicada a pan y agua"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge le preguntó a Joni qué pasaría si su madre mandara en el TC, y la respuesta de Joni sobre Puigdemont no dejó lugar a dudas ni a recursos.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Cómo reaccionó Germi cuando vio que Miki se autoinvitaba a The Bunker?",
+      "cita": "Miki a TheBunker? Pfffff Pffff",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Hugo",
+        "Feme"
+      ],
+      "correcta": 1,
+      "explicacion": "A Germi le entró la desesperación inmediata al enterarse de que Miki iba a aparecer por el cuartel general, soltando unos sonoros 'Pfffff'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Con qué entidad en decadencia comparó Jorge la triste asistencia a las cenas del TT en 2017?",
+      "cita": "Las ceniTTas Mas DEP que Catalonia",
+      "opciones": [
+        "El Valencia CF",
+        "Cocoloco",
+        "El pucherito de la abuela",
+        "Catalonia"
+      ],
+      "correcta": 3,
+      "explicacion": "Viendo que la gente cancelaba planes y se dispersaba, Jorge sentenció que las tradicionales ceniTTas estaban más muertas que el procés catalán.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué contestó Feme cuando Jorge le preguntó con insistencia en 2017 cuándo se mudaba a 'Catalonia'?",
+      "cita": "No se contempla en mi horizonte",
+      "opciones": [
+        "No se contempla en mi horizonte",
+        "Cuando me den la nacionalidad",
+        "Antes me voy a Albacete",
+        "Yo a ver el Barça tengo la entrada vetada"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge le tiraba de la lengua con Cataluña y Feme zanjó el debate con elegancia diplomática diciendo que no entraba en sus planes.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Germi mencionó que alguien estaría cantando canciones de La Gossa Sorda y un miembro del grupo empezó a recitar temas de carrerilla como 'Batiste ceba', 'Esbarzers' o 'Aire'. ¿Quién demostró ser el fan número uno?",
+      "cita": "Ne tenen moltes",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Hugo",
+        "Joni"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme sacó su lado más autóctono y encadenó medio repertorio de La Gossa Sorda en apenas un minuto de reloj.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "En 2018, Miki pidió la expulsión vitalicia del grupo para Humberto y Marzal. ¿Qué indignante suceso gastronómico motivó tal petición?",
+      "cita": "Humberto, marcial comiendo en la misma mesa que adria camerena",
+      "opciones": [
+        "Pedir paella mixta con chorizo en Valencia",
+        "Comer en la misma mesa que Ricard Camarena",
+        "Colarse en el reservado de Quique Dacosta",
+        "Pagar 100 euros por un menú degustación de verduras"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki vio intolerable que compartieran mesa con el chef (al que llamó 'Adria Camerena') y pidió medidas disciplinarias inmediatas.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Germi preguntó al grupo cómo querían organizarse para ver El Clásico del sábado, pero Feme dejó muy clara su implicación con una frase demoledora. ¿Qué contestó?",
+      "cita": "no es de mi incunbencia",
+      "opciones": [
+        "Paso totalmente",
+        "no es de mi incunbencia",
+        "Yo a ver el Barça tengo la entrada vetada",
+        "Mejor una de Dominos y a correr"
+      ],
+      "correcta": 1,
+      "explicacion": "A Feme le dio exactamente igual el partido del sábado y despachó la convocatoria futbolera con un frío 'no es de mi incunbencia'.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "¿Qué documental o serie confesó Miki estar viéndose por tercera vez, provocando que Hugo le llamara 'exagerao'?",
+      "cita": "Por 3 vez lo estoy viendo",
+      "opciones": [
+        "The Last Dance",
+        "El pionero",
+        "Making a Murderer",
+        "The Wire"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki flipó tanto con el documental de Michael Jordan ('The Last Dance') que se lo metió tres veces entre pecho y espalda.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "¿Quién salió en defensa de Miki cuando Hugo le llamó exagerado, argumentando que exagerar u opinar es la esencia misma del grupo?",
+      "cita": "Si no se le va a permitir exagerar (o sea, opinar).. Para eso echadle directamente del grupo",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Joni",
+        "Humpa"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni defendió el derecho sagrado de Miki a magnificar cualquier cosa sin miedo a represalias.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "Analizando la boda de Humpa por la iglesia, ¿qué momento clave omitió el 'pare Enric' para sorpresa e indignación de los asistentes?",
+      "cita": "El puto pare enric no dijo lo de puedes besar a la novia",
+      "opciones": [
+        "El intercambio de las arras",
+        "La frase de 'puedes besar a la novia'",
+        "El sí quiero de la novia",
+        "La bendición de las alianzas"
+      ],
+      "correcta": 1,
+      "explicacion": "Humpa y sus amigos se quedaron a cuadros al ver que el cura cerró la ceremonia sin dar paso al beso nupcial tradicional.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Al hilo de las omisiones en el altar durante la boda de Humpa, ¿qué parte aseguró Joni que se había quitado deliberadamente por petición del propio novio?",
+      "cita": "Esa parte, según me consta, se omitió a petición del novio",
+      "opciones": [
+        "La lectura de la carta de San Pablo",
+        "El que tenga algo que decir que hable ahora o calle para siempre",
+        "En la riqueza y en la pobreza",
+        "El rito de la paz"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni soltó que el novio pidió quitar la parte de las objeciones por si acaso a alguien le daba por boicotear la ceremonia.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Si el cura hubiera preguntado en la boda de Humpa si alguien se oponía al matrimonio, ¿qué artefacto tenía ya preparado JM según contó Feme?",
+      "cita": "Ahi JM tenía preparada una bocina especial",
+      "opciones": [
+        "Un silbato de árbitro",
+        "Una bocina especial",
+        "Un megáfono de manifestación",
+        "Una traca valenciana"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme contó que JM tenía una bocina lista para hacerla sonar si daban la oportunidad de oponerse al enlace.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Germi vio las fotos de la copa del cura y preguntó si era miel. ¿Qué bebida litúrgica aclaró Humpa que contenía realmente?",
+      "cita": "Vino santo,  una especie de vino dulce",
+      "opciones": [
+        "Mistela casera",
+        "Vino santo, una especie de vino dulce",
+        "Orujo blanco bendecido",
+        "Moscatel de Teulada"
+      ],
+      "correcta": 1,
+      "explicacion": "Humpa aclaró que era 'vino santo', desatando un debate histórico-etílico de Jorge sobre la antigua Hispania y los romanos.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Jorge y Feme descubrieron y compartieron noticias loquísimas de un alcalde al que catalogaron de auténtica 'leyenda viva' y 'alcalde puro TT'. ¿A qué político se referían?",
+      "cita": "Jacome tío",
+      "opciones": [
+        "Abel Caballero",
+        "Pérez Jácome",
+        "Jesús Gil",
+        "Toni Cantó"
+      ],
+      "correcta": 1,
+      "explicacion": "Descubrieron las surrealistas hazañas de Gonzalo Pérez Jácome, alcalde de Ourense, y no pararon de enviarse vídeos de sus locuras.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué llamativa subvención aprobada en el País Vasco compartió Feme con el grupo en octubre de 2021?",
+      "cita": "Bonos de 40€ para gastar en Bares",
+      "opciones": [
+        "Vales de 50€ para txuletones",
+        "Bonos de 40€ para gastar en Bares",
+        "Descuento joven para sidrerías",
+        "Ayudas a fondo perdido para comprar cerveza"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme compartió descojonado la medida del País Vasco de incentivar el consumo dando bonos directos de 40 euros para bares.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "En el debate de guapura que enfrentaba a Aitana con Ester Expósito, ¿con qué argumento tan refinado justificó Feme su voto por Expósito?",
+      "cita": "Por su clara cara de coxina a mas no poder",
+      "opciones": [
+        "Por su actuación en Élite",
+        "Por su clara cara de coxina a mas no poder",
+        "Porque Aitana tiene demasiado flequillo",
+        "Porque Ester parece más simpática"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme no se anduvo con rodeos poéticos y dio sus particulares razones fisionómicas para elegir a Ester Expósito.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Cuando Humpa le preguntó a Miki qué estaba bebiendo un jueves por la noche, ¿qué respondió con total sinceridad y su toque habitual?",
+      "cita": "Un Clarita para maricones",
+      "opciones": [
+        "Un gin tonic con pepino",
+        "Un Clarita para maricones",
+        "Un Aperol de postureo",
+        "Agua con gas para desintoxicar"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki confesó que se estaba tomando una clarita, autodenominándola con su clásico lenguaje sin filtro.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Marzal entró al grupo conmocionado anunciando una muerte con un 'No puede ser, RIP'. ¿Cuál fue la fría respuesta de Humpa?",
+      "cita": "Estaba vivo ?",
+      "opciones": [
+        "DEP en rip",
+        "Quién coño es?",
+        "Estaba vivo ?",
+        "No me jodas"
+      ],
+      "correcta": 2,
+      "explicacion": "Ante el drama y pésame de Marzal, Humpa demostró que pensaba que dicho personaje ya llevaba años bajo tierra.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "En una mañana de rajada política en 2024, ¿quién proclamó solemnemente que 'Don Eduardo Inda y Vito Quiles' son los únicos que de verdad incomodan al poder?",
+      "cita": "Don Eduardo inda y vito quiles, esos son los que incomodan al poder. Y el resto a hacerse los dignos cuando les llaman basura",
+      "opciones": [
+        "Joni",
+        "Miki",
+        "Jorge",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni se despachó a gusto contra el panorama político y mediático español elogiando a Inda y Vito Quiles.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿A qué presentadora de radio atacó Miki con extrema furia en 2024 tras señalar a Alsina, dedicándole perlas de su cosecha?",
+      "cita": "Angels barceló. La mataría. Una vendida y dando lecciones. Señalando un día sin pudor a alsina. Solo por contar la verdad. Puta cerda",
+      "opciones": [
+        "Àngels Barceló",
+        "Julia Otero",
+        "Pepa Bueno",
+        "Gemma Nierga"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki entró en combustión espontánea al ver a Àngels Barceló criticar a Carlos Alsina y no se guardó ningún calificativo.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "¿A quién le sugirió Joni en tono de broma que preparase la piragua para llegar a TheBunker tras el diluvio?",
+      "cita": "@Germán prepara la piragua que te toca batir el tiempo de Saul Cravioto para llegar a TheBunker",
+      "opciones": [
+        "Germi",
+        "Humpa",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Tras una tromba de agua brutal que anegó las calles, Joni le dijo a Germi que sacara la piragua al estilo Saúl Craviotto para desplazarse.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "Comentando un evento o show, ¿quién intentó validar la calidad del espectáculo destacando que hasta a las chicas les había encantado?",
+      "cita": "Fue una pasada, un show todo el rato. Incluso las tías fliparon",
+      "opciones": [
+        "Miki",
+        "Héctor",
+        "Hugo",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki quiso recalcar lo bueno que estuvo el show usando como termómetro definitivo que 'incluso las tías fliparon'.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Qué contestó tajantemente Jorge ante el comentario de Miki de que a las tías les había gustado el show?",
+      "cita": "Lo que piensen las tias nos la bufa",
+      "opciones": [
+        "Lo que piensen las tias nos la bufa",
+        "Eso es porque no entienden de espectáculos",
+        "Ellas tienen mejor gusto que tú",
+        "Si a ellas les mola, sospecho"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge cortó en seco el criterio de Miki recordándole con 'Miguel, somos hombres. Lo que piensen las tias nos la bufa. Since 1989'.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Desde qué año dice Jorge que al grupo se la bufa la opinión femenina?",
+      "cita": "Since 1989",
+      "opciones": [
+        "Since 1989",
+        "Since 1991",
+        "Since 1995",
+        "Since 2010"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge selló su sentencia con un lapidario 'Since 1989' para marcar época de nacimiento y mentalidad.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Qué célebre aforismo en modo cavernícola soltó Feme durante el debate sobre si a las mujeres les gustan los deportes?",
+      "cita": "Tias no casa con deports",
+      "opciones": [
+        "Tias no casa con deports",
+        "Ellas solo quieren postureo",
+        "El deporte es para los chicos",
+        "Fútbol y chicas mala mezcla"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme resumió toda su teoría sociológica en cuatro palabras sin conjugar: 'Tias no casa con deports'.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "Al debatir sobre el diluvio y la tardanza del aviso de emergencia, ¿qué motivo de indignación expuso Joni?",
+      "cita": "Que sentido tiene avisar ahora, una hora después del diluvio, cuando ya no está ni lloviendo?",
+      "opciones": [
+        "Que avisaron una hora después del diluvio cuando ya ni llovía",
+        "Que no sonó la alarma en los móviles Android",
+        "Que suspendieron el fútbol pero no los colegios",
+        "Que el radar de la Aemet estaba averiado otra vez"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni no daba crédito a que mandaran la alerta cuando el agua ya había arrasado todo y había parado de llover.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Qué apodo satírico le puso Joni al alcalde de Gandia por la gestión de las alertas de lluvia?",
+      "cita": "Increíble las 24 últimas horas de José Faller Alerta Prieto",
+      "opciones": [
+        "José Faller Alerta Prieto",
+        "Prieto El Diluvios",
+        "Josep Ninguna Alerta Prieto",
+        "El Barquero de Gandia"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni combinó las fallas y las alertas tardías para bautizar al alcalde José Manuel Prieto como 'José Faller Alerta Prieto'.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Qué paradoja climatológica denunció Humpa respecto a la suspensión de clases del día siguiente?",
+      "cita": "Y se va a dar la situación de que mañana estará el sol fuera y con alerta roja y hoy diluviaba y alerta naranja",
+      "opciones": [
+        "Que suspenderían con sol y alerta roja, mientras diluviaba en naranja",
+        "Que los profesores no iban pero abrían los bares",
+        "Que en Tavernes llovía barro y en Gandia hacía calor",
+        "Que Aemet daba nieve en la playa de Gandia"
+      ],
+      "correcta": 0,
+      "explicacion": "Humpa criticó que Aemet bajaba la alerta a verde/amarilla pero emergencias mantenía roja, provocando que se cancelasen las clases con un sol radiante.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Qué municipio vecino puso Joni como ejemplo de mejor previsión al suspender las clases antes de la tormenta?",
+      "cita": "Pero si Tavernes ayer suspendió las clases sin estar en alerta roja.. Gandía igual se lo podría haber planteado",
+      "opciones": [
+        "Tavernes",
+        "Oliva",
+        "Xeraco",
+        "Bellreguard"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni remarcó que Tavernes de la Valldigna había sido mucho más prudente suspendiendo las clases sin requerir alerta roja.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Qué reacción eufórica e irónica tuvo Jorge al compartir una noticia sobre una nueva tasa o subida de impuestos?",
+      "cita": "A PAGAR TODOS, SIIII",
+      "opciones": [
+        "A PAGAR TODOS, SIIII",
+        "Disfruten lo votado chavales",
+        "Menuda ruina de país",
+        "Hacienda somos todos jajaja"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge celebró con mayúsculas y puro sarcasmo tener que rascarnos el bolsillo una vez más con un 'A PAGAR TODOS, SIIII'.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Qué deporte reconoció Humpa que no le apasiona, pese a admitir que un partido de su liga estrella en directo debe ser una pasada?",
+      "cita": "Mira que no me gusta el basket pero ver un partido de la NBA tiene que ser un espectáculo",
+      "opciones": [
+        "Basket / Baloncesto",
+        "Fútbol americano",
+        "Béisbol",
+        "Hockey sobre hielo"
+      ],
+      "correcta": 0,
+      "explicacion": "Humpa confesó que, aunque no le gusta el baloncesto, ver un encuentro de la NBA en directo debe de ser un auténtico show.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "En 2025 caía en Gandía y Piles 'el día del juicio final' con una tormenta huracanada. Justo después de que Marzal se quejara de que no había alerta, ¿qué comentó Joni con sarcasmo?",
+      "cita": "Jaaa, ahora mandan la alerta",
+      "opciones": [
+        "Jaaa, ahora mandan la alerta",
+        "Se ha volado el tejado de Feme",
+        "Protección Civil nunca falla",
+        "Nos vamos a ahogar todos"
+      ],
+      "correcta": 0,
+      "explicacion": "Con la tromba ya encima y Gandía anegada, a las autoridades les dio por soltar el pitido de la alerta móvil con el habitual retraso.",
+      "anio": 2025
+    },
+    {
+      "pregunta": "¿Quién sentenció con un rotundo 'Son invotables' al ver el tuit de una figura política en redes?",
+      "cita": "Son invotables",
+      "opciones": [
+        "Jorge",
+        "Hugo",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge compartió el enlace y abrió el melón político-estético con un tajante 'Son invotables'.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Qué utilidad tan festiva y valenciana le encontró Feme a los atributos de la chica del tuit compartido por Jorge?",
+      "cita": "Pa tocar els timbals de moros i cristians",
+      "opciones": [
+        "Pa tocar els timbals de moros i cristians",
+        "Pa tocar la dolçaina en falles",
+        "Pa parar els balons del Gandia",
+        "Pa fer coixins per al sofà"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme tiró de raíces comarcales y soltó que servían para aporrear los tambores de las comparsas de moros y cristianos.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Quién reaccionó aplaudiendo el comentario de Femenia llamándole 'ídolo' tras el enlace de Twitter?",
+      "cita": "Jajajjaa ídolo Femenia!",
+      "opciones": [
+        "Hugo",
+        "Miki",
+        "Joni",
+        "Héctor"
+      ],
+      "correcta": 0,
+      "explicacion": "Hugo se partió de risa con la salida de Feme y le dedicó un 'Jajajjaa ídolo Femenia! Quines mamelles'.",
+      "anio": 2026
+    }
+  ]
+}

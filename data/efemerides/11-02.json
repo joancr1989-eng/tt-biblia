@@ -1,0 +1,696 @@
+{
+  "fecha": "11-02",
+  "total_mensajes_dia": 630,
+  "total_preguntas": 53,
+  "preguntas": [
+    {
+      "pregunta": "En febrero de 2012, Feme adelantó un notición de fiesta nocturna sobre Cocoloco citando una publicación de Facebook de Pascal. ¿Qué novedad anunció?",
+      "cita": "Ademes pascal a ficat en l seu facebook k tindran jardi",
+      "opciones": [
+        "Que abrirían piscina climatizada",
+        "Que tendrían jardín en la nueva sala",
+        "Que la entrada sería gratis para universitarios",
+        "Que traían a pinchadiscos internacionales"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme informó al grupo de que Cocoloco abría una nueva sala y que Pascal había publicado en Facebook que contaría con jardín.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién recibió la llamada de Afes avisando de que se suspendía el partido porque el campo no estaba acabado, enterándose de paso de que seguía de delegado?",
+      "cita": "Xk si me han llamado a mi será x estoy como delegado",
+      "opciones": [
+        "Héctor",
+        "Germi",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Héctor recibió la llamada oficial de suspensión porque seguía constando en la organización como delegado del TT y pidió relevo de teléfonos.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué miembro del TT compartió una curiosa coincidencia matemática sobre la diferencia de edad entre Messi, Cristiano y sus hijos?",
+      "cita": "Y el hijo se cr7 es 869 días mas mayor que el hijo de messi",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki flipó en el chat con que CR7 fuera 869 días más mayor que Messi y sus respectivos hijos tuvieran exactamente la misma diferencia de días.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién confesó haberse echado una siesta de 8 a 11 para trasnochar y ver la NBA imitando a Pascal Renolt?",
+      "cita": "Yo he sobado de 8 hasta ahora. Para llegar en plena forma",
+      "opciones": [
+        "Joni",
+        "Hugo",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge avisó con voz de Pascal de que se quedaba a ver la NBA hasta las 3:30 habiendo dormido antes para estar a tope.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "A última hora de la noche, ¿qué película y actriz pelirroja destacó Jorge que estaba viendo por televisión?",
+      "cita": "Ojo. Spiderman 2. MJ Watson. Redhead",
+      "opciones": [
+        "Spiderman 2 (MJ Watson)",
+        "Iron Man (Pepper Potts)",
+        "Batman Begins (Rachel Dawes)",
+        "Los Vengadores (Viuda Negra)"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge soltó ese apunte cinéfilo en el grupo destacando a Mary Jane Watson pelirroja en Spiderman 2.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Quién reivindicó al inicio de la jornada el temporadón que estaba haciendo el equipo con esta ambiciosa frase?",
+      "cita": "Se habla muy poco de que el TT busca el 2/2 esta temporada. .",
+      "opciones": [
+        "Jorge",
+        "Hugo",
+        "Joni",
+        "Germi"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni abrió la conversación recordando que el TT iba lanzado a por el 2/2 esa temporada.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "Mientras Miki preguntaba ilusionado si Alonso aún podía ganar el mundial, ¿con qué mensaje le bajó Joni de golpe a la realidad?",
+      "cita": "Alonso no pasa a la Q3, desastre en Ferrari; Rosberg el más rápido",
+      "opciones": [
+        "Con que Ferrari había roto motor en los entrenamientos libres",
+        "Pegando un tweet de F1sphera donde confirmaban que Alonso cayó en Q2",
+        "Avisando de una sanción de diez puestos en parrilla",
+        "Diciendo que la carrera se suspendía por lluvia"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni le copió directamente el tweet que certificaba el desastre de Ferrari con Alonso eliminado en la Q2.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "Tras una dura derrota por 3-4, Hugo transmitió las disculpas de Alex por un fallo final. ¿Cómo salió Joni en su defensa?",
+      "cita": "Tots hem fet fallos.lo que pasa que el seu ha sigut en la ultina jua,l'atre dia va participar en tres dels quatre gols",
+      "opciones": [
+        "Pidiendo que no volviera a jugar de titular",
+        "Restándole culpa y recordando que el partido anterior generó tres de los cuatro goles",
+        "Echándole la culpa al árbitro del encuentro",
+        "Diciendo que el único responsable fue el portero"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni quitó hierro al error final de Alex recordando lo decisivo que había sido apenas unos días antes.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "Al terminar Miki dolorido tras el partido, ¿qué exagerado parte médico y traslado improvisó Joni?",
+      "cita": "Dejad a miki que se lo llevan en helicóptero a la quiron,se habla de posible triada",
+      "opciones": [
+        "Amputación inmediata de menisco en el IMED",
+        "Traslado en helicóptero a la Quirón por posible triada",
+        "Ingreso de urgencia en la UCI de La Fe",
+        "Retirada deportiva definitiva por rotura de cruzado"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni bromeó con que a Miki se lo llevaban en helicóptero a la Quirón temiéndose una triada completa.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Qué remedio poco ortodoxo le recomendó Joni a Miki para calmarle el dolor de pierna tras el partido?",
+      "cita": "Miki,una rayita de farli y como na prim",
+      "opciones": [
+        "Hielo durante 15 minutos sin parar",
+        "Una rayita de farli y como na prim",
+        "Voltaren en crema tres veces al día",
+        "Un cubata bien cargado en el pub"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni le recomendó esa 'medicina' de fiesta, a lo que Miki contestó entre risas: '¡Eso a la noche!'.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Qué dijo Joni imaginándose al árbitro Boluda dirigiendo un partido de tenis desde la silla?",
+      "cita": "Que si boluda arbitrara desde una silla en el tenis ya lo habríamos tirado a tierra lo sabe hasta el cachorro de la foto de  miki",
+      "opciones": [
+        "Que le habrían roto las raquetas en la cabeza",
+        "Que ya lo habrían tirado a tierra, como sabe hasta el cachorro de la foto de Miki",
+        "Que no vería ni un bote fuera de pista",
+        "Que habría suspendido el partido por quejas del público"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni se acordó del árbitro Boluda y bromeó con tirarlo de la silla del juez de tenis, metiendo de paso al perro del perfil de Miki.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Por qué llamó Feme 'subecarros' a Miki durante el épico partido entre Rafa Nadal y David Ferrer?",
+      "cita": "Ahi esta miki el subecarros",
+      "opciones": [
+        "Porque Miki no estaba viendo el partido, entró gritando 'Vamos Rafa' y al ver los apoyos cambió a 'Grande Ferrer'",
+        "Porque apostó dinero a Nadal en el último set",
+        "Porque afirmó ser fan del tenis de toda la vida sin conocer a Ferrer",
+        "Porque celebró un punto de Ferrer pensando que era bádminton"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki admitió que ni lo estaba viendo, apoyó a Nadal y en cuanto vio a todos con Ferru soltó 'Grande Ferrer!', ganándose la mofa de Feme y Jorge.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "En el encendido debate sobre el patriotismo fiscal de los tenistas, ¿qué disparate soltó Joni sobre David Ferrer?",
+      "cita": "ferru tributa en España y me consta que entrega 100 € a cada vecino de xabia",
+      "opciones": [
+        "Que construyó una pista de tierra batida gratis para el pueblo",
+        "Que tributa en España y le consta que entrega 100 € a cada vecino de Xàbia",
+        "Que tenía un palco reservado para los amigos de Gandia",
+        "Que pagaba las fiestas patronales de su bolsillo"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni defendió a David Ferrer inventando que repartía billetes de 100 euros entre los habitantes de Jávea.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "Tras compartir Joni un resultado oficial de raspall en Gandia, ¿por qué mítico jugador preguntó Hugo?",
+      "cita": "Ha perdut el meu amic sarasol II??",
+      "opciones": [
+        "Waldo",
+        "Sarasol II",
+        "Coeter II",
+        "Punxa"
+      ],
+      "correcta": 1,
+      "explicacion": "Hugo preguntó si había perdido su amigo Sarasol II, a lo que Joni le aclaró que jugaba al día siguiente.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Qué exclusivo club encontró Feme en 2014 que consideraba totalmente del estilo de Humberto?",
+      "cita": "Es que he encontrado eñ club de fumadores de pipa",
+      "opciones": [
+        "El club de amantes de la petanca",
+        "El club de fumadores de pipa",
+        "El club de coleccionistas de mocasines",
+        "El club de tertulianos de Intereconomía"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme le preguntó a Humpa cómo se vería con pipa porque había descubierto un club de fumadores de pipa que encajaba perfectamente con su estilo.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "En pleno debate sobre la independencia y la política en 2014, ¿cómo propuso Feme rebautizar a Cataluña?",
+      "cita": "Pasara a ser Femerland",
+      "opciones": [
+        "Femerland",
+        "Femecat",
+        "Femetròpoli",
+        "República de Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme proclamó que la tierra de Feme pronto dejaría de llamarse Cataluña para convertirse en 'Femerland, nueva región de España'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿Quién proclamó en el grupo que para poner orden en el país ante el auge de Podemos tenía que volver José María Aznar?",
+      "cita": "Aqui tiene que volver Jose Maria Aznar",
+      "opciones": [
+        "Jorge",
+        "Miki",
+        "Joni",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge se encendió contra los 'socialistas rojillos' del grupo reclamando que Txemari Aznar volviera para poner orden.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Ante las discusiones políticas entre PP y Podemos, ¿por qué formación política aseguró Feme simpatizar en 2014?",
+      "cita": "Yo soy del pacma",
+      "opciones": [
+        "Ciudadanos",
+        "Vox",
+        "El PACMA",
+        "UpyD"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme mandó a Aznar bien lejos y se desmarcó diciendo 'Yo soy del pacma Jajaja'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Según Feme, ¿qué militar o tanque particular debía dar un golpe de estado para poner orden en España?",
+      "cita": "Este pais solo estara en orden cuando Marc \"El Tanque\" Gonzalez haga un golpe de estado y se ponga al mamdo",
+      "opciones": [
+        "John Cobra",
+        "Marc 'El Tanque' González",
+        "Bertín Osborne",
+        "Tejero de Gandía"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme propuso como solución definitiva a la gobernabilidad que Marc 'El Tanque' González tomara el poder por la fuerza militar.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿Qué programa de televisión interrumpió la tertulia política de Jorge en 2014 alegando que había pelea y 'cosas importantes'?",
+      "cita": "Ojo GH Pelea Cosas importantes por fabor",
+      "opciones": [
+        "Sálvame Deluxe",
+        "Gran Hermano (GH)",
+        "El Chiringuito",
+        "Mujeres y Hombres y Viceversa"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge cortó el rollo político avisando de una pelea en directo en GH: 'Cosas importantes por fabor'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿A quién tachó Jorge de ser 'el pelele por excelencia de este país' por estar a punto de votar a Podemos?",
+      "cita": "Es miguel moratal El pelele por excelencia de este pais",
+      "opciones": [
+        "Humpa",
+        "Miki",
+        "Feme",
+        "Germi"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge arremetió contra Miki (Miguel Moratal) por plantearse votar a 'Pablito' y le auguró que a los 3 meses se arrepentiría.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Debatiendo sobre cómo el Athletic Club podía fichar a Aymeric Laporte, ¿cómo delimitó Feme la zona vascofrancesa?",
+      "cita": "La parte que es vascofrancesa es el triangulo de arriba de navarra",
+      "opciones": [
+        "Un pueblo costero a 20 km de San Sebastián",
+        "El triángulo de arriba de Navarra",
+        "Toda la franja entre Biarritz y Burdeos",
+        "Una comarca histórica pegada a Huesca"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme sacó su particular mapa geopolítico definiendo la zona vascofrancesa como el 'triángulo de arriba de Navarra'.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Tras una victoria del Valencia CF con gol de Mustafi, ¿quién proclamó eufórico la doctrina de su nuevo entrenador?",
+      "cita": "Estoy proclamando la palabra de nuno",
+      "opciones": [
+        "Feme",
+        "Miki",
+        "Jorge",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme estaba pletórico con el Valencia de Nuno Espírito Santo y no dudó en evangelizar al grupo.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Harto del bombardeo de mensajes sobre el Valencia CF, ¿quién ejerció de moderador autoritario exigiendo hablar solo del equipo?",
+      "cita": "Esto es un grupo de WhatsApp dedicado única y exclusivamente al TT, ceñiros al tema",
+      "opciones": [
+        "Germi",
+        "Humpa",
+        "Joni",
+        "Héctor"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni cortó el debate valencianista poniéndose serio y exigiendo hablar únicamente del Triangulito Team.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "Cuando Jorge mandó a los miembros que estaban en Cataluña a hacerse un grupo aparte, ¿qué respondió Feme con orgullo?",
+      "cita": "Llevo los ideales de humberto por tierras hostiles",
+      "opciones": [
+        "Miki",
+        "Feme",
+        "Hugo",
+        "Germi"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme contestó con ironía diciendo que su estancia en Cataluña era en realidad una misión para expandir los ideales de Humberto.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "En un viaje nocturno en BlaBlaCar a Granada en 2015, ¿a qué famosa dijo Germi que se parecía la conductora?",
+      "cita": "La conductora se prece a ana morgade",
+      "opciones": [
+        "Cristina Pedroche",
+        "Ana Morgade",
+        "Paz Padilla",
+        "Eva Hache"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi reportó a la 1:35 en un BlaBlaCar diluviando que la conductora era clavada a Ana Morgade y que iba acompañado de una tinerfeña.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Joni le daba consejos a Jorge para una cita en casa recomendando qué habilidad culinaria en vez de ver pelis?",
+      "cita": "Que aprenda a hacer durums con patatas fritas dentro y se deje de historias",
+      "opciones": [
+        "Que aprenda a hacer durums con patatas fritas dentro y se deje de historias",
+        "Que pida cuatro pizzas medianas al Telepizza",
+        "Que haga tortilla de patata con cebolla bien pochada",
+        "Que le prepare un cubata con gominolas"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni aconsejó a Jorge dejarse de películas y aprender a elaborar durums cargados de patatas fritas para triunfar.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "Hablando de citas y ligoteos, ¿cómo bautizó Feme a esa gloriosa etapa de Jorge (JM)?",
+      "cita": "El año de oro de JM",
+      "opciones": [
+        "El prime time de la flecha",
+        "El reinado de JM",
+        "El año de oro de JM",
+        "La primavera de Jorge"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme sentenció que tras el 'verano glorioso del káiser', había arrancado 'El año de oro de JM'.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Qué surrealista lesión confesó el novio de la compañera de piso de Germi en 2015?",
+      "cita": "Y me dice...nah que me cai follando con esta en la ducha",
+      "opciones": [
+        "Se quemó encendiendo una cachimba a oscuras",
+        "Se cortó la mano tras resbalar teniendo sexo en la ducha",
+        "Se rajó con una lata de atún preparándose la cena",
+        "Se abrió la ceja jugando a la Play"
+      ],
+      "correcta": 1,
+      "explicacion": "El chaval apareció con un corte tremendo en la mano y admitió sin pudor que se había caído en plena faena en la ducha.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "En 2016, tras un gol del Legia de Varsovia al Real Madrid, ¿qué frase soltó Joni para celebrarlo?",
+      "cita": "Todo se derumbowski",
+      "opciones": [
+        "Polonia manda",
+        "Se masca la tragedia",
+        "Todo se derumbowski",
+        "Remontada en Varsovia"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni cantó el gol del Legia polaco transformando el drama blanco en 'Todo se derumbowski'.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿A quién vio Germi a escaso un metro de distancia por sorpresa en 2017?",
+      "cita": "He visto a FP a 1m de mi Florentino Perez",
+      "opciones": [
+        "Mariano Rajoy",
+        "Florentino Pérez",
+        "Pablo Iglesias",
+        "Bertín Osborne"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi alucinó al encontrarse a Florentino Pérez ('FP') a apenas un metro de distancia acompañado de tres guardaespaldas.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Cuando Miki se desató en 2017 contra el procés, Junqueras y Podemos, ¿qué apodo le puso Jorge?",
+      "cita": "El Messi del hateo",
+      "opciones": [
+        "El Francotirador de Gandía",
+        "El Messi del hateo",
+        "El Inquisidor de la Safor",
+        "El Bicho del Twitter"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge flipó con la ráfaga de bilis política de Miki y lo bautizó como 'El Messi del hateo. Ta ta ta ta ta'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Además del 'Messi del hateo', ¿con qué título honorífico bautizó Joni a Miki en plena crisis política?",
+      "cita": "Es ThePoliTTologo",
+      "opciones": [
+        "ThePoliTTologo",
+        "El Senador Saforí",
+        "Miki Ferreras",
+        "El Gran Patriarca"
+      ],
+      "correcta": 0,
+      "explicacion": "Joni declaró a Miki como 'ThePoliTTologo' y 'nuestra referencia en todo el meollo indepe, nuestro faro'.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Hablando de los hijos de los futbolistas en 2018, ¿qué elogió Joni sobre la evolución de Thiago Messi?",
+      "cita": "Que remontada tan épica de clarísimo sindrome de asperger a niño responsable y educado",
+      "opciones": [
+        "Que pasó de no querer el balón a meter golazos en alevines",
+        "Que remontada tan épica de clarísimo sindrome de asperger a niño responsable y educado",
+        "Que aprendió a hablar catalán antes que castellano",
+        "Que ya dribla mejor que Cristiano Jr"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni aplaudió con ironía la gran 'remontada' de Thiago Messi, pasando de parecer autista perdido en las gradas a ser un chaval modélico.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Cómo apodó Jorge a Cristiano Ronaldo al comentar una foto suya haciendo pesas junto a sus hijos?",
+      "cita": "Cipriano Rumano ejercitandose",
+      "opciones": [
+        "El Ken de Madeira",
+        "Cipriano Rumano ejercitandose",
+        "El Narciso de Chamartín",
+        "Bicho Culturista"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge se mofó de la estampa familiar de CR7 llamándolo 'Cipriano Rumano ejercitandose' mientras el crío sujetaba a su hermano de cualquier manera.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Quién no pudo evitar elogiar una vez más a la mujer de Leo Messi de manera totalmente espontánea en noviembre de 2018?",
+      "cita": "Lo tengo que decir una vez más, que buena esta Antonela",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 2,
+      "explicacion": "Miki soltó de la nada su sincera admiración por Antonela Roccuzzo un domingo por la tarde en el grupo.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Debatiendo sobre el Fair Play financiero del PSG y del Manchester City, ¿quién reconoció que el presidente de LaLiga podía tener razón?",
+      "cita": "Al final Tebas tendra razon",
+      "opciones": [
+        "Germi",
+        "Joni",
+        "Jorge",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi admitió a regañadientes que Javier Tebas llevaba razón sobre las trampas financieras del PSG y del City.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Hablando de las compras y la influencia del dinero de Oriente Medio en el fútbol, ¿quién soltó esta tajante frase?",
+      "cita": "Te crees que los moros no tienen comprado hasta a tu padre?",
+      "opciones": [
+        "Humpa",
+        "Joni",
+        "Germi",
+        "Jorge"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni argumentaba que el Mundial de invierno en Qatar demostraba hasta dónde llegaba el poder del dinero del Golfo.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Al especular sobre qué estrella mundial con varias Champions tenía un supuesto caso oculto de dopaje, ¿a quién propuso Germi?",
+      "cita": "Es Drogba?",
+      "opciones": [
+        "Cristiano",
+        "Drogba",
+        "Sergio Ramos",
+        "Benzema"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi tiró el nombre de Didier Drogba, a lo que Joni bromeó diciendo que sería por implante capilar.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Qué célebre queja de cabreo supremo soltó Germi sobre los clubes estado y sus finanzas?",
+      "cita": "Puto City, puto Guardiola y puto PSG hijos se puta muertos de hambre",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Miki",
+        "Humpa"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi explotó en cólera contra el dinero ilimitado del Manchester City y del PSG.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Germi se quejó del precio desorbitado para ver un Fuenlabrada - Barça de baloncesto preguntando irónicamente si tenían qué pabellón:",
+      "cita": "Que se piensa que tienen, el OAKA??",
+      "opciones": [
+        "El Madison Square Garden",
+        "El OAKA",
+        "El Palau Blaugrana",
+        "El WiZink Center"
+      ],
+      "correcta": 1,
+      "explicacion": "Germi se indignó al ver que la entrada más barata para el Fuenlabrada - Barça costaba 25€ y comparó el pabellón con el mítico OAKA griego.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Al descubrir un nuevo dulce en el supermercado en noviembre de 2021, ¿a quién divinizó Jorge?",
+      "cita": "JUAN ROIG, ERES JESUCRISTO",
+      "opciones": [
+        "Juan Roig",
+        "Amancio Ortega",
+        "Florentino Pérez",
+        "Karlos Arguiñano"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge descubrió un brazo de chocolate de Mercadona y proclamó a Juan Roig como auténtico mesías.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Cuando Jorge compartió emocionado su fanatismo por el brazo de chocolate de Mercadona, ¿cómo le advirtió Feme sobre su salud?",
+      "cita": "Et queda 1 telediari",
+      "opciones": [
+        "Te vas a poner fino",
+        "Et queda 1 telediari",
+        "Eso es veneno puro",
+        "Te va a dar una diabetes"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme le había dicho primero que le quedaban 2 telediarios y, tras ver el brazo de chocolate, le restó uno más de vida.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Analizando la Champions en noviembre de 2021, ¿a qué jugador elogió Miki llamándolo 'Cipriano'?",
+      "cita": "Cipriano. Brutal",
+      "opciones": [
+        "Cristiano Ronaldo",
+        "Ciprian Deac",
+        "Dembélé",
+        "Cipriano Castro"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki alabó el partidazo de Cristiano Ronaldo (al que apodaban Cipriano) jugando la Champions.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Tras una frase optimista de Xavi Hernández sobre la Europa League, ¿cuál fue el destructivo pronóstico de Humpa?",
+      "cita": "Queda una Europa league que te va a eliminar cualquiera",
+      "opciones": [
+        "No pasamos ni de dieciseisavos",
+        "Nos va a ganar el Eintracht otra vez",
+        "Queda una Europa league que te va a eliminar cualquiera",
+        "Este Barça da vergüenza ajena"
+      ],
+      "correcta": 2,
+      "explicacion": "Miki citó a Xavi diciendo 'Queda una Europa League muy bonita', y Humpa le bajó de la nube fulminantemente.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Cuando Hugo compartió una pregunta de examen de oposición y Miki falló la respuesta, ¿qué le espetó Joni indignado?",
+      "cita": "Pero que dices desgraciao",
+      "opciones": [
+        "Vuelve a la autoescuela",
+        "Pero que dices desgraciao",
+        "No apruebas ni con chuleta",
+        "Cállate que no tienes ni idea"
+      ],
+      "correcta": 1,
+      "explicacion": "Miki contestó mal una pregunta sobre marcas viales y Joni le saltó al cuello con un clásico 'Pero que dices desgraciao, así va el país'.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "Viendo las historias de Instagram de la hija de Paco Jémez, ¿qué sincera reflexión física compartió Jorge?",
+      "cita": "Tiene unas tetas para cenar y recenar... pues sí también",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Miki",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge admitió que Nadia Jémez estaba muy operada y maquillada, pero no dudó en reconocer sus atributos con semejante frase.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Reaccionando a la foto de Nadia Jémez que pasó Jorge, ¿qué respondió Feme sobre sus metas en la vida?",
+      "cita": "Algunos juegan al euromillon",
+      "opciones": [
+        "Otros madrugan para currar",
+        "Otros… tenemos otras metas en la vida",
+        "Yo prefiero la primitiva",
+        "A mí que no me busquen"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme bromeó con que mientras la gente juega a la lotería para hacerse rica, otros aspiran a conseguir mujeres inalcanzables.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Hablando de pactos políticos y de financiación autonómica, ¿qué estrategia electoral defendió Joni?",
+      "cita": "Me acuerdo una vez que hablamos y siendo prácticos, todos deberíamos votar a partidos regionales nacionalistas, son los únicos que pueden sacar pasta y chantajear.",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni razonaba que votar a los dos grandes partidos nacionales no servía de nada porque las concesiones siempre iban a partidos regionales.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "En pleno debate por la amnistía y los pactos de investidura, ¿quién recordó con sorna: 'This is el psoe'?",
+      "cita": "Y yo me acuerdo cuando os dije..",
+      "opciones": [
+        "Jorge",
+        "Miki",
+        "Humpa",
+        "Joni"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge se vanaglorió de haberles avisado desde hace años de lo que haría Pedro Sánchez para conservar el poder.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Totalmente asqueado por las noticias de la amnistía y los pactos en noviembre de 2023, ¿qué drástica hipérbole soltó Humpa?",
+      "cita": "Al final alguien cogerá una escopeta",
+      "opciones": [
+        "Joni",
+        "Miki",
+        "Jorge",
+        "Humpa"
+      ],
+      "correcta": 3,
+      "explicacion": "Humpa llegó a su límite de saturación política soltando que al final alguien cogería una escopeta y él 'diría que es el puto amo'.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "¿Qué frase sobre su propio comportamiento futuro soltó Feme en la madrugada del 2 de noviembre de 2024?",
+      "cita": "A mi me van a encerrar",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Feme",
+        "Héctor"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme compartió un reel de Instagram a medianoche afirmando que al final lo iban a encerrar.",
+      "anio": 2024
+    },
+    {
+      "pregunta": "Durante la caótica gestión tras la DANA en la Comunidad Valenciana en 2024, ¿cómo propuso Joni gestionar a los efectivos?",
+      "cita": "Coño, pero manda 10.000 a cada pueblo que está en la mierda y ya allí que cada uno haga lo que pueda, o ya los organizas sobre la marcha",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Humpa",
+        "Miki"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni criticó la lentitud e inoperancia del despliegue oficial exigiendo que enviaran miles de efectivos directos a los pueblos afectados.",
+      "anio": 2024
+    }
+  ]
+}

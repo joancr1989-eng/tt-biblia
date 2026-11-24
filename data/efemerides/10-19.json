@@ -1,0 +1,904 @@
+{
+  "fecha": "10-19",
+  "total_mensajes_dia": 763,
+  "total_preguntas": 69,
+  "preguntas": [
+    {
+      "pregunta": "¿A quién propuso Jorge desvelar a altas horas de la madrugada simplemente por ganas de fastidiar?",
+      "cita": "Un dia tendriamos que llamarle a mitad noche. Por joder",
+      "opciones": [
+        "JM18",
+        "Hugo",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge avisó de que JM18 llevaba apenas 25 minutos sobando y propuso una llamadita a deshoras para fastidiarle el sueño.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿De qué jugador avisó Joni que el equipo de Palmer guardaba un vídeo para enviarlo a AFES?",
+      "cita": "Se comenta que el equipo de palmer tiene un video de patadas de miki para mandar a afes",
+      "opciones": [
+        "Humpa",
+        "Héctor",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni soltó el rumor de que los rivales tenían una recopilación grabada con las mejores patadas y leña de Miki.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Cuando una chica intentó ligar con Feme de fiesta, ¿cuál fue el motivo principal por el que él la rechazó?",
+      "cita": "Una lo intento",
+      "opciones": [
+        "Porque no le gustaban las morenas y además era pesada",
+        "Porque no sabía bailar salsa",
+        "Porque le tiró el cubata encima",
+        "Porque era del Real Madrid"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme explicó que era muy pesada ('Ami no m agraen les negres') y que además no estaba buena, provocando el cachondeo de Jorge.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Por qué motivo bromeó Jorge diciendo que Feme ahora se permitía el lujo de ser tan exigente con las chicas?",
+      "cita": "Sisi, como es dj va exigiendo",
+      "opciones": [
+        "Porque se había comprado un BMW",
+        "Porque como es DJ va exigiendo",
+        "Porque había adelgazado",
+        "Porque aprobó la carrera"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge le soltó que en otros tiempos no habría descartado a nadie, pero que como ahora pinchaba y era DJ se ponía exquisito.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué ventaja cómica destacó Feme al encontrarse en plena fiesta temática de disfraces?",
+      "cita": "Asi es mas dificl distinguir a las feas",
+      "opciones": [
+        "Que las copas salían a mitad de precio",
+        "Que podía colarse en el reservado",
+        "Que así era más difícil distinguir a las feas",
+        "Que nadie reconocía sus peores bailes"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme soltó a altas horas que estando todos disfrazados resultaba mucho más complicado distinguir quién era poco agraciada.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "¿Qué mítico DJ se encontró Feme pinchando en una discoteca de Valencia a las tantas de la madrugada?",
+      "cita": "Enterar a una discoteca en valrencia i k esta pincando pascal!!!!!",
+      "opciones": [
+        "David Guetta",
+        "Pascal",
+        "DJ Nano",
+        "Chimo Bayo"
+      ],
+      "correcta": 1,
+      "explicacion": "A las 4:40 am, Feme alucinaba al entrar a una sala valenciana y encontrarse pinchando al mismísimo Pascal al grito de #foreverCocoloco.",
+      "anio": 2012
+    },
+    {
+      "pregunta": "Nada más proclamar que por fin era 'licenciado', ¿qué turbio plan de futuro anunció Feme?",
+      "cita": "Es hora de recalificar terrenist",
+      "opciones": [
+        "Montar un chiringuito en Gandia",
+        "Opositar a notario",
+        "Es hora de recalificar terrenos",
+        "Presentarse a concejal de urbanismo"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme celebró su titulación universitaria avisando con sorna de que ya era el momento de empezar a recalificar terrenos.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Qué elemento indispensable recordaban con insistencia antes del partido de liga del TT?",
+      "cita": "Enrecordeuse de LA FITCA",
+      "opciones": [
+        "Las espinilleras",
+        "La ficha federativa",
+        "El agua con sales",
+        "El brazalete de capitán"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni y Jorge estuvieron dando la turra repetidamente con llevar la ficha federativa ('LA FITCA') para poder disputar el choque.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Quién se llevó la mención a 'Vaya día' de Joni tras regalar un gol y liarse a golpes con la portería?",
+      "cita": "Empezó bien,con un taconeti.Luego se volvió loco,regaló el 2-2 y acabó metiendole una paliza de puñetazos y patadas al palo.THE CAPTAIN",
+      "opciones": [
+        "Humpa",
+        "Jorge",
+        "Héctor",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "explicacion": "Humpa ('humpasca') protagonizó el momento desquicie de la jornada regalando el empate y ensañándose a patadas contra el poste.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "En la crónica del triunfo del TT, ¿quién fue nombrado 'El crack' por Joni tras debutar con gol y asistencia?",
+      "cita": "Tenia la dificilisima misión de reemplazar al 9 del TT y ha debutado con gol,asistencia y mucha entrega",
+      "opciones": [
+        "Alex",
+        "Aitor",
+        "Marzal",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Alex tuvo que sustituir al delantero centro titular del TT y se marcó un auténtico partidazo de debut.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "Viendo un partido gris del Barça, ¿de qué estrella mundial dijo Jorge 'Ese enano es un hijo de puta' por su brutal competitividad?",
+      "cita": "Ese enano es un hijo de puta",
+      "opciones": [
+        "Xavi",
+        "Iniesta",
+        "Messi",
+        "Neymar"
+      ],
+      "correcta": 2,
+      "explicacion": "Jorge argumentó que sin Leo Messi el Barça no jugaba a nada porque el argentino es más competitivo que toda la plantilla junta.",
+      "anio": 2013
+    },
+    {
+      "pregunta": "¿Qué imitador o espectáculo insólito aseguró Feme haberse cruzado de fiesta patronal en 2014?",
+      "cita": "Michael Jackson en una orquesta de poble",
+      "opciones": [
+        "Freddie Mercury cantando reguetón",
+        "Michael Jackson en una orquesta de pueblo",
+        "Julio Iglesias bebiendo cubatas",
+        "El Fary en una charanga"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme flipó en plena madrugada al encontrarse una imitación de Michael Jackson actuando con una orquesta de pueblo.",
+      "anio": 2014
+    },
+    {
+      "pregunta": "¿Para qué evento deportivo pasó Joni un concurso de Corona rogando que participaran para pillar pases gratis?",
+      "cita": "Corona te invita a la ATP Valencia, ¿te apuntas?",
+      "opciones": [
+        "El Gran Premio de Cheste",
+        "El Open 500 ATP de Valencia",
+        "El Mutua Madrid Open",
+        "La Copa Davis en Benidorm"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni mandó el enlace del torneo de tenis ATP Valencia para que Humpa y Hugo probaran suerte y rascaran entradas.",
+      "anio": 2015
+    },
+    {
+      "pregunta": "¿Qué plan madrugador y familiar le impidió a Feme acudir a cenar un viernes en 2016?",
+      "cita": "El sabado me voy a las 7 de la mañana con mi padre de caminata",
+      "opciones": [
+        "Pintar la fachada de la caseta",
+        "Irse de caminata con su padre desde las 7 de la mañana",
+        "Una ruta ciclista a Cullera",
+        "Ayudar a vendimiar en el campo"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme se borró de la cena de kebabs de los viernes porque el sábado a las 7 ya salía de ruta senderista con su padre hasta el domingo.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Qué serie de televisión propuso Jorge como 'postpartido' tras una noche de Champions League?",
+      "cita": "Velvet",
+      "opciones": [
+        "Juego de Tronos",
+        "Velvet",
+        "El Chiringuito de Jugones",
+        "Narcos"
+      ],
+      "correcta": 1,
+      "explicacion": "Tras la goleada del Barça, Jorge instigó a Joni y a Humpa para ponerse a ver juntos el nuevo capítulo de la serie de época Velvet.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "Cuando Jorge le sugirió ver 'Velvet', ¿cuál fue la desternillante justificación de Joni para ver el capítulo?",
+      "cita": "Mi abuela debe saber la verdad",
+      "opciones": [
+        "Paula Echevarría está tremenda",
+        "Mi abuela debe saber la verdad",
+        "Es cine de calidad",
+        "Necesito desconectar del fútbol"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni soltó con dramatismo telenovelero: 'Mi abuela debe saber la verdad', justificando su necesidad de ver Velvet.",
+      "anio": 2016
+    },
+    {
+      "pregunta": "¿Quién se puso en modo catador gourmet en 2017 para analizar al detalle el equilibrio entre arroz y cacao de una tableta?",
+      "cita": "El porcentaje de cjocolate sobre arroz inflado no es excesivo",
+      "opciones": [
+        "Jorge",
+        "Joni",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge deleitó al grupo con una disertación sobre las texturas y el rendimiento del arroz inflado respecto al chocolate.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Por qué motivo afirmó Jorge en 2017 que no daría la turra habitual ensalzando el turrón Suchard?",
+      "cita": "Que hasta no voy a daros la turra con el Suchard Y su aplastante superioridad Porque os aprecio",
+      "opciones": [
+        "Porque apreciaba al grupo",
+        "Porque se había pasado al chocolate blanco",
+        "Porque estaba a dieta estricta",
+        "Porque le parecía caro"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge decidió perdonarles la chapa sobre la 'aplastante superioridad' de Suchard únicamente por el aprecio que les tenía.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Qué delirante propuesta de viaje lanzó Jorge para que Germi le recogiera de camino de Madrid a Gandía?",
+      "cita": "Conduzco yo De Almagro a Gandia Mientras la revientas en el maletero",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Feme",
+        "Joni"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge propuso conducir él mismo mientras Germi 'faenaba' en la parte trasera con alguna chica de Almagro.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Cómo resumió Feme con fina poesía el plan de viaje entre Almagro y Gandía propuesto por Jorge y Germi?",
+      "cita": "German dandole fanta de polla Y jorge conduciendo",
+      "opciones": [
+        "Miki",
+        "Marzal",
+        "Feme",
+        "Joni"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme retrató la escena a la perfección con su habitual delicadeza verbal.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "Cuando Miki celebró la inminente aplicación del artículo 155, ¿qué frase dramática soltó Feme?",
+      "cita": "Por favor Franco sal del cuerpo de mi amigos",
+      "opciones": [
+        "Se viene la República independiente",
+        "Por favor Franco sal del cuerpo de mi amigos",
+        "Vuelven los años 40",
+        "Miki vete a vivir a Madrid"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme reaccionó al ambiente político del grupo con un exorcismo satírico para sacar a Franco del cuerpo de sus colegas.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Con qué genial propuesta zanjó Feme la caldeada discusión política sobre Cataluña en octubre de 2017?",
+      "cita": "Asi os puedo llamar fascistas a la cara",
+      "opciones": [
+        "Invitarles a un debate moderado en un bar",
+        "Hacer una TTorraica en su casa para llamarles fascistas a la cara",
+        "No volver a hablar del tema hasta Navidad",
+        "Votar un referéndum dentro del grupo"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme puso paz proponiendo una TTorraica de carne a la brasa en su chalet con la sana intención de llamarles fascistas cara a cara.",
+      "anio": 2017
+    },
+    {
+      "pregunta": "¿Quién presumió en el grupo de haber sido pionero viendo 'Cuéntame cómo pasó' antes que los demás?",
+      "cita": "Calla lache. Que yo veía cuéntame antes que tú",
+      "opciones": [
+        "Miki",
+        "Joni",
+        "Marzal",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Miki mandó callar al resto alegando veteranía absoluta en el seguimiento de la mítica serie de TVE.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Qué sueldo exigía Germi en 2018 que cobrase Neymar si pretendía volver al FC Barcelona?",
+      "cita": "Hombre, si pide perdon, paga de su bolsillo el fichaje y cobre como Kaptoum palante",
+      "opciones": [
+        "Germi",
+        "Joni",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi no perdonaba la traición de Ney a menos que se rebajara la ficha al nivel del canterano Kaptoum y pidiera perdón de rodillas.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿A qué labor agrícola mandó Joni a Dembélé harto de sus lesiones y rendimiento en el Barça?",
+      "cita": "Hombre, depbele se va directo a recoger arroz a Senegal",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Miki",
+        "Joni"
+      ],
+      "correcta": 3,
+      "explicacion": "Joni no tuvo piedad con Ousmane Dembélé (rebautizado como DEPbélé) y le buscó ocupación inmediata.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Ante la plaga de bajas en la defensa del Barça en 2018, ¿por qué mítico excentral culé preguntó Germi?",
+      "cita": "Chygrynskiy esta en activo?",
+      "opciones": [
+        "Joni",
+        "Germi",
+        "Miki",
+        "Jorge"
+      ],
+      "correcta": 1,
+      "explicacion": "Entre risas por la escasez de centrales, Germi se acordó del ucraniano Dmytro Chygrynskiy por si aún podía fichar.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿A qué localidad madrileña anunció Germi en octubre de 2018 que se mudaba de piso?",
+      "cita": "Alcobendas mostro, muy cerca de donde vive Elena",
+      "opciones": [
+        "Alcobendas",
+        "Getafe",
+        "Alcorcón",
+        "Vallecas"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi pilló piso en Alcobendas, alertando de que caía sospechosamente cerca de Elena.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Por qué círculo social recordó Feme a Elena cuando Germi contó que viviría cerca de ella?",
+      "cita": "Elena? Esa es la de los amigos maricones?",
+      "opciones": [
+        "Feme",
+        "Joni",
+        "Miki",
+        "Jorge"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme tiró de memoria de archivo para identificar a Elena por su peculiar cuadrilla de amistades.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "Al ver que Germi casi no sabía nada de Elena, ¿qué supuso Feme sobre la vida actual de ella?",
+      "cita": "O tiene un churumbel con el pelo polla",
+      "opciones": [
+        "Germi",
+        "Joni",
+        "Feme",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme especuló con que Elena ya podría estar casada y con un retoño de curioso peinado.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿De qué ciudad era la chica con la que Germi estaba quedando en Madrid durante el otoño de 2018?",
+      "cita": "Segovia premho",
+      "opciones": [
+        "Toledo",
+        "Segovia",
+        "Ávila",
+        "Cuenca"
+      ],
+      "correcta": 1,
+      "explicacion": "La pretendienta era de Segovia, lo que desató las ganas de todo el TT de montarse un viaje a comer cochinillo.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Qué mensaje de bienvenida tenía pensado dejar Germi en un cajón para el que ocupara su habitación?",
+      "cita": "Al nuevo inquilino/a le tengo que dejar una nota en un cajon que ponga “BIENVENID@ AL INFIERNO”",
+      "opciones": [
+        "“BIENVENID@ AL INFIERNO”",
+        "“HUYE MIENTRAS PUEDAS”",
+        "“CUIDADO CON CORAL”",
+        "“ESTE PISO ESTÁ MALDITO”"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi estaba tan harto de la convivencia con sus compañeras de piso que quiso advertir al siguiente de forma terrorífica.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿A quién describió Germi diciendo que estaba amargada y se creía que el piso compartido era suyo?",
+      "cita": "Raquel, 34 años esta amargada, tiene una vida de mierda, se cree que el piso es suyo",
+      "opciones": [
+        "A su compañera Raquel",
+        "A su casera",
+        "A una jefa del curro",
+        "A su vecina"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi hizo un exhaustivo repaso a los defectos de sus excompañeras Raquel y Coral antes de marcharse.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Qué juego de palabras nazi utilizó Jorge para referirse a su visita al Camp Nou en 2018?",
+      "cita": "Yo he venido a ver a Messi Ya ver el Mein Camp",
+      "opciones": [
+        "Mein Camp",
+        "Camp Fuhrer",
+        "Reich Camp",
+        "El Búnker Blaugrana"
+      ],
+      "correcta": 0,
+      "explicacion": "Jorge fue a ver al Barça y no dudó en rebautizar el estadio como 'Mein Camp' para deleite del grupo.",
+      "anio": 2018
+    },
+    {
+      "pregunta": "¿Cómo reaccionó Miki cuando Jorge propuso quedar a almorzar un sábado a las 11:00 de la mañana?",
+      "cita": "joder a las 11! que tard",
+      "opciones": [
+        "Miki",
+        "Humpa",
+        "Feme",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "explicacion": "Para el estándar de almuerzo valenciano de buena mañana, a Miki las 11:00 le pareció prácticamente la hora de merendar.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "¿Qué imprevisto chafó los planes de hacer una cata privada en el bar Llúpol en 2020?",
+      "cita": "Chavales, lo de llupol no puede ser porque dice que no nos cierra el bar para nosotros",
+      "opciones": [
+        "Que no les cerraba el bar en exclusiva para ellos",
+        "Que se quedaron sin barriles de cerveza",
+        "Que cerró por restricciones de aforo",
+        "Que pedían fianza por adelantado"
+      ],
+      "correcta": 0,
+      "explicacion": "Germi avisó de que el dueño de Llúpol se había echado atrás y no les cerraba el local en exclusiva.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "¿Cuál fue la respuesta de combate de Feme cuando el bar se negó a organizarles una cata privada?",
+      "cita": "Si no vol cata priva La farem publica Anem i catem totes les cervesses",
+      "opciones": [
+        "Humpa",
+        "Feme",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme no se amilanó: si no había cata privada, se plantaban allí en modo público a beberse todas las existencias igualmente.",
+      "anio": 2020
+    },
+    {
+      "pregunta": "Cuando Humpa enseñó su nueva camiseta de Ferrari de camino a Galicia, ¿con qué mítica frase le saltó Jorge?",
+      "cita": "Te gustan las camiseticas de Ferrari? Te gustan? PUES COMPRATE UNA",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 0,
+      "explicacion": "Humpa presumía de su camiseta de Ferrari y Jorge no tardó en soltarle la clásica broma de '¿Te gustan las camiseticas de Ferrari? PUES CÓMPRATE UNA'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Qué marisco le exigía Feme a Humpa que le trajera urgentemente de su viaje a Galicia?",
+      "cita": "Traeee centolloooos",
+      "opciones": [
+        "Percebes",
+        "Ostras",
+        "Centollos",
+        "Nécoras"
+      ],
+      "correcta": 2,
+      "explicacion": "Feme primero pidió 'farla' de broma, pero luego insistió con desesperación en que trajera centollos de tierras gallegas.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Cuando hablaron de que Arny se ponía romanticón y que no había quien lo parara, ¿con qué piloto de F1 lo comparó Feme?",
+      "cita": "Es takuma sato",
+      "opciones": [
+        "Fernando Alonso",
+        "Takuma Sato",
+        "Pedro de la Rosa",
+        "Michael Schumacher"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme soltó que cuando Arny se pone romántico adelanta por la derecha y 'es Takuma Sato'.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "Ante el debate sobre el pelo de Arny, ¿quién sentenció a gritos que la batalla capilar estaba completamente perdida?",
+      "cita": "PERO ARNYYY, ASUMELOOO MOSTRO, ALOPECIA WON THE BATTLE",
+      "opciones": [
+        "Jorge",
+        "Miki",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 3,
+      "explicacion": "Joni no tuvo piedad y le soltó en mayúsculas a Arny que la alopecia había ganado la batalla definitivamente.",
+      "anio": 2021
+    },
+    {
+      "pregunta": "¿Quién proclamó solemnemente en el grupo su incipiente estatus de celebridad local?",
+      "cita": "Empiezo a ser un hombre relevante en el pueblo",
+      "opciones": [
+        "Marzal",
+        "Feme",
+        "Humpa",
+        "Héctor"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme avisó al grupo de que su influencia vecinal estaba subiendo como la espuma: 'Empiezo a ser un hombre relevante en el pueblo'.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Quién recurrió a una cita de Los Simpson (Troy McClure y Timmy) para defender el consumo de carne?",
+      "cita": "- Señor McCloure, tengo un amigo loco que dice que comer carne está mal, ¿es un loco de verdad? - No Timmy, solo es un ignorante",
+      "opciones": [
+        "Hugo",
+        "Jorge",
+        "Miki",
+        "Joni"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge compartió el mítico clip educativo de Troy McClure de Los Simpson para zanjar cualquier duda sobre comer carne.",
+      "anio": 2022
+    },
+    {
+      "pregunta": "¿Qué evento cultural y de crecimiento personal ofreció Feme a los chicos en octubre de 2023?",
+      "cita": "Chavales el martes que viene, 24, a las 20:00 hacemos una charla motivadora en el Teatro Serrano.",
+      "opciones": [
+        "Un monólogo de comedia",
+        "Una charla motivadora en el Teatro Serrano",
+        "Una cata de vinos en Benissa",
+        "Un torneo de pádel solidario"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme invitó al grupo a una charla motivacional en el Teatro Serrano, aunque Miki prefirió ir al dentista.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Cuando Miki dijo que tenía cita en el dentista, ¿qué consejo estético le dio Feme?",
+      "cita": "Que te pongan un diente de oro",
+      "opciones": [
+        "Que te pongan un diente de oro",
+        "Ponte fundas de titanio",
+        "Que te blanqueen todo",
+        "Pide gas de la risa"
+      ],
+      "correcta": 0,
+      "explicacion": "Feme le recomendó que se pusiera un diente de oro 'que eso se lleva', a lo que Miki se autodenominó 'gipsy mike'.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Organizando la barbacoa, Jorge bromeó con 'Feme +10 / Adidas'. ¿Cómo replicó Feme sobre su marca fetiche?",
+      "cita": "Jajajajaja yo soy de Nike Jorge",
+      "opciones": [
+        "A mí ponme Puma",
+        "Jajajajaja yo soy de Nike Jorge",
+        "Yo soy más de Kelme",
+        "Adidas toda la vida"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme dejó claro que no le colaran las tres rayas de Adidas porque él es fiel a Nike.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Durante la planificación de carnes para la barbacoa, ¿qué perla gastronómica soltó Marzal para sorpresa del grupo?",
+      "cita": "La única carne permitida es rabo de Maik",
+      "opciones": [
+        "Miki",
+        "Feme",
+        "Marzal",
+        "Héctor"
+      ],
+      "correcta": 2,
+      "explicacion": "Marzal rompió la lista de embutidos y chuletas con su particular toque de humor bizarro.",
+      "anio": 2023
+    },
+    {
+      "pregunta": "Con el temporal e inundación de 2026, ¿qué ingeniosa solución de rescate automovilístico propuso Feme a Germi?",
+      "cita": "Creus que si fique el cotxe en arrós, podre salvarlo com el teu mobil?",
+      "opciones": [
+        "Ponerle flotadores de piscina",
+        "Creus que si fique el cotxe en arrós, podre salvarlo com el teu mobil?",
+        "Empujarlo con una zootecnia hasta la montaña",
+        "Llevarlo en una barca hinchable"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme recordó cuando Germi metió su móvil en arroz y se preguntó en valenciano si el mismo truco serviría para su coche anegado.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "En plena inundación y alerta, ¿qué producto de bollería industrial se convirtió en meme de 'servicio esencial' para obligar a currar?",
+      "cita": "Si , los pandorinos son importantes si. Vitales efectivamente",
+      "opciones": [
+        "Los Donuts",
+        "Los Croissants de chocolate",
+        "Los Pandorinos",
+        "Las Palmeritas"
+      ],
+      "correcta": 2,
+      "explicacion": "El grupo flipó con el comunicado de la empresa exigiendo ir a trabajar por ser 'servicio esencial' para fabricar Pandorinos.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿En qué programa de televisión nacional afirmó Feme que iban a entrevistarle como afectado por las inundaciones?",
+      "cita": "Para entrevistarme En espejo público",
+      "opciones": [
+        "Al Rojo Vivo",
+        "Espejo Público",
+        "El Programa de Ana Rosa",
+        "Telediario de TVE"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme avisó de que le iban a hacer videollamada para salir en 'Espejo Público' con Susanna Griso.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Según relató Feme mientras estaba aislado por el agua, ¿en qué vehículo apareció un bombero frente a su casa?",
+      "cita": "Ha passat un bombero En canoa",
+      "opciones": [
+        "En lancha motora",
+        "En canoa",
+        "En moto de agua",
+        "En kayak de rescate"
+      ],
+      "correcta": 1,
+      "explicacion": "La estampa surrealista la completó un bombero pasando literalmente en canoa por delante de la casa de Feme.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Con Feme atrapado por el agua sin poder salir, ¿qué consejo de supervivencia sentimental le dio Joni?",
+      "cita": "Per cert, igual és moment de ficarte en tinder distància màxima un kilòmetre, edad de 18-99 i a volar",
+      "opciones": [
+        "Germi",
+        "Jorge",
+        "Joni",
+        "Hugo"
+      ],
+      "correcta": 2,
+      "explicacion": "Joni vio la oportunidad perfecta para que Feme abriera Tinder con radar de 1 km y rango de edad de 18 a 99 años.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Al enterarse de que Feme llevaba desde el sábado encerrado por el temporal, ¿cuál fue la honda preocupación que expresó Jorge?",
+      "cita": "Y sin chotas?",
+      "opciones": [
+        "Y sin comida caliente?",
+        "Y sin chotas?",
+        "Y sin luz ni agua?",
+        "Y sin cerveza fría?"
+      ],
+      "correcta": 1,
+      "explicacion": "A Jorge solo le preocupaba una cosa fundamental en el aislamiento de Feme: saber si estaba pasando la catástrofe sin chotas.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Por qué motivo rechazó Feme que una chica fuera a su casa a dormir un sábado por la noche?",
+      "cita": "I dic.. bufff dema a fer la siesta i aw",
+      "opciones": [
+        "Porque tenía que madrugar para ir al gimnasio",
+        "Porque prefería dormir la siesta tranquilo al día siguiente",
+        "Porque ya había quedado para jugar al pádel",
+        "Porque temía que se le inundara la cochera"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme explicó sin tapujos que una quería ir a dormir a su casa, pero prefirió descartar el plan para poder echarse una buena siesta al día siguiente.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Cuando Joni bromeó con que entraba 'una guarra de Palmera random', ¿de dónde aclaró Feme que era en realidad la chica?",
+      "cita": "Era de miramar esta",
+      "opciones": [
+        "De Bellreguard",
+        "De Miramar",
+        "De Oliva",
+        "De Gandia"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme le puntualizó a Joni que la chica en cuestión no era de Palmera, sino de Miramar.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Quién tuvo que madrugar a las 6:25 de la mañana para sacar el coche porque se desbordaban las tuberías de su cochera?",
+      "cita": "He tenido que sacar el coche porque las tuberías de mi cochera no dan a basto saliéndose el agua que flipas",
+      "opciones": [
+        "Humpa",
+        "Feme",
+        "Jorge",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "explicacion": "Humpa avisó de madrugada que las tuberías de su cochera no daban abasto y tuvo que ponerse en marcha para retirar el coche.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿A qué hora confesó Humpa que llevaba ya despierto por culpa del estruendo del temporal?",
+      "cita": "Yo desde las 4 y pico despierto por el ruido de la lluvia eh",
+      "opciones": [
+        "Desde las 6:00",
+        "Desde las 4 y pico",
+        "Desde las 3:30",
+        "Desde las 5:15"
+      ],
+      "correcta": 1,
+      "explicacion": "Humpa comentó que el tremendo ruido de la lluvia torrencial no le había dejado pegar ojo desde las 4 y pico.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Qué elemento de su tejado temía Joni que saliera volando por la fuerza de la tormenta?",
+      "cita": "Bua yo tengo urelita y parecía que en cualquier momento salía volando",
+      "opciones": [
+        "La antena parabólica",
+        "Urelita (uralita)",
+        "Un panel solar",
+        "El toldo del patio"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni comentó agobiado que al tener techo de uralita (escrito 'urelita') parecía que iba a salir volando en cualquier momento.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Quién advirtió de que todavía tenía que bajar todo el agua caída en la zona de Marchuquera ('marchu')?",
+      "cita": "Tiene que bajar todo lo que ha llovido en marchu",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Germi",
+        "Hugo"
+      ],
+      "correcta": 1,
+      "explicacion": "Jorge recordó que el peligro no acababa con dejar de llover, ya que debía bajar todo el caudal recogido en Marchuquera.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Con qué catástrofe meteorológica pasada comparó Humpa la gravedad de la alerta roja?",
+      "cita": "Creo que es la primera alerta roja justificada desde la DANA 2024",
+      "opciones": [
+        "La borrasca Gloria de 2020",
+        "La DANA 2024",
+        "La gota fría de 1996",
+        "El temporal Filomena de 2021"
+      ],
+      "correcta": 1,
+      "explicacion": "Viendo la que estaba cayendo, Humpa afirmó que era la primera alerta roja verdaderamente justificada desde la DANA de 2024.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Qué río y en qué tramo fotografió Humpa para mostrar cómo iba creciendo el cauce?",
+      "cita": "Serpis ahora mismo zona marenys",
+      "opciones": [
+        "El río Serpis en la zona de Marenys",
+        "El río Vaca en Tavernes",
+        "El barranco de Beniopa",
+        "El río Gorgos en Xàbia"
+      ],
+      "correcta": 0,
+      "explicacion": "Humpa pasó un reporte visual del río Serpis al límite a su paso por la zona de Marenys.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿A quién le pidió Joni a Germi que avisara para que tuviera máxima precaución con el temporal?",
+      "cita": "Joder. Germi dile a TTino que vaya con cuidado",
+      "opciones": [
+        "A su tío Pepe",
+        "A TTino",
+        "A su padre Manolo",
+        "A su hermano"
+      ],
+      "correcta": 1,
+      "explicacion": "Viendo el estado de las carreteras y los barrancos, Joni le dijo a Germi: 'dile a TTino que vaya con cuidado'.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Según la información que compartió Joni, ¿en qué municipio se habían desbordado dos barrancos?",
+      "cita": "Miramar está jodido también eh, se han desbordado los dos barrancos dice la alcaldesa",
+      "opciones": [
+        "Daimús",
+        "Miramar",
+        "Bellreguard",
+        "Piles"
+      ],
+      "correcta": 1,
+      "explicacion": "Joni informó de que la alcaldesa de Miramar había confirmado el desbordamiento de los dos barrancos del término municipal.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Al saber que Miramar estaba sufriendo inundaciones, ¿por qué casa familiar se preocupó Humpa?",
+      "cita": "Pues a saber como tenemos la casa de mi suegra allí . Miramar playa",
+      "opciones": [
+        "La de sus tíos",
+        "La de su suegra en Miramar playa",
+        "La de sus primos del campo",
+        "La casa que alquilaron en verano"
+      ],
+      "correcta": 1,
+      "explicacion": "Humpa lamentó la situación temiendo por el estado de la casa de su suegra situada en la playa de Miramar.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Por qué Marzal se libró de la odisea de ir a trabajar durante el temporal?",
+      "cita": "Jo tinc vacances. Pero vamos, ahí haurà treballat to quisqui",
+      "opciones": [
+        "Porque estaba de baja médica",
+        "Porque tenía vacaciones",
+        "Porque le cancelaron el turno por lluvia",
+        "Porque teletrabaja los lunes"
+      ],
+      "correcta": 1,
+      "explicacion": "Marzal aclaró que él estaba de vacaciones tranquilamente, aunque dio por hecho que en su curro habrían hecho trabajar a todo el mundo.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "Según Marzal, ¿desde qué hora estaban ya sus compañeros de curro allí metidos a pesar del diluvio?",
+      "cita": "Dice que de las 6:00 están todos allí",
+      "opciones": [
+        "De las 5:00",
+        "De las 6:00",
+        "De las 7:30",
+        "De las 8:00"
+      ],
+      "correcta": 1,
+      "explicacion": "Marzal confirmó que sus compañeros estaban allí desde las 6:00 de la mañana, aguantando goteras y lluvia.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Qué vaticinó Marzal al ver la magnitud del desastre a primera hora de la mañana?",
+      "cita": "Se viene decreto para confinar a la gente",
+      "opciones": [
+        "Se viene una semana sin trenes",
+        "Se viene decreto para confinar a la gente",
+        "Se viene huelga general",
+        "Van a cortar la luz en toda la comarca"
+      ],
+      "correcta": 1,
+      "explicacion": "Ante la gravedad de las lluvias y desbordamientos, Marzal auguró que decretarían confinamiento civil obligatorio.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Quién apareció en el grupo a las 9:07 diciendo simplemente que se acababa de despertar?",
+      "cita": "Yo me acabo de despertar",
+      "opciones": [
+        "Héctor",
+        "Miki",
+        "Germi",
+        "Hugo"
+      ],
+      "correcta": 1,
+      "explicacion": "Mientras el resto llevaba horas vigilando el agua y sacando coches, Miki soltó a las 9:07 un tranquilo 'Yo me acabo de despertar'.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Por qué creía inicialmente Feme que su coche estaba a salvo en la cochera?",
+      "cita": "Pero mi cochera no es subsuelo",
+      "opciones": [
+        "Porque estaba aparcado sobre un elevador hidráulico",
+        "Porque su cochera no estaba bajo el subsuelo, sino a ras de calle",
+        "Porque tenía una compuerta estanca anti-inundación",
+        "Porque lo había dejado aparcado encima de la acera alta"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme pensaba que al no ser subterránea se salvaría, pero al estar a pie de calle y desbordarse todo, el agua entró igual.",
+      "anio": 2026
+    },
+    {
+      "pregunta": "¿Qué trágico y resignado mensaje soltó Feme al constatar la inundación de su planta baja?",
+      "cita": "Adios coche",
+      "opciones": [
+        "Se me ha ahogado el motor",
+        "Adios coche",
+        "A tomar por culo el coche",
+        "Mañana me toca ir en bus"
+      ],
+      "correcta": 1,
+      "explicacion": "Feme asumió la cruda realidad del desastre en su cochera despidiéndose con un rotundo 'Adios coche'.",
+      "anio": 2026
+    }
+  ]
+}
