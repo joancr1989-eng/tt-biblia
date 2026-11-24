@@ -1281,7 +1281,7 @@
 
     function extractMemberFromText(txt) {
       if (!txt) return "";
-      const match = String(txt).match(new RegExp(`\b(${MIEMBROS.join("|")})\b`, "i"));
+      const match = String(txt).match(new RegExp(`\\b(${MIEMBROS.join("|")})\\b`, "i"));
       if (match) {
         const found = MIEMBROS.find(m => m.toLowerCase() === match[1].toLowerCase());
         return found || match[1];
@@ -1297,19 +1297,19 @@
         return exact || cleanDirect;
       }
 
-      const expText = String(item.explicacion || item.contexto || item.mensaje_previo || item.pregunta || "");
-      // 1) Busca patrón "falsa para <Nombre>" o "de <Nombre>" en la explicación
-      const falsaMatch = expText.match(new RegExp(`(?:falsa\s+para|para)\s+(${MIEMBROS.join("|")})\b`, "i"));
+      const expText = String(item.explicacion || item.contexto || item.mensaje_previo || "");
+      const falsaMatch = expText.match(new RegExp(`(?:falsa\\s+para|para)\\s+(${MIEMBROS.join("|")})\\b`, "i"));
       if (falsaMatch) {
         const found = MIEMBROS.find(m => m.toLowerCase() === falsaMatch[1].toLowerCase());
         if (found) return found;
       }
 
-      // 2) Cuenta apariciones de cada miembro en la explicación (el protagonista de las 2 frases verdaderas suele aparecer más)
+      // En desgloses tipo "A: Feme (2012) | B: Marzal (2020) | C: Feme (2023)",
+      // el autor de las 2 frases verdaderas es el que aparece más veces en la explicación
       let bestMember = "";
       let bestCount = 0;
       for (const m of MIEMBROS) {
-        const re = new RegExp(`\b${m}\b`, "gi");
+        const re = new RegExp(`\\b${m}\\b`, "gi");
         const matches = expText.match(re);
         const cnt = matches ? matches.length : 0;
         if (cnt > bestCount) {
