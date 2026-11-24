@@ -1682,7 +1682,7 @@
           : (q.pregunta || "¿Quién soltó esta frase en el grupo?");
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">${tituloPreg}</div>
-          ${q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
+          ${(q.cita && q.type !== "efemeride") ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
         `;
         options = q.opciones;
         correctIdx = q.correcta;
@@ -1747,7 +1747,10 @@
         if (q.type === "rajaditta" && q.cita_sin_censura) {
           extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”`;
         }
-        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>`;
+        // En la Efeméride la cita es la propia respuesta: solo se revela tras elegir
+        const citaReveal = (q.type === "efemeride" && q.cita)
+          ? `<div class="quotes-list"><div class="quote-chip">Mensaje original: “${q.cita}”</div></div>` : "";
+        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>${citaReveal}`;
       }
 
       fb.style.display = "block";
