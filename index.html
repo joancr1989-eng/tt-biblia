@@ -1164,13 +1164,8 @@
     const mm = String(nowInit.getMonth() + 1).padStart(2, "0");
     const dd = String(nowInit.getDate()).padStart(2, "0");
 
-    // Estreno programado a las 00:00 (medianoche del día siguiente si ya pasó la medianoche de hoy)
-    function getNextMidnightTarget() {
-      const now = new Date();
-      const target = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
-      return target;
-    }
-    const ESTRENO_CARTTELERA = getNextMidnightTarget();
+    // Estreno programado a las 00:00 del 25 de noviembre de 2026 (hora local)
+    const ESTRENO_CARTTELERA = new Date(2026, 10, 25, 0, 0, 0);
 
     function syncCartteleraLock(unlocked) {
       const btn = document.getElementById("btnStartCarttelera");
