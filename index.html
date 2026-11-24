@@ -619,13 +619,13 @@
       border: 1px solid var(--border);
       font-size: 14px;
       line-height: 1.55;
-      display: none;
+      display: none !important;
       overflow-wrap: anywhere;
       word-break: break-word;
     }
 
     .feedback-box.show {
-      display: block;
+      display: block !important;
     }
 
     .relato-box {
@@ -1601,7 +1601,7 @@
       let pregTexto = item.pregunta || "¿Quién soltó esta frase en el grupo?";
       if (modeTag === "efemeride" && item.autor) {
         // Evita que aparezca el nombre del autor en la pregunta si se trata de adivinar quién lo dijo
-        const autorRegex = new RegExp(`\b${item.autor}\b`, "gi");
+        const autorRegex = new RegExp(`\\b${item.autor}\\b`, "gi");
         if (autorRegex.test(pregTexto) && item.opciones && item.opciones.some(o => MIEMBROS.includes(o))) {
           pregTexto = pregTexto.replace(autorRegex, "alguien del grupo");
         }
@@ -1722,6 +1722,7 @@
     }
 
     function renderQuestion() {
+      state.answered = false;
       const container = document.getElementById("quizContainer");
 
       if (state.qIndex >= state.currentQuestions.length) {
@@ -1787,9 +1788,10 @@
         const tituloPreg = q.type === "lo_dijo_o_no_opciones"
           ? (q.miembro ? `2 frases son de ${q.miembro} y una no` : q.pregunta)
           : (q.pregunta || "¿Quién soltó esta frase en el grupo?");
+        const hideCitaBeforeAnswer = (q.type === "efemeride");
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">${tituloPreg}</div>
-          ${q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
+          ${(!hideCitaBeforeAnswer && q.cita) ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
         `;
         options = q.opciones;
         correctIdx = q.correcta;
@@ -1807,7 +1809,7 @@
         ${promptHtml}
         <div class="options-list">
           ${options.map((op, i) => `
-            <button class="opt-btn" onclick="handleAnswer(${i}, ${correctIdx})">${op}</button>
+            <button type="button" class="opt-btn" data-opt-index="${i}" onclick="handleAnswer(${i}, ${correctIdx})">${op}</button>
           `).join("")}
         </div>
         <div class="feedback-box" id="feedbackBox" style="display: none;"></div>
@@ -1818,6 +1820,8 @@
     }
 
     function handleAnswer(selected, correct) {
+      if (state.answered) return;
+      state.answered = true;
       const btns = document.querySelectorAll(".opt-btn");
       btns.forEach(b => b.disabled = true);
 
@@ -1853,6 +1857,8 @@
         let extraText = q.explicacion || "";
         if (q.type === "rajaditta" && q.cita_sin_censura) {
           extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”`;
+        } else if (q.type === "efemeride" && q.cita) {
+          extraText = `<strong>Cita del archivo:</strong> “${q.cita}”${extraText ? `<br><span style="display:block; margin-top:6px;">${extraText}</span>` : ""}`;
         }
         fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>`;
       }
