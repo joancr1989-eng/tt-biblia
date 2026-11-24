@@ -1282,7 +1282,36 @@
     function extractMemberFromText(txt) {
       if (!txt) return "";
       const match = String(txt).match(new RegExp(`\b(${MIEMBROS.join("|")})\b`, "i"));
-      return match ? match[1] : "";
+      if (match) {
+        const found = MIEMBROS.find(m => m.toLowerCase() === match[1].toLowerCase());
+        return found || match[1];
+      }
+      return "";
+    }
+
+    function resolveLoDijoMember(item, fallbackSeed = 0) {
+      const direct = item.miembro || item.autor || item.protagonista || item.jugador || item.nombre || item.persona || item.sujeto || "";
+      if (typeof direct === "string" && direct.trim()) {
+        const cleanDirect = direct.trim();
+        const exact = MIEMBROS.find(m => m.toLowerCase() === cleanDirect.toLowerCase());
+        return exact || cleanDirect;
+      }
+
+      const blob = [
+        item.pregunta,
+        item.explicacion,
+        item.contexto,
+        item.mensaje_previo,
+        item.desglose,
+        item.nota,
+        ...(Array.isArray(item.opciones) ? item.opciones : []),
+        ...(Array.isArray(item.frases) ? item.frases : [])
+      ].filter(Boolean).join(" | ");
+
+      const fromBlob = extractMemberFromText(blob);
+      if (fromBlob) return fromBlob;
+
+      return MIEMBROS[Math.abs(Number(fallbackSeed) || 0) % MIEMBROS.length];
     }
 
     function buildNumericOptions(exactNum) {
@@ -1342,15 +1371,12 @@
           }
         }
         if (corrIdx >= 0 && corrIdx < item.opciones.length) {
-          let memberName = item.miembro || item.autor || item.protagonista || item.jugador || "";
-          if (!memberName && modeTag === "lo_dijo_o_no") {
-            memberName = extractMemberFromText(item.pregunta) || extractMemberFromText(item.explicacion) || "";
-          }
+          const memberName = modeTag === "lo_dijo_o_no"
+            ? resolveLoDijoMember(item, String(item.pregunta || "").length)
+            : (item.miembro || item.autor || item.protagonista || item.jugador || "");
           let finalPregunta = item.pregunta || "¿Cuál es la respuesta correcta?";
           if (modeTag === "lo_dijo_o_no") {
-            finalPregunta = memberName
-              ? `2 frases son de ${memberName} y una no`
-              : "2 frases son del mismo autor y una no";
+            finalPregunta = `2 frases son de ${memberName} y una no`;
           }
 
           return {
@@ -1423,7 +1449,15 @@
       const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
       const barajadas = shuffle(source);
       const seleccion = (typeof maxItems === "number" && maxItems > 0) ? barajadas.slice(0, maxItems) : barajadas;
-      return seleccion.map(item => normalizeQuizItem(item, modeTag));
+      return seleccion.map((item, idx) => {
+        const norm = normalizeQuizItem(item, modeTag);
+        if (modeTag === "lo_dijo_o_no" && !norm.miembro) {
+          const m = MIEMBROS[idx % MIEMBROS.length];
+          norm.miembro = m;
+          norm.pregunta = `2 frases son de ${m} y una no`;
+        }
+        return norm;
+      });
     }
 
     async function startEfemeride() {
