@@ -306,11 +306,6 @@
       gap: 8px;
     }
 
-    .section-header span {
-      font-size: 12px;
-      color: var(--muted);
-    }
-
     /* GRID CARDS */
     .grid-2 {
       display: grid;
@@ -666,57 +661,6 @@
       color: #cbd5e1;
     }
 
-    /* ENCYCLOPEDIA */
-    .member-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 14px;
-    }
-
-    .member-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 18px;
-      cursor: pointer;
-      transition: 0.18s ease;
-    }
-
-    .member-card:hover {
-      border-color: var(--accent);
-      background: var(--card-hover);
-      transform: translateY(-2px);
-    }
-
-    .member-card h4 {
-      font-size: 18px;
-      font-weight: 800;
-      color: var(--accent);
-      margin-bottom: 4px;
-    }
-
-    .member-role {
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 10px;
-    }
-
-    .member-stats {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-bottom: 10px;
-    }
-
-    .stat-tag {
-      font-size: 11px;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      padding: 3px 8px;
-      border-radius: 8px;
-      color: #cbd5e1;
-    }
-
     .archive-item {
       background: var(--card);
       border: 1px solid var(--border);
@@ -823,11 +767,11 @@
         <p>Toda la hemeroteca, piques, rajadas, apuestas ruinosas y salidas de tono del Triangulito Team convertidos en archivo interactivo.</p>
       </section>
 
-      <!-- BLOQUE CENTRAL PROTAGONISTA: EFEMÉRIDE DEL DÍA (FECHA FIJA DE HOY) -->
+      <!-- BLOQUE CENTRAL PROTAGONISTA: EFEMÉRIDE DEL DÍA -->
       <section class="efem-card">
         <div class="efem-info">
           <div class="efem-tag">📅 Reto Diario Oficial</div>
-          <h2>Efeméride del Día · <span id="efemDateLabel">Hoy</span></h2>
+          <h2>Efeméride del Día</h2>
           <p>Lo que ocurrió exactamente un día como hoy en el archivo del grupo a lo largo de los años.</p>
         </div>
         <div class="efem-controls">
@@ -835,11 +779,10 @@
         </div>
       </section>
 
-      <!-- JUEGOS DEL TT -->
+      <!-- MINIJUEGOS -->
       <section class="section-block">
         <div class="section-header">
-          <h3>🎮 Juegos del TT</h3>
-          <span>Rondas rápidas · 10 preguntas por partida</span>
+          <h3>🎮 Minijuegos</h3>
         </div>
         <div class="grid-2">
           <div class="mode-card" onclick="startGame('quien_dijo')">
@@ -892,7 +835,6 @@
       <section class="section-block">
         <div class="section-header">
           <h3>🎬 Estrenos de CarTTelera</h3>
-          <span>Sagas semanales capítulo a capítulo</span>
         </div>
         <div class="carttelera-box">
           <div class="poster-main">
@@ -906,7 +848,6 @@
             </div>
             <div class="poster-actions">
               <button class="btn-primary" onclick="startPasionTTurca()">Empezar Capítulo 1</button>
-              <button class="btn-secondary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>
             </div>
           </div>
 
@@ -921,18 +862,17 @@
               </div>
             </div>
             <div class="next-preview">
-              <strong>🎞️ Preview Próximamente en Salas:</strong>
-              <em>"La Boda de Humpa"</em> vs <em>"Verano Gandia Shore 2012"</em> vs <em>"Especial Rajadas Barça/Valencia"</em>.
+              <strong>🎞️ Próximamente en Salas:</strong>
+              Completa el estreno actual para votar el siguiente especial, como <em>"La Boda de Humpa"</em>.
             </div>
           </div>
         </div>
       </section>
 
-      <!-- SECCIONES TEMÁTICAS Y ARCHIVO -->
+      <!-- CATEGORÍAS -->
       <section class="section-block">
         <div class="section-header">
-          <h3>📚 Secciones Temáticas y Archivo</h3>
-          <span>Trivias temáticas y fichas de miembros</span>
+          <h3>📚 Categorías</h3>
         </div>
         <div class="grid-2">
           <div class="mode-card" onclick="startSectionQuiz('pornopedia')">
@@ -967,22 +907,11 @@
               <p>Preguntas tipo test sobre las salidas de tono, opiniones políticas sin filtro y burradas del archivo.</p>
             </div>
           </div>
-
-          <div class="mode-card" onclick="openEnciclopedia()">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--purple-soft); color: var(--purple);">📖</div>
-                <span class="mode-pill">Perfiles Interactivos</span>
-              </div>
-              <h4>Enciclopedia TT</h4>
-              <p>Pulsa en cualquier miembro para abrir su ficha completa con motes, estadísticas, biografía y citas míticas.</p>
-            </div>
-          </div>
         </div>
       </section>
     </div>
 
-    <!-- VISTA DE JUEGO / EFEMÉRIDE / PASIÓN TTURCA / QUIZ TEMÁTICO -->
+    <!-- VISTA DE JUEGO / EFEMÉRIDE / PASIÓN TTURCA / CATEGORÍAS -->
     <div id="gameView" class="view-panel">
       <div class="panel-topbar">
         <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
@@ -993,7 +922,7 @@
       <div class="quiz-box" id="quizContainer"></div>
     </div>
 
-    <!-- VISTA DE ENCICLOPEDIA / VOTACIÓN -->
+    <!-- VISTA DE VOTACIÓN -->
     <div id="sectionView" class="view-panel">
       <div class="panel-topbar">
         <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
@@ -1011,11 +940,6 @@
       <p style="font-size: 13px; color: var(--muted);">Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.</p>
       <div class="player-select-grid" id="playerButtonsGrid"></div>
     </div>
-  </div>
-
-  <!-- MODAL DETALLE DE MIEMBRO EN ENCICLOPEDIA -->
-  <div class="modal-backdrop" id="memberModal" onclick="if(event.target===this) closeModals()">
-    <div class="modal-card" id="memberModalCard"></div>
   </div>
 
   <!-- MODAL CLASIFICACIÓN -->
@@ -1037,6 +961,11 @@
 
   <script>
     const MIEMBROS = ["Joni", "Feme", "Jorge", "Germi", "Humpa", "Héctor", "Hugo", "Miki", "Marzal"];
+    const ALIAS_NOMBRES = [
+      "Joni", "Joan", "Jonas", "Feme", "Adrià", "Adria", "Jorge", "Chus",
+      "Germi", "Germán", "German", "Humpa", "Humberto", "Unverto",
+      "Héctor", "Hector", "Hugo", "Miki", "Miguel", "Marzal", "JM", "Marcial", "Marsalet", "Machalet", "Josep"
+    ];
 
     const DATA_PATHS = {
       efemeridesDir: "data/efemerides/",
@@ -1047,11 +976,9 @@
       pornopedia: "data/pornopedia_tt.json",
       comidistta: "data/comidistta.json",
       zona_vox: "data/zona_vox.json",
-      pasion_tturca: "data/marzal_turca.json",
-      biografias: "data/biografias_tt.json"
+      pasion_tturca: "data/marzal_turca.json"
     };
 
-    // Bancos diferenciados de respaldo por modo para que NUNCA se mezclen entre juegos
     const FALLBACK = {
       efemeride: [
         {
@@ -1065,22 +992,12 @@
       ],
       quien_dijo: [
         {
-          pregunta: "¿Quién dijo esta frase tras ver el partido del equipo?",
-          contexto: "Debatiendo sobre el rendimiento futbolístico en el chat",
+          pregunta: "¿Quién soltó esta frase en el grupo?",
           cita: "El rayo de Iraola nos baila cual City de Guardiola jaja que bazofia somos",
           opciones: ["Joni", "Jorge", "Miki", "Germi"],
           correcta: 0,
           anio: 2023,
           explicacion: "La soltó Joni tras ver el repaso táctico del Rayo."
-        },
-        {
-          pregunta: "¿Quién mandó a los valencianistas a quejarse a ese barrio?",
-          contexto: "Discusión por el reparto de millones de la Supercopa",
-          cita: "A llorar al Carmen",
-          opciones: ["Feme", "Germi", "Humpa", "Hugo"],
-          correcta: 1,
-          anio: 2019,
-          explicacion: "Germi tiró de retranca en medio del debate de la Supercopa."
         }
       ],
       lo_dijo_o_no: [
@@ -1093,16 +1010,6 @@
           ],
           impostor: 2,
           explicacion: "La frase de la pantaloneta del City es de Feme; las otras dos sí las dijo Germi."
-        },
-        {
-          miembro: "Feme",
-          frases: [
-            "Demuestrale que polla manda en el oeste",
-            "Los actores españoles estan flipaos",
-            "El portero de aqui no hay quien viva"
-          ],
-          impostor: 2,
-          explicacion: "El comentario del portero de ANHQV lo abrió Feme, pero la frase exacta 'El portero de aqui no hay quien viva' es de otro hilo: el impostor es la 3ª."
         }
       ],
       rajaditta: [
@@ -1119,20 +1026,11 @@
       ],
       dato_justo: [
         {
-          pregunta: "Duelo de menciones en 14 años de chat: ¿a quién nombran más veces?",
-          cita: "Lidia Balada vs Zach Morley",
-          opciones: ["Lidia Balada", "Zach Morley", "Empate técnico", "Menos de 10 veces ambos"],
-          correcta: 0,
+          pregunta: "¿A quién se ha nombrado MÁS VECES en toda la historia del TT (2012-2026)?",
+          opciones: ["LeBron James", "Mourinho"],
+          correcta: 1,
           anio: "2012-2026",
-          explicacion: "Lidia Balada supera claramente en menciones en el historial del grupo."
-        },
-        {
-          pregunta: "¿Qué expresión aparece con más frecuencia en los piques del grupo?",
-          cita: "'lache' vs 'parguela'",
-          opciones: ["lache", "parguela", "ambas igual", "ninguna pasa de 50"],
-          correcta: 0,
-          anio: "2012-2026",
-          explicacion: "'Lache' es uno de los clásicos indiscutibles del vocabulario TT."
+          explicacion: "Gana Mourinho: LeBron James aparece 15 veces frente a Mourinho con 35 menciones."
         }
       ],
       pornopedia: [
@@ -1170,90 +1068,16 @@
           numero: 1,
           fecha: "2015-09-16",
           titulo_capitulo: "Cuotas de carcel polaca y wifi desaprovechado",
-          pregunta: "¿Qué anécdota previa recordo Jorge para justificar el desplome de cuotas sobre Marzal en Polonia?",
+          pregunta: "¿Qué anécdota previa recordó Jorge para justificar el desplome de cuotas sobre Marzal en Polonia?",
           opciones: [
-            "Que se olvido el pasaporte en Manises",
-            "Que teniendo wifi y sin hotel en Alemania, prefirio comentar banalidades en el grupo del TT",
-            "Que intento pagar con zlotys en Munich",
-            "Que perdio las llaves en una cabina"
+            "Que se olvidó el pasaporte en Manises",
+            "Que teniendo wifi y sin hotel en Alemania, prefirió comentar banalidades en el grupo del TT",
+            "Que intentó pagar con zlotys en Múnich",
+            "Que perdió las llaves en una cabina"
           ],
           correcta: 1,
           relato_desbloqueado: "Antes de aterrizar en Polonia, el grupo ya apostaba por su supervivencia recordando cuando tuvo wifi y buscaba alojamiento y prefirió chatear en el TT.",
           citas_reales: ["Jorge: Recordemos su momento estrella", "Jorge: Y aqui estaba, comentando banalidades en el grupo del TT"]
-        }
-      ],
-      biografias: [
-        {
-          nombre: "Joni",
-          apodo: "El Archivero / Jonas",
-          mensajes: "46.800+",
-          biografia: "Cronista oficial del historial, siempre atento a los datos, las hemerotecas y las pullas a tiempo.",
-          especialidad: "Hemeroteca, piques deportivos y estadísticas",
-          cita: "Con el Madrid de por medio, mayúsculas solo a partir del 6-0"
-        },
-        {
-          nombre: "Feme",
-          apodo: "El Presidente / Feme i López",
-          mensajes: "41.200+",
-          biografia: "Motor de las sagas y debates del grupo, capaz de soltar un mote o un giro de guion en cualquier hilo.",
-          especialidad: "Paellas cuestionadas, sagas y memes",
-          cita: "Demuestrale que polla manda en el oeste"
-        },
-        {
-          nombre: "Jorge",
-          apodo: "El Letrado / Chus",
-          mensajes: "44.500+",
-          biografia: "Abogado de oficio en las discusiones del chat, con réplicas afiladas y referencias televisivas.",
-          especialidad: "Argumentación legal, fútbol y series",
-          cita: "Aprenda a expresarse señor Moratal"
-        },
-        {
-          nombre: "Germi",
-          apodo: "El Director de la Manada / Mostro",
-          mensajes: "39.900+",
-          biografia: "Protagonista de mil anécdotas sin filtro, pronósticos arriesgados y vocabulario propio.",
-          especialidad: "Historias sin filtro, apuestas y palabrejas",
-          cita: "Por el culo no se considera infidelidad"
-        },
-        {
-          nombre: "Humpa",
-          apodo: "Unverto / El Centralista",
-          mensajes: "28.400+",
-          biografia: "Siempre presente con salidas de tono, debates políticos y anécdotas de primera mano.",
-          especialidad: "Salidas de tono y debates intensos",
-          cita: "al final harán que echemos de menos el bipartidismo"
-        },
-        {
-          nombre: "Héctor",
-          apodo: "La Voz de El Palmar",
-          mensajes: "21.100+",
-          biografia: "Apariciones certeras y momentos memorables dentro y fuera del campo.",
-          especialidad: "Apariciones clave y vaciles puntuales",
-          cita: "Putos frikis de mierda futboleros"
-        },
-        {
-          nombre: "Hugo",
-          apodo: "La Estrella en Ciernes",
-          mensajes: "27.600+",
-          biografia: "Capaz de irrumpir con una receta o una réplica inesperada en medio de cualquier discusión.",
-          especialidad: "Cocina, réplicas y lore TT",
-          cita: "Ye chavales, me ha salido buenísima, la foto no hace justicia"
-        },
-        {
-          nombre: "Miki",
-          apodo: "Mr Anfitrión Moratal",
-          mensajes: "35.300+",
-          biografia: "Anfitrión habitual de cenas y previas, intenso con el fútbol y siempre al pie del cañón.",
-          especialidad: "Previas, cenas y fútbol europeo",
-          cita: "He fumao tío"
-        },
-        {
-          nombre: "Marzal",
-          apodo: "JM / Marcial / Marsalet / Machalet",
-          mensajes: "26.600+",
-          biografia: "Centro de grandes sagas del grupo como La Pasión TTurca y siempre con mil motes encima.",
-          especialidad: "Grandes sagas y llegadas justas",
-          cita: "Menos gracia para bailar que una sera"
         }
       ]
     };
@@ -1267,15 +1091,13 @@
       roundScore: 0,
       streak: 0,
       currentModeTitle: "",
-      flowMode: "quiz" // "quiz" | "pasion_tturca"
+      flowMode: "quiz",
+      lastAction: null
     };
 
-    // Fecha fija de hoy (no seleccionable por el usuario)
     const nowInit = new Date();
     const mm = String(nowInit.getMonth() + 1).padStart(2, "0");
     const dd = String(nowInit.getDate()).padStart(2, "0");
-    const mesesCortos = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
-    document.getElementById("efemDateLabel").textContent = `${parseInt(dd, 10)} ${mesesCortos[parseInt(mm, 10) - 1]} (${mm}-${dd})`;
 
     // Cuenta atrás hasta el próximo lunes 00:00
     function updateCountdown() {
@@ -1352,7 +1174,6 @@
       document.querySelectorAll(".modal-backdrop").forEach(el => el.classList.remove("open"));
     }
 
-    // Navegación
     function goHome() {
       document.getElementById("homeView").style.display = "block";
       document.getElementById("gameView").classList.remove("active");
@@ -1390,33 +1211,10 @@
     function extractArray(data, fallback) {
       if (Array.isArray(data) && data.length > 0) return data;
       if (!data || typeof data !== "object") return fallback;
-      for (const k of ["preguntas", "items", "capitulos", "miembros", "perfiles", "datos", "rondas", "duelos"]) {
+      for (const k of ["preguntas", "items", "capitulos", "datos", "rondas", "duelos", "retos"]) {
         if (Array.isArray(data[k]) && data[k].length > 0) return data[k];
       }
       return fallback;
-    }
-
-    // Convierte items temáticos (con o sin opciones) en preguntas tipo test reales
-    function toQuizItems(rawList, fallbackList, modeTag) {
-      const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
-      return shuffle(source).slice(0, 10).map(item => {
-        if (Array.isArray(item.opciones) && item.opciones.length >= 2 && typeof item.correcta === "number") {
-          return { type: modeTag, ...item };
-        }
-        const autorCorrecto = MIEMBROS.includes(item.autor) ? item.autor : "Germi";
-        const distractores = shuffle(MIEMBROS.filter(m => m !== autorCorrecto)).slice(0, 3);
-        const opciones = shuffle([autorCorrecto, ...distractores]);
-        return {
-          type: modeTag,
-          pregunta: item.pregunta || "¿Quién soltó esta perla en el grupo?",
-          cita: item.cita || "",
-          contexto: item.contexto || "",
-          opciones,
-          correcta: opciones.indexOf(autorCorrecto),
-          anio: item.anio || "Archivo TT",
-          explicacion: item.explicacion || item.contexto || `Lo dijo ${autorCorrecto}.`
-        };
-      });
     }
 
     function shuffle(arr) {
@@ -1428,29 +1226,125 @@
       return a;
     }
 
+    // Oculta el autor en el mensaje previo (ej. "Respuesta de Germi: «...»" o "Joni: ...")
+    // y evita mostrarlo si simplemente duplica la cita principal
+    function sanitizePrevContext(contexto, cita) {
+      if (!contexto) return "";
+      let clean = String(contexto).trim();
+      // Elimina prefijos tipo "Respuesta de Germi:", "Mensaje de Joni:", "Germi:"
+      clean = clean.replace(/^(Respuesta de|Mensaje de|Dicho por|Contesta|Responde)\s+[^:]+:\s*/i, "");
+      const namePattern = ALIAS_NOMBRES.join("|");
+      clean = clean.replace(new RegExp(`^(${namePattern})\s*:\s*`, "i"), "");
+      clean = clean.replace(/^[«"“]+|[»"”]+$/g, "").trim();
+
+      // Si tras limpiar es prácticamente igual a la cita principal, no lo mostramos
+      const normClean = clean.toLowerCase().replace(/[^a-z0-9]/g, "");
+      const normCita = String(cita || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+      if (!clean || (normCita && normClean.includes(normCita.slice(0, 20)))) {
+        return "";
+      }
+      return clean;
+    }
+
+    // Normalizador inteligente de preguntas (soporta El Dato Justo con duelos/cifras y categorías sin opciones)
+    function normalizeQuizItem(item, modeTag) {
+      // 1) Si ya trae opciones array (soporta correcta como índice numérico o como string)
+      if (Array.isArray(item.opciones) && item.opciones.length >= 2) {
+        let corrIdx = -1;
+        if (typeof item.correcta === "number") {
+          corrIdx = item.correcta;
+        } else if (typeof item.correcta === "string") {
+          const target = item.correcta.trim().toLowerCase();
+          corrIdx = item.opciones.findIndex(o => String(o).trim().toLowerCase() === target);
+        } else if (typeof item.respuesta_correcta === "string") {
+          const target = item.respuesta_correcta.trim().toLowerCase();
+          corrIdx = item.opciones.findIndex(o => String(o).trim().toLowerCase() === target);
+        } else if (typeof item.respuesta === "number") {
+          corrIdx = item.respuesta;
+        } else if (typeof item.ganador === "string") {
+          const target = item.ganador.trim().toLowerCase();
+          corrIdx = item.opciones.findIndex(o => String(o).trim().toLowerCase() === target);
+        }
+        if (corrIdx >= 0 && corrIdx < item.opciones.length) {
+          return {
+            type: modeTag,
+            pregunta: item.pregunta || "¿Cuál es la respuesta correcta?",
+            cita: item.cita || "",
+            contexto: item.contexto || item.mensaje_previo || "",
+            opciones: item.opciones,
+            correcta: corrIdx,
+            anio: item.anio || item.fecha || "Archivo TT",
+            explicacion: item.explicacion || item.dato || item.contexto || ""
+          };
+        }
+      }
+
+      // 2) Formato duelo A vs B (muy habitual en El Dato Justo)
+      const optA = item.opcion_a || item.termino_a || item.a || item.personaje_a;
+      const optB = item.opcion_b || item.termino_b || item.b || item.personaje_b;
+      if (optA && optB) {
+        const opciones = [String(optA), String(optB)];
+        let corrIdx = 0;
+        const win = String(item.ganador || item.correcta || item.respuesta || "").trim().toLowerCase();
+        if (win === String(optB).trim().toLowerCase() || win === "b" || win === "1") {
+          corrIdx = 1;
+        }
+        return {
+          type: modeTag,
+          pregunta: item.pregunta || "¿Cuál tiene más menciones en la historia del TT?",
+          cita: item.cita || `${optA} vs ${optB}`,
+          contexto: "",
+          opciones,
+          correcta: corrIdx,
+          anio: item.anio || "2012-2026",
+          explicacion: item.explicacion || item.dato || ""
+        };
+      }
+
+      // 3) Fallback para frases con autor (Pornopedia, ComidisTTa, Zona VOX, ¿Quién dijo esto?)
+      const autorCorrecto = MIEMBROS.includes(item.autor) ? item.autor : "Germi";
+      const distractores = shuffle(MIEMBROS.filter(m => m !== autorCorrecto)).slice(0, 3);
+      const opciones = shuffle([autorCorrecto, ...distractores]);
+      return {
+        type: modeTag,
+        pregunta: item.pregunta || "¿Quién soltó esta frase en el grupo?",
+        cita: item.cita || "",
+        contexto: item.contexto || item.mensaje_previo || "",
+        opciones,
+        correcta: opciones.indexOf(autorCorrecto),
+        anio: item.anio || "Archivo TT",
+        explicacion: item.explicacion || item.contexto || `Lo dijo ${autorCorrecto}.`
+      };
+    }
+
+    function toQuizItems(rawList, fallbackList, modeTag) {
+      const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
+      return shuffle(source).slice(0, 10).map(item => normalizeQuizItem(item, modeTag));
+    }
+
     // =========================================================================
-    // EFEMÉRIDE DE HOY (SIN SELECTOR DE FECHA)
+    // EFEMÉRIDE DE HOY
     // =========================================================================
     async function startEfemeride() {
       const mm_dd = `${mm}-${dd}`;
       const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK.efemeride });
-      const pool = shuffle(extractArray(data, FALLBACK.efemeride)).slice(0, 10);
-
       state.flowMode = "quiz";
-      state.currentQuestions = pool.map(q => ({ type: "efemeride", ...q }));
+      state.lastAction = () => startEfemeride();
+      state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.efemeride), FALLBACK.efemeride, "efemeride");
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
-      state.currentModeTitle = `📜 Efeméride del Día (${mm_dd})`;
+      state.currentModeTitle = "📜 Efeméride del Día";
       showGameView(state.currentModeTitle);
       renderQuestion();
     }
 
     // =========================================================================
-    // JUEGOS PRINCIPALES (CADA UNO CON SU JSON Y SU FALLBACK PROPIO)
+    // MINIJUEGOS
     // =========================================================================
     async function startGame(mode) {
       state.flowMode = "quiz";
+      state.lastAction = () => startGame(mode);
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
@@ -1478,17 +1372,18 @@
     }
 
     // =========================================================================
-    // SECCIONES TEMÁTICAS COMO TRIVIA / PREGUNTAS
+    // CATEGORÍAS (TRIVIA)
     // =========================================================================
     async function startSectionQuiz(sec) {
       const meta = {
-        pornopedia: { title: "🔞 Pornopedia · Quiz +18", fb: FALLBACK.pornopedia },
-        comidistta: { title: "🍽️ El ComidisTTa · Quiz Gastro", fb: FALLBACK.comidistta },
-        zona_vox: { title: "🟩 Zona VOX · Quiz Archivo", fb: FALLBACK.zona_vox }
+        pornopedia: { title: "🔞 Pornopedia", fb: FALLBACK.pornopedia },
+        comidistta: { title: "🍽️ El ComidisTTa", fb: FALLBACK.comidistta },
+        zona_vox: { title: "🟩 Zona VOX", fb: FALLBACK.zona_vox }
       }[sec];
 
       const data = await loadJsonSafe(DATA_PATHS[sec], { items: meta.fb });
       state.flowMode = "quiz";
+      state.lastAction = () => startSectionQuiz(sec);
       state.currentQuestions = toQuizItems(extractArray(data, meta.fb), meta.fb, sec);
       state.qIndex = 0;
       state.roundScore = 0;
@@ -1506,13 +1401,22 @@
       const caps = [...extractArray(data, FALLBACK.pasion_tturca)].sort((a, b) => (a.numero || 0) - (b.numero || 0));
 
       state.flowMode = "pasion_tturca";
+      state.lastAction = () => startPasionTTurca();
       state.currentQuestions = caps.map((c, idx) => ({ type: "pasion_tturca", numero: c.numero || idx + 1, ...c }));
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
-      state.currentModeTitle = "🎬 Estrenos de CarTTelera · La Pasión TTurca";
+      state.currentModeTitle = "🎬 La Pasión TTurca";
       showGameView(state.currentModeTitle);
       renderQuestion();
+    }
+
+    function replayCurrentMode() {
+      if (typeof state.lastAction === "function") {
+        state.lastAction();
+      } else {
+        goHome();
+      }
     }
 
     function renderQuestion() {
@@ -1520,13 +1424,18 @@
       document.getElementById("gameScorePill").textContent = `${state.roundScore} pts · Racha ${state.streak}`;
 
       if (state.qIndex >= state.currentQuestions.length) {
+        const voteBtnHtml = state.flowMode === "pasion_tturca"
+          ? `<button class="btn-primary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>`
+          : `<button class="btn-primary" onclick="replayCurrentMode()">🔄 Jugar otra ronda</button>`;
+
         container.innerHTML = `
           <div style="text-align:center; padding: 18px 8px;">
             <div style="font-size: 42px; margin-bottom: 10px;">🏁</div>
             <h3 style="font-size: 24px; font-weight: 900; margin-bottom: 6px;">¡Finalizado, ${state.player}!</h3>
             <p style="color: var(--muted); margin-bottom: 18px;">Has sumado <strong style="color:var(--accent);">${state.roundScore} puntos</strong> en ${state.currentModeTitle}.</p>
             <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-              <button class="btn-primary" onclick="copyShareSummary()">📋 Copiar resultado para WhatsApp</button>
+              ${voteBtnHtml}
+              <button class="btn-secondary" onclick="copyShareSummary()">📋 Copiar resultado</button>
               <button class="btn-secondary" onclick="goHome()">Volver a Portada</button>
             </div>
           </div>
@@ -1572,9 +1481,10 @@
         options = q.frases.map(f => `“${f}”`);
         correctIdx = q.impostor;
       } else {
+        const safePrev = sanitizePrevContext(q.contexto, q.cita);
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">${q.pregunta || "¿Quién soltó esta frase en el grupo?"}</div>
-          ${q.cita ? `<div class="quote-box">${q.contexto ? `<span class="quote-context">Previo: ${q.contexto}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
+          ${q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
         `;
         options = q.opciones;
         correctIdx = q.correcta;
@@ -1662,55 +1572,11 @@
     }
 
     // =========================================================================
-    // ENCICLOPEDIA INTERACTIVA (AL PULSAR ABRE SU FICHA)
+    // VOTAR PRÓXIMO ESTRENO (SOLO AL COMPLETAR LA PASIÓN TTURCA)
     // =========================================================================
-    let enciclopediaList = [];
-
-    async function openEnciclopedia() {
-      const data = await loadJsonSafe(DATA_PATHS.biografias, { miembros: FALLBACK.biografias });
-      enciclopediaList = extractArray(data, FALLBACK.biografias);
-      showSectionView("📖 Enciclopedia TT · Pulsa un perfil");
-
-      document.getElementById("sectionContent").innerHTML = `
-        <div class="member-grid">
-          ${enciclopediaList.map((m, idx) => `
-            <div class="member-card" onclick="openMemberDetail(${idx})">
-              <h4>${m.nombre}</h4>
-              <div class="member-role">${m.apodo || ""}</div>
-              <div class="member-stats">
-                ${m.mensajes ? `<span class="stat-tag">💬 ${m.mensajes}</span>` : ""}
-              </div>
-              <p style="font-size:13px; color:#cbd5e1; margin-bottom:10px;">${m.especialidad || ""}</p>
-              <div style="font-size:12px; color:var(--accent); font-weight:700;">Ver ficha completa →</div>
-            </div>
-          `).join("")}
-        </div>
-      `;
-    }
-
-    function openMemberDetail(idx) {
-      const m = enciclopediaList[idx];
-      if (!m) return;
-      document.getElementById("memberModalCard").innerHTML = `
-        <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:10px; margin-bottom:10px;">
-          <div>
-            <h3 style="margin:0; color:var(--accent);">${m.nombre}</h3>
-            <div style="font-size:12.5px; color:var(--muted);">${m.apodo || ""}</div>
-          </div>
-          <button class="btn-secondary" style="padding:5px 10px;" onclick="closeModals()">✕</button>
-        </div>
-        ${m.mensajes ? `<div class="stat-tag" style="display:inline-block; margin-bottom:12px;">💬 Mensajes en archivo: ${m.mensajes}</div>` : ""}
-        <p style="font-size:14px; color:#e2e8f0; margin-bottom:12px;">${m.biografia || m.especialidad || "Miembro histórico del Triangulito Team."}</p>
-        ${m.cita ? `<div class="quote-box" style="margin:10px 0 0; font-size:14px;">“${m.cita}”</div>` : ""}
-      `;
-      document.getElementById("memberModal").classList.add("open");
-    }
-
     function openVoteSaga() {
       const candidatas = [
-        { id: "boda_humpa", title: "La Boda de Humpa", desc: "Preparativos, despedida y resaca histórica." },
-        { id: "gandia_2012", title: "Verano Gandia Shore 2012", desc: "Los orígenes del grupo cuando aún había pelo y tiempo libre." },
-        { id: "rajadas_futbol", title: "Especial Rajadas Barça / Valencia", desc: "Los mayores calentones futboleros de 14 años." }
+        { id: "boda_humpa", title: "La Boda de Humpa", desc: "Preparativos, despedida y resaca histórica." }
       ];
       showSectionView("🗳️ Urna de Próximo Estreno en CarTTelera");
       document.getElementById("sectionContent").innerHTML = candidatas.map(c => {
