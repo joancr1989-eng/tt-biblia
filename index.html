@@ -41,7 +41,7 @@
       color: var(--text);
       min-height: 100vh;
       line-height: 1.5;
-      padding-bottom: 48px;
+      padding-bottom: 56px;
     }
 
     a, button, select, input {
@@ -492,7 +492,7 @@
     /* VIEW PANELS */
     .view-panel {
       display: none;
-      margin-top: 22px;
+      margin-top: 14px;
       animation: fadeIn 0.2s ease;
     }
 
@@ -505,22 +505,11 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    .panel-topbar {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 16px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--border);
-    }
-
     .quiz-box {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 20px;
-      padding: 22px;
+      padding: 20px;
       box-shadow: var(--shadow);
     }
 
@@ -541,17 +530,20 @@
       padding: 4px 10px;
       border-radius: 999px;
       font-weight: 800;
+      font-size: 12.5px;
     }
 
     .quote-box {
       background: var(--bg);
       border-left: 4px solid var(--accent);
       border-radius: 12px;
-      padding: 16px;
-      margin: 14px 0 18px;
-      font-size: 16px;
+      padding: 15px 16px;
+      margin: 12px 0 18px;
+      font-size: 15.5px;
       font-weight: 600;
       color: #f8fafc;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .quote-context {
@@ -560,6 +552,8 @@
       font-weight: 400;
       color: var(--muted);
       margin-bottom: 6px;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .censored {
@@ -589,6 +583,8 @@
       font-weight: 600;
       cursor: pointer;
       transition: 0.15s ease;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .opt-btn:hover:not(:disabled) {
@@ -615,7 +611,10 @@
       background: rgba(255, 255, 255, 0.04);
       border: 1px solid var(--border);
       font-size: 14px;
+      line-height: 1.55;
       display: none;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .feedback-box.show {
@@ -623,13 +622,15 @@
     }
 
     .relato-box {
-      margin-top: 14px;
+      margin-top: 12px;
       background: rgba(11, 14, 20, 0.65);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 14px 16px;
       font-size: 14px;
       color: #e2e8f0;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .quotes-list {
@@ -646,6 +647,8 @@
       padding: 6px 10px;
       border-radius: 6px;
       color: #cbd5e1;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .archive-item {
@@ -726,10 +729,10 @@
 </head>
 <body>
 
-  <!-- CABECERA -->
+  <!-- CABECERA PRINCIPAL ÚNICA -->
   <header>
     <div class="container nav-bar">
-      <div class="brand" onclick="goHome()">
+      <div class="brand" onclick="goHome()" title="Volver a Portada">
         <div class="brand-logo">TT</div>
         <div class="brand-title">TT<span>pedia</span></div>
       </div>
@@ -894,24 +897,13 @@
       </section>
     </div>
 
-    <!-- VISTA DE JUEGO / EFEMÉRIDE / PASIÓN TTURCA / CATEGORÍAS -->
+    <!-- VISTA DE JUEGO (SIN SEGUNDA CABECERA) -->
     <div id="gameView" class="view-panel">
-      <div class="panel-topbar">
-        <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
-        <div id="gameTitleHeader" style="font-weight: 800; font-size: 16px;"></div>
-        <span class="pill-score" id="gameScorePill">0 pts · Racha 0</span>
-      </div>
-
       <div class="quiz-box" id="quizContainer"></div>
     </div>
 
     <!-- VISTA DE VOTACIÓN -->
     <div id="sectionView" class="view-panel">
-      <div class="panel-topbar">
-        <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
-        <div id="sectionTitleHeader" style="font-weight: 800; font-size: 17px;"></div>
-        <div id="sectionExtraAction"></div>
-      </div>
       <div id="sectionContent"></div>
     </div>
   </main>
@@ -1101,7 +1093,6 @@
     setInterval(updateCountdown, 1000);
     updateCountdown();
 
-    // Jugador y ranking
     document.getElementById("currentPlayerName").textContent = state.player;
 
     function openPlayerModal() {
@@ -1228,7 +1219,7 @@
       document.getElementById("homeView").style.display = "none";
       document.getElementById("sectionView").classList.remove("active");
       document.getElementById("gameView").classList.add("active");
-      document.getElementById("gameTitleHeader").textContent = title;
+      state.currentModeTitle = title;
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
@@ -1236,8 +1227,11 @@
       document.getElementById("homeView").style.display = "none";
       document.getElementById("gameView").classList.remove("active");
       document.getElementById("sectionView").classList.add("active");
-      document.getElementById("sectionTitleHeader").textContent = title;
-      document.getElementById("sectionExtraAction").innerHTML = extraHtml;
+      document.getElementById("sectionContent").innerHTML =
+        `<div style="margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
+          <strong style="font-size:17px;">${title}</strong>
+          <div>${extraHtml}</div>
+        </div><div id="sectionDynamicBody"></div>`;
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
@@ -1285,6 +1279,12 @@
       return clean;
     }
 
+    function extractMemberFromText(txt) {
+      if (!txt) return "";
+      const match = String(txt).match(new RegExp(`\b(${MIEMBROS.join("|")})\b`, "i"));
+      return match ? match[1] : "";
+    }
+
     function buildNumericOptions(exactNum) {
       const n = Math.max(0, Math.round(Number(exactNum)));
       const set = new Set([n]);
@@ -1313,12 +1313,13 @@
         if (Array.isArray(listFrases) && listFrases.length >= 2) {
           const impIdx = typeof item.impostor === "number" ? item.impostor
             : (typeof item.correcta === "number" ? item.correcta : 0);
+          const miembro = item.miembro || item.autor || item.protagonista || extractMemberFromText(item.pregunta) || extractMemberFromText(item.explicacion) || "";
           return {
             type: "lo_dijo_o_no",
-            miembro: item.miembro || item.autor || item.protagonista || "un miembro del TT",
+            miembro,
             frases: listFrases,
             impostor: impIdx,
-            anio: item.anio || "Lore TT",
+            anio: item.anio || "",
             explicacion: item.explicacion || item.contexto || ""
           };
         }
@@ -1342,22 +1343,25 @@
         }
         if (corrIdx >= 0 && corrIdx < item.opciones.length) {
           let memberName = item.miembro || item.autor || item.protagonista || item.jugador || "";
-          if (!memberName && modeTag === "lo_dijo_o_no" && item.pregunta) {
-            const mMatch = String(item.pregunta).match(new RegExp(`\b(${MIEMBROS.join("|")})\b`, "i"));
-            if (mMatch) memberName = mMatch[1];
+          if (!memberName && modeTag === "lo_dijo_o_no") {
+            memberName = extractMemberFromText(item.pregunta) || extractMemberFromText(item.explicacion) || "";
           }
-          const finalPregunta = (modeTag === "lo_dijo_o_no" && (!item.pregunta || item.pregunta.trim() === "¿Cuál es la respuesta correcta?"))
-            ? (memberName ? `¿Qué frase NO dijo ${memberName} (o cuál es la impostora)?` : "¿Qué frase es la impostora en este lote?")
-            : (item.pregunta || "¿Cuál es la respuesta correcta?");
+          let finalPregunta = item.pregunta || "¿Cuál es la respuesta correcta?";
+          if (modeTag === "lo_dijo_o_no") {
+            finalPregunta = memberName
+              ? `2 frases son de ${memberName} y una no`
+              : "2 frases son del mismo autor y una no";
+          }
 
           return {
-            type: modeTag === "lo_dijo_o_no" ? "quiz_generic" : modeTag,
+            type: modeTag === "lo_dijo_o_no" ? "lo_dijo_o_no_opciones" : modeTag,
+            miembro: memberName,
             pregunta: finalPregunta,
             cita: item.cita || "",
             contexto: item.contexto || item.mensaje_previo || "",
             opciones: item.opciones,
             correcta: corrIdx,
-            anio: item.anio || item.fecha || "Archivo TT",
+            anio: item.anio || item.fecha || "",
             explicacion: item.explicacion || item.dato || item.contexto || ""
           };
         }
@@ -1379,7 +1383,7 @@
           contexto: "",
           opciones,
           correcta: corrIdx,
-          anio: item.anio || "2012-2026",
+          anio: item.anio || "",
           explicacion: item.explicacion || item.dato || ""
         };
       }
@@ -1395,7 +1399,7 @@
           contexto: "",
           opciones,
           correcta,
-          anio: item.anio || "2012-2026",
+          anio: item.anio || "",
           explicacion: item.explicacion || item.dato || `El dato exacto en el archivo es ${Number(rawNum).toLocaleString("es-ES")}.`
         };
       }
@@ -1404,13 +1408,13 @@
       const distractores = shuffle(MIEMBROS.filter(m => m !== autorCorrecto)).slice(0, 3);
       const opciones = shuffle([autorCorrecto, ...distractores]);
       return {
-        type: modeTag === "lo_dijo_o_no" ? "quiz_generic" : modeTag,
+        type: modeTag,
         pregunta: item.pregunta || "¿Quién soltó esta frase en el grupo?",
         cita: item.cita || "",
         contexto: item.contexto || item.mensaje_previo || "",
         opciones,
         correcta: opciones.indexOf(autorCorrecto),
-        anio: item.anio || "Archivo TT",
+        anio: item.anio || "",
         explicacion: item.explicacion || item.contexto || `Lo dijo ${autorCorrecto}.`
       };
     }
@@ -1422,9 +1426,6 @@
       return seleccion.map(item => normalizeQuizItem(item, modeTag));
     }
 
-    // =========================================================================
-    // EFEMÉRIDE DE HOY — MUESTRA TODAS LAS PREGUNTAS DEL JSON DEL DÍA
-    // =========================================================================
     async function startEfemeride() {
       const mm_dd = `${mm}-${dd}`;
       const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK.efemeride });
@@ -1434,14 +1435,10 @@
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
-      state.currentModeTitle = "📜 Efeméride del Día";
-      showGameView(state.currentModeTitle);
+      showGameView("📜 Efeméride del Día");
       renderQuestion();
     }
 
-    // =========================================================================
-    // MINIJUEGOS
-    // =========================================================================
     async function startGame(mode) {
       state.flowMode = "quiz";
       state.lastAction = () => startGame(mode);
@@ -1452,28 +1449,24 @@
       if (mode === "quien_dijo") {
         const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: FALLBACK.quien_dijo });
         state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.quien_dijo), FALLBACK.quien_dijo, "quien_dijo", 10);
-        state.currentModeTitle = "💬 ¿Quién dijo esto?";
+        showGameView("💬 ¿Quién dijo esto?");
       } else if (mode === "lo_dijo_o_no") {
         const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK.lo_dijo_o_no });
         state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.lo_dijo_o_no), FALLBACK.lo_dijo_o_no, "lo_dijo_o_no", 10);
-        state.currentModeTitle = "⚖️ Lo dijo o no lo dijo";
+        showGameView("⚖️ Lo dijo o no lo dijo");
       } else if (mode === "rajaditta") {
         const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK.rajaditta });
         state.currentQuestions = shuffle(extractArray(data, FALLBACK.rajaditta)).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
-        state.currentModeTitle = "🤬 La RajadiTTa";
+        showGameView("🤬 La RajadiTTa");
       } else if (mode === "dato_justo") {
         const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: FALLBACK.dato_justo });
         state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.dato_justo), FALLBACK.dato_justo, "dato_justo", 10);
-        state.currentModeTitle = "🎯 El Dato Justo";
+        showGameView("🎯 El Dato Justo");
       }
 
-      showGameView(state.currentModeTitle);
       renderQuestion();
     }
 
-    // =========================================================================
-    // CATEGORÍAS (TRIVIA)
-    // =========================================================================
     async function startSectionQuiz(sec) {
       const meta = {
         pornopedia: { title: "🔞 Pornopedia", fb: FALLBACK.pornopedia },
@@ -1488,14 +1481,10 @@
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
-      state.currentModeTitle = meta.title;
-      showGameView(state.currentModeTitle);
+      showGameView(meta.title);
       renderQuestion();
     }
 
-    // =========================================================================
-    // LA PASIÓN TTURCA — CAPÍTULO A CAPÍTULO DESDE EL 1
-    // =========================================================================
     async function startPasionTTurca() {
       const data = await loadJsonSafe(DATA_PATHS.pasion_tturca, { capitulos: FALLBACK.pasion_tturca });
       const caps = [...extractArray(data, FALLBACK.pasion_tturca)].sort((a, b) => (a.numero || 0) - (b.numero || 0));
@@ -1506,8 +1495,7 @@
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
-      state.currentModeTitle = "🎬 La Pasión TTurca";
-      showGameView(state.currentModeTitle);
+      showGameView("🎬 La Pasión TTurca");
       renderQuestion();
     }
 
@@ -1521,7 +1509,6 @@
 
     function renderQuestion() {
       const container = document.getElementById("quizContainer");
-      document.getElementById("gameScorePill").textContent = `${state.roundScore} pts · Racha ${state.streak}`;
 
       if (state.qIndex >= state.currentQuestions.length) {
         const voteBtnHtml = state.flowMode === "pasion_tturca"
@@ -1548,12 +1535,12 @@
       let promptHtml = "";
       let options = [];
       let correctIdx = 0;
-      let metaLeft = `Pregunta <strong>${state.qIndex + 1}</strong> de ${total}`;
-      let metaRight = `Año: <strong>${q.anio || "Lore TT"}</strong>`;
+      let metaLeft = `<strong>${state.qIndex + 1}/${total}</strong> · Racha ${state.streak}`;
+      let metaRight = q.anio ? `<strong>${q.anio}</strong>` : "";
 
       if (q.type === "pasion_tturca") {
-        metaLeft = `Capítulo <strong>${q.numero}</strong> de ${total}`;
-        metaRight = `Fecha: <strong>${q.fecha || "Erasmus"}</strong>`;
+        metaLeft = `<strong>${q.numero}/${total}</strong> · Racha ${state.streak}`;
+        metaRight = q.fecha ? `<strong>${q.fecha}</strong>` : "";
         promptHtml = `
           <div style="color:var(--accent); font-size:12px; font-weight:800; text-transform:uppercase; margin-bottom:4px;">
             Capítulo ${q.numero} · ${q.titulo_capitulo || ""}
@@ -1563,27 +1550,31 @@
         options = q.opciones;
         correctIdx = q.correcta;
       } else if (q.type === "rajaditta") {
+        metaRight = "";
         const formattedQuote = (q.cita || "").replace(/\*\*\*/g, '<span class="censored">[CENSURADO]</span>');
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">¿A quién está poniendo fino <span style="color:var(--accent);">${q.agresor}</span>?</div>
           <div class="quote-box">
-            <span class="quote-context">Año ${q.anio || "Histórico"}</span>
             “${formattedQuote}”
           </div>
         `;
         options = q.opciones;
         correctIdx = q.correcta;
       } else if (q.type === "lo_dijo_o_no" && Array.isArray(q.frases)) {
+        metaRight = "";
+        const autorTxt = q.miembro ? `2 frases son de ${q.miembro} y una no` : "2 frases son del mismo autor y una no";
         promptHtml = `
-          <div style="font-weight:700; font-size:17px;">2 verdades y 1 impostor sobre <span style="color:var(--accent);">${q.miembro}</span>: ¿cuál NO dijo?</div>
-          <p style="font-size:13px; color:var(--muted); margin: 6px 0 14px;">Pulsa sobre la frase que pertenece a otro compañero:</p>
+          <div style="font-weight:700; font-size:17px;">${autorTxt}</div>
         `;
         options = q.frases.map(f => `“${f}”`);
         correctIdx = q.impostor;
       } else {
         const safePrev = sanitizePrevContext(q.contexto, q.cita);
+        const tituloPreg = q.type === "lo_dijo_o_no_opciones"
+          ? (q.miembro ? `2 frases son de ${q.miembro} y una no` : q.pregunta)
+          : (q.pregunta || "¿Quién soltó esta frase en el grupo?");
         promptHtml = `
-          <div style="font-weight:700; font-size:17px;">${q.pregunta || "¿Quién soltó esta frase en el grupo?"}</div>
+          <div style="font-weight:700; font-size:17px;">${tituloPreg}</div>
           ${q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
         `;
         options = q.opciones;
@@ -1631,27 +1622,25 @@
         state.streak = 0;
       }
 
-      document.getElementById("gameScorePill").textContent = `${state.roundScore} pts · Racha ${state.streak}`;
-
       const fb = document.getElementById("feedbackBox");
       if (q.type === "pasion_tturca") {
         const citasHtml = Array.isArray(q.citas_reales) && q.citas_reales.length > 0
           ? `<div class="quotes-list">${q.citas_reales.map(c => `<div class="quote-chip">“${c}”</div>`).join("")}</div>`
           : "";
         fb.innerHTML = `
-          <div>${isOk ? "✅ <strong>¡Respuesta correcta!</strong> Capítulo desbloqueado." : "❌ <strong>No era esa.</strong> Aquí tienes la crónica del capítulo:"}</div>
+          <div>${isOk ? "✅ <strong>¡Respuesta correcta!</strong>" : "❌ <strong>No era esa.</strong>"}</div>
           <div class="relato-box">
-            <strong style="color:var(--accent); display:block; margin-bottom:4px;">Contexto y crónica del capítulo ${q.numero}:</strong>
+            <strong style="color:var(--accent); display:block; margin-bottom:4px;">Contexto del capítulo ${q.numero}:</strong>
             ${q.relato_desbloqueado || ""}
             ${citasHtml}
           </div>
         `;
       } else {
-        let extraText = q.explicacion || q.contexto || "";
+        let extraText = q.explicacion || "";
         if (q.type === "rajaditta" && q.cita_sin_censura) {
-          extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”<br><span style="color:var(--muted);">${q.contexto || ""}</span>`;
+          extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”`;
         }
-        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:4px;">${extraText}</div>`;
+        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>`;
       }
 
       fb.classList.add("show");
@@ -1671,15 +1660,12 @@
       showToast("Resultado copiado para pegar en WhatsApp");
     }
 
-    // =========================================================================
-    // VOTAR PRÓXIMO ESTRENO (SOLO AL COMPLETAR LA PASIÓN TTURCA)
-    // =========================================================================
     function openVoteSaga() {
       const candidatas = [
         { id: "boda_humpa", title: "La Boda de Humpa", desc: "Preparativos, despedida y resaca histórica." }
       ];
       showSectionView("🗳️ Urna de Próximo Estreno en CarTTelera");
-      document.getElementById("sectionContent").innerHTML = candidatas.map(c => {
+      document.getElementById("sectionDynamicBody").innerHTML = candidatas.map(c => {
         const voted = state.votes[state.player] === c.id;
         return `
           <div class="archive-item" style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
