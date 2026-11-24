@@ -1,488 +1,588 @@
 {
-  "titulo": "La Balada de Marzal y la Turca",
-  "sinopsis": "Crónica cronológica completa del Erasmus de Marzal en Polonia, sus conquistas, los consejos del TT y su historia con la turca.",
-  "total_capitulos": 25,
+  "titulo_saga": "La Pasión TTurca",
+  "total_capitulos": 30,
   "capitulos": [
     {
-      "fecha": "2015-09-16",
-      "titulo_capitulo": "Cuotas de carcel polaca y wifi desaprovechado",
-      "pregunta": "¿Que anecdota previa recordo Jorge en el grupo para justificar el desplome de cuotas sobre las desgracias de Marzal en Polonia?",
+      "fecha": "2015-10-15",
+      "titulo_capitulo": "Habemus turca: salsa yogur y kebabs en Estambul",
+      "pregunta": "¿Qué disparatada reacción tuvieron Germi y Jorge en el chat al descubrir que Marzal estaba tonteando con una chica turca?",
       "opciones": [
-        "Que se olvido el pasaporte en el mostrador del aeropuerto de Manises",
-        "Que teniendo wifi y sin hotel en Alemania, prefirio comentar banalidades en el grupo del TT",
-        "Que intento pagar con zlotys en una panaderia de Munich",
-        "Que perdio las llaves del piso y durmio en una cabina de tren"
+        "Germi pidió que le recitara la carta de los kebabs de Estambul y Jorge celebró que probaría la auténtica salsa yogur",
+        "Le aconsejaron comprar una chilaba para causar buena impresión en su primera cita",
+        "Feme le advirtió de que la mafia otomana de Opole no perdonaba estas cosas",
+        "Joni propuso contratar a un violinista turco para darle una serenata"
       ],
-      "correcta": 1,
-      "relato_desbloqueado": "Antes incluso de que Marzal pusiera un pie en Polonia, el Triangulito Team ya habia abierto las casas de apuestas sobre su supervivencia. Jorge aviso de que la cuota para que JM acabara en una carcel polaca se habia desplomado a 1.50 tras recordar su mitico periplo aleman: teniendo conexion wifi, tiempo de sobra y la necesidad imperiosa de buscar alojamiento, prefirio pasar las horas comentando chorradas en el chat del TT. Con Feme rematando que el chaval ni dominaba idiomas ni veia un pimiento sin gafas, la aventura internacional prometia ser un espectaculo.",
+      "correcta": 0,
+      "relato_desbloqueado": "Apenas un mes después de aterrizar en su Erasmus en Opole (Polonia), saltó el bombazo en el Triangulito Team: Marzal tenía en el punto de mira a una chica turca. La tropa enloqueció al instante con chistes geográficos y gastronómicos. Germi exigió que fuera de 'la parte occidental de Estambul' y que se supiera todos los kebabs de la ciudad, mientras Jorge destacaba que JM por fin cataría la auténtica salsa yogur. Como colofón, Germi le recordó a Marzal cuál era su principal arma de seducción para conquistarla: su portentosa nariz.",
       "citas_reales": [
-        "Jorge: Recordemos su momento estrella",
-        "Jorge: Y aqui estaba, comentando banalidades en el grupo del TT",
-        "Feme: En un pais que no le entienden",
-        "Feme: Y recordemos que no ve nada"
+        "Germi: Queremos que diga el nombre de todos los kebabs de Estambul mientras le comas todo el coño",
+        "Jorge: Podras probar la autentica salsa yogur",
+        "Germi: JM de la parte occidental de Estambul porfavor",
+        "Germi: Recuerda JM tu nariz es la clave"
       ],
       "numero": 1
     },
     {
-      "fecha": "2015-09-24",
-      "titulo_capitulo": "La mirada del cocodrilo y la madre de Lewandowski",
-      "pregunta": "¿Que tecnica de seduccion le recomendo Germi a Marzal para encandilar a una pelirroja recien llegado a Polonia?",
-      "opciones": [
-        "Invitarla a chupitos de Soplica de avellana",
-        "Ejecutar la mirada del cocodrilo aprovechando su prominente nariz",
-        "Ponerle una playlist con la que caeria hasta la madre de Lewandowski",
-        "Fingir que era jugador profesional de futbol sala"
-      ],
-      "correcta": 1,
-      "relato_desbloqueado": "Recien aterrizado en Polonia, Marzal dio la voz de alarma al fijarse en una pelirroja en la residencia. Joni salio al rescate ofreciendole una lista de reproduccion de Spotify infalible capaz de seducir a la mismisima madre de Lewandowski. Sin embargo, la masterclass llego de parte de Germi, quien le dicto los pasos elementales: acumular una base generosa de alcohol en sangre, lanzar la historica mirada del cocodrilo y sacarle el maximo partido anatomico a su famosa nariz.",
-      "citas_reales": [
-        "Joni: Marzal tens Spotify? Tengo una lista que vamos, con eso te follas hasta la madre de Lewandowski",
-        "Germi: Luego, hay que hacer una buena mirada del cocodrilo, se deberia volver loca",
-        "Germi: Ahi tu nariz puede hacer un buen papel"
-      ],
-      "numero": 2
-    },
-    {
-      "fecha": "2015-10-15",
-      "titulo_capitulo": "Aparicion estelar: la estudiante turca",
-      "pregunta": "¿Cual fue la reaccion del Triangulito Team al enterarse de que el nuevo objetivo amoroso de Marzal era una chica de Turquia?",
-      "opciones": [
-        "Le pidieron que aprendiera a fumar cachimba en el balcon",
-        "Le dijeron que le haria recitar todos los kebabs de Estambul y probar la salsa de yogur",
-        "Le aconsejaron escapar antes de que conociera a la familia politica",
-        "Le advirtieron de que las turcas solo escuchan musica tradicional"
-      ],
-      "correcta": 1,
-      "relato_desbloqueado": "A mediados de octubre exploto el verdadero punto de inflexion del Erasmus: una chica turca habia entrado en la vida de Marzal. La reaccion del grupo no defraudo en absoluto. Germi exigio que la muchacha fuera recitando el nombre de todos los locales de kebab de Estambul mientras Marzal consumaba el acto, rogando encarecidamente que al menos fuera de la parte occidental de la ciudad, mientras Jorge celebraba que por fin JM iba a catar la salsa yogur de primera mano.",
-      "citas_reales": [
-        "Germi: Queremos que diga el nombre de todos los kebabs de Estambul mientras le comas todo el coño",
-        "Jorge: Podras probar la autentica salsa yogur",
-        "Germi: JM de la parte occidental de Estambul porfavor"
-      ],
-      "numero": 3
-    },
-    {
       "fecha": "2015-10-16",
-      "titulo_capitulo": "Operacion TheRustu: el piti infalible",
-      "pregunta": "¿Con que sobrenombre bautizo Joni a la chica turca de Marzal y que tactica le aconsejo para conquistarla?",
+      "titulo_capitulo": "Bautizo de 'TheRustu' y táctica del calada-trago",
+      "pregunta": "¿Qué consejo táctico le dio Joni a Marzal para camelarse a la turca (a la que bautizó como 'TheRustu')?",
       "opciones": [
-        "La bautizo como Sultana y le sugirio bailar musica oriental",
-        "La bautizo como TheRustu y le recomendo fumarse un piti jugando a calada-trago",
-        "La bautizo como Kebabina y le propuso invitarla a cenar al centro",
-        "La bautizo como Galatasaray y le dijo que le hablara de baloncesto"
+        "Fumarse un cigarrillo con ella y proponerle el juego de calada-trago porque los turcos son muy pitilleros",
+        "Llevarla a un baño turco tradicional para romper el hielo",
+        "Aprender a bailar la danza del vientre con una petaca en el bolsillo",
+        "Invitarla a un kebab en el centro de Varsovia con salsa picante"
       ],
-      "correcta": 1,
-      "relato_desbloqueado": "La leyenda de la estudiante turca alcanzo su cima cuando Joni la bautizo con uno de los mejores motes de la historia del grupo: TheRustu, en claro honor al iconico guardameta turco Rustu Recber. Para atar el fichaje de forma definitiva, Joni aporto un consejo sociologico infalible: siendo los turcos devotos del tabaco, Marzal solo tenia que encenderse un cigarro y plantearle un juego de calada-trago. El clamor en el grupo fue absoluto, con Germi imaginando la salida a hombros de JM cual torero triunfador.",
+      "correcta": 0,
+      "relato_desbloqueado": "La leyenda de la conquista otomana de Marzal crecía por momentos en el chat. Joni decidió rebautizar a la susodicha con el glorioso apodo de 'TheRustu' (en honor al mítico portero turco con marcas de guerra en la cara) y le dio un consejo infalible a JM: encenderse un piti con ella y retarla a un juego de calada y trago, argumentando que los turcos son auténticos adictos al tabaco. La fe del grupo en el sex-appeal de Marzal era tan absoluta que Germi ya lo veía saliendo a hombros de la plaza entre aclamaciones ensordecedoras.",
       "citas_reales": [
         "Joni: JM, mi consejo es que si quieres que TheRustu no se te escape te fumes un piti, los turcos son unos pitilleros, proponle un juego de calada trago y te la ganas",
         "Germi: El publico se levanta para ovacionar a un grande, y sale de la plaza a hombros",
         "Germi: JM JM JM JM JM JM JM!!!!!!!!!!!"
       ],
+      "numero": 2
+    },
+    {
+      "fecha": "2015-10-22",
+      "titulo_capitulo": "Gabinete de crisis TT: 'La TC en el ámbito islámico'",
+      "pregunta": "¿Cómo organizó el Triangulito Team su estrategia para ayudar a Marzal a rematar la faena con la turca?",
+      "opciones": [
+        "Una ponencia formal del Dr. HP8 titulada 'La TC en el ámbito islámico' con diapositivas, puntero y cena de kebabs",
+        "Un viaje sorpresa de Germi y Joni a Opole para vigilar las citas desde un arbusto",
+        "Una recogida de firmas para pedir la bendición de la familia turca en Estambul",
+        "Un documental comentado por Feme sobre técnicas de seducción en el Imperio Otomano"
+      ],
+      "correcta": 0,
+      "relato_desbloqueado": "Viendo que la conquista de la turca requería precisión milimétrica, Feme convocó una reunión de urgencia para trazar una hoja de ruta infalible. Joni propuso organizar una ponencia magistral impartida por Humberto (doctor HP8) titulada 'La TC en el ámbito islámico', subtitulada con sorna 'cómo pencarte a una perra turca en 3 sencillos pasos'. Jorge pidió que se hiciera con diapositivas de PowerPoint y puntero láser para analizar meticulosamente su perfil de Facebook. Y para sumergirse de lleno en el ambiente temático, la expedición acordó cenar kebab esa misma noche.",
+      "citas_reales": [
+        "Feme: Nem a traçar una estrategia pa que te reventes a la turca",
+        "Jorge: Ojala con diapositivas y todo",
+        "Joni: Mañana a las 9 21:00 ponencia del doctor HP8 \"La TC en el ámbito islámico\"",
+        "Jorge: Subtitulo \"como pencarte a una perra turca en 3 sencillos pasos\""
+      ],
+      "numero": 3
+    },
+    {
+      "fecha": "2015-10-31",
+      "titulo_capitulo": "La Erasmus Romántica",
+      "pregunta": "¿Qué le recriminó Feme a Marzal al enterarse de que había dormido con Marvel sin llegar a consumar?",
+      "opciones": [
+        "Que hubiera dejado escapar la oportunidad preguntándole si aquello era 'la erasmus romántica'",
+        "Que no le hubiera pedido el teléfono a sus amigas turcas",
+        "Que se hubiera gastado el dinero de la beca en invitarla a cenar",
+        "Que no hubiera grabado un vídeo para demostrarlo al grupo"
+      ],
+      "correcta": 0,
+      "relato_desbloqueado": "En los albores del romance entre Marzal y Marvel en Opole, los avances iban a un ritmo demasiado pausado para los estándares del Triangulito Team. Feme, al enterarse de que Josep Antoni había dormido en la misma cama con la turca pero sin haber rematado la faena, no dudó en soltarle un dardo envenenado por el grupo: 'Marzal has dormit en ella i no heu follat? Que es la erasmus romantica?'.",
+      "citas_reales": [
+        "Feme: Marzal has dormit en ella i no heu follat?",
+        "Feme: Que es la erasmus romantica?"
+      ],
       "numero": 4
     },
     {
-      "fecha": "2015-10-17",
-      "titulo_capitulo": "La Celestina y la estrategia bajo la lluvia",
-      "pregunta": "¿Qué solución le ofreció Hugo a Marzal al ver que no remataba en su Erasmus polaco?",
+      "fecha": "2015-11-11",
+      "titulo_capitulo": "La Desfloración y la Ira de PapaRüstü",
+      "pregunta": "¿Qué delirante escenario imaginó Joni tras conocerse que Marvel había perdido la virginidad con Marzal?",
       "opciones": [
-        "Ir él e Himberto a Polonia en plan Celestina para tirarle un cable",
-        "Pagarle un billete urgente de vuelta a Valencia",
-        "Instalarle Tinder Gold pagado entre todos",
-        "Comprarle un kebab a la chica para conquistarla"
+        "Que Marzal iba a dejar la carrera para montar un restaurante de Klav Kalash",
+        "Que el padre de la chica, 'PapaRüstü', ya iba de camino a Opole a pedir cuentas al culocoñeador de su hija",
+        "Que la embajada turca iba a convalidar su matrimonio por poderes",
+        "Que el grupo entero tendría que viajar de urgencia a Polonia para rescatarlo"
       ],
-      "correcta": 0,
-      "relato_desbloqueado": "Llovía en Polonia y para Germi no había duda: lluvia y follar constituían el tándem perfecto. Sin embargo, Marzal seguía contemporizando con su supuesta 'estrategia' secreta, lo que colmó la paciencia del grupo. Hugo se ofreció inmediatamente a plantarse en Opole junto a Himberto en modo Celestina oficial para desbloquear la situación a la fuerza.",
+      "correcta": 1,
+      "relato_desbloqueado": "El 11 de noviembre de 2015 estalló el auténtico bombazo en el chat: Marzal había desflorado a Marvel. La grada del TT enloqueció por completo. Joni teorizó que la muchacha ya habría llamado a Turquía y que su padre, bautizado como 'PapaRüstü', estaría viajando a Opole para conocer al 'culocoñeador de su hija', rematándolo con textos sobre la obligación religiosa del matrimonio en Turquía. Feme predijo un heredero con el bigotillo de Marzal en 9 meses y una futura vida de Josep Antoni regentando un kebab.",
       "citas_reales": [
-        "Germi: Lloviendo y follar el tandem perfecto JM",
-        "Hugo: A vore si tenim que anar Himberto i jo en plan Celestina",
-        "Feme: Xe deixeulo que te una estrategia"
+        "Joni: Hombre, como que la turca habrá llamado a casa diciendo papa me han desflorado y el padre ya está camino de Opole a conocer al culocoñeador de su hija",
+        "Feme: Marzal dueño de un kebab",
+        "Joni: JM.. PapaRustu te quiere conocer..",
+        "Feme: Como va la tia i pierde la virginidad de erasmus"
       ],
       "numero": 5
     },
     {
-      "fecha": "2015-10-24",
-      "titulo_capitulo": "Fichando a TheTurka",
-      "pregunta": "¿Qué exigió Joni en el grupo ante los primeros rumores de Marzal con la chica turca?",
+      "fecha": "2015-11-13",
+      "titulo_capitulo": "La Broca Turca del 5",
+      "pregunta": "¿Con qué herramienta comparó Germi los atributos viriles de Marzal al debatir sobre sus noches con la turca?",
       "opciones": [
-        "Saber su nombre y ver una foto para saber a qué se enfrentaban",
-        "Que trajera delicias turcas de regalo en Navidad",
-        "Saber si la chica sabía cocinar baklava",
-        "Que le enviara la ubicación de su residencia"
+        "Con una pala de encofrador",
+        "Con un martillo neumático",
+        "Con una broca del 5",
+        "Con una llave inglesa oxidada"
       ],
-      "correcta": 0,
-      "relato_desbloqueado": "El runrún sobre el romance otomano de Marzal en Opole empezó a desatar la creatividad del Triangulito. Entre comparaciones con Rüştü Reçber, Arda Turan y baños de vapor turcos, Joni pidió orden y datos oficiales: era urgente ponerle nombre y cara a 'TheTurka' para que la directiva del grupo supiera exactamente a qué se enfrentaban.",
+      "correcta": 2,
+      "relato_desbloqueado": "A raíz de las charlas sobre las artes amatorias de los integrantes del grupo y las tácticas sexuales como 'TheFlecha' de Germi, los dardos apuntaron directos a la anatomía de Marzal. Germi le advirtió de que tuviera cuidado con lo que intentaba en la cama: 'Le haces eso a TheTurca y la matas con esa broca del 5 que tienes', ganándose de inmediato el mote acuñado por Feme: 'Marzal la broca turca'.",
       "citas_reales": [
-        "Feme: O baño turco pa marzal",
-        "Joni: JM, podemos conocer el nombre de TheTurka? Para ir familiarizando, incluso una foto para ubicarnos, saber a que nos enfrentamos",
-        "Feme: Datos!!!!"
+        "Germi: Le haces eso a TheTurca y la matas con esa broca del 5 que tienes",
+        "Joni: Germi, deberías escribir una escena para que el máquina ponga en marcha TheFlecha",
+        "Feme: Marzal \" la broca turca\""
       ],
       "numero": 6
     },
     {
-      "fecha": "2015-10-31",
-      "titulo_capitulo": "El Erasmus romántico",
-      "pregunta": "¿Por qué bautizó Feme a Marzal como el protagonista del 'Erasmus romántico'?",
+      "fecha": "2015-11-15",
+      "titulo_capitulo": "El Audio de las 4:13 de la Madrugada",
+      "pregunta": "¿Qué material explícito dejó Marzal en el chat en plena noche de fiesta para asombro de Jorge?",
       "opciones": [
-        "Por haber dormido con la chica en la misma cama y no haber follado",
-        "Por regalarle flores y bombones en la residencia",
-        "Por cantarle una serenata en mitad de la nieve",
-        "Por negarse a salir de fiesta para quedarse hablando por teléfono"
+        "Una foto de un kebab a medio comer con Marvel",
+        "Un audio a las 4:13 explicando con pelos y señales lo que le hacía la turca",
+        "Un vídeo cantando el himno del Madrid en turco",
+        "Una nota de voz pidiendo dinero para pagar un taxi en Opole"
       ],
-      "correcta": 0,
-      "relato_desbloqueado": "Marzal logró meter en su cama a la pretendiente, pero el resultado escandalizó a la expedición valenciana: durmieron juntos sin que llegara a consumarse el acto. Feme no daba crédito a tal despliegue de castidad y le otorgó de inmediato la etiqueta de 'el erasmus romántico', mientras Joni le pedía a gritos que no se achantara.",
+      "correcta": 1,
+      "relato_desbloqueado": "La madrugada del 15 de noviembre venía caliente. Tras unos mensajes etílicos de Feme animando a Josep Antoni a clavarle 'el dardo' a la turca, Marzal no defraudó al respetable y soltó una confesión épica a horas intempestivas. Al levantarse por la mañana, Jorge se encontró con la perla en el grupo y lo celebró a lo grande: 'Jajajajajaja el audio de Marzal a las 4:13 hablando de lo que le hace la turca... la hostia jajajaja'.",
       "citas_reales": [
-        "Feme: Marzal has dormit en ella i no heu follat?",
-        "Feme: Que es la erasmus romantica?",
-        "Joni: Vaaaaa no te achaaaaaanteeeeees y tírate de cabeza"
+        "Feme: Clavalibel dardo a ña turca",
+        "Jorge: Jajajajajaja el audio de Marzal a las 4:13 hablando de lo que le hace la turca... la hostia jajajaja"
       ],
       "numero": 7
     },
     {
-      "fecha": "2015-11-11",
-      "titulo_capitulo": "El expreso a Opole y el suegro turco",
-      "pregunta": "¿Qué catástrofe familiar imaginó Joni una vez Marzal avanzó con la turca?",
+      "fecha": "2015-11-17",
+      "titulo_capitulo": "La Curiosidad Lingüística de Hugo",
+      "pregunta": "¿Qué intrigaba especialmente a Hugo sobre la convivencia e intimidad de Marzal y Marvel?",
       "opciones": [
-        "Que el padre de la chica ya iba camino de Opole tras avisar ella en casa",
-        "Que Marzal tendría que convertirse de inmediato para pedir su mano",
-        "Que la familia turca iba a presentarse en Valencia a conocer a los padres de JM",
-        "Que el consulado turco pediría una fianza por los daños ocasionados"
+        "Saber si Marvel aprendía palabras en valenciano de Gandía",
+        "Saber cómo llamaba cariñosamente la turca a Marzal (¿Marzalet? ¿Josep Antoni? ¿Josef?)",
+        "Saber si discutían sobre recetas de cocina polaca",
+        "Saber si ella conocía los motes de todos los miembros del TT"
       ],
-      "correcta": 0,
-      "relato_desbloqueado": "Las cosas se pusieron serias en Polonia y Joni lanzó la pregunta del millón: '¿Ya sois novios JM?'. La imaginación del Triangulito se desbordó por completo: Jorge avisó de que aquello era algo más que un rollo de residencia y Joni describió la escena del padre de la turca tomando un expreso directo a Opole tras enterarse de los hechos, con Feme calculando que en nueve meses habría consecuencias.",
+      "correcta": 1,
+      "relato_desbloqueado": "La mezcla cultural y lingüística de un chaval de Gandía y una chica de Turquía conviviendo en Polonia resultaba una fantasía cómica para el grupo. Hugo planteó una duda trascendental en el chat: saber el apodo exacto que usaba ella para llamarle en la intimidad. Las risas vinieron al imaginarse a la turca gritando 'Marzalet', 'Josep Antoni' o 'Josef' y la pura comedia que supondría presenciar una conversación cotidiana entre ambos.",
       "citas_reales": [
-        "Joni: No no. La pregunta clave aquí es.. Ya sois novios JM?",
-        "Jorge: El expreso.. Que la turca era algo mas",
-        "Joni: Hombre, como que la turca habrá llamado a casa diciendo papa me han desflorado y el padre ya está camino de Opole a conocer al culocoñeador de su hija",
-        "Feme: Proximamente. En 9 meses mas o menos"
+        "Hugo: Tinc curiositat de com te crida la turca",
+        "Hugo: Marzalet? Josep Antoni? Josef?",
+        "Hugo: Es que tiene que ser la puta risa ver una conversación entre ambos"
       ],
       "numero": 8
     },
     {
-      "fecha": "2015-11-11",
-      "titulo_capitulo": "PapaRustu y la píldora",
-      "pregunta": "¿Qué mensaje con tono ceremonial mandó Joni al grupo tras enterarse de los avances de Marzal con la turca?",
+      "fecha": "2015-11-27",
+      "titulo_capitulo": "Abderamán VI y los Trabajos de la Uni",
+      "pregunta": "¿Qué labor creía Joni que estaba desempeñando Marvel mientras Marzal andaba desaparecido de Opole?",
       "opciones": [
-        "Un fragmento sobre cómo la sociedad y la religión turca fomentan el matrimonio para que conozca a PapaRustu",
-        "Una reserva de vuelo directo de Turkish Airlines a Estambul para conocer a los suegros",
-        "Una advertencia de que la embajada de Turquía le estaba buscando para casarlo de inmediato",
-        "Un rezo en árabe pidiéndole perdón a Alá por los pecados de Marzal"
+        "Cocinándole kebabs para cuando volviera de viaje",
+        "Haciéndole los trabajos de la universidad a JM en Opole",
+        "Negociando el alquiler del piso con los caseros polacos",
+        "Buscando vuelos baratos para que el TT fuera a visitarlos"
       ],
-      "correcta": 0,
-      "relato_desbloqueado": "El grupo descubrió que en la cultura turca el matrimonio no es una broma. Joni abrió la enciclopedia de costumbres otomanas para avisarle a JM de que PapaRustu ya le estaba esperando para casarlo y tener nietos. Y como colofón, llegó la duda médica de rigor entre el pánico y las risas: ¿se había tomado la turca la pildorita, o Marzal iba a aplicar la técnica suicida de 'a por la parejita'?",
+      "correcta": 1,
+      "relato_desbloqueado": "A finales de noviembre el triunvirato polaco-otomano seguía dando juego. Mientras Germi anunciaba su regreso triunfal a Gandía para jugar con el Portuarios, Joni se preguntaba por el paradero de Marvel y soltaba la certeza absoluta: la chica se había quedado recluida en Opole haciéndole las entregas y tareas universitarias a Marzal. La transformación oriental de JM era ya imparable para Germi: 'Espera espera habla abderaman VI hijo de marzal, y dueño del badulake en estambul'.",
       "citas_reales": [
-        "Joni: En la sociedad turca se fomenta el matrimonio. El mayor deseo de los padres es ver que sus hijos se casen cuando ya están vivos...",
-        "Joni: JM.. PapaRustu te quiere conocer..",
-        "Joni: Marzal.. Se ha tomado su medicación? Su pildoritaaaaa",
-        "Germi: Pero pero JM!!!!!! La proteccion tio"
+        "Joni: La turca está en Opole haciendo los trabajos de la uni de JM",
+        "Germi: Espera espera habla abderaman VI hijo de marzal, y dueño del badulake en estambul"
       ],
       "numero": 9
     },
     {
-      "fecha": "2015-11-13",
-      "titulo_capitulo": "La broca del 5",
-      "pregunta": "¿Qué curioso mote técnico y de bricolaje le dedicaron Germi y Feme a Marzal por sus artes íntimas?",
+      "fecha": "2015-12-12",
+      "titulo_capitulo": "Sorteo de la Eurocopa: ¿Corazón partío?",
+      "pregunta": "¿Qué dilema futbolístico-sentimental le plantearon en el grupo a Marzal tras el sorteo de la fase de grupos de la Eurocopa 2016?",
       "opciones": [
-        "El taladro percutor de Opole",
-        "Marzal 'la broca turca' con broca del 5",
-        "El fontanero otomano",
-        "El albañil del amor"
+        "Si iba a animar a Turquía antes que a España en el enfrentamiento directo por culpa de Marvel.",
+        "Si viajaría a Francia vistiendo la camiseta del Galatasaray con el nombre de Marvel a la espalda.",
+        "Si pediría la doble nacionalidad para poder jugar de lateral derecho con la selección otomana.",
+        "Si obligaría a Marvel a cantar el himno español de Manolo el del Bombo en la plaza mayor de Varsovia."
       ],
-      "correcta": 1,
-      "relato_desbloqueado": "Los amigos nunca pierden la ocasión de halagar o destrozar la virilidad de uno de los suyos. Germán soltó que si JM le hacía ciertas cosas a 'TheTurca' la iba a matar con esa 'broca del 5' que gasta, bautizándolo al instante Feme como 'la broca turca'. Todo ello intercalado con expresiones de señor mayor gandiense: 'açò està de categoria'.",
+      "correcta": 0,
+      "relato_desbloqueado": "El bombo de la Eurocopa 2016 deparó un emparejamiento directo entre España y Turquía en la fase de grupos. Inmediatamente, las miradas del Triangulito Team apuntaron a JM, que andaba por Polonia viviendo su romance con Marvel. Joni no tardó ni un segundo en lanzarle la pulla de si tendría el 'corazón partío' con el choque entre su país natal y la tierra de su chica, mientras Miki redoblaba la guasa preguntando con mucha ironía si Marzal ya apoyaba al DAESH.",
       "citas_reales": [
-        "Germi: Le haces eso a TheTurca y la matas con esa broca del 5 que tienes",
-        "Feme: Marzal 'la broca turca'",
-        "Feme: En plan viejo: Aço esta de categoria"
+        "Joni: JM.. España Turquía.. Corazón partio?",
+        "Miki: Apoya al DAESH?",
+        "Hugo: Turquíaaaaa"
       ],
       "numero": 10
     },
     {
-      "fecha": "2015-11-15",
-      "titulo_capitulo": "El audio de las 4:13 AM",
-      "pregunta": "¿De qué iba el audio que Marzal envió de madrugada y que desató las risas de Jorge y Hugo por la mañana?",
+      "fecha": "2015-12-18",
+      "titulo_capitulo": "La mutación otomana y el kebab fetén",
+      "pregunta": "Según las coñas de Jorge y Feme, ¿qué se esperaba que empezara a hacer Marzal tras pasar tanto tiempo con su pareja turca?",
       "opciones": [
-        "De lo borracho que iba y de cómo perdió las llaves de la residencia",
-        "Explicando en detalle lo que le hacía la turca en la cama",
-        "Cantando el himno de Turquía con acento valenciano",
-        "Llorando porque no encontraba comida abierta en Opole"
+        "Ponerse turbante e instruir a los camareros de los kebabs sobre cuál era la receta turca original.",
+        "Negarse a comer paella los domingos si no llevaba un toque de cordero especiado y yogur.",
+        "Fichar por el Fenerbahçe de balonmano para estar más cerca de la familia política.",
+        "Cambiar su tono de llamada del móvil por el himno nacional otomano tocado con flauta turca."
       ],
-      "correcta": 1,
-      "relato_desbloqueado": "La noche del sábado en Polonia dejó material clasificado. A las 4:13 de la madrugada, Marzal envió una nota de voz al grupo detallando explícitamente las acrobacias que le estaba haciendo la turca. A la mañana siguiente, escuchar aquel parte íntimo desató el cachondeo general en Gandía.",
+      "correcta": 0,
+      "relato_desbloqueado": "La asimilación cultural de JM a raíz de su relación con Marvel desató un despiporre monumental en el grupo. Feme pronosticaba que pronto le verían luciendo turbante, mientras Jorge visualizaba una escena gloriosa: acudir juntos a un kebab y tener que aguantar a Marzal corrigiendo a los camareros al grito de 'ese no es el kebab turco original'. Con el dominio lingüístico de JM resumido en 'Turkish airlanes' y Joni vaticinando misiones paramilitares para liquidar al padre de la muchacha en una emboscada, la tertulia alcanzó cotas épicas.",
       "citas_reales": [
-        "Hugo: Que puta risa",
-        "Jorge: Jajajajajaja el audio de Marzal a las 4:13 hablando de lo que le hace la turca... la hostia jajajaja"
+        "Feme: Dentro de poco turbante",
+        "Jorge: Y que JM empiece a puntualizarles",
+        "Jorge: \"Ese no es el kebab turco original..\"",
+        "Feme: Turkish airlanes",
+        "Joni: Sí, ya cuando Marc tenga que matar al padre de la turca en plena emboscada verás que bueno feme"
       ],
       "numero": 11
     },
     {
-      "fecha": "2015-11-27",
-      "titulo_capitulo": "Abderramán VI en Estambul",
-      "pregunta": "¿Qué decía Joni que estaba haciendo la turca mientras Marzal se dedicaba a la buena vida de Erasmus?",
+      "fecha": "2016-01-15",
+      "titulo_capitulo": "Recta final en Polonia y la profecía del Minimarzalet",
+      "pregunta": "¿Qué destino predijo Feme para el último mes de Marzal en Polonia antes de regresar a casa?",
       "opciones": [
-        "Esperándole en el aeropuerto con un cartel en turco",
-        "Haciéndole los trabajos de la universidad en Opole",
-        "Cocinándole kebabs para cuando volviera de fiesta",
-        "Aprendiendo valenciano para integrarse con el TT"
+        "Que pasaría un mes frenético con Marvel, tendría un descuido y vendría un 'minimarzalet' en camino.",
+        "Que se quedaría atrapado en la nieve polaca intentando escapar en trineo hacia Estambul.",
+        "Que suspendería el Erasmus por quedarse encerrado en la residencia aprendiendo danza del vientre.",
+        "Que Marvel le confiscaría el pasaporte español para obligarle a montar un negocio textil en Ankara."
       ],
-      "correcta": 1,
-      "relato_desbloqueado": "Entre los planes de visitas y la vida disoluta en Polonia, el grupo empezó a sospechar del verdadero rol de la novia de Marzal. Joni teorizó que mientras él se paseaba de estrella, la turca estaba en Opole redactándole los trabajos de la carrera, mientras Germi ya bautizaba a su hipotética descendencia como 'Abderramán VI, dueño del badulaque en Estambul'.",
+      "correcta": 0,
+      "relato_desbloqueado": "Al encarar las últimas semanas de su periplo Erasmus en Polonia, el grupo empezó a especular sobre cómo gestionaría Marzal la inminente despedida de Marvel. Feme no dudó en ejercer de visionario y lanzó una advertencia demográfica sin contemplaciones: viendo lo poco que le quedaba para hacer las maletas, se pasaría el mes entero entregado al amor con la turca hasta tener un descuido inevitable, garantizando que pronto habría un 'minimarzalet' en camino.",
       "citas_reales": [
-        "Joni: JM, la turca is in Warsaw?",
-        "Joni: La turca está en Opole haciendo los trabajos de la uni de JM",
-        "Germi: Espera espera habla abderaman VI hijo de marzal, y dueño del badulake en estambul"
+        "Feme: Que como le queda poco para volver, se va a tirar todo el mes follandose a la turca",
+        "Feme: Tendra algun descuido",
+        "Feme: Y minimarzalet en camino"
       ],
       "numero": 12
     },
     {
-      "fecha": "2015-12-12",
-      "titulo_capitulo": "España vs Turquía y el TTercerGrado",
-      "pregunta": "¿Qué dilema le planteó Joni a Marzal tras el sorteo de la Eurocopa 2016?",
+      "fecha": "2016-01-28",
+      "titulo_capitulo": "La foto de secuestrador con Marvel",
+      "pregunta": "¿Cómo describió Joni la foto que Marzal se hizo con Marvel durante una noche de fiesta desfasada?",
       "opciones": [
-        "Si iba a comprarse la camiseta de la selección turca para la final",
-        "Si tenía el 'corazón partío' al quedar encuadradas España y Turquía en el mismo grupo",
-        "Si iba a ver los partidos con PapaRustu en Ankara",
-        "Si apostaría dinero en contra de España para complacer a su suegro"
+        "Parecía un secuestrador, agarrándola del cuello con cara de malo de película y más cocido que una patata.",
+        "Parecía un jeque árabe posando junto a su tesoro más preciado tras ganar una subasta en Estambul.",
+        "Parecía un náufrago rescatado en el Bósforo que no entendía en qué idioma le hablaban.",
+        "Parecía un agente de la KGB arrestando a una espía en mitad de un callejón nevado de Varsovia."
       ],
-      "correcta": 1,
-      "relato_desbloqueado": "El sorteo de la Eurocopa deparó un España contra Turquía morboso. Joni no tardó en preguntarle a Marzal si tenía el corazón dividido entre su patria y los encantos otomanos. Además, de vuelta de Polonia, el grupo ya presumía de haber sometido a Marzal a un implacable 'TTercerGrado' para sacarle toda la información sobre su romance.",
+      "correcta": 0,
+      "relato_desbloqueado": "Una noche de farra salvaje en Polonia dejó un testimonio gráfico para los anales de la vergüenza ajena. JM se tomó una fotografía con Marvel en un estado lamentable, 'más cocido que una patata'. Lejos de quedar como una tierna postal de pareja, Joni sentenció que Marzal parecía un auténtico secuestrador sujetando a su rehén: agarrándola del cuello, con cara de villano de película y cometiendo una falta tan descarada que a Neymar le habría costado tarjeta amarilla directa.",
       "citas_reales": [
-        "Joni: JM.. España Turquía.. Corazón partio?",
-        "Hugo: Turquíaaaaa",
-        "Joni: Jorge, no te vas a librar del TTercerGrado",
-        "Joni: A JM ya le cayó el suyo en Polonia jajajajajaja"
+        "Jorge: Mas cocido que una patata.. jajaja",
+        "Joni: La foto con Marvel que parecía un secuestrador",
+        "Joni: Cogida del cuello y con cara de malo de la peli",
+        "Joni: Eso es Neymar y le sacan amarilla, también te digo"
       ],
       "numero": 13
     },
     {
-      "fecha": "2015-12-18",
-      "titulo_capitulo": "Aprender turco y la emboscada familiar",
-      "pregunta": "¿Qué peligroso escenario vaticinó Joni para cuando la relación de Marzal con la turca avanzara?",
+      "fecha": "2016-01-30",
+      "titulo_capitulo": "Embajada a Turquía: ¿Cuántos eslotis por la novia?",
+      "pregunta": "¿Qué plan de película idearon Hugo, Joni y Feme en caso de que el padre turco de Marvel pusiera trabas a la relación con Marzal?",
       "opciones": [
-        "Tener que aprender a rezar en una mezquita de Estambul",
-        "Tener que matar al padre de la turca en plena emboscada",
-        "Tener que fichar por el Galatasaray emulando a Hasan Sas",
-        "Tener que abrir un puesto de döner kebabs en mitad de Polonia"
+        "Ir todo el grupo en comitiva detrás de Marzal para intimidar al suegro y negociar la dote en eslotis polacos.",
+        "Mandar a Feme de embajador de paz con una caja de naranjas de Valencia y un CD de Camela subtitulado en turco.",
+        "Hacerle un ciberataque desde Carcaixent a la tienda de alfombras del padre para forzar la bendición nupcial.",
+        "Contratar a un intermediario polaco para pagar el rescate de Marvel con vales de descuento de Airbnb."
       ],
-      "correcta": 1,
-      "relato_desbloqueado": "Con la relación con su compañera turca en pleno auge, en el Triangulito Team empezaron a calibrar el nivel de inmersión cultural de JM. Jorge se preguntaba si Marzal ya dominaba el idioma más allá de Hasan Sas o Turkish Airlines, mientras que Feme aplaudía la creciente diversidad internacional de la peña. Sin embargo, Joni puso los pies en el suelo advirtiendo del verdadero choque de civilizaciones: el día que Marc tuviera que abatir al patriarca otomano en una emboscada para defender su honor.",
+      "correcta": 0,
+      "relato_desbloqueado": "Ante el hipotético obstáculo de ganarse la aprobación del suegro turco, la imaginación del grupo se desbordó por completo. Hugo ideó una secuencia cinematográfica en la que todo el Triangulito Team irrumpía en Turquía como escolta de Marzal, con el Capi al frente plantándole cara al padre: o bendecía el matrimonio con el fenómeno de JM o le caía una paliza comunal. Joni aportó la diplomacia de barrio tirando de árbol genealógico amenazante y Feme puso sobre la mesa la oferta económica definitiva preguntando la cotización de la muchacha en moneda polaca.",
       "citas_reales": [
-        "Jorge: Sabe algo de turco JM?",
-        "Feme: La diversidad que esta cogiendo este grupo es digna d estudip",
-        "Joni: Sí, ya cuando Marc tenga que matar al padre de la turca en plena emboscada verás que bueno feme"
+        "Hugo: Se adelanta el capi, y le dice al turco de turno, ye maquina, que tu hija se va a casar con el fenómeno este",
+        "Hugo: O aceptas o paliza de todos estos",
+        "Joni: \"ie Abdelramhan, tu saps qui és mon tio?\"",
+        "Feme: Ie quants aslotis vols per la teua filla?"
       ],
       "numero": 14
     },
     {
       "fecha": "2016-02-04",
-      "titulo_capitulo": "El sexador de pollos y la cultura otomana",
-      "pregunta": "¿Qué mítica anécdota del fútbol español le preguntó Joni a Marzal si le había contado a su novia turca?",
+      "titulo_capitulo": "'Ebet, ebet' y el sesador de pollos",
+      "pregunta": "¿Qué referencia futbolística turca sacaron a relucir en el grupo al hablar de la inmersión de Marzal con Marvel?",
       "opciones": [
-        "La anécdota del sexador de pollos de Luis Aragonés",
-        "El pisotón de Stoichkov al árbitro Urízar Azpitarte",
-        "La famosa charla de Benito Floro en el vestuario de Albacete",
-        "El incidente del taxi de Romário en plena feria de fallas"
+        "Las míticas frases y anécdotas de Luis Aragonés de su etapa en el Fenerbahçe turco.",
+        "El penalti fallado por Mehmet Topal en una final de Copa de la UEFA contra el Valencia.",
+        "El corte de pelo de Nihat Kahveci cuando jugaba en la Real Sociedad y el Villarreal.",
+        "El fichaje frustrado de Arda Turan por el Manchester City por culpa de su visado en Estambul."
       ],
       "correcta": 0,
-      "relato_desbloqueado": "Entre recuerdos futbolísticos y bromas sobre el regreso de Marzal al pueblo, Jorge soltó la mítica expresión 'Ebet, ebet' recordando el periplo del Sabio de Hortaleza por el Fenerbahçe. Joni recogió el guante de inmediato para interesarse por la labor didáctica de JM con su pareja: si ya le había relatado a la turca la insigne leyenda de Luis Aragonés y el sexador de pollos.",
+      "relato_desbloqueado": "La vinculación turca de JM siguió siendo un filón inagotable para el humor futbolero del chat. Jorge rememoró el famoso 'Ebet, ebet' de Luis Aragonés en su paso por el banquillo del Fenerbahçe, y Joni no tardó en preguntarle a Marzal si ya le había relatado a Marvel la delirante historia del 'sesador de pollos' que Don Luis popularizó en sus charlas técnicas. Con Topal en nómina y Luis de leyenda, el Triangulito consideraba que el valencianismo ya era religión oficial en tierras otomanas.",
       "citas_reales": [
-        "Jorge: Ebet, ebet.. hasta tu / Seria asi la mitica frase de Luis Aragones, no?",
+        "Jorge: Ebet, ebet.. hasta tu",
         "Joni: Le explicaste la anécdota del sesador de pollos de Luis Aragonés a la turca?",
-        "Joni: Allí debió ser leyenda también, con su exitoso paso por tierras turcas jajaja"
+        "Joni: Allí debió ser leyenda también, con su exitoso paso por tierras turcas jajaja",
+        "Feme: Mehmet topal"
       ],
       "numero": 15
     },
     {
-      "fecha": "2016-02-06",
-      "titulo_capitulo": "Detective Humbert y la foto transversal",
-      "pregunta": "¿Qué labor de espionaje propuso el grupo respecto a la novia turca de Marzal?",
+      "fecha": "2016-03-06",
+      "titulo_capitulo": "¿Fiebre o cuento turco?",
+      "pregunta": "Cuando Marzal reportó encontrarse indispuesto con fiebre, ¿de qué sospecharon maliciosamente en el grupo?",
       "opciones": [
-        "Pedirle el pasaporte para comprobar su visado",
-        "Fotografiarla transversalmente con la ayuda del Detective Humbert",
-        "Grabarle un audio en secreto mientras hablaba en turco",
-        "Seguirla por la residencia polaca para ver con quién salía"
+        "De que se trataba de un 'cuento turco' o una argucia para encubrir sus planes con Marvel.",
+        "De que había contraído una extraña gripe otomana por comer kebab en mal estado.",
+        "De que era una resaca mortal tras celebrar la fiesta de la circuncisión en Estambul.",
+        "De que fingía para no tener que pagar su parte de la suscripción compartida de Netflix."
       ],
-      "correcta": 1,
-      "relato_desbloqueado": "La curiosidad por ponerle cara y ojos a la conquista otomana de Marzal traía de cabeza a la chusma del Triangulito. Ante la escasez de documentos gráficos concluyentes, Jorge activó el protocolo 'Detective Humbert' y Joni indagó si JM había puesto impedimentos a un barrido fotográfico transversal para evaluar detenidamente a la nuera de Algemesí.",
+      "correcta": 0,
+      "relato_desbloqueado": "En el Triangulito Team nadie gozaba de presunción de inocencia, y menos aún Marzal cuando mediaba su pareja. Tras anunciar que estaba en cama con fiebre y no daba señales de vida, Miki saltó al instante con el colmillo afilado cuestionando si esa repentina indisposición era verídica o si se trataba en realidad de un 'cuento turco', bautizado rápidamente por Jorge como una simple argucia para ausentarse y seguir dedicado a sus compromisos amatorios.",
       "citas_reales": [
-        "Feme: HaZ fotillos",
-        "Jorge: Detective Humbert",
-        "Joni: Acaso opuso alguna pega JM para fotografiar transversalmente a la turca?"
+        "Miki: Marcial sigue con fiebre o era un cuento turco ?",
+        "Jorge: Una argucia?",
+        "Miki: Algo tenía por ahí"
       ],
       "numero": 16
     },
     {
-      "fecha": "2016-02-26",
-      "titulo_capitulo": "El kebab con formatge de Marzal",
-      "pregunta": "¿Por qué se indignó Miki con Marzal al coordinar una cena en el grupo?",
+      "fecha": "2016-03-06",
+      "titulo_capitulo": "¿Más culé que Germi?",
+      "pregunta": "¿Qué comparación futbolística lanzó Joni a JM respecto a Marvel y Germi?",
       "opciones": [
-        "Porque Marzal pidió una pizza margarita en vez de döner",
-        "Porque Marzal pidió su kebab con queso y temían que liara al camarero",
-        "Porque Marzal exigió pagar en liras turcas para hacerse el interesante",
-        "Porque Marzal se negó a comer kebab por considerarlo poco auténtico"
+        "Que Marvel sabía colocar mejor los córners que Germi en el FIFA",
+        "Si se podía afirmar que Marvel había visto más partidos del Barça que Germi",
+        "Que Marvel conocía mejor la alineación de Turquía que Germi la del Valencia",
+        "Si Marvel celebraba las victorias del Barça con más ganas que Germi"
       ],
       "correcta": 1,
-      "relato_desbloqueado": "A la hora de pedir comida rápida antes de salir de marcha, la influencia turca de Marzal se manifestó en forma de exigencias gastronómicas. Marzal pidió su kebab con queso ('formatge'), desatando los nervios de Miki ante el pánico de que una comanda tan rebuscada colapsara los circuitos del dependiente y arruinara la logística de la cena.",
+      "relato_desbloqueado": "En pleno debate futbolero con Germi sacando pecho por los títulos pendientes del Barça tras un 0-4, Joni aprovechó la coyuntura para meter un dardo envenenado cruzando el absentismo culé de Germi con la devoción forzada de la novia de JM. Joni le preguntó directamente a Marzal si ya se podía afirmar científicamente que Marvel, a base de tragarse partidos en el salón con él, llevaba acumulados más minutos de visionado del Barça que el mismísimo Germi.",
       "citas_reales": [
-        "Miki: Me cago en Dios marzal tu kebab con queso va a liar a puto moto unineuronal y lo va a hacer todo mal",
-        "Jorge: \"formatge\"",
-        "Joni: Los kebab están pedidos, falta pagar. Yo en 5 minutos máximo estoy ahí"
+        "Germi: Yo solo veo los titulos que nos falta por ganar",
+        "Joni: JM, podemos afirmar que Marvel ha visto más partidos del Barça que germi?"
       ],
       "numero": 17
     },
     {
       "fecha": "2016-03-23",
-      "titulo_capitulo": "Embajador diplomático del barcelonismo en Turquía",
-      "pregunta": "¿De qué gran logro felicitó irónicamente Jorge a Marzal (JM) tras salir una estadística internacional?",
+      "titulo_capitulo": "Embajador culé en el Bósforo",
+      "pregunta": "¿Qué logro sociopolítico le atribuyó Jorge a JM tras salir una noticia sobre Turquía?",
       "opciones": [
-        "De que el Fenerbahçe fichara a una promesa del fútbol valenciano",
-        "De que el Barça fuera el club de fútbol con más hinchas en Turquía",
-        "De que la televisión turca empezara a emitir partidos en valenciano",
-        "De haber convencido a toda la familia de la turca de hacerse del Madrid"
+        "Haber fundado la primera peña valencianista en Estambul",
+        "Que el Barça fuera el club con más seguidores en Turquía gracias a su labor con Marvel",
+        "Que los restaurantes turcos empezaran a servir paella valenciana",
+        "Conseguir que Marvel convenciera a su familia para viajar al Camp Nou"
       ],
       "correcta": 1,
-      "relato_desbloqueado": "Tras meses de Erasmus y romance internacional, las agencias de datos publicaron que el FC Barcelona era el club europeo con mayor masa social en territorio otomano. Jorge no tardó un segundo en conectar la diplomacia de alcoba de Marzal con semejante hito demográfico, felicitando al corresponsal turco por su infatigable trabajo de expansión blaugrana.",
+      "relato_desbloqueado": "Apareció en las noticias deportivas un dato revelador: el FC Barcelona era el equipo extranjero con más masa social y seguidores en tierras turcas. Ante semejante estadística, Jorge no tuvo ninguna duda de quién era el artífice de ese fenómeno de masas otomano: felicitó a Marzal por su encomiable labor de adoctrinamiento y diplomacia barcelonista iniciada a través de Marvel.",
       "citas_reales": [
-        "Jorge: Ojo, el Barça el equipo con mas hinchas en Turquia. Gran labor JM",
-        "Hugo: I ara en que pensa marzalet?"
+        "Jorge: Ojo, el Barça el equipo con mas hinchas en Turquia. Gran labor JM"
       ],
       "numero": 18
     },
     {
-      "fecha": "2016-08-14",
-      "titulo_capitulo": "La fama sexual de Marxalet en l'Alqueria",
-      "pregunta": "¿Qué sorprendente comentario le llegó a Jorge sobre las habilidades amatorias de Marzal en su pueblo?",
+      "fecha": "2016-06-16",
+      "titulo_capitulo": "Corazón dividido: España vs Turquía",
+      "pregunta": "¿De qué sospechaban Joni y Jorge que haría Marzal durante el España-Turquía de la Eurocopa?",
       "opciones": [
-        "Que era el amante más romántico y delicado de toda la comarca de la Safor",
-        "Que le habían dicho que 'follaba prou bé para ser un reventao'",
-        "Que no sabía besar y las chicas de la zona huían nada más verle llegar",
-        "Que el Erasmus en Polonia le había dejado completamente oxidado"
+        "Que apagaría la televisión para evitar discusiones con Marvel",
+        "Que fingiría una cena como excusa para ver el partido animando a Turquía con la bandera al cuello",
+        "Que apostaría todo su dinero a favor de un gol de Arda Turan",
+        "Que se iría a una tetería turca a celebrar los goles otomanos"
       ],
       "correcta": 1,
-      "relato_desbloqueado": "A altas horas de la madrugada, Jorge y Feme sacaron a relucir la cotización amorosa de Marzal por su zona natal. Resulta que las leyendas corrían de boca en boca y el veredicto popular de sus conquistas locales no tenía desperdicio: para ser un 'reventao', el bueno de Marxalet no lo hacía nada mal entre las sábanas. El mito del conquistador de l'Alqueria seguía imparable.",
+      "relato_desbloqueado": "En las horas previas al choque de fase de grupos entre España y Turquía en la Euro 2016, el Triangulito Team puso la lupa sobre el patriotismo de Marzal. Miki le recriminó tener el 'corazón dividido', lo que desató una cascada de sospechas: Jorge y Joni teorizaron con que la supuesta cena que tenía Marzal no era más que una tapadera para apoyar clandestinamente a los compatriotas de Marvel, imaginándoselo ya con la bandera de la media luna al cuello y postulándose como el nuevo líder del Imperio Otomano.",
       "citas_reales": [
-        "Jorge: Que hacia que le habian dicho que su primo (Marzal) \"follaba prou be\" para ser un reventao",
-        "Feme: Marxalet en alqueria causa sensacion",
-        "Jorge: Que se habia pencado a la gorda esa"
+        "Miki: Marzal tío mañana que tenias el corazón dividido lamentable",
+        "Jorge: Sabemos si tal cena existe? O es una excusa... para ver el partido bancando a Turquia?",
+        "Joni: Acaso insinuas.. Que lo verá con su bandera turca al cuello? Road to Estambul?",
+        "Jorge: 🇹🇷 El imperio otomano necesita un nuevo lider"
       ],
       "numero": 19
     },
     {
-      "fecha": "2020-04-04",
-      "titulo_capitulo": "Conflicto diplomático: Los respiradores turcos",
-      "pregunta": "Durante la crisis sanitaria, cuando Turquía retuvo un cargamento de respiradores para España, ¿cuál fue el plan propuesto en el chat?",
+      "fecha": "2016-06-22",
+      "titulo_capitulo": "Los compadres turcos 'coming home'",
+      "pregunta": "¿Qué consecuencia familiar pronosticó Joni para Marzal tras la eliminación matemática de Turquía en la Eurocopa?",
       "opciones": [
-        "Mandar a Joni y Germi a piratear la aduana otomana",
-        "Hacer que Marzal interviniera como mediador internacional gracias a sus lazos sentimentales con el país",
-        "Enviar a Humberto a ofrecer un intercambio por cabello para injertos",
-        "Denunciar al presidente Erdogan en un directo de Zoom"
+        "Que le tocaría pagar el viaje a Estambul para consolar a sus suegros",
+        "Que ya tenía servido el tema de debate y conflicto para la cena de Nochebuena",
+        "Que Marvel no le dejaría poner la final si llegaba España",
+        "Que tendría que comer kebab durante una semana entera como penitencia"
       ],
       "correcta": 1,
-      "relato_desbloqueado": "En pleno confinamiento de abril de 2020, Turquía retuvo un cargamento de respiradores sanitarios con destino a España y el TT vio de inmediato la solución al conflicto geopolítico. El llamado a ser el héroe de la patria no era otro que Marzal, el desflorador de Anatolia. Feme le exigió ponerse el traje de diplomático y salvar el país, a lo que Josep Antoni aceptó con su habitual flema: tocaba ir a mediar.",
+      "relato_desbloqueado": "El paso de Turquía por la Eurocopa llegó a su fin y las mofas en el grupo no se hicieron esperar. Mientras Feme celebraba el pase de sus selecciones random e intentaba solidarizarse escribiendo 'marbe' (rápidamente corregido por Hugo a 'Marvel'), Joni interpretó el sepulcral silencio de Marzal como puro nerviosismo patriótico-adoptivo. Acto seguido, Joni le avisó de las consecuencias a largo plazo: tras la caída de sus 'compadres turcos', el salseo y las pullas ya estaban garantizados para la próxima mesa de Nochebuena.",
       "citas_reales": [
-        "Feme: Marzal... ES TU MOMENTO!!! Es el moment de que intervingues i sigues un heroi per al pais",
-        "Marzal: Xe tindré que anar jo a mediar. Jajajajaj",
-        "Joni: \"De Turquía al desflorador pueblo español, afectuosamente\""
+        "Joni: Acaso crees que el silencio de JM no es por puro nerviosismo?",
+        "Joni: Los compadres turcos coming home",
+        "Feme: Lo siento por marbe",
+        "Hugo: Marvel",
+        "Joni: Marzal, ja tens tema de debat en nochebuena"
       ],
       "numero": 20
     },
     {
-      "fecha": "2020-05-02",
-      "titulo_capitulo": "La expedición soñada a Turquía",
-      "pregunta": "¿Qué fantasía de viaje ideó Feme cuando Humpa contó que barajaba hacerse un injerto capilar?",
+      "fecha": "2016-07-15",
+      "titulo_capitulo": "El golpe de Estado del Mariscal Marzal",
+      "pregunta": "¿Qué escena surrealista se imaginó Feme al enterarse del intento de golpe militar en Turquía?",
       "opciones": [
-        "Una escapada a Polonia para buscar a los viejos compañeros de piso de Marzal",
-        "Un crucero de fiesta con el grupo para celebrar el fin del confinamiento",
-        "Una expedición del TT a Turquía: Humpa a ponerse pelo, Marzal a reencontrarse con su antiguo amor y Hugo a provocar un conflicto internacional",
-        "Un torneo de basket 3x3 en Estambul patrocinado por clínicas de trasplante capilar"
+        "A Marzal cruzando el Bósforo a nado para rescatar a la familia de Marvel",
+        "A Marzal con turbante y sable anunciando por televisión que el ejército tomaba el control",
+        "A Marzal pilotando un caza F-16 sobre los cielos de Ankara",
+        "A Marzal atrincherado en una embajada pidiendo asilo político para Marvel"
       ],
-      "correcta": 2,
-      "relato_desbloqueado": "Humberto admitió en el grupo que había meditado seriamente hacerse un trasplante de pelo, aunque le frenaba el temido 'shock loss'. Feme tardó segundos en ver el potencial de la situación e idear el viaje definitivo del Triangulito Team a Turquía: Humberto saldría con melena renovada, Marzal viviría una apasionada reconciliación con su exnovia turca del Erasmus, y Hugo aprovecharía la visita para desatar un incidente diplomático de escala mundial.",
+      "correcta": 1,
+      "relato_desbloqueado": "La noche del 15 de julio de 2016, las noticias alertaron de un golpe de Estado en Turquía con tanques desplegados en las calles de Estambul y Ankara. Mientras el mundo contenía la respiración, el Triangulito Team convirtió la crisis geopolítica en una película protagonizada por Marzal. Jorge propuso enviarlo de urgencia hacia allí y Feme confesó la estampa que no podía quitarse de la cabeza: Marzal ataviado con turbante y sable compareciendo en la televisión turca para proclamar la ley marcial con mano de hierro.",
       "citas_reales": [
-        "Humpa: Yo medité seriamente la opción transplante capilar , pero hay una fase que se llama shock loss que me achanta",
-        "Feme: Ojala una expedición del TT a turquia. Humberto poniendose pelo",
-        "Feme: Marzal encontrado a su antiguo amor",
-        "Feme: Hugo provocando un conflicto internacional"
+        "Feme: La locura turca",
+        "Joni: Los tanques por la calle y el presidente secuestrado. Que pasa ahí?",
+        "Jorge: Y Paul Cebollo en España. Hay que enviarlo ya",
+        "Feme: Enserio no paro de imaginarme a marzal con turbante y sable haciendo la declaracion por la tv. En plan somos el ejercito y tomamos el control"
       ],
       "numero": 21
     },
     {
-      "fecha": "2020-05-12",
-      "titulo_capitulo": "El Draft de la Safor: 'From Turkey'",
-      "pregunta": "¿Cómo presentaron a Marzal emulando el Draft de la NBA tras sus andanzas amorosas?",
+      "fecha": "2017-09-10",
+      "titulo_capitulo": "Eurobasket en Estambul y el parte médico de la turca",
+      "pregunta": "¿Qué disparatada teoría soltó Joni sobre la ex turca de Marzal mientras veían el Eurobasket en Estambul?",
       "opciones": [
-        "«The Gandia Base selects... Josep Antoni Marzal Pastor, from Turkey»",
-        "«El rey del kebab y MVP del Erasmus polaco»",
-        "«Fichaje estrella del Galatasaray procedente de la Safor»",
-        "«El cónsul honorario de Turquía en l'Alqueria»"
+        "Que se había hecho famosa como cantante de Eurovisión en Turquía",
+        "Que se había alistado al ISIS para atentar en Gandía por despecho",
+        "Que había montado un restaurante de kebabs con el nombre de JM",
+        "Que trabajaba de azafata oficial para la selección turca de baloncesto"
       ],
-      "correcta": 0,
-      "relato_desbloqueado": "El historial amoroso internacional de Marzal se convirtió en patrimonio cultural del Triangulito Team. Jorge se vistió con sus mejores galas de comisionado de la NBA para anunciar en directo la primera elección de la franquicia local: 'The Gandia Base selects... Josep Antoni Marzal Pastor, from Turkey'. Apodado también como 'el Bordalás de la Safor' y 'el desflorador turco', Marzal no se inmutó y avisó que primero tocaba su rutina de running antes de atender a la prensa.",
+      "correcta": 1,
+      "relato_desbloqueado": "Durante la retransmisión de un partido del Eurobasket disputado en el pabellón de Estambul, a Miki le asaltó la gran duda diplomática: ¿con quién iba Marzal? La conversación derivó inmediatamente hacia Marvel, de quien hacía tiempo que no se tenían novedades en el grupo. Miki rememoró con crudeza el célebre mito de la noche de pasión: 'el parte médico de rotura de himen y desgarro vaginal', a lo que Jorge apostilló con sorna que aquello fue un auténtico 'baño turco... de sangre'. Para coronar la escalada de disparates, Joni imaginó a la chica radicalizada y alistada al ISIS para cometer un atentado en Gandía por puro despecho amoroso, mientras Jorge visualizaba a Marzal saliendo en los informativos asegurando a las cámaras que 'era una buena chica'.",
       "citas_reales": [
-        "Feme: el desflorador turco",
-        "Jorge: With the first pick The Gandia Base selects... Josep Antoni Marzal Pastor, from Turkey",
-        "Joni: El Bordalas de la safor",
-        "Marzal: Salgo a correr ahora. Cuando vuelva, comparto"
+        "Jorge: No sabemos nada de la turca ya",
+        "Miki: Lo último q supimos fue el parte médico de rotura de imen y desgarro vaginal",
+        "Jorge: El baño turco / De sangre en ese caso",
+        "Joni: Ojalá se haya alistado al ISIS / Para atentar en gandia por despecho"
       ],
       "numero": 22
     },
     {
-      "fecha": "2020-05-24",
-      "titulo_capitulo": "El mito fundacional de Marzal",
-      "pregunta": "¿Qué comentario cómico sobre el pasado de Marzal con la turca sacó Feme durante una mañana de vacile en el grupo?",
+      "fecha": "2018-02-23",
+      "titulo_capitulo": "La lección de JM: sin miedo al baño de sangre",
+      "pregunta": "¿Cómo elogió Jorge la determinación de Marzal frente a las dudas de otro miembro del grupo a la hora de consumar?",
       "opciones": [
-        "Que Marzal aún guardaba las cartas en turco",
-        "Que lo de desvirgar a la turca le marcó",
-        "Que viajaba a Estambul cada seis meses en secreto",
-        "Que todavía le rezaba mirando a La Meca"
+        "Como un maestro del regate que nunca perdona dentro del área",
+        "Diciendo que JM se introdujo directo en el baño de sangre turco sin dudar",
+        "Asegurando que Marzal prefería la diplomacia antes que el contacto directo",
+        "Comparándolo con un aguerrido sultán otomano en plena batalla"
       ],
       "correcta": 1,
-      "relato_desbloqueado": "Pasan los años, pero el Triangulito Team nunca olvida. Tras una noche de fiesta donde Marzal admitió que hubo 'poco que rascar' y 'algún mareo', la bancada empezó a inventar perfiles ficticios y oscuros dignos de programa de sucesos. En medio del tiroteo, Feme soltó la frase definitiva que definió una era del Erasmus: 'lo de desvirgar a la turca le marcó'. Un mito que se queda grabado a fuego en la mitología marzaliana.",
+      "relato_desbloqueado": "En medio de un debate sobre oportunidades desaprovechadas a la hora de desflorar y vacilaciones en el momento decisivo, Jorge puso a José Manuel Marzal como el estandarte supremo de la audacia viril en el Triangulito Team. Mientras otros titubeaban ante la ocasión, Marzal demostró en su día una valentía implacable al arrojarse de lleno y sin titubeos a la desfloración de Marvel, proeza íntima que en la mitología oficial del grupo quedó bautizada para siempre bajo la denominación de 'el baño de sangre turco'.",
       "citas_reales": [
-        "Feme: 'Buscaba jovenes victimas para poder acabar con su virginidad'",
-        "Feme: lo de desvirgar a la turca le marco",
-        "Marzal: Poco que rascar ayer",
-        "Joni: JM, que tal la noche en calabozos"
+        "Jorge: Tuviste la oportunitat",
+        "Jorge: De desflorar / Y dudaste",
+        "Jorge: No como JM",
+        "Jorge: Que se introdujo directo en el baño de sangre turco"
       ],
       "numero": 23
     },
     {
-      "fecha": "2021-06-11",
-      "titulo_capitulo": "El experto del Triangulito en fútbol otomano",
-      "pregunta": "¿Por qué Joni nombró a Marzal 'experto TT en fútbol turco' durante la Eurocopa?",
+      "fecha": "2018-11-17",
+      "titulo_capitulo": "Viaje a Turquía y visita obligada a la granja de Marzal",
+      "pregunta": "Cuando en el grupo se planteó hacer un viaje a Turquía aprovechando los precios de los injertos capilares, ¿qué parada turística propuso Feme?",
       "opciones": [
-        "Porque Marzal se apostó 100 euros al Galatasaray",
-        "Por su historial romántico con su exnovia turca Marvel",
-        "Porque Marzal dijo que iba con Turquía para apoyar a Arda Turan",
-        "Porque Marzal estuvo viendo la liga turca en directo con Germi"
+        "El Gran Bazar de las especias de Estambul",
+        "Ir a ver la granja de Marzal",
+        "La Mezquita Azul con JM como guía oficial",
+        "El pabellón de baloncesto del Fenerbahce"
       ],
       "correcta": 1,
-      "relato_desbloqueado": "Debutaba la selección de Turquía en la Eurocopa y la ocasión era perfecta para acudir al analista de cabecera: José Manuel Marzal. Joni le preguntó directamente por qué no jugaban mitos como Hasan Şaş o Emre, a lo que Marzal replicó con Nihat. Sin embargo, el nivel de los otomanos en el césped fue lamentable, provocando la compasión de Marzal hacia su ex con un sentido: 'Pobreta Marvel'.",
+      "relato_desbloqueado": "La conversación nocturna derivó hacia los viajes low-cost a Turquía para realizarse injertos capilares ante el avance de las entradas de Hugo. En cuanto Hugo exclamó con entusiasmo 'A Turquía todo el TT', Feme no tardó un segundo en encontrar la coartada turística perfecta para la expedición triangulera: aprovechar la estancia en tierras otomanas no solo para volver con pelo nuevo, sino para desplazarse y visitar 'la granja de Marzal', vinculando una vez más el idilio turco de JM con los planes de futuro de la cuadrilla.",
       "citas_reales": [
-        "Joni: Marzal, experto TT en fútbol turco, se sabe porque no están en el once ni Hasan Sas ni Emre el del inter?",
-        "Marzal: Y Nihat que? Jajajaja",
-        "Marzal: Madre mía Turquía. No vale nada. Jajajaja. Pobreta Marvel"
+        "Hugo: A Turquía todo el TT",
+        "Feme: A vore la granja de Marzal"
       ],
       "numero": 24
     },
     {
-      "fecha": "2024-03-11",
-      "titulo_capitulo": "La granja turca o la despedida en Bilbao",
-      "pregunta": "¿Qué destino alternativo propuso Germi cuando Marzal empezó a soñar con su hipotética despedida de soltero?",
+      "fecha": "2020-04-04",
+      "titulo_capitulo": "La crisis de los respiradores: El embajador Marzal al rescate",
+      "pregunta": "¿Qué misión de Estado le encomendó Feme a Marzal cuando el gobierno turco retuvo un cargamento de respiradores para España en pleno confinamiento?",
       "opciones": [
-        "Un fin de semana loco en Varsovia",
-        "Ir a la granja de Turquía",
-        "Una ruta de pintxos por San Sebastián",
-        "Un balneario en Budapest"
+        "Falsificar salvoconductos diplomáticos aprovechando sus influencias en Gandía",
+        "Intervenir como héroe nacional mediando con el gobierno otomano gracias a su pasado turco",
+        "Hackear la aduana del aeropuerto de Ankara mediante una sesión de Zoom",
+        "Donar material sanitario de su propia granja para sustituir las máquinas retenidas"
       ],
       "correcta": 1,
-      "relato_desbloqueado": "Años después del Erasmus, rememorando anécdotas de chicas vascas, Marzal fantaseó con celebrar una hipotética despedida de soltero en Bilbao si algún día llegaba a casarse. Germi no tardó ni un segundo en traer al presente el eterno fantasma del amor turco: 'Queriamos ir a la granja de Turquia, pero lo que tu quieras'. Da igual cuánto tiempo pase, el recuerdo de la familia política otomana sigue esperando a Marzal.",
+      "relato_desbloqueado": "En plena primera ola de la pandemia en abril de 2020, saltó a las noticias un sonado incidente diplomático: las autoridades turcas habían retenido en su aduana un cargamento de respiradores adquiridos por España. Ante la perplejidad comentada por Miki en el grupo, Feme vio abierta la puerta de la gloria patriótica y le lanzó a JM una llamada de auxilio en mayúsculas: 'Marzal... ES TU MOMENTO!!!'. Le instó a activar sus viejos contactos otomanos nacidos de su romance con Marvel para liberar los respiradores y convertirse en un héroe nacional. Lejos de esquivar la encomienda, Marzal asumió su rol de mediador internacional con su habitual socarronería: 'Xe tindré que anar jo a mediar'.",
       "citas_reales": [
-        "Marzal: Si algún día me caso, que no creo, espero que mi despedida sea en Bilbao",
-        "Germi: Queriamos ir a la granja de Turquia, pero lo que tu quieras",
-        "Marzal: No hay perras, dinero en este caso",
-        "Humpa: Pues al menos despedida. Jajajajaja"
+        "Miki: Los ha comprado Castilla y la Mancha, y para que pararon en turquia?",
+        "Feme: Marzal... / ES TU MOMENTO!!!",
+        "Feme: Es el moment de que intervingues i sigues un heroi per al pais",
+        "Marzal: Xe tindré que anar jo a mediar"
       ],
       "numero": 25
+    },
+    {
+      "fecha": "2020-05-02",
+      "titulo_capitulo": "Misión Estambul: Pelo para Humpa y reencuentro con la turca",
+      "pregunta": "Cuando Humpa confiesa que estuvo meditando hacerse un injerto capilar, ¿qué viaje conjunto fantasea Feme para el Triangulito Team?",
+      "opciones": [
+        "Viajar a Turquía para que Humberto se ponga pelo y Marzal se reencuentre con su antiguo amor.",
+        "Ir a Polonia en furgoneta a recordar los Erasmus de Marzal.",
+        "Hacer una ruta gastronómica por Cádiz para celebrar el nuevo flequillo de Humpa.",
+        "Acompañar a JM a Estambul para pedirle matrimonio formalmente a Marvel."
+      ],
+      "correcta": 0,
+      "relato_desbloqueado": "Humberto confiesa al grupo que estuvo meditando seriamente la opción de un trasplante capilar en Valencia por unos 3.800 euros, pero que le echaba para atrás la temida fase de caída conocida como 'shock loss'. Feme aprovecha la coyuntura para proponer el viaje soñado del grupo: una expedición oficial del TT a Turquía con doble misión diplomática: que Humberto regrese con melena y que Josep Antoni Marzal vuelva a los brazos de Marvel, su gran amor otomano.",
+      "citas_reales": [
+        "Humpa: Yo medité seriamente la opción transplante capilar , pero hay una fase que se llama shock loss que me achanta",
+        "Feme: Ojala una expedición del TT a turquia",
+        "Feme: Humberto poniendose pelo",
+        "Feme: Marzal encontrado a su antiguo amor"
+      ],
+      "numero": 26
+    },
+    {
+      "fecha": "2020-05-12",
+      "titulo_capitulo": "The Gandia Base Selects: El desflorador turco",
+      "pregunta": "Tras compartirse unas fotos en el grupo que desatan las risas, ¿con qué apodo y presentación bautizan a Marzal?",
+      "opciones": [
+        "'El Sultán de Gandía', recién traspasado al Galatasaray.",
+        "'El desflorador turco', anunciado por Jorge como pick del Draft procedente de Turquía.",
+        "'El Bordalás turco', fichado para dar charlas de seducción en Polonia.",
+        "'Josep Antoni Pasha', el conquistador de Kadiköy."
+      ],
+      "correcta": 1,
+      "relato_desbloqueado": "Una foto enviada al grupo desata el cachondeo generalizado sobre las dotes amatorias de Marzal. Germi lo elogia con ironía llamándole 'menudo fucker', mientras Feme no duda en adjudicarle la etiqueta definitiva: 'el desflorador turco'. Jorge eleva el meme a categoría solemne emulando la ceremonia del Draft de la NBA: 'With the first pick, The Gandia Base selects... Josep Antoni Marzal Pastor, from Turkey'.",
+      "citas_reales": [
+        "Germi: Menudo fucker",
+        "Feme: el desflorador turco",
+        "Jorge: With the first pick",
+        "Jorge: Josep Antoni Marzal Pastor, from Turkey"
+      ],
+      "numero": 27
+    },
+    {
+      "fecha": "2020-05-24",
+      "titulo_capitulo": "El informe policial: La huella imborrable de Marvel",
+      "pregunta": "En medio de una retahíla de vaciles turbios sobre Marzal imitando sucesos policiales, ¿qué dice Feme que le dejó marcado a JM?",
+      "opciones": [
+        "La multa que le cayó en el aeropuerto de Estambul por exceso de equipaje.",
+        "El día que conoció a la familia tradicional de Marvel.",
+        "Lo de desvirgar a la turca.",
+        "El frío polar que pasó durante su estancia en Polonia."
+      ],
+      "correcta": 2,
+      "relato_desbloqueado": "Durante una clásica tanda de humor negro del TT simulando fragmentos de atestados e informes policiales sensacionalistas, los miembros del grupo le inventan un oscuro perfil psicológico a Marzal. Entre bromas sobre parafilias y supuestas pesquisas judiciales, Feme sintetiza la raíz de todo el historial de Josep Antoni con una frase lapidaria: 'lo de desvirgar a la turca le marco'.",
+      "citas_reales": [
+        "Feme: \"Buscaba jovenes victimas para poder acabar con su virginidad\"",
+        "Feme: lo de desvirgar a la turca le marco",
+        "Marzal: Yeeeee"
+      ],
+      "numero": 28
+    },
+    {
+      "fecha": "2021-04-21",
+      "titulo_capitulo": "La Superliga de Özil en honor a Marzal",
+      "pregunta": "En pleno terremoto futbolístico por la fallida Superliga europea y el tuit de Mesut Özil, ¿qué broma lanza Feme vinculándolo con Marzal?",
+      "opciones": [
+        "Que Özil iba a fichar por el equipo del barrio de Marvel.",
+        "Que la única verdadera Superliga es la turca, en clara alusión a JM.",
+        "Que Marzal estaba asesorando legalmente a los clubes turcos rebeldes.",
+        "Que la turca de JM había denunciado a la UEFA por monopolio."
+      ],
+      "correcta": 1,
+      "relato_desbloqueado": "En abril de 2021, con el mundo del fútbol ardiendo tras el anuncio del proyecto de la Superliga europea y los posicionamientos de futbolistas de primer nivel, Mesut Özil publica un tuit crítico. Feme no tarda ni un segundo en reconducir la geopolítica balompédica al lore fundacional del grupo: según él, el pronunciamiento de Özil confirma que la única y verdadera Superliga es la turca, una clarísima referencia dedicada a Josep Antoni Marzal.",
+      "citas_reales": [
+        "Feme: El tuit de ozil",
+        "Feme: La unica superliga",
+        "Feme: La turca",
+        "Feme: En clara referencia a JM"
+      ],
+      "numero": 29
+    },
+    {
+      "fecha": "2021-06-11",
+      "titulo_capitulo": "Debacle otomana en la Eurocopa: 'Pobreta Marvel'",
+      "pregunta": "Durante el partido inaugural de la Eurocopa de Turquía contra Italia, ¿cómo reacciona Marzal ante el pésimo nivel del combinado otomano?",
+      "opciones": [
+        "Defendiendo a muerte la pizarra y la táctica del seleccionador turco.",
+        "Diciendo que Turquía no vale nada y acordándose con ternura de Marvel: 'Pobreta Marvel'.",
+        "Apagando la televisión indignado porque no convocaron a Arda Turan.",
+        "Asegurando que Marvel le había escrito llorando por la derrota."
+      ],
+      "correcta": 1,
+      "relato_desbloqueado": "Con el arranque de la Eurocopa, Joni proclama a Marzal 'experto TT en fútbol turco' y le pregunta con sorna por las ausencias de mitos como Hasan Şaş o Emre Belözoğlu. JM entra al trapo preguntando por Nihat, pero el partido de Turquía ante Italia resulta ser un auténtico fiasco. Decepcionado por la bochornosa imagen del país de su ex, Marzal sentencia sin piedad: 'Madre mía Turquía, no vale nada jajajaja', rematando con un tierno e inolvidable recuerdo hacia su amor otomano: 'Pobreta Marvel'.",
+      "citas_reales": [
+        "Joni: Marzal, experto TT en fútbol turco, se sabe porque no están en el once ni Hasan Sas ni Emre el del inter?",
+        "Marzal: Y Nihat que?",
+        "Marzal: Madre mía Turquía",
+        "Marzal: Pobreta Marvel"
+      ],
+      "numero": 30
     }
   ]
 }
