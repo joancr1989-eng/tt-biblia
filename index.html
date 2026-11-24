@@ -841,7 +841,7 @@
             <div>
               <div class="cinema-badges">
                 <span class="badge-live">En cartelera</span>
-                <span class="badge-season">Temporada 1 · 25 capítulos</span>
+                <span class="badge-season">25 capítulos</span>
               </div>
               <h4 style="margin-top: 10px;">La Pasión TTurca</h4>
               <p style="margin-top: 6px;">Crónica cronológica íntegra de Marzal y la turca: responde capítulo a capítulo para ir desbloqueando la historia y las citas reales.</p>
@@ -861,10 +861,7 @@
                 <div class="cd-cell"><span class="cd-num" id="cdSecs">00</span><span class="cd-unit">Seg</span></div>
               </div>
             </div>
-            <div class="next-preview">
-              <strong>🎞️ Próximamente en Salas:</strong>
-              Completa el estreno actual para votar el siguiente especial, como <em>"La Boda de Humpa"</em>.
-            </div>
+
           </div>
         </div>
       </section>
@@ -946,12 +943,13 @@
   <div class="modal-backdrop" id="rankingModal" onclick="if(event.target===this) closeModals()">
     <div class="modal-card">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-        <h3 style="margin:0;">🏆 Clasificación y Podio</h3>
+        <h3 style="margin:0;">🏆 Clasificación</h3>
         <button class="btn-secondary" style="padding:5px 10px;" onclick="closeModals()">✕</button>
       </div>
-      <div style="display:flex; gap:8px; margin-bottom:12px;">
-        <button class="btn-secondary" id="tabRankDaily" onclick="renderRanking('daily')">Podio de Hoy</button>
-        <button class="btn-secondary" id="tabRankGlobal" onclick="renderRanking('global')">Ranking General</button>
+      <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px;">
+        <button class="btn-secondary" id="tabRankDaily" onclick="renderRanking('daily')">📅 Reto Diario</button>
+        <button class="btn-secondary" id="tabRankCarttelera" onclick="renderRanking('carttelera')">🎬 CarTTelera</button>
+        <button class="btn-secondary" id="tabRankGlobal" onclick="renderRanking('global')">🏆 Ranking Total</button>
       </div>
       <div id="rankingList"></div>
     </div>
@@ -1137,27 +1135,86 @@
       showToast(`Jugador activo: ${name}`);
     }
 
-    function addPoints(pts) {
-      const todayKey = `${mm}-${dd}`;
-      if (!state.scores[state.player]) state.scores[state.player] = { global: 0, daily: {} };
-      state.scores[state.player].global += pts;
-      state.scores[state.player].daily[todayKey] = (state.scores[state.player].daily[todayKey] || 0) + pts;
-      localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
+    function getTodayISO() {
+      const d = new Date();
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
     }
 
-    function openRankingModal() {
+    function ensurePlayerEntry(name) {
+      const todayISO = getTodayISO();
+      if (!state.scores[name]) {
+        state.scores[name] = {
+          nombre: name,
+          ranking_total: 0,
+          reto_diario: { fecha: todayISO, puntos: 0 },
+          carttelera: { saga_activa: "pasion_tturca", puntos: 0, capitulos_completados: 0 }
+        };
+      } else {
+        if (!state.scores[name].reto_diario || state.scores[name].reto_diario.fecha !== todayISO) {
+          state.scores[name].reto_diario = { fecha: todayISO, puntos: 0 };
+        }
+        if (!state.scores[name].carttelera) {
+          state.scores[name].carttelera = { saga_activa: "pasion_tturca", puntos: 0, capitulos_completados: 0 };
+        }
+        if (typeof state.scores[name].ranking_total !== "number") {
+          state.scores[name].ranking_total = 0;
+        }
+      }
+      return state.scores[name];
+    }
+
+    function addPoints(pts) {
+      const entry = ensurePlayerEntry(state.player);
+      entry.ranking_total += pts;
+
+      const isDaily = state.currentModeTitle.includes("Efeméride");
+      const isCarttelera = state.flowMode === "pasion_tturca";
+
+      if (isDaily) {
+        entry.reto_diario.puntos += pts;
+      } else if (isCarttelera) {
+        entry.carttelera.puntos += pts;
+      }
+
+      localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
+      if (window.TTFirebase && typeof window.TTFirebase.syncPlayerPoints === "function") {
+        window.TTFirebase.syncPlayerPoints(state.player, pts, { isDaily, isCarttelera });
+      }
+    }
+
+    async function openRankingModal() {
+      if (window.TTFirebase && typeof window.TTFirebase.fetchAllPlayers === "function") {
+        const remote = await window.TTFirebase.fetchAllPlayers();
+        if (remote) {
+          for (const m of MIEMBROS) {
+            const id = m.toLowerCase();
+            if (remote[id]) {
+              state.scores[m] = { ...ensurePlayerEntry(m), ...remote[id], nombre: m };
+            }
+          }
+          localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
+        }
+      }
       renderRanking("daily");
       document.getElementById("rankingModal").classList.add("open");
     }
 
     function renderRanking(type) {
-      const todayKey = `${mm}-${dd}`;
+      const todayISO = getTodayISO();
       document.getElementById("tabRankDaily").style.borderColor = type === "daily" ? "var(--accent)" : "var(--border)";
+      document.getElementById("tabRankCarttelera").style.borderColor = type === "carttelera" ? "var(--accent)" : "var(--border)";
       document.getElementById("tabRankGlobal").style.borderColor = type === "global" ? "var(--accent)" : "var(--border)";
 
       const rows = MIEMBROS.map(m => {
-        const entry = state.scores[m] || { global: 0, daily: {} };
-        const pts = type === "daily" ? (entry.daily[todayKey] || 0) : (entry.global || 0);
+        const entry = ensurePlayerEntry(m);
+        let pts = 0;
+        if (type === "daily") {
+          pts = entry.reto_diario && entry.reto_diario.fecha === todayISO ? (entry.reto_diario.puntos || 0) : 0;
+        } else if (type === "carttelera") {
+          pts = entry.carttelera ? (entry.carttelera.puntos || 0) : 0;
+        } else {
+          pts = entry.ranking_total || 0;
+        }
         return { name: m, pts };
       }).sort((a, b) => b.pts - a.pts);
 
@@ -1655,6 +1712,9 @@
     function voteForSaga(id) {
       state.votes[state.player] = id;
       localStorage.setItem("ttpedia_votes", JSON.stringify(state.votes));
+      if (window.TTFirebase && typeof window.TTFirebase.syncVote === "function") {
+        window.TTFirebase.syncVote(state.player, id);
+      }
       showToast(`Voto registrado para ${state.player}`);
       openVoteSaga();
     }
@@ -1665,6 +1725,89 @@
       t.style.display = "block";
       setTimeout(() => { t.style.display = "none"; }, 2600);
     }
+  </script>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+    import {
+      getFirestore,
+      doc,
+      setDoc,
+      getDocs,
+      collection,
+      increment,
+      serverTimestamp
+    } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAlnLXGSBOJqi9GiTNVfpujAKLKfzQScN4",
+      authDomain: "ttpedia-d273e.firebaseapp.com",
+      projectId: "ttpedia-d273e",
+      storageBucket: "ttpedia-d273e.firebasestorage.app",
+      messagingSenderId: "517293767219",
+      appId: "1:517293767219:web:79d24f909c1fed50af8146",
+      measurementId: "G-40D390SFX8"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    function todayISOStr() {
+      const d = new Date();
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+    }
+
+    window.TTFirebase = {
+      async syncPlayerPoints(playerName, pts, { isDaily, isCarttelera }) {
+        try {
+          const docId = String(playerName).toLowerCase();
+          const ref = doc(db, "ranking_global", docId);
+          const todayISO = todayISOStr();
+          const payload = {
+            nombre: playerName,
+            ranking_total: increment(pts),
+            actualizado_en: serverTimestamp()
+          };
+          if (isDaily) {
+            payload["reto_diario.fecha"] = todayISO;
+            payload["reto_diario.puntos"] = increment(pts);
+          }
+          if (isCarttelera) {
+            payload["carttelera.saga_activa"] = "pasion_tturca";
+            payload["carttelera.puntos"] = increment(pts);
+          }
+          await setDoc(ref, payload, { merge: true });
+        } catch (err) {
+          console.warn("Firestore syncPlayerPoints fallback:", err);
+        }
+      },
+
+      async fetchAllPlayers() {
+        try {
+          const snap = await getDocs(collection(db, "ranking_global"));
+          const out = {};
+          snap.forEach(d => {
+            out[d.id] = d.data();
+          });
+          return out;
+        } catch (err) {
+          console.warn("Firestore fetchAllPlayers fallback:", err);
+          return null;
+        }
+      },
+
+      async syncVote(playerName, sagaId) {
+        try {
+          const docId = String(playerName).toLowerCase();
+          await setDoc(doc(db, "votos_carttelera", docId), {
+            jugador: playerName,
+            voto: sagaId,
+            actualizado_en: serverTimestamp()
+          }, { merge: true });
+        } catch (err) {
+          console.warn("Firestore syncVote fallback:", err);
+        }
+      }
+    };
   </script>
 </body>
 </html>
