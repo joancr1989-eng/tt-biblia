@@ -732,6 +732,71 @@
       z-index: 80;
       display: none;
     }
+      /* MODO INAUGURACIÓN HASTA LAS 17:00 */
+    .inaug-banner {
+      margin: 16px 0 18px;
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.16), rgba(239, 68, 68, 0.14));
+      border: 1px solid rgba(245, 158, 11, 0.55);
+      border-radius: 18px;
+      padding: 18px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .inaug-banner-title {
+      font-size: 16px;
+      font-weight: 900;
+      color: #fcd34d;
+      margin-bottom: 4px;
+    }
+
+    .inaug-banner-sub {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .inaug-timer-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .inaug-unit-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 6px 10px;
+      min-width: 58px;
+      text-align: center;
+    }
+
+    .inaug-unit-num {
+      font-size: 17px;
+      font-weight: 900;
+      color: var(--accent);
+      display: block;
+      line-height: 1.15;
+    }
+
+    .inaug-unit-lbl {
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    body.inauguracion-activa #homeView .efem-card,
+    body.inauguracion-activa #homeView .section-block,
+    body.inauguracion-activa header .nav-actions {
+      opacity: 0.45;
+      pointer-events: none;
+      user-select: none;
+      filter: grayscale(0.35);
+    }
   </style>
 </head>
 <body>
@@ -757,6 +822,19 @@
   <main class="container">
     <!-- VISTA PORTADA (HOME) -->
     <div id="homeView">
+      <!-- BANNER DE INAUGURACIÓN HASTA LAS 17:00 -->
+      <div class="inaug-banner" id="inaugBanner" style="display: none;">
+        <div>
+          <div class="inaug-banner-title">🔒 Inauguración oficial de TTpedia a las 17:00</div>
+          <div class="inaug-banner-sub">Puedes echar un vistazo a la portada, pero todo queda bloqueado hasta que llegue la hora.</div>
+        </div>
+        <div class="inaug-timer-row">
+          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inHours">00</span><span class="inaug-unit-lbl">Horas</span></div>
+          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inMins">00</span><span class="inaug-unit-lbl">Min</span></div>
+          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inSecs">00</span><span class="inaug-unit-lbl">Seg</span></div>
+        </div>
+      </div>
+
       <!-- MANIFIESTO -->
       <section class="hero">
         <div class="hero-badge">📜 Archivo histórico · 2012 – 2026</div>
@@ -1127,8 +1205,33 @@
     setInterval(updateCountdown, 1000);
     updateCountdown();
 
+    const HORA_INAUGURACION = new Date(2026, 10, 24, 17, 0, 0);
+    function updateInauguracionLock() {
+      const now = new Date();
+      const locked = now < HORA_INAUGURACION;
+      const banner = document.getElementById("inaugBanner");
+      if (locked) {
+        document.body.classList.add("inauguracion-activa");
+        if (banner) banner.style.display = "flex";
+        const diffMs = Math.max(0, HORA_INAUGURACION - now);
+        const h = Math.floor(diffMs / 3600000);
+        const m = Math.floor((diffMs / 60000) % 60);
+        const s = Math.floor((diffMs / 1000) % 60);
+        const elH = document.getElementById("inHours");
+        const elM = document.getElementById("inMins");
+        const elS = document.getElementById("inSecs");
+        if (elH) elH.textContent = String(h).padStart(2, "0");
+        if (elM) elM.textContent = String(m).padStart(2, "0");
+        if (elS) elS.textContent = String(s).padStart(2, "0");
+      } else {
+        document.body.classList.remove("inauguracion-activa");
+        if (banner) banner.style.display = "none";
+      }
+    }
+    setInterval(updateInauguracionLock, 1000);
+    updateInauguracionLock();
     document.getElementById("currentPlayerName").textContent = state.hasChosenPlayer ? state.player : "Elegir";
-    if (!state.hasChosenPlayer) {
+    if (!state.hasChosenPlayer && new Date() >= HORA_INAUGURACION) {
       openPlayerModal(true);
     }
 
@@ -1210,6 +1313,7 @@
     }
 
     async function openRankingModal() {
+      if (new Date() < HORA_INAUGURACION) return;
       if (window.TTFirebase && typeof window.TTFirebase.fetchAllPlayers === "function") {
         const remote = await window.TTFirebase.fetchAllPlayers();
         if (remote) {
@@ -1530,6 +1634,7 @@
     }
 
     async function startEfemeride() {
+      if (new Date() < HORA_INAUGURACION) return;
       const mm_dd = `${mm}-${dd}`;
       const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK.efemeride });
       state.flowMode = "quiz";
@@ -1543,6 +1648,7 @@
     }
 
     async function startGame(mode) {
+      if (new Date() < HORA_INAUGURACION) return;
       state.flowMode = "quiz";
       state.lastAction = () => startGame(mode);
       state.qIndex = 0;
@@ -1571,6 +1677,7 @@
     }
 
     async function startSectionQuiz(sec) {
+      if (new Date() < HORA_INAUGURACION) return;
       const meta = {
         pornopedia: { title: "🔞 Pornopedia", fb: FALLBACK.pornopedia },
         comidistta: { title: "🍽️ El ComidisTTa", fb: FALLBACK.comidistta },
@@ -1682,7 +1789,7 @@
           : (q.pregunta || "¿Quién soltó esta frase en el grupo?");
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">${tituloPreg}</div>
-          ${(q.cita && q.type !== "efemeride") ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
+          ${q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
         `;
         options = q.opciones;
         correctIdx = q.correcta;
@@ -1747,10 +1854,7 @@
         if (q.type === "rajaditta" && q.cita_sin_censura) {
           extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”`;
         }
-        // En la Efeméride la cita es la propia respuesta: solo se revela tras elegir
-        const citaReveal = (q.type === "efemeride" && q.cita)
-          ? `<div class="quotes-list"><div class="quote-chip">Mensaje original: “${q.cita}”</div></div>` : "";
-        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>${citaReveal}`;
+        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>`;
       }
 
       fb.style.display = "block";
