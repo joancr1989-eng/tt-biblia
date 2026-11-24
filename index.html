@@ -1360,6 +1360,23 @@ header .nav-bar {
       return clean;
     }
 
+    function normTxt(t) {
+      return String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    }
+
+    // La cita se oculta si delata la respuesta: siempre en la Efeméride, y en el resto
+    // cuando la opción correcta (que no sea un miembro) está contenida en la cita o viceversa.
+    function citaSpoilsAnswer(q) {
+      if (!q.cita) return false;
+      if (q.type === "efemeride") return true;
+      if (q.type === "rajaditta" || q.type === "pasion_tturca" || q.type === "lo_dijo_o_no") return false;
+      const correct = Array.isArray(q.opciones) ? q.opciones[q.correcta] : "";
+      if (!correct || MIEMBROS.some(m => m.toLowerCase() === String(correct).trim().toLowerCase())) return false;
+      const c = normTxt(correct), k = normTxt(q.cita);
+      if (c.length < 4 || k.length < 4) return false;
+      return k.includes(c) || c.includes(k);
+    }
+
     function extractMemberFromText(txt) {
       if (!txt) return "";
       const match = String(txt).match(new RegExp(`\\b(${MIEMBROS.join("|")})\\b`, "i"));
@@ -1700,12 +1717,15 @@ header .nav-bar {
         correctIdx = q.impostor;
       } else {
         const safePrev = sanitizePrevContext(q.contexto, q.cita);
+        q._hideCita = citaSpoilsAnswer(q);
         const tituloPreg = q.type === "lo_dijo_o_no_opciones"
           ? (q.miembro ? `2 frases son de ${q.miembro} y una no` : q.pregunta)
           : (q.pregunta || "¿Quién soltó esta frase en el grupo?");
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">${tituloPreg}</div>
-          ${q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
+          ${q._hideCita
+            ? (safePrev ? `<div class="quote-box"><span class="quote-context" style="border:0;margin:0;padding:0;">Previo: ${safePrev}</span></div>` : "<div style='height:14px;'></div>")
+            : (q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>")}
         `;
         options = q.opciones;
         correctIdx = q.correcta;
@@ -1770,7 +1790,9 @@ header .nav-bar {
         if (q.type === "rajaditta" && q.cita_sin_censura) {
           extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”`;
         }
-        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>`;
+        const citaReveal = (q._hideCita && q.cita)
+          ? `<div class="quotes-list"><div class="quote-chip">Mensaje original: “${q.cita}”</div></div>` : "";
+        fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>${citaReveal}`;
       }
 
       fb.classList.add("show");
