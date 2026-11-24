@@ -1099,8 +1099,8 @@
         {
           agresor: "Miki",
           victima: "Feme",
-          cita: "Ahí ahí! Así llegamos sin hambre a la "paella" de *** jajajaja",
-          cita_sin_censura: "Ahí ahí! Así llegamos sin hambre a la "paella" de feme jajajaja",
+          cita: "Ahí ahí! Así llegamos sin hambre a la 'paella' de *** jajajaja",
+          cita_sin_censura: "Ahí ahí! Así llegamos sin hambre a la 'paella' de feme jajajaja",
           opciones: ["Joni", "Hugo", "Feme"],
           correcta: 2,
           anio: 2014,
@@ -1306,6 +1306,15 @@
       }
     }
 
+    function extractArray(data, fallback) {
+      if (Array.isArray(data)) return data;
+      if (!data || typeof data !== "object") return fallback;
+      for (const k of ["preguntas", "items", "capitulos", "miembros", "perfiles", "datos", "rondas", "duelos"]) {
+        if (Array.isArray(data[k]) && data[k].length > 0) return data[k];
+      }
+      return fallback;
+    }
+
     function shuffle(arr) {
       const a = [...arr];
       for (let i = a.length - 1; i > 0; i--) {
@@ -1323,7 +1332,7 @@
       const [, m, d] = val.split("-");
       const mm_dd = `${m}-${d}`;
       const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK_DATA.efemeride });
-      const pool = shuffle(data.preguntas || FALLBACK_DATA.efemeride).slice(0, 10);
+      const pool = shuffle(extractArray(data, FALLBACK_DATA.efemeride)).slice(0, 10);
 
       state.currentQuestions = pool.map(q => ({ type: "efemeride", ...q }));
       state.qIndex = 0;
@@ -1332,15 +1341,6 @@
       state.currentModeTitle = `📜 Efeméride del Día (${mm_dd})`;
       showGameView(state.currentModeTitle);
       renderQuestion();
-    }
-
-    function extractArray(data, fallback) {
-      if (Array.isArray(data)) return data;
-      if (!data || typeof data !== "object") return fallback;
-      for (const k of ["preguntas", "items", "capitulos", "miembros", "perfiles", "datos", "rondas", "duelos"]) {
-        if (Array.isArray(data[k]) && data[k].length > 0) return data[k];
-      }
-      return fallback;
     }
 
     async function startGame(mode) {
@@ -1499,11 +1499,11 @@
       document.getElementById("sectionContent").innerHTML = caps.map(c => `
         <div class="archive-item">
           <div class="archive-head">
-            <span style="color:var(--accent); font-weight:800;">CAPÍTULO ${c.cap}</span>
-            <span>Año ${c.anio}</span>
+            <span style="color:var(--accent); font-weight:800;">CAPÍTULO ${c.cap || c.numero || ""}</span>
+            <span>${c.anio || c.fecha || ""}</span>
           </div>
-          <h4 style="font-size:17px; margin-bottom:6px;">${c.titulo}</h4>
-          <p style="font-size:14px; color:#cbd5e1;">${c.resumen}</p>
+          <h4 style="font-size:17px; margin-bottom:6px;">${c.titulo || c.titulo_capitulo || ""}</h4>
+          <p style="font-size:14px; color:#cbd5e1;">${c.resumen || c.relato_desbloqueado || ""}</p>
         </div>
       `).join("");
     }
@@ -1548,12 +1548,12 @@
             ${list.map(m => `
               <div class="member-card">
                 <h4>${m.nombre}</h4>
-                <div class="member-role">${m.apodo}</div>
+                <div class="member-role">${m.apodo || ""}</div>
                 <div class="member-stats">
-                  <span class="stat-tag">💬 ${m.mensajes}</span>
+                  ${m.mensajes ? `<span class="stat-tag">💬 ${m.mensajes}</span>` : ""}
                 </div>
-                <p style="font-size:13px; color:#cbd5e1; margin-bottom:10px;">${m.especialidad}</p>
-                <div style="font-size:12.5px; color:var(--accent); font-style:italic;">“${m.cita}”</div>
+                <p style="font-size:13px; color:#cbd5e1; margin-bottom:10px;">${m.especialidad || m.biografia || ""}</p>
+                ${m.cita ? `<div style="font-size:12.5px; color:var(--accent); font-style:italic;">“${m.cita}”</div>` : ""}
               </div>
             `).join("")}
           </div>
