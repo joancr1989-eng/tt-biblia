@@ -1246,28 +1246,68 @@
       return clean;
     }
 
-    // Normalizador inteligente de preguntas (soporta El Dato Justo con duelos/cifras y categorías sin opciones)
+    // Genera 4 opciones numéricas plausibles alrededor de un valor exacto
+    function buildNumericOptions(exactNum) {
+      const n = Math.max(0, Math.round(Number(exactNum)));
+      const set = new Set([n]);
+      const factors = n < 15
+        ? [-4, -2, 2, 4, 6, 9, 12]
+        : [0.55, 0.75, 1.3, 1.65, 2.0, 0.4, 2.4];
+
+      for (const f of factors) {
+        if (set.size >= 4) break;
+        const cand = n < 15 ? Math.max(1, n + f) : Math.max(1, Math.round(n * f));
+        if (cand !== n) set.add(cand);
+      }
+      let extra = 1;
+      while (set.size < 4) {
+        set.add(n + extra * 5);
+        extra++;
+      }
+      const arr = shuffle(Array.from(set)).map(v => `${v.toLocaleString("es-ES")} veces`);
+      const corrStr = `${n.toLocaleString("es-ES")} veces`;
+      return { opciones: arr, correcta: arr.indexOf(corrStr) };
+    }
+
+    // Normalizador inteligente de preguntas (soporta El Dato Justo con duelos/cifras, Lo dijo o no lo dijo y categorías)
     function normalizeQuizItem(item, modeTag) {
-      // 1) Si ya trae opciones array (soporta correcta como índice numérico o como string)
+      // 0) Si es "lo_dijo_o_no" con formato frases + impostor
+      if (modeTag === "lo_dijo_o_no") {
+        const listFrases = item.frases || item.citas || item.afirmaciones;
+        if (Array.isArray(listFrases) && listFrases.length >= 2) {
+          const impIdx = typeof item.impostor === "number" ? item.impostor
+            : (typeof item.correcta === "number" ? item.correcta : 0);
+          return {
+            type: "lo_dijo_o_no",
+            miembro: item.miembro || item.autor || item.protagonista || "un miembro del TT",
+            frases: listFrases,
+            impostor: impIdx,
+            anio: item.anio || "Lore TT",
+            explicacion: item.explicacion || item.contexto || ""
+          };
+        }
+      }
+
+      // 1) Si ya trae opciones array (soporta correcta como índice numérico o como valor exacto)
       if (Array.isArray(item.opciones) && item.opciones.length >= 2) {
         let corrIdx = -1;
-        if (typeof item.correcta === "number") {
-          corrIdx = item.correcta;
-        } else if (typeof item.correcta === "string") {
-          const target = item.correcta.trim().toLowerCase();
-          corrIdx = item.opciones.findIndex(o => String(o).trim().toLowerCase() === target);
-        } else if (typeof item.respuesta_correcta === "string") {
-          const target = item.respuesta_correcta.trim().toLowerCase();
-          corrIdx = item.opciones.findIndex(o => String(o).trim().toLowerCase() === target);
-        } else if (typeof item.respuesta === "number") {
-          corrIdx = item.respuesta;
-        } else if (typeof item.ganador === "string") {
-          const target = item.ganador.trim().toLowerCase();
-          corrIdx = item.opciones.findIndex(o => String(o).trim().toLowerCase() === target);
+        const candidates = [item.correcta, item.respuesta_correcta, item.respuesta, item.ganador, item.impostor, item.valor_real];
+        for (const val of candidates) {
+          if (val === undefined || val === null) continue;
+          if (typeof val === "number" && Number.isInteger(val) && val >= 0 && val < item.opciones.length) {
+            corrIdx = val;
+            break;
+          }
+          const target = String(val).trim().toLowerCase();
+          const found = item.opciones.findIndex(o => String(o).trim().toLowerCase() === target);
+          if (found >= 0) {
+            corrIdx = found;
+            break;
+          }
         }
         if (corrIdx >= 0 && corrIdx < item.opciones.length) {
           return {
-            type: modeTag,
+            type: modeTag === "lo_dijo_o_no" ? "quiz_generic" : modeTag,
             pregunta: item.pregunta || "¿Cuál es la respuesta correcta?",
             cita: item.cita || "",
             contexto: item.contexto || item.mensaje_previo || "",
@@ -1279,7 +1319,7 @@
         }
       }
 
-      // 2) Formato duelo A vs B (muy habitual en El Dato Justo)
+      // 2) Formato duelo A vs B (habitual en El Dato Justo)
       const optA = item.opcion_a || item.termino_a || item.a || item.personaje_a;
       const optB = item.opcion_b || item.termino_b || item.b || item.personaje_b;
       if (optA && optB) {
@@ -1301,12 +1341,29 @@
         };
       }
 
-      // 3) Fallback para frases con autor (Pornopedia, ComidisTTa, Zona VOX, ¿Quién dijo esto?)
+      // 3) Formato numérico de El Dato Justo ("¿Cuántas veces...?") sin array de opciones
+      const numFields = [item.respuesta_exacta, item.valor_real, item.respuesta_real, item.numero, item.cantidad, item.total, item.menciones, item.valor, item.respuesta, item.correcta];
+      const rawNum = numFields.find(v => v !== undefined && v !== null && v !== "" && !isNaN(Number(v)));
+      if (modeTag === "dato_justo" && rawNum !== undefined) {
+        const { opciones, correcta } = buildNumericOptions(Number(rawNum));
+        return {
+          type: "dato_justo",
+          pregunta: item.pregunta || "¿Cuántas veces se ha mencionado en el grupo?",
+          cita: item.cita || "",
+          contexto: "",
+          opciones,
+          correcta,
+          anio: item.anio || "2012-2026",
+          explicacion: item.explicacion || item.dato || `El dato exacto en el archivo es ${Number(rawNum).toLocaleString("es-ES")}.`
+        };
+      }
+
+      // 4) Fallback para frases con autor (Pornopedia, ComidisTTa, Zona VOX, ¿Quién dijo esto?)
       const autorCorrecto = MIEMBROS.includes(item.autor) ? item.autor : "Germi";
       const distractores = shuffle(MIEMBROS.filter(m => m !== autorCorrecto)).slice(0, 3);
       const opciones = shuffle([autorCorrecto, ...distractores]);
       return {
-        type: modeTag,
+        type: modeTag === "lo_dijo_o_no" ? "quiz_generic" : modeTag,
         pregunta: item.pregunta || "¿Quién soltó esta frase en el grupo?",
         cita: item.cita || "",
         contexto: item.contexto || item.mensaje_previo || "",
@@ -1355,7 +1412,7 @@
         state.currentModeTitle = "💬 ¿Quién dijo esto?";
       } else if (mode === "lo_dijo_o_no") {
         const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK.lo_dijo_o_no });
-        state.currentQuestions = shuffle(extractArray(data, FALLBACK.lo_dijo_o_no)).slice(0, 10).map(q => ({ type: "lo_dijo_o_no", ...q }));
+        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.lo_dijo_o_no), FALLBACK.lo_dijo_o_no, "lo_dijo_o_no");
         state.currentModeTitle = "⚖️ Lo dijo o no lo dijo";
       } else if (mode === "rajaditta") {
         const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK.rajaditta });
@@ -1473,7 +1530,7 @@
         `;
         options = q.opciones;
         correctIdx = q.correcta;
-      } else if (q.type === "lo_dijo_o_no") {
+      } else if (q.type === "lo_dijo_o_no" && Array.isArray(q.frases)) {
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">2 verdades y 1 impostor sobre <span style="color:var(--accent);">${q.miembro}</span>: ¿cuál NO dijo?</div>
           <p style="font-size:13px; color:var(--muted); margin: 6px 0 14px;">Pulsa sobre la frase que pertenece a otro compañero:</p>
