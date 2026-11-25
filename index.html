@@ -797,6 +797,30 @@
       user-select: none;
       filter: grayscale(0.35);
     }
+    .mode-card.coming-soon {
+      opacity: 0.72;
+      cursor: default;
+      position: relative;
+      border-style: dashed;
+    }
+
+    .mode-card.coming-soon:hover {
+      transform: none;
+      background: var(--card);
+      border-color: var(--border);
+    }
+
+    .badge-soon {
+      font-size: 10.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #fcd34d;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+    }
   </style>
 </head>
 <body>
@@ -977,6 +1001,36 @@
               </div>
               <h4>Zona VOX</h4>
               <p>Preguntas tipo test sobre las salidas de tono, opiniones políticas sin filtro y burradas del archivo.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NUEVAS SECCIONES (PRÓXIMAMENTE) -->
+      <section class="section-block">
+        <div class="section-header">
+          <h3>🚀 Nuevas Secciones</h3>
+        </div>
+        <div class="grid-2">
+          <div class="mode-card coming-soon" onclick="showToast('⏳ Regreso al futuro: disponible muy pronto')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--blue-soft); color: var(--blue);">⏪</div>
+                <span class="badge-soon">Próximamente</span>
+              </div>
+              <h4>Regreso al futuro</h4>
+              <p>Viaje año a año (2012 – 2026) por los grandes hitos, motes, piques y momentazos históricos del Triangulito Team.</p>
+            </div>
+          </div>
+
+          <div class="mode-card coming-soon" onclick="showToast('⏳ El Polígrafo: disponible muy pronto')">
+            <div>
+              <div class="mode-top">
+                <div class="mode-icon" style="background: var(--purple-soft); color: var(--purple);">🕵️</div>
+                <span class="badge-soon">Próximamente</span>
+              </div>
+              <h4>El Polígrafo</h4>
+              <p>Dossier biográfico individual de cada miembro del grupo: polémicas, sentencias sin filtro y hemeroteca personal.</p>
             </div>
           </div>
         </div>
@@ -1384,9 +1438,12 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
+    const DATA_VERSION = "2026-11-25-v2";
+
     async function loadJsonSafe(url, fallback) {
       try {
-        const res = await fetch(url);
+        const sep = url.includes("?") ? "&" : "?";
+        const res = await fetch(`${url}${sep}v=${DATA_VERSION}`);
         if (!res.ok) throw new Error("No encontrado");
         return await res.json();
       } catch (e) {
@@ -1397,7 +1454,7 @@
     function extractArray(data, fallback) {
       if (Array.isArray(data) && data.length > 0) return data;
       if (!data || typeof data !== "object") return fallback;
-      for (const k of ["preguntas", "items", "capitulos", "datos", "rondas", "duelos", "retos"]) {
+      for (const k of ["preguntas", "preguntas_trivia", "items", "capitulos", "datos", "rondas", "duelos", "retos"]) {
         if (Array.isArray(data[k]) && data[k].length > 0) return data[k];
       }
       return fallback;
@@ -1613,9 +1670,16 @@
       };
     }
 
-    function toQuizItems(rawList, fallbackList, modeTag, maxItems = 10) {
+    function toQuizItems(rawList, fallbackList, modeTag, maxItems = 10, doShuffle = true) {
       const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
-      const barajadas = shuffle(source);
+      const barajadas = doShuffle
+        ? shuffle(source)
+        : [...source].sort((a, b) => {
+            const anioA = Number(a.anio || String(a.fecha || "").slice(0, 4)) || 9999;
+            const anioB = Number(b.anio || String(b.fecha || "").slice(0, 4)) || 9999;
+            if (anioA !== anioB) return anioA - anioB;
+            return String(a.fecha || "").localeCompare(String(b.fecha || ""));
+          });
       const seleccion = (typeof maxItems === "number" && maxItems > 0) ? barajadas.slice(0, maxItems) : barajadas;
       return seleccion.map((item, idx) => {
         const norm = normalizeQuizItem(item, modeTag);
@@ -1634,7 +1698,7 @@
       const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK.efemeride });
       state.flowMode = "quiz";
       state.lastAction = () => startEfemeride();
-      state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.efemeride), FALLBACK.efemeride, "efemeride", null);
+      state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.efemeride), FALLBACK.efemeride, "efemeride", null, false);
       state.qIndex = 0;
       state.roundScore = 0;
       state.streak = 0;
