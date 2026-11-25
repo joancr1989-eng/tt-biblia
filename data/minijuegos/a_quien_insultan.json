@@ -1,0 +1,1168 @@
+{
+  "modo": "a_quien_insultan",
+  "total_preguntas": 83,
+  "preguntas": [
+    {
+      "agresor": "Miki",
+      "victima": "Germi",
+      "cita": "Che ***. Que con 32 años recién casado salgas de españa y te vayas a un mcdonals…. Lamentable hasta para mi",
+      "cita_sin_censura": "Che Germán. Que con 32 años recién casado salgas de españa y te vayas a un mcdonals…. Lamentable hasta para mi",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "anio": 2022,
+      "contexto": "Ataque y burla a Germi por irse a comer al McDonald's en su viaje de recién casado al extranjero."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Jorge",
+      "cita": "Tu rajabas de el hace nada lache",
+      "cita_sin_censura": "Tu rajabas de el hace nada lache",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Joni"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "contexto": "Miki llama 'lache' a Jorge echándole en cara que antes criticaba a Jonas."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Miki",
+      "cita": "Que dices lache??",
+      "cita_sin_censura": "Que dices lache??",
+      "opciones": [
+        "Marzal",
+        "Miki",
+        "Feme"
+      ],
+      "correcta": 1,
+      "anio": 2023,
+      "contexto": "Germi llama 'lache' a Miki rebatiéndole su análisis sobre la Champions y el City."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Joni",
+      "cita": "Per so yo fui a ver la final tambien inutil",
+      "cita_sin_censura": "Per so yo fui a ver la final tambien inutil",
+      "opciones": [
+        "Joni",
+        "Hugo",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "anio": 2018,
+      "contexto": "Germi llama 'inútil' a Joni en una discusión."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Marzal",
+      "cita": "Que grado de calzonerismo alcanzara ***?",
+      "cita_sin_censura": "Que grado de calzonerismo alcanzara JM?",
+      "opciones": [
+        "Feme",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "contexto": "Moteja y acusa a Marzal de calzonazos haciendo apuestas sobre su nivel de calzonerismo."
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Héctor",
+      "cita": "Tu si k eres mierda",
+      "cita_sin_censura": "Tu si k eres mierda",
+      "opciones": [
+        "Héctor",
+        "Marzal",
+        "Jorge"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "contexto": "Héctor se queja pidiendo que no suban fotos al grupo para no tener mierda en el móvil y Feme le ataca directamente llamándole mierda a él."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Feme",
+      "cita": "Y por la Alqueria se presento un joven con camisetas de tirantes y gafas de sol de garrulo, dicho joven se llamaba *** Femenia...",
+      "cita_sin_censura": "Y por la Alqueria se presento un joven con camisetas de tirantes y gafas de sol de garrulo, dicho joven se llamaba Adria Femenia...",
+      "opciones": [
+        "Feme",
+        "Humpa",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "contexto": "Jorge describe a Feme despectivamente como un garrulo con gafas de sol y camiseta de tirantes."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Feme",
+      "cita": "*** pegate fuego",
+      "cita_sin_censura": "Feme pegate fuego",
+      "opciones": [
+        "Humpa",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "contexto": "Germi manda a Feme a pegarse fuego harto de sus quejas sobre las discomóviles de pueblo."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Jorge",
+      "cita": "Dedicada a la rataza de *** que se que le alegrara,la encontre en una sd tirada por ahi,que risas",
+      "cita_sin_censura": "Dedicada a la rataza de jorge que se que le alegrara,la encontre en una sd tirada por ahi,que risas",
+      "opciones": [
+        "Hugo",
+        "Jorge",
+        "Héctor"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "contexto": "Llama despectivamente 'rataza' a Jorge al compartir una foto suya antigua."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Joni",
+      "cita": "Willy retrasado Gomez",
+      "cita_sin_censura": "Willy retrasado Gomez",
+      "opciones": [
+        "Humpa",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "contexto": "Insulta directamente a Joni llamándole 'retrasado' haciendo un juego de palabras con Willy Hernangómez."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Joni",
+      "cita": "Gordo patata cabron",
+      "cita_sin_censura": "Gordo patata cabron",
+      "opciones": [
+        "Germi",
+        "Hugo",
+        "Joni"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "contexto": "Jorge insulta a Joni llamándole despectivamente gordo patata cabrón."
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Jorge",
+      "cita": "Aqui huele a mariconassoo",
+      "cita_sin_censura": "Aqui huele a mariconassoo",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Jorge"
+      ],
+      "correcta": 2,
+      "anio": 2018,
+      "contexto": "Feme se burla e insulta a Jorge tras quejarse este de haber ido al médico."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Miki",
+      "cita": "Yo puedo pasar HP",
+      "cita_sin_censura": "Yo puedo pasar HP",
+      "opciones": [
+        "Marzal",
+        "Miki",
+        "Humpa"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "contexto": "Jorge insulta a Miki llamándole hijo de puta tras decir este que pasaba de la cena."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Feme",
+      "cita": "A vore, eres fallero i del prado, lo bo és que poques decisions més lamentables que eixa pots prendre ja",
+      "cita_sin_censura": "A vore, eres fallero i del prado, lo bo és que poques decisions més lamentables que eixa pots prendre ja",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "anio": 2026,
+      "contexto": "Ataca a Feme diciéndole que ser fallero y del Prado son las decisiones más lamentables que se pueden tomar en la vida"
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Feme",
+      "cita": "Pero que dices tu gafas...",
+      "cita_sin_censura": "Pero que dices tu gafas...",
+      "opciones": [
+        "Joni",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 1,
+      "anio": 2018,
+      "contexto": "Germi descalifica la opinión de Feme llamándole 'gafas'."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Jorge",
+      "cita": "Se te ve el plumero. Nos ha jodio, sois la panda de lloronas y quejicas más insoportable jamás vista",
+      "cita_sin_censura": "Se te ve el plumero. Nos ha jodio, sois la panda de lloronas y quejicas más insoportable jamás vista",
+      "opciones": [
+        "Jorge",
+        "Hugo",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "anio": 2014,
+      "contexto": "Joni ataca a Jorge llamando a los valencianistas la panda de lloronas y quejicas más insoportable jamás vista."
+    },
+    {
+      "agresor": "Hugo",
+      "victima": "Germi",
+      "cita": "*** pégate fuego maqui",
+      "cita_sin_censura": "Germán pégate fuego maqui",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "anio": 2017,
+      "contexto": "Hugo manda a Germi a prenderse fuego."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Germi",
+      "cita": "\"*** pégate fuego maqui\"",
+      "cita_sin_censura": "\"Germán pégate fuego maqui\"",
+      "opciones": [
+        "Germi",
+        "Joni",
+        "Miki"
+      ],
+      "correcta": 0,
+      "anio": 2017,
+      "contexto": "Mandar a Germán a quemarse a lo bonzo."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Jorge",
+      "cita": "Vete a la mierda sudaca",
+      "cita_sin_censura": "Vete a la mierda sudaca",
+      "opciones": [
+        "Jorge",
+        "Marzal",
+        "Feme"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "contexto": "Mandar a la mierda a Jorge usando un insulto xenófobo/despectivo."
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Marzal",
+      "cita": "#ÚltimaHora| EXCLUSIVA SPORT: Principio de acuerdo entre *** Orengo y el restaurante El Gordo para ser su imagen reclamo",
+      "cita_sin_censura": "#ÚltimaHora| EXCLUSIVA SPORT: Principio de acuerdo entre JM Orengo y el restaurante El Gordo para ser su imagen reclamo",
+      "opciones": [
+        "Humpa",
+        "Marzal",
+        "Héctor"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "contexto": "Vacilar a Marzal llamándole gordo al simular una noticia donde sería imagen del restaurante El Gordo."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Joni",
+      "cita": "Pero eres retrasado, anormal? Quieres dejar toda esas estupideces?",
+      "cita_sin_censura": "Pero eres retrasado, anormal? Quieres dejar toda esas estupideces?",
+      "opciones": [
+        "Hugo",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 2,
+      "anio": 2022,
+      "contexto": "Jorge insulta directamente a Joni llamándole retrasado y anormal para que corte sus comentarios."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Germi",
+      "cita": "***, pegate fuego",
+      "cita_sin_censura": "Germán, pegate fuego",
+      "opciones": [
+        "Héctor",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "contexto": "Joni manda a Germán a quemarse a lo bonzo en mitad de una discusión."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Miki",
+      "cita": "Venga maquina, cuando tengas los goles que tenga yo me avisas",
+      "cita_sin_censura": "Venga maquina, cuando tengas los goles que tenga yo me avisas",
+      "opciones": [
+        "Joni",
+        "Marzal",
+        "Miki"
+      ],
+      "correcta": 2,
+      "anio": 2014,
+      "contexto": "Germi ningunea deportivamente a Miki tras un comentario en el grupo"
+    },
+    {
+      "agresor": "Humpa",
+      "victima": "Jorge",
+      "cita": "Qué manera de llorar contra ciertos planteamientos. Busca fórmulas para superarlos  y a callar",
+      "cita_sin_censura": "Qué manera de llorar contra ciertos planteamientos. Busca fórmulas para superarlos  y a callar",
+      "opciones": [
+        "Jorge",
+        "Héctor",
+        "Miki"
+      ],
+      "correcta": 0,
+      "anio": 2022,
+      "contexto": "Humpa manda callar a Jorge llamándole llorón por quejarse de planteamientos tácticos"
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Jorge",
+      "cita": "Por cierto *** siempre estas con esta mierda",
+      "cita_sin_censura": "Por cierto jorge siempre estas con esta mierda",
+      "opciones": [
+        "Hugo",
+        "Humpa",
+        "Jorge"
+      ],
+      "correcta": 2,
+      "anio": 2018,
+      "contexto": "Feme ataca a Jorge reprochándole que siempre está con la misma mierda"
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Feme",
+      "cita": "Callateeee la bocaaaa",
+      "cita_sin_censura": "Callateeee la bocaaaa",
+      "opciones": [
+        "Feme",
+        "Miki",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "anio": 2021,
+      "contexto": "Germi manda callar tajantemente a Feme"
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Joni",
+      "cita": "Mucho niño rata ***?",
+      "cita_sin_censura": "Mucho niño rata joni?",
+      "opciones": [
+        "Joni",
+        "Miki",
+        "Feme"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "contexto": "Germi llama niño rata a Joni por jugar al Counter-Strike"
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Jorge",
+      "cita": "Cule cabron vete al paredon",
+      "cita_sin_censura": "Cule cabron vete al paredon",
+      "opciones": [
+        "Jorge",
+        "Héctor",
+        "Miki"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "contexto": "Insulta a Jorge llamándole culé cabrón y mandándolo al paredón por reclamar un penalti a favor del Barça."
+    },
+    {
+      "agresor": "Hugo",
+      "victima": "Marzal",
+      "cita": "*** es un FILL DE PUTA!",
+      "cita_sin_censura": "Marzal es un FILL DE PUTA!",
+      "opciones": [
+        "Marzal",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 0,
+      "anio": 2017,
+      "contexto": "Insulta directamente a Marzal en mayúsculas llamándolo 'fill de puta'."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Marzal",
+      "cita": "*** el mariconcete. Entra a las 3 y no puede salir el dia anterior",
+      "cita_sin_censura": "Marzal el mariconcete. Entra a las 3 y no puede salir el dia anterior",
+      "opciones": [
+        "Joni",
+        "Humpa",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "anio": 2012,
+      "contexto": "Rajada e insulto directo por rajarse de salir de fiesta teniendo turno de tarde al día siguiente"
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Germi",
+      "cita": "Espera, que aparece en escena don me voy al berni a ver la final de la Champions",
+      "cita_sin_censura": "Espera, que aparece en escena don me voy al berni a ver la final de la Champions",
+      "opciones": [
+        "Miki",
+        "Germi",
+        "Jorge"
+      ],
+      "correcta": 1,
+      "anio": 2017,
+      "contexto": "Mote sarcástico y vacile mordiente a Germi echándole en cara su postureo futbolístico yendo al Bernabéu."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Miki",
+      "cita": "No os toméis en serio a un tío que era del Barça y se pasó al Valencia porque no ganaba. Tus sábanas #neverforget",
+      "cita_sin_censura": "No os toméis en serio a un tío que era del Barça y se pasó al Valencia porque no ganaba. Tus sábanas #neverforget",
+      "opciones": [
+        "Humpa",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "contexto": "Joni desacredita y ataca a Miki acusándolo de cambiar de equipo por conveniencia y recordándole sus sábanas del Barça."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Germi",
+      "cita": "Yo si te recojo es para tirarte al barranco. Lache",
+      "cita_sin_censura": "Yo si te recojo es para tirarte al barranco. Lache",
+      "opciones": [
+        "Jorge",
+        "Humpa",
+        "Germi"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "contexto": "Joni ataca a Germi diciéndole que si lo recoge es para despeñarlo y llamándole lache."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Feme",
+      "cita": "Que no sepas expresarte bien no significa que los demas seamos monguers",
+      "cita_sin_censura": "Que no sepas expresarte bien no significa que los demas seamos monguers",
+      "opciones": [
+        "Humpa",
+        "Joni",
+        "Feme"
+      ],
+      "correcta": 2,
+      "anio": 2012,
+      "contexto": "Jorge arremete contra Feme por su incapacidad para explicarse y le recrimina que trate a los demás de tontos."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Jorge",
+      "cita": "Diegoooooooo bocazas",
+      "cita_sin_censura": "Diegoooooooo bocazas",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Feme"
+      ],
+      "correcta": 0,
+      "anio": 2018,
+      "contexto": "Miki llama bocazas a Jorge tras hablar antes de tiempo sobre un resultado deportivo."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Miki",
+      "cita": "Ya sabemos que te vas con tus otrs amigos parguelas",
+      "cita_sin_censura": "Ya sabemos que te vas con tus otrs amigos parguelas",
+      "opciones": [
+        "Feme",
+        "Miki",
+        "Joni"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "contexto": "Le echa en cara a Miki que no pueda quedar por irse con otros amigos, a los que tacha despectivamente de parguelas."
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Germi",
+      "cita": "He dicho que *** tiene un trauma con el valencia, a la minima saca cosas para burlarse i meternos toda la mierda que pueda",
+      "cita_sin_censura": "He dicho que german tiene un trauma con el valencia, a la minima saca cosas para burlarse i meternos toda la mierda que pueda",
+      "opciones": [
+        "Germi",
+        "Héctor",
+        "Jorge"
+      ],
+      "correcta": 0,
+      "anio": 2014,
+      "contexto": "Feme ataca a Germi acusándole de estar traumatizado con el Valencia y de aprovechar la mínima para meterles mierda."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Jorge",
+      "cita": "***, no seas lache y mírate un vuelo express para el bunkerazo",
+      "cita_sin_censura": "Jorge, no seas lache y mírate un vuelo express para el bunkerazo",
+      "opciones": [
+        "Germi",
+        "Héctor",
+        "Jorge"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "contexto": "Le llama lache para presionarle a que no sea cutre y se compre un vuelo para acudir a la quedada."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Miki",
+      "cita": "Pegate fuego mostro, joder que llego mañana",
+      "cita_sin_censura": "Pegate fuego mostro, joder que llego mañana",
+      "opciones": [
+        "Joni",
+        "Miki",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "contexto": "Le manda a la mierda con un vacile cortante por proponer cenar un día que él todavía no ha llegado."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Marzal",
+      "cita": "Haber salido a las 6 como yo lacheee",
+      "cita_sin_censura": "Haber salido a las 6 como yo lacheee",
+      "opciones": [
+        "Héctor",
+        "Hugo",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "contexto": "Llama lache a Marzal por quejarse de que llueve para salir en vez de haber madrugado como él."
+    },
+    {
+      "agresor": "Humpa",
+      "victima": "Feme",
+      "cita": "Subnormal. Te la puedes reventar sin que se entere nadie",
+      "cita_sin_censura": "Subnormal. Te la puedes reventar sin que se entere nadie",
+      "opciones": [
+        "Marzal",
+        "Feme",
+        "Héctor"
+      ],
+      "correcta": 1,
+      "anio": 2026,
+      "contexto": "Insulta directamente a Feme llamándole subnormal por su comentario."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Miki",
+      "cita": "Pero que dices desgraciao",
+      "cita_sin_censura": "Pero que dices desgraciao",
+      "opciones": [
+        "Humpa",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 1,
+      "anio": 2022,
+      "contexto": "Joni increpa e insulta a Miki llamándole desgraciado tras responder a una pregunta de oposición."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Miki",
+      "cita": "*** maquina, llevabas tanga, para que se te notaran las nalgas al caminar?",
+      "cita_sin_censura": "Miki maquina, llevabas tanga, para que se te notaran las nalgas al caminar?",
+      "opciones": [
+        "Miki",
+        "Héctor",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "contexto": "Vacile y mofa directa a Miki sobre su forma de andar y marcar culo."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Jorge",
+      "cita": "Aqui tenemos un inutil, que tras quince dias despues de hacer la apuesta todavia no la ha cobrado",
+      "cita_sin_censura": "Aqui tenemos un inutil, que tras quince dias despues de hacer la apuesta todavia no la ha cobrado",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "anio": 2018,
+      "contexto": "Llama inútil a Jorge por no haber ido a cobrar una apuesta que ganó quince días atrás."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Feme",
+      "cita": "El gafe de todos los tiempos",
+      "cita_sin_censura": "El gafe de todos los tiempos",
+      "opciones": [
+        "Miki",
+        "Feme",
+        "Humpa"
+      ],
+      "correcta": 1,
+      "anio": 2017,
+      "contexto": "Tacha a Feme de ser el mayor gafe de todos los tiempos tras sus comentarios."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Hugo",
+      "cita": "***, que rata eres",
+      "cita_sin_censura": "Hugo, que rata eres",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Hugo"
+      ],
+      "correcta": 2,
+      "anio": 2017,
+      "contexto": "Jorge llama rata a Hugo directamente."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Marzal",
+      "cita": "Aquí el liante, como siempre, ha sido ***",
+      "cita_sin_censura": "Aquí el liante, como siempre, ha sido marcial",
+      "opciones": [
+        "Marzal",
+        "Jorge",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "anio": 2017,
+      "contexto": "Señala a Marzal acusándole de ser el liante de siempre en el grupo."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Marzal",
+      "cita": "Que lache das ***",
+      "cita_sin_censura": "Que lache das marzal",
+      "opciones": [
+        "Marzal",
+        "Héctor",
+        "Feme"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "contexto": "Le dice a Marzal directamente que da vergüenza ajena ('lache')."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Germi",
+      "cita": "*** que tonto eres",
+      "cita_sin_censura": "Germán que tonto eres",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Joni"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "contexto": "Insulto directo llamándole tonto por su respuesta sobre su hermano."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Miki",
+      "cita": "Ya va la rataza ya",
+      "cita_sin_censura": "Ya va la rataza ya",
+      "opciones": [
+        "Miki",
+        "Héctor",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "anio": 2017,
+      "contexto": "Mote despectivo llamándole rataza al meterse a ver qué cena Humpa."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Jorge",
+      "cita": "*** hijo de puta",
+      "cita_sin_censura": "Jorge hijo de puta",
+      "opciones": [
+        "Jorge",
+        "Hugo",
+        "Héctor"
+      ],
+      "correcta": 0,
+      "anio": 2017,
+      "contexto": "Insulto directo llamándole hijo de puta."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Jorge",
+      "cita": "En un botellón en el parking de bacarra. Sucia rata de metro y medio",
+      "cita_sin_censura": "En un botellón en el parking de bacarra. Sucia rata de metro y medio",
+      "opciones": [
+        "Jorge",
+        "Marzal",
+        "Germi"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "contexto": "Insultar a Jorge llamándole despectivamente sucia rata de metro y medio."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Miki",
+      "cita": "\"Ahiii gordopilooo\"",
+      "cita_sin_censura": "\"Ahiii gordopilooo\"",
+      "opciones": [
+        "Miki",
+        "Humpa",
+        "Feme"
+      ],
+      "correcta": 0,
+      "anio": 2024,
+      "contexto": "Le lanza un mote despectivo y vacile a Miki llamándole gordopilo."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Marzal",
+      "cita": "Y *** es un maricon comiendo",
+      "cita_sin_censura": "Y marzal es un maricon comiendo",
+      "opciones": [
+        "Jorge",
+        "Marzal",
+        "Hugo"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "contexto": "Insulta directamente a Marzal atacando su forma de comer."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Marzal",
+      "cita": "Increible J.M.Gafazos (***)",
+      "cita_sin_censura": "Increible J.M.Gafazos (JM18)",
+      "opciones": [
+        "Marzal",
+        "Germi",
+        "Feme"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "contexto": "Mote despectivo y vacile a Marzal tachándolo de gafe ('J.M.Gafazos')."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Miki",
+      "cita": "*** pegate fuego mostro",
+      "cita_sin_censura": "Miki pegate fuego mostro",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "contexto": "Germi manda a Miki a prenderse fuego harto de sus quejas y preocupaciones continuas"
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Miki",
+      "cita": "Jodete, payaso madridista",
+      "cita_sin_censura": "Jodete, payaso madridista",
+      "opciones": [
+        "Joni",
+        "Miki",
+        "Germi"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "contexto": "Jorge insulta directamente a Miki llamándole payaso madridista y mandándole a joderse tras un resultado deportivo."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Humpa",
+      "cita": "Y al mafioso socialista *** si que le ha llegado la merca",
+      "cita_sin_censura": "Y al mafioso socialista Unverto si que le ha llegado la merca",
+      "opciones": [
+        "Humpa",
+        "Hugo",
+        "Héctor"
+      ],
+      "correcta": 0,
+      "anio": 2014,
+      "contexto": "Llama a Humpa mafioso socialista con segundas intenciones."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Hugo",
+      "cita": "Y encima va al crossfit (donde va el lache de ***) porque su marido es uno de los socios",
+      "cita_sin_censura": "Y encima va al crossfit (donde va el lache de hugo) porque su marido es uno de los socios",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Hugo"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "contexto": "Se refiere despectivamente a Hugo como 'el lache de Hugo'."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Miki",
+      "cita": "Que lache das ***. De verdad, hablo muy en serio",
+      "cita_sin_censura": "Que lache das Miguel. De verdad, hablo muy en serio",
+      "opciones": [
+        "Miki",
+        "Joni",
+        "Marzal"
+      ],
+      "correcta": 0,
+      "anio": 2014,
+      "contexto": "Le dice a Miki con total seriedad que da vergüenza ajena por sus comentarios futbolísticos."
+    },
+    {
+      "agresor": "Humpa",
+      "victima": "Joni",
+      "cita": "A tu casa , payaso",
+      "cita_sin_censura": "A tu casa , payaso",
+      "opciones": [
+        "Germi",
+        "Feme",
+        "Joni"
+      ],
+      "correcta": 2,
+      "anio": 2024,
+      "contexto": "Insulta directamente a Joni llamándole payaso y mandándolo a su casa tras compartir un enlace."
+    },
+    {
+      "agresor": "Hugo",
+      "victima": "Humpa",
+      "cita": "Que inútil! Pero así será ***",
+      "cita_sin_censura": "Que inútil! Pero así será Humberto",
+      "opciones": [
+        "Jorge",
+        "Germi",
+        "Humpa"
+      ],
+      "correcta": 2,
+      "anio": 2018,
+      "contexto": "Llama inútil a Humpa."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Feme",
+      "cita": "Un poco de empatía hijo de puta sindicalista se mierda",
+      "cita_sin_censura": "Un poco de empatía hijo de puta sindicalista se mierda",
+      "opciones": [
+        "Marzal",
+        "Feme",
+        "Jorge"
+      ],
+      "correcta": 1,
+      "anio": 2018,
+      "contexto": "Insulta duramente a Feme llamándole hijo de puta y sindicalista de mierda."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Germi",
+      "cita": "De que te ries lache",
+      "cita_sin_censura": "De que te ries lache",
+      "opciones": [
+        "Germi",
+        "Humpa",
+        "Hugo"
+      ],
+      "correcta": 0,
+      "anio": 2017,
+      "contexto": "Llama lache a Germi por reírse."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Hugo",
+      "cita": "Jajaj *** maricon!",
+      "cita_sin_censura": "Jajaj hugo maricon!",
+      "opciones": [
+        "Jorge",
+        "Feme",
+        "Hugo"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "contexto": "Insulta a Hugo llamándole maricón."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Miki",
+      "cita": "Que sera lamentable",
+      "cita_sin_censura": "Que sera lamentable",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Héctor"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "contexto": "Germi se burla de Miki dando por hecho que su estado físico da pena."
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Miki",
+      "cita": "Simeone cambia la manera de jugar mostro, menos recursos que *** en afes",
+      "cita_sin_censura": "Simeone cambia la manera de jugar mostro, menos recursos que miki en afes",
+      "opciones": [
+        "Héctor",
+        "Feme",
+        "Miki"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "contexto": "Vacile mordaz a Miki atacando su nivel futbolístico al compararlo con la falta de recursos tácticos de Simeone."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Jorge",
+      "cita": "Jajajjaja q lache de tío",
+      "cita_sin_censura": "Jajajjaja q lache de tío",
+      "opciones": [
+        "Hugo",
+        "Joni",
+        "Jorge"
+      ],
+      "correcta": 2,
+      "anio": 2014,
+      "contexto": "Llama a Jorge 'lache' (patético o que da vergüenza ajena) por su queja infantil sobre los regalos de Navidad."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Marzal",
+      "cita": "Ese linier esta más ciego que *** en un partido del TT",
+      "cita_sin_censura": "Ese linier esta más ciego que JM en un partido del TT",
+      "opciones": [
+        "Marzal",
+        "Héctor",
+        "Humpa"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "contexto": "Se mofa de la visión de juego y el nivel de Marzal (JM) diciendo que no ve una mierda en los partidos del equipo."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Jorge",
+      "cita": "*** LACHE FUERA",
+      "cita_sin_censura": "JORGE LACHE FUERA",
+      "opciones": [
+        "Héctor",
+        "Germi",
+        "Jorge"
+      ],
+      "correcta": 2,
+      "anio": 2017,
+      "contexto": "Ataque directo a Jorge llamándole lache y pidiendo su expulsión del grupo."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Germi",
+      "cita": "*** q lache das",
+      "cita_sin_censura": "German q lache das",
+      "opciones": [
+        "Feme",
+        "Hugo",
+        "Germi"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "contexto": "Avergonzarse y decirle a Germán que da vergüenza ajena por el plan de cena y trabajo"
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Humpa",
+      "cita": "***, el locazoooo",
+      "cita_sin_censura": "Humberto, el locazoooo",
+      "opciones": [
+        "Humpa",
+        "Hugo",
+        "Germi"
+      ],
+      "correcta": 0,
+      "anio": 2017,
+      "contexto": "Burlarse de Humberto calificándolo despectivamente como 'el locazo'"
+    },
+    {
+      "agresor": "Germi",
+      "victima": "Jorge",
+      "cita": "Total pero lo habeis chillado como cerdos",
+      "cita_sin_censura": "Total pero lo habeis chillado como cerdos",
+      "opciones": [
+        "Marzal",
+        "Jorge",
+        "Feme"
+      ],
+      "correcta": 1,
+      "anio": 2019,
+      "contexto": "Atacar a Jorge diciéndole que ha chillado la jugada del partido como un cerdo"
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Héctor",
+      "cita": "***, lo sabe todo el mielda",
+      "cita_sin_censura": "Hector, lo sabe todo el mielda",
+      "opciones": [
+        "Feme",
+        "Jorge",
+        "Héctor"
+      ],
+      "correcta": 2,
+      "anio": 2017,
+      "contexto": "Llama despectivamente 'el mielda' a Héctor acusándolo de ir de sabelotodo."
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Germi",
+      "cita": "I feuli cas al loco de ***",
+      "cita_sin_censura": "I feuli cas al loco de german",
+      "opciones": [
+        "Marzal",
+        "Humpa",
+        "Germi"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "contexto": "Ataca el criterio de Germi tildándolo despectivamente de 'el loco de german'."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Miki",
+      "cita": "En cuanto a estilismo, suspenso para *** Moratal, por su camisa azul y corbata lila con un nudo lamentable.",
+      "cita_sin_censura": "En cuanto a estilismo, suspenso para Miguel Moratal, por su camisa azul y corbata lila con un nudo lamentable.",
+      "opciones": [
+        "Germi",
+        "Miki",
+        "Marzal"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "contexto": "Ataca y suspende con sorna el estilismo de Miki, mofándose de su camisa, corbata y nudo lamentable."
+    },
+    {
+      "agresor": "Joni",
+      "victima": "Miki",
+      "cita": "La foto se resume en dos madridistas de mierda alopecicos",
+      "cita_sin_censura": "La foto se resume en dos madridistas de mierda alopecicos",
+      "opciones": [
+        "Feme",
+        "Germi",
+        "Miki"
+      ],
+      "correcta": 2,
+      "anio": 2017,
+      "contexto": "Joni llama despectivamente a Miki 'madridista de mierda alopecico' al reaccionar a una foto."
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Humpa",
+      "cita": "Eixe ja no jua parguela",
+      "cita_sin_censura": "Eixe ja no jua parguela",
+      "opciones": [
+        "Germi",
+        "Jorge",
+        "Humpa"
+      ],
+      "correcta": 2,
+      "anio": 2026,
+      "contexto": "Llama parguela a Humpa por ilusionarse con el dorsal de un jugador que ya no juega en el equipo."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Humpa",
+      "cita": "Eres un cagallon de tio",
+      "cita_sin_censura": "Eres un cagallon de tio",
+      "opciones": [
+        "Humpa",
+        "Héctor",
+        "Miki"
+      ],
+      "correcta": 0,
+      "anio": 2017,
+      "contexto": "Insulta directamente a Humpa llamándole cagallón de tío por no pasar la información al grupo."
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Miki",
+      "cita": "Todo viene por tus zqpatillas de mega tolai de Le Coq Esportif",
+      "cita_sin_censura": "Todo viene por tus zqpatillas de mega tolai de Le Coq Esportif",
+      "opciones": [
+        "Germi",
+        "Joni",
+        "Miki"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "contexto": "Vacile e insulto a Miki culpando a sus zapatillas de 'mega tolai' de sus problemas podológicos"
+    },
+    {
+      "agresor": "Jorge",
+      "victima": "Miki",
+      "cita": "La patada de *** marco mucho eh. Ahi estoy con el tolai",
+      "cita_sin_censura": "La patada de Miki marco mucho eh. Ahi estoy con el tolai",
+      "opciones": [
+        "Miki",
+        "Hugo",
+        "Germi"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "contexto": "Jorge llama tolai a Miki al recordar una patada suya jugando al fútbol."
+    },
+    {
+      "agresor": "Feme",
+      "victima": "Miki",
+      "cita": "Entonces eres un cagado",
+      "cita_sin_censura": "Entonces eres un cagado",
+      "opciones": [
+        "Humpa",
+        "Marzal",
+        "Miki"
+      ],
+      "correcta": 2,
+      "anio": 2014,
+      "contexto": "Feme llama cagado a Miki por mostrarse pesimista ante un partido."
+    },
+    {
+      "agresor": "Miki",
+      "victima": "Joni",
+      "cita": "Jajajaja *** gordoo",
+      "cita_sin_censura": "Jajajaja Joni gordoo",
+      "opciones": [
+        "Héctor",
+        "Joni",
+        "Hugo"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "contexto": "Miki llama gordo a Joni."
+    }
+  ]
+}
