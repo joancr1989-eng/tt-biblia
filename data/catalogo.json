@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-11-26T13:15:00+01:00",
+  "ultima_actualizacion": "2026-11-26T17:05:00+01:00",
   "carttelera": [
     {
       "id": "marzal_turca",
@@ -30,7 +30,7 @@
       "id": "verano_germi_2015",
       "archivo": "data/carttelera/verano_germi_2015.json",
       "titulo": "Germi 2015: UNCHAINED",
-      "subtitulo": "80 preguntas · Mayo – Octubre 2015 (+18)",
+      "subtitulo": "80 preguntas · El verano de nuestras vidas (+18)",
       "icono": "🔞",
       "release_date": "2026-12-16T00:00:00+01:00"
     }
@@ -39,7 +39,7 @@
     {
       "id": "elecciones_generales",
       "archivo": "data/historia_tt/especial_elecciones_generales.json",
-      "titulo": "Especial Elecciones Generales ",
+      "titulo": "Especial Elecciones Generales",
       "subtitulo": "100 preguntas · Debates, 20D, 26J, 28A y Pactómetro",
       "icono": "🗳️",
       "release_date": "2026-11-26T16:00:00+01:00"
@@ -55,26 +55,10 @@
   ],
   "Informe Robinson": [
     {
-      "id": "poligrafo_germi",
-      "archivo": "data/poligrafo/germi.json",
-      "titulo": "Expediente Corki",
-      "subtitulo": "El Polígrafo · Verdades, perlas y salidas de tono",
-      "icono": "🕵️",
-      "release_date": "2026-12-07T00:00:00+01:00"
-    },
-    {
-      "id": "poligrafo_ttino",
-      "archivo": "data/poligrafo/ttino.json",
-      "titulo": "Expediente TTino",
-      "subtitulo": "El Polígrafo · La Leyenda",
-      "icono": "🕵️",
-      "release_date": "2026-12-14T00:00:00+01:00"
-    },
-    {
-      "id": "poligrafo_humberto",
-      "archivo": "data/poligrafo/humberto.json",
-      "titulo": "Expediente HP8",
-      "subtitulo": "El Polígrafo · La mentira hasta el final",
+      "id": "poligrafo_hugo",
+      "archivo": "data/poligrafo/hugo.json",
+      "titulo": "Expediente Hugo",
+      "subtitulo": "150 preguntas · Tú saps qui és mon tio?",
       "icono": "🕵️",
       "release_date": "2026-11-30T00:00:00+01:00"
     }
