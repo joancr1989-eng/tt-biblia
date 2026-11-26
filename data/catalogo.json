@@ -1,0 +1,82 @@
+{
+  "ultima_actualizacion": "2026-11-26T13:15:00+01:00",
+  "carttelera": [
+    {
+      "id": "marzal_turca",
+      "archivo": "data/carttelera/marzal_turca.json",
+      "titulo": "La Pasión TTurca",
+      "subtitulo": "30 capítulos · Crónica cronológica de Marzal y la turca",
+      "icono": "🇹🇷",
+      "release_date": "2026-11-25T00:00:00+01:00",
+      "tipo": "capitulos"
+    },
+    {
+      "id": "especial_el_tt",
+      "archivo": "data/carttelera/especial_el_tt.json",
+      "titulo": "El TT: Triangulito Team FC",
+      "subtitulo": "150 preguntas · Historia del glorioso TT (2012–2026)",
+      "icono": "⚽",
+      "release_date": "2026-12-02T00:00:00+01:00"
+    },
+    {
+      "id": "solteros_vs_casados",
+      "archivo": "data/carttelera/especial_solteros_vs_casados.json",
+      "titulo": "Solteros vs Casados: La Guerra Civil",
+      "subtitulo": "80 preguntas · Topos, novias y bandos (2012–2025)",
+      "icono": "⚔️",
+      "release_date": "2026-12-09T00:00:00+01:00"
+    },
+    {
+      "id": "verano_germi_2015",
+      "archivo": "data/carttelera/verano_germi_2015.json",
+      "titulo": "Germi 2015: UNCHAINED",
+      "subtitulo": "80 preguntas · Mayo – Octubre 2015 (+18)",
+      "icono": "🔞",
+      "release_date": "2026-12-16T00:00:00+01:00"
+    }
+  ],
+  "historia_tt": [
+    {
+      "id": "elecciones_generales",
+      "archivo": "data/historia_tt/especial_elecciones_generales.json",
+      "titulo": "Elecciones Generales TT",
+      "subtitulo": "100 preguntas · Debates, 20D, 26J, 28A y Pactómetro",
+      "icono": "🗳️",
+      "release_date": "2026-11-26T16:00:00+01:00"
+    },
+    {
+      "id": "especial_confinamiento",
+      "archivo": "data/historia_tt/especial_confinamiento.json",
+      "titulo": "El Confinamiento del TT (2020)",
+      "subtitulo": "Pandemia, Estado de Alarma y encierro histórico",
+      "icono": "😷",
+      "release_date": "2026-12-03T00:00:00+01:00"
+    }
+  ],
+  "Informe Robinson": [
+    {
+      "id": "poligrafo_germi",
+      "archivo": "data/poligrafo/germi.json",
+      "titulo": "Expediente Corki",
+      "subtitulo": "El Polígrafo · Verdades, perlas y salidas de tono",
+      "icono": "🕵️",
+      "release_date": "2026-12-07T00:00:00+01:00"
+    },
+    {
+      "id": "poligrafo_ttino",
+      "archivo": "data/poligrafo/ttino.json",
+      "titulo": "Expediente TTino",
+      "subtitulo": "El Polígrafo · La Leyenda",
+      "icono": "🕵️",
+      "release_date": "2026-12-14T00:00:00+01:00"
+    },
+    {
+      "id": "poligrafo_humberto",
+      "archivo": "data/poligrafo/humberto.json",
+      "titulo": "Expediente HP8",
+      "subtitulo": "El Polígrafo · La mentira hasta el final",
+      "icono": "🕵️",
+      "release_date": "2026-11-30T00:00:00+01:00"
+    }
+  ]
+}
