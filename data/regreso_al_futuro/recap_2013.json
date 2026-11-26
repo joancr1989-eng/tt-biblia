@@ -1,0 +1,1408 @@
+{
+  "titulo_historia": "Recap TTpedia: 2013",
+  "modelo_usado": "glm5.3-flash",
+  "anio": 2013,
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "pregunta": "Según el parte de guerra de Feme, ¿a quién le \"abrió el cap\" Guaita en la pelea de la discoteca de Oliva?",
+      "cita": "Feme: Li va obrir el cap a uno d piles. Conegut com el motorro",
+      "opciones": [
+        "A un primo del tío Orxano",
+        "A uno de Piles conocido como el motorro",
+        "A un portero del Portuarios",
+        "A un guarda de seguridad de Oliva"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Joni tuiteó la noticia de la pelea de Guaita en Oliva y Feme presumió de conocer el caso de primera mano: la víctima era un chico de Piles apodado \"el motorro\"."
+    },
+    {
+      "pregunta": "¿Qué hito estético certificó Jorge con la frase \"posiblemente sea lo mas gay de todo lo que llevamos de año 2013\"?",
+      "cita": "Jorge: La pose y el traje de JM18, posiblemente sea lo mas gay de todo lo que llevamos de año 2013",
+      "opciones": [
+        "El baile de Feme en Caudete Rock",
+        "La pose y el traje de JM18",
+        "El disfraz de Hugo en fallas",
+        "La foto de Germi en mitad del mar"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "La pose y el traje de JM18 se coronaron oficialmente como lo más gay del año según el cronista Jorge, y aún íbamos por septiembre."
+    },
+    {
+      "pregunta": "¿Qué lugar vendió Germi a Joni como \"porreralandia\", donde la hierba se vende \"como si fuera verdura\"?",
+      "cita": "Germi: Venden hierba como si fuera verdura... Es porreralandia",
+      "opciones": [
+        "La Habana",
+        "Ámsterdam",
+        "Christiania",
+        "El Raval de Barcelona"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Germi descubrió a Joni Christiania (Copenhague), donde se fuma sin problema, y Joni ya apuntó el sitio para celebrar allí el doblete del TT."
+    },
+    {
+      "pregunta": "Según el scouting de Jorge, ¿quién robaría más balones en el medio campo que Fuego jugando de central?",
+      "cita": "Jorge: Pero si metes a Fuego de central, roba balones en el medio campo mi prima la coja",
+      "opciones": [
+        "Su prima la coja",
+        "Banega",
+        "Humber con resaca",
+        "El tío Orxano"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Jorge remató el análisis táctico del Valencia asegurando que hasta su prima la coja robaba más balones que Fuego de central."
+    },
+    {
+      "pregunta": "¿Para qué actividad reunió Hugo al tío Flare, Danielet, Paulino, el Pastis, Cabota, Peluquín, Carabassa y el tío Orxano?",
+      "cita": "Hugo: Asta aspra he quedat en el tío flare, danielet, Paulino, el pastis, cabota, peluquín, carabassa, i el tío orxano. Pa fer una partida al domino",
+      "opciones": [
+        "Para un torneo de mus",
+        "Para una cena de equipo",
+        "Para una pachanga en Beniopa",
+        "Para una partida al dominó"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Hugo presentó su alineación de estrellas del dominó con el elenco más legendario de personajes del pueblo, y se ofreció a presentarlos uno a uno."
+    },
+    {
+      "pregunta": "Según la enciclopedia huguiana de personajes del pueblo, ¿qué antecedente ilustre tiene la familia del tío Flare?",
+      "cita": "Hugo: el tío flare es el fill del que va ser el sacerdote del poblé al 1492",
+      "opciones": [
+        "Su padre fue alcalde y huyó por mafiosos",
+        "Su padre fue el sacerdote del pueblo en 1492",
+        "Su padre era el amo de la orxata",
+        "Su padre era el electricista del pueblo"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Hugo presentó al tío Flare como hijo del que fue sacerdote del pueblo allá por 1492, sin aclarar cómo había sobrevivido tantos siglos."
+    },
+    {
+      "pregunta": "¿Cómo midió Jorge la antigüedad de la última visita nocturna de Miki a las cenas de los viernes?",
+      "cita": "Jorge: La ultima vez que Miki vino un viernes noche...aun se pagaba en pesetas",
+      "opciones": [
+        "Aún jugaba Romário en el Barça",
+        "Aún se fumaba dentro de los bares",
+        "Aún se pagaba en pesetas",
+        "Aún existía el Telecupón"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Jorge dejó claro que la última vez que Miki pisó una cena de viernes noche, la peseta seguía en circulación. Miki se defendió acusándoles de tener excusas también."
+    },
+    {
+      "pregunta": "Según la investigación de Joni, ¿por qué se hizo Miki culé en su etapa oscura?",
+      "cita": "Joni: él, que se hizo cule para ganar cosas (dato clave) se piro a la doctrina che en busca de la gloria",
+      "opciones": [
+        "Porque le fascinaba Guardiola",
+        "Por influencia de su hermano",
+        "Para ganar cosas",
+        "Por amor al estilo de juego"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "Joni destapó el \"dato clave\": Miki se hizo culé solo para ganar cosas y luego se piró a la doctrina che en busca de gloria."
+    },
+    {
+      "pregunta": "¿Qué argumentos esgrimió Miki para justificar su conversión definitiva al valencianismo?",
+      "cita": "Miki: También es cierto que me hice del vlc por la presión. Y porq mi corazón me lo decía!",
+      "opciones": [
+        "La presión social y su corazón",
+        "Los títulos de Mendieta y Aimar",
+        "Su abuela y el tío Orxano",
+        "El clima de Gandia y la paella"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Miki confesó que se hizo del VLC por la presión... y porque su corazón se lo decía, todo un ejemplo de coherencia sentimental."
+    },
+    {
+      "pregunta": "¿Cómo describió Feme la carrera del \"tanke\" Marc tras el reportaje de As?",
+      "cita": "Feme: Ese genio k nunca a querido ser como Maradona. Ha preferido jugar con los amigos",
+      "opciones": [
+        "Un crack de barrio al estilo Iniesta",
+        "Un bohemio que solo brilla de noche",
+        "Un genio que nunca quiso ser como Maradona y prefirió jugar con los amigos",
+        "Un tanke que sueña con fichar por el Madrid"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Tras el \"reportaje de As a nuestro tanke\", Feme definió a Marc como el genio bohemio que rechazó ser Maradona para jugar con los amigos."
+    },
+    {
+      "pregunta": "¿Qué \"acto de cordura\" de Humber imaginó Feme para arruinar las fallas?",
+      "cita": "Feme: Ojala en un acto de cordura humber quemando todas las fallas el dia antes de la crema. Al grito de \" estic loco!!!!\"",
+      "opciones": [
+        "Quemar todas las fallas el día antes de la cremà al grito de 'estic loco!!'",
+        "Casarse en la plaza en plena semana fallera",
+        "Plantar él solo la falla grande de Beniopa",
+        "Prohibir la cremà por razones ecologistas"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme soñó con Humber incendiando todas las fallas un día antes de tiempo al grito de \"estic loco!!!\", posiblemente en el Sanedrín."
+    },
+    {
+      "pregunta": "¿Qué \"bromaza\" histórica recordó Jorge con cariño sobre la ficha de Miki en Afes?",
+      "cita": "Miki: Y cobrarle 12 euros de sanción eh. Que hijos de puta",
+      "opciones": [
+        "Le ficharon como portero suplente",
+        "Le cobraron 12 euros de sanción",
+        "Le prohibieron jugar con pantalón largo",
+        "Le borraron la ficha por impago"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "A Miki le cobraron 12 euros de sanción en Afes pasando vergüenza, y Jorge aún lo recuerda como \"una buena bromaza\"."
+    },
+    {
+      "pregunta": "¿Qué prometió Joni que haría su abuela si el TT se jugaba el ascenso en la última jornada?",
+      "cita": "Joni: Si eso pasa mi abuela hace puchero para todos y el resto esta hecho",
+      "opciones": [
+        "Organiza catering de fideuà para la plantilla",
+        "Reza nueve días seguidos",
+        "Cierra el bar y viene a animar",
+        "Hace puchero para todos y el resto está hecho"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Joni garantizó el banquete post-ascenso: puchero de su abuela para todos, \"y el resto está hecho\"."
+    },
+    {
+      "pregunta": "¿Con qué resultado épico debutó el CF Gandia \"B\" en liga según el parte oficial de Germi?",
+      "cita": "Germi: Primer partido de liga: CF Gandia \"B\" 0-7 UD PORTUARIOS",
+      "opciones": [
+        "1-6",
+        "0-7",
+        "7-0",
+        "0-3"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "El Gandia \"B\" estrenó la liga encajando un 0-7 ante los Portuarios, resultado que Germi reportó con total neutralidad estadística."
+    },
+    {
+      "pregunta": "¿Qué respondió Jorge cuando Hugo le propuso una apuestita por la \"alegría doble\" del sábado?",
+      "cita": "Jorge: No no. Adrenalina suficiente",
+      "opciones": [
+        "Mejor guardo la cartera",
+        "Solo si apuestas tú también",
+        "No no. Adrenalina suficiente",
+        "Vale, pero apuesta baja"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Tras el golazo de Alexis (\"ALEXIS DIOS\"), Hugo intentó montar una apuesta con Jorge, que declinó alegando que ya tenía adrenalina suficiente."
+    },
+    {
+      "pregunta": "¿Cuál era el plan de Germi para la integración de su hermano en el TT?",
+      "cita": "Germi: Hay que intimidarlo desde el principio",
+      "opciones": [
+        "No dejarle hablar el primer año",
+        "Intimidarle desde el principio",
+        "Ponerle de portero en Beniopa",
+        "Hacerle pagar todas las rondas"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "El hermano de Germi anunció que se apuntaría al TT obligado, y Germi ya tenía claro el método de captación: intimidación desde el principio."
+    },
+    {
+      "pregunta": "¿Qué movimiento de mercado anunció Jorge tras la lesión de Feme?",
+      "cita": "Jorge: Hrmos comprado tus derechos eh. Tenemos preferencia",
+      "opciones": [
+        "Te hemos traspasado por 16,5 euros",
+        "Te hemos cedido al Portuarios",
+        "Hemos comprado tus derechos, tenemos preferencia",
+        "Hemos activado tu cláusula de rescisión"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "El TT se adelantó al mercado y \"compró\" los derechos de Feme convaleciente, con derecho de preferencia incluido."
+    },
+    {
+      "pregunta": "¿Contra qué rival, con nombre más bien humilde, debía medirse el TT en Beniopa?",
+      "cita": "Feme: Contra \"Los Paketes\". Se llama asi el ekipo",
+      "opciones": [
+        "Los Cartones",
+        "Los Paketes",
+        "Los Sobres",
+        "Los Cajas"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme anunció el partido del sábado a las 4 en Beniopa contra \"Los Paketes\", un nombre que no auguraba nada bueno para sus rivales."
+    },
+    {
+      "pregunta": "¿Cuál fue la reacción de Miki al enterarse de que Albelda fichaba por Hermano Mayor?",
+      "cita": "Miki: Albelda en hermano mayor? WTF!! Se me cae un mito",
+      "opciones": [
+        "Se me cae un mito",
+        "No lo puedo procesar",
+        "Se me cae la baba",
+        "El mundo se acaba"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "La noticia de Albelda en Hermano Mayor provocó en Miki una crisis de fe: \"Se me cae un mito\"."
+    },
+    {
+      "pregunta": "¿Qué guion soñó Feme para la intervención estelar de Albelda en Hermano Mayor?",
+      "cita": "Feme: Como molaria k saliese diciendo k ek tamb se metia drogas xo k consiguió salir",
+      "opciones": [
+        "Que llorara recordando la Supercopa al Barça",
+        "Que confesara que también se metía drogas pero consiguió salir",
+        "Que destapara los trapos sucios de Mestalla",
+        "Que anunciara su fichaje por el TT"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Feme soñaba con un Albelda revolucionario confesando su pasado de drogas y su redención en \"el mejor programa de la historia de la tv\"."
+    },
+    {
+      "pregunta": "¿Cómo recibió Germi la pregunta de Miki sobre cuándo se pagarían los 16,5 euros de la ficha?",
+      "cita": "Germi: Benos dias Miki, tu a tu ritmo maquina",
+      "opciones": [
+        "Buenos días Miki, tú a tu ritmo máquina",
+        "Paga ya o hay sanción",
+        "Corre Miki, que cierra el plazo",
+        "Miki, la tesorería te espera"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Miki preguntó cuándo se pagaban los 16,5 euros cuando ya solo faltaba él, y Germi le respondió con sorna: \"tú a tu ritmo máquina\"."
+    },
+    {
+      "pregunta": "¿En qué apuesta \"infalible\" invitó Miki a invertir sus ahorros a los chavales antes de un partido del Valencia?",
+      "cita": "Miki: Si queréis apostar, apostar a que al vlc le dan una tunda hoy. Ganaréis pasta",
+      "opciones": [
+        "A que Banega marca de falta",
+        "A que al VLC le dan una tunda",
+        "A que Guaita para un penalti",
+        "A que el árbitro expulsa a uno"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Miki vendió la tunda valencianista como apuesta segura... y el Valencia no recibió ninguna tunda, dejando a los apostantes en la ruina."
+    },
+    {
+      "pregunta": "¿Cómo describió Joni la \"genialidad\" de la alineación de España con Casillas y Koke de lateral?",
+      "cita": "Joni: Genialidad poner al topor y camuflarlo con lo de koke lateral derecho",
+      "opciones": [
+        "Fichar al portero del Portuarios",
+        "Sacar a once mediocentros de inicio",
+        "Jugar sin portería y esperar el 0-0",
+        "Poner al topor y camuflarlo con lo de Koke lateral derecho"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Para Joni, la alineación de España era pura ingeniería: poner al topor y camuflarlo con el humo de Koke de lateral derecho."
+    },
+    {
+      "pregunta": "¿Qué pedía jpedrerol en el tuit que circuló por el grupo tras conocerse la alineación de España?",
+      "cita": "Joni: @jpedrerol: Casillas titular? Basta de bromas. Pasadme la alineación de verdad.",
+      "opciones": [
+        "Dejad de proteger a Casillas",
+        "Convocad a De Gea de una vez",
+        "Pasadme el parte médico de Iker",
+        "Pasadme la alineación de verdad"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Ni Pedrerol se creía la alineación con Casillas titular: \"Basta de bromas. Pasadme la alineación de verdad\"."
+    },
+    {
+      "pregunta": "¿Cómo remataba el tuit que hizo \"me-mearse\" de risa a Miki sobre los centrales del Madrid?",
+      "cita": "Miki: - Pues otro. Del Madrid. Chitón. Jajajajajajajajaj me meo",
+      "opciones": [
+        "Pues el que sea, total no juega",
+        "Pues Nacho, el mejor del mundo",
+        "Pues Albiol, que ese sí juega",
+        "Pues otro. Del Madrid. Chitón."
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "El tuit sobre el central del Madrid \"que no juega nunca\" terminaba con un \"Pues otro. Del Madrid. Chitón\" que derretía a Miki de risa."
+    },
+    {
+      "pregunta": "¿Hasta qué edad admitía Jorge que no se puede ir detrás de la gente para cobrar las cuotas?",
+      "cita": "Jorge: no se puede ir detras d tios de 24 tacos",
+      "opciones": [
+        "De 24 tacos",
+        "De 18 tacos",
+        "De 30 tacos",
+        "De 21 tacos"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "Jorge lanzó el sermón de las cuotas: con la edad que tienen, no se puede ir detrás de tíos de 24 tacos pidiendo el dinero."
+    },
+    {
+      "pregunta": "¿Qué autoridad citó Feme para respaldar el sermón de Jorge sobre pagar las cuotas siendo mayores de edad?",
+      "cita": "Feme: Esk ya tenems una edad. Ya lo dijo un sabio",
+      "opciones": [
+        "Ya lo dijo Platón",
+        "Ya lo dijo el Doctor COTO",
+        "Ya lo dijo Albelda en Hermano Mayor",
+        "Ya lo dijo un sabio"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Feme avaló la teoría con la fuente más fiable posible: \"ya lo dijo un sabio\", sin especificar cuál."
+    },
+    {
+      "pregunta": "¿De cuántos segundos extra se quejaban \"los de cuatro\" tras el partido del Barça según Hugo?",
+      "cita": "Hugo: Quejándose de que se jugó 8 segundos de más!!",
+      "opciones": [
+        "8 minutos",
+        "80 segundos",
+        "8 segundos",
+        "18 segundos"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "Hugo no cabía en sí de la indignación ajena: los de cuatro se quejaban de 8 segundos de tiempo añadido de más."
+    },
+    {
+      "pregunta": "¿Por qué decía Jorge que \"escuece\" a los madridistas el gol del Barça en el 92'?",
+      "cita": "Jorge: Escuece mucho porque en el 92', cuando el Barça iba 2-2, los madridistas se veian ganando en Villareal y sacandonos 2 puntos...y ahora es al reves",
+      "opciones": [
+        "Porque se veían ganando en Villarreal y sacándoles 2 puntos, y ahora es al revés",
+        "Porque el árbitro era madridista confeso",
+        "Porque el gol fue en clara posición antirreglamentaria",
+        "Porque les recordó a la final de la Champions del 92"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "Jorge explicó el dolor madridista: en el 92' se veían ganando en Villarreal y sacando 2 puntos... y el gol del Barça lo volteó todo."
+    },
+    {
+      "pregunta": "¿Qué grito de guerra lanzó Joni tras el golazo de Joao Pereira?",
+      "cita": "Joni: Que vuelva emery!",
+      "opciones": [
+        "Que vuelva Emery!",
+        "Que vuelva Djukic!",
+        "Que vuelva Pellegrino!",
+        "Que vuelva Ranieri!"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Tras un gol de Joao Pereira (\"K grande joao\"), Joni pidió el regreso de Emery, demostrando su nostalgia valencianista."
+    },
+    {
+      "pregunta": "¿Qué \"servicio de información vial\" difundió Héctor al grupo a principios de septiembre?",
+      "cita": "Héctor: Nuevas cámaras radar en Gandía para aumentar la recaudación:",
+      "opciones": [
+        "Una cadena sobre la nueva ley de tráfico",
+        "El calendario de controles de alcoholemia",
+        "La lista punto por punto de las nuevas cámaras radar de Gandía",
+        "El mapa de gasolineras baratas de la Safor"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Héctor difundió el dossier completo de los nuevos radares de Gandía, con cinco puntos exactos (stop del Hotel Gandia incluido) para no arruinarse."
+    },
+    {
+      "pregunta": "Según el Doctor COTO, ¿qué combinación equivale a un tiro de cocaína?",
+      "cita": "Joni: RT @CotoMatamoros1: 8 galletas Oreo y un Red Bull tienen el mismo efecto que un tiro (1/8 gr) de cocaína. Fdo. El Doctor COTO",
+      "opciones": [
+        "3 cafés y un croissant",
+        "8 galletas Oreo y un Red Bull",
+        "Un batido y 5 galletas María",
+        "2 Red Bull y un Donete"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Joni difundió el hallazgo científico del Doctor COTO (8 Oreos + Red Bull = un tiro de coca) y Feme lo avaló con un \"Oleee k wapo\"."
+    },
+    {
+      "pregunta": "¿A qué \"tipejo\" predijo Jorge que iría a ver Humberto mientras el equipo cenaba?",
+      "cita": "Jorge: Ver a un tipejo que probablemente llame a la Comunidad Valenciana, Pais Valencia",
+      "opciones": [
+        "Xavi Castillo",
+        "Vicent Guaita",
+        "Orengo",
+        "El Doctor COTO"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "Mientras el TT cenaba, Humberto eligió ir a ver a Xavi Castillo, el tipejo que llama a la Comunidad Valenciana \"País Valencia\"."
+    },
+    {
+      "pregunta": "¿Qué punto extra incluía el orden del día de la \"cenika de concentración\" del TT según Jorge?",
+      "cita": "Jorge: + entrga de brazalete a 8.Cabrera",
+      "opciones": [
+        "Presentación del nuevo chándal",
+        "Firma del acta constitutiva del equipo",
+        "Entrega de brazalete a 8.Cabrera",
+        "Rueda de prensa previa al debut"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "La cena de concentración en Marxu incluía agenda oficial: ver Hermano Mayor, decidir el quinteto titular y entrega de brazalete a 8.Cabrera."
+    },
+    {
+      "pregunta": "¿Qué \"consuelo\" le quedaba a Jorge sabiendo que Humberto acudiría a ver a Xavi Castillo?",
+      "cita": "Jorge: Al menos existe el consuelo de que se sabia de que pie cojeaba cuando acudio a un meeting de PSOE",
+      "opciones": [
+        "Que se sabía de qué pie cojeaba al acudir a un meeting de PSOE",
+        "Que Feme tampoco podía ir",
+        "Que al menos la entrada era barata",
+        "Que el show acababa temprano"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "Jorge se consolaba pensando que, al menos, Humberto ya delataba su ideología acudiendo a un meeting del PSOE."
+    },
+    {
+      "pregunta": "¿Qué condición ponía Feme para ser \"muy fan de la vena valenciana de Humberto y Hugo\"?",
+      "cita": "Feme: Sobretodo con alcohol d x medio",
+      "opciones": [
+        "Con la manta morellana puesta",
+        "Con alcohol de por medio",
+        "En plenas fallas",
+        "Cantando en valenciano"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Feme declaró ser fan de la vena valenciana de Humberto y Hugo... siempre que hubiera alcohol de por medio."
+    },
+    {
+      "pregunta": "¿Qué tuit tenía preparado Joni antes de leer lo de Media Markt?",
+      "cita": "Joni: Iba a poner puto psoe y puto orengo hasta que he leido lo de media markt",
+      "opciones": [
+        "Puto árbitro y puto Clos Gómez",
+        "Puta tele y puta Media Markt",
+        "Puto psoe y puto orengo",
+        "Puto PP y puto Camps"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Joni tenía preparado el tuit \"puto psoe y puto orengo\", pero lo de Media Markt le hizo cambiar de prioridades."
+    },
+    {
+      "pregunta": "¿Qué orden preventiva dio el padre de Feme antes de un posible accidente de tráfico?",
+      "cita": "Feme: Declaraciones de mi padre :\"ves a lavar el coxe k si tenemos un accidente no kiero k piensen k eramos una familia sucia\"",
+      "opciones": [
+        "Lavar el coche para que no pensaran que eran una familia sucia",
+        "Lavar el coche antes de ir a fallas",
+        "Lavar el coche por dentro y por fuera",
+        "Lavar el coche para poder venderlo"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "El padre de Feme, ante todo el honor familiar: mejor lavar el coche antes de accidentarse para que nadie pensara que eran una familia sucia."
+    },
+    {
+      "pregunta": "¿Qué exigían los followers de Miki según Jorge en plena crisis Guaita?",
+      "cita": "Jorge: Explota Miguel. Tus followers lo exigimos",
+      "opciones": [
+        "Calla Miguel. Tus followers te lo suplicamos",
+        "Explota Miguel. Tus followers lo exigimos",
+        "Twitea Miguel. Tus followers te apoyamos",
+        "Habla Miguel. Tus followers te escuchamos"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Miki se contenía en Twitter ante tanto pro-Guaita, y Jorge le dio la orden popular: \"Explota Miguel. Tus followers lo exigimos\"."
+    },
+    {
+      "pregunta": "¿A quién culpó Miki de que no abandonara al Valencia tras los desastres?",
+      "cita": "Miki: Ya Humber lo estaba pensando pero como me dijo feme que ganábamos pues aquí sigo",
+      "opciones": [
+        "A Germi, que le obligó",
+        "A Jorge, que le retó",
+        "A Feme, que le dijo que ganaban",
+        "A Hugo, que le convenció en la playa"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Miki confesó que lo estaba pensando, pero como Feme le dijo que ganaban... ahí sigue, pagando las consecuencias."
+    },
+    {
+      "pregunta": "¿Qué argumento estrella usó Hugo para vender la pachanga en la playa de Bellreguard?",
+      "cita": "Hugo: Hay un campito aplanado, con porterías con red que esta de puta madre",
+      "opciones": [
+        "Un campito aplanado con porterías con red",
+        "Una pista de hierba artificial nueva",
+        "Un frontón adaptado a fútbol 7",
+        "Un campo con vestuarios y duchas"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Hugo propuso pachanga en la arena de Bellreguard vendiendo el campito aplanado con porterías con red \"que está de puta madre\", aunque había que ir prontito a pillarla."
+    },
+    {
+      "pregunta": "¿Cuál era el plan de recuperación exprés de Feme tras su lesión?",
+      "cita": "Feme: estes 2 semanes vaig a cremarme a tope pa ficarm a punt lo antes posible",
+      "opciones": [
+        "Cremarse a tope dos semanas para ponerse a punto",
+        "Ir al fisio del Portuarios",
+        "Nadar cada mañana en la playa",
+        "Tomar batidos del Doctor COTO"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Tras la resonancia, Feme planeó \"cremarse a tope\" dos semanas para debutar lo antes posible con el TT."
+    },
+    {
+      "pregunta": "¿Con qué sueño \"diagnosticó\" Germi al tuitero que le enviaba privaditos?",
+      "cita": "Germi: Un subnormal que sueña con que algun dia los 25 miembros de la plantilla del Barça sean de la cantera",
+      "opciones": [
+        "Que Messi volviera al Barça B",
+        "Que el Barça fichara a Guaita",
+        "Que el Barça jugara con once mediocentros",
+        "Que algún día los 25 miembros de la plantilla del Barça sean de la cantera"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "Germi radiografió al \"tolai\" que le enviaba privaditos: un subnormal que sueña con una plantilla del Barça entera de cantera."
+    },
+    {
+      "pregunta": "¿Qué \"respuesta de caballeros\" parodió Germi para despachar al troll culé?",
+      "cita": "Germi: Mire usted. Y exprésese con respeto, se lo ruego. Saludos.",
+      "opciones": [
+        "Le pido amablemente que deje de escribirme. Saludos.",
+        "Exprésese con respeto, se lo ruego. Saludos.",
+        "Con el debido respeto, retírese. Un saludo.",
+        "Le ruego que se calle, caballero. Saludos."
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Germi imitó el tono educado del troll (\"exprésese con respeto, se lo ruego. Saludos\") para dejarlo en evidencia ante todo el grupo."
+    },
+    {
+      "pregunta": "¿Qué tuiteó Hugo que cientos de aficionados pedían a las puertas de Mestalla?",
+      "cita": "Joni: @HugoBallester: Cientos de aficionados piden, a las puertas de Mestalla que los futbolistas salgan a pedir perdón.",
+      "opciones": [
+        "Que los futbolistas devolvieran el sueldo",
+        "Que los futbolistas salieran a pedir perdón",
+        "Que bajaran los precios del abono",
+        "Que dimitiera la directiva al completo"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Hugo cubrió como corresponsal la protesta de Mestalla: cientos de aficionados exigían que los futbolistas salieran a pedir perdón."
+    },
+    {
+      "pregunta": "¿De qué vivía Banega según el análisis implacable de Jorge?",
+      "cita": "Jorge: Banega vive de los 6/7 partidos buenos que hace en una temporada",
+      "opciones": [
+        "De los 6/7 partidos buenos que hace en una temporada",
+        "De los regates en los calentamientos",
+        "De los penaltis que le pitan",
+        "De las entrevistas post-partido"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Jorge sentenció que Banega vive de sus 6 o 7 partidos buenos anuales, y que los semi-valencianis no sabían disfrutar del momento."
+    },
+    {
+      "pregunta": "¿Qué capítulo exigía Jorge para el futuro documental sobre Humber?",
+      "cita": "Jorge: Incluyendo un capitulo sobre como ha evolucionado su relacion con las fallas",
+      "opciones": [
+        "Cómo perdió la manta morellana",
+        "Cómo conoció al Sanedrín",
+        "Cómo superó su miedo a la pólvora",
+        "Cómo ha evolucionado su relación con las fallas"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Jorge reclamó un documental sobre Humber con capítulo obligatorio sobre la evolución de su relación con las fallas."
+    },
+    {
+      "pregunta": "¿Qué encargo fallero preguntó Jorge que quizá ya estaba gestionado?",
+      "cita": "Jorge: La manta morellana ya ha sido encargada?",
+      "opciones": [
+        "La paella del Sanedrín",
+        "La camiseta de la peña",
+        "El cartel de la falla",
+        "La manta morellana"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Con las fallas en el horizonte, Jorge preguntó por el encargo oficial del grupo: la manta morellana."
+    },
+    {
+      "pregunta": "¿Qué hashtag de autor patentó Feme a principios de septiembre?",
+      "cita": "Feme: #julandrastyle",
+      "opciones": [
+        "#julandrastyle",
+        "#TTstyle",
+        "#femestyle",
+        "#caudeterock"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme lanzó al mundo el #julandrastyle, nuevo estándar estético del grupo del que no trascendieron más detalles."
+    },
+    {
+      "pregunta": "¿Qué era \"lo más lamentable\" de la foto de Caudete Rock según Feme en plena noche de fiesta?",
+      "cita": "Feme: Lo mas alamentwble es k n la ofoto no va ninguno borraxo",
+      "opciones": [
+        "Que perdieron las entradas",
+        "Que en la foto no iba ninguno borracho",
+        "Que el cartel era pésimo",
+        "Que el coche no arrancaba"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "En plena madrugada de Caudete Rock, Feme dictaminó con faltas de ortografía incluidas que lo más lamentable era que en la foto no saliera nadie borracho."
+    },
+    {
+      "pregunta": "Tras destaparse el historial futbolístico completo de Miki (valencianista, ex barcelonista y madridista en una final de Copa), ¿cómo lo resumió Feme?",
+      "cita": "Feme: Miki es del valencia, ha sido del barça y animó al Madrid. Sin duda alguien unico en españa",
+      "opciones": [
+        "El hincha más coherente de la comarca",
+        "Un ejemplo de fidelidad valencianista",
+        "Sin duda alguien único en España",
+        "El último romántico del fútbol nacional"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "En pleno Olimpic-Real Madrid salió a la luz el expediente chaquetero de Miki: del Valencia, ex del Barça y animando al Madrid en la final de Copa. Feme lo coronó como 'alguien único en España'."
+    },
+    {
+      "pregunta": "¿Con qué definición inmortal selló Jorge el caso Miki y sus equipos?",
+      "cita": "Jorge: El chaqueterismo hecho persona",
+      "opciones": [
+        "El chaqueterismo hecho persona",
+        "El madrilismo hecho persona",
+        "La coherencia hecho persona",
+        "El romanticismo hecho persona"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Jorge bautizó científicamente el fenómeno: Miki no es un hincha, es 'el chaqueterismo hecho persona'."
+    },
+    {
+      "pregunta": "¿A qué equipo daban por hecho que 'saltaría' Miki y con qué cuota en la casa de apuestas del TT?",
+      "cita": "Feme: Se paga a 1.4 k su próximo ekipo sera el sevilla",
+      "opciones": [
+        "Al Betis, pagando a cuota 2.5",
+        "Al Alcoyano, pagando a cuota 1.01",
+        "Al Sevilla, pagando a cuota 1.4",
+        "Al Chelsea, pagando a cuota 10"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme abrió mercado oficial: el próximo equipo de Miki sería el Sevilla y se pagaba a 1.4. La casa de apuestas del TT ya lo daba por casi cerrado."
+    },
+    {
+      "pregunta": "¿Con qué selecciones 'no se descartaba' ver a Miki en el Mundial según Joni?",
+      "cita": "Joni: No se descarta que miki en el mundial vaya con corea del sur o con Francia visto los antecedentes",
+      "opciones": [
+        "Corea del Sur o Francia",
+        "Italia o Inglaterra",
+        "Holanda o Alemania",
+        "Portugal o Brasil"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Visto el expediente chaquetero, Joni no descartaba ver a Miki en el Mundial de Brasil con Corea del Sur o con Francia, 'visto los antecedentes'."
+    },
+    {
+      "pregunta": "¿Cómo se autodiagnosticó Miki para justificar su historial de equipos?",
+      "cita": "Miki: Madre de dios. Todo eso es fruto de ser un buen hincha del Valencia, esquizofrenia futbolística. Feme no lo entenderá",
+      "opciones": [
+        "Esquizofrenia futbolística",
+        "Una crisis de identidad de los 25",
+        "Síndrome del aficionado universal",
+        "Amor al fútbol por encima de los escudos"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Miki defendió su expediente con un diagnóstico propio: 'esquizofrenia futbolística', fruto de ser 'un buen hincha del Valencia'. Y avisó: 'Feme no lo entenderá'."
+    },
+    {
+      "pregunta": "¿Qué pregunta trampa lanzó Feme para sonsacar el pasado madridista o valencianista de Miki?",
+      "cita": "Feme: Miki en la final de champions del 2000 a kien apoyabas? Madrid o valencia?",
+      "opciones": [
+        "¿En la Eurocopa 2008, España o Alemania?",
+        "¿En el Mundial 2010, España u Holanda?",
+        "¿En la final de Champions del 2000, Madrid o Valencia?",
+        "¿En la final del 2009, Barça o United?"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme intentó pillar a Miki con la final del 2000 entre Madrid y Valencia: el examen definitivo del chaqueterismo. Resultado del test: nunca revelado."
+    },
+    {
+      "pregunta": "¿Por qué Miki se negó en redondo a ir a un bar a ver el Valencia-Real Madrid de Copa?",
+      "cita": "Miki: No me voy a un bar a ver ese bodrio ni loco. El Valencia da un asco tan grande q no lo merece",
+      "opciones": [
+        "Porque el Valencia le daba asco y no lo merecía",
+        "Porque estaba castigado sin fútbol por Feme",
+        "Porque tenía guardia en Asepeyo",
+        "Porque ese día era oficialmente madridista"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "El 'gran hincha' valencianista rechazó ver a su equipo por puro asco. Jorge concluyó que era 'una mente con mecanismos que no podemos ni intentar comprender'."
+    },
+    {
+      "pregunta": "¿Qué título inventó Feme para el valencianista que se negaba a ver a su propio equipo?",
+      "cita": "Feme: Ohhh el suxvalencianista rexaza ver a su ekipo",
+      "opciones": [
+        "Ohhh el suxvalencianista rexaza ver a su ekipo",
+        "Ohhh el gran capitán ya está en Mestalla",
+        "Ohhh el hincha del año renueva su abono",
+        "Ohhh el valencianista de oro anima desde el bar"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme acuñó el cargo de 'suxvalencianista' para Miki, que rexazaba ver a su ekipo. Acto seguido lo declaró 'RE-TRA-TA-DO'."
+    },
+    {
+      "pregunta": "¿Qué dijo Miki al descubrir el reportaje de la casa de Jorge Lorenzo?",
+      "cita": "Miki: Habéis visto la casa de Lorenzo? Q puto desfase Enserio",
+      "opciones": [
+        "Q austera, no me gusta nada",
+        "Q puto desfase Enserio",
+        "Q casoplon, yo tengo una igual",
+        "Q normalidad, esperaba bastante más"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "El reportaje de la casa de Lorenzo dejó a Miki en shock: 'Q puto desfase Enserio'. Y eso que aún no había llegado al sótano..."
+    },
+    {
+      "pregunta": "¿Qué fue lo definitivo que remató a Miki en el reportaje de la casa de Lorenzo?",
+      "cita": "Miki: Esq, cuando me pensaba q la casa ya no podía estar más guapa... Aparece el sótano con el mega gimnasio y las piscina de 20 metros.... Y lo de boxear....",
+      "opciones": [
+        "Un circuito de karts en el garaje",
+        "El sótano con mega gimnasio, piscina de 20 metros y boxeo",
+        "Una bolera privada y un cine en 4D",
+        "Una colección de motos de oro macizo"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Miki creía que la casa ya no podía ser más guapa... hasta aparecer el sótano con mega gimnasio, piscina de 20 metros y lo de boxear. KO técnico."
+    },
+    {
+      "pregunta": "¿Cuál fue la mítica aportación de Hugo al gran debate de la casa de Lorenzo?",
+      "cita": "Hugo: Discotec!!",
+      "opciones": [
+        "Piscinota!!",
+        "Garajazo!!",
+        "Discotec!!",
+        "Chillout!!"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Mientras unos hablaban de envidia y otros de patrocinadores, Hugo resumió todo el reportaje con una sola palabra: 'Discotec!!'."
+    },
+    {
+      "pregunta": "¿Cómo defendió Miki a Lorenzo de las críticas por lucir su casa en televisión?",
+      "cita": "Miki: Porq en África moría gente tmb... El tono con el q lo hace? Tenía q decirlo llorando o serio o algo así?",
+      "opciones": [
+        "Recordando que era publicidad pagada por Yamaha",
+        "Argumentando que se lo había ganado a base de títulos",
+        "Diciendo que la casa era de alquiler",
+        "Diciendo que en África también moría gente"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Ante las críticas al reportaje, Miki soltó un 'Porq en África moría gente tmb...' y preguntó si Lorenzo tenía que decirlo llorando. Defensa de manual chaquetero."
+    },
+    {
+      "pregunta": "¿De qué dependía que Jorge se apuntara a los planes de fin de semana?",
+      "cita": "Jorge: Yo depende de como lleve el puto Power Point",
+      "opciones": [
+        "De si ganaba el Valencia o no",
+        "De si llovía el sábado por la tarde",
+        "Del permiso que le diera su madre",
+        "De cómo llevara el puto Power Point"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "La vida social de Jorge pendía de un hilo universitario: el puto Power Point. Si avanzaba, había plan; si no, a sufrir en casa."
+    },
+    {
+      "pregunta": "¿Qué hito histórico celebró Feme sobre el equipo de Arnau en la universidad?",
+      "cita": "Feme: X cierto jorge viste k el ekipo de arnau de la uni gano su 1 partido despues d 3 años???",
+      "opciones": [
+        "Ganó la liga de su facultad invicto",
+        "Ganó su primer partido después de 3 años",
+        "Ascendió a la primera división universitaria",
+        "Fichó a un ex del Valencia B"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "El equipo de Arnau —capi, con página de Facebook y hasta entrevistas— ganó su primer partido tras 3 años. Feme lo comunicó con la solemnidad de un hito nacional."
+    },
+    {
+      "pregunta": "¿Qué había que aportar para correr la San Silvestre propuesta por Feme?",
+      "cita": "Feme: La san silvestre. Dia 27 viernes a kas 9. 1 euro i 1 kg d comida",
+      "opciones": [
+        "5 euros y una manta solidaria",
+        "1 euro y 1 kg de comida",
+        "2 kilos de polvorones",
+        "Nada, la inscripción era gratuita"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "La San Silvestre del 27 a las 9: 1 euro y 1 kg de comida. Jorge cantó 'Ojo ojo, se viene' antes de enterarse de que además había premios de disfraces."
+    },
+    {
+      "pregunta": "¿Qué 'plan' se estaba organizando con Miki según el tuit de Arturo Torro que compartió Jorge?",
+      "cita": "Jorge: @arturotorro: Planeando con mi vecino @Miguelinho1989 el viaje al #Bernabeu para el partido de vuelta, una lastima que el vaya a animar al Madrid como en la ultima final de #Copa",
+      "opciones": [
+        "La cena de Nochevieja en el aparta",
+        "Un viaje a ver al Barça al Camp Nou",
+        "Un torneo de pádel entre vecinos de Oliva",
+        "El viaje al Bernabéu para la vuelta del Olimpic-Real Madrid"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Arturo Torro tuiteó que planeaba el viaje al Bernabéu con su vecino Miki... lamentando que animaría al Madrid 'como en la última final de Copa'. El chaquetero, retratado también en Twitter."
+    },
+    {
+      "pregunta": "Según Joni, ¿quién conocía ya los cruces de Champions antes del sorteo?",
+      "cita": "Joni: Que nos toca el city y al madrid el olympiakos lo sabe hasta la podologa de miki",
+      "opciones": [
+        "Hasta la madre de Jorge",
+        "Hasta la peluquera de Feme",
+        "Hasta la podóloga de Miki",
+        "Hasta el profe de gimnasia de Germi"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Joni dio por hecho que al TT le tocaría el City y al Madrid el Olympiakos: 'lo sabe hasta la podóloga de Miki'. El sorteo estaba más cantado que nunca."
+    },
+    {
+      "pregunta": "¿Qué había hecho Feme para declararse oficialmente incapaz de aguantar más en casa?",
+      "cita": "Feme: Ya me visto un capitulo de walking dead i otro d los soprano. I ja no puedo estar mas en casa",
+      "opciones": [
+        "Ver tres películas de sobremesa seguidas",
+        "Ver un capítulo de Walking Dead y otro de Los Soprano",
+        "Ponerse al día con todos los deberes",
+        "Limpiar toda la casa dos veces seguidas"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Feme llegó al límite del aburrimiento: un capítulo de Walking Dead, otro de Los Soprano y rendición. Jorge lo bautizó para la posteridad como 'feme el ocioso'."
+    },
+    {
+      "pregunta": "Según Jorge, ¿cuál era 'el problema' de Feme y los suyos?",
+      "cita": "Jorge: Es el problema que teneis los que no os gusta viciaros",
+      "opciones": [
+        "Que no tienen consola en casa",
+        "Que no les gusta viciar",
+        "Que madrugan demasiado los fines de semana",
+        "Que no saben perder al FIFA"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Ante el ocio extremo de Feme, Jorge diagnosticó el mal de raíz: no vician. Sin videojuegos, solo quedan series, shopping y desesperación."
+    },
+    {
+      "pregunta": "¿Con qué saludo cargado de energía arrancó Feme una mañana cualquiera?",
+      "cita": "Feme: Buenos dias xavales! Un poco d droga xa empezar el dia!!!",
+      "opciones": [
+        "Un cafelito bien cargado para los soldados",
+        "Un poco de droga para empezar el día",
+        "Hoy toca entrenar duro, xavales",
+        "Arriba esos brazos, familia"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Los buenos días de Feme no eran como los del resto: 'Un poco d droga xa empezar el dia!!!'. Desayuno de campeones del TT."
+    },
+    {
+      "pregunta": "¿De qué acusaba Adelina a Loreto antes de su simbólico 'entierro'?",
+      "cita": "Joni: Se informa a los presentes que el lunes se celebra el entierro de Loreto rosenova,ahora está viva inconsciente de que adelina tiene pruebas de que copió en un examen de valenciano.DEP",
+      "opciones": [
+        "Chivarse al profesor de matemáticas",
+        "Suspender a propósito el examen oral",
+        "Copiar en un examen de valenciano",
+        "Robar los apuntes de historia"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Joni anunció el 'entierro' de Loreto Rosenova: viva e inconsciente de que Adelina tenía pruebas de que copió en un examen de valenciano. DEP anticipado."
+    },
+    {
+      "pregunta": "¿Qué aseguró el 'Polilla', amigo de J.F., sobre Michu?",
+      "cita": "Jorge: El polilla, amigo de J.F.: 'Michu tambien se droga y todo lo paga el'",
+      "opciones": [
+        "Que se droga y todo lo paga él",
+        "Que le paga el club por ir al gimnasio",
+        "Que es madridista en secreto",
+        "Que cobra en B y en negro"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "El Polilla, amigo de J.F., repartió perlas como 'Michu también se droga y todo lo paga él'. El mismo genio que definió a una mujer como 'loca, maruja'."
+    },
+    {
+      "pregunta": "¿Cómo celebró Jorge el fichaje de Pizzi por el Valencia?",
+      "cita": "Jorge: Pizzi, Pizzi...que bueno que llegaste! Pizzi Pizzi...sos macanudo!",
+      "opciones": [
+        "Haciéndole la ola desde Mestalla",
+        "Dedicándole un poema en valenciano",
+        "Cantándole 'Pizzi, Pizzi... sos macanudo!'",
+        "Prometiendo ir a verle entrenar"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Jorge recibió a Pizzi con canción de bienvenida incluida: 'Pizzi, Pizzi... qué bueno que llegaste! Sos macanudo!'. Miki, por su parte, soltó un 'mamarracho'."
+    },
+    {
+      "pregunta": "¿Cómo recibió Miki la llegada de otro técnico argentino al banquillo del Valencia?",
+      "cita": "Miki: Otro argentino eso es lo q nos hace falta. Mamarracho",
+      "opciones": [
+        "'Otro argentino, eso es lo que nos hace falta, mamarracho'",
+        "'Me gusta, tiene experiencia en La Liga'",
+        "'Con Pizzi volveremos a Europa'",
+        "'¡Por fin un técnico serio y ganador!'"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Miki recibió a Pizzi con sarcasmo puro: 'Otro argentino eso es lo q nos hace falta. Mamarracho'. Jorge invocó el fantasma de 'Pelelegrino en la memoria'."
+    },
+    {
+      "pregunta": "¿Qué 'recuerdo' invocó Jorge ante la llegada de Pizzi al Valencia?",
+      "cita": "Jorge: Pelelegrino en la memoria",
+      "opciones": [
+        "El gol de Mista en Mestalla",
+        "Pelelegrino en la memoria",
+        "El 5-0 ante el Real Madrid",
+        "La final de Roma 2009"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Ante otro técnico argentino en el banquillo, Jorge evocó el trauma histórico: 'Pelelegrino en la memoria'. El Valencia y sus experimentos argentinos."
+    },
+    {
+      "pregunta": "¿Qué 'milagro navideño' celebró Feme por Navidad?",
+      "cita": "Feme: Cruzar con el coxe borraxo 2 controles i k no te paren... MILAGRO NAVIDEÑO!!",
+      "opciones": [
+        "Encontrar aparcamiento en Valencia a la primera",
+        "Que el turrón durara hasta Reyes",
+        "Cruzar borracho dos controles sin que le paren",
+        "Ganar la pachanga especial de Navidad"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Feme celebró las fiestas con un auténtico milagro: cruzar con el coche borracho dos controles y que no le paren. Navidad 2013, para el recuerdo."
+    },
+    {
+      "pregunta": "¿En qué bulo de fichaje invernal había caído Miki?",
+      "cita": "Miki: Ostia me había creído lo de Lucas Toni al barsa",
+      "opciones": [
+        "Pizzi al Valencia",
+        "Lucas Toni al Barça",
+        "Ibrahimovic al Madrid",
+        "Kun Agüero al City"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Miki cayó de lleno en el bulo de Lucas Toni al Barça... y encima lo defendió: 'es que lo de Lucas Toni tenía sentido y todo'."
+    },
+    {
+      "pregunta": "¿Cómo tituló Jorge la gesta del Olimpic de Xàtiva ante el Real Madrid?",
+      "cita": "Jorge: El Olimpic de Rus y Torro sacandosela",
+      "opciones": [
+        "El Olimpic de Rus y Torro sacandosela",
+        "El Olimpic, orgullo de la comarca",
+        "Rus y Torro, héroes de la Copa",
+        "El Olimpic roba en el Nou Estadi"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Con Alfonso Rus y Arturo Torro en los palcos, Jorge resumió el Olimpic-Real Madrid con un 'sacandosela'. Feme añadió que seguro que no iban a intentar comprar al árbitro."
+    },
+    {
+      "pregunta": "¿Cómo imaginó Jorge la celebración de Rus y Torro si el Olimpic pasaba de ronda?",
+      "cita": "Jorge: Ojala pasen de ronda y los dos lo celebren bañandose en la Cibeles o algo",
+      "opciones": [
+        "Desfilando por la falla central de Oliva",
+        "Bañándose en la Cibeles",
+        "Con un baño masivo en el río Serpis",
+        "Comprando el Real Madrid entre los dos"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Jorge soñaba con Rus y Torro celebrando el pase de ronda 'bañándose en la Cibeles o algo'. Nivel de fantasía política-deportiva: máximo."
+    },
+    {
+      "pregunta": "¿Cuál era la teoría de Jorge sobre las convocatorias de Del Bosque con Bartra?",
+      "cita": "Jorge: Lo convoca para que si el dia de mañana hay independencia Catalana, Bartra no pueda jugar con ellos, o algo",
+      "opciones": [
+        "Para que no pudiera jugar con Cataluña si hay independencia",
+        "Para hacerle un favor a Piqué con la defensa",
+        "Para vender más camisetas en Cataluña",
+        "Para molestar a la selección catalana de fútbol"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Jorge teorizó que Del Bosque convocaba a Bartra solo para bloquearlo ante una hipotética independencia catalana. Los haters de Don Vicente, cada día más dentro."
+    },
+    {
+      "pregunta": "¿Qué 'logro promocional' de Alfonso Rus celebraba el tuit que compartió Joni?",
+      "cita": "Joni: @arturotorro: #AlfonsoRus provoca un apagón del #Whatsapp durante el Olimpic-Real Madrid. Esto es promocionar y lo demás tonterías. Jajaja",
+      "opciones": [
+        "Ganar 1-0 al Real Madrid en Copa",
+        "Salir bailando en el telediario regional",
+        "Provocar un apagón del Whatsapp durante el partido",
+        "Llenar el Nou Estadi de Xàtiva hasta la bandera"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Arturo Torro tuiteó que Rus había 'provocado un apagón del Whatsapp' durante el Olimpic-Real Madrid: 'esto es promocionar y lo demás tonterías'."
+    },
+    {
+      "pregunta": "¿Cómo celebró Joni una nueva victoria del TT?",
+      "cita": "Joni: Another saturday more el TT se la saca again",
+      "opciones": [
+        "TT campeón, olé y olé",
+        "Another saturday more el TT se la saca again",
+        "Otra semana más, otros tres puntos",
+        "Somos la dinastía de la Safor"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Joni celebró la victoria con su inglés de supervivencia: 'Another saturday more el TT se la saca again'. Jorge respondió con un 'Uhhhhhh caralho!!!'."
+    },
+    {
+      "pregunta": "¿Por qué felicitó Miki con sorna a parte del grupo tras el sorteo de Copa?",
+      "cita": "Miki: Enhorabuena chavales ya estáis en la final de la copa del rey",
+      "opciones": [
+        "Porque el Valencia se había plantado en la final",
+        "Porque el Barça ganó la Champions aquella semana",
+        "Porque el Barça ya estaba 'en la final' tras el sorteo",
+        "Porque el TT había ganado su liga local"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Tras el sorteo de Copa, Miki felicitó: 'ya estáis en la final'. Germi reconoció que 'vaya cuadro le ha tocado al Barça' y Feme se lamentó del 'suerte cabrones' con el Valencia contra los colchoneros."
+    },
+    {
+      "pregunta": "¿Cómo reaccionó Jorge al gol de Feme con el TT?",
+      "cita": "Jorge: El mismo Feme que ni ha visto el partido con nosotros? El mismo Feme que Feme y las judias magicas?",
+      "opciones": [
+        "Comparándolo con Cristiano Ronaldo",
+        "Pidiendo su fichaje inmediato para el primer equipo",
+        "Nombrándolo capitán vitalicio del TT",
+        "Recordando que ni había visto el partido y lo de las judías mágicas"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Miki cantó 'Goooool de femao!' y Jorge no se lo creía: el mismo Feme que ni había visto el partido ni se enteraba de las alineaciones ('Feme y las judías mágicas') marcando."
+    },
+    {
+      "pregunta": "¿Qué agradeció Feme de corazón tras el partido?",
+      "cita": "Feme: Enhorqbuena chavales. Os lo mereceis. I muxas gracias x kedaros",
+      "opciones": [
+        "La invitación a la torra de Navidad",
+        "El apoyo tras su lesión de tobillo",
+        "El regalo de Reyes anticipado",
+        "Que se quedaran a verle jugar"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Feme agradeció con emoción que se quedaran a verle: 'sea un rato o todo el partido, de verdad k gracias'. Joni aclaró después que estaban cansados y no había nada mejor que hacer."
+    },
+    {
+      "pregunta": "¿Cuál era la verdadera razón por la que el grupo se quedó a ver a Feme, según Joni?",
+      "cita": "Joni: No,si en verdad era porqie estábamos cansados y no había nada mejor que hacer jajajajaja",
+      "opciones": [
+        "Habían jurado no fallarle nunca",
+        "Feme pagó las cañas a todos",
+        "Estaban cansados y no había nada mejor que hacer",
+        "El partido fue un partidazo histórico"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Tras el agradecimiento más emotivo de Feme, Joni rompió la magia: estaban cansados y no había nada mejor que hacer. Amistad de la buena."
+    },
+    {
+      "pregunta": "¿De quién se meaba Miki tras el tropiezo del Barça con el Athletic?",
+      "cita": "Miki: Me meo. De vosotros, no del barsa",
+      "opciones": [
+        "De la jugada de Aduriz",
+        "Del Barça, de la risa",
+        "Del árbitro y sus decisiones",
+        "De vosotros, no del Barça"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Tras la derrota culé, Hugo y Jorge se burlaban del Barça y Miki aclaró que se meaba 'de vosotros, no del barsa'. Joni remató: nos marea un equipo cuyos referentes son Toquero y Muniain."
+    },
+    {
+      "pregunta": "¿Qué equipo le estaba 'meando' al TT según Joni y por qué era tan 'penoso'?",
+      "cita": "Joni: Nos esta meando un equipo cuyos referentes son toquero y muniain..penoso",
+      "opciones": [
+        "El Athletic, con Toquero y Muniain como referentes",
+        "El Elche, con Coro como estrella",
+        "El Getafe, con Miku de delantero centro",
+        "El Alcoyano, con su portero como único referente"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Joni no digirió que el Athletic, 'cuyos referentes son Toquero y Muniain', les estuviera pasando por encima. Penoso."
+    },
+    {
+      "pregunta": "¿Cómo describió Miki a los amigos de Joni en la discusión sobre los originales del TT?",
+      "cita": "Miki: Jajajjaja y que lo que cuenta es estar ahí desde siempre. Tu preferiste seguir con esa banda de cerdos que llamas amigos",
+      "opciones": [
+        "Esos señores del pico pala",
+        "Esa mafia universitaria de Gandia",
+        "Esa peña de jugadores de raspall",
+        "Esa banda de cerdos que llamas amigos"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "La discusión sobre quién era 'original' del TT dejó frases históricas: Miki acusó a Joni de preferir 'a esa banda de cerdos que llamas amigos' en vez de estar 'ahí desde siempre'."
+    },
+    {
+      "pregunta": "¿Qué se le negó a Joni en plena discusión de motes y orígenes?",
+      "cita": "Jorge: No erez un miembro original del TG. TT",
+      "opciones": [
+        "Llevar el dorsal 10 del equipo",
+        "Elegir el mote de Feme",
+        "Ser miembro original del TT",
+        "Ser el capitán de la pachanga"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Jorge corrigió su propio typo en directo ('TG... TT') para negarle a Joni el estatus de miembro original. Miki celebró que 'te lo ha dicho bien claro'."
+    },
+    {
+      "pregunta": "Según el sarcasmo de Joni, ¿cuánto 'entregaba' Ferrer a cada vecino de Xàbia?",
+      "cita": "Joni: Nada nada.ferru tributa en España y me consta que entrega 100 € a cada vecino de xabia",
+      "opciones": [
+        "100 €",
+        "Un jamón por Navidad",
+        "1.000 €",
+        "50 €"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "En el eterno debate Nadal-Ferrer, Joni ironizó: 'Ferru tributa en España y me consta que entrega 100 € a cada vecino de Xàbia'. Hugo, mientras, se marcó un discursazo pro-Ferrer."
+    },
+    {
+      "pregunta": "¿Por qué estaba Miki en Asepeyo un día de noviembre?",
+      "cita": "Miki: Q va, estoy en asepeyo que un trabajador se ha abierto el dedo. Por lo tanto,si me han jodido el almuerzo.",
+      "opciones": [
+        "Por una astilla gigante clavada en el ojo",
+        "Se había cortado él mismo con la sierra",
+        "Acompañando a Feme al fisio deportivo",
+        "Un trabajador se había abierto el dedo y le jodió el almuerzo"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Miki estaba en Asepeyo porque un trabajador se había abierto el dedo ('la uña concretamente'). Víctima principal: su almuerzo, que Jorge declaró sagrado y merecedor de indemnización."
+    },
+    {
+      "pregunta": "¿Con qué 'noticia de última hora' abrió el día Germi tras una noche de fiesta?",
+      "cita": "Germi: Yo acabo de soltar un zurullo tremendo",
+      "opciones": [
+        "He aprobado el examen de valenciano",
+        "Me ha fichado el Olimpic de Xàtiva",
+        "Yo acabo de soltar un zurullo tremendo",
+        "He conocido a la mujer de mi vida"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Germi abrió el día con total naturalidad: 'Yo acabo de soltar un zurullo tremendo'. Acto seguido, preguntó quién le sustituía para jugar en Alicante con resaca: 'mala barraca vamos a montar'."
+    },
+    {
+      "pregunta": "¿Qué 'revelación' hizo Feme sobre Messi tras un gran partido?",
+      "cita": "Feme: Lo mejor de todo es saber k se a tirado 5 años robando al Madrid",
+      "opciones": [
+        "Que era madridista desde su infancia",
+        "Que se había tirado 5 años robando al Madrid",
+        "Que le tenía pánico a Pepe",
+        "Que cobraba comisión del Madrid por no marcarle"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "opinion",
+      "explicacion": "Tras un partidazo de Messi ('K xufo!'), Feme celebró 'lo mejor de todo': que se había tirado 5 años robando al Madrid. Análisis técnico impecable."
+    },
+    {
+      "pregunta": "¿Quién le había hecho la 'mala pata' a Miki en la pachanga?",
+      "cita": "Miki: Mala pata sucia me pega el Mongolo del Ronaldo",
+      "opciones": [
+        "El tramposo de Nadal",
+        "El polilla, amigo de J.F.",
+        "El árbitro del polideportivo",
+        "El Mongolo del Ronaldo"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Miki se lesionó en la pachanga con una entrada que Jorge describió como 'roja' y que le mantendría 'alejado de los terrenos de juego 2 meses'. Culpable: 'el Mongolo del Ronaldo'."
+    },
+    {
+      "pregunta": "¿Qué comparó Jorge con el gol de Agüero que dio la Liga al City?",
+      "cita": "Jorge: Acabo de ver en la tele la celebracion del gol de Aguero que le dio la liga al City. Y viendo como hemos celebrado hoy el empate...menuda habriamos liado aquel dia joder",
+      "opciones": [
+        "La celebración del empate del TT ese día",
+        "La San Silvestre de diciembre",
+        "La plantà de la falla de Oliva",
+        "La final de la Copa del Rey"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "Jorge vio la celebración del 93:20 de Agüero y pensó en el TT: si con un simple empate ya lo celebramos así, 'menuda habríamos liado aquel día'."
+    },
+    {
+      "pregunta": "¿Qué 'deseo' de un seguidor del Violencia citó Jorge como muestra de su 'lado más humano'?",
+      "cita": "Jorge: 'Ojalá le hubiera pegao una puña a Guaita' estamos viendo el lado mas humano de los seguidores del Violencia",
+      "opciones": [
+        "Haber pegado una puñalada a Guaita",
+        "Haber vendido a Soldado al Barça",
+        "Haber fichado antes a Villa",
+        "Haber ganado la Copa del Rey"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "En la eterna guerra Exviolencia vs Exfarsa, Jorge citó la perla 'ojalá le hubiera pegao una puña a Guaita' como el 'lado más humano' de los seguidores del Violencia."
+    },
+    {
+      "pregunta": "¿Qué gran proyecto propusieron Miki y Jorge en 2010 y quiénes lo vetaron?",
+      "cita": "Jorge: Miki y yo dijimos de pegar el MEGARAJE en 2010. Y tu y Marc diciendo que no",
+      "opciones": [
+        "El MEGARAJE, vetado por Hugo y Marc",
+        "La mega torra de San Juan, vetada por Joni",
+        "El mega viaje a Ibiza, vetado por Feme",
+        "El mega pico pala, vetado por Germi"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Al descubrir un tuit 'poco profesional' de Hugo sobre F1, Jorge sacó a relucir viejas heridas: en 2010 Miki y él propusieron el MEGARAJE y 'tu y Marc diciendo que no'."
+    },
+    {
+      "pregunta": "¿Qué frase, según Jorge, definió mejor 'a una mujer' en la historia?",
+      "cita": "Jorge: 'Eres una loca, una maruja'. Jamas un hombre definio tambien a una mujer",
+      "opciones": [
+        "'Eres la mujer de mi vida'",
+        "'Eres una loca, una maruja'",
+        "'Eres única e irrepetible'",
+        "'Eres más lista que las ratas colorás'"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "El Polilla, amigo de J.F., legó al mundo 'Eres una loca, una maruja'. Jorge lo certificó: 'jamás un hombre definió también a una mujer'."
+    },
+    {
+      "pregunta": "¿Qué mote estrenó Miki durante la final de tenis entre Nadal y Ferrer?",
+      "cita": "Feme: Ahi esta miki el subecarros",
+      "opciones": [
+        "El calvo",
+        "El subecarros",
+        "El hater de Ferru",
+        "El top chef"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Durante la final entre Nadal y Ferrer, Feme presentó a Miki con su nuevo mote: 'el subecarros'. Miki soltó un 'always ferru' y confesó que 'siempre Rafa aunque sea vs valencianis locos'."
+    }
+  ]
+}
