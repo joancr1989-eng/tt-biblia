@@ -2473,7 +2473,8 @@
         `;
         options = q.frases.map(f => `“${f}”`);
         correctIdx = q.impostor;
-      } else if (q.type === "especial") {
+      } else if (["especial", "efemeride", "pornopedia", "comidistta", "zona_vox"].includes(q.type)) {
+        // Anti-spoiler: nunca mostrar la cita antes de responder (se revela tras contestar)
         promptHtml = `
           <div style="font-weight:700; font-size:17.5px; margin-bottom:16px; line-height:1.45;">${q.pregunta}</div>
         `;
@@ -2552,7 +2553,7 @@
             ${citasHtml}
           </div>
         `;
-      } else if (q.type === "especial") {
+      } else if (["especial", "efemeride", "pornopedia", "comidistta", "zona_vox"].includes(q.type)) {
         const citaHtml = q.cita
           ? `<div class="quote-chip" style="margin-top:8px;">“${q.cita}”</div>`
           : "";
