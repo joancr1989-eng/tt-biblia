@@ -152,6 +152,20 @@
       text-align: center;
     }
 
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
     .hero h1 {
       font-size: clamp(23px, 4vw, 33px);
       font-weight: 900;
@@ -163,7 +177,15 @@
       color: var(--accent);
     }
 
-    /* BANNER DINÁMICO ESTRENO */
+    .hero p {
+      color: var(--muted);
+      max-width: 650px;
+      margin: 0 auto;
+      font-size: 14.5px;
+    }
+
+
+    /* BANNER DINÁMICO ESTRENO DEL DÍA */
     .today-premiere-banner {
       margin: 14px 0 22px;
       background: linear-gradient(135deg, #251324 0%, #171c2c 55%, #241814 100%);
@@ -312,6 +334,11 @@
       font-size: 23px;
       font-weight: 800;
       margin-bottom: 5px;
+    }
+
+    .efem-info p {
+      color: var(--muted);
+      font-size: 14px;
     }
 
     .btn-primary {
@@ -746,10 +773,9 @@
     .quote-chip {
       background: var(--bg);
       border-left: 3px solid var(--accent);
-      padding: 8px 11px;
+      padding: 6px 10px;
       border-radius: 6px;
       color: #cbd5e1;
-      font-weight: 600;
     }
 
     /* MODAL */
@@ -847,7 +873,7 @@
         <h1><span>311.419 mensajes</span> recopilados para amenizar tus giñadas</h1>
       </section>
 
-      <!-- BANNER DINÁMICO DE ESTRENO / PRÓXIMO ESTRENO -->
+      <!-- BANNER DINÁMICO DE ESTRENO DE HOY -->
       <div id="todayPremiereWrap"></div>
 
       <!-- BLOQUE PROTAGONISTA: EFEMÉRIDE DEL DÍA -->
@@ -895,7 +921,7 @@
           </div>
         </div>
 
-        <!-- 3. INFORME ROBINSON -->
+        <!-- 3. EL POLÍGRAFO -->
         <div class="portal-card" onclick="openCatalogSection('Informe Robinson')">
           <div>
             <div class="portal-top">
@@ -1006,85 +1032,85 @@
     const CATALOGO_FALLBACK = {
       "ultima_actualizacion": "2026-11-26T13:15:00+01:00",
       "carttelera": [
-        {
-          "id": "marzal_turca",
-          "archivo": "data/carttelera/marzal_turca.json",
-          "titulo": "La Pasión TTurca",
-          "subtitulo": "30 capítulos · Crónica cronológica de Marzal y la turca",
-          "icono": "🇹🇷",
-          "release_date": "2026-11-25T00:00:00+01:00",
-          "tipo": "capitulos"
-        },
-        {
-          "id": "especial_el_tt",
-          "archivo": "data/carttelera/especial_el_tt.json",
-          "titulo": "El TT: Triangulito Team FC",
-          "subtitulo": "150 preguntas · Historia del glorioso TT (2012–2026)",
-          "icono": "⚽",
-          "release_date": "2026-12-02T00:00:00+01:00"
-        },
-        {
-          "id": "solteros_vs_casados",
-          "archivo": "data/carttelera/especial_solteros_vs_casados.json",
-          "titulo": "Solteros vs Casados: La Guerra Civil",
-          "subtitulo": "80 preguntas · Topos, novias y bandos (2012–2025)",
-          "icono": "⚔️",
-          "release_date": "2026-12-09T00:00:00+01:00"
-        },
-        {
-          "id": "verano_germi_2015",
-          "archivo": "data/carttelera/verano_germi_2015.json",
-          "titulo": "Germi 2015: UNCHAINED",
-          "subtitulo": "80 preguntas · Mayo – Octubre 2015 (+18)",
-          "icono": "🔞",
-          "release_date": "2026-12-16T00:00:00+01:00"
-        }
+            {
+                  "id": "marzal_turca",
+                  "archivo": "data/carttelera/marzal_turca.json",
+                  "titulo": "La Pasión TTurca",
+                  "subtitulo": "30 capítulos · Crónica cronológica de Marzal y la turca",
+                  "icono": "🇹🇷",
+                  "release_date": "2026-11-25T00:00:00+01:00",
+                  "tipo": "capitulos"
+            },
+            {
+                  "id": "especial_el_tt",
+                  "archivo": "data/carttelera/especial_el_tt.json",
+                  "titulo": "El TT: Triangulito Team FC",
+                  "subtitulo": "150 preguntas · Historia del glorioso TT (2012–2026)",
+                  "icono": "⚽",
+                  "release_date": "2026-12-02T00:00:00+01:00"
+            },
+            {
+                  "id": "solteros_vs_casados",
+                  "archivo": "data/carttelera/especial_solteros_vs_casados.json",
+                  "titulo": "Solteros vs Casados: La Guerra Civil",
+                  "subtitulo": "80 preguntas · Topos, novias y bandos (2012–2025)",
+                  "icono": "⚔️",
+                  "release_date": "2026-12-09T00:00:00+01:00"
+            },
+            {
+                  "id": "verano_germi_2015",
+                  "archivo": "data/carttelera/verano_germi_2015.json",
+                  "titulo": "Germi 2015: UNCHAINED",
+                  "subtitulo": "80 preguntas · Mayo – Octubre 2015 (+18)",
+                  "icono": "🔞",
+                  "release_date": "2026-12-16T00:00:00+01:00"
+            }
       ],
       "historia_tt": [
-        {
-          "id": "elecciones_generales",
-          "archivo": "data/historia_tt/especial_elecciones_generales.json",
-          "titulo": "Especial Elecciones Generales",
-          "subtitulo": "100 preguntas · Debates, 20D, 26J, 28A y Pactómetro",
-          "icono": "🗳️",
-          "release_date": "2026-11-26T16:00:00+01:00"
-        },
-        {
-          "id": "especial_confinamiento",
-          "archivo": "data/historia_tt/especial_confinamiento.json",
-          "titulo": "El Confinamiento del TT (2020)",
-          "subtitulo": "Pandemia, Estado de Alarma y encierro histórico",
-          "icono": "😷",
-          "release_date": "2026-12-03T00:00:00+01:00"
-        }
+            {
+                  "id": "elecciones_generales",
+                  "archivo": "data/historia_tt/especial_elecciones_generales.json",
+                  "titulo": "Elecciones Generales TT",
+                  "subtitulo": "100 preguntas · Debates, 20D, 26J, 28A y Pactómetro",
+                  "icono": "🗳️",
+                  "release_date": "2026-11-26T16:00:00+01:00"
+            },
+            {
+                  "id": "especial_confinamiento",
+                  "archivo": "data/historia_tt/especial_confinamiento.json",
+                  "titulo": "El Confinamiento del TT (2020)",
+                  "subtitulo": "Pandemia, Estado de Alarma y encierro histórico",
+                  "icono": "😷",
+                  "release_date": "2026-12-03T00:00:00+01:00"
+            }
       ],
       "Informe Robinson": [
-        {
-          "id": "poligrafo_germi",
-          "archivo": "data/poligrafo/germi.json",
-          "titulo": "Expediente Corki",
-          "subtitulo": "El Polígrafo · Resurgimiento, auge y caída",
-          "icono": "🕵️",
-          "release_date": "2026-12-07T00:00:00+01:00"
-        },
-        {
-          "id": "poligrafo_ttino",
-          "archivo": "data/poligrafo/ttino.json",
-          "titulo": "Expediente TTino",
-          "subtitulo": "El Polígrafo · La Leyenda",
-          "icono": "🕵️",
-          "release_date": "2026-12-14T00:00:00+01:00"
-        },
-        {
-          "id": "poligrafo_humberto",
-          "archivo": "data/poligrafo/humberto.json",
-          "titulo": "Expediente HP8",
-          "subtitulo": "El Polígrafo · La mentira hasta el final",
-          "icono": "🕵️",
-          "release_date": "2026-11-30T00:00:00+01:00"
-        }
+            {
+                  "id": "poligrafo_germi",
+                  "archivo": "data/poligrafo/germi.json",
+                  "titulo": "Expediente Corki",
+                  "subtitulo": "El Polígrafo · Verdades, perlas y salidas de tono",
+                  "icono": "🕵️",
+                  "release_date": "2026-12-07T00:00:00+01:00"
+            },
+            {
+                  "id": "poligrafo_ttino",
+                  "archivo": "data/poligrafo/ttino.json",
+                  "titulo": "Expediente TTino",
+                  "subtitulo": "El Polígrafo · La Leyenda",
+                  "icono": "🕵️",
+                  "release_date": "2026-12-14T00:00:00+01:00"
+            },
+            {
+                  "id": "poligrafo_humberto",
+                  "archivo": "data/poligrafo/humberto.json",
+                  "titulo": "Expediente HP8",
+                  "subtitulo": "El Polígrafo · La mentira hasta el final",
+                  "icono": "🕵️",
+                  "release_date": "2026-11-30T00:00:00+01:00"
+            }
       ]
-    };
+};
 
     const hasChosenSaved = localStorage.getItem("ttpedia_player_chosen") === "1";
 
@@ -1144,10 +1170,13 @@
       document.getElementById("currentPlayerName").textContent = name;
       closeModals();
       showToast(`Jugador activo: ${name}`);
-      if (document.getElementById("sectionView").classList.contains("active") && state.currentSectionKey) {
-        openCatalogSection(state.currentSectionKey);
+      if (document.getElementById("sectionView").classList.contains("active")) {
+        if (state.currentSectionKey) {
+          openCatalogSection(state.currentSectionKey);
+        } else if (document.getElementById("sectionContent")?.innerHTML.includes("Efemérides")) {
+          openEfemeridesHub();
+        }
       }
-      renderTodayPremiereBanner();
     }
 
     function getTodayISO() {
@@ -1233,6 +1262,7 @@
             if (remote[id]) {
               const r = remote[id];
               const local = ensurePlayerEntry(m);
+              // Compatibilidad con claves anidadas y claves planas antiguas ("carttelera.puntos")
               const remoteCartPts = (r.carttelera && typeof r.carttelera.puntos === "number")
                 ? r.carttelera.puntos
                 : (typeof r["carttelera.puntos"] === "number" ? r["carttelera.puntos"] : local.carttelera.puntos);
@@ -1357,6 +1387,7 @@
       return `${d.getDate()} ${meses[d.getMonth()]} · ${hh}:${min}`;
     }
 
+
     let todayPremiereTimer = null;
 
     function isSameLocalDay(tsA, tsB) {
@@ -1391,29 +1422,12 @@
 
       const now = Date.now();
       const allItems = getAllCatalogItemsWithSection();
-
       const todays = allItems.filter(it => {
         const t = parseReleaseTime(it.release_date);
         return t > 0 && isSameLocalDay(t, now);
       });
 
-      const upcomingAny = allItems
-        .filter(it => parseReleaseTime(it.release_date) > now)
-        .sort((a, b) => parseReleaseTime(a.release_date) - parseReleaseTime(b.release_date));
-
-      let target = null;
-      if (todays.length > 0) {
-        const upcomingToday = todays
-          .filter(it => parseReleaseTime(it.release_date) > now)
-          .sort((a, b) => parseReleaseTime(a.release_date) - parseReleaseTime(b.release_date));
-        target = upcomingToday.length > 0
-          ? upcomingToday[0]
-          : todays.sort((a, b) => parseReleaseTime(b.release_date) - parseReleaseTime(a.release_date))[0];
-      } else if (upcomingAny.length > 0) {
-        target = upcomingAny[0];
-      }
-
-      if (!target) {
+      if (!todays.length) {
         wrap.innerHTML = "";
         if (todayPremiereTimer) {
           clearInterval(todayPremiereTimer);
@@ -1422,42 +1436,31 @@
         return;
       }
 
+      // Prioriza el próximo estreno pendiente de hoy; si ya abrieron todos los de hoy, muestra el más reciente de hoy
+      const upcomingToday = todays
+        .filter(it => parseReleaseTime(it.release_date) > now)
+        .sort((a, b) => parseReleaseTime(a.release_date) - parseReleaseTime(b.release_date));
+
+      const target = upcomingToday.length > 0
+        ? upcomingToday[0]
+        : todays.sort((a, b) => parseReleaseTime(b.release_date) - parseReleaseTime(a.release_date))[0];
+
       const relTs = parseReleaseTime(target.release_date);
       const isLive = now >= relTs;
-      const isToday = isSameLocalDay(relTs, now);
       const diffMs = Math.max(0, relTs - now);
-
-      const days = Math.floor(diffMs / 86400000);
-      const hrs = String(Math.floor((diffMs / 3600000) % 24)).padStart(2, "0");
+      const hrs = String(Math.floor(diffMs / 3600000)).padStart(2, "0");
       const mins = String(Math.floor((diffMs / 60000) % 60)).padStart(2, "0");
       const secs = String(Math.floor((diffMs / 1000) % 60)).padStart(2, "0");
 
       const prog = getItemProgress(target.id);
       const btnText = prog && prog.completado ? "Rejugar estreno →" : "Jugar estreno ahora →";
 
-      const badgeText = isLive
-        ? `🟢 ¡ESTRENO DE HOY DISPONIBLE! · ${target._secLabel}`
-        : (isToday
-          ? `🔥 ESTRENO HOY A LAS ${formatReleaseLabel(target.release_date).split("·")[1]?.trim() || ""} · ${target._secLabel}`
-          : `⏳ PRÓXIMO ESTRENO (${formatReleaseLabel(target.release_date)}) · ${target._secLabel}`);
-
-      const cdBoxes = (!isToday && days > 0)
-        ? `
-          <div class="tp-cd-box"><span class="tp-cd-num">${String(days).padStart(2, "0")}</span><span class="tp-cd-lbl">Días</span></div>
-          <div class="tp-cd-box"><span class="tp-cd-num">${hrs}</span><span class="tp-cd-lbl">Horas</span></div>
-          <div class="tp-cd-box"><span class="tp-cd-num">${mins}</span><span class="tp-cd-lbl">Min</span></div>
-          <div class="tp-cd-box"><span class="tp-cd-num">${secs}</span><span class="tp-cd-lbl">Seg</span></div>
-        `
-        : `
-          <div class="tp-cd-box"><span class="tp-cd-num">${hrs}</span><span class="tp-cd-lbl">Horas</span></div>
-          <div class="tp-cd-box"><span class="tp-cd-num">${mins}</span><span class="tp-cd-lbl">Min</span></div>
-          <div class="tp-cd-box"><span class="tp-cd-num">${secs}</span><span class="tp-cd-lbl">Seg</span></div>
-        `;
-
       wrap.innerHTML = `
         <section class="today-premiere-banner ${isLive ? "is-live" : ""}">
           <div class="tp-left">
-            <div class="tp-badge">${badgeText}</div>
+            <div class="tp-badge">
+              ${isLive ? `🟢 ¡ESTRENO DE HOY DISPONIBLE! · ${target._secLabel}` : `🔥 ESTRENO HOY A LAS ${formatReleaseLabel(target.release_date).split("·")[1]?.trim() || ""} · ${target._secLabel}`}
+            </div>
             <div class="tp-title">${target.icono || "🎬"} ${target.titulo}</div>
             <div class="tp-sub">${target.subtitulo || ""}</div>
           </div>
@@ -1465,7 +1468,11 @@
             ${isLive
               ? `<button class="btn-primary" onclick="launchCatalogItem('${target._secKey}', '${target.id}')">${btnText}</button>`
               : `
-                <div class="tp-cd-row">${cdBoxes}</div>
+                <div class="tp-cd-row">
+                  <div class="tp-cd-box"><span class="tp-cd-num">${hrs}</span><span class="tp-cd-lbl">Horas</span></div>
+                  <div class="tp-cd-box"><span class="tp-cd-num">${mins}</span><span class="tp-cd-lbl">Min</span></div>
+                  <div class="tp-cd-box"><span class="tp-cd-num">${secs}</span><span class="tp-cd-lbl">Seg</span></div>
+                </div>
                 <span style="font-size:11.5px; color:var(--muted); font-weight:700;">Se desbloquea automáticamente al llegar a cero</span>
               `
             }
@@ -1473,6 +1480,7 @@
         </section>
       `;
 
+      // Cuando llegue a cero, refrescar badges de portada también
       updatePortalBadges();
     }
 
@@ -1502,7 +1510,6 @@
     }
 
     async function initCatalogo() {
-      startTodayPremiereWatcher();
       const loaded = await loadJsonSafe(DATA_PATHS.catalogo, CATALOGO_FALLBACK);
       if (loaded && typeof loaded === "object") {
         state.catalogo = {
@@ -1512,7 +1519,7 @@
         };
       }
       updatePortalBadges();
-      renderTodayPremiereBanner();
+      startTodayPremiereWatcher();
     }
 
     function openCatalogSection(secKey) {
@@ -1537,10 +1544,12 @@
       const threeDaysMs = 3 * 86400000;
       const items = (state.catalogo[secKey] || []).filter(x => x.visible !== false);
 
+      // Publicados: ordenados de más reciente a más antiguo
       const publicados = items
         .filter(x => parseReleaseTime(x.release_date) <= now)
         .sort((a, b) => parseReleaseTime(b.release_date) - parseReleaseTime(a.release_date));
 
+      // Próximamente: ordenados por estreno más cercano
       const proximos = items
         .filter(x => parseReleaseTime(x.release_date) > now)
         .sort((a, b) => parseReleaseTime(a.release_date) - parseReleaseTime(b.release_date));
@@ -1754,6 +1763,7 @@
         state.flowMode = "capitulos";
         state.currentQuestions = caps.map((c, idx) => ({ type: "capitulos", numero: c.numero || idx + 1, ...c }));
       } else {
+        // Mantiene el orden cronológico/narrativo original del archivo (sin barajar)
         const rawList = extractArray(data, []);
         state.flowMode = "especial";
         state.currentQuestions = rawList.map(q => normalizeQuizItem(q, "especial"));
@@ -1786,7 +1796,7 @@
       let clean = String(contexto).trim();
       clean = clean.replace(/^(Respuesta de|Mensaje de|Dicho por|Contesta|Responde)\s+[^:]+:\s*/i, "");
       const namePattern = ALIAS_NOMBRES.join("|");
-      clean = clean.replace(new RegExp(`^(${namePattern})\\s*:\\s*`, "i"), "");
+      clean = clean.replace(new RegExp(`^(${namePattern})\s*:\s*`, "i"), "");
       clean = clean.replace(/^[«"“]+|[»"”]+$/g, "").trim();
 
       const normClean = clean.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -1799,7 +1809,7 @@
 
     function extractMemberFromText(txt) {
       if (!txt) return "";
-      const match = String(txt).match(new RegExp(`\\b(${MIEMBROS.join("|")})\\b`, "i"));
+      const match = String(txt).match(new RegExp(`\b(${MIEMBROS.join("|")})\b`, "i"));
       if (match) {
         const found = MIEMBROS.find(m => m.toLowerCase() === match[1].toLowerCase());
         return found || match[1];
@@ -1816,7 +1826,7 @@
       }
 
       const expText = String(item.explicacion || item.contexto || item.mensaje_previo || "");
-      const falsaMatch = expText.match(new RegExp(`(?:falsa\\s+para|para)\\s+(${MIEMBROS.join("|")})\\b`, "i"));
+      const falsaMatch = expText.match(new RegExp(`(?:falsa\s+para|para)\s+(${MIEMBROS.join("|")})\b`, "i"));
       if (falsaMatch) {
         const found = MIEMBROS.find(m => m.toLowerCase() === falsaMatch[1].toLowerCase());
         if (found) return found;
@@ -1825,7 +1835,7 @@
       let bestMember = "";
       let bestCount = 0;
       for (const m of MIEMBROS) {
-        const re = new RegExp(`\\b${m}\\b`, "gi");
+        const re = new RegExp(`\b${m}\b`, "gi");
         const matches = expText.match(re);
         const cnt = matches ? matches.length : 0;
         if (cnt > bestCount) {
@@ -1962,7 +1972,7 @@
       const opciones = shuffle([autorCorrecto, ...distractores]);
       let pregTexto = item.pregunta || "¿Quién soltó esta frase en el grupo?";
       if (modeTag === "efemeride" && item.autor) {
-        const autorRegex = new RegExp(`\\b${item.autor}\\b`, "gi");
+        const autorRegex = new RegExp(`\b${item.autor}\b`, "gi");
         if (autorRegex.test(pregTexto) && item.opciones && item.opciones.some(o => MIEMBROS.includes(o))) {
           pregTexto = pregTexto.replace(autorRegex, "alguien del grupo");
         }
@@ -1994,24 +2004,145 @@
       });
     }
 
-    async function startEfemeride() {
-      const mm_dd = `${mm}-${dd}`;
+    function formatSpanishDateLabel(d, offsetDays) {
+      const meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+      const diasSem = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+      const base = `${d.getDate()} de ${meses[d.getMonth()]}`;
+      if (offsetDays === 0) return `Hoy · ${base}`;
+      if (offsetDays === 1) return `Ayer · ${base}`;
+      return `${diasSem[d.getDay()]} · ${base}`;
+    }
+
+    async function openEfemeridesHub() {
+      state.currentSectionKey = null;
+      state.currentBio = null;
+
+      showSectionView(`
+        <div class="sub-header">
+          <div class="sub-title-wrap">
+            <h2>📅 Efemérides Recientes</h2>
+            <p>Juega la efeméride de hoy o ponte al día con las de los últimos días que tengas pendientes.</p>
+          </div>
+          <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
+        </div>
+        <div class="quiz-box"><p style="color:var(--muted);">Comprobando archivo diario...</p></div>
+      `);
+
+      const baseNow = new Date();
+      const candidates = [];
+      for (let i = 0; i < 7; i++) {
+        const d = new Date(baseNow.getFullYear(), baseNow.getMonth(), baseNow.getDate() - i);
+        const mStr = String(d.getMonth() + 1).padStart(2, "0");
+        const dStr = String(d.getDate()).padStart(2, "0");
+        const mm_dd = `${mStr}-${dStr}`;
+        candidates.push({
+          mm_dd,
+          offset: i,
+          dateObj: d,
+          label: formatSpanishDateLabel(d, i)
+        });
+      }
+
+      const checked = await Promise.all(candidates.map(async (c) => {
+        const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${c.mm_dd}.json`, null);
+        const list = extractArray(data, []);
+        return { ...c, count: list.length, available: list.length > 0 };
+      }));
+
+      const disponibles = checked.filter(x => x.available);
+      if (!disponibles.length) {
+        showSectionView(`
+          <div class="sub-header">
+            <div class="sub-title-wrap">
+              <h2>📅 Efemérides Recientes</h2>
+              <p>Archivo diario del Triangulito Team.</p>
+            </div>
+            <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
+          </div>
+          <div class="quiz-box"><p style="color:var(--muted);">No hay efemérides disponibles en los últimos 7 días.</p></div>
+        `);
+        return;
+      }
+
+      const hoyItem = disponibles.find(x => x.offset === 0);
+      const anteriores = disponibles.filter(x => x.offset > 0);
+
+      const renderEfemCard = (item) => {
+        const itemId = `efem_${item.mm_dd}`;
+        const prog = getItemProgress(itemId);
+        const isDone = Boolean(prog && prog.completado);
+
+        let badges = "";
+        if (item.offset === 0) {
+          badges += `<span class="tag-pill tag-new">🔥 Reto de Hoy</span>`;
+        }
+        badges += isDone
+          ? `<span class="tag-pill tag-done">✅ Completada</span>`
+          : `<span class="tag-pill tag-pending">Pendiente</span>`;
+
+        const rightHtml = `
+          ${isDone ? `<div class="score-summary">Récord: ${prog.bestScore} pts (${prog.bestHits}/${prog.total})</div>` : ""}
+          <button class="btn-primary" style="padding:9px 15px; font-size:13px;">${isDone ? "Rejugar →" : "Jugar →"}</button>
+        `;
+
+        return `
+          <div class="item-card unlocked" onclick="launchEfemerideDate('${item.mm_dd}', '${item.label.replace(/'/g, "\'")}')">
+            <div class="item-left">
+              <div class="item-emoji">${item.offset === 0 ? "📅" : "📜"}</div>
+              <div>
+                <div class="item-badges">${badges}</div>
+                <h4>${item.label}</h4>
+                <p>${item.count} preguntas históricas de un ${item.mm_dd.split("-").reverse().join("/")} en el grupo${item.offset > 0 ? " · Suma al Ranking Total" : " · Suma al Reto Diario y Ranking Total"}</p>
+              </div>
+            </div>
+            <div class="item-right">
+              ${rightHtml}
+            </div>
+          </div>
+        `;
+      };
+
+      let html = `
+        <div class="sub-header">
+          <div class="sub-title-wrap">
+            <h2>📅 Efemérides del Día y Anteriores</h2>
+            <p>Las preguntas de hoy puntúan en el Reto Diario y en el Ranking Total; las de días anteriores suman en el Ranking Total.</p>
+          </div>
+          <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
+        </div>
+      `;
+
+      if (hoyItem) {
+        html += `<div class="catalog-group-title">⭐ Reto Oficial de Hoy</div>`;
+        html += `<div class="catalog-list">${renderEfemCard(hoyItem)}</div>`;
+      }
+
+      if (anteriores.length > 0) {
+        html += `<div class="catalog-group-title" style="margin-top:24px;">⏪ Días anteriores disponibles (${anteriores.length})</div>`;
+        html += `<div class="catalog-list">${anteriores.map(renderEfemCard).join("")}</div>`;
+      }
+
+      showSectionView(html);
+    }
+
+    async function launchEfemerideDate(mm_dd, label) {
       const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: [] });
       const list = extractArray(data, []);
       if (!list.length) {
-        showToast("No hay efemérides cargadas para hoy");
+        showToast("No hay efemérides cargadas para ese día");
         return;
       }
-      state.currentItemId = null;
-      state.backAction = () => goHome();
+      state.currentItemId = `efem_${mm_dd}`;
+      state.currentBio = null;
+      state.backAction = () => openEfemeridesHub();
       state.flowMode = "quiz";
-      state.lastAction = () => startEfemeride();
+      state.lastAction = () => launchEfemerideDate(mm_dd, label);
       state.currentQuestions = toQuizItems(list, [], "efemeride", null);
       state.qIndex = 0;
       state.roundScore = 0;
       state.roundHits = 0;
       state.streak = 0;
-      showGameView("📜 Efeméride del Día");
+      showGameView(`📜 Efeméride (${label || mm_dd})`);
       renderQuestion();
     }
 
@@ -2147,13 +2278,6 @@
         `;
         options = q.frases.map(f => `“${f}”`);
         correctIdx = q.impostor;
-      } else if (q.type === "especial") {
-        // En los especiales, la cita literal se muestra tras responder para no spoilear la respuesta
-        promptHtml = `
-          <div style="font-weight:700; font-size:17.5px; margin-bottom:16px; line-height:1.45;">${q.pregunta}</div>
-        `;
-        options = q.opciones;
-        correctIdx = q.correcta;
       } else {
         const safePrev = sanitizePrevContext(q.contexto, q.cita);
         const tituloPreg = q.type === "lo_dijo_o_no_opciones"
@@ -2227,15 +2351,6 @@
             ${citasHtml}
           </div>
         `;
-      } else if (q.type === "especial") {
-        const citaHtml = q.cita
-          ? `<div class="quote-chip" style="margin-top:8px;">“${q.cita}”</div>`
-          : "";
-        fb.innerHTML = `
-          <div>${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}</div>
-          ${citaHtml}
-          ${q.explicacion ? `<div style="margin-top:8px; color:#cbd5e1;">${q.explicacion}</div>` : ""}
-        `;
       } else {
         let extraText = q.explicacion || "";
         if (q.type === "rajaditta" && q.cita_sin_censura) {
@@ -2256,7 +2371,9 @@
 
     function copyShareSummary() {
       const total = state.currentQuestions.length;
-      const txt = `🏆 TTpedia · ${state.currentModeTitle}\n👤 ${state.player}: ${state.roundScore} pts (${state.roundHits}/${total} aciertos)\n📜 Archivo 2012–2026`;
+      const txt = `🏆 TTpedia · ${state.currentModeTitle}
+👤 ${state.player}: ${state.roundScore} pts (${state.roundHits}/${total} aciertos)
+📜 Archivo 2012–2026`;
       navigator.clipboard?.writeText(txt);
       showToast("Resultado copiado para pegar en WhatsApp");
     }
