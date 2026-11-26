@@ -1,0 +1,1507 @@
+{
+  "titulo_historia": "Especial CarTTelera: Elecciones Generales TT (2015–2019)",
+  "modelo_usado": "glm5.3-flash",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "pregunta": "¿Qué pronóstico de gobierno lanzó Miki con un '100% claro' a una semana del 20D?",
+      "cita": "Miki: PSOE-PODEMOS próximo gobierno. 100% claro, PP no puede pactar con nadie",
+      "opciones": [
+        "PP en solitario con apoyo de C's",
+        "Gobierno de técnicos del Rey",
+        "PSOE-PODEMOS en coalición",
+        "Gran coalición PP-PSOE"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "lore",
+      "explicacion": "Miki lo cantó en plena campaña una semana antes de votar... y al final no gobernó ni Dios: repetición electoral y Rajoy en La Moncloa."
+    },
+    {
+      "pregunta": "¿Quién soltó en plena precampaña del 20D la frase 'Yo no negocio con terroristas'?",
+      "cita": "Germi: Yo no negocio con terroristas",
+      "opciones": [
+        "Hugo",
+        "Jorge",
+        "Germi",
+        "Héctor"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "lore",
+      "explicacion": "Máxima de política exterior del TT, soltada en un regateo interno de lo más mundano. Aplicable a cualquier investidura fallida."
+    },
+    {
+      "pregunta": "Hugo abrió la noche de debate con un 'Patético Pedro Sánchez'... ¿a quién sumó después con un 'Perdón... los dos'?",
+      "cita": "Hugo: Perdón ...los dos",
+      "opciones": [
+        "A Rajoy",
+        "A Pablo Iglesias",
+        "Al moderador",
+        "A Albert Rivera"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "momentazo",
+      "explicacion": "Hugo repartió el 'patético' con equidad: primero Sánchez, luego pidió perdón y amplió a los dos. Igualdad de trato en el debate."
+    },
+    {
+      "pregunta": "¿Qué detalle físico de Rajoy se convirtió en el momento viral del grupo durante el debate?",
+      "cita": "Hugo: El tic del ojo de Rajoy",
+      "opciones": [
+        "Los sudores de Iglesias",
+        "La ceja inquieta de Sánchez",
+        "La sonrisa forzada de Rivera",
+        "El tic del ojo de Rajoy"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "momentazo",
+      "explicacion": "El tic hizo más gracia que el debate entero: 'Bua Hugo el tic es muy gracioso jaja', admitió Miki."
+    },
+    {
+      "pregunta": "¿Sobre quién sentenció Jorge que 'si no le ganas un debate a Rajoy, mal vas'?",
+      "cita": "Jorge: Si no le ganas un debate a Rajoy.. Mal vas",
+      "opciones": [
+        "Albert Rivera",
+        "Pedro Sánchez",
+        "Íñigo Errejón",
+        "Pablo Iglesias"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "Veredicto de Jorge en directo, con Miki remachando: 'Pues Sánchez de momento mal va eh'. Campaña del 20D en estado puro."
+    },
+    {
+      "pregunta": "¿Quién más se llevó su crítica durante la noche del debate según Feme?",
+      "cita": "Feme: Y el moderador que? Menudas caras pone",
+      "opciones": [
+        "El moderador",
+        "El conserje del plató",
+        "El maquillador",
+        "El técnico de sonido"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "Ni candidatos ni moderador se libraron: las caras del presentador fueron parte del espectáculo aquella noche."
+    },
+    {
+      "pregunta": "¿A qué partido comparó Joni con Cesc por su 'desidia' durante el debate?",
+      "cita": "Joni: El PSOE es como Cesc : sí, en teoría guay, pero luego pse, desidia",
+      "opciones": [
+        "A Podemos",
+        "Al PSOE",
+        "A Ciudadanos",
+        "Al PP"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "Análisis político-deportivo de Joni: guay en teoría, desidia en la práctica. El Cesc del Congreso."
+    },
+    {
+      "pregunta": "¿Cómo resumió Miki la actuación de Rajoy en el debate?",
+      "cita": "Miki: Rajoy pese a q es una mega monguer, juega su papel",
+      "opciones": [
+        "Mega monguer pero juega su papel",
+        "El mejor de la noche de lejos",
+        "Nervioso, más que Sánchez",
+        "Patético, como Sánchez"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "Reconocimiento irónico al oficio: monguer sí, pero cumple su papel. La noche la repartieron entre nervios de Sánchez y tics de Rajoy."
+    },
+    {
+      "pregunta": "¿Con qué frase dejó claro Miki que su pronóstico no era deseo?",
+      "cita": "Miki: Lo que va a pasar. No lo que quiero q pase ojo",
+      "opciones": [
+        "Lo que quiero q pase. No lo que va a pasar ojo",
+        "Lo que dice mi corazon. No la encuesta ojo",
+        "Lo que va a pasar. No lo que quiero q pase ojo",
+        "Lo que dicen las encuestas. No lo que digo yo ojo"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "El manual del analista neutral del TT: pronóstico objetivo, no deseo. Ojo, que conste."
+    },
+    {
+      "pregunta": "¿A qué partido quiso colar Feme el voto de Humber en la recta final del 20D?",
+      "cita": "Feme: Vota al pacma humber",
+      "opciones": [
+        "Al PACMA",
+        "A IU",
+        "A Podemos",
+        "A Ciudadanos"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "La campaña de captación de Feme pasó del 'IU a tope' al voto animalista. Humber lo tenía difícil para decidir."
+    },
+    {
+      "pregunta": "En plena semana electoral, ¿quién tenía 'pinta de etarra' según Feme?",
+      "cita": "Feme: Que pinta de etarra",
+      "opciones": [
+        "Marzal",
+        "Marc",
+        "JM",
+        "Humber"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "polemica",
+      "explicacion": "La sesión de fotos de campaña sacó lo peor del grupo: 'El Humberto más harrai' sentenció Miki antes del remate de Feme."
+    },
+    {
+      "pregunta": "Según Feme, ¿quiénes se llevaron la victoria de aquella noche de debate?",
+      "cita": "Feme: Este debate lo gana ciudadanos y podemos",
+      "opciones": [
+        "Los dos grandes, empatados",
+        "PP y PSOE",
+        "El moderador, de calle",
+        "Ciudadanos y Podemos"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "Para Feme los vencedores ni siquiera estaban en el plató, y Miki lo ratificó: 'Claramente además'."
+    },
+    {
+      "pregunta": "¿Qué noticia política paró el chat del TT en plena tarde del 16 de diciembre de 2015?",
+      "cita": "Jorge: No hablemos siquiera del puñetazo que se ha llevado Rajoy. En todo el careto",
+      "opciones": [
+        "Un zapatazo a Sánchez en un mitin",
+        "Un huevo a Iglesias en un acto",
+        "Un empujón a Rivera en Barcelona",
+        "Un puñetazo a Rajoy en plena cara"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "momentazo",
+      "explicacion": "El puñetazo de Pontevedra, en plena campaña, paró el chat: en toda la jeta y, según Joni, con las gafas de gili partidas."
+    },
+    {
+      "pregunta": "¿Cómo analizó Joni la mente del autor del puñetazo a Rajoy?",
+      "cita": "Joni: Ese chaval oía 2 voces en su cabeza : una que le decía \"vaaaa no te achaaaaantes, es un viejo amargaaoo amargaaoo\" y otra le decía \"pero como voy a pegar a Rajoy! Por Dios pero que locura es esta!\"",
+      "opciones": [
+        "Oía 2 voces: 'no te achantes' vs 'cómo voy a pegar a Rajoy'",
+        "No oía voces: escuchaba a Bombo Botrako",
+        "Oía 3 voces: Rajoy, Sánchez y su madre",
+        "Oía a Franco diciéndole que no lo haga"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "momentazo",
+      "explicacion": "Psicoanálisis exprés de Joni sobre el agresor de Pontevedra: la batalla interna entre el valor y la cordura, con 'amargaaoo' incluido."
+    },
+    {
+      "pregunta": "¿Con qué momento legendario del grupo comparó Joni el puñetazo a Rajoy?",
+      "cita": "Joni: No es el balonazo de Carles Castella a Miki pero..",
+      "opciones": [
+        "El balonazo de Carles Castella a Miki",
+        "El cabezazo de Marzal a la lámpara del bar",
+        "El manotazo de Feme a Joni en el vestuario",
+        "El codazo de Hugo a Germi en entrenamiento"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "lore",
+      "explicacion": "El puñetazo a Rajoy se tuvo que medir con la violencia deportiva doméstica del TT: el balonazo de Castella sigue siendo la referencia."
+    },
+    {
+      "pregunta": "¿Cómo describió Jorge al autor del puñetazo a Rajoy?",
+      "cita": "Jorge: El tipico amigo de Feme. Que no se ducha en una semana. Y al que le gusta mucho lo ultimo de \"bombo botrako\"",
+      "opciones": [
+        "El típico amigo de Jorge: con chanclas y fan de Melendi",
+        "El típico socio de Hugo: con boina y fan de La Oreja",
+        "El típico amigo de Miki: con gorra y fan de Pignoise",
+        "El típico amigo de Feme: sin ducha y fan de Bombo Botrako"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "momentazo",
+      "explicacion": "Retrato robot del agresor según Jorge: higiene dudosa y gustos musicales de 2011. El grupo ya tenía el perfil casi completo."
+    },
+    {
+      "pregunta": "¿Cómo se definía el agresor de Rajoy según el perfil que leyó Joni en el grupo?",
+      "cita": "Joni: Se describe como «antifascista» y independentista gallego con frases como «Galiza (not Spain)» y mensajes como «qué puta es España…",
+      "opciones": [
+        "Antifascista e independentista gallego",
+        "Rajoyista de toda la vida",
+        "Conservador y católico apostólico",
+        "Liberal y europeísta convencido"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "polemica",
+      "explicacion": "Joni leyó el dossier oficial del agresor en directo: 'Galiza (not Spain)' y demás poesía de campaña."
+    },
+    {
+      "pregunta": "Cuando un joven repartió 'la hostia' a Rajoy en Pontevedra en plena campaña del 20D, ¿qué 'precedente histórico' invocó Jorge en el grupo?",
+      "cita": "Jorge: Recordemos que nosotros ya vivimos algo similar a la hostia a Rajoy..",
+      "opciones": [
+        "El empujón de Jorge a Joni en la San Silvestre",
+        "El codazo de Humberto a JM18 en el búnker tras un gol del Barça",
+        "El manotazo de Germi en la mismísima B",
+        "El pisotón de Héctor en el xiringuito"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "lore",
+      "explicacion": "La agresión a Rajoy del 16D tuvo respuesta TT: Humberto ya había repartido un codazo 'con agravante' a JM18 celebrando un gol en el búnker. Corría el año riquitidos."
+    },
+    {
+      "pregunta": "Al analizar si el codazo de Humberto fue intencionado, ¿qué 'sistema' salió en la teoría política de Jorge?",
+      "cita": "Jorge: En teoria funciona hasta el comunismo",
+      "opciones": [
+        "El comunismo",
+        "El pactómetro de Ferreras",
+        "La investidura de Sánchez",
+        "El PSOE de Andalucía"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "El caso del codazo lo zanjó con teoría política pura: 'en teoría no... en teoría funciona hasta el comunismo'. Impecable."
+    },
+    {
+      "pregunta": "La mañana del 20D, ¿a quién le deseó la muerte el joven 'MM' mientras votaba, según el parte especial de Jorge?",
+      "cita": "Jorge: Me informan desde Gandia que han visto a un joven votar en un colegio electoral al grito de \"Nuno muerete!\"",
+      "opciones": [
+        "A Pedro Sánchez",
+        "A Nuno",
+        "A Rajoy",
+        "A Cristiano Ronaldo"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "momentazo",
+      "explicacion": "Día electoral histórico y el TT ya tenía su propio parte: un joven ejerciendo su derecho al voto al grito de '¡Nuno, muérete!'. Democracia en estado puro."
+    },
+    {
+      "pregunta": "¿Cómo resumió Joni la situación interna del PSOE mientras llegaban los resultados del 20D?",
+      "cita": "Joni: Hombre, es que el PSOE.. Ahora mismo es una casa de putas",
+      "opciones": [
+        "Un cortijo desgobernado",
+        "Una residencia de mayores",
+        "Una casa de putas",
+        "Una sucursal de Podemos"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "polemica",
+      "explicacion": "Con el 20D desbancando al bipartidismo, Joni diagnosticó al PSOE sin anestesia ni medias tintas."
+    },
+    {
+      "pregunta": "Según el pactómetro de Miki la noche del 20D, ¿quién acabaría gobernando si se confirmaban los pactos?",
+      "cita": "Miki: Si se confirma pactarían para que gobernará Pablito...",
+      "opciones": [
+        "Pedro Sánchez",
+        "Pablito Iglesias",
+        "Mariano Rajoy",
+        "Albert Rivera"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "polemica",
+      "explicacion": "El pactómetro TT se estrenó esa noche: con el PSOE tocado, Miki veía a Pablito entrando en La Moncloa por la puerta de los pactos."
+    },
+    {
+      "pregunta": "¿Qué formación colocó Miki por debajo de Bildu y ERC mientras se escrutaba el 20D?",
+      "cita": "Miki: Esa es la otra IU... Menos que bildu y ERC",
+      "opciones": [
+        "Ciudadanos",
+        "Podemos",
+        "IU",
+        "UPyD"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "La noche del 20D también fue el velatorio de la hoz y el martillo: la 'otra IU' dando menos que Bildu y ERC. Tela."
+    },
+    {
+      "pregunta": "¿Qué pronóstico lanzó Feme en valenciano cuando aún faltaban escons por escrutar el 20D?",
+      "cita": "Feme: Jo crec que acabara 1 pp 2 pso",
+      "opciones": [
+        "1º PSOE y 2º PP",
+        "1º Podemos y 2º Ciudadanos",
+        "1º PP y 2º Podemos",
+        "1º PP y 2º PSOE"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "Feme acertó de pleno con su pronóstico: PP primero y PSOE segundo... aunque lo de gobernar ya fue otra historia (y otra elección)."
+    },
+    {
+      "pregunta": "La noche del 20D, ¿qué tenía el PP 'imposible' según el análisis de Miki?",
+      "cita": "Miki: Esta jodido pero el PP lo tiene imposible",
+      "opciones": [
+        "Gobernar",
+        "Pactar con Ciudadanos",
+        "Ganar Andalucía",
+        "Repetir elecciones"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "opinion",
+      "explicacion": "Miki daba por bloqueado al PP esa noche... aunque Jorge, con vista de águila, ya estaba preparando la repetición."
+    },
+    {
+      "pregunta": "¿Qué 'profecía' lanzó Jorge mirando el caos de pactos la noche del 20D?",
+      "cita": "Jorge: Es como si hubieramos grabado la partida",
+      "opciones": [
+        "Que el PP ganaría por mayoría absoluta",
+        "Que Rajoy dimitiría esa misma noche",
+        "Que tocaría repetir elecciones",
+        "Que Podemos llegaría a La Moncloa"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "lore",
+      "explicacion": "Predicción redonda: Jorge ya tenía 'la partida grabada' y España repitió comicios el 26J de 2016. El TT, adelantado a su tiempo."
+    },
+    {
+      "pregunta": "En el pactómetro de broma de Jorge la noche del 20D, ¿quién presidía la gran coalición PP-PSOE?",
+      "cita": "Jorge: Y de presidente.. El presentador del debate",
+      "opciones": [
+        "Ferreras",
+        "El presentador del debate",
+        "Pedro Piqueras",
+        "Susana Griso"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "momentazo",
+      "explicacion": "La solución definitiva al bloqueo post-20D: PP y PSOE de la mano y de presidente el moderador del debate. Ferreras aún debe estar dolido."
+    },
+    {
+      "pregunta": "Durante el pactómetro del 20D, ¿quién andaba 'sacándosela' en Twitter según el informe de Miki?",
+      "cita": "Miki: El amigo de marzal sacándosela en Twitter",
+      "opciones": [
+        "El cuñado de Marta",
+        "El primo de Humberto",
+        "El dueño del kebab",
+        "El amigo de Marzal"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "lore",
+      "explicacion": "Entre mayorías bloqueadas, la noche del 20D también dio para descubrir las andanzas Twitteras del amigo de Marzal. Feme aún pregunta quién era."
+    },
+    {
+      "pregunta": "Tras el fracaso organizativo de la TTorradica de Navidad, ¿con qué partido se comparó Feme?",
+      "cita": "Feme: Parecemos el psoe",
+      "opciones": [
+        "Con Podemos",
+        "Con Ciudadanos",
+        "Con el PSOE",
+        "Con el PP"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "lore",
+      "explicacion": "Resaca del 20D: ni el PSOE cerraba una investidura ni el TT una TTorradica. Fracaso compartido y demoledor."
+    },
+    {
+      "pregunta": "¿Qué 'efecto' político culpó Jorge de que el TT perdiera sus TTorradicas post-20D?",
+      "cita": "Jorge: Es el efecto podemos",
+      "opciones": [
+        "El efecto Podemos",
+        "El efecto Rajoy",
+        "El efecto Sánchez",
+        "El efecto Rivera"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "eleccion": "Generales 20D 2015",
+      "categoria": "lore",
+      "explicacion": "'Aún no gobiernan y ya nos han quitado las TTorradicas': la primera víctima del cambio político fue la TTorradica. Memoria histórica ya."
+    },
+    {
+      "pregunta": "En plena preparación de la repetición electoral (y de la Euro), ¿qué definió Joni como 'lo más español' del mundo?",
+      "cita": "Joni: Hombre, nada más español que rajar del carro al que nos vamos a subir a la mínima",
+      "opciones": [
+        "Rajar del carro al que te subes a la mínima",
+        "La TTorradica de Navidad",
+        "El sobaquillo de Mercadona",
+        "El pacto de investidura fallido"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Repetición Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "En plena campaña del 26J, Feme confesó su apoyo escondido y Joni lo elevó a definición nacional: rajar del carro y subirse a la mínima. Puro ADN español."
+    },
+    {
+      "pregunta": "Antes de un España de la Euro 2016, ¿qué se descubrió cuando Joni pidió 'foto de Humberto de pie con el himno'?",
+      "cita": "Joni: Quiero foto de humberto de pie con el himno",
+      "opciones": [
+        "Que estaba sentado",
+        "Que se había ido a por kebab",
+        "Que lloraba de emoción",
+        "Que cantaba a pleno pulmón"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Repetición Generales 26J 2016",
+      "categoria": "momentazo",
+      "explicacion": "El patriotismo de Humpa se quedó sentado: ni de pie con el himno. En plena campaña del 26J, pique patriótico de manual."
+    },
+    {
+      "pregunta": "Según el 'trabajo de campo' de Joni en la casa con bandera y 50 cabezas disecadas, ¿a qué líder llamaba 'el miserable que hay que fusilar' el viejazo valenciano?",
+      "cita": "Joni: Típico viejazo valenciano que le has de hablar de usted, que lee la razón y llama a Pablo Iglesias el miserable que hay que fusilar",
+      "opciones": [
+        "A Albert Rivera",
+        "A Pedro Sánchez",
+        "A Pablo Iglesias",
+        "A Mariano Rajoy"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "eleccion": "Repetición Generales 26J 2016",
+      "categoria": "lore",
+      "explicacion": "Joni de visita laboral entre el electorado más fiel: bandera con mástil, La Razón y odio a Iglesias... que además le hateaba por llevar barba."
+    },
+    {
+      "pregunta": "Tras el elogio de Pablo Iglesias a Zapatero como 'el mejor presidente de nuestra historia', ¿a qué miembro del TT declaró Jorge su fiel seguidor?",
+      "cita": "Jorge: Pablo Iglesias: Zapatero es el mejor presidente de nuestra historia",
+      "opciones": [
+        "Germi",
+        "Humberto Pastor",
+        "Héctor",
+        "Hugo"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "eleccion": "Repetición Generales 26J 2016",
+      "categoria": "polemica",
+      "explicacion": "Cuando Iglesias alabó a Zapatero, Jorge cerró el expediente: 'Humberto Pastor, fiel seguidor suyo. No hay más preguntas'. Caso podemista resuelto."
+    },
+    {
+      "pregunta": "Noche electoral del 26J: con el escrutinio en marcha, Jorge se lanzó con un triple pronóstico sobre el futuro inmediato de la política nacional. ¿Cuál fue?",
+      "cita": "Jorge: Pedrito a la calle, Susana Diaz IN, Coalicion Podemos+Psoe",
+      "opciones": [
+        "Congreso extraordinario, Errejón a La Moncloa y pacto con Ciudadanos",
+        "Susana Díaz presidenta, Sánchez al Senado y referéndum pactado",
+        "Pedrito a la calle, Susana Díaz IN y coalición Podemos+PSOE",
+        "Pedrito a la Moncloa, Susana Díaz OUT y gran coalición PP+PSOE"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Resaca del 26J: Jorge apostó por la cabeza de Sánchez y la entronización de Susana Díaz. Falló en todo: Sánchez no solo sobrevivió, acabó presidente en 2018."
+    },
+    {
+      "pregunta": "Mientras el país se hundía en el bloqueo político de 2016, Joni encontró una ventaja personal de que no hubiera gobierno. ¿Cuál?",
+      "cita": "Joni: Ojo, que por mi esto siga así que sin gobierno me he sacado el carnet y tengo trabajo",
+      "opciones": [
+        "Sin gobierno el PACMA subía en las encuestas y Feme era feliz",
+        "Sin gobierno la Eurocopa se veía mejor por las tardes",
+        "Sin gobierno se sacó el carnet de conducir y encontró trabajo",
+        "Sin gobierno su iaia estaba más tranquila y no discutía"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "lore",
+      "explicacion": "Mientras el país iba camino de terceras elecciones, Joni celebraba su particular estabilidad: carnet de conducir y empleo gracias al bloqueo. La España de 2016 en una frase."
+    },
+    {
+      "pregunta": "Joni resumió en una sola frase el secreto del triunfo de Rajoy en el 26J. ¿Cuál fue su teoría?",
+      "cita": "Joni: La estrategia de no hacer nada",
+      "opciones": [
+        "La estrategia de copiar al ganador anterior",
+        "La estrategia de no hacer nada",
+        "La estrategia del puñetazo disuasorio",
+        "La estrategia del miedo al sorpasso"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "El método Rajoy según Joni: no hacer nada y dejar que los rivales 'se despedacen entre ellos, como dijo Roncero'. Feme lo confirmó: 'Aguantar y aguantar'."
+    },
+    {
+      "pregunta": "Feme buscó una explicación externa al triunfo del PP en la noche del 26J. ¿A qué lo atribuyó?",
+      "cita": "Feme: El brexit ha achantado mucho",
+      "opciones": [
+        "El Papa había pedido el voto útil en el Ángelus",
+        "El calor de junio había dejado a la izquierda en casa",
+        "La Eurocopa había despertado el patriotismo español",
+        "El Brexit había achantado (asustado) al electorado"
+      ],
+      "correcta": 3,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Tres días después del referéndum británico, Feme teorizó que el caos del Brexit asustó al votante español. Junto al 'voto del achante' de Joni, teoría electoral completa."
+    },
+    {
+      "pregunta": "La noche del 26J, Feme salió como 'el progre del grupo' a dar la cara por los malos resultados de la izquierda... ¿Cuál fue la bomba que confesó después?",
+      "cita": "Feme: Femenia no ha votado, se me paso lo del voto por correo",
+      "opciones": [
+        "Que había votado dos veces por error administrativo",
+        "Que no había votado: se le pasó el voto por correo",
+        "Que había votado a Vox por su gesta en Gibraltar",
+        "Que había votado al PP para acelerar la gran coalición"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "polemica",
+      "explicacion": "El progre oficial del grupo lamentó los resultados de la izquierda... sin haber votado. 'Toca dar la cara' se le quedó en 'toca dar la excusa'."
+    },
+    {
+      "pregunta": "Miki destrozó el discurso de autocomplacencia de Pedro Sánchez en la noche del 26J. ¿Qué le reprochó?",
+      "cita": "Miki: Y te está vendiendo la moto estar a 52 escaños del pp. Te lo vende como una victoria. Es PATÉTICO",
+      "opciones": [
+        "Vender como victoria quedar a 52 escaños del PP",
+        "Vender como victoria el sorpasso fallido ante Podemos",
+        "Vender como victoria la derrota en Andalucía",
+        "Vender como victoria el apoyo de los barones territoriales"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "polemica",
+      "explicacion": "Sánchez sacó pecho por la segunda plaza y Miki lo tachó de patético por vender 'la moto' a 52 escaños del PP. Feme remató: 'Lo de Pedro Sánchez es lamentable'."
+    },
+    {
+      "pregunta": "Jorge dio la clave sociológica del triunfo del PP en la noche del 26J. ¿Cuál fue su diagnóstico?",
+      "cita": "Jorge: Sin duda, el antiPodemismo ha ganado",
+      "opciones": [
+        "El antirrajoyismo ha ganado",
+        "El antiPodemismo ha ganado",
+        "El antirriverismo ha ganado",
+        "El antipactismo ha ganado"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Diagnóstico de Jorge en la resaca del 26J: ganó el 'antiPodemismo'. Miki lo suscribió al instante confesando su 'miedo a Pablo, que yo tmb comparto'."
+    },
+    {
+      "pregunta": "Joni explicó la impunidad electoral del PP con una teoría demográfica demoledora. ¿Cuál?",
+      "cita": "Joni: Mientras haya viejos pueden hacer lo que les salga de la chorra",
+      "opciones": [
+        "Mientras haya viejos, pueden hacer lo que les salga de la chorra",
+        "Mientras Podemos se despedace, el PP reina sin oposición",
+        "Mientras haya crisis, el miedo mantiene al PP en el poder",
+        "Mientras Rajoy no hable, nadie le puede criticar"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Teoría demográfica de Joni tras el 26J: el voto anciano fijo del PP permite 'hacer lo que les salga de la chorra'. Cruda, polémica... y con datos a favor."
+    },
+    {
+      "pregunta": "Al ver al PP subir hasta los 137 escaños, Feme sentenció en valenciano. ¿Qué dijo?",
+      "cita": "Feme: Aci la corrupcio es premia",
+      "opciones": [
+        "Aci no hi ha res a fer (aquí no hay nada que hacer)",
+        "Aci la democràcia ha mort (aquí la democracia ha muerto)",
+        "Aci la corrupció es premia (aquí la corrupción se premia)",
+        "Aci guanya sempre el mateix (aquí siempre gana el mismo)"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "polemica",
+      "explicacion": "'Aquí la corrupción se premia', sentenció Feme en la noche del 26J viendo al PP rozar los 137. Dolor progresista en dialecto de la Safor."
+    },
+    {
+      "pregunta": "Joni destacó que Rajoy ganó el 26J 'sin llevarse un puñetazo'. ¿A qué se refería?",
+      "cita": "Joni: Y esta vez sin llevarse un puñetazo. Ni eso ha necesitado",
+      "opciones": [
+        "Al puñetazo que un chaval le metió a Rajoy en Pontevedra en la campaña del 20D",
+        "Al puñetazo que Sánchez le lanzó en un pleno del Congreso",
+        "Al puñetazo simbólico del pacto Rajoy-Rivera",
+        "Al puñetazo en la mesa del debate a cuatro de las 20D"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "lore",
+      "explicacion": "Referencia al puñetazo que un adolescente metió a Rajoy en Pontevedra durante la campaña del 20D. En el 26J, según Joni, ni eso necesitó: ganó a lo tranquilo."
+    },
+    {
+      "pregunta": "Ante el fantasma de terceras elecciones, Joni propuso un candidato de emergencia para Podemos. ¿Quién?",
+      "cita": "Joni: Si hay terceras elecciones espero que podemos reflexione y ponga a Juan Cuesta de candidato",
+      "opciones": [
+        "Roberto, el médico de la serie",
+        "Emilio, el portero de Aquí no hay quien viva",
+        "Concha, la vecina cotilla",
+        "Juan Cuesta, el administrador de la comunidad"
+      ],
+      "correcta": 3,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "momentazo",
+      "explicacion": "Feme apoyó la candidatura al instante: 'Administrar esa comunidad era más difícil que este país'. Juan Cuesta presidente, la solución que nunca llegó."
+    },
+    {
+      "pregunta": "Con el escrutinio del 26J en marcha, Joni se lanzó con un pronóstico sobre Podemos. ¿Cuál?",
+      "cita": "Joni: Pero tiene pinta que podemos va a quedar segunda",
+      "opciones": [
+        "Que Podemos iba a ganar las elecciones",
+        "Que Podemos iba a perder media docena de escaños",
+        "Que Podemos iba a caer a la cuarta plaza tras Ciudadanos",
+        "Que Podemos iba a quedar segunda fuerza"
+      ],
+      "correcta": 3,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Joni veía a Podemos segundo con el recuento en marcha... pero el PSOE acabó superándoles (85 vs 71). Pronóstico fallido en directo, como manda la tradición TT."
+    },
+    {
+      "pregunta": "Joni vio al PP con 132 escaños a mitad de escrutinio y pronosticó una tendencia. ¿Cuál?",
+      "cita": "Joni: Ya, y que queda mucho, ahora el PP està en 132, pero va a ir bajando",
+      "opciones": [
+        "Que el PP perdería Valencia y caería a los 120",
+        "Que el PP remontaría hasta la mayoría absoluta",
+        "Que el PP se quedaría clavado en los 132 exactos",
+        "Que el PP iba a ir bajando desde los 132"
+      ],
+      "correcta": 3,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Pronóstico fallido: el PP no bajó, sino que acabó subiendo hasta 137. La noche del 26J fue la del 'PP que no baja ni pinchado'."
+    },
+    {
+      "pregunta": "Miki soltó su teoría del sorpasso en plena noche del 26J. ¿Cuál era su conclusión?",
+      "cita": "Miki: El tema es que si no hay sorpaso ni puede hacer pacto de izquierdas. Si hay sorpaso seguro que no hay gobierno de izquierdas. Casi prefiero lo segundo.....",
+      "opciones": [
+        "Si hay sorpasso, seguro que no hay gobierno de izquierdas (y casi lo prefiere)",
+        "El sorpasso ya es matemáticamente imposible",
+        "Si hay sorpasso, habrá gobierno de izquierdas sí o sí",
+        "Sin sorpasso, Podemos acabará pactando con el PP"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Teoría Miki: el sorpasso mataba cualquier pacto de izquierdas... y a él casi le hacía ilusión. Al final ni sorpasso ni gobierno: bloqueo total y terceras elecciones."
+    },
+    {
+      "pregunta": "Jorge cerró la noche del 26J con una proclama épica dedicada al ganador. ¿Cuál fue?",
+      "cita": "Jorge: Es para llorar perdonenme. Mariano Rajoy. En las elecciones de todos los tiempos. Tatatatata",
+      "opciones": [
+        "Mariano Rajoy, en las elecciones de todos los tiempos (tatatatata)",
+        "Pedro Sánchez, en las elecciones de todos los tiempos (tatatatata)",
+        "Albert Rivera, en las elecciones de todos los tiempos (tatatatata)",
+        "Pablo Iglesias, en las elecciones de todos los tiempos (tatatatata)"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "momentazo",
+      "explicacion": "'Es para llorar, perdónenme: Mariano Rajoy, en las elecciones de todos los tiempos', proclamó Jorge con fanfarria 'tatatatata' incluida. Coronación simbólica TT."
+    },
+    {
+      "pregunta": "Al ver los resultados del 26J, Joni comparó una victoria del PP con una gesta deportiva. ¿Cuál?",
+      "cita": "Joni: Pero que el PP ha ganado en Andalucía. Como cuando Nadal enganchó Roland Garros y de repente Wimbledon",
+      "opciones": [
+        "El PP en Cataluña: como el Celta ganando la Champions",
+        "El PP en Valencia: como el Valencia ganando en el Bernabéu",
+        "El PP en Andalucía: como Nadal ganando Wimbledon tras Roland Garros",
+        "El PP en Euskadi: como España ganando en Wembley"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "momentazo",
+      "explicacion": "El PP ganó en Andalucía, el feudo socialista, y Joni lo equiparó a Nadal conquistando Wimbledon tras su imperio en la tierra batida. Feme confirmó: 'El feudo socialista'."
+    },
+    {
+      "pregunta": "Tras esta joya de Joni sobre la ley electoral en plena noche del 26J, ¿cuál fue el gran consuelo que se marcó inmediatamente después?",
+      "cita": "Joni: Por cierto, que PSOE tenga 5.376.487 votos, podemos 5.002.185 y uno tenga 85 escaños y el otro 71 es una genialidad democrática",
+      "opciones": [
+        "La foto de Santi Estevan en la fiesta de la democracia",
+        "El ascenso del Hércules a Primera",
+        "El gol de cabeza de Piqué con España",
+        "El ascenso del Cádiz a Segunda"
+      ],
+      "correcta": 3,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "polemica",
+      "explicacion": "Casi 375.000 votos de diferencia para 14 escaños de ventaja y, encima, 'ganando a la escoria del Hércules'. La ley electoral y el Cádiz, consuelos de noche electoral."
+    },
+    {
+      "pregunta": "Joni propuso adivinar el voto de Humberto con tres opciones imposibles. ¿Cuál era la respuesta real según el grupo?",
+      "cita": "Joni: donde os encaja más el voto, de humberto, 95 de vox, 44 de Falange o los 33 del partido comunista",
+      "opciones": [
+        "Los 95 de Vox",
+        "Los 44 de Falange",
+        "Los 33 del Partido Comunista",
+        "Ninguna: es de los que nunca ha dejado de votar al PSOE"
+      ],
+      "correcta": 3,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "lore",
+      "explicacion": "Miki lo desveló esa misma noche: Humberto lloraba por el PSOE, 'al que nunca ha dejado de votar'. Las tres opciones quedaban descartadas de antemano."
+    },
+    {
+      "pregunta": "Con el balcón de Génova 13 en plena euforia del 26J, Joni soltó esta definición del país. ¿Quién la bautizó en el grupo como 'gran frase'?",
+      "cita": "Joni: España es como el Titanic pero con los pasajeros aplaudiendo.",
+      "opciones": [
+        "Miki",
+        "Jorge",
+        "Feme",
+        "Germi"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "momentazo",
+      "explicacion": "Feme lo tuvo clarísimo: 'Gran frase joni'. Y Joni avisó de que, twit o no, 'lo del balcón está siendo apoteósico'."
+    },
+    {
+      "pregunta": "En plena madrugada del 26J, Miki confesó su deseo más retorcido para el futuro político español. ¿Qué acabó pasando con ese deseo?",
+      "cita": "Miki: Ojalá unas terceras elecciones solo por vivirlas en Twitter",
+      "opciones": [
+        "Se cumplió por adelantado: las terceras llegaron en 2017",
+        "No se cumplió: Rajoy gobernó cuatro años sin volver a votarse",
+        "Se cumplió: en 2019 hubo terceras elecciones y el grupo las vivió en Twitter",
+        "Se cumplió a medias: hubo terceras elecciones pero el grupo las boicoteó"
+      ],
+      "correcta": 2,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "momentazo",
+      "explicacion": "Deseo concedido con tres años de retraso: en 2019 llegaron las terceras (y cuartas) elecciones y el TT las vivió íntegras en Twitter. Visionario."
+    },
+    {
+      "pregunta": "¿A qué resultado se refería Joni con esta 'genialidad táctica' de la nación la noche del 26J?",
+      "cita": "Joni: Los andaluces son otra genialidad táctica de esta nuestra nación",
+      "opciones": [
+        "El hostiazo de Susana Díaz en el bastión histórico del PSOE",
+        "La remontada final de Pablo Iglesias",
+        "El ascenso meteórico de PACMA",
+        "El 135 de Rajoy pronosticado por Marhuenda"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "polemica",
+      "explicacion": "Miki no daba crédito al 'hostiazo' de Susana Díaz en el bastión histórico socialista y Joni sacó su lado más geopolítico. Qué ridículo, en efecto."
+    },
+    {
+      "pregunta": "Según Joni, el PP se llevó el 26J con la técnica de boxeo de Homer Simpson. ¿En qué consistía según Miki?",
+      "cita": "Joni: Ha hecho la de homer cuando es boxeador",
+      "opciones": [
+        "Sacársela haciendo más bien poco",
+        "Morder la oreja como Tyson",
+        "Bailar por el ring como Apollo Creed",
+        "Noquear al rival en el primer asalto"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "La estrategia Homer: aguantar golpes, no hacer casi nada y ganar a los puntos. Miki lo certificó: 'El PP se la ha sacado haciendo más bien poco'."
+    },
+    {
+      "pregunta": "¿A qué gurú de las encuestas le atribuyó Jorge haber clavado los 135 escaños de Rajoy con esta frase?",
+      "cita": "Jorge: 'Y dar un revolcon al rojerio'",
+      "opciones": [
+        "Francisco Marhuenda",
+        "Antonio Naranjo",
+        "Eduardo Inda",
+        "John Müller"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "momentazo",
+      "explicacion": "Marhuenda acertó: 135 escaños y 'revolcón al rojerio'. Por eso la 13TV tenía que ser 'el epicentro de la fiesta' esa misma noche."
+    },
+    {
+      "pregunta": "Según Miki, Humberto lloraba de alegría y de tristeza a la vez. ¿Qué dato añadió para justificar semejante drama?",
+      "cita": "Miki: Umberto esta llorando de alegría/tristeza por el resultado del PSOE",
+      "opciones": [
+        "Que es de los que nunca ha dejado de votar al PSOE",
+        "Que se había apostado la cena con Joni",
+        "Que su padre fue alcalde socialista",
+        "Que había votado por correo desde Budapest"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "lore",
+      "explicacion": "Militancia inquebrantable: 'al que nunca ha dejado de votar'. Miki incluso ofreció pruebas gráficas: 'recordemos su foto si es necesario'."
+    },
+    {
+      "pregunta": "Con los cánticos ya descoordinados en la Cibeles del 26J, ¿qué detalle decía Joni que solo faltaba para la fiesta perfecta?",
+      "cita": "Joni: Ya ni se coordinan con los cánticos",
+      "opciones": [
+        "Soraya pinchando en la Wonder",
+        "Un discurso coherente de Rajoy",
+        "La foto de Santi Estevan Aracil",
+        "El vecino de Orengo derrapando en la rotonda"
+      ],
+      "correcta": 3,
+      "anio": 2016,
+      "eleccion": "Generales 26J 2016",
+      "categoria": "momentazo",
+      "explicacion": "'Solo falta el vecino de Orengo en el capo de un coche derrapando en la rotonda de la Cibeles'. Para Feme, además, 'una gran imagen para retratar España'."
+    },
+    {
+      "pregunta": "En la resaca del 26J, Joni resumió el desastre socialista con una frase para la historia. ¿Cuál?",
+      "cita": "Jorge: Es que el psoe.. esta en caida libre",
+      "opciones": [
+        "'La hostia viene por las expectativas'",
+        "'Que vuelva CheMari'",
+        "'Seguimos siendo la 1 fuerza de la izquierda'",
+        "'En el peor mandato del PP, corrupción y recortes a full y te pegas el piñazo padre señor PSOE'"
+      ],
+      "correcta": 3,
+      "anio": 2016,
+      "eleccion": "Resaca Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Corrupción, recortes a full y aun así el piñazo. Joni no se creía que el PSOE hubiera logrado estrellarse en solitario contra el peor rival posible."
+    },
+    {
+      "pregunta": "Feme imitó así a Pedro Sánchez tras el 26J. ¿Qué diagnóstico completó sobre el discurso del líder socialista?",
+      "cita": "Feme: 'Seguimos siendo la 1 fuerza de la izquierda'",
+      "opciones": [
+        "Que pidió un congreso extraordinario",
+        "Que le tiró la culpa a Pablo Iglesias con 0 autocritica",
+        "Que ofreció un pacto de gobierno a Rajoy",
+        "Que anunció su dimisión inmediata"
+      ],
+      "correcta": 1,
+      "anio": 2016,
+      "eleccion": "Resaca Generales 26J 2016",
+      "categoria": "polemica",
+      "explicacion": "Peor resultado de la historia del PSOE y aún así 'primera fuerza de la izquierda', con la culpa despachada a Iglesias. Autocrítica sanchista: 0."
+    },
+    {
+      "pregunta": "En la resaca del 26J, Jorge puso cifra a la sangría socialista. ¿Qué detalle hacía el desastre aún más escandaloso?",
+      "cita": "Jorge: Han palmado 1.300.000 votos",
+      "opciones": [
+        "Que era juntándose con IU",
+        "Que era con Rivera apoyándoles",
+        "Que era pese al voto latino de Marzal",
+        "Que era solo en Andalucía"
+      ],
+      "correcta": 0,
+      "anio": 2016,
+      "eleccion": "Resaca Generales 26J 2016",
+      "categoria": "opinion",
+      "explicacion": "Un millón trescientos mil votos menos incluso con IU en la ecuación... y 'lo celebran'. Caída libre con música de fiesta, según Jorge."
+    },
+    {
+      "pregunta": "Tras detectar esta elipsis colectiva en el debate del 28A, ¿cómo resumió Joni el nivel de los líderes?",
+      "cita": "Joni: Lo más gracioso es que están todos evitando decir 'VOX'",
+      "opciones": [
+        "'Niños pequeños macho'",
+        "'Está siendo ridículo todo'",
+        "'Que fumadote'",
+        "'No se están ni insultando ni picando de verdad'"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Debate Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Sánchez, Casado, Rivera e Iglesias esquivando la palabra maldita mientras Abascal miraba desde casa. Diagnóstico de Joni: 'Niños pequeños macho'."
+    },
+    {
+      "pregunta": "Cuando Jorge vaticinó esto en el debate del 28A, ¿cuál fue el pronóstico complementario de Miki?",
+      "cita": "Jorge: Vox va a sacar votos",
+      "opciones": [
+        "Que la fragmentación impediría gobernar a la derecha",
+        "Que Vox arrasaría y gobernaría en solitario",
+        "Que Abascal acabaría de ministro de Sánchez",
+        "Que Vox no superaría el 3% de los votos"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Debate Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "'Muchos. Y va a perjudicar mucho a derecha en general': Miki clavó el futuro con 24 escaños de Vox y bloqueo total. El Pactómetro TT nunca falla."
+    },
+    {
+      "pregunta": "Rivera se marcó otra de sus metáforas del silencio en el debate del 28A. ¿Cómo lo definió Jorge a continuación?",
+      "cita": "Joni: Pero que metáfora del silencio me estás soltando",
+      "opciones": [
+        "'Hermano. Que fumadote'",
+        "'Pasqual00 con volteretas'",
+        "'El autobusero de Alsa'",
+        "'Niño pequeño'"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Debate Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Joni rogó 'Por dios Rivera' y Jorge firmó el bautizo oficial: 'Rivera. Hermano. Que fumadote'. Las metáforas del silencio, directas al museo TT."
+    },
+    {
+      "pregunta": "En el debate del 28A, tras otro momento Rivera, Joni compartió un twitazo con el veredicto de la noche. ¿Quién era el que menos tonterías había dicho?",
+      "cita": "Joni: Por dios Rivera",
+      "opciones": [
+        "El vecino de Orengo",
+        "Santi Estevan Aracil",
+        "El autobusero de Alsa",
+        "El gran Roberto Gómez"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Debate Generales 28A 2019",
+      "categoria": "lore",
+      "explicacion": "Entre Sánchez, Casado, Rivera e Iglesias, el ganador moral del debate fue un conductor de Alsa. La sabiduría nacional está en la carretera."
+    },
+    {
+      "pregunta": "Durante el debate del 28A, Jorge dictaminó con término propio que algo era 'indefendipla'. ¿Qué era exactamente?",
+      "cita": "Jorge: Es indefendipla",
+      "opciones": [
+        "El pacto de Rivera con Sánchez",
+        "Todo lo del PSOE con Cataluña",
+        "La metáfora del silencio de Rivera",
+        "La ley electoral y sus escaños"
+      ],
+      "correcta": 1,
+      "anio": 2019,
+      "eleccion": "Debate Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "'Todo lo del psoe con cataluña' era, en terminología oficial Jorge, indefendipla. El diccionario TT suma y sigue con cada debate."
+    },
+    {
+      "pregunta": "Tras el debate a cuatro del 22A, Joni compartió un 'twitazo' que le encantó. ¿Cuál?",
+      "cita": "Joni: Tiene cojones que el que menos tonterías ha dicho es el autobusero de alsa (twitazo jaja)",
+      "opciones": [
+        "Que el que menos tonterías ha dicho es el autobusero de Alsa",
+        "Que el que menos tonterías ha dicho es el notario de Getafe",
+        "Que el que menos tonterías ha dicho es el bedel de la UNED",
+        "Que el que menos tonterías ha dicho es el taxista de Valdemoro"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Noche de debate del 22A: entre fumadote y fumadote, el twitazo del autobusero de Alsa se llevó la palma del grupo."
+    },
+    {
+      "pregunta": "En esa misma noche de debate, ¿qué 'numerito ridículo' criticó Joni que alguien hizo 'aquí de guay'?",
+      "cita": "Joni: Más allá del numerito ridículo de leer la constitución aquí de guay",
+      "opciones": [
+        "Leer la Constitución aquí de guay",
+        "Leer el Estatut en valenciano de guay",
+        "Cantar el himno con la mano en el pecho",
+        "Sacar un rosario bendecido en el debate"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "polemica",
+      "explicacion": "Campaña pura: la Constitución de bolsillo sacada en pleno debate no impresionó a Joni ni un pelo."
+    },
+    {
+      "pregunta": "¿Cómo resumió Joni tras el debate los únicos dos gobiernos posibles que veía?",
+      "cita": "Joni: O pp vox y citizens o psoe podemos purria indepe",
+      "opciones": [
+        "O gran coalición PSOE-PP o terceras elecciones",
+        "O PSOE con Cs o PP con Podemos",
+        "O PSOE en solitario o gobierno técnico de notarios",
+        "O PP, Vox y Citizens o PSOE, Podemos y purria indepe"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Joni trazó el tablero a dos bloques nada más acabar el debate, con 'purria indepe' y todo."
+    },
+    {
+      "pregunta": "¿Qué condición puso Germi, entre risas, para darle su voto a Podemos durante la campaña del 28A?",
+      "cita": "Germi: Y si Pascal vuelve abrir cocoloco primera linea tiene mi voto jajajajajjaja",
+      "opciones": [
+        "Que Iglesias se corte la coleta en directo",
+        "Que Pascal vuelva abrir cocoloco primera línea",
+        "Que Errejón pida perdón de rodillas",
+        "Que suban la beca un 300%"
+      ],
+      "correcta": 1,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "lore",
+      "explicacion": "El programa electoral de Germi: 'Pascal' y su 'cocoloco primera línea' tenían su voto asegurado (en broma)."
+    },
+    {
+      "pregunta": "La noche del debate del 22A, ¿dónde creía Germi que le tocaba votar?",
+      "cita": "Germi: Creo que en el cole de mongolos",
+      "opciones": [
+        "En la caseta de fallas del paseo",
+        "En el polideportivo de Tavernes",
+        "En el cole de mongolos",
+        "En el bar de JM"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "lore",
+      "explicacion": "Lore puro: Germi ni sabía dónde estaba empadronado; Joni le apuntó a Tavernes y él remató con su cole de confianza."
+    },
+    {
+      "pregunta": "Viendo las dudas electorales de Germi, ¿a quién imaginó Joni con una 'rallada' tremenda para decidir su voto?",
+      "cita": "Joni: Vaya rallada tendrá Messi para ver a quien vota",
+      "opciones": [
+        "Xavi Hernández",
+        "Luis Suárez",
+        "Messi",
+        "Cristiano Ronaldo"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "lore",
+      "explicacion": "Entre debate y empadronamientos dudosos, Joni ya visualizaba al 10 culé partiéndose la cabeza con la papeleta."
+    },
+    {
+      "pregunta": "¿A quién llamó Jorge 'tipejo' por poner 'X puntos' a negociar durante la campaña del 28A?",
+      "cita": "Jorge: Harta de que un tipejo como Torra ponga X puntos a negociar",
+      "opciones": [
+        "Un tipejo como Torra",
+        "Un tipejo como Puigdemont",
+        "Un tipejo como Rufián",
+        "Un tipejo como Junqueras"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "polemica",
+      "explicacion": "Jorge radiografió el malestar de media España en campaña: gente hartada de que el gobierno de España 'trague'."
+    },
+    {
+      "pregunta": "¿Hacia dónde predijo Joni que se fugaría el voto de Cs en el 28A?",
+      "cita": "Joni: Mucho voto de C's volverá al psoe al saber que pactaran con el PP. Y otra parte a vox a full de facherio",
+      "opciones": [
+        "A la abstención y al voto nulo",
+        "A Podemos y a la CUP",
+        "Al PSOE y a Vox a full de facherio",
+        "Al PP y a Más País"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Predicción de campaña afinadísima: el votante naranja huía hacia el PSOE y la parte 'facheria' a full hacia Vox."
+    },
+    {
+      "pregunta": "¿Qué cabreo final soltó Jorge al terminar el debate del 22A?",
+      "cita": "Jorge: Y el puto subnormal del presentador Despidiendose solo en gallego. Paleto de mierda",
+      "opciones": [
+        "El presentador abrazando a Iglesias al final",
+        "El presentador cantando el himno en euskera",
+        "El presentador despidiéndose solo en gallego",
+        "El presentador cortando la réplica de Casado"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Terminado el debate, Jorge aún tenía munición: palazo al presentador por despedirse exclusivamente en gallego."
+    },
+    {
+      "pregunta": "Con los primeros sondeos del 28A en la mano, ¿cuál era la 'teoría' de Joni?",
+      "cita": "Joni: Yo tengo mi teoría que no podran sumar ni izquierda ni trifachito",
+      "opciones": [
+        "Que Vox superará al PP en escaños",
+        "Que Cs será el partido llave del gobierno",
+        "Que no podrán sumar ni izquierda ni trifachito",
+        "Que Sánchez arrasará con mayoría absoluta"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Joni profetizó el bloqueo total con la palabra mágica 'trifachito'... y acertó: repetición en noviembre."
+    },
+    {
+      "pregunta": "La noche del 28A, ¿qué calificación dio Miki a la estrategia de Pedro Sánchez?",
+      "cita": "Miki: Yo ya le dije a marta que la estrategia de Pedro Sánchez era de genio",
+      "opciones": [
+        "De novato con suerte",
+        "De trampas campestres",
+        "De puro marketing",
+        "De genio"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Miki lo tenía tan claro que ya se lo había contado a Marta: Sánchez jugó la partida perfecta frente a PP y Cs."
+    },
+    {
+      "pregunta": "Visto el resultado del 28A, ¿qué gobierno confesó Miki que le 'molaría'?",
+      "cita": "Miki: Llegados a este punto Me molaría psoe-podemos sin nacionalistasq",
+      "opciones": [
+        "PSOE-Podemos sin nacionalistas",
+        "PP-Cs sin Vox",
+        "PSOE en solitario con abstención del PP",
+        "PSOE-Cs sin independentistas"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Con el escrutinio a medio contar, Miki soñaba un gobierno de izquierda pura y sin apoyos 'indepe'."
+    },
+    {
+      "pregunta": "A falta del escrutinio final, ¿qué sentenció Joni sobre la gestión de las elecciones de Cs?",
+      "cita": "Joni: A falta del escrutinio final.. La gestion de las elecciones de Cs es para pegarse un tiro",
+      "opciones": [
+        "Que era digna de un manual de marketing",
+        "Que había sido la mejor campaña de la historia",
+        "Que Rivera merecía un Nobel de Paz",
+        "Que era para pegarse un tiro"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Resaca naranja: la gestión de la campaña de Cs no convenció ni a su sector más afín del grupo."
+    },
+    {
+      "pregunta": "¿Cómo justificó Joni el castigo electoral al PP en el 28A?",
+      "cita": "Joni: El PP ya tocaba un ostiazo, y más con el payaso de casado",
+      "opciones": [
+        "Porque Soraya se fue a la televisión",
+        "Ya tocaba un ostiazo, y más con el payaso de Casado",
+        "Porque Rajoy volvió a meter cuchara",
+        "Por el pecheo histórico de Cifuentes"
+      ],
+      "correcta": 1,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Noche del 28A: Joni no se cortó, ostiazo merecido y con Casado nombrado payaso oficial de la jornada."
+    },
+    {
+      "pregunta": "Viendo los resultados del 28A, ¿qué pronosticó Miki sobre Pablo Casado?",
+      "cita": "Miki: Con ese resultado Pablo casado no puede seguir al frente del pp",
+      "opciones": [
+        "Que no podía seguir al frente del PP",
+        "Que absorbería a Cs en seis meses",
+        "Que sería presidente del Gobierno en 2023",
+        "Que dimitiría y se iría a la SER"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Miki cantó dimisión inmediata... pero Casado se agarró al escaño como a vida y aguantó hasta 2022."
+    },
+    {
+      "pregunta": "¿Cuál fue, según Miki, la gran clave del resultado del 28A?",
+      "cita": "Miki: Ella la creación de Vox ha movilizado hasta el último votante vivo de izquierdas de este país",
+      "opciones": [
+        "Que el PNV repartió jamones en Euskadi",
+        "Que el voto por correo llegó tarde al recuento",
+        "Que la participación bajó en Cataluña",
+        "Que la creación de Vox movilizó hasta el último votante vivo de izquierdas"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Tesis Miki de la noche: Vox, sin querer, hizo el mejor trabajo de movilización de la izquierda española."
+    },
+    {
+      "pregunta": "Al ver que la derecha podía juntarse, ¿qué 'deseo' añadió Miki con su humor más negro?",
+      "cita": "Miki: Y que se mueran los vascos",
+      "opciones": [
+        "Que suban los impuestos al café",
+        "Que se independice Cataluña ya",
+        "Que Rajoy vuelva a la Moncloa",
+        "Que se mueran los vascos"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "polemica",
+      "explicacion": "Humor negro de Miki contra el concierto económico: 'ya está bien de pagarles todo a los más ricos'."
+    },
+    {
+      "pregunta": "En plena noche del 28A, ¿qué 'plan' vaticinó Jorge para Ferraz si la noche se torcía lo suficiente?",
+      "cita": "Jorge: MUCHO SE TIENE QUE TORCER LA NOCHE PARA QUE NO ESTEMOS DENTRO DE UNAS HORAS EN FERRAZ PASÁNDONOS EL CADÁVER DE FRANCO COMO SI FUESE UN BALÓN DE NIVEA.",
+      "opciones": [
+        "Pasarse el cadáver de Franco como si fuese un balón de Nivea",
+        "Jugarse la investidura a piedra-papel-tijera con Casado",
+        "Cantar el Cara al Sol desde el balcón de Ferraz",
+        "Colgar a Franco del balcón de Ferraz como maceta"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Parodia del clásico 'mucho se tiene que torcer la noche' en la noche electoral más socialista desde 1982: exhumación en modo deportivo."
+    },
+    {
+      "pregunta": "¿Qué 'muy fuerte' matemático llevó a Miki a blasfemar contra la ley electoral la noche del 28A?",
+      "cita": "Miki: 9.446.767 millones votos el psoe y podemos y tienen 155 diputados... 9.811.620 millones de votos de cs pp y vox y tiene 148 diputados... Vaya ley electoral",
+      "opciones": [
+        "Que el PSOE ganó sin poder gobernar nunca",
+        "Que Vox ganó Valencia con el 3% de los votos",
+        "Que la derecha sumó más votos pero menos escaños que la izquierda",
+        "Que Pacma se quedó a las puertas del Congreso"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "polemica",
+      "explicacion": "La D'Hondt hizo de las suyas y Miki sacó la calculadora (con 'millones' incluidos): más votos a la derecha, menos escaños. Vaya ley electoral."
+    },
+    {
+      "pregunta": "¿Qué definió Miki como pura 'Poesía' mientras se cerraba la noche del 28A?",
+      "cita": "Miki: Los de vox, con sus votos dándoles el gobierno a Sánchez. Poesía",
+      "opciones": [
+        "Que Rajoy volviera de Ginebra a pedir la investidura",
+        "Que Pacma salvara el escaño con votos del PP",
+        "Que Vox, con sus votos, les diera el gobierno a Sánchez y Podemos",
+        "Que Compromís superase al PSOE en la Safor"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Cierre poético de la noche: la entrada de Vox empujaba justo al bloque de izquierdas que tanto detestaba."
+    },
+    {
+      "pregunta": "¿Cuál era el 'único consuelo' de Jorge tras ver los resultados del 28A?",
+      "cita": "Jorge: 29 diputados ha perdido... El unico consuelo a su resultado... Como los odio",
+      "opciones": [
+        "Que Casado superase a Rivera en escaños",
+        "Que el PP ganase la provincia de Valencia",
+        "Que Podemos perdiera 29 diputados",
+        "Que Abascal hiciese un discurso decente"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "La noche era socialista pero a Jorge lo que le llenaba el alma era el batacazo de Podemos: -29 diputados y un 'como los odio' de propina."
+    },
+    {
+      "pregunta": "Según Joni, ¿de qué se sentía 'poderoso' Pablo Iglesias pese al hostiazo del 28A?",
+      "cita": "Joni: Aún con el hostiazo.. Como se siente poderoso de saber que puede apretar a pdro a cambio del gobierno",
+      "opciones": [
+        "De haber ganado las elecciones a pesar de todo",
+        "De poder apretar a Pedro a cambio del gobierno",
+        "De haber sobrevivido al debate con Casado",
+        "De tener a Echenique sometido dentro del partido"
+      ],
+      "correcta": 1,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Palmando 29 diputados, Iglesias seguía sabiendo que sus 42 escaños bastaban para chantajear... perdón, negociar con Pedro."
+    },
+    {
+      "pregunta": "¿A quién le soltó Jorge el trío 'rata, sabandija, me das asco' durante la noche del 28A?",
+      "cita": "Jorge: Y todo el rato vendiendose... Rata... Sabandija... Me das asco",
+      "opciones": [
+        "A Errejón por ir de listo con Sánchez",
+        "A Abascal por sus piques en los debates",
+        "A Casado por su discurso de la noche",
+        "A Echenique por su rato autopromocional en televisión"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "polemica",
+      "explicacion": "Echenique se marcó una noche de autopromoción televisiva y Jorge le dedicó el diccionario de insultos del TT en directo."
+    },
+    {
+      "pregunta": "Tras el discurso triunfal de la noche del 28A, ¿a quién quería ver Joni inmediatamente después?",
+      "cita": "Joni: Ahora quiero ver a Casado",
+      "opciones": [
+        "A Albert Rivera",
+        "A Pablo Casado",
+        "A Pablo Iglesias",
+        "A Santiago Abascal"
+      ],
+      "correcta": 1,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Con la victoria de Pedro ya cantada, Joni pedía el siguiente plato del menú de la noche: la cara de Casado con los resultados."
+    },
+    {
+      "pregunta": "¿Qué dato histórico soltó Joni sobre la capital de la Safor en plena noche del 28A?",
+      "cita": "Joni: Desde 1989 no ganaba el psoe unas generales en Gandía. Poca broma",
+      "opciones": [
+        "Que la participación batió todos los récords",
+        "Que Vox arrasaba allí por primera vez en la historia",
+        "Que el PP ganaba allí desde la Transición",
+        "Que el PSOE no ganaba unas generales allí desde 1989"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "lore",
+      "explicacion": "Treinta años de sequía socialista en Gandía rotos con la marea rosa del 28A. Poca broma, sí."
+    },
+    {
+      "pregunta": "¿Qué cantó la militancia a Pedro Sánchez en Ferraz según el 'zapping' de Joni?",
+      "cita": "Joni: \"Con Rivera no\" le cantan a pedro jajajajajajaja como se la goza el genio",
+      "opciones": [
+        "\"La Joie de vivre\"",
+        "\"Presidente, presidente\"",
+        "\"Sánchez, quédate\"",
+        "\"Con Rivera no\""
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Coro anti-Rivera en Ferraz con Pedro disfrutándolo como un niño, y ni Joni ni Jorge lo pillaron en directo pese al zapping por todas las cadenas."
+    },
+    {
+      "pregunta": "¿Con qué 'ánimo' consoló Joni a Feme en la resaca del 28A?",
+      "cita": "Joni: Ànims feme, día duro al ver a pacma sacar 0 escaños",
+      "opciones": [
+        "Por el batacazo de Ciudadanos",
+        "Por la derrota del Valencia en la final",
+        "Por el adiós de Errejón a la política",
+        "Por el día duro de ver a Pacma sacar 0 escaños"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "lore",
+      "explicacion": "Día duro para el sector pacmista del TT: récord histórico de votos y ni un solo escaño. Ànims, Feme."
+    },
+    {
+      "pregunta": "¿Qué hizo que Jorge sentenciara 'esto se va a la mierda' el día después del 28A?",
+      "cita": "Jorge: Ganan votos... Esto se va a la mierda",
+      "opciones": [
+        "Que Podemos recuperara diputados perdidos",
+        "Que Ciudadanos se impusiera al PP en Valencia",
+        "Que el PSOE mejorara su resultado en el recuento",
+        "Que Vox ganara votos en el recuento"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "El recuento del voto por correo dio un empujoncito final a Vox y la resaca de Jorge se torció todavía más."
+    },
+    {
+      "pregunta": "¿Qué 'genialidad' de Rajoy repasó con sorna Jorge en la resaca del triunfo de Sánchez?",
+      "cita": "Jorge: La genilidad de Rajoy... De no dimitir y no convocar elecciones.. Jajajaja",
+      "opciones": [
+        "Dimitir en plena moción de censura",
+        "Abstenerse para que gobernara Pedro Sánchez",
+        "No dimitir y no convocar elecciones nunca",
+        "Convocar elecciones anticipadas cada año"
+      ],
+      "correcta": 2,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Ironía suprema: su terquedad en no dimitir ni disolver acabó en moción de censura, gobierno Sánchez y esta resaca que tanto dolía."
+    },
+    {
+      "pregunta": "¿Qué 'genialidad táctica' de Abascal destacó Joni en los análisis posteriores al 28A?",
+      "cita": "Joni: El concepto \"derechita cobarde\".. Genialidad táctica de Abascal",
+      "opciones": [
+        "El concepto de \"derechita cobarde\"",
+        "Su discurso en latín ante la tumba de Franco",
+        "El pacto de coalición con Casado en toda España",
+        "El lema \"Primero España, después España\""
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "opinion",
+      "explicacion": "Joni rendía tributo (con su ironía habitual) al término con el que Abascal azuzaba a PP y Cs desde dentro de su propio bloque."
+    },
+    {
+      "pregunta": "¿Qué defensa tan particular hizo Joni de la irrupción de Vox la noche del 28A?",
+      "cita": "Joni: Pero al pp lo votaban fachas y vox al menos ha servido para hacer limpia",
+      "opciones": [
+        "Que Vox era el único partido con programa económico serio",
+        "Que Vox iba a pactar con Podemos para la investidura",
+        "Que Abascal era en el fondo un socialdemócrata",
+        "Que Vox al menos ha servido para hacer 'limpia' de los fachas que antes votaban al PP"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "polemica",
+      "explicacion": "Teoría Joni: los fachas ya estaban ahí, solo que ahora votan a la marca correcta. Con el 'que asco, los odio' de Jorge no contaba."
+    },
+    {
+      "pregunta": "¿A quién le declaró Jorge su amor mientras discursaba la noche del 28A?",
+      "cita": "Jorge: Sigue acordandote de los trabajadores de Paradors... Sigue con esas subidas... Te quiero Pdr",
+      "opciones": [
+        "A 'Pdr' (Pedro Sánchez), por acordarse de los trabajadores de Paradores",
+        "A Casado, por defender la España vaciada",
+        "A Errejón, por su discurso sobre los cuidados",
+        "A Pablo Iglesias, por sus promesas a los mineros"
+      ],
+      "correcta": 0,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Pedro citó a los trabajadores de Paradores en su discurso y Jorge se rindió incondicionalmente; Joni lo calificó de 'fumadote'."
+    },
+    {
+      "pregunta": "Según el chiste de Jorge, ¿qué 'se votaba' en Gandía tras saber que Vox superó allí a Compromís?",
+      "cita": "Jorge: Himno nacional... En pie",
+      "opciones": [
+        "Una moción de censura municipal",
+        "El Cara al Sol, con brazo alzado",
+        "La Copa del Rey",
+        "El himno nacional, en pie"
+      ],
+      "correcta": 3,
+      "anio": 2019,
+      "eleccion": "Generales 28A 2019",
+      "categoria": "momentazo",
+      "explicacion": "Miki preguntó inocentemente si en Gandía 'se votaba' y Jorge decretó el himno nacional en pie: nivel de fachetismo por las nubes."
+    }
+  ]
+}
