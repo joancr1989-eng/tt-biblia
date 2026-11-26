@@ -1730,8 +1730,6 @@
       if (publicados.length > 0) {
         html += `<div class="catalog-group-title">🟢 Disponibles (${publicados.length})</div>`;
         html += `<div class="catalog-list">${publicados.map(it => renderCard(it, false)).join("")}</div>`;
-      } else {
-        html += `<div class="quiz-box"><p style="color:var(--muted);">Aún no se ha desbloqueado ningún estreno en esta sección. ¡Atento al próximo!</p></div>`;
       }
 
       if (proximos.length > 0) {
@@ -1953,7 +1951,7 @@
         // Mantiene el orden cronológico/narrativo original del archivo (sin barajar)
         const rawList = extractArray(data, []);
         state.flowMode = "especial";
-        state.currentQuestions = rawList.map(q => normalizeQuizItem(q, "especial"));
+        state.currentQuestions = sortChronological(rawList.map(q => normalizeQuizItem(q, "especial")));
       }
 
       state.currentModeTitle = `${item.icono || "🎬"} ${item.titulo}`;
@@ -2184,11 +2182,22 @@
       };
     }
 
+    function sortChronological(list) {
+      return [...list].sort((a, b) => {
+        const ya = parseInt(String(a.anio || a.fecha || "9999").match(/\d{4}/)?.[0] || "9999", 10);
+        const yb = parseInt(String(b.anio || b.fecha || "9999").match(/\d{4}/)?.[0] || "9999", 10);
+        if (ya !== yb) return ya - yb;
+        const fa = String(a.fecha || "");
+        const fb = String(b.fecha || "");
+        return fa.localeCompare(fb);
+      });
+    }
+
     function toQuizItems(rawList, fallbackList, modeTag, maxItems = 10) {
       const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
       const barajadas = shuffle(source);
       const seleccion = (typeof maxItems === "number" && maxItems > 0) ? barajadas.slice(0, maxItems) : barajadas;
-      return seleccion.map((item, idx) => {
+      const result = seleccion.map((item, idx) => {
         const norm = normalizeQuizItem(item, modeTag);
         if (modeTag === "lo_dijo_o_no" && !norm.miembro) {
           const m = MIEMBROS[idx % MIEMBROS.length];
@@ -2197,6 +2206,7 @@
         }
         return norm;
       });
+      return sortChronological(result);
     }
 
     function formatSpanishDateLabel(d, offsetDays) {
@@ -2215,8 +2225,7 @@
       showSectionView(`
         <div class="sub-header">
           <div class="sub-title-wrap">
-            <h2>📅 Efemérides Recientes</h2>
-            <p>Juega la efeméride de hoy o ponte al día con las de los últimos días que tengas pendientes.</p>
+            <h2>📅 Efemérides del Día</h2>
           </div>
           <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
         </div>
@@ -2249,8 +2258,7 @@
         showSectionView(`
           <div class="sub-header">
             <div class="sub-title-wrap">
-              <h2>📅 Efemérides Recientes</h2>
-              <p>Archivo diario del Triangulito Team.</p>
+              <h2>📅 Efemérides del Día</h2>
             </div>
             <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
           </div>
@@ -2300,8 +2308,7 @@
       let html = `
         <div class="sub-header">
           <div class="sub-title-wrap">
-            <h2>📅 Efemérides del Día y Anteriores</h2>
-            <p>Las preguntas de hoy puntúan en el Reto Diario y en el Ranking Total; las de días anteriores suman en el Ranking Total.</p>
+            <h2>📅 Efemérides del Día</h2>
           </div>
           <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
         </div>
@@ -2361,7 +2368,7 @@
         showGameView("⚖️ Lo dijo o no lo dijo");
       } else if (mode === "rajaditta") {
         const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: [] });
-        state.currentQuestions = shuffle(extractArray(data, [])).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
+        state.currentQuestions = sortChronological(shuffle(extractArray(data, [])).slice(0, 10).map(q => ({ type: "rajaditta", ...q })));
         showGameView("🤬 La RajadiTTa");
       } else if (mode === "dato_justo") {
         const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: [] });
