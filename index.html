@@ -1251,6 +1251,7 @@
       currentSectionKey: null,
       flowMode: "quiz",
       lastAction: null,
+      lastCorrectPos: null,
       backAction: () => goHome()
     };
 
@@ -1975,7 +1976,51 @@
       return fallback;
     }
 
-    function shuffle(arr) {
+        function rebalanceOptionsBalanced(opciones, correctaIdx) {
+      if (!Array.isArray(opciones) || opciones.length !== 4) {
+        return { opciones, correcta: correctaIdx };
+      }
+      if (typeof correctaIdx !== "number" || correctaIdx < 0 || correctaIdx >= 4) {
+        return { opciones, correcta: correctaIdx };
+      }
+
+      const correctText = opciones[correctaIdx];
+      const others = opciones.filter((_, i) => i !== correctaIdx);
+
+      // Peso equilibrado (25% por posición) penalizando repetir la posición anterior
+      const lastPos = state.lastCorrectPos;
+      const weights = [0, 1, 2, 3].map(pos => {
+        if (lastPos === pos) return 0.08;
+        return 1.0 + Math.random() * 0.45;
+      });
+
+      const totalW = weights.reduce((acc, w) => acc + w, 0);
+      let r = Math.random() * totalW;
+      let targetPos = 0;
+      for (let i = 0; i < weights.length; i++) {
+        r -= weights[i];
+        if (r <= 0) {
+          targetPos = i;
+          break;
+        }
+      }
+
+      const shuffledOthers = shuffle(others);
+      const finalOpts = [];
+      let oIdx = 0;
+      for (let i = 0; i < 4; i++) {
+        if (i === targetPos) {
+          finalOpts.push(correctText);
+        } else {
+          finalOpts.push(shuffledOthers[oIdx++]);
+        }
+      }
+
+      state.lastCorrectPos = targetPos;
+      return { opciones: finalOpts, correcta: targetPos };
+    }
+
+function shuffle(arr) {
       const a = [...arr];
       for (let i = a.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -2203,6 +2248,11 @@
           const m = MIEMBROS[idx % MIEMBROS.length];
           norm.miembro = m;
           norm.pregunta = `2 frases son de ${m} y una no`;
+        }
+        if (Array.isArray(norm.opciones) && norm.opciones.length === 4 && typeof norm.correcta === "number") {
+          const rebal = rebalanceOptionsBalanced(norm.opciones, norm.correcta);
+          norm.opciones = rebal.opciones;
+          norm.correcta = rebal.correcta;
         }
         return norm;
       });
