@@ -631,6 +631,142 @@
       color: #6ee7b7;
     }
 
+
+    /* FICHA BIOGRÁFICA INFORME ROBINSON */
+    .bio-intro-box {
+      background: linear-gradient(145deg, #1d172e 0%, #121722 100%);
+      border: 1px solid rgba(168, 85, 247, 0.48);
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .bio-top-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .bio-tag {
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: #d8b4fe;
+      background: var(--purple-soft);
+      border: 1px solid rgba(168, 85, 247, 0.35);
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+
+    .bio-stat-tag {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--muted);
+      background: rgba(11, 14, 20, 0.65);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+
+    .bio-intro-box h2 {
+      font-size: clamp(22px, 4vw, 29px);
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+
+    .bio-subtitle {
+      font-size: 14.5px;
+      font-weight: 800;
+      color: var(--accent);
+      margin-bottom: 14px;
+    }
+
+    .bio-lore-text {
+      background: rgba(11, 14, 20, 0.62);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--purple);
+      border-radius: 14px;
+      padding: 16px 18px;
+      font-size: 14.5px;
+      color: #e2e8f0;
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+
+    .bio-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    @media (min-width: 720px) {
+      .bio-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .bio-subbox {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 15px;
+    }
+
+    .bio-subbox h4 {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #c084fc;
+      margin-bottom: 10px;
+    }
+
+    .obsession-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .obsession-chip {
+      font-size: 12px;
+      font-weight: 600;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: #cbd5e1;
+      padding: 5px 10px;
+      border-radius: 999px;
+    }
+
+    .myth-quotes {
+      display: grid;
+      gap: 8px;
+    }
+
+    .myth-quote {
+      font-size: 13px;
+      font-style: italic;
+      color: #fde68a;
+      background: rgba(245, 158, 11, 0.08);
+      border-left: 3px solid var(--accent);
+      padding: 7px 10px;
+      border-radius: 6px;
+    }
+
+    .bio-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+
     /* VIEW PANELS */
     .view-panel {
       display: none;
@@ -883,7 +1019,7 @@
           <h2>Efeméride del Día</h2>
         </div>
         <div>
-          <button class="btn-primary" onclick="startEfemeride()">Jugar Efeméride de Hoy</button>
+          <button class="btn-primary" onclick="openEfemeridesHub()">Jugar Efemérides</button>
         </div>
       </section>
 
@@ -897,7 +1033,7 @@
               <span class="portal-badge live" id="badgeCarttelera">Cargando...</span>
             </div>
             <h3 style="margin-top:12px;">Estrenos de CarTTelera</h3>
-            <p>Las grandes sagas, mitos internos y crónicas del grupo: El TT, Solteros vs Casados, El Verano de Germi, La Pasión TTurca y más.</p>
+            
           </div>
           <div class="portal-footer">
             <span>Explorar cartelera y próximos estrenos</span>
@@ -913,7 +1049,7 @@
               <span class="portal-badge" id="badgeHistoria">Cargando...</span>
             </div>
             <h3 style="margin-top:12px;">La Historia a través del TT</h3>
-            <p>Cómo se vivieron en directo en el chat los grandes acontecimientos históricos: Elecciones, el Confinamiento, atentados y catástrofes.</p>
+            
           </div>
           <div class="portal-footer">
             <span>Ver eventos históricos</span>
@@ -929,7 +1065,7 @@
               <span class="portal-badge" id="badgePoligrafo">Cargando...</span>
             </div>
             <h3 style="margin-top:12px;">Informe Robinson</h3>
-            <p>Expedientes individuales de cada miembro del Triangulito Team. Pon a prueba cuánto conoces las perlas de cada uno.</p>
+            
           </div>
           <div class="portal-footer">
             <span>Abrir expedientes</span>
@@ -945,7 +1081,7 @@
               <span class="portal-badge">4 modos rápidos</span>
             </div>
             <h3 style="margin-top:12px;">Minijuegos</h3>
-            <p>¿Quién dijo esto?, Lo dijo o no lo dijo (2 verdades y 1 impostor), La RajadiTTa con censura y El Dato Justo.</p>
+            
           </div>
           <div class="portal-footer">
             <span>Elegir minijuego</span>
@@ -961,7 +1097,7 @@
               <span class="portal-badge">3 temáticas</span>
             </div>
             <h3 style="margin-top:12px;">Categorías Temáticas</h3>
-            <p>Pornopedia (+18), El ComidisTTa (gastronomía y esmorzarets) y Zona VOX (opiniones políticas sin filtro).</p>
+            
           </div>
           <div class="portal-footer">
             <span>Ver categorías</span>
@@ -1086,26 +1222,10 @@
       ],
       "Informe Robinson": [
             {
-                  "id": "poligrafo_germi",
-                  "archivo": "data/poligrafo/germi.json",
-                  "titulo": "Expediente Corki",
-                  "subtitulo": "El Polígrafo · Verdades, perlas y salidas de tono",
-                  "icono": "🕵️",
-                  "release_date": "2026-12-07T00:00:00+01:00"
-            },
-            {
-                  "id": "poligrafo_ttino",
-                  "archivo": "data/poligrafo/ttino.json",
-                  "titulo": "Expediente TTino",
-                  "subtitulo": "El Polígrafo · La Leyenda",
-                  "icono": "🕵️",
-                  "release_date": "2026-12-14T00:00:00+01:00"
-            },
-            {
-                  "id": "poligrafo_humberto",
-                  "archivo": "data/poligrafo/humberto.json",
-                  "titulo": "Expediente HP8",
-                  "subtitulo": "El Polígrafo · La mentira hasta el final",
+                  "id": "poligrafo_hugo",
+                  "archivo": "data/poligrafo/hugo.json",
+                  "titulo": "Expediente Hugo",
+                  "subtitulo": "150 preguntas · Tú saps qui és mon tio?",
                   "icono": "🕵️",
                   "release_date": "2026-11-30T00:00:00+01:00"
             }
@@ -1121,6 +1241,7 @@
       progress: JSON.parse(localStorage.getItem("ttpedia_progress") || "{}"),
       catalogo: CATALOGO_FALLBACK,
       currentQuestions: [],
+      currentBio: null,
       qIndex: 0,
       roundScore: 0,
       roundHits: 0,
@@ -1211,8 +1332,9 @@
       const entry = ensurePlayerEntry(state.player);
       entry.ranking_total += pts;
 
-      const isDaily = state.currentModeTitle.includes("Efeméride");
-      const isSpecial = Boolean(state.currentItemId);
+      const todayMmDd = `${mm}-${dd}`;
+      const isDaily = state.currentItemId === `efem_${todayMmDd}`;
+      const isSpecial = Boolean(state.currentItemId) && !String(state.currentItemId).startsWith("efem_");
 
       if (isDaily) {
         entry.reto_diario.puntos += pts;
@@ -1734,6 +1856,71 @@
       showSectionView(html);
     }
 
+    function renderBioIntroScreen(bio, totalPregs) {
+      const obsHtml = Array.isArray(bio.temas_obsesion) && bio.temas_obsesion.length > 0
+        ? `
+          <div class="bio-subbox">
+            <h4>🎯 Temas de obsesión</h4>
+            <div class="obsession-list">
+              ${bio.temas_obsesion.map(t => `<span class="obsession-chip">${t}</span>`).join("")}
+            </div>
+          </div>
+        `
+        : "";
+
+      const quotesHtml = Array.isArray(bio.citas_miticas) && bio.citas_miticas.length > 0
+        ? `
+          <div class="bio-subbox">
+            <h4>🎙️ Citas míticas del expediente</h4>
+            <div class="myth-quotes">
+              ${bio.citas_miticas.map(c => `<div class="myth-quote">“${c}”</div>`).join("")}
+            </div>
+          </div>
+        `
+        : "";
+
+      const statsHtml = [
+        bio.total_mensajes ? `<span class="bio-stat-tag">💬 ${Number(bio.total_mensajes).toLocaleString("es-ES")} mensajes</span>` : "",
+        bio.hora_pico ? `<span class="bio-stat-tag">⏰ Hora pico: ${bio.hora_pico}</span>` : ""
+      ].filter(Boolean).join("");
+
+      const html = `
+        <div class="bio-intro-box">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:10px; flex-wrap:wrap; margin-bottom:10px;">
+            <div class="bio-top-tags" style="margin-bottom:0;">
+              <span class="bio-tag">🕵️ Informe Robinson</span>
+              ${statsHtml}
+            </div>
+            <button class="btn-secondary" style="padding:5px 11px; font-size:12px;" onclick="exitGameView()">← Volver</button>
+          </div>
+
+          <h2>${bio.nombre || ""} — <span style="color:#c084fc;">${bio.apodo_titulo || ""}</span></h2>
+          ${bio.rol_en_el_grupo ? `<div class="bio-subtitle">Rol oficial: ${bio.rol_en_el_grupo}</div>` : ""}
+
+          ${bio.biografia_lore ? `<div class="bio-lore-text">${bio.biografia_lore}</div>` : ""}
+
+          ${(obsHtml || quotesHtml) ? `<div class="bio-grid">${obsHtml}${quotesHtml}</div>` : ""}
+
+          <div class="bio-cta-row">
+            <span style="font-size:13px; color:var(--muted);">Polígrafo listo: <strong style="color:var(--text);">${totalPregs} preguntas</strong> desclasificadas.</span>
+            <button class="btn-primary" onclick="startQuizFromBio()">Comenzar el Polígrafo (${totalPregs} preguntas) →</button>
+          </div>
+        </div>
+      `;
+
+      showSectionView(html);
+    }
+
+    function startQuizFromBio() {
+      showGameView(state.currentModeTitle);
+      renderQuestion();
+    }
+
+    function openCurrentBioModal() {
+      if (!state.currentBio) return;
+      renderBioIntroScreen(state.currentBio, state.currentQuestions.length);
+    }
+
     async function launchCatalogItem(secKey, itemId) {
       const list = state.catalogo[secKey] || [];
       const item = list.find(x => x.id === itemId);
@@ -1769,7 +1956,15 @@
         state.currentQuestions = rawList.map(q => normalizeQuizItem(q, "especial"));
       }
 
-      showGameView(`${item.icono || "🎬"} ${item.titulo}`);
+      state.currentModeTitle = `${item.icono || "🎬"} ${item.titulo}`;
+      if (data.biografia && typeof data.biografia === "object" && (data.biografia.biografia_lore || data.biografia.apodo_titulo)) {
+        state.currentBio = data.biografia;
+        renderBioIntroScreen(data.biografia, state.currentQuestions.length);
+        return;
+      }
+
+      state.currentBio = null;
+      showGameView(state.currentModeTitle);
       renderQuestion();
     }
 
@@ -2278,6 +2473,12 @@
         `;
         options = q.frases.map(f => `“${f}”`);
         correctIdx = q.impostor;
+      } else if (q.type === "especial") {
+        promptHtml = `
+          <div style="font-weight:700; font-size:17.5px; margin-bottom:16px; line-height:1.45;">${q.pregunta}</div>
+        `;
+        options = q.opciones;
+        correctIdx = q.correcta;
       } else {
         const safePrev = sanitizePrevContext(q.contexto, q.cita);
         const tituloPreg = q.type === "lo_dijo_o_no_opciones"
@@ -2350,6 +2551,15 @@
             ${q.relato_desbloqueado || ""}
             ${citasHtml}
           </div>
+        `;
+      } else if (q.type === "especial") {
+        const citaHtml = q.cita
+          ? `<div class="quote-chip" style="margin-top:8px;">“${q.cita}”</div>`
+          : "";
+        fb.innerHTML = `
+          <div>${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}</div>
+          ${citaHtml}
+          ${q.explicacion ? `<div style="margin-top:8px; color:#cbd5e1;">${q.explicacion}</div>` : ""}
         `;
       } else {
         let extraText = q.explicacion || "";
