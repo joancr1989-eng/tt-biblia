@@ -59,7 +59,7 @@
       position: sticky;
       top: 0;
       z-index: 40;
-      background: rgba(11, 14, 20, 0.86);
+      background: rgba(11, 14, 20, 0.88);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
     }
@@ -148,7 +148,7 @@
 
     /* MANIFESTO HERO */
     .hero {
-      padding: 28px 0 18px;
+      padding: 26px 0 16px;
       text-align: center;
     }
 
@@ -163,11 +163,11 @@
       color: var(--muted);
       font-size: 12px;
       font-weight: 600;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .hero h1 {
-      font-size: clamp(24px, 4vw, 34px);
+      font-size: clamp(23px, 4vw, 33px);
       font-weight: 900;
       letter-spacing: -0.6px;
       margin-bottom: 8px;
@@ -181,22 +181,22 @@
       color: var(--muted);
       max-width: 650px;
       margin: 0 auto;
-      font-size: 15px;
+      font-size: 14.5px;
     }
 
     /* EFEMERIDE PROTAGONIST CARD */
     .efem-card {
-      margin: 18px 0 30px;
+      margin: 16px 0 26px;
       background: linear-gradient(145deg, #1b2234 0%, #121722 100%);
       border: 1px solid rgba(245, 158, 11, 0.45);
       border-radius: 20px;
-      padding: 24px;
+      padding: 22px;
       box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.06);
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
-      gap: 20px;
+      gap: 18px;
       position: relative;
       overflow: hidden;
     }
@@ -220,7 +220,7 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      font-size: 12px;
+      font-size: 11.5px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.7px;
@@ -228,25 +228,18 @@
       background: var(--accent-soft);
       padding: 4px 10px;
       border-radius: 8px;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .efem-info h2 {
-      font-size: 24px;
+      font-size: 23px;
       font-weight: 800;
-      margin-bottom: 6px;
+      margin-bottom: 5px;
     }
 
     .efem-info p {
       color: var(--muted);
       font-size: 14px;
-    }
-
-    .efem-controls {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 10px;
     }
 
     .btn-primary {
@@ -263,13 +256,13 @@
     }
 
     .btn-primary:disabled {
-      opacity: 0.48;
+      opacity: 0.45;
       cursor: not-allowed;
       transform: none;
       box-shadow: none;
     }
 
-    .btn-primary:hover {
+    .btn-primary:hover:not(:disabled) {
       transform: translateY(-1px);
       box-shadow: 0 8px 22px rgba(245, 158, 11, 0.45);
     }
@@ -278,7 +271,7 @@
       background: var(--card);
       color: var(--text);
       border: 1px solid var(--border);
-      padding: 10px 16px;
+      padding: 10px 15px;
       border-radius: 12px;
       font-weight: 700;
       font-size: 13px;
@@ -286,220 +279,263 @@
       transition: 0.15s ease;
     }
 
-    .btn-secondary:hover {
+    .btn-secondary:hover:not(:disabled) {
       background: var(--card-hover);
-      border-color: var(--muted);
+      border-color: var(--accent);
     }
 
-    /* SECTION HEADERS */
-    .section-block {
-      margin-top: 32px;
-    }
-
-    .section-header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      margin-bottom: 14px;
-      gap: 12px;
-    }
-
-    .section-header h3 {
-      font-size: 18px;
-      font-weight: 800;
-      letter-spacing: -0.3px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    /* GRID CARDS */
-    .grid-2 {
+    /* HUB PORTAL GRID */
+    .hub-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: 1fr;
       gap: 14px;
     }
 
-    .mode-card {
+    @media (min-width: 680px) {
+      .hub-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .portal-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 18px;
+      border-radius: 18px;
+      padding: 20px;
       cursor: pointer;
       transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      gap: 12px;
+      gap: 14px;
+      position: relative;
+      overflow: hidden;
     }
 
-    .mode-card:hover {
+    .portal-card:hover {
       transform: translateY(-3px);
       background: var(--card-hover);
       border-color: var(--accent);
     }
 
-    .mode-top {
+    .portal-card.featured {
+      border-color: rgba(239, 68, 68, 0.45);
+      background: linear-gradient(145deg, #1d1526 0%, #161c2a 100%);
+    }
+
+    .portal-card.featured:hover {
+      border-color: var(--red);
+    }
+
+    .portal-top {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 10px;
     }
 
-    .mode-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 11px;
+    .portal-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
       display: grid;
       place-items: center;
-      font-size: 20px;
+      font-size: 22px;
     }
 
-    .mode-pill {
+    .portal-badge {
       font-size: 11px;
-      font-weight: 700;
-      padding: 3px 9px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.06);
-      color: var(--muted);
-    }
-
-    .mode-card h4 {
-      font-size: 16px;
       font-weight: 800;
-      margin-bottom: 4px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.07);
+      color: #e2e8f0;
     }
 
-    .mode-card p {
-      font-size: 13px;
+    .portal-badge.live {
+      background: var(--red-soft);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.35);
+    }
+
+    .portal-card h3 {
+      font-size: 18px;
+      font-weight: 900;
+      letter-spacing: -0.3px;
+      margin-bottom: 5px;
+    }
+
+    .portal-card p {
+      font-size: 13.5px;
       color: var(--muted);
-      line-height: 1.4;
+      line-height: 1.45;
     }
 
-    /* ESTRENOS DE CARTTELERA */
-    .carttelera-box {
-      background: linear-gradient(135deg, #1b1326 0%, #121722 65%, #1d1518 100%);
-      border: 1px solid rgba(239, 68, 68, 0.45);
-      border-radius: 20px;
-      padding: 22px;
-      box-shadow: var(--shadow);
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 18px;
-    }
-
-    @media (min-width: 760px) {
-      .carttelera-box {
-        grid-template-columns: 1.45fr 1fr;
-        align-items: stretch;
-      }
-    }
-
-    .poster-main {
+    .portal-footer {
       display: flex;
-      flex-direction: column;
+      align-items: center;
       justify-content: space-between;
-      gap: 14px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
     }
 
-    .cinema-badges {
+    /* SUBCATALOG ITEMS */
+    .sub-header {
       display: flex;
+      align-items: center;
+      justify-content: space-between;
       flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 18px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sub-title-wrap h2 {
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+    }
+
+    .sub-title-wrap p {
+      font-size: 13.5px;
+      color: var(--muted);
+    }
+
+    .catalog-group-title {
+      font-size: 12.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--muted);
+      margin: 18px 0 10px;
+      display: flex;
       align-items: center;
       gap: 8px;
     }
 
-    .badge-live {
-      background: var(--red);
-      color: #fff;
-      font-size: 11px;
-      font-weight: 800;
-      padding: 4px 10px;
-      border-radius: 6px;
-      letter-spacing: 0.6px;
-      text-transform: uppercase;
-    }
-
-    .badge-season {
-      background: rgba(255, 255, 255, 0.08);
-      color: #e2e8f0;
-      font-size: 11px;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 6px;
-    }
-
-    .poster-main h4 {
-      font-size: 22px;
-      font-weight: 900;
-      letter-spacing: -0.4px;
-      color: #fff;
-    }
-
-    .poster-main p {
-      color: #cbd5e1;
-      font-size: 14px;
-    }
-
-    .poster-actions {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 10px;
-      margin-top: 4px;
-    }
-
-    .poster-side {
-      background: rgba(11, 14, 20, 0.65);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    .catalog-list {
+      display: grid;
       gap: 12px;
     }
 
-    .countdown-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.7px;
-      color: var(--muted);
-      font-weight: 700;
-    }
-
-    .countdown-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 6px;
-      margin-top: 6px;
-    }
-
-    .cd-cell {
+    .item-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 8px 4px;
-      text-align: center;
+      border-radius: 16px;
+      padding: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      transition: 0.16s ease;
     }
 
-    .cd-num {
-      font-size: 18px;
-      font-weight: 900;
-      color: var(--accent);
-      display: block;
-      line-height: 1.1;
+    .item-card.unlocked {
+      cursor: pointer;
     }
 
-    .cd-unit {
-      font-size: 10px;
-      color: var(--muted);
+    .item-card.unlocked:hover {
+      background: var(--card-hover);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .item-card.locked {
+      opacity: 0.72;
+      background: rgba(22, 28, 42, 0.55);
+      border-style: dashed;
+    }
+
+    .item-left {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      flex: 1 1 300px;
+    }
+
+    .item-emoji {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      display: grid;
+      place-items: center;
+      font-size: 21px;
+      flex-shrink: 0;
+    }
+
+    .item-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 5px;
+    }
+
+    .tag-pill {
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 999px;
       text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+
+    .tag-new {
+      background: var(--red-soft);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.35);
+    }
+
+    .tag-done {
+      background: var(--green-soft);
+      color: #6ee7b7;
+      border: 1px solid rgba(16, 185, 129, 0.35);
+    }
+
+    .tag-pending {
+      background: var(--accent-soft);
+      color: #fcd34d;
+    }
+
+    .tag-locked {
+      background: rgba(148, 163, 184, 0.14);
+      color: #cbd5e1;
+    }
+
+    .item-left h4 {
+      font-size: 16.5px;
+      font-weight: 800;
+      margin-bottom: 3px;
+    }
+
+    .item-left p {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .item-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+
+    .score-summary {
+      font-size: 12.5px;
+      font-weight: 800;
+      color: #6ee7b7;
     }
 
     /* VIEW PANELS */
     .view-panel {
       display: none;
-      margin-top: 14px;
+      margin-top: 16px;
       animation: fadeIn 0.2s ease;
     }
 
@@ -531,15 +567,6 @@
       color: var(--muted);
     }
 
-    .pill-score {
-      background: var(--accent-soft);
-      color: var(--accent);
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 12.5px;
-    }
-
     .quote-box {
       background: var(--bg);
       border-left: 4px solid var(--accent);
@@ -559,8 +586,6 @@
       font-weight: 400;
       color: var(--muted);
       margin-bottom: 6px;
-      overflow-wrap: anywhere;
-      word-break: break-word;
     }
 
     .censored {
@@ -636,8 +661,6 @@
       padding: 14px 16px;
       font-size: 14px;
       color: #e2e8f0;
-      overflow-wrap: anywhere;
-      word-break: break-word;
     }
 
     .quotes-list {
@@ -654,16 +677,6 @@
       padding: 6px 10px;
       border-radius: 6px;
       color: #cbd5e1;
-      overflow-wrap: anywhere;
-      word-break: break-word;
-    }
-
-    .archive-item {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 16px;
-      margin-bottom: 12px;
     }
 
     /* MODAL */
@@ -732,95 +745,6 @@
       z-index: 80;
       display: none;
     }
-      /* MODO INAUGURACIÓN HASTA LAS 17:00 */
-    .inaug-banner {
-      margin: 16px 0 18px;
-      background: linear-gradient(135deg, rgba(245, 158, 11, 0.16), rgba(239, 68, 68, 0.14));
-      border: 1px solid rgba(245, 158, 11, 0.55);
-      border-radius: 18px;
-      padding: 18px 20px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
-    }
-
-    .inaug-banner-title {
-      font-size: 16px;
-      font-weight: 900;
-      color: #fcd34d;
-      margin-bottom: 4px;
-    }
-
-    .inaug-banner-sub {
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .inaug-timer-row {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-    }
-
-    .inaug-unit-box {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 6px 10px;
-      min-width: 58px;
-      text-align: center;
-    }
-
-    .inaug-unit-num {
-      font-size: 17px;
-      font-weight: 900;
-      color: var(--accent);
-      display: block;
-      line-height: 1.15;
-    }
-
-    .inaug-unit-lbl {
-      font-size: 10px;
-      color: var(--muted);
-      text-transform: uppercase;
-      font-weight: 700;
-    }
-
-    body.inauguracion-activa #homeView .efem-card,
-    body.inauguracion-activa #homeView .section-block,
-    body.inauguracion-activa header .nav-actions {
-      opacity: 0.45;
-      pointer-events: none;
-      user-select: none;
-      filter: grayscale(0.35);
-    }
-    .mode-card.coming-soon {
-      opacity: 0.72;
-      cursor: default;
-      position: relative;
-      border-style: dashed;
-    }
-
-    .mode-card.coming-soon:hover {
-      transform: none;
-      background: var(--card);
-      border-color: var(--border);
-    }
-
-    .badge-soon {
-      font-size: 10.5px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-      padding: 3px 9px;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      color: #fcd34d;
-      border: 1px solid rgba(245, 158, 11, 0.35);
-    }
   </style>
 </head>
 <body>
@@ -844,207 +768,118 @@
   </header>
 
   <main class="container">
-    <!-- VISTA PORTADA (HOME) -->
+    <!-- VISTA PORTADA (HUB LIMPIO) -->
     <div id="homeView">
-      <!-- BANNER DE INAUGURACIÓN HASTA LAS 17:00 -->
-      <div class="inaug-banner" id="inaugBanner" style="display: none;">
-        <div>
-          <div class="inaug-banner-title">🔒 Inauguración oficial de TTpedia a las 17:00</div>
-          <div class="inaug-banner-sub">Puedes echar un vistazo a la portada, pero todo queda bloqueado hasta que llegue la hora.</div>
-        </div>
-        <div class="inaug-timer-row">
-          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inHours">00</span><span class="inaug-unit-lbl">Horas</span></div>
-          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inMins">00</span><span class="inaug-unit-lbl">Min</span></div>
-          <div class="inaug-unit-box"><span class="inaug-unit-num" id="inSecs">00</span><span class="inaug-unit-lbl">Seg</span></div>
-        </div>
-      </div>
-
-      <!-- MANIFIESTO -->
       <section class="hero">
         <div class="hero-badge">📜 Archivo histórico · 2012 – 2026</div>
         <h1><span>311.419 mensajes</span> recopilados para amenizar tus giñadas</h1>
         <p>Toda la hemeroteca, piques, rajadas, apuestas ruinosas y salidas de tono del Triangulito Team convertidos en archivo interactivo.</p>
       </section>
 
-      <!-- BLOQUE CENTRAL PROTAGONISTA: EFEMÉRIDE DEL DÍA -->
+      <!-- BLOQUE PROTAGONISTA: EFEMÉRIDE DEL DÍA -->
       <section class="efem-card">
         <div class="efem-info">
           <div class="efem-tag">📅 Reto Diario Oficial</div>
           <h2>Efeméride del Día</h2>
           <p>Todas las preguntas extraídas de lo que ocurrió exactamente un día como hoy en el archivo del grupo.</p>
         </div>
-        <div class="efem-controls">
+        <div>
           <button class="btn-primary" onclick="startEfemeride()">Jugar Efeméride de Hoy</button>
         </div>
       </section>
 
-      <!-- ESTRENOS DE CARTTELERA -->
-      <section class="section-block">
-        <div class="section-header">
-          <h3>🎬 Estrenos de CarTTelera</h3>
-        </div>
-        <div class="carttelera-box">
-          <div class="poster-main">
-            <div>
-              <div class="cinema-badges">
-                <span class="badge-live">Próximamente</span>
-                <span class="badge-season">25 capítulos</span>
-              </div>
-              <h4 style="margin-top: 10px;">La Pasión TTurca</h4>
-              <p style="margin-top: 6px;">Crónica cronológica íntegra de Marzal y la turca: responde capítulo a capítulo para ir desbloqueando la historia y las citas reales.</p>
+      <!-- HUB DE 5 PORTALES -->
+      <section class="hub-grid">
+        <!-- 1. ESTRENOS DE CARTTELERA -->
+        <div class="portal-card featured" onclick="openCatalogSection('carttelera')">
+          <div>
+            <div class="portal-top">
+              <div class="portal-icon" style="background: var(--red-soft); color: var(--red);">🎬</div>
+              <span class="portal-badge live" id="badgeCarttelera">Cargando...</span>
             </div>
-            <div class="poster-actions">
-              <button class="btn-primary" id="btnStartCarttelera" onclick="startPasionTTurca()" disabled>Bloqueado hasta las 00:00</button>
-              <span id="cartteleraUnlockHint" style="font-size: 12px; color: var(--muted);">Estreno a las 00:00</span>
-            </div>
+            <h3 style="margin-top:12px;">Estrenos de CarTTelera</h3>
+            <p>Las grandes sagas, mitos internos y crónicas del grupo: El TT, Solteros vs Casados, El Verano de Germi, La Pasión TTurca y más.</p>
           </div>
-
-          <div class="poster-side">
-            <div>
-              <div class="countdown-label">⏳ Próximo estreno de cartelera en</div>
-              <div class="countdown-grid" id="countdownGrid">
-                <div class="cd-cell"><span class="cd-num" id="cdDays">00</span><span class="cd-unit">Días</span></div>
-                <div class="cd-cell"><span class="cd-num" id="cdHours">00</span><span class="cd-unit">Horas</span></div>
-                <div class="cd-cell"><span class="cd-num" id="cdMins">00</span><span class="cd-unit">Min</span></div>
-                <div class="cd-cell"><span class="cd-num" id="cdSecs">00</span><span class="cd-unit">Seg</span></div>
-              </div>
-            </div>
+          <div class="portal-footer">
+            <span>Explorar cartelera y próximos estrenos</span>
+            <span>→</span>
           </div>
         </div>
-      </section>
 
-      <!-- MINIJUEGOS -->
-      <section class="section-block">
-        <div class="section-header">
-          <h3>🎮 Minijuegos</h3>
-        </div>
-        <div class="grid-2">
-          <div class="mode-card" onclick="startGame('quien_dijo')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--blue-soft); color: var(--blue);">💬</div>
-                <span class="mode-pill">¿Quién lo soltó?</span>
-              </div>
-              <h4>¿Quién dijo esto?</h4>
-              <p>Te damos el mensaje previo de contexto y una perla histórica del chat. Adivina quién fue el autor.</p>
+        <!-- 2. LA HISTORIA A TRAVÉS DEL TT -->
+        <div class="portal-card" onclick="openCatalogSection('historia_tt')">
+          <div>
+            <div class="portal-top">
+              <div class="portal-icon" style="background: var(--blue-soft); color: var(--blue);">🌍</div>
+              <span class="portal-badge" id="badgeHistoria">Cargando...</span>
             </div>
+            <h3 style="margin-top:12px;">La Historia a través del TT</h3>
+            <p>Cómo se vivieron en directo en el chat los grandes acontecimientos históricos: Elecciones, el Confinamiento, atentados y catástrofes.</p>
           </div>
-
-          <div class="mode-card" onclick="startGame('lo_dijo_o_no')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--purple-soft); color: var(--purple);">⚖️</div>
-                <span class="mode-pill">2 Verdades · 1 Impostor</span>
-              </div>
-              <h4>Lo dijo o no lo dijo</h4>
-              <p>Tres frases reales de la misma temática: dos salieron de su teclado y una es de otro compañero. Caza al impostor.</p>
-            </div>
-          </div>
-
-          <div class="mode-card" onclick="startGame('rajaditta')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--red-soft); color: var(--red);">🤬</div>
-                <span class="mode-pill">Censura activa</span>
-              </div>
-              <h4>La RajadiTTa</h4>
-              <p>Palo o vacile real con el nombre de la víctima censurado (<code style="color:#fca5a5;">***</code>). Adivina quién recibió el golpe.</p>
-            </div>
-          </div>
-
-          <div class="mode-card" onclick="startGame('dato_justo')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--green-soft); color: var(--green);">🎯</div>
-                <span class="mode-pill">Duelos y Cifras</span>
-              </div>
-              <h4>El Dato Justo</h4>
-              <p>Duelos de menciones entre mitos del lore y retos de clavar cuántas veces se dijo cada palabreja en 14 años.</p>
-            </div>
+          <div class="portal-footer">
+            <span>Ver eventos históricos</span>
+            <span>→</span>
           </div>
         </div>
-      </section>
 
-      <!-- CATEGORÍAS -->
-      <section class="section-block">
-        <div class="section-header">
-          <h3>📚 Categorías</h3>
-        </div>
-        <div class="grid-2">
-          <div class="mode-card" onclick="startSectionQuiz('pornopedia')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--pink-soft); color: var(--pink);">🔞</div>
-                <span class="mode-pill">Modo Trivia +18</span>
-              </div>
-              <h4>Pornopedia</h4>
-              <p>Adivina quién soltó o protagonizó las confesiones, teorías de alcoba y anécdotas más subidas de tono.</p>
+        <!-- 3. EL POLÍGRAFO -->
+        <div class="portal-card" onclick="openCatalogSection('Informe Robinson')">
+          <div>
+            <div class="portal-top">
+              <div class="portal-icon" style="background: var(--purple-soft); color: var(--purple);">🕵️</div>
+              <span class="portal-badge" id="badgePoligrafo">Cargando...</span>
             </div>
+            <h3 style="margin-top:12px;">Informe Robinson</h3>
+            <p>Expedientes individuales de cada miembro del Triangulito Team. Pon a prueba cuánto conoces las perlas de cada uno.</p>
           </div>
-
-          <div class="mode-card" onclick="startSectionQuiz('comidistta')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--accent-soft); color: var(--accent);">🍽️</div>
-                <span class="mode-pill">Modo Trivia Gastro</span>
-              </div>
-              <h4>El ComidisTTa</h4>
-              <p>Pon a prueba tus conocimientos sobre paellas, kebabs, esmorzarets y veredictos culinarios del chat.</p>
-            </div>
-          </div>
-
-          <div class="mode-card" onclick="startSectionQuiz('zona_vox')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--green-soft); color: var(--green);">🟩</div>
-                <span class="mode-pill">Modo Trivia VOX</span>
-              </div>
-              <h4>Zona VOX</h4>
-              <p>Preguntas tipo test sobre las salidas de tono, opiniones políticas sin filtro y burradas del archivo.</p>
-            </div>
+          <div class="portal-footer">
+            <span>Abrir expedientes</span>
+            <span>→</span>
           </div>
         </div>
-      </section>
 
-      <!-- NUEVAS SECCIONES (PRÓXIMAMENTE) -->
-      <section class="section-block">
-        <div class="section-header">
-          <h3>🚀 Nuevas Secciones</h3>
-        </div>
-        <div class="grid-2">
-          <div class="mode-card coming-soon" onclick="showToast('⏳ Regreso al futuro: disponible muy pronto')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--blue-soft); color: var(--blue);">⏪</div>
-                <span class="badge-soon">Próximamente</span>
-              </div>
-              <h4>Regreso al futuro</h4>
-              <p>Viaje año a año (2012 – 2026) por los grandes hitos, motes, piques y momentazos históricos del Triangulito Team.</p>
+        <!-- 4. MINIJUEGOS -->
+        <div class="portal-card" onclick="openMinijuegosHub()">
+          <div>
+            <div class="portal-top">
+              <div class="portal-icon" style="background: var(--accent-soft); color: var(--accent);">🎮</div>
+              <span class="portal-badge">4 modos rápidos</span>
             </div>
+            <h3 style="margin-top:12px;">Minijuegos</h3>
+            <p>¿Quién dijo esto?, Lo dijo o no lo dijo (2 verdades y 1 impostor), La RajadiTTa con censura y El Dato Justo.</p>
           </div>
+          <div class="portal-footer">
+            <span>Elegir minijuego</span>
+            <span>→</span>
+          </div>
+        </div>
 
-          <div class="mode-card coming-soon" onclick="showToast('⏳ El Polígrafo: disponible muy pronto')">
-            <div>
-              <div class="mode-top">
-                <div class="mode-icon" style="background: var(--purple-soft); color: var(--purple);">🕵️</div>
-                <span class="badge-soon">Próximamente</span>
-              </div>
-              <h4>El Polígrafo</h4>
-              <p>Dossier biográfico individual de cada miembro del grupo: polémicas, sentencias sin filtro y hemeroteca personal.</p>
+        <!-- 5. CATEGORÍAS TEMÁTICAS -->
+        <div class="portal-card" onclick="openCategoriasHub()">
+          <div>
+            <div class="portal-top">
+              <div class="portal-icon" style="background: var(--pink-soft); color: var(--pink);">📚</div>
+              <span class="portal-badge">3 temáticas</span>
             </div>
+            <h3 style="margin-top:12px;">Categorías Temáticas</h3>
+            <p>Pornopedia (+18), El ComidisTTa (gastronomía y esmorzarets) y Zona VOX (opiniones políticas sin filtro).</p>
+          </div>
+          <div class="portal-footer">
+            <span>Ver categorías</span>
+            <span>→</span>
           </div>
         </div>
       </section>
     </div>
 
-    <!-- VISTA DE JUEGO (SIN SEGUNDA CABECERA) -->
-    <div id="gameView" class="view-panel">
-      <div class="quiz-box" id="quizContainer"></div>
-    </div>
-
-    <!-- VISTA DE VOTACIÓN -->
+    <!-- VISTA DE SUBCATÁLOGO / HUB SECUNDARIO -->
     <div id="sectionView" class="view-panel">
       <div id="sectionContent"></div>
+    </div>
+
+    <!-- VISTA DE JUEGO -->
+    <div id="gameView" class="view-panel">
+      <div class="quiz-box" id="quizContainer"></div>
     </div>
   </main>
 
@@ -1052,7 +887,7 @@
   <div class="modal-backdrop" id="playerModal" onclick="if(event.target===this && state.hasChosenPlayer) closeModals()">
     <div class="modal-card">
       <h3>👤 ¿Quién está en el trono ahora?</h3>
-      <p style="font-size: 13px; color: var(--muted);">Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.</p>
+      <p style="font-size: 13px; color: var(--muted);">Tu puntuación diaria, general y tu progreso en cada especial se guardarán con tu nombre.</p>
       <div class="player-select-grid" id="playerButtonsGrid"></div>
     </div>
   </div>
@@ -1066,7 +901,7 @@
       </div>
       <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px;">
         <button class="btn-secondary" id="tabRankDaily" onclick="renderRanking('daily')">📅 Reto Diario</button>
-        <button class="btn-secondary" id="tabRankCarttelera" onclick="renderRanking('carttelera')">🎬 CarTTelera</button>
+        <button class="btn-secondary" id="tabRankCarttelera" onclick="renderRanking('carttelera')">🎬 Especiales</button>
         <button class="btn-secondary" id="tabRankGlobal" onclick="renderRanking('global')">🏆 Ranking Total</button>
       </div>
       <div id="rankingList"></div>
@@ -1084,119 +919,99 @@
     ];
 
     const DATA_PATHS = {
+      catalogo: "data/catalogo.json",
       efemeridesDir: "data/efemerides/",
-      quien_dijo: "data/quien_dijo_esto.json",
-      lo_dijo_o_no: "data/lo_dijo_o_no.json",
-      rajaditta: "data/a_quien_insultan.json",
-      dato_justo: "data/el_dato_justo.json",
-      pornopedia: "data/pornopedia_tt.json",
-      comidistta: "data/comidistta.json",
-      zona_vox: "data/zona_vox.json",
-      pasion_tturca: "data/marzal_turca.json"
+      quien_dijo: "data/minijuegos/quien_dijo_esto.json",
+      lo_dijo_o_no: "data/minijuegos/lo_dijo_o_no.json",
+      rajaditta: "data/minijuegos/a_quien_insultan.json",
+      dato_justo: "data/minijuegos/el_dato_justo.json",
+      pornopedia: "data/categorias/pornopedia_tt.json",
+      comidistta: "data/categorias/comidistta.json",
+      zona_vox: "data/categorias/zona_vox.json"
     };
 
-    const FALLBACK = {
-      efemeride: [
-        {
-          pregunta: "En abril de 2016, cuando Germi soltó optimistamente 'El city pasa' tras el 0-0 ante el Real Madrid, ¿cómo le vaciló Joni?",
-          cita: "Sí, farlopa en el parking de masia",
-          opciones: ["Sí, y yo soy astronauta", "Sí, farlopa en el parking de masia", "Tu optimismo no tiene cura", "Pásame de lo que fumas"],
-          correcta: 1,
-          explicacion: "Joni cortó de raíz la euforia europea de Germi con una de sus respuestas más míticas.",
-          anio: 2016
-        }
+    const CATALOGO_FALLBACK = {
+      "ultima_actualizacion": "2026-11-26T13:15:00+01:00",
+      "carttelera": [
+            {
+                  "id": "marzal_turca",
+                  "archivo": "data/carttelera/marzal_turca.json",
+                  "titulo": "La Pasión TTurca",
+                  "subtitulo": "30 capítulos · Crónica cronológica de Marzal y la turca",
+                  "icono": "🇹🇷",
+                  "release_date": "2026-11-25T00:00:00+01:00",
+                  "tipo": "capitulos"
+            },
+            {
+                  "id": "especial_el_tt",
+                  "archivo": "data/carttelera/especial_el_tt.json",
+                  "titulo": "El TT: Triangulito Team FC",
+                  "subtitulo": "150 preguntas · Historia del glorioso TT (2012–2026)",
+                  "icono": "⚽",
+                  "release_date": "2026-12-02T00:00:00+01:00"
+            },
+            {
+                  "id": "solteros_vs_casados",
+                  "archivo": "data/carttelera/especial_solteros_vs_casados.json",
+                  "titulo": "Solteros vs Casados: La Guerra Civil",
+                  "subtitulo": "80 preguntas · Topos, novias y bandos (2012–2025)",
+                  "icono": "⚔️",
+                  "release_date": "2026-12-09T00:00:00+01:00"
+            },
+            {
+                  "id": "verano_germi_2015",
+                  "archivo": "data/carttelera/verano_germi_2015.json",
+                  "titulo": "Germi 2015: UNCHAINED",
+                  "subtitulo": "80 preguntas · Mayo – Octubre 2015 (+18)",
+                  "icono": "🔞",
+                  "release_date": "2026-12-16T00:00:00+01:00"
+            }
       ],
-      quien_dijo: [
-        {
-          pregunta: "¿Quién soltó esta frase en el grupo?",
-          cita: "El rayo de Iraola nos baila cual City de Guardiola jaja que bazofia somos",
-          opciones: ["Joni", "Jorge", "Miki", "Germi"],
-          correcta: 0,
-          anio: 2023,
-          explicacion: "La soltó Joni tras ver el repaso táctico del Rayo."
-        }
+      "historia_tt": [
+            {
+                  "id": "elecciones_generales",
+                  "archivo": "data/historia_tt/especial_elecciones_generales.json",
+                  "titulo": "Elecciones Generales TT",
+                  "subtitulo": "100 preguntas · Debates, 20D, 26J, 28A y Pactómetro",
+                  "icono": "🗳️",
+                  "release_date": "2026-11-26T16:00:00+01:00"
+            },
+            {
+                  "id": "especial_confinamiento",
+                  "archivo": "data/historia_tt/especial_confinamiento.json",
+                  "titulo": "El Confinamiento del TT (2020)",
+                  "subtitulo": "Pandemia, Estado de Alarma y encierro histórico",
+                  "icono": "😷",
+                  "release_date": "2026-12-03T00:00:00+01:00"
+            }
       ],
-      lo_dijo_o_no: [
-        {
-          miembro: "Germi",
-          frases: [
-            "Por el culo no se considera infidelidad",
-            "Me sale en favoritos al abrir el safari jajajajaja",
-            "Yo llevo todo el dia con la pantaloneta del city puesta"
-          ],
-          impostor: 2,
-          explicacion: "La frase de la pantaloneta del City es de Feme; las otras dos sí las dijo Germi."
-        }
-      ],
-      rajaditta: [
-        {
-          agresor: "Joni",
-          victima: "Marzal",
-          cita: "A ver, no es *** el hombre más indicado para dar lecciones sobre a que tías no tirar los trastos en plena calfamenta",
-          cita_sin_censura: "A ver, no es JM el hombre más indicado para dar lecciones sobre a que tías no tirar los trastos en plena calfamenta",
-          opciones: ["Hugo", "Marzal", "Humpa"],
-          correcta: 1,
-          anio: 2015,
-          contexto: "Vacile a Marzal (JM) por dar lecciones morales."
-        }
-      ],
-      dato_justo: [
-        {
-          pregunta: "¿A quién se ha nombrado MÁS VECES en toda la historia del TT (2012-2026)?",
-          opciones: ["LeBron James", "Mourinho"],
-          correcta: 1,
-          anio: "2012-2026",
-          explicacion: "Gana Mourinho: LeBron James aparece 15 veces frente a Mourinho con 35 menciones."
-        }
-      ],
-      pornopedia: [
-        {
-          pregunta: "¿Quién confesó que una web porno le aparecía directamente en favoritos al abrir Safari?",
-          cita: "Me sale en favoritos al abrir el safari jajajajaja",
-          opciones: ["Germi", "Jorge", "Miki", "Feme"],
-          correcta: 0,
-          anio: 2018,
-          explicacion: "Germi lo admitió entre risas en mitad de la conversación."
-        }
-      ],
-      comidistta: [
-        {
-          pregunta: "¿Dónde situó Feme la mejor hamburguesa de la comarca de la Safor?",
-          cita: "Esta en el Vaya Tela de Bellreguard",
-          opciones: ["En el Vaya Tela de Bellreguard", "En el Foster's", "En un kebab de Gandía", "En el bar de la playa"],
-          correcta: 0,
-          anio: 2019,
-          explicacion: "Feme zanjó el debate gastronómico apostando por Bellreguard."
-        }
-      ],
-      zona_vox: [
-        {
-          pregunta: "¿Quién soltó esta sentencia sobre el modelo territorial durante la pandemia?",
-          cita: "Si de algo ha servido todo esto , es para corroborar el fracaso del estado autonómico",
-          opciones: ["Humpa", "Jorge", "Joni", "Hugo"],
-          correcta: 0,
-          anio: 2020,
-          explicacion: "Humpa sacó su argumento habitual en pleno debate del grupo."
-        }
-      ],
-      pasion_tturca: [
-        {
-          numero: 1,
-          fecha: "2015-09-16",
-          titulo_capitulo: "Cuotas de carcel polaca y wifi desaprovechado",
-          pregunta: "¿Qué anécdota previa recordó Jorge para justificar el desplome de cuotas sobre Marzal en Polonia?",
-          opciones: [
-            "Que se olvidó el pasaporte en Manises",
-            "Que teniendo wifi y sin hotel en Alemania, prefirió comentar banalidades en el grupo del TT",
-            "Que intentó pagar con zlotys en Múnich",
-            "Que perdió las llaves en una cabina"
-          ],
-          correcta: 1,
-          relato_desbloqueado: "Antes de aterrizar en Polonia, el grupo ya apostaba por su supervivencia recordando cuando tuvo wifi y buscaba alojamiento y prefirió chatear en el TT.",
-          citas_reales: ["Jorge: Recordemos su momento estrella", "Jorge: Y aqui estaba, comentando banalidades en el grupo del TT"]
-        }
+      "Informe Robinson": [
+            {
+                  "id": "poligrafo_germi",
+                  "archivo": "data/poligrafo/germi.json",
+                  "titulo": "Expediente Corki",
+                  "subtitulo": "El Polígrafo · Verdades, perlas y salidas de tono",
+                  "icono": "🕵️",
+                  "release_date": "2026-12-07T00:00:00+01:00"
+            },
+            {
+                  "id": "poligrafo_ttino",
+                  "archivo": "data/poligrafo/ttino.json",
+                  "titulo": "Expediente TTino",
+                  "subtitulo": "El Polígrafo · La Leyenda",
+                  "icono": "🕵️",
+                  "release_date": "2026-12-14T00:00:00+01:00"
+            },
+            {
+                  "id": "poligrafo_humberto",
+                  "archivo": "data/poligrafo/humberto.json",
+                  "titulo": "Expediente HP8",
+                  "subtitulo": "El Polígrafo · La mentira hasta el final",
+                  "icono": "🕵️",
+                  "release_date": "2026-11-30T00:00:00+01:00"
+            }
       ]
-    };
+};
 
     const hasChosenSaved = localStorage.getItem("ttpedia_player_chosen") === "1";
 
@@ -1204,83 +1019,27 @@
       hasChosenPlayer: hasChosenSaved,
       player: localStorage.getItem("ttpedia_player") || "Joni",
       scores: JSON.parse(localStorage.getItem("ttpedia_scores") || "{}"),
-      votes: JSON.parse(localStorage.getItem("ttpedia_votes") || "{}"),
+      progress: JSON.parse(localStorage.getItem("ttpedia_progress") || "{}"),
+      catalogo: CATALOGO_FALLBACK,
       currentQuestions: [],
       qIndex: 0,
       roundScore: 0,
+      roundHits: 0,
       streak: 0,
       currentModeTitle: "",
+      currentItemId: null,
+      currentSectionKey: null,
       flowMode: "quiz",
-      lastAction: null
+      lastAction: null,
+      backAction: () => goHome()
     };
 
     const nowInit = new Date();
     const mm = String(nowInit.getMonth() + 1).padStart(2, "0");
     const dd = String(nowInit.getDate()).padStart(2, "0");
 
-    // Estreno programado a las 00:00 del 25 de noviembre de 2026 (hora local)
-    const ESTRENO_CARTTELERA = new Date(2026, 10, 25, 0, 0, 0);
-
-    function syncCartteleraLock(unlocked) {
-      const btn = document.getElementById("btnStartCarttelera");
-      const hint = document.getElementById("cartteleraUnlockHint");
-      const badge = document.querySelector(".carttelera-box .badge-live");
-      if (!btn) return;
-      if (unlocked) {
-        btn.disabled = false;
-        btn.textContent = "Empezar Capítulo 1";
-        if (hint) hint.textContent = "¡Ya disponible!";
-        if (badge) badge.textContent = "En cartelera";
-      } else {
-        btn.disabled = true;
-        btn.textContent = "Disponible a las 00:00";
-        if (hint) hint.textContent = "Se desbloquea automáticamente a las 00:00";
-        if (badge) badge.textContent = "Próximamente";
-      }
-    }
-
-    function updateCountdown() {
-      const now = new Date();
-      const ms = Math.max(0, ESTRENO_CARTTELERA - now);
-      const unlocked = now >= ESTRENO_CARTTELERA;
-
-      document.getElementById("cdDays").textContent = String(Math.floor(ms / 86400000)).padStart(2, "0");
-      document.getElementById("cdHours").textContent = String(Math.floor((ms / 3600000) % 24)).padStart(2, "0");
-      document.getElementById("cdMins").textContent = String(Math.floor((ms / 60000) % 60)).padStart(2, "0");
-      document.getElementById("cdSecs").textContent = String(Math.floor((ms / 1000) % 60)).padStart(2, "0");
-
-      syncCartteleraLock(unlocked);
-    }
-    setInterval(updateCountdown, 1000);
-    updateCountdown();
-
-    const HORA_INAUGURACION = new Date(2026, 10, 24, 17, 0, 0);
-    function updateInauguracionLock() {
-      const now = new Date();
-      const locked = now < HORA_INAUGURACION;
-      const banner = document.getElementById("inaugBanner");
-      if (locked) {
-        document.body.classList.add("inauguracion-activa");
-        if (banner) banner.style.display = "flex";
-        const diffMs = Math.max(0, HORA_INAUGURACION - now);
-        const h = Math.floor(diffMs / 3600000);
-        const m = Math.floor((diffMs / 60000) % 60);
-        const s = Math.floor((diffMs / 1000) % 60);
-        const elH = document.getElementById("inHours");
-        const elM = document.getElementById("inMins");
-        const elS = document.getElementById("inSecs");
-        if (elH) elH.textContent = String(h).padStart(2, "0");
-        if (elM) elM.textContent = String(m).padStart(2, "0");
-        if (elS) elS.textContent = String(s).padStart(2, "0");
-      } else {
-        document.body.classList.remove("inauguracion-activa");
-        if (banner) banner.style.display = "none";
-      }
-    }
-    setInterval(updateInauguracionLock, 1000);
-    updateInauguracionLock();
     document.getElementById("currentPlayerName").textContent = state.hasChosenPlayer ? state.player : "Elegir";
-    if (!state.hasChosenPlayer && new Date() >= HORA_INAUGURACION) {
+    if (!state.hasChosenPlayer) {
       openPlayerModal(true);
     }
 
@@ -1290,10 +1049,10 @@
       const descEl = modalCard?.querySelector("p");
       if (forceFirstVisit || !state.hasChosenPlayer) {
         if (titleEl) titleEl.textContent = "👋 ¡Bienvenido a TTpedia! ¿Quién eres?";
-        if (descEl) descEl.textContent = "Antes de entrar, selecciona qué miembro del Triangulito Team eres para guardar tus puntos y clasificaciones.";
+        if (descEl) descEl.textContent = "Antes de entrar, selecciona qué miembro del Triangulito Team eres para guardar tus puntos y progreso.";
       } else {
         if (titleEl) titleEl.textContent = "👤 ¿Quién está en el trono ahora?";
-        if (descEl) descEl.textContent = "Tu puntuación diaria y general se guardará con tu nombre en este dispositivo.";
+        if (descEl) descEl.textContent = "Tu puntuación y tus especiales completados se guardarán con tu nombre.";
       }
 
       document.getElementById("playerButtonsGrid").innerHTML = MIEMBROS.map(m => `
@@ -1312,6 +1071,9 @@
       document.getElementById("currentPlayerName").textContent = name;
       closeModals();
       showToast(`Jugador activo: ${name}`);
+      if (document.getElementById("sectionView").classList.contains("active") && state.currentSectionKey) {
+        openCatalogSection(state.currentSectionKey);
+      }
     }
 
     function getTodayISO() {
@@ -1326,14 +1088,14 @@
           nombre: name,
           ranking_total: 0,
           reto_diario: { fecha: todayISO, puntos: 0 },
-          carttelera: { saga_activa: "pasion_tturca", puntos: 0, capitulos_completados: 0 }
+          carttelera: { puntos: 0 }
         };
       } else {
         if (!state.scores[name].reto_diario || state.scores[name].reto_diario.fecha !== todayISO) {
           state.scores[name].reto_diario = { fecha: todayISO, puntos: 0 };
         }
         if (!state.scores[name].carttelera) {
-          state.scores[name].carttelera = { saga_activa: "pasion_tturca", puntos: 0, capitulos_completados: 0 };
+          state.scores[name].carttelera = { puntos: 0 };
         }
         if (typeof state.scores[name].ranking_total !== "number") {
           state.scores[name].ranking_total = 0;
@@ -1347,32 +1109,91 @@
       entry.ranking_total += pts;
 
       const isDaily = state.currentModeTitle.includes("Efeméride");
-      const isCarttelera = state.flowMode === "pasion_tturca";
+      const isSpecial = Boolean(state.currentItemId);
 
       if (isDaily) {
         entry.reto_diario.puntos += pts;
-      } else if (isCarttelera) {
+      } else if (isSpecial) {
         entry.carttelera.puntos += pts;
       }
 
       localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
       if (window.TTFirebase && typeof window.TTFirebase.syncPlayerPoints === "function") {
-        window.TTFirebase.syncPlayerPoints(state.player, pts, { isDaily, isCarttelera });
+        window.TTFirebase.syncPlayerPoints(state.player, pts, { isDaily, isSpecial });
+      }
+    }
+
+    function getItemProgress(itemId) {
+      const pMap = state.progress[state.player] || {};
+      return pMap[itemId] || null;
+    }
+
+    function saveItemCompletion(itemId, score, hits, total) {
+      if (!itemId) return;
+      if (!state.progress[state.player]) state.progress[state.player] = {};
+      const prev = state.progress[state.player][itemId];
+      const bestScore = prev ? Math.max(prev.bestScore || 0, score) : score;
+      const bestHits = prev ? Math.max(prev.bestHits || 0, hits) : hits;
+
+      const record = {
+        completado: true,
+        bestScore,
+        bestHits,
+        total,
+        fecha: getTodayISO()
+      };
+      state.progress[state.player][itemId] = record;
+      localStorage.setItem("ttpedia_progress", JSON.stringify(state.progress));
+
+      if (window.TTFirebase && typeof window.TTFirebase.syncItemProgress === "function") {
+        window.TTFirebase.syncItemProgress(state.player, itemId, record);
       }
     }
 
     async function openRankingModal() {
-      if (new Date() < HORA_INAUGURACION) return;
       if (window.TTFirebase && typeof window.TTFirebase.fetchAllPlayers === "function") {
         const remote = await window.TTFirebase.fetchAllPlayers();
         if (remote) {
           for (const m of MIEMBROS) {
             const id = m.toLowerCase();
             if (remote[id]) {
-              state.scores[m] = { ...ensurePlayerEntry(m), ...remote[id], nombre: m };
+              const r = remote[id];
+              const local = ensurePlayerEntry(m);
+              // Compatibilidad con claves anidadas y claves planas antiguas ("carttelera.puntos")
+              const remoteCartPts = (r.carttelera && typeof r.carttelera.puntos === "number")
+                ? r.carttelera.puntos
+                : (typeof r["carttelera.puntos"] === "number" ? r["carttelera.puntos"] : local.carttelera.puntos);
+
+              const todayISO = getTodayISO();
+              let remoteDailyPts = local.reto_diario.puntos;
+              if (r.reto_diario && r.reto_diario.fecha === todayISO && typeof r.reto_diario.puntos === "number") {
+                remoteDailyPts = r.reto_diario.puntos;
+              } else if (r["reto_diario.fecha"] === todayISO && typeof r["reto_diario.puntos"] === "number") {
+                remoteDailyPts = r["reto_diario.puntos"];
+              }
+
+              state.scores[m] = {
+                nombre: m,
+                ranking_total: Math.max(local.ranking_total, r.ranking_total || 0),
+                reto_diario: { fecha: todayISO, puntos: Math.max(local.reto_diario.puntos, remoteDailyPts) },
+                carttelera: { puntos: Math.max(local.carttelera.puntos, remoteCartPts) }
+              };
+
+              if (r.progreso_especiales && typeof r.progreso_especiales === "object") {
+                if (!state.progress[m]) state.progress[m] = {};
+                for (const [k, v] of Object.entries(r.progreso_especiales)) {
+                  const prev = state.progress[m][k];
+                  state.progress[m][k] = {
+                    ...v,
+                    bestScore: Math.max(prev?.bestScore || 0, v.bestScore || 0),
+                    bestHits: Math.max(prev?.bestHits || 0, v.bestHits || 0)
+                  };
+                }
+              }
             }
           }
           localStorage.setItem("ttpedia_scores", JSON.stringify(state.scores));
+          localStorage.setItem("ttpedia_progress", JSON.stringify(state.progress));
         }
       }
       renderRanking("daily");
@@ -1412,9 +1233,11 @@
     }
 
     function goHome() {
+      state.currentSectionKey = null;
       document.getElementById("homeView").style.display = "block";
       document.getElementById("gameView").classList.remove("active");
       document.getElementById("sectionView").classList.remove("active");
+      updatePortalBadges();
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
@@ -1426,24 +1249,17 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    function showSectionView(title, extraHtml = "") {
+    function showSectionView(htmlBody) {
       document.getElementById("homeView").style.display = "none";
       document.getElementById("gameView").classList.remove("active");
       document.getElementById("sectionView").classList.add("active");
-      document.getElementById("sectionContent").innerHTML =
-        `<div style="margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
-          <strong style="font-size:17px;">${title}</strong>
-          <div>${extraHtml}</div>
-        </div><div id="sectionDynamicBody"></div>`;
+      document.getElementById("sectionContent").innerHTML = htmlBody;
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    const DATA_VERSION = "2026-11-25-v2";
-
     async function loadJsonSafe(url, fallback) {
       try {
-        const sep = url.includes("?") ? "&" : "?";
-        const res = await fetch(`${url}${sep}v=${DATA_VERSION}`);
+        const res = await fetch(`${url}?v=${Math.floor(Date.now() / 60000)}`);
         if (!res.ok) throw new Error("No encontrado");
         return await res.json();
       } catch (e) {
@@ -1451,10 +1267,308 @@
       }
     }
 
+    function parseReleaseTime(str) {
+      if (!str) return 0;
+      const t = Date.parse(str);
+      return isNaN(t) ? 0 : t;
+    }
+
+    function formatReleaseLabel(str) {
+      const t = parseReleaseTime(str);
+      if (!t) return "Próximamente";
+      const d = new Date(t);
+      const meses = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+      const hh = String(d.getHours()).padStart(2, "0");
+      const min = String(d.getMinutes()).padStart(2, "0");
+      return `${d.getDate()} ${meses[d.getMonth()]} · ${hh}:${min}`;
+    }
+
+    function updatePortalBadges() {
+      const now = Date.now();
+      const map = [
+        { key: "carttelera", el: "badgeCarttelera" },
+        { key: "historia_tt", el: "badgeHistoria" },
+        { key: "Informe Robinson", el: "badgePoligrafo" }
+      ];
+      for (const { key, el } of map) {
+        const node = document.getElementById(el);
+        if (!node) continue;
+        const list = (state.catalogo[key] || []).filter(x => x.visible !== false);
+        const pub = list.filter(x => parseReleaseTime(x.release_date) <= now).length;
+        const prox = list.length - pub;
+        node.textContent = prox > 0
+          ? `${pub} disponibles · ${prox} próx.`
+          : `${pub} disponibles`;
+      }
+    }
+
+    async function initCatalogo() {
+      const loaded = await loadJsonSafe(DATA_PATHS.catalogo, CATALOGO_FALLBACK);
+      if (loaded && typeof loaded === "object") {
+        state.catalogo = {
+          carttelera: Array.isArray(loaded.carttelera) ? loaded.carttelera : CATALOGO_FALLBACK.carttelera,
+          historia_tt: Array.isArray(loaded.historia_tt) ? loaded.historia_tt : CATALOGO_FALLBACK.historia_tt,
+          "Informe Robinson": Array.isArray(loaded["Informe Robinson"]) ? loaded["Informe Robinson"] : (Array.isArray(loaded.poligrafo) ? loaded.poligrafo : CATALOGO_FALLBACK["Informe Robinson"])
+        };
+      }
+      updatePortalBadges();
+    }
+
+    function openCatalogSection(secKey) {
+      state.currentSectionKey = secKey;
+      const metaMap = {
+        carttelera: {
+          title: "🎬 Estrenos de CarTTelera",
+          desc: "Sagas, mitos y crónicas internas del Triangulito Team ordenadas de más reciente a más antigua."
+        },
+        historia_tt: {
+          title: "🌍 La Historia a través del TT",
+          desc: "Cómo se vivieron en directo en el grupo los grandes eventos históricos nacionales e internacionales."
+        },
+        "Informe Robinson": {
+          title: "🕵️ Informe Robinson",
+          desc: "Expedientes individuales de cada miembro del TT. Completa cada dossier para registrar tu récord."
+        }
+      };
+
+      const meta = metaMap[secKey];
+      const now = Date.now();
+      const threeDaysMs = 3 * 86400000;
+      const items = (state.catalogo[secKey] || []).filter(x => x.visible !== false);
+
+      // Publicados: ordenados de más reciente a más antiguo
+      const publicados = items
+        .filter(x => parseReleaseTime(x.release_date) <= now)
+        .sort((a, b) => parseReleaseTime(b.release_date) - parseReleaseTime(a.release_date));
+
+      // Próximamente: ordenados por estreno más cercano
+      const proximos = items
+        .filter(x => parseReleaseTime(x.release_date) > now)
+        .sort((a, b) => parseReleaseTime(a.release_date) - parseReleaseTime(b.release_date));
+
+      const renderCard = (item, isLocked) => {
+        const prog = getItemProgress(item.id);
+        const relTs = parseReleaseTime(item.release_date);
+        const isNew = !isLocked && (now - relTs) <= threeDaysMs;
+
+        let badgesHtml = "";
+        if (isLocked) {
+          badgesHtml += `<span class="tag-pill tag-locked">🔒 Estreno: ${formatReleaseLabel(item.release_date)}</span>`;
+        } else {
+          if (isNew) badgesHtml += `<span class="tag-pill tag-new">🆕 Estreno</span>`;
+          if (prog && prog.completado) {
+            badgesHtml += `<span class="tag-pill tag-done">✅ Completado</span>`;
+          } else {
+            badgesHtml += `<span class="tag-pill tag-pending">Pendiente</span>`;
+          }
+        }
+
+        const rightHtml = isLocked
+          ? `<button class="btn-secondary" disabled style="opacity:0.5; cursor:not-allowed;">Bloqueado</button>`
+          : `
+            ${prog && prog.completado ? `<div class="score-summary">Récord: ${prog.bestScore} pts (${prog.bestHits}/${prog.total})</div>` : ""}
+            <button class="btn-primary" style="padding:9px 15px; font-size:13px;">${prog && prog.completado ? "Rejugar →" : "Jugar →"}</button>
+          `;
+
+        return `
+          <div class="item-card ${isLocked ? "locked" : "unlocked"}" ${isLocked ? "" : `onclick="launchCatalogItem('${secKey}', '${item.id}')"`}>
+            <div class="item-left">
+              <div class="item-emoji">${item.icono || "📜"}</div>
+              <div>
+                <div class="item-badges">${badgesHtml}</div>
+                <h4>${item.titulo}</h4>
+                <p>${item.subtitulo || ""}</p>
+              </div>
+            </div>
+            <div class="item-right">
+              ${rightHtml}
+            </div>
+          </div>
+        `;
+      };
+
+      let html = `
+        <div class="sub-header">
+          <div class="sub-title-wrap">
+            <h2>${meta.title}</h2>
+            <p>${meta.desc}</p>
+          </div>
+          <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
+        </div>
+      `;
+
+      if (publicados.length > 0) {
+        html += `<div class="catalog-group-title">🟢 Disponibles (${publicados.length})</div>`;
+        html += `<div class="catalog-list">${publicados.map(it => renderCard(it, false)).join("")}</div>`;
+      } else {
+        html += `<div class="quiz-box"><p style="color:var(--muted);">Aún no se ha desbloqueado ningún estreno en esta sección. ¡Atento al próximo!</p></div>`;
+      }
+
+      if (proximos.length > 0) {
+        html += `<div class="catalog-group-title" style="margin-top:24px;">⏳ Próximamente en cartelera (${proximos.length})</div>`;
+        html += `<div class="catalog-list">${proximos.map(it => renderCard(it, true)).join("")}</div>`;
+      }
+
+      showSectionView(html);
+    }
+
+    function openMinijuegosHub() {
+      state.currentSectionKey = null;
+      const html = `
+        <div class="sub-header">
+          <div class="sub-title-wrap">
+            <h2>🎮 Minijuegos</h2>
+            <p>Partidas rápidas de 10 rondas extraídas de los 14 años de archivo.</p>
+          </div>
+          <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
+        </div>
+        <div class="hub-grid">
+          <div class="portal-card" onclick="startGame('quien_dijo')">
+            <div>
+              <div class="portal-top">
+                <div class="portal-icon" style="background: var(--blue-soft); color: var(--blue);">💬</div>
+                <span class="portal-badge">¿Quién lo soltó?</span>
+              </div>
+              <h3 style="margin-top:12px;">¿Quién dijo esto?</h3>
+              <p>Te damos el mensaje previo de contexto y una perla histórica del chat. Adivina quién fue el autor.</p>
+            </div>
+            <div class="portal-footer"><span>Jugar ronda</span><span>→</span></div>
+          </div>
+
+          <div class="portal-card" onclick="startGame('lo_dijo_o_no')">
+            <div>
+              <div class="portal-top">
+                <div class="portal-icon" style="background: var(--purple-soft); color: var(--purple);">⚖️</div>
+                <span class="portal-badge">2 Verdades · 1 Impostor</span>
+              </div>
+              <h3 style="margin-top:12px;">Lo dijo o no lo dijo</h3>
+              <p>Tres frases reales de la misma temática: dos salieron de su teclado y una es de otro compañero. Caza al impostor.</p>
+            </div>
+            <div class="portal-footer"><span>Jugar ronda</span><span>→</span></div>
+          </div>
+
+          <div class="portal-card" onclick="startGame('rajaditta')">
+            <div>
+              <div class="portal-top">
+                <div class="portal-icon" style="background: var(--red-soft); color: var(--red);">🤬</div>
+                <span class="portal-badge">Censura activa</span>
+              </div>
+              <h3 style="margin-top:12px;">La RajadiTTa</h3>
+              <p>Palo o vacile real con el nombre de la víctima censurado (<code style="color:#fca5a5;">***</code>). Adivina quién recibió el golpe.</p>
+            </div>
+            <div class="portal-footer"><span>Jugar ronda</span><span>→</span></div>
+          </div>
+
+          <div class="portal-card" onclick="startGame('dato_justo')">
+            <div>
+              <div class="portal-top">
+                <div class="portal-icon" style="background: var(--green-soft); color: var(--green);">🎯</div>
+                <span class="portal-badge">Duelos y Cifras</span>
+              </div>
+              <h3 style="margin-top:12px;">El Dato Justo</h3>
+              <p>Duelos de menciones entre mitos del lore y retos de clavar cuántas veces se dijo cada palabreja en 14 años.</p>
+            </div>
+            <div class="portal-footer"><span>Jugar ronda</span><span>→</span></div>
+          </div>
+        </div>
+      `;
+      showSectionView(html);
+    }
+
+    function openCategoriasHub() {
+      state.currentSectionKey = null;
+      const html = `
+        <div class="sub-header">
+          <div class="sub-title-wrap">
+            <h2>📚 Categorías Temáticas</h2>
+            <p>Especiales temáticos clasificados por género y salidas de tono.</p>
+          </div>
+          <button class="btn-secondary" onclick="goHome()">← Volver a Portada</button>
+        </div>
+        <div class="hub-grid">
+          <div class="portal-card" onclick="startSectionQuiz('pornopedia')">
+            <div>
+              <div class="portal-top">
+                <div class="portal-icon" style="background: var(--pink-soft); color: var(--pink);">🔞</div>
+                <span class="portal-badge">Trivia +18</span>
+              </div>
+              <h3 style="margin-top:12px;">Pornopedia</h3>
+              <p>Adivina quién soltó o protagonizó las confesiones, teorías de alcoba y anécdotas más subidas de tono.</p>
+            </div>
+            <div class="portal-footer"><span>Jugar ronda</span><span>→</span></div>
+          </div>
+
+          <div class="portal-card" onclick="startSectionQuiz('comidistta')">
+            <div>
+              <div class="portal-top">
+                <div class="portal-icon" style="background: var(--accent-soft); color: var(--accent);">🍽️</div>
+                <span class="portal-badge">Trivia Gastro</span>
+              </div>
+              <h3 style="margin-top:12px;">El ComidisTTa</h3>
+              <p>Pon a prueba tus conocimientos sobre paellas, kebabs, esmorzarets y veredictos culinarios del chat.</p>
+            </div>
+            <div class="portal-footer"><span>Jugar ronda</span><span>→</span></div>
+          </div>
+
+          <div class="portal-card" onclick="startSectionQuiz('zona_vox')">
+            <div>
+              <div class="portal-top">
+                <div class="portal-icon" style="background: var(--green-soft); color: var(--green);">🟩</div>
+                <span class="portal-badge">Trivia VOX</span>
+              </div>
+              <h3 style="margin-top:12px;">Zona VOX</h3>
+              <p>Preguntas tipo test sobre las salidas de tono, opiniones políticas sin filtro y burradas del archivo.</p>
+            </div>
+            <div class="portal-footer"><span>Jugar ronda</span><span>→</span></div>
+          </div>
+        </div>
+      `;
+      showSectionView(html);
+    }
+
+    async function launchCatalogItem(secKey, itemId) {
+      const list = state.catalogo[secKey] || [];
+      const item = list.find(x => x.id === itemId);
+      if (!item) return;
+
+      if (parseReleaseTime(item.release_date) > Date.now()) {
+        showToast(`Disponible el ${formatReleaseLabel(item.release_date)}`);
+        return;
+      }
+
+      const data = await loadJsonSafe(item.archivo, null);
+      if (!data) {
+        showToast("No se pudo cargar el archivo del especial");
+        return;
+      }
+
+      state.currentItemId = item.id;
+      state.backAction = () => openCatalogSection(secKey);
+      state.lastAction = () => launchCatalogItem(secKey, itemId);
+      state.qIndex = 0;
+      state.roundScore = 0;
+      state.roundHits = 0;
+      state.streak = 0;
+
+      if (item.tipo === "capitulos" || Array.isArray(data.capitulos)) {
+        const caps = [...extractArray(data, [])].sort((a, b) => (a.numero || 0) - (b.numero || 0));
+        state.flowMode = "capitulos";
+        state.currentQuestions = caps.map((c, idx) => ({ type: "capitulos", numero: c.numero || idx + 1, ...c }));
+      } else {
+        // Mantiene el orden cronológico/narrativo original del archivo (sin barajar)
+        const rawList = extractArray(data, []);
+        state.flowMode = "especial";
+        state.currentQuestions = rawList.map(q => normalizeQuizItem(q, "especial"));
+      }
+
+      showGameView(`${item.icono || "🎬"} ${item.titulo}`);
+      renderQuestion();
+    }
+
     function extractArray(data, fallback) {
       if (Array.isArray(data) && data.length > 0) return data;
       if (!data || typeof data !== "object") return fallback;
-      for (const k of ["preguntas", "preguntas_trivia", "items", "capitulos", "datos", "rondas", "duelos", "retos"]) {
+      for (const k of ["preguntas", "items", "capitulos", "datos", "rondas", "duelos", "retos"]) {
         if (Array.isArray(data[k]) && data[k].length > 0) return data[k];
       }
       return fallback;
@@ -1487,7 +1601,7 @@
 
     function extractMemberFromText(txt) {
       if (!txt) return "";
-      const match = String(txt).match(new RegExp(`\\b(${MIEMBROS.join("|")})\\b`, "i"));
+      const match = String(txt).match(new RegExp(`\b(${MIEMBROS.join("|")})\b`, "i"));
       if (match) {
         const found = MIEMBROS.find(m => m.toLowerCase() === match[1].toLowerCase());
         return found || match[1];
@@ -1504,18 +1618,16 @@
       }
 
       const expText = String(item.explicacion || item.contexto || item.mensaje_previo || "");
-      const falsaMatch = expText.match(new RegExp(`(?:falsa\\s+para|para)\\s+(${MIEMBROS.join("|")})\\b`, "i"));
+      const falsaMatch = expText.match(new RegExp(`(?:falsa\s+para|para)\s+(${MIEMBROS.join("|")})\b`, "i"));
       if (falsaMatch) {
         const found = MIEMBROS.find(m => m.toLowerCase() === falsaMatch[1].toLowerCase());
         if (found) return found;
       }
 
-      // En desgloses tipo "A: Feme (2012) | B: Marzal (2020) | C: Feme (2023)",
-      // el autor de las 2 frases verdaderas es el que aparece más veces en la explicación
       let bestMember = "";
       let bestCount = 0;
       for (const m of MIEMBROS) {
-        const re = new RegExp(`\\b${m}\\b`, "gi");
+        const re = new RegExp(`\b${m}\b`, "gi");
         const matches = expText.match(re);
         const cnt = matches ? matches.length : 0;
         if (cnt > bestCount) {
@@ -1652,8 +1764,7 @@
       const opciones = shuffle([autorCorrecto, ...distractores]);
       let pregTexto = item.pregunta || "¿Quién soltó esta frase en el grupo?";
       if (modeTag === "efemeride" && item.autor) {
-        // Evita que aparezca el nombre del autor en la pregunta si se trata de adivinar quién lo dijo
-        const autorRegex = new RegExp(`\\b${item.autor}\\b`, "gi");
+        const autorRegex = new RegExp(`\b${item.autor}\b`, "gi");
         if (autorRegex.test(pregTexto) && item.opciones && item.opciones.some(o => MIEMBROS.includes(o))) {
           pregTexto = pregTexto.replace(autorRegex, "alguien del grupo");
         }
@@ -1670,16 +1781,9 @@
       };
     }
 
-    function toQuizItems(rawList, fallbackList, modeTag, maxItems = 10, doShuffle = true) {
+    function toQuizItems(rawList, fallbackList, modeTag, maxItems = 10) {
       const source = (Array.isArray(rawList) && rawList.length > 0) ? rawList : fallbackList;
-      const barajadas = doShuffle
-        ? shuffle(source)
-        : [...source].sort((a, b) => {
-            const anioA = Number(a.anio || String(a.fecha || "").slice(0, 4)) || 9999;
-            const anioB = Number(b.anio || String(b.fecha || "").slice(0, 4)) || 9999;
-            if (anioA !== anioB) return anioA - anioB;
-            return String(a.fecha || "").localeCompare(String(b.fecha || ""));
-          });
+      const barajadas = shuffle(source);
       const seleccion = (typeof maxItems === "number" && maxItems > 0) ? barajadas.slice(0, maxItems) : barajadas;
       return seleccion.map((item, idx) => {
         const norm = normalizeQuizItem(item, modeTag);
@@ -1693,42 +1797,51 @@
     }
 
     async function startEfemeride() {
-      if (new Date() < HORA_INAUGURACION) return;
       const mm_dd = `${mm}-${dd}`;
-      const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: FALLBACK.efemeride });
+      const data = await loadJsonSafe(`${DATA_PATHS.efemeridesDir}${mm_dd}.json`, { preguntas: [] });
+      const list = extractArray(data, []);
+      if (!list.length) {
+        showToast("No hay efemérides cargadas para hoy");
+        return;
+      }
+      state.currentItemId = null;
+      state.backAction = () => goHome();
       state.flowMode = "quiz";
       state.lastAction = () => startEfemeride();
-      state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.efemeride), FALLBACK.efemeride, "efemeride", null, false);
+      state.currentQuestions = toQuizItems(list, [], "efemeride", null);
       state.qIndex = 0;
       state.roundScore = 0;
+      state.roundHits = 0;
       state.streak = 0;
       showGameView("📜 Efeméride del Día");
       renderQuestion();
     }
 
     async function startGame(mode) {
-      if (new Date() < HORA_INAUGURACION) return;
+      state.currentItemId = null;
+      state.backAction = () => openMinijuegosHub();
       state.flowMode = "quiz";
       state.lastAction = () => startGame(mode);
       state.qIndex = 0;
       state.roundScore = 0;
+      state.roundHits = 0;
       state.streak = 0;
 
       if (mode === "quien_dijo") {
-        const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: FALLBACK.quien_dijo });
-        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.quien_dijo), FALLBACK.quien_dijo, "quien_dijo", 10);
+        const data = await loadJsonSafe(DATA_PATHS.quien_dijo, { preguntas: [] });
+        state.currentQuestions = toQuizItems(extractArray(data, []), [], "quien_dijo", 10);
         showGameView("💬 ¿Quién dijo esto?");
       } else if (mode === "lo_dijo_o_no") {
-        const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: FALLBACK.lo_dijo_o_no });
-        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.lo_dijo_o_no), FALLBACK.lo_dijo_o_no, "lo_dijo_o_no", 10);
+        const data = await loadJsonSafe(DATA_PATHS.lo_dijo_o_no, { preguntas: [] });
+        state.currentQuestions = toQuizItems(extractArray(data, []), [], "lo_dijo_o_no", 10);
         showGameView("⚖️ Lo dijo o no lo dijo");
       } else if (mode === "rajaditta") {
-        const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: FALLBACK.rajaditta });
-        state.currentQuestions = shuffle(extractArray(data, FALLBACK.rajaditta)).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
+        const data = await loadJsonSafe(DATA_PATHS.rajaditta, { preguntas: [] });
+        state.currentQuestions = shuffle(extractArray(data, [])).slice(0, 10).map(q => ({ type: "rajaditta", ...q }));
         showGameView("🤬 La RajadiTTa");
       } else if (mode === "dato_justo") {
-        const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: FALLBACK.dato_justo });
-        state.currentQuestions = toQuizItems(extractArray(data, FALLBACK.dato_justo), FALLBACK.dato_justo, "dato_justo", 10);
+        const data = await loadJsonSafe(DATA_PATHS.dato_justo, { preguntas: [] });
+        state.currentQuestions = toQuizItems(extractArray(data, []), [], "dato_justo", 10);
         showGameView("🎯 El Dato Justo");
       }
 
@@ -1736,39 +1849,23 @@
     }
 
     async function startSectionQuiz(sec) {
-      if (new Date() < HORA_INAUGURACION) return;
       const meta = {
-        pornopedia: { title: "🔞 Pornopedia", fb: FALLBACK.pornopedia },
-        comidistta: { title: "🍽️ El ComidisTTa", fb: FALLBACK.comidistta },
-        zona_vox: { title: "🟩 Zona VOX", fb: FALLBACK.zona_vox }
+        pornopedia: { title: "🔞 Pornopedia" },
+        comidistta: { title: "🍽️ El ComidisTTa" },
+        zona_vox: { title: "🟩 Zona VOX" }
       }[sec];
 
-      const data = await loadJsonSafe(DATA_PATHS[sec], { items: meta.fb });
+      const data = await loadJsonSafe(DATA_PATHS[sec], { items: [] });
+      state.currentItemId = null;
+      state.backAction = () => openCategoriasHub();
       state.flowMode = "quiz";
       state.lastAction = () => startSectionQuiz(sec);
-      state.currentQuestions = toQuizItems(extractArray(data, meta.fb), meta.fb, sec, 10);
+      state.currentQuestions = toQuizItems(extractArray(data, []), [], sec, 10);
       state.qIndex = 0;
       state.roundScore = 0;
+      state.roundHits = 0;
       state.streak = 0;
       showGameView(meta.title);
-      renderQuestion();
-    }
-
-    async function startPasionTTurca() {
-      if (new Date() < ESTRENO_CARTTELERA) {
-        showToast("El estreno se desbloquea a las 00:00");
-        return;
-      }
-      const data = await loadJsonSafe(DATA_PATHS.pasion_tturca, { capitulos: FALLBACK.pasion_tturca });
-      const caps = [...extractArray(data, FALLBACK.pasion_tturca)].sort((a, b) => (a.numero || 0) - (b.numero || 0));
-
-      state.flowMode = "pasion_tturca";
-      state.lastAction = () => startPasionTTurca();
-      state.currentQuestions = caps.map((c, idx) => ({ type: "pasion_tturca", numero: c.numero || idx + 1, ...c }));
-      state.qIndex = 0;
-      state.roundScore = 0;
-      state.streak = 0;
-      showGameView("🎬 La Pasión TTurca");
       renderQuestion();
     }
 
@@ -1780,24 +1877,35 @@
       }
     }
 
+    function exitGameView() {
+      if (typeof state.backAction === "function") {
+        state.backAction();
+      } else {
+        goHome();
+      }
+    }
+
     function renderQuestion() {
       state.answered = false;
       const container = document.getElementById("quizContainer");
+      const total = state.currentQuestions.length;
 
-      if (state.qIndex >= state.currentQuestions.length) {
-        const voteBtnHtml = state.flowMode === "pasion_tturca"
-          ? `<button class="btn-primary" onclick="openVoteSaga()">🗳️ Votar Próximo Estreno</button>`
-          : `<button class="btn-primary" onclick="replayCurrentMode()">🔄 Jugar otra ronda</button>`;
+      if (state.qIndex >= total) {
+        if (state.currentItemId && total > 0) {
+          saveItemCompletion(state.currentItemId, state.roundScore, state.roundHits, total);
+        }
 
         container.innerHTML = `
           <div style="text-align:center; padding: 18px 8px;">
-            <div style="font-size: 42px; margin-bottom: 10px;">🏁</div>
+            <div style="font-size: 44px; margin-bottom: 10px;">🏁</div>
             <h3 style="font-size: 24px; font-weight: 900; margin-bottom: 6px;">¡Finalizado, ${state.player}!</h3>
-            <p style="color: var(--muted); margin-bottom: 18px;">Has sumado <strong style="color:var(--accent);">${state.roundScore} puntos</strong> en ${state.currentModeTitle}.</p>
+            <p style="color: var(--muted); margin-bottom: 18px;">
+              Has acertado <strong style="color:var(--green);">${state.roundHits} de ${total}</strong> y sumado <strong style="color:var(--accent);">${state.roundScore} puntos</strong> en ${state.currentModeTitle}.
+            </p>
             <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-              ${voteBtnHtml}
+              <button class="btn-primary" onclick="replayCurrentMode()">🔄 Repetir</button>
               <button class="btn-secondary" onclick="copyShareSummary()">📋 Copiar resultado</button>
-              <button class="btn-secondary" onclick="goHome()">Volver a Portada</button>
+              <button class="btn-secondary" onclick="exitGameView()">← Volver a la lista</button>
             </div>
           </div>
         `;
@@ -1805,15 +1913,14 @@
       }
 
       const q = state.currentQuestions[state.qIndex];
-      const total = state.currentQuestions.length;
       let promptHtml = "";
       let options = [];
       let correctIdx = 0;
-      let metaLeft = `<strong>${state.qIndex + 1}/${total}</strong> · Racha ${state.streak}`;
+      let metaLeft = `<strong>${state.qIndex + 1}/${total}</strong> · Aciertos ${state.roundHits} · Racha ${state.streak}`;
       let metaRight = q.anio ? `<strong>${q.anio}</strong>` : "";
 
-      if (q.type === "pasion_tturca") {
-        metaLeft = `<strong>${q.numero}/${total}</strong> · Racha ${state.streak}`;
+      if (q.type === "capitulos") {
+        metaLeft = `<strong>Cap. ${q.numero}/${total}</strong> · Aciertos ${state.roundHits} · Racha ${state.streak}`;
         metaRight = q.fecha ? `<strong>${q.fecha}</strong>` : "";
         promptHtml = `
           <div style="color:var(--accent); font-size:12px; font-weight:800; text-transform:uppercase; margin-bottom:4px;">
@@ -1847,23 +1954,25 @@
         const tituloPreg = q.type === "lo_dijo_o_no_opciones"
           ? (q.miembro ? `2 frases son de ${q.miembro} y una no` : q.pregunta)
           : (q.pregunta || "¿Quién soltó esta frase en el grupo?");
-        const hideCitaBeforeAnswer = (q.type === "efemeride");
         promptHtml = `
           <div style="font-weight:700; font-size:17px;">${tituloPreg}</div>
-          ${(!hideCitaBeforeAnswer && q.cita) ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
+          ${q.cita ? `<div class="quote-box">${safePrev ? `<span class="quote-context">Previo: ${safePrev}</span>` : ""}“${q.cita}”</div>` : "<div style='height:14px;'></div>"}
         `;
         options = q.opciones;
         correctIdx = q.correcta;
       }
 
-      const nextLabel = (q.type === "pasion_tturca" && state.qIndex + 1 < total)
+      const nextLabel = (q.type === "capitulos" && state.qIndex + 1 < total)
         ? `Pasar al Capítulo ${q.numero + 1} →`
         : "Siguiente →";
 
       container.innerHTML = `
         <div class="quiz-meta">
           <span>${metaLeft}</span>
-          <span>${metaRight}</span>
+          <div style="display:flex; gap:8px; align-items:center;">
+            <span>${metaRight}</span>
+            <button class="btn-secondary" style="padding:4px 10px; font-size:12px;" onclick="exitGameView()">✕ Salir</button>
+          </div>
         </div>
         ${promptHtml}
         <div class="options-list">
@@ -1889,6 +1998,7 @@
 
       if (isOk) {
         btns[selected].classList.add("correct");
+        state.roundHits += 1;
         state.streak += 1;
         const gained = 10 + Math.min(state.streak * 2, 10);
         state.roundScore += gained;
@@ -1900,7 +2010,7 @@
       }
 
       const fb = document.getElementById("feedbackBox");
-      if (q.type === "pasion_tturca") {
+      if (q.type === "capitulos") {
         const citasHtml = Array.isArray(q.citas_reales) && q.citas_reales.length > 0
           ? `<div class="quotes-list">${q.citas_reales.map(c => `<div class="quote-chip">“${c}”</div>`).join("")}</div>`
           : "";
@@ -1916,8 +2026,6 @@
         let extraText = q.explicacion || "";
         if (q.type === "rajaditta" && q.cita_sin_censura) {
           extraText = `<strong>Original sin censura:</strong> “${q.cita_sin_censura}”`;
-        } else if (q.type === "efemeride" && q.cita) {
-          extraText = `<strong>Cita del archivo:</strong> “${q.cita}”${extraText ? `<br><span style="display:block; margin-top:6px;">${extraText}</span>` : ""}`;
         }
         fb.innerHTML = `${isOk ? "✅ <strong>¡Clavada!</strong>" : "❌ <strong>Fallo técnico.</strong>"}<br><div style="margin-top:6px;">${extraText}</div>`;
       }
@@ -1933,42 +2041,12 @@
     }
 
     function copyShareSummary() {
+      const total = state.currentQuestions.length;
       const txt = `🏆 TTpedia · ${state.currentModeTitle}
-👤 ${state.player}: ${state.roundScore} pts
+👤 ${state.player}: ${state.roundScore} pts (${state.roundHits}/${total} aciertos)
 📜 Archivo 2012–2026`;
       navigator.clipboard?.writeText(txt);
       showToast("Resultado copiado para pegar en WhatsApp");
-    }
-
-    function openVoteSaga() {
-      const candidatas = [
-        { id: "boda_humpa", title: "La Boda de Humpa", desc: "Preparativos, despedida y resaca histórica." }
-      ];
-      showSectionView("🗳️ Urna de Próximo Estreno en CarTTelera");
-      document.getElementById("sectionDynamicBody").innerHTML = candidatas.map(c => {
-        const voted = state.votes[state.player] === c.id;
-        return `
-          <div class="archive-item" style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
-            <div>
-              <h4 style="font-size:16px; margin-bottom:4px;">${c.title}</h4>
-              <p style="font-size:13px; color:var(--muted);">${c.desc}</p>
-            </div>
-            <button class="${voted ? 'btn-primary' : 'btn-secondary'}" onclick="voteForSaga('${c.id}')">
-              ${voted ? '✅ Tu voto (' + state.player + ')' : 'Votar esta saga'}
-            </button>
-          </div>
-        `;
-      }).join("");
-    }
-
-    function voteForSaga(id) {
-      state.votes[state.player] = id;
-      localStorage.setItem("ttpedia_votes", JSON.stringify(state.votes));
-      if (window.TTFirebase && typeof window.TTFirebase.syncVote === "function") {
-        window.TTFirebase.syncVote(state.player, id);
-      }
-      showToast(`Voto registrado para ${state.player}`);
-      openVoteSaga();
     }
 
     function showToast(msg) {
@@ -1977,6 +2055,8 @@
       t.style.display = "block";
       setTimeout(() => { t.style.display = "none"; }, 2600);
     }
+
+    initCatalogo();
   </script>
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
@@ -2009,7 +2089,7 @@
     }
 
     window.TTFirebase = {
-      async syncPlayerPoints(playerName, pts, { isDaily, isCarttelera }) {
+      async syncPlayerPoints(playerName, pts, { isDaily, isSpecial }) {
         try {
           const docId = String(playerName).toLowerCase();
           const ref = doc(db, "ranking_global", docId);
@@ -2020,16 +2100,34 @@
             actualizado_en: serverTimestamp()
           };
           if (isDaily) {
-            payload["reto_diario.fecha"] = todayISO;
-            payload["reto_diario.puntos"] = increment(pts);
+            payload.reto_diario = {
+              fecha: todayISO,
+              puntos: increment(pts)
+            };
           }
-          if (isCarttelera) {
-            payload["carttelera.saga_activa"] = "pasion_tturca";
-            payload["carttelera.puntos"] = increment(pts);
+          if (isSpecial) {
+            payload.carttelera = {
+              puntos: increment(pts)
+            };
           }
           await setDoc(ref, payload, { merge: true });
         } catch (err) {
           console.warn("Firestore syncPlayerPoints fallback:", err);
+        }
+      },
+
+      async syncItemProgress(playerName, itemId, record) {
+        try {
+          const docId = String(playerName).toLowerCase();
+          const ref = doc(db, "ranking_global", docId);
+          await setDoc(ref, {
+            progreso_especiales: {
+              [itemId]: record
+            },
+            actualizado_en: serverTimestamp()
+          }, { merge: true });
+        } catch (err) {
+          console.warn("Firestore syncItemProgress fallback:", err);
         }
       },
 
@@ -2044,19 +2142,6 @@
         } catch (err) {
           console.warn("Firestore fetchAllPlayers fallback:", err);
           return null;
-        }
-      },
-
-      async syncVote(playerName, sagaId) {
-        try {
-          const docId = String(playerName).toLowerCase();
-          await setDoc(doc(db, "votos_carttelera", docId), {
-            jugador: playerName,
-            voto: sagaId,
-            actualizado_en: serverTimestamp()
-          }, { merge: true });
-        } catch (err) {
-          console.warn("Firestore syncVote fallback:", err);
         }
       }
     };
