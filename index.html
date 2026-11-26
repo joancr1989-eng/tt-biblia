@@ -152,20 +152,6 @@
       text-align: center;
     }
 
-    .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 5px 12px;
-      border-radius: 999px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
-
     .hero h1 {
       font-size: clamp(23px, 4vw, 33px);
       font-weight: 900;
@@ -177,11 +163,102 @@
       color: var(--accent);
     }
 
-    .hero p {
+    /* BANNER DINÁMICO ESTRENO */
+    .today-premiere-banner {
+      margin: 14px 0 22px;
+      background: linear-gradient(135deg, #251324 0%, #171c2c 55%, #241814 100%);
+      border: 1px solid rgba(239, 68, 68, 0.55);
+      border-radius: 20px;
+      padding: 20px 22px;
+      box-shadow: 0 16px 38px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .today-premiere-banner.is-live {
+      border-color: rgba(16, 185, 129, 0.6);
+      background: linear-gradient(135deg, #102622 0%, #151c2c 60%, #1e1b2e 100%);
+    }
+
+    .tp-left {
+      flex: 1 1 320px;
+    }
+
+    .tp-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      background: var(--red-soft);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.35);
+    }
+
+    .today-premiere-banner.is-live .tp-badge {
+      background: var(--green-soft);
+      color: #6ee7b7;
+      border-color: rgba(16, 185, 129, 0.35);
+    }
+
+    .tp-title {
+      font-size: 21px;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .tp-sub {
+      font-size: 13.5px;
+      color: #cbd5e1;
+    }
+
+    .tp-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+    }
+
+    .tp-cd-row {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .tp-cd-box {
+      background: rgba(11, 14, 20, 0.8);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 6px 10px;
+      min-width: 54px;
+      text-align: center;
+    }
+
+    .tp-cd-num {
+      font-size: 17px;
+      font-weight: 900;
+      color: var(--accent);
+      display: block;
+      line-height: 1.1;
+    }
+
+    .tp-cd-lbl {
+      font-size: 9.5px;
       color: var(--muted);
-      max-width: 650px;
-      margin: 0 auto;
-      font-size: 14.5px;
+      text-transform: uppercase;
+      font-weight: 700;
     }
 
     /* EFEMERIDE PROTAGONIST CARD */
@@ -235,11 +312,6 @@
       font-size: 23px;
       font-weight: 800;
       margin-bottom: 5px;
-    }
-
-    .efem-info p {
-      color: var(--muted);
-      font-size: 14px;
     }
 
     .btn-primary {
@@ -771,17 +843,17 @@
     <!-- VISTA PORTADA (HUB LIMPIO) -->
     <div id="homeView">
       <section class="hero">
-        <div class="hero-badge">📜 Archivo histórico · 2012 – 2026</div>
         <h1><span>311.419 mensajes</span> recopilados para amenizar tus giñadas</h1>
-        <p>Toda la hemeroteca, piques, rajadas, apuestas ruinosas y salidas de tono del Triangulito Team convertidos en archivo interactivo.</p>
       </section>
+
+      <!-- BANNER DINÁMICO DE ESTRENO / PRÓXIMO ESTRENO -->
+      <div id="todayPremiereWrap"></div>
 
       <!-- BLOQUE PROTAGONISTA: EFEMÉRIDE DEL DÍA -->
       <section class="efem-card">
         <div class="efem-info">
           <div class="efem-tag">📅 Reto Diario Oficial</div>
           <h2>Efeméride del Día</h2>
-          <p>Todas las preguntas extraídas de lo que ocurrió exactamente un día como hoy en el archivo del grupo.</p>
         </div>
         <div>
           <button class="btn-primary" onclick="startEfemeride()">Jugar Efeméride de Hoy</button>
@@ -822,7 +894,7 @@
           </div>
         </div>
 
-        <!-- 3. EL POLÍGRAFO -->
+        <!-- 3. INFORME ROBINSON -->
         <div class="portal-card" onclick="openCatalogSection('Informe Robinson')">
           <div>
             <div class="portal-top">
@@ -933,85 +1005,85 @@
     const CATALOGO_FALLBACK = {
       "ultima_actualizacion": "2026-11-26T13:15:00+01:00",
       "carttelera": [
-            {
-                  "id": "marzal_turca",
-                  "archivo": "data/carttelera/marzal_turca.json",
-                  "titulo": "La Pasión TTurca",
-                  "subtitulo": "30 capítulos · Crónica cronológica de Marzal y la turca",
-                  "icono": "🇹🇷",
-                  "release_date": "2026-11-25T00:00:00+01:00",
-                  "tipo": "capitulos"
-            },
-            {
-                  "id": "especial_el_tt",
-                  "archivo": "data/carttelera/especial_el_tt.json",
-                  "titulo": "El TT: Triangulito Team FC",
-                  "subtitulo": "150 preguntas · Historia del glorioso TT (2012–2026)",
-                  "icono": "⚽",
-                  "release_date": "2026-12-02T00:00:00+01:00"
-            },
-            {
-                  "id": "solteros_vs_casados",
-                  "archivo": "data/carttelera/especial_solteros_vs_casados.json",
-                  "titulo": "Solteros vs Casados: La Guerra Civil",
-                  "subtitulo": "80 preguntas · Topos, novias y bandos (2012–2025)",
-                  "icono": "⚔️",
-                  "release_date": "2026-12-09T00:00:00+01:00"
-            },
-            {
-                  "id": "verano_germi_2015",
-                  "archivo": "data/carttelera/verano_germi_2015.json",
-                  "titulo": "Germi 2015: UNCHAINED",
-                  "subtitulo": "80 preguntas · Mayo – Octubre 2015 (+18)",
-                  "icono": "🔞",
-                  "release_date": "2026-12-16T00:00:00+01:00"
-            }
+        {
+          "id": "marzal_turca",
+          "archivo": "data/carttelera/marzal_turca.json",
+          "titulo": "La Pasión TTurca",
+          "subtitulo": "30 capítulos · Crónica cronológica de Marzal y la turca",
+          "icono": "🇹🇷",
+          "release_date": "2026-11-25T00:00:00+01:00",
+          "tipo": "capitulos"
+        },
+        {
+          "id": "especial_el_tt",
+          "archivo": "data/carttelera/especial_el_tt.json",
+          "titulo": "El TT: Triangulito Team FC",
+          "subtitulo": "150 preguntas · Historia del glorioso TT (2012–2026)",
+          "icono": "⚽",
+          "release_date": "2026-12-02T00:00:00+01:00"
+        },
+        {
+          "id": "solteros_vs_casados",
+          "archivo": "data/carttelera/especial_solteros_vs_casados.json",
+          "titulo": "Solteros vs Casados: La Guerra Civil",
+          "subtitulo": "80 preguntas · Topos, novias y bandos (2012–2025)",
+          "icono": "⚔️",
+          "release_date": "2026-12-09T00:00:00+01:00"
+        },
+        {
+          "id": "verano_germi_2015",
+          "archivo": "data/carttelera/verano_germi_2015.json",
+          "titulo": "Germi 2015: UNCHAINED",
+          "subtitulo": "80 preguntas · Mayo – Octubre 2015 (+18)",
+          "icono": "🔞",
+          "release_date": "2026-12-16T00:00:00+01:00"
+        }
       ],
       "historia_tt": [
-            {
-                  "id": "elecciones_generales",
-                  "archivo": "data/historia_tt/especial_elecciones_generales.json",
-                  "titulo": "Elecciones Generales TT",
-                  "subtitulo": "100 preguntas · Debates, 20D, 26J, 28A y Pactómetro",
-                  "icono": "🗳️",
-                  "release_date": "2026-11-26T16:00:00+01:00"
-            },
-            {
-                  "id": "especial_confinamiento",
-                  "archivo": "data/historia_tt/especial_confinamiento.json",
-                  "titulo": "El Confinamiento del TT (2020)",
-                  "subtitulo": "Pandemia, Estado de Alarma y encierro histórico",
-                  "icono": "😷",
-                  "release_date": "2026-12-03T00:00:00+01:00"
-            }
+        {
+          "id": "elecciones_generales",
+          "archivo": "data/historia_tt/especial_elecciones_generales.json",
+          "titulo": "Especial Elecciones Generales",
+          "subtitulo": "100 preguntas · Debates, 20D, 26J, 28A y Pactómetro",
+          "icono": "🗳️",
+          "release_date": "2026-11-26T16:00:00+01:00"
+        },
+        {
+          "id": "especial_confinamiento",
+          "archivo": "data/historia_tt/especial_confinamiento.json",
+          "titulo": "El Confinamiento del TT (2020)",
+          "subtitulo": "Pandemia, Estado de Alarma y encierro histórico",
+          "icono": "😷",
+          "release_date": "2026-12-03T00:00:00+01:00"
+        }
       ],
       "Informe Robinson": [
-            {
-                  "id": "poligrafo_germi",
-                  "archivo": "data/poligrafo/germi.json",
-                  "titulo": "Expediente Corki",
-                  "subtitulo": "El Polígrafo · Verdades, perlas y salidas de tono",
-                  "icono": "🕵️",
-                  "release_date": "2026-12-07T00:00:00+01:00"
-            },
-            {
-                  "id": "poligrafo_ttino",
-                  "archivo": "data/poligrafo/ttino.json",
-                  "titulo": "Expediente TTino",
-                  "subtitulo": "El Polígrafo · La Leyenda",
-                  "icono": "🕵️",
-                  "release_date": "2026-12-14T00:00:00+01:00"
-            },
-            {
-                  "id": "poligrafo_humberto",
-                  "archivo": "data/poligrafo/humberto.json",
-                  "titulo": "Expediente HP8",
-                  "subtitulo": "El Polígrafo · La mentira hasta el final",
-                  "icono": "🕵️",
-                  "release_date": "2026-11-30T00:00:00+01:00"
-            }
+        {
+          "id": "poligrafo_germi",
+          "archivo": "data/poligrafo/germi.json",
+          "titulo": "Expediente Corki",
+          "subtitulo": "El Polígrafo · Resurgimiento, auge y caída",
+          "icono": "🕵️",
+          "release_date": "2026-12-07T00:00:00+01:00"
+        },
+        {
+          "id": "poligrafo_ttino",
+          "archivo": "data/poligrafo/ttino.json",
+          "titulo": "Expediente TTino",
+          "subtitulo": "El Polígrafo · La Leyenda",
+          "icono": "🕵️",
+          "release_date": "2026-12-14T00:00:00+01:00"
+        },
+        {
+          "id": "poligrafo_humberto",
+          "archivo": "data/poligrafo/humberto.json",
+          "titulo": "Expediente HP8",
+          "subtitulo": "El Polígrafo · La mentira hasta el final",
+          "icono": "🕵️",
+          "release_date": "2026-11-30T00:00:00+01:00"
+        }
       ]
-};
+    };
 
     const hasChosenSaved = localStorage.getItem("ttpedia_player_chosen") === "1";
 
@@ -1074,6 +1146,7 @@
       if (document.getElementById("sectionView").classList.contains("active") && state.currentSectionKey) {
         openCatalogSection(state.currentSectionKey);
       }
+      renderTodayPremiereBanner();
     }
 
     function getTodayISO() {
@@ -1159,7 +1232,6 @@
             if (remote[id]) {
               const r = remote[id];
               const local = ensurePlayerEntry(m);
-              // Compatibilidad con claves anidadas y claves planas antiguas ("carttelera.puntos")
               const remoteCartPts = (r.carttelera && typeof r.carttelera.puntos === "number")
                 ? r.carttelera.puntos
                 : (typeof r["carttelera.puntos"] === "number" ? r["carttelera.puntos"] : local.carttelera.puntos);
@@ -1238,6 +1310,7 @@
       document.getElementById("gameView").classList.remove("active");
       document.getElementById("sectionView").classList.remove("active");
       updatePortalBadges();
+      renderTodayPremiereBanner();
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
@@ -1283,6 +1356,131 @@
       return `${d.getDate()} ${meses[d.getMonth()]} · ${hh}:${min}`;
     }
 
+    let todayPremiereTimer = null;
+
+    function isSameLocalDay(tsA, tsB) {
+      const a = new Date(tsA);
+      const b = new Date(tsB);
+      return a.getFullYear() === b.getFullYear()
+        && a.getMonth() === b.getMonth()
+        && a.getDate() === b.getDate();
+    }
+
+    function getAllCatalogItemsWithSection() {
+      const secLabels = {
+        carttelera: "Estrenos de CarTTelera",
+        historia_tt: "La Historia a través del TT",
+        "Informe Robinson": "Informe Robinson"
+      };
+      const out = [];
+      for (const secKey of Object.keys(secLabels)) {
+        const arr = state.catalogo[secKey] || [];
+        for (const it of arr) {
+          if (it && it.visible !== false) {
+            out.push({ ...it, _secKey: secKey, _secLabel: secLabels[secKey] });
+          }
+        }
+      }
+      return out;
+    }
+
+    function renderTodayPremiereBanner() {
+      const wrap = document.getElementById("todayPremiereWrap");
+      if (!wrap) return;
+
+      const now = Date.now();
+      const allItems = getAllCatalogItemsWithSection();
+
+      const todays = allItems.filter(it => {
+        const t = parseReleaseTime(it.release_date);
+        return t > 0 && isSameLocalDay(t, now);
+      });
+
+      const upcomingAny = allItems
+        .filter(it => parseReleaseTime(it.release_date) > now)
+        .sort((a, b) => parseReleaseTime(a.release_date) - parseReleaseTime(b.release_date));
+
+      let target = null;
+      if (todays.length > 0) {
+        const upcomingToday = todays
+          .filter(it => parseReleaseTime(it.release_date) > now)
+          .sort((a, b) => parseReleaseTime(a.release_date) - parseReleaseTime(b.release_date));
+        target = upcomingToday.length > 0
+          ? upcomingToday[0]
+          : todays.sort((a, b) => parseReleaseTime(b.release_date) - parseReleaseTime(a.release_date))[0];
+      } else if (upcomingAny.length > 0) {
+        target = upcomingAny[0];
+      }
+
+      if (!target) {
+        wrap.innerHTML = "";
+        if (todayPremiereTimer) {
+          clearInterval(todayPremiereTimer);
+          todayPremiereTimer = null;
+        }
+        return;
+      }
+
+      const relTs = parseReleaseTime(target.release_date);
+      const isLive = now >= relTs;
+      const isToday = isSameLocalDay(relTs, now);
+      const diffMs = Math.max(0, relTs - now);
+
+      const days = Math.floor(diffMs / 86400000);
+      const hrs = String(Math.floor((diffMs / 3600000) % 24)).padStart(2, "0");
+      const mins = String(Math.floor((diffMs / 60000) % 60)).padStart(2, "0");
+      const secs = String(Math.floor((diffMs / 1000) % 60)).padStart(2, "0");
+
+      const prog = getItemProgress(target.id);
+      const btnText = prog && prog.completado ? "Rejugar estreno →" : "Jugar estreno ahora →";
+
+      const badgeText = isLive
+        ? `🟢 ¡ESTRENO DE HOY DISPONIBLE! · ${target._secLabel}`
+        : (isToday
+          ? `🔥 ESTRENO HOY A LAS ${formatReleaseLabel(target.release_date).split("·")[1]?.trim() || ""} · ${target._secLabel}`
+          : `⏳ PRÓXIMO ESTRENO (${formatReleaseLabel(target.release_date)}) · ${target._secLabel}`);
+
+      const cdBoxes = (!isToday && days > 0)
+        ? `
+          <div class="tp-cd-box"><span class="tp-cd-num">${String(days).padStart(2, "0")}</span><span class="tp-cd-lbl">Días</span></div>
+          <div class="tp-cd-box"><span class="tp-cd-num">${hrs}</span><span class="tp-cd-lbl">Horas</span></div>
+          <div class="tp-cd-box"><span class="tp-cd-num">${mins}</span><span class="tp-cd-lbl">Min</span></div>
+          <div class="tp-cd-box"><span class="tp-cd-num">${secs}</span><span class="tp-cd-lbl">Seg</span></div>
+        `
+        : `
+          <div class="tp-cd-box"><span class="tp-cd-num">${hrs}</span><span class="tp-cd-lbl">Horas</span></div>
+          <div class="tp-cd-box"><span class="tp-cd-num">${mins}</span><span class="tp-cd-lbl">Min</span></div>
+          <div class="tp-cd-box"><span class="tp-cd-num">${secs}</span><span class="tp-cd-lbl">Seg</span></div>
+        `;
+
+      wrap.innerHTML = `
+        <section class="today-premiere-banner ${isLive ? "is-live" : ""}">
+          <div class="tp-left">
+            <div class="tp-badge">${badgeText}</div>
+            <div class="tp-title">${target.icono || "🎬"} ${target.titulo}</div>
+            <div class="tp-sub">${target.subtitulo || ""}</div>
+          </div>
+          <div class="tp-right">
+            ${isLive
+              ? `<button class="btn-primary" onclick="launchCatalogItem('${target._secKey}', '${target.id}')">${btnText}</button>`
+              : `
+                <div class="tp-cd-row">${cdBoxes}</div>
+                <span style="font-size:11.5px; color:var(--muted); font-weight:700;">Se desbloquea automáticamente al llegar a cero</span>
+              `
+            }
+          </div>
+        </section>
+      `;
+
+      updatePortalBadges();
+    }
+
+    function startTodayPremiereWatcher() {
+      renderTodayPremiereBanner();
+      if (todayPremiereTimer) clearInterval(todayPremiereTimer);
+      todayPremiereTimer = setInterval(renderTodayPremiereBanner, 1000);
+    }
+
     function updatePortalBadges() {
       const now = Date.now();
       const map = [
@@ -1303,6 +1501,7 @@
     }
 
     async function initCatalogo() {
+      startTodayPremiereWatcher();
       const loaded = await loadJsonSafe(DATA_PATHS.catalogo, CATALOGO_FALLBACK);
       if (loaded && typeof loaded === "object") {
         state.catalogo = {
@@ -1312,6 +1511,7 @@
         };
       }
       updatePortalBadges();
+      renderTodayPremiereBanner();
     }
 
     function openCatalogSection(secKey) {
@@ -1336,12 +1536,10 @@
       const threeDaysMs = 3 * 86400000;
       const items = (state.catalogo[secKey] || []).filter(x => x.visible !== false);
 
-      // Publicados: ordenados de más reciente a más antiguo
       const publicados = items
         .filter(x => parseReleaseTime(x.release_date) <= now)
         .sort((a, b) => parseReleaseTime(b.release_date) - parseReleaseTime(a.release_date));
 
-      // Próximamente: ordenados por estreno más cercano
       const proximos = items
         .filter(x => parseReleaseTime(x.release_date) > now)
         .sort((a, b) => parseReleaseTime(a.release_date) - parseReleaseTime(b.release_date));
@@ -1555,7 +1753,6 @@
         state.flowMode = "capitulos";
         state.currentQuestions = caps.map((c, idx) => ({ type: "capitulos", numero: c.numero || idx + 1, ...c }));
       } else {
-        // Mantiene el orden cronológico/narrativo original del archivo (sin barajar)
         const rawList = extractArray(data, []);
         state.flowMode = "especial";
         state.currentQuestions = rawList.map(q => normalizeQuizItem(q, "especial"));
@@ -1588,7 +1785,7 @@
       let clean = String(contexto).trim();
       clean = clean.replace(/^(Respuesta de|Mensaje de|Dicho por|Contesta|Responde)\s+[^:]+:\s*/i, "");
       const namePattern = ALIAS_NOMBRES.join("|");
-      clean = clean.replace(new RegExp(`^(${namePattern})\s*:\s*`, "i"), "");
+      clean = clean.replace(new RegExp(`^(${namePattern})\\s*:\\s*`, "i"), "");
       clean = clean.replace(/^[«"“]+|[»"”]+$/g, "").trim();
 
       const normClean = clean.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -1601,7 +1798,7 @@
 
     function extractMemberFromText(txt) {
       if (!txt) return "";
-      const match = String(txt).match(new RegExp(`\b(${MIEMBROS.join("|")})\b`, "i"));
+      const match = String(txt).match(new RegExp(`\\b(${MIEMBROS.join("|")})\\b`, "i"));
       if (match) {
         const found = MIEMBROS.find(m => m.toLowerCase() === match[1].toLowerCase());
         return found || match[1];
@@ -1618,7 +1815,7 @@
       }
 
       const expText = String(item.explicacion || item.contexto || item.mensaje_previo || "");
-      const falsaMatch = expText.match(new RegExp(`(?:falsa\s+para|para)\s+(${MIEMBROS.join("|")})\b`, "i"));
+      const falsaMatch = expText.match(new RegExp(`(?:falsa\\s+para|para)\\s+(${MIEMBROS.join("|")})\\b`, "i"));
       if (falsaMatch) {
         const found = MIEMBROS.find(m => m.toLowerCase() === falsaMatch[1].toLowerCase());
         if (found) return found;
@@ -1627,7 +1824,7 @@
       let bestMember = "";
       let bestCount = 0;
       for (const m of MIEMBROS) {
-        const re = new RegExp(`\b${m}\b`, "gi");
+        const re = new RegExp(`\\b${m}\\b`, "gi");
         const matches = expText.match(re);
         const cnt = matches ? matches.length : 0;
         if (cnt > bestCount) {
@@ -1764,7 +1961,7 @@
       const opciones = shuffle([autorCorrecto, ...distractores]);
       let pregTexto = item.pregunta || "¿Quién soltó esta frase en el grupo?";
       if (modeTag === "efemeride" && item.autor) {
-        const autorRegex = new RegExp(`\b${item.autor}\b`, "gi");
+        const autorRegex = new RegExp(`\\b${item.autor}\\b`, "gi");
         if (autorRegex.test(pregTexto) && item.opciones && item.opciones.some(o => MIEMBROS.includes(o))) {
           pregTexto = pregTexto.replace(autorRegex, "alguien del grupo");
         }
@@ -2042,9 +2239,7 @@
 
     function copyShareSummary() {
       const total = state.currentQuestions.length;
-      const txt = `🏆 TTpedia · ${state.currentModeTitle}
-👤 ${state.player}: ${state.roundScore} pts (${state.roundHits}/${total} aciertos)
-📜 Archivo 2012–2026`;
+      const txt = `🏆 TTpedia · ${state.currentModeTitle}\n👤 ${state.player}: ${state.roundScore} pts (${state.roundHits}/${total} aciertos)\n📜 Archivo 2012–2026`;
       navigator.clipboard?.writeText(txt);
       showToast("Resultado copiado para pegar en WhatsApp");
     }
