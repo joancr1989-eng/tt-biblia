@@ -1,0 +1,1408 @@
+{
+  "titulo_historia": "Especial TTpedia: El Confinamiento (2020–2021)",
+  "modelo_usado": "glm5.3-flash",
+  "periodo": "2020-03-01 a 2021-05-09",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "pregunta": "En plena cuarentena apareció en el grupo una falsa 'ÚLTIMA HORA' de la UEFA sobre las entradas de la Eurocopa. ¿Contra quién iba el palo?",
+      "cita": "Miki: 🔴 ÚLTIMA HORA | LA UEFA ASEGURA QUE SE DEVOLVERÁ EL DINERO DE LAS ENTRADAS DE LA EUROCOPA A TODO EL MUNDO MENOS A HUMBERTO PASTOE CABRERA. VÍDEOS FILTRADOS DEL INTERESADO HACIENDI APOLOGIA AL NAZISMO PUEDEN SER EL MOTIVO.",
+      "opciones": [
+        "A José Manuel Prieto, por amanerado y presumir de comer healthy",
+        "A Humberto Pastoe Cabrera, con vídeos filtrados 'haciendo apología al nazismo'",
+        "A Juanito Barbilla Prominente Linuesa, por multar a los madrileños",
+        "A John Murray, asesino en serie confeso del Gandia Basket"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Falsa última hora inventada en el grupo para vacilar a Humpa, bautizado como Humberto Pastoe Cabrera. Jorge: 'Brutal'. El propio Humpa: 'Jo puta'."
+    },
+    {
+      "pregunta": "Según la biografía que le inventaron en el grupo, ¿por qué era 'famoso' John Murray, el asesino en serie de Dakota del Norte?",
+      "cita": "Jorge: John Murray fue un conocido asesino en serie del estado de Dakota del Norte, famoso por enseñar videos del Gandia Basket 2006-07 a todas sus victimas",
+      "opciones": [
+        "Por hacer ver la remontada de Benítez en A Punt a sus rehenes",
+        "Por enseñar vídeos del Gandia Basket 2006-07 a todas sus víctimas",
+        "Por obligar a sus víctimas a ver el discurso del estado de alarma entero",
+        "Por retar a Trivial por videollamada y eliminar a quien perdía"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Biografía improvisada por Jorge en plena pandemia. Joni lo bautizó: 'la verdadera salud esto'. El Gandia Basket 2006-07, arma letal."
+    },
+    {
+      "pregunta": "Con las peluquerías cerradas, Humpa profetizó cómo se recordaría la pandemia. ¿Qué 'revolución' anunció?",
+      "cita": "Humpa: Esta pandemia va a ser conocida como la revolución de los calvos",
+      "opciones": [
+        "La revolución de los gorros de invierno en pleno mayo",
+        "La revolución de los calvos",
+        "La revolución de las melenas mulletas",
+        "La revolución de los cortes caseros con cortapelos de Mercadona"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Broma de Humpa en plena era sin peluquerías, justo en el hilo donde Marzal planteaba dejarse la melena."
+    },
+    {
+      "pregunta": "¿Qué le espetó una señora a Hugo en el Mercadona cuando intentaba guardar la distancia de seguridad?",
+      "cita": "Hugo: Ayer en el Mercadona, intento mantener la distancia de seguridad y me dice una gitana: aiii que tieeeene miedooo, que yo no contagio nene",
+      "opciones": [
+        "'aiii que tieeeene miedooo, que yo no contagio nene'",
+        "'nene, la distancia son dos metros, léete el BOE'",
+        "'¿tú también vienes a por el papel higiénico?'",
+        "'uy, perdona, ¿es que hay coronavirus?'"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Anécdota real de Hugo en abril del 2020; Feme propuso contestarle un 'pero huele mal señora'."
+    },
+    {
+      "pregunta": "¿A quién diagnosticó Joni como 'un José Manuel Prieto de la vida'?",
+      "cita": "Joni: Ahora mismo eres un José Manuel Prieto de la vida / Amanerado, preocupado por su cabello, paseando al perro, presumiendo de comer healthy",
+      "opciones": [
+        "A Hugo, por sus recetas fitness y fotos de comida",
+        "A Feme, por pasear al perro tres veces al día",
+        "A Marzal, por querer dejarse el pelo largo en pleno confinamiento",
+        "A Germi, por sus rutinas de gimnasio y sus smoothies"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Marzal planteó dejarse el pelo largo 'hasta que vea que no me guste' y Joni lo diagnosticó sin anestesia, invocando a TTino y al padre de Orengo como valores férreos perdidos."
+    },
+    {
+      "pregunta": "¿Qué bulo viral llegó al grupo junto a este desmentido de 'Carmen'?",
+      "cita": "Jorge: Soy Carmen, la hija de Miguel gracias por vuestras palabras pero mi padre no ha fallecido",
+      "opciones": [
+        "La cancelación definitiva de la Eurocopa",
+        "La muerte por coronavirus de un famoso de Twitter llamado Miguel",
+        "El positivo de un histórico del Levante UD",
+        "La dimisión del ministro de Sanidad por la gestión del covid"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "El grupo había comentado el bulo del fallecimiento y apareció la hija a desmentirlo. Humpa, harto: 'Yo por mi parte voy a intentar aislarme al máximo de noticias del coronavirus'."
+    },
+    {
+      "pregunta": "¿Qué medida 'de choque' rumoreó Marzal que iba a implantar el Masymas durante el confinamiento?",
+      "cita": "Marzal: Se rumorea que en el masymas van a pedir el DNI cuando se vaya a comprar / Y sólo se podrá ir una vez a la semana / Ojalá se haga en todos los supermercados",
+      "opciones": [
+        "Solo vender a mayores de 65 años por las mañanas",
+        "Cerrar todos los súper a las 14:00 en toda España",
+        "Prohibir la entrada sin mascarilla FFP2 homologada",
+        "Pedir el DNI al entrar y limitar la compra a una vez por semana"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Rumor que Marzal contaba con entusiasmo y Joni apoyaba para frenar a los caraduras que iban al súper 'a tomar por culo' de su casa a pasear."
+    },
+    {
+      "pregunta": "¿Qué compró Germi en la farmacia por '25 pavos', para su indignación?",
+      "cita": "Germi: He comprado 10 y 25 pavos niño / Que hijos de puta",
+      "opciones": [
+        "10 guantes de nitrilo",
+        "10 mascarillas",
+        "10 geles hidroalcohólicos",
+        "10 test de antígenos"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Germi compró 10 mascarillas por 25€ en plena crisis y Joni remató: 'eso hace un mes te costaba todo 5€ y gracias'."
+    },
+    {
+      "pregunta": "¿Qué 'plan de verano' propuso Humpa contra los madrileños que bajaban a Gandía saltándose el confinamiento?",
+      "cita": "Humpa: Cacerías de madrileños habría que organizar en verano",
+      "opciones": [
+        "Poner una aduana en el río Serpis",
+        "Cortar la AP-7 con vallas y alambradas",
+        "Prohibir el Cercanías C-1 València-Gandia",
+        "Cacerías de madrileños"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Tras la noticia de los madrileños en segundas residencias de la playa, Humpa pidió a 'Juan Linuesa' multas 'como si no hubiera un mañana' y soltó lo de las cacerías."
+    },
+    {
+      "pregunta": "Tras la noticia de la UCI de Gandía y los residentes madrileños, ¿a quién cargó Joni con esta frase sin filtro?",
+      "cita": "Joni: los putos madrileños viejos de mierda, como nos la van a liar",
+      "opciones": [
+        "A los jubilados alemanes de Benidorm",
+        "A los madrileños viejos que huían a sus segundas residencias de la Safor",
+        "A los estudiantes de Erasmus de València",
+        "A los turistas franceses de la costa"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Joni pegó la noticia de los 10 ingresados en la UCI de Gandía y la llegada de residentes madrileños a la comarca, y soltó la frase sin ningún filtro."
+    },
+    {
+      "pregunta": "Según los 'spoilers' de Jorge sobre la gestión de la pandemia, ¿qué resultarían la descentralización de la sanidad y de la educación?",
+      "cita": "Jorge: La descentealizacion de la sanidad se destaparia como UNA VERDADERA BAZOFIA / Otro spoiler: La descentralizacion de la educacion es.. OTRA VERDADERA BAZOFIA",
+      "opciones": [
+        "Un problema menor comparado con la crisis del turismo",
+        "Un modelo de éxito a exportar a toda Europa",
+        "La mejor solución posible en plena pandemia",
+        "Una verdadera bazofia (y la de la justicia, la tercera bazofia)"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Jorge hizo de spoilerero geopolítico: sanidad, educación y justicia, todo 'UNA VERDADERA BAZOFIA'... 'Pero es lo que quiere la sociedad', remató."
+    },
+    {
+      "pregunta": "¿Cuánto dinero tuvo que pedir prestado la empresa de Miki para subsistir mientras no llegaban los ERTEs?",
+      "cita": "Miki: Y a día de hoy siguen sin poder hacerse ertes... Así que hemos tenido que pedir un préstamo para subsistir. De 50.000€",
+      "opciones": [
+        "5.000€",
+        "500.000€",
+        "50.000€",
+        "150.000€"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Cruda realidad de abril del 2020: sin ERTEs posibles, préstamo de 50.000€ para subsistir. Joni solo pudo responder 'Pfff'."
+    },
+    {
+      "pregunta": "Cuando Hugo anunció que su primo Pablo había dado positivo, ¿qué le pidió al grupo?",
+      "cita": "Hugo: No le digáis nada a él, yo os voy comunicando",
+      "opciones": [
+        "Hacerle un vídeo de ánimos todos juntos",
+        "Escribirle cartas de apoyo al hospital",
+        "Organizar una colecta para comprarle tests",
+        "No decirle nada y que Hugo fuera informando"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Primer caso 'que le tocaba de cerca' a Hugo: su primo, en contacto con un amigo médico positivo, acabó dando positivo ('solo tuvo un día un poco más flojete')."
+    },
+    {
+      "pregunta": "¿A quién 'culpó' Feme de que la gente tuviera la despensa a reventar en pleno confinamiento?",
+      "cita": "Feme: o que ja no caben mes coses en la despensa / puto Roig / estara poc ric",
+      "opciones": [
+        "Al Gobierno, por las cestas de comida",
+        "A Amancio Ortega y sus rebajas de confinamiento",
+        "A los chinos del bazar del barrio",
+        "A Juan Roig, presidente de Mercadona ('estará poc ric')"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Cuando Hugo celebró que el Mercadona tenía de todo tras 13 días sin comprar, Feme teorizó que la gente ya no cabía más en la despensa... y que Roig 'estará poc ric'."
+    },
+    {
+      "pregunta": "Cuando Joni temía estar 'un mes encerrado' más, ¿cuánto calculó Marzal que duraría el confinamiento?",
+      "cita": "Marzal: Jo ja conte en que van a ser dos mesos",
+      "opciones": [
+        "Tres semanas",
+        "Hasta el verano",
+        "Dos meses",
+        "Un año entero"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Marzal, el profeta del grupo, ya contaba con dos meses cuando Joni temía 'un mes encerrado' más. No andaba nada desencaminado."
+    },
+    {
+      "pregunta": "¿Qué teoría le contó al grupo una amiga cirujana de Madrid, según Miki?",
+      "cita": "Miki: Tenemos una amiga cirujana en Madrid que el otro día no paraba de decir que era un virus creado en laboratorio y tal. Que algo no cuadraba pero al final yo no me lo creo",
+      "opciones": [
+        "Que la vacuna ya existía desde el 2015",
+        "Que el virus estaba creado en laboratorio",
+        "Que los test detectaban gripe normal, no covid",
+        "Que el covid era una gripe mutada de cerdos"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Teoría soltada en pleno hilo de conspiranoias; Humpa admitía que 'si mañana se demuestra que es verdad... no me extraña'."
+    },
+    {
+      "pregunta": "¿Qué copypasta viral pegó Hugo en el grupo (y que Joni ya había recibido en el de crossfit) en pleno confinamiento?",
+      "cita": "Hugo: Escucha esta canción con auriculares (colócate los 2 auriculares). Es la nueva música del Pentatonix, compuesta con tecnología 8D. Escuchala sólo con auriculares. Será la primera vez que escucharás esa canción con el cerebro y no con los oídos.",
+      "opciones": [
+        "El del reto de los 10.000 pasos dentro de casa",
+        "El de la música 8D del Pentatonix que se escucha 'con el cerebro y no con los oídos'",
+        "El del sorteo de cestas de Mercadona por San Jorge",
+        "El de la carta de un abuelo confinado a sus nietos"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "El copypasta de la 'tecnología 8D' ('Sentirás la música desde fuera y no desde los auriculares') circuló por todos los grupos; Joni lo confirmó: 'm'ho acaben de passar. Que brutal'."
+    },
+    {
+      "pregunta": "Cuando las peluquerías reabrieron con un reglamento de bioseguridad digno de otra cosa, ¿con qué comparó Humpa la experiencia de ir a cortarse el pelo?",
+      "cita": "Humpa: Me voy a cortar el pelo o al aeropuerto??",
+      "opciones": [
+        "Me voy a cortar el pelo o a un quirófano??",
+        "Me voy a cortar el pelo o al aeropuerto??",
+        "Me voy a cortar el pelo o a una comisaría??",
+        "Me voy a cortar el pelo o a un vuelo transoceánico??"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "La peluquería envió un bando: mascarilla obligatoria, gel a la entrada y salida, prohibidos los acompañantes, cita anulada con 10 minutos de retraso y hasta 'cabello lavado' obligatorio. Lo que más dolió a Humpa no fue el protocolo: 'Lo que más me jode es que no me harán el masaje'."
+    },
+    {
+      "pregunta": "En mayo de 2020, Fernando Simón dejó una frase antológica al no atribuir el exceso de mortalidad al Covid. ¿Qué hipótesis barajó el doctor?",
+      "cita": "Joni: Simón no atribuye el exceso de mortalidad al Covid: 'No sabemos si se debe a un accidente de tráfico enorme'",
+      "opciones": [
+        "Una gripe estacional especialmente virulenta",
+        "Un fallo masivo en los registros de defunción",
+        "Un accidente de tráfico enorme",
+        "Una ola de calor sin precedentes"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Joni compartió la perla del jefe del centro de alertas y la remató con un 'este tipo es subnormal'. Germi, mientras tanto, se agarraba al 'Union Berlin - Paderborn frenético' de la Bundesliga para sobrellevar la vuelta del fútbol."
+    },
+    {
+      "pregunta": "Viendo un meme en pleno confinamiento, Feme hizo una predicción a una década vista. ¿En qué escenario dijo que volvería a tener sentido ese meme?",
+      "cita": "Feme: este meme saldra cuando juguemos al kahoot dentro de 10 años",
+      "opciones": [
+        "Cuando juguemos al Kahoot dentro de 10 años",
+        "Cuando juguemos al Trivial dentro de 10 años",
+        "Cuando juguemos al Karaoke dentro de 10 años",
+        "Cuando juguemos al Parchís online dentro de 10 años"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "El Kahoot es el quiz sagrado de las quedadas del Triangulito Team, y Feme ya proyectaba memes hasta la próxima década. Jorge, por su parte, anticipaba que aquella temporada de chats 'estaba siendo apasionante'."
+    },
+    {
+      "pregunta": "Tras leer un artículo de El País Buenavida, ¿qué pieza de periodismo exigía Jorge que alguien publicara de una vez?",
+      "cita": "Jorge: A ver cuando hacen un articulo del coño-culo culo-coño",
+      "opciones": [
+        "Del pie-mano mano-pie",
+        "Del coño-culo culo-coño",
+        "Del teta-culo culo-teta",
+        "Del boca-cara cara-boca"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "El hilo venía de un artículo que el grupo leyó con lupa: Germi deseó que 'se peguen fuego' y Jorge propuso su artículo del verano. Periodismo de investigación del Triangulito Team en estado puro."
+    },
+    {
+      "pregunta": "Jorge intentó humillar a Germi recordándole una gesta deportiva mítica del grupo. ¿Cuál era exactamente la hazaña?",
+      "cita": "Jorge: Te acuerdas cuando GANASTE A MIGUEL EN LA CARRERA DE MARCHU MIENTRAS MIGUEL CASI SE MATA?",
+      "opciones": [
+        "Que le ganó a Miguel en la carrera de marchu mientras Miguel casi se mata",
+        "Que le ganó a Humpa en el cross de Gandia mientras Humpa vomitaba",
+        "Que le ganó a Miki en los 100 metros mientras Miki se desmayaba",
+        "Que le ganó a Joni en el salto de longitud mientras Joni lloraba"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "La respuesta de Germi es oro puro del grupo: 'No recuerdo eso. Hay que ser humilde. Esa historia quedara ahi'. Lore sellado y archivado para siempre."
+    },
+    {
+      "pregunta": "En junio de 2020 el grupo estalló de risa con una noticia llegada de Enguera. ¿Qué 'sesión espiritual' había acabado en tragedia según la Guardia Civil?",
+      "cita": "Feme: La Guardia Civil le imputa un homicidio imprudente por someterlo al rito del sapo bufo para ayudarle a superar la adicción a las drogas",
+      "opciones": [
+        "El rito del peyote, con su polvo llamado 'el polvo sagrado'",
+        "El rito de la ayahuasca, con su brebaje llamado 'la vidalita'",
+        "El rito del sapo bufo, con su veneno llamado 'la molécula de Dios'",
+        "El rito de la kambo, con su veneno de rana llamado 'lágrima de selva'"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "El veneno del sapo, bautizado como 'la molécula de Dios', fulminó al hombre en segundos durante una sesión en Enguera. Miki se despidió entre lágrimas de risa: 'COMO hecho de menos a ese hombre'. Jorge aún se preguntaba: 'Que hace????'."
+    },
+    {
+      "pregunta": "Cuando Miki le preguntó qué le parecía el hashtag #Madrileñofobia, ¿qué dato histórico esgrimió Joni como prueba definitiva de su postura?",
+      "cita": "Joni: recordemos que en Gandía los 2 primeros casos venían de Madrid, pero claro eso es madrileñofobia",
+      "opciones": [
+        "Que en Gandía los 5 primeros casos venían de Madrid",
+        "Que el primer brote de Gandía empezó en una residencia de jubilados madrileños",
+        "Que en Gandía los 2 primeros casos venían de Madrid",
+        "Que el primer positivo de Gandía fue un turista madrileño de la playa"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Joni se despachó a gusto: 'son la mayor gentuza que existe... toda la puta vida yendo de fanfarrones y perdonavidas y ahora van de víctimas'. Miki matizó con cariño: 'Tengo buenos amigos allí pero en general dan mucho asco'."
+    },
+    {
+      "pregunta": "Marzal cometió un lapsus mortal el 27 de junio: se le pasó felicitar a Aitana por su cumpleaños. ¿Cuál era su plan de rescate?",
+      "cita": "Marzal: Ayer se me pasó felicitar a Aitana. Si la felicito hoy. Quedará mal?",
+      "opciones": [
+        "Esperar al 'medio cumpleaños' de diciembre",
+        "Felicitarla de rebote el día de San Aitana",
+        "Felicitarla hoy mismo, preguntando antes al grupo si quedaría mal",
+        "Fingir que su móvil estuvo perdido toda la semana"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Se trataba del cumpleaños de Aitana (la cantante, no una amiga del grupo). Marzal dudó entre la felicitación tardía y el ridículo eterno mientras Joni, en el mismo hilo, ya estaba indignado con Setién por alinear a Suárez de boya."
+    },
+    {
+      "pregunta": "Cuando Miki se marcó una predicción madridista en plena noche europea, el grupo cortó la emisión. ¿Qué le espetó Joni para cerrarle la boca?",
+      "cita": "Joni: Pfff miki. Respeta los códigos internos",
+      "opciones": [
+        "Respeta los códigos del vestuario",
+        "Respeta el protocolo antimadridista",
+        "Respeta la jerarquía del grupo",
+        "Respeta los códigos internos"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Miki soltó un 'Si que va a remontar el Madrid si' y Jorge suplicó: 'Miguel, por favor te lo pido'. Miki remató con un 'Con esa camisa', Joni invocó los códigos internos y Jorge cerró el acta con el eterno 'Miguel. Lachon'."
+    },
+    {
+      "pregunta": "Humpa se despachó a gusto contra un peñista valencianista. ¿Qué frase del aficionado le hizo perder los papeles?",
+      "cita": "Humpa: 'Estoy operado dos veces del corazón pero por este escudo me voy a la guerra' MIRA CHICO TÚ ERES TONTO",
+      "opciones": [
+        "'He vendido dos coches para pagar el abono de este escudo'",
+        "'Me he hipotecado dos veces por este escudo'",
+        "'Me he dejado dos novias por seguir a este escudo'",
+        "'Estoy operado dos veces del corazón pero por este escudo me voy a la guerra'"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "opinion",
+      "explicacion": "La filosofía valencianista de Humpa quedó definida para la historia: 'Un Valencia de los valencianos, pero la pasta que la ponga otro'. Jorge le recordó que no mover un dedo por el Valencia era igual de lícito que sacarse el pase y ver todos los partidos."
+    },
+    {
+      "pregunta": "Con el aprobado universal del curso covid servido, ¿cuál fue la 'reindustrialización de España' que propuso Jorge?",
+      "cita": "Jorge: A reindustrializar el pais. Regalando titulos!",
+      "opciones": [
+        "Regalando másteres",
+        "Regalando oposiciones",
+        "Regalando títulos",
+        "Regalando Erasmus"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Feme lo celebraba en valenciano: 'tots aprovats i avant, i la carrera tambe, aixina tindrem molts licenciats'. Miki aportó el caso clínico de su prima: 7 suspendidas en la 2ª evaluación y todas aprobadas al final. 'Se le ha aparecido la virgen y en el curso más difícil de la ESO. Ahora, antes o después, la ostia será de campeonato'."
+    },
+    {
+      "pregunta": "Humpa rescató de su archivo personal un vídeo antiguo que el grupo jamás había visto. ¿Qué se grabó exactamente en él?",
+      "cita": "Humpa: Estando sentado tal cual , se rompieron las patas de la silla",
+      "opciones": [
+        "Se atragantó con un bocadillo en la quedada",
+        "Se cayó de la bici en plena ruta del grupo",
+        "Se quedó dormido en clase y el profe lo grabó",
+        "Se le rompieron las patas de la silla estando sentado"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "El vídeo era 'de hace años ya' y Humpa creía que ya lo habían visto todos. Hugo lo recordó con cariño: 'Ostia que buenooo! Sales en plan on estic??? Que ha passat???'"
+    },
+    {
+      "pregunta": "Germi emitió su veredicto definitivo sobre el futuro futbolístico de la cantera familiar de Messi. ¿Cuál fue?",
+      "cita": "Germi: Mateo tiene maneras. Thiago descartado",
+      "opciones": [
+        "Mateo tiene maneras. Ciro descartado",
+        "Thiago tiene maneras. Mateo descartado",
+        "Mateo tiene maneras. Thiago descartado",
+        "Ciro tiene maneras. Thiago descartado"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "opinion",
+      "explicacion": "Germi vivía su cuarentena messi en estado puro: Joni le pinchaba con 'Que cuarentena eh germi encerrado con antonela' y Germi profetizó que no pararían 'hasta que no tengan una hija'. Miki añadía que a Thiago 'le tendrá que asignar un gestor toda la vida... tiene cara de pulirse 100 millones por año y bajo de un puente en 5'."
+    },
+    {
+      "pregunta": "En junio de 2020 el grupo firmó el acta de 'la caída de un ídolo' musical. ¿Qué pecado imperdonable descubrió Marzal?",
+      "cita": "Marzal: Ojo que dio también RT al hilo de Miguel Bosé sobre las vacunas",
+      "opciones": [
+        "Retuiteó el hilo de Miguel Bosé sobre las vacunas",
+        "Compartió un vídeo de Willy Toledo negando el virus",
+        "Se hizo suscriptor de un canal antivacunas",
+        "Dio like a una teoría de Iker Jiménez sobre el virus"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "La víctima fue Kase.O. Jorge ya venía calentito: 'al deficiente mental de Kase O no le hicieron una entrevista más profunda, porque menuda soplapollez'. Miki remató: 'Hace años que perdió la chaveta'. Feme firmó el acta: 'La caida de un idolo'."
+    },
+    {
+      "pregunta": "Joni lanzó al chat un 'dato clave para Feme' sobre Amparo. ¿Qué quería averiguar exactamente?",
+      "cita": "Joni: Sabemos si, jugando a basket, al ir a hacer una bandeja Amparo usa el finger roll? Dato clave para feme",
+      "opciones": [
+        "Si al hacer un mate Amparo cuelga del aro",
+        "Si al ir a hacer una bandeja Amparo usa el finger roll",
+        "Si en el tiro libre Amparo salta o queda plantada",
+        "Si en el lanzamiento de triples Amparo sigue la mano"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "La investigación sobre los gritos y gestos de Amparo ('Recordes que mes cridava, no?') era prioridad absoluta del grupo. Germi se desentendió con un 'Me la pela' y diagnosticó al sujeto en cuestión: 'Quiere ligar pero no le da'."
+    },
+    {
+      "pregunta": "Cuando el grupo diseñó su gobierno local de Gandia (Humber dando licencias, Miki construyendo, Germi de botones), ¿cuál era el plan urbanístico estrella de Feme?",
+      "cita": "Feme: Yo quiero demoler el campanar",
+      "opciones": [
+        "Demoler el campanar",
+        "Demoler el ayuntamiento",
+        "Demoler el mercat municipal",
+        "Peatonalizar el centro histórico"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Todo nació de la propuesta de Jorge de presentarse concejal en Gandia. El reparto de cargos fue inmediato y la ambición demoledora de Feme con el campanario desató el pánico: Marzal se desentendió con un 'Jo ahí ja no puc ajudarte'."
+    },
+    {
+      "pregunta": "Con la llegada del calor, Miki emitió su informe oficial sobre la resistencia a la mascarilla. ¿Cuál fijó como límite humano soportable?",
+      "cita": "Miki: Llevar mascarilla más de 15 minutos seguidos, ahora que ya hace calor del bueno... Es bastante agobiante",
+      "opciones": [
+        "Más de 5 minutos seguidos ya es bastante agobiante",
+        "Más de una hora seguida ya es bastante agobiante",
+        "Más de 15 minutos seguidos ya es bastante agobiante",
+        "Más de 30 minutos seguidos ya es bastante agobiante"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "opinion",
+      "explicacion": "Miki no quería ni imaginar 'la gente que la 8 horas' y Jorge sentenció sobre lo que les esperaba: 'La llevan clara en España jajajaja'. Primeros síntomas del verano con mascarilla."
+    },
+    {
+      "pregunta": "Agosto de 2020, debate sobre un veredista operado dos veces del corazón que anteponía el Valencia a su salud. ¿Cómo lo describió Humberto?",
+      "cita": "Humpa: Yo creo que una persona que está operada dos veces del corazón y que da a entender que antepone al Valencia a su salud tiene un boñigo cerebral del tamaño de la isla perejil",
+      "opciones": [
+        "tiene menos luces que el alumbrado de Navidad de Valencia",
+        "tiene un cerebro más pequeño que una canica de Mercadona",
+        "tiene un boñigo cerebral del tamaño de la isla perejil",
+        "tiene la cabeza llena de payasos y no de circo"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Humberto no perdonaba: al veredista que anteponía el VCF a su corazón lo midió en unidades de isla Perejil. Y remató caballeroso: 'Pero lícito es, desde luego'."
+    },
+    {
+      "pregunta": "Hugo se cruzó con turistas madrileños en pleno verano de 2020 y dejó su veredicto tras escucharlos en un supermercado. ¿Qué dijo?",
+      "cita": "Hugo: Oyes conversaciones de los madrileños mientras compran en Mercadona / Y es que son unos muertos de hambre",
+      "opciones": [
+        "Y es que son unos creídos de primera",
+        "Y es que dan más vergüenza que el Barça sin Messi",
+        "Y es que no saben ni pedir el pan",
+        "Y es que son unos muertos de hambre"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "opinion",
+      "explicacion": "Verano de 2020 con los madrileños veraneando en la Comunitat. Hugo escuchó sus conversaciones en Mercadona y dictó sentencia sin anestesia. Jorge lo celebró: 'Ese es mi Hugo'."
+    },
+    {
+      "pregunta": "Miki destripó la paradoja económica del Valencia en agosto de 2020 y la cerró con dos palabras de su diccionario particular. ¿Cuáles?",
+      "cita": "Miki: Un club de 1 división que ha ingresado 60 millones de euros en UCL. Pagando con pagarés / Like edimova / Lamentaibol",
+      "opciones": [
+        "Like limova / Desgraciaibol",
+        "Like merengada / Tristezaibol",
+        "Like edimova / Lamentaibol",
+        "Like pagarova / Vergüenzaibol"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "El Valencia cobró 60 kilos por la Champions y pagó a los futbolistas con pagarés. Miki lo catalogó con su diccionario y Joni propuso fusionarse con el Barça para crear 'el memeclub definitivo'."
+    },
+    {
+      "pregunta": "Cuando Humberto comparó a la jefa de Joni con Rita Barberá, Joni lanzó una amenaza corporal muy específica. ¿Con qué objeto prometió hundirle el esternón?",
+      "cita": "Joni: humberto, como vuelvas a comparar a mi jefa con rita barbera te juro que te hundo el esternón con un destornillador",
+      "opciones": [
+        "con un cuchillo de cocina",
+        "con un destornillador",
+        "con un martillo de la caja de herramientas",
+        "con un palo de la escoba"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "El debate iba de desventajas de ser hombre y acabó en amenaza de cirugía torácica casera. Nivel de respuesta TT: esternón + destornillador."
+    },
+    {
+      "pregunta": "En el debate sobre 'desventajas de ser hombre' de agosto de 2020, Miki aportó un problema muy fisiológico que las mujeres no sufren. ¿Cuál?",
+      "cita": "Miki: no poder mear con el manubrio a tope de sangre",
+      "opciones": [
+        "no poder ir a la pelu a que te mimen",
+        "no poder mear con el manubrio a tope de sangre",
+        "no poder llorar en el cine sin que te miren mal",
+        "no poder quejarte del frío sin que te llamen flojo"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Joni no cambiaría su calvicie por regla y embarazo, y Miki puso sobre la mesa el 'manubrio a tope de sangre' como gran sacrificio masculino. El grupo lo dio por válido."
+    },
+    {
+      "pregunta": "Jorge dudaba si comprar vuelos para octubre de 2020 y Joni se encomendó a una autoridad sanitaria con nombre de cántico viral. ¿Cómo la invocó?",
+      "cita": "Joni: Don Illa Illa Juanito Maravilla nos guía",
+      "opciones": [
+        "Don Ferran Ferran el Rey de la PCR nos guía",
+        "Don Illa Illa Juanito Maravilla nos guía",
+        "Don Simón Simón el Botijero Nacional nos guía",
+        "Don Puig Puig el Confinador de la Comunitat nos guía"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Octubre de 2020, Jorge mirando vuelos con miedo a que lo chaparan todo. Joni se encomendó al ministro de Sanidad con el cántico viral de la pandemia: 'Don Illa Illa Juanito Maravilla'."
+    },
+    {
+      "pregunta": "En plena guerra del burofax, Joni leyó la entrevista de Messi en Goal y destacó una frase suya sobre el COVID. ¿Cuál?",
+      "cita": "Joni: Y también dice en plan 'el virus este de mierda' jajaja",
+      "opciones": [
+        "el virus este de mierda",
+        "la plaga esta del demonio",
+        "el maldito bicho chino",
+        "esta pandemia de mierda"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Messi destripó a Bartomeu ('hace tiempo que no hay proyecto') y también soltó su particular definición del COVID. Jorge confirmó: 'A Bartolo lo deja por los suelos, pero por los suelos'."
+    },
+    {
+      "pregunta": "Feme preguntó cómo habrían llevado el confinamiento en época de instituto y Jorge fue rotundo. ¿Qué habría reventado?",
+      "cita": "Jorge: Si nos haciamos pajas cuando faltaba un profesor 1 hora / En el confinamiento, habria reventado la XBOX con el pro jajajaja",
+      "opciones": [
+        "la Play 4 con el pro",
+        "la Nintendo con el pro",
+        "la XBOX con el pro",
+        "el PC con el pro"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Si con un profesor ausente una hora ya se hacían pajas en clase, con clases online el destino de la consola estaba sellado. Trauma generacional TT con el Pro Evolution."
+    },
+    {
+      "pregunta": "Miki vaticinó que de adolescentes el confinamiento les habría ido fatal por dos cosas concretas que perdieron. ¿Cuáles echa de menos de bachiller?",
+      "cita": "Miki: O mal, muy mal. Por que que te dejen sin ir a Ibiza y sin cena de graduación... / De los mejores recuerdos de bachiller son esas 2 cosas",
+      "opciones": [
+        "sin el viaje a Benidorm y sin la cena de hermandad",
+        "sin el viaje a Mallorca y sin la fiesta de fin de curso",
+        "sin el viaje de estudios y sin el baile de graduación",
+        "sin el viaje a Ibiza y sin la cena de graduación"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Para Miki, quitarte Ibiza y la graduación era de lo peor: 'De los mejores recuerdos de bachiller son esas 2 cosas. Y el junio pasado... Nanai'."
+    },
+    {
+      "pregunta": "En septiembre de 2020, Joni se despachó a gusto contra el PSOE tras un tuit sobre un etarra suicida. ¿Con qué cifra de muertos por COVID arrancó el sermón?",
+      "cita": "Joni: 50000 muertos y se acuerda de un puto etarra de mierda que se ha suicidado. Pero el psoe tiene toda la bula del mundo y la seguirán votando todos los anormales con tal de que no gobierne la 'extrema derecha'",
+      "opciones": [
+        "50000 muertos",
+        "20000 muertos",
+        "30000 muertos",
+        "70000 muertos"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "El hilo lo abrió un tuit que a Joni le pareció 'vomitivo'. Rajada política con cifra redonda incluida y remate contra el electorado socialista. Clásico del grupo."
+    },
+    {
+      "pregunta": "Tras ver un vídeo de Suárez que circulaba por Twitter, Feme fue demoledor con su nivel. ¿Dijo que no estaba ni para jugar...?",
+      "cita": "Feme: No esta ni para jugar la Pachanga TT",
+      "opciones": [
+        "la Pachanga TT",
+        "la liga de vecinos del pueblo",
+        "el partidillo de los jueves",
+        "el futbolín del bar"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "El vídeo de Suárez no movió una fibra en Feme: ni para la Pachanga TT. Que además estaba descartada por el COVID, así que el nivel exigido era cero."
+    },
+    {
+      "pregunta": "Con la pachanga descartada por el COVID, Joni propuso un plan B para el sábado. ¿Cómo lo vendió?",
+      "cita": "Joni: Y si os dejáis de mierdas y el sábado hacemos un señor almuerzo con TTertulia de 3 horas",
+      "opciones": [
+        "un vermuteo técnico de dos horas y a casa",
+        "una paella gigante en la playa con birras",
+        "un señor almuerzo con TTertulia de 3 horas",
+        "una ruta de tapas por Ruzafa con copas final"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Joni lo tenía todo planificado: de 9:30 a 12 'tranquilamente', porque era 'la manera más efectiva de estar juntos y no hacer el tolai'. Feme firmó al instante: 'jo estic en tu'."
+    },
+    {
+      "pregunta": "Hugo narró en valenciano las perlas de un señor mayor en plena pandemia. ¿Qué respondió cuando le preguntaron por la mascarilla?",
+      "cita": "Hugo: La mascarilla ?? Quie es la mascarilla!? Eixa será la més carilla",
+      "opciones": [
+        "La mascarilla? Jo eixa no la trobe en cap botiga",
+        "Quie es la mascarilla!? Eixa será la més carilla",
+        "La mascarilla? Jo la lleve només quan vaig al metge",
+        "La mascarilla? Eixa és per als metges i els lladres"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "El monólogo incluyó 'jo estic a punt de faltar' cuando le preguntaron la edad y el plan de 'untarnos todos de mermelada per lo que puga pasar'. Marzal lo celebró a la mañana siguiente."
+    },
+    {
+      "pregunta": "Cuando Madrid esquivó el confinamiento perimetral en octubre de 2020, Jorge pidió una medida drástica y cargó contra su sierra. ¿Qué deseó?",
+      "cita": "Jorge: Ojala toda la comunidad encerrada / Que se pasen todos los días yendo a su maravillosa sierra, incomprable con el resto de sierras de España, que deben ser unas 271920303",
+      "opciones": [
+        "Ojala los madrileños necesitaran visado para bajar",
+        "Ojala pusieran aduanas en Requena",
+        "Ojala toda la comunidad encerrada",
+        "Ojala cerraran solo la M-30 y ya está"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Jorge cargó contra la 'maravillosa sierra incomprable' madrileña (con censo de sierras: 271920303). Miki remató: 'Ayuso está loca, lo miran todo en clave electoral'."
+    },
+    {
+      "pregunta": "Hablándose de impuestos y facturas, Miki soltó su filosofía fiscal particular. ¿Qué hay que hacer 'todo lo que puedas' según él?",
+      "cita": "Miki: Hay que estafar todo lo que puedas. Cusndo te pill3n a pagar con gusto",
+      "opciones": [
+        "invertir",
+        "declarar",
+        "estafar",
+        "ahorrar"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "La conversación acabó con Miki confesando que tenía 'a todos de alta' y Joni preguntando si tenía 'dado de alta a 3 rumanos a nombre uno'. Jorge: 'JAJAJA MIGUEL POR FAVOR'."
+    },
+    {
+      "pregunta": "Al invitar a Germi a venir con Arnau al almuerzo del domingo, Miki lanzó una frase que ya es política oficial del grupo. ¿Cuál?",
+      "cita": "Miki: Somos un grupo abierto a parejas homosexuales",
+      "opciones": [
+        "Somos un grupo moderno, inclusivo y sin prejuicios",
+        "Somos un grupo diverso y orgullosamente tolerante",
+        "Somos un grupo abierto a parejas homosexuales",
+        "Somos un grupo que acepta todo tipo de amor"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Miki invitó a Germi y Arnau 'juntitos' al almuerzo del domingo y remató con la política de diversidad del grupo. Feme lo diagnosticó sin piedad: 'Miki desbocado'."
+    },
+    {
+      "pregunta": "Octubre de 2020, vísperas del segundo estado de alarma: tras oír las declaraciones de Fernando Simón, ¿qué 'profecía' sarcástica hizo Joni sobre el próximo confinamiento?",
+      "cita": "Joni: Fernandito simón ha dicho que un confinamiento breve no sirve, así que seguramente nos vayan a confinar 15 días en breves",
+      "opciones": [
+        "Que el confinamiento sería solo de fines de semana",
+        "Que nos iban a confinar 15 días 'en breves'",
+        "Que confinarían únicamente a los mayores de 65 años",
+        "Que el permiso para salir se pediría por WhatsApp"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Joni tradujo el gallego indescifrable de Simón a su idioma nativo, el sarcasmo: si un confinamiento breve no sirve, seguro que nos toca '15 días en breves'. Humpa ya lo daba por hecho: 'tiene toda la pinta'."
+    },
+    {
+      "pregunta": "Noviembre de 2020: al ver que Galicia cerraba la actividad no esencial, Jorge cantó el 'Hasta aquí hemos llegado chavales' y repartió los deberes del confinamiento. ¿Qué le encargó a Joni?",
+      "cita": "Jorge: Joni, prepara mas preguntas del Kahoot ese",
+      "opciones": [
+        "Empezar a darle caña a sus asalariados",
+        "Preparar más preguntas del Kahoot",
+        "Avisar a Marta de que los viernes noche toca Zoom",
+        "Sacar recetas nuevas para el confinamiento"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Plan de emergencia TT para el segundo confinamiento: Kahoot para Joni, recetas para Hugo, asalariados para Miki ('bueno, eso ya lo hacías todos los días') y para Germi buscar vídeos de dominating hairpulling y organizar los viernes noche de Zoom con Marta."
+    },
+    {
+      "pregunta": "Noviembre de 2020, debate sobre la futura vacuna: Joni confesó el 'efecto secundario' que deseaba para la humanidad. ¿Cuál era?",
+      "cita": "Joni: Ojalá uno de los efectos secundarios de la vacuna fuera que todo el mundo empezara a decir 'el Llakovic' y 'Cuidao que ese la enrosca'",
+      "opciones": [
+        "Que la gente dejara de decir 'inmunidad de rebaño' cada dos mensajes",
+        "Que a todos nos colocaran un chip con el carné de vacunación",
+        "Que todo el mundo empezara a decir 'el Llakovic' y 'cuidao que ese la enrosca'",
+        "Que Fernando Simón se quedara sin voz para siempre"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "La utopía vacunal de Joni: inmunizar también contra las muletillas del grupo. En el mismo hilo, Germi aportó su teoría seria: 'Nos van a colocar chips'."
+    },
+    {
+      "pregunta": "Noviembre de 2020: Joni soltó una rajada contra el IVA de las mascarillas en España. ¿Cuál era su argumento?",
+      "cita": "Joni: A un 21%. Los muy hijos de puta. Y en Europa o están exentas o está al 6%",
+      "opciones": [
+        "Que en Europa costaban el triple por culpa del IVA del 25%",
+        "Que el IVA había subido del 4% al 21% con la pandemia",
+        "Que España las regalaba y Europa las vendía a precio de oro",
+        "Que aquí pagaban el 21% mientras en Europa o estaban exentas o al 6%"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "polemica",
+      "explicacion": "Rajada de Joni contra Hacienda en toda regla: 'no han bajado ni el iva de las mascarillas los muy sinvergüenza'. Miki aprovechó para soltar su clásico: 'Lo llevo diciendo 8 años. 2000€ de nómina y 800 casi vuelan, es una vergüenza'."
+    },
+    {
+      "pregunta": "Noviembre de 2020: Marzal avisó de que había llamado al médico por fiebre y le mandaron quedarse en casa por precaución. ¿Qué pronóstico lanzó Humpa para todo el grupo?",
+      "cita": "Humpa: Al final acabaremos todos pasando, x ahí, con PCR y similares",
+      "opciones": [
+        "Que Marzal sería el único del grupo que se libraría del hisopo",
+        "Que la fiebre era de la vacuna de la gripe y no había que hacer nada",
+        "Que mejor no hacerse la prueba para no dar positivo en Navidad",
+        "Que al final todos acabaríamos pasando por ahí, con PCR y similares"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Humpa acertó de pleno: la pandemia nos tenía que pasar a todos por el hisopo. Al final a Marzal le dio negativo ('resfriado normal'), pero Joni ya había firmado la sentencia: 'Vamos a acabar todos pasando por ahí'."
+    },
+    {
+      "pregunta": "Diciembre de 2020: Feme sentenció que María Pombo 'no es ni top 10 de España'. ¿Cómo remató Miki la frase?",
+      "cita": "Miki: Ni top 10 de L'Alqueria",
+      "opciones": [
+        "Ni top 5 de Oliva contando las vacas",
+        "Ni top 10 de L'Alqueria",
+        "Ni top 20 de la playa de Piles en agosto",
+        "Ni top 100 de la Comunitat Valenciana"
+      ],
+      "correcta": 1,
+      "anio": 2020,
+      "categoria": "opinion",
+      "explicacion": "El ranking de belleza más exclusivo de la Safor dejó fuera a María Pombo sin apelación posible. Feme confesó después que estaba mirando fotos para verificarlo: 'Ostia. Estaba mirando fotos'."
+    },
+    {
+      "pregunta": "Diciembre de 2020: el grupo se partió con el 'kinki valenciano' viral, el famoso 'loco de la curva'. ¿Cuál fue la imitación de Marzal?",
+      "cita": "Marzal: 'Estic amargat, está destruint el valensianisme, mos vol aufegar a tots, ES UN FILL DE PUTA!!'",
+      "opciones": [
+        "'Soc el millor conductor de la Safor i la policia ho sap, VENGANZA!!'",
+        "'El valensianisme es lo más y el que no li agrada que se vaja, YA ESTA!!'",
+        "'Vaig anar a la curva i el senyor no em va deixar passar, INCREIBLE!!'",
+        "'Estic amargat, está destruint el valensianisme, mos vol aufegar a tots, ES UN FILL DE PUTA!!'"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Marzal clavó al personaje con su mejor interpretación y Jorge aportó el tartamudeo: 'el, el, el (tartamudea)... el vaig vore i...'. Miki pidió justicia: 'Ojala la policía y el juez dando la razón al loco de la curva'."
+    },
+    {
+      "pregunta": "Diciembre de 2020: Jorge montó en el grupo un '¡Pasapalabra de Manos a la Obra!' con rosco completo. ¿Qué letra y respuesta definió a la 'Mascota de peluche de Benito'?",
+      "cita": "Jorge: G - Mascota de peluche de Benito.",
+      "opciones": [
+        "La B, de Benitín",
+        "La M, de Manolín",
+        "La T, de Tatín",
+        "La G, de Gotelín"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "El rosco más absurdo de la televisión española: la mascota de Benito se llamaba Gotelín. Humpa se quedó a las puertas del bote ('M Q R W no las sé') y Jorge ya lo había avisado: 'La mejor es la de la mascota'."
+    },
+    {
+      "pregunta": "Diciembre de 2020: Miki explicó en dos frases qué era Cyberpunk 2077 ('multiplataforma', 'hype', 'creadores de the witcher 3'). ¿Cuál fue la reacción de Humpa?",
+      "cita": "Humpa: Hay tres palabras que no entiendo. O no sé que son",
+      "opciones": [
+        "'Vale, pero ¿necesito la PS5 o me sirve la de la casa?'",
+        "'¿Y esto es como el Fortnite ese de los primos?'",
+        "'Hay tres palabras que no entiendo. O no sé que son'",
+        "'Me lo apunto para Reyes, junto con la libreta de Dark'"
+      ],
+      "correcta": 2,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "La masterclass de Miki duró dos frases y Humpa se rindió a la tercera palabra. Feme ni eso: llegó a preguntar '¿Que coño es el cyberpunk?' con Twitter entero hablando del juego que llevaba 7 años en desarrollo."
+    },
+    {
+      "pregunta": "Diciembre de 2020: Feme empezó a ver 'Dark' por recomendación de Miki. ¿Qué hizo para no perderse en la serie alemana?",
+      "cita": "Feme: Me he comprado una libreta para tomar apuntes",
+      "opciones": [
+        "La puso en x1.5 para acabar antes",
+        "La dejó en el capítulo 3 y dijo que era sobrevalorada",
+        "Pidió a Miki un resumen de YouTube tras cada capítulo",
+        "Se compró una libreta para tomar apuntes"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "La serie alemana exigía material escolar. Hugo avisó: 'Presta atenció que sinos es fàcil perdres'. Miki, más práctico: 'no fa falta, con ver un resumen rápido de YouTube tras cada capítulo sobra'."
+    },
+    {
+      "pregunta": "Noviembre de 2020: el grupo fantaseó con que Schumacher despertara del coma y volviera a la F1. ¿Cómo imaginó Joni la primera carrera?",
+      "cita": "Joni: En la primera recta todos a estamparse contra Schumacher, a ver quien lo revienta más",
+      "opciones": [
+        "Todos estampándose contra Schumacher en la primera recta, a ver quién lo revienta más",
+        "Schumacher haciendo pole con 50 años y llorando en el podio",
+        "Schumacher ganando de GPG y dedicándoselo a sus enfermeras",
+        "La FIA prohibiéndole correr y él comprando Ferrari por despecho"
+      ],
+      "correcta": 0,
+      "anio": 2020,
+      "categoria": "lore",
+      "explicacion": "Humor negro del grupo en estado puro, arrancado por Humpa: 'Y daijiro kato se pasa a los coches (y a la vida)'. Jorge ya tenía el comentario de retransmisión listo: 'Espectacular lo de Micheal, lo ha vuelto a hacer!' mientras el coche se estampaba recto en la primera curva."
+    },
+    {
+      "pregunta": "Nochebuena de 2020: Humpa contó que habían atropellado a un amigo de la falla que iba en patinete (dos vértebras fracturadas) y lo remató con un 'Jajajajaja'. ¿Qué confesó Joni después?",
+      "cita": "Joni: Hombre a ver, si me ha salido una lágrima no ha sido de tristeza",
+      "opciones": [
+        "Que había rezado por su pronta recuperación esa noche",
+        "Que él también se había caído del patinete el mes pasado",
+        "Que iba a comprarse un patinete para celebrarlo",
+        "Que si le había salido una lágrima no había sido de tristeza"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "Humpa lo dejó claro: 'Se que te alegra, joni'. Y Joni confirmó la teoría con una honestidad brutal: lágrima sí, pero de las buenas. El pobre del patinete pasaba la noche en el hospital."
+    },
+    {
+      "pregunta": "Diciembre de 2020: Miki celebró que 'el puto hugo ya vacunado, que grande'. ¿Cómo felicitó Feme al primer vacunado del TT?",
+      "cita": "Feme: ¡Hugo rateta! Queremos tus plaquetas!",
+      "opciones": [
+        "'¡Hugo, ponle una dosis a Miki de mi parte!'",
+        "'¡Hugo el Sanitario, suéltame un poco de tu suero!'",
+        "'¡Hugo, cuando toque el turno de los jóvenes no nos olvides!'",
+        "'¡Hugo rateta! Queremos tus plaquetas!'"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "El primer pinchazo del grupo fue para Hugo, sanitario en primera línea del brote del geriatrico de Benirredrà. Germi lo bautizó como 'El Sanitario' y propuso lo lógico: 'grande Hugo, roba algunas y nos las ponemos en Marxu o algo no?'."
+    },
+    {
+      "pregunta": "Diciembre de 2020: con Hugo recién vacunado, ¿qué 'ventaja' le deseó Joni al primer inmunizado del grupo?",
+      "cita": "Joni: Ostia hugo. Ya te puedes follar a viejas sin miedo, que guapo",
+      "opciones": [
+        "Que ya podía hacer botellón en la playa de Piles",
+        "Que ya podía cruzar el perímetro de la Safor",
+        "Que ya podía ir al gimnasio sin mascarilla",
+        "Que ya se podía follar a viejas sin miedo"
+      ],
+      "correcta": 3,
+      "anio": 2020,
+      "categoria": "momentazo",
+      "explicacion": "La felicitación más sincera de la pandemia. Hugo, entre tanto, descubrió que le faltaba la segunda dosis ('Si, hay una segunda dosis') y se indignó con el papeleo: 'Pues no ponía Gobierno de España... Me caguen'."
+    },
+    {
+      "pregunta": "Enero de 2021: Germi comunicó al grupo que le habían dado positivo en PCR. ¿Cómo lo anunció?",
+      "cita": "Germi: Chumacos, no he podido ir porque a parte de que tengo mucho curro el jueves me hicieron PCR! Me acaban de decir que soy positivo, aislado hasta el dia 17!!! No tengo ni puta idea de como lo he pillado de hecho Marta ha dado negativo!!! Pasarlo bien chavales!!!😘😘😘",
+      "opciones": [
+        "Culpando directamente a la caseta de Marxu",
+        "Con un audio de tres minutos llorando desconsolado",
+        "Con tres emojis de corazón y deseando 'pasarlo bien chavales'",
+        "Pidiendo que le subieran mistela a la ventana"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "El positivo más feliz de la pandemia: aislado hasta el día 17, sin saber cómo lo había pillado y con Marta negativa. Marzal, sentimiento puro: 'Pero bueno. ¿Vienes a comer o no?'. Germi: 'Jjajajajajaja siii ahora voy'."
+    },
+    {
+      "pregunta": "Enero de 2021: Joni comparó el fichaje de Illa e Iceta en el gobierno de Sánchez con una jugada mítica del grupo en la PlayStation. ¿Cuál?",
+      "cita": "Joni: Como cuando guille cogía el inter y ponía al united en el pro y te ponía a saha y alan smith de laterales",
+      "opciones": [
+        "Cuando Guille cogía el Inter, ponía al United en el Pro y alineaba a Saha y Alan Smith de laterales",
+        "Cuando Guille fichaba a Ronaldinho para el Alcoyano en el FIFA",
+        "Cuando Guille vendía a toda la delantera y fichaba a Cheryshev",
+        "Cuando Guille ponía a su primo de portero en el PES"
+      ],
+      "correcta": 0,
+      "anio": 2021,
+      "categoria": "lore",
+      "explicacion": "La analogía política más futbolera de la pandemia: Sánchez haciendo de Guille con el mando, mandando a Illa a Cataluña y colocando al 'botijo amanerado' de Iceta en política territorial como lateral improvisado."
+    },
+    {
+      "pregunta": "Enero de 2021: Jorge presumía de planes de montaña gallega con sensación térmica de -20°... y lluvia incluida. ¿Qué le espetó Joni?",
+      "cita": "Joni: No sé como no eres concejal de turismo del Concello de Ourense",
+      "opciones": [
+        "'No sé cómo no eres concejal de turismo del Concello de Ourense'",
+        "'No sé cómo no te han nombrado alcalde de Piles'",
+        "'No sé cómo no te ha fichado Bear Grylls para su serie'",
+        "'No sé cómo no te han dado la medalla al mérito turístico'"
+      ],
+      "correcta": 0,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Jorge vendía la Galicia profunda como si fuera Cancún: montaña, lluvia y -30° ('Es que sois unos exagerados'). Joni le otorgó el cargo que merecía y Feme rogó por la salud mental de todos: 'Jorge por favor'."
+    },
+    {
+      "pregunta": "Joni hizo de portavoz de la 'ciencia del grupo' en plena pandemia transmitiendo un estudio de Hugo con porcentaje de eficacia incluido. ¿Quiénes eran los pacientes en cuestión?",
+      "cita": "Joni: Dile a marta que hugo te ha dicho que una buena mamada cada 4 horas acelera un 80% la expulsión del virus",
+      "opciones": [
+        "Germi y Marta acababan de dar positivo los dos",
+        "Marzal acababa de hacerse una PCR privada",
+        "Feme acababa de terminar un turno en la UCI",
+        "Hugo acababa de recibir la segunda dosis de la vacuna"
+      ],
+      "correcta": 0,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Germi dictaminó 'Siguent els dos positius...pues els dos junteta' y Joni aportó la ciencia del grupo; Hugo se limitó a un 'Si...' resignado ante el estudio que le atribuían."
+    },
+    {
+      "pregunta": "Germi pasó 5 días ingresado por covid y aun así Joni lo acribilló por el chat. ¿Qué gritaba 'Germi' en la caricatura que hizo Jorge de la escena?",
+      "cita": "Joni: PERO QUE 5 DIAS EN EL HOSPITAL Y QUE POLLAS. QUE HA PALMAO EL MADRID CONTRA EL ALCOYANO DE JOSE JUAN Y DIAKATE, SI TE PARECE NO CHILLO",
+      "opciones": [
+        "EL VAR ES MI PADRE",
+        "DIAKATE ES MI PADRE",
+        "JOSE JUAN ES MI PADRE",
+        "EL ALCOYANO ES MI PADRE"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Jorge imaginó a Germi en el hospital chillándole a Marta por el ridículo copero del Madrid ante el Alcoyano; Joni remató que ni 5 días de ingreso justificaban semejante dolor."
+    },
+    {
+      "pregunta": "Hugo, el primer vacunado del grupo, contó los estragos de su segunda dosis de Pfizer. ¿Cómo reaccionó el chat?",
+      "cita": "Hugo: Juer con la segunda dosis de la Pfizer me ha dejado el brazo KO y esta noche unos escalofríos que en la vida",
+      "opciones": [
+        "Miki: 'joder hugo me cago en dios'",
+        "Joni: 'Putos etarras'",
+        "Germi: 'Vamos joder!!!'",
+        "Feme: 'Resident Evil versión real'"
+      ],
+      "correcta": 0,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Hugo tranquilizó: 'Entra dentro de lo normal', pero Miki solo acertó a responder 'joder hugo me cago en dios'; Jorge se extrañó de que le pasara 'estando en forma'."
+    },
+    {
+      "pregunta": "Miki presumió de PCR ultrarrápida y retó a Marzal con una pregunta técnica. ¿Cómo respondió Marzal?",
+      "cita": "Miki: saps fer algeps?¿",
+      "opciones": [
+        "Eso es trabajo de albañil",
+        "Googlealo tú, maestro",
+        "De eso nada, mono",
+        "Aprendo rápido, patrón"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Marzal se ofreció a cubrir la sustitución de Miki ('Aprendo rápido, patrón') y Miki le pinchó: 'buscarlo lo has buscado rapido, hacerlo...'"
+    },
+    {
+      "pregunta": "Miki pronunció el réquiem del Valencia en plena crisis institucional. ¿Qué sentenció tras decretar que 'el club va directo a la desaparicion'?",
+      "cita": "Miki: el vlc esta herido de muerte. con la deuda y todo el merder que tenemos... el club va directo a la desaparicion",
+      "opciones": [
+        "esto era lo que había",
+        "se acabó lo que se daba",
+        "que dios nos coja confesados",
+        "fue bonito mientras duro"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "lore",
+      "explicacion": "Miki encadenó 'fue bonito mientras duro' y 'no veo salida a esto' mientras Jorge comparaba a la propiedad con Burns de Los Simpsons: 'Como puede ver, estoy en la ruina, la casa se cae a pedazos...'"
+    },
+    {
+      "pregunta": "Humpa contó la anécdota de su madre cenando en una boda junto al padre del presidente del Levante. ¿Por qué le soltó aquella frase?",
+      "cita": "Humpa: una vez coincidió con el padre del presidente del Levante en la mesa de una boda y le dijo... 'mira qué casualidad, nosotros aquí cenando y mi hijo con el tuyo'",
+      "opciones": [
+        "Porque había leído mal una noticia del periódico",
+        "Porque había malinterpretado un WhatsApp que le envió Humpa",
+        "Porque había visto una foto antigua de Humpa con el presidente",
+        "Porque había confundido a Humpa con el hijo de otra amiga"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "lore",
+      "explicacion": "La madre de Humpa presumió de amistad con el presidente del Levante por un WhatsApp malinterpretado; Feme la declaró patrimonio del grupo: 'Que bien me cae esa mujer xe'."
+    },
+    {
+      "pregunta": "Feme abría el día con su parte sanitario desde el hospital en plena pandemia. ¿Qué buenas noticias trajo esa mañana?",
+      "cita": "Feme: Femenia os trae buenas noticias!",
+      "opciones": [
+        "Cero positivos en las PCR del día y 10 altas de UCI",
+        "Toda la plantilla de planta había recibido la vacuna",
+        "Cero éxitus, 89 personas en planta y 4 altas de UCI",
+        "El hospital quedaba libre de covid por primera vez"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "'Bona nit, avui bones notícies cap éxitus i 89 persones en planta i 4 altes d'UCI, total 25', reportó Feme en valenciano; Germi celebró con un 'Vamos joder!!!' y Humpa reconoció que 'hacen falta'."
+    },
+    {
+      "pregunta": "Humpa alineó al Barça de Koeman con Riqui Puig, Lenglet, Mingueza, Pjanic y Braithwaite. ¿Cómo definió Jorge ese XI?",
+      "cita": "Humpa: Riqui puig, lenglet, mingueza, pjanic, braitwhite...cómo hemos acabado así ?",
+      "opciones": [
+        "Química rara",
+        "Mezcla explosiva",
+        "Droga dura",
+        "Veneno puro"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "opinion",
+      "explicacion": "Jorge lo bautizó como 'Droga dura'; Humpa completó el XI con Ter Stegen, Umtiti y Griezmann ('Yo con esa defensa lo veo muy muy difícil') y Germi profetizó: 'Va a jugar pique, casi seguro'."
+    },
+    {
+      "pregunta": "Humpa lanzó una 'ÚLTIMA HORA' sobre el atropello de Fernando Alonso y el grupo se la tragó entera. ¿Cómo reaccionó el chat?",
+      "cita": "Humpa: 📍ÚLTIMA HORA | Almenos una persona fallecida en el atropello al bicampeón del mundo de Formula 1 Fernando Alonso. Al parecer se trataría de un ex futbolista con el que el piloto comparte afición por el ciclismo. Medios suizos afirman que se trata de Didier Drogba",
+      "opciones": [
+        "Feme avisó de que Alonso estaba ingresado en su hospital",
+        "Joni y Germi salieron a por los 'putos etarras' y 'Vascos hijos de puta'",
+        "Miki pidió minuto de silencio en el grupo",
+        "Hugo felicitó a Drogba por sobrevivir"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Joni: 'Putos etarras'; Germi: 'Vascos hijos de puta' y 'Se veia venir'; Joni remató con 'Escoria abertzale'. Nadie dudó ni un segundo de que Drogba atropellara a Alonso en Suiza."
+    },
+    {
+      "pregunta": "Feme se tragó entera la fake news de Alonso. ¿Qué 'declaración' del piloto inventó Joni para rematar el bulo?",
+      "cita": "Feme: Me lo he visto conduciendo sin brazos ni piernas",
+      "opciones": [
+        "'no me acuerdo de nada, doctor'",
+        "'la vida sigue, nos vemos en Imola'",
+        "'gracias a los que frenaron, de verdad'",
+        "'bua, ha sido un buen piño'"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Joni firmó el bulo como 'Informa @carlosmiquelf1': mandíbula fracturada, 'no tendría ni brazos ni piernas' y la mítica declaración 'bua, ha sido un buen piño'."
+    },
+    {
+      "pregunta": "Humpa destapó el precio de las mascarillas españolas del CSIC y Jorge se desesperó repitiendo la misma palabra dos veces. ¿Cuál?",
+      "cita": "Humpa: Las mascarillas españolas del csic que en teoría son buenas, la opción más baratas de compra es 60 € una caja de 25 creo recordar",
+      "opciones": [
+        "Que país",
+        "Que miserable",
+        "Que chorizos",
+        "Que vergüenza"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "polemica",
+      "explicacion": "Jorge soltó un 'De verdad / Que miserable es / Que miserable' y Humpa sentenció: 'Se está quedando un país como para salir corriendo'; Hugo preguntó si la mascarilla obligatoria llevaba IVA: 'Money money'."
+    },
+    {
+      "pregunta": "Joni desveló el secreto de la carpeta del chico down que saluda a toda Gandía. ¿Cuál era la clave de supervivencia de Humpa ante él?",
+      "cita": "Joni: lo que él no sabe es que la carpeta que le dan para entregar está llena de dibujos de pollas porque nadie en su sano juicio fiaría nada serio a un down que se dedica a saludar a toda Gandía",
+      "opciones": [
+        "Llevar siempre cartones para defenderse",
+        "Saludarle primero y cruzar de acera",
+        "Evitar el contacto visual: si lo hay, estás perdido",
+        "Ponerse auriculares y mirar el móvil"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Hugo recordó el día que el chico fue a por Marzal dándole con unos cartones mientras esperaban en un semáforo con las motos; Humpa dio la clave: 'El secreto está en evitar el contacto visual'."
+    },
+    {
+      "pregunta": "Cuando Pfizer anunció que la variante sudafricana reducía dos tercios la protección de su vacuna, Feme pidió preparar el búnker citando dos películas. ¿Cuáles?",
+      "cita": "Humpa: Qué tranquilizador, espero estén trabajando ya en nueva vacuna",
+      "opciones": [
+        "Resident Evil y World War Z",
+        "28 días después y Estación zombie",
+        "Contagio y El día de mañana",
+        "Yo soy la leyenda y Guerra de los mundos"
+      ],
+      "correcta": 0,
+      "anio": 2021,
+      "categoria": "opinion",
+      "explicacion": "Feme encadenó 'Resident Evil versión real' y 'World War Z' ('Ya dije que teniamos que empezar a preparar Marxu'); Miki lo resumió: 'Esto es para morirse las putas cepas, vamos no me jodas'."
+    },
+    {
+      "pregunta": "Joni lanzó la encuesta más turbia del grupo sobre a quién debería haber aniquilado la pandemia. ¿Qué opción arrasó?",
+      "cita": "Joni: Prims, si os dieran la opción, a quien querriais que la pandemia hubiera aniquilado? Gitanos / Moros (excepto los del kebab del jardinet)",
+      "opciones": [
+        "Moros, excepto los del kebab del jardinet",
+        "Gitanos",
+        "Políticos de todos los colores",
+        "Los que no respetan el aforo"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "polemica",
+      "explicacion": "Miki ('Gitanos, siempre'), Germi y Humpa votaron igual; Feme lo constató: 'Ja estem exterminant raçes', y Joni amenazó con usarla como encuesta de Twitter siendo CM del programa."
+    },
+    {
+      "pregunta": "Joni deseó que Ayuso arrasara con mayoría absoluta en las elecciones madrileñas. ¿Qué añadió a continuación?",
+      "cita": "Joni: Pues ojalá arrase Ayuso con mayoría absoluta",
+      "opciones": [
+        "Y que Iglesias se vaya a vivir a Cuba",
+        "Y que mame bien fuerte ciudadanos, por payasos",
+        "Y que el PSOE aprenda a hacer listas",
+        "Y que Vox saque los colores del mapa"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "polemica",
+      "explicacion": "Jorge definió a Ciudadanos como 'Un cadaver politico', Joni lo comparó con el Barça de los últimos 3 años y Humpa cargó contra las mociones de censura 'en plena pandemia'."
+    },
+    {
+      "pregunta": "Humpa dejó la frase del año sobre lo que haría ante una foto de entrenamiento. ¿Qué era lo que desencadenó todo?",
+      "cita": "Humpa: Incluso si me apuras, lo natural es no poder reprimir el deseo y manosearle el culo. Incluso sopesando durante un segundo las consecuencias legales",
+      "opciones": [
+        "Un vídeo haciendo sentadillas en el gimnasio",
+        "Una historia en biquini en la piscina",
+        "Un selfie en leggins después de correr",
+        "Una foto con el culo en pompa mientras entrena"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Joni puso el contexto: 'Partimos de la base de que subes una foto con el culo en pompa mientras entrenas'; Jorge lo celebró con un 'JAJAJAJAJAJAJAJAJA BRUTAL' y Germi analizaba la 'postura corporal: piernas semiflexionadas, espalda recta'."
+    },
+    {
+      "pregunta": "Miki se lamentó de la maldición de Alonso tras leer que 'un envoltorio de sandwich provocó el abandono'. ¿Qué 'consuelo' le dio Jorge?",
+      "cita": "Miki: 'Un envoltorio de sandwich provocó el abandono de Fernando Alonso'",
+      "opciones": [
+        "Ojo, ganó dos mundiales con Ferrari",
+        "Ojo, cobró de McLaren sin correr",
+        "Ojo, tiene un yate en Ibiza",
+        "Ojo, se folló a Lara Álvarez"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Miki teorizó que a Alonso le echaron mal de ojo tras su segundo mundial ('Imposible tener mas mala suerte tantisimos años seguidos') y Jorge encontró el lado positivo de la carrera del asturiano."
+    },
+    {
+      "pregunta": "Miki planteó al grupo uno de los grandes misterios gastronómicos de la pandemia: ¿por qué los kebabs se llaman 'kebabish'? ¿Qué le respondió Feme?",
+      "cita": "Miki: Por que los kebabs se llaman kebabish",
+      "opciones": [
+        "Porque el fundador se apellidaba Ish",
+        "Porque 'ish' significa 'rápido' en turco",
+        "Porque era una marca londinense de moda",
+        "Porque es kebab & fish"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "«¿Enserio?», dijo Miki, que descubría en 2021 que llevaba años comprando kebabs en un kebab & fish sin saberlo."
+    },
+    {
+      "pregunta": "Germi apenas reconoció a Joni en la foto y lo bautizó como 'el pollo'. ¿Cómo justificó Joni su nuevo estado?",
+      "cita": "Joni: El polloooooo to sobao",
+      "opciones": [
+        "Que llevaba una semana de crossfit intensivo",
+        "Que se había echado bronceador de oferta",
+        "Que se pensaba que era un albanokosovar pidiéndole aparcar en su plaza",
+        "Que venía de una sauna finlandesa"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Alguien lo confundió con un albanokosovar cuando le pidió aparcar en su plaza y nació una leyenda del archivo. El TT no perdona ni olvida."
+    },
+    {
+      "pregunta": "Humpa radiografió el caos vacunal europeo en un solo mensaje. Según su crónica, ¿hasta qué edad ampliaron entonces la AstraZeneca?",
+      "cita": "Humpa: Lo que están haciendo con Astra zeneca es de juzgado de guardia, ahora lo amplían hasta los 69 años. Alemania a su bola diciendo que va a comprar la sputnik...brutal eh",
+      "opciones": [
+        "Hasta los 49 años",
+        "Hasta los 69 años",
+        "Hasta los 79 años",
+        "Hasta los 59 años"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "opinion",
+      "explicacion": "«De juzgado de guardia», definió Humpa, con Alemania «a su bola» queriendo comprar la Sputnik. Miki suscribía: «Si tío. Es vergonzoso»."
+    },
+    {
+      "pregunta": "En abril de 2021 el grupo cruzaba los dedos 🤞🏻🍀 por el gran evento del año TT. ¿Qué esperaba Hugo para el gran día?",
+      "cita": "Hugo: Esa es! Bien pensado, ojalá pueda ser una boda medio normal",
+      "opciones": [
+        "Una boda íntegra por videoconferencia",
+        "Una boda con aforo de seis y PCR general",
+        "Una boda aplazada hasta 2024",
+        "Una boda medio normal"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Miki animaba con «Avantiii, ojalá no haya que aplazar» y Humpa aportaba el 🤞🏻🍀 oficial. La pandemia también amenazaba los grandes días del TT."
+    },
+    {
+      "pregunta": "El grupo se descojonaba con un contenido del hilo que Humpa vetó al instante invocando un viejo trauma deportivo. ¿Contra quién habían perdido antes?",
+      "cita": "Humpa: Después de que nos ganaran los sordos no podemos reírnos de esta gente",
+      "opciones": [
+        "Un equipo de sacerdotes",
+        "Los veteranos del pueblo",
+        "Los ciegos",
+        "Los sordos"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "lore",
+      "explicacion": "La humillación ante el equipo de sordos seguía fresca en el archivo: primero pierdes, luego no puedes ni reírte de los demás. Ley del TT."
+    },
+    {
+      "pregunta": "Antes del diagnóstico definitivo de Marzal sobre la misteriosa jugadora amateur del Betanzos, Miki ya le había puesto mote. ¿Cuál?",
+      "cita": "Marzal: Será una gorda que se ha puesto a jugar a fútbol",
+      "opciones": [
+        "Foca del puerto",
+        "Submarino en superficie",
+        "Tanque con espinilleras",
+        "Ballena varada"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Miki dudaba si era broma o jugaba de verdad («sale en otras fotos con cigarros»); Marzal zanjó que el Betanzos, pueblo de Buyo, «es un club normal»."
+    },
+    {
+      "pregunta": "Joni explicó que la pandemia le vino 'de lujo' a un presidente de club para montar la Superliga. ¿A qué presidente se refería con 'la rata'?",
+      "cita": "Joni: Es que encima la rata, que lleva unos cuantos sin despilfarrar año tras año como la mayoría de clubes, la pandemia le ha venido de lujo para esto porque ha pillao a la mayoría de clubs grandes con la mierda al cuello",
+      "opciones": [
+        "Peter Lim",
+        "Florentino Pérez",
+        "Javier Tebas",
+        "Nasser Al-Khelaïfi"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "opinion",
+      "explicacion": "Mientras los grandes llegaban a la pandemia «con la mierda al cuello», la rata llevaba años sin despilfarrar y vio el momento perfecto para el golpe superliga."
+    },
+    {
+      "pregunta": "Feme analizó el terremoto de la Superliga y cargó contra los clubes que se quedaron fuera. ¿Qué habían hecho según Feme?",
+      "cita": "Feme: Y dentro de 10 años el inter sera 13 de la superliga",
+      "opciones": [
+        "Se han echado a llorar",
+        "Se han dejado comer la tostada",
+        "Se han vendido al petrodólar",
+        "Se han ido de vacaciones"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "opinion",
+      "explicacion": "Su futuro distópico completo: el resto de equipos «se han dejado comer la tostada», el Inter acabaría 13 de la Superliga y el Madrid ganando «una tras otra»."
+    },
+    {
+      "pregunta": "Joni arrancó su teoría sobre las cartas con navaja previas a las elecciones madrileñas con un dato pandémico sobre la salud mental nacional. ¿Cuál era su conclusión?",
+      "cita": "Joni: Un año todo un puto país encerrado en casa, incluidos locos como Germán, y no pasa nada",
+      "opciones": [
+        "Que era un fan despechado de una ministra",
+        "Que era el cartero de El Escorial",
+        "Que era una operación política antes de las elecciones",
+        "Que era marketing de una serie de Netflix"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "polemica",
+      "explicacion": "Cuatro cartas justo antes de votar en «la única comunidad que se resiste a la izquierda», con Ayuso tachada de «loca demente» desde el día 1. «A pastar», sentenció."
+    },
+    {
+      "pregunta": "La Policía resolvió el misterio de la carta con navaja a la ministra Maroto de la forma más absurda posible. ¿De qué localidad era el autor, según la noticia de Humpa?",
+      "cita": "Humpa: Se ha podido identificar al autor porque en el remitente había puesto sus datos verdaderos y no unos falsos, como se sospechaba.",
+      "opciones": [
+        "Móstoles",
+        "Galapagar",
+        "Torrelodones",
+        "El Escorial"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Vecino de El Escorial, con problemas mentales y obsesión confesa con la ministra, que se delató poniendo sus datos reales en el remitente. Humpa: «Qué país»."
+    },
+    {
+      "pregunta": "Joni simuló la videoconferencia de Germi como 'analista del Levante UD'. ¿Qué soltó Germi nada más compartir pantalla en la imaginación de Joni?",
+      "cita": "Joni: Moderador: 'Turno para Germán Lopez Barrera, analista del Levante UD' Empieza a compartir pantalla.",
+      "opciones": [
+        "'Veis ese estadio? Po jugué en su cantera. Por cierto, me fichan'",
+        "'Veis ese ayuntamiento? Po me caso allí. Por cierto, invito al cóctel'",
+        "'Veis ese hospital de ahí? Po estuve un mes encerrao. Por cierto, me voy a casar con Bea'",
+        "'Veis ese polideportivo? Po entrené allí. Por cierto, me voy al crossfit'"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "lore",
+      "explicacion": "El grupo calentaba la aparición de Germi; Jorge ya lo veía arrancando con «Y aquí vemos mi intervención en el Chiringuito...»."
+    },
+    {
+      "pregunta": "Minutos después de comparar la pandemia con la guerra de sus abuelos, Humpa lanzó al grupo una consulta técnica urgente. ¿Qué plataforma le fallaba?",
+      "cita": "Humpa: Oye, a vosotros os funciona Facebook??",
+      "opciones": [
+        "Facebook",
+        "La app del banco",
+        "WhatsApp",
+        "Netflix"
+      ],
+      "correcta": 0,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "«No arranca y luego me sale un mensaje diciendo que no responde». Veredicto final de mayor: «tampoco es un drama, casi que me hace un favor»."
+    },
+    {
+      "pregunta": "La mañana de las elecciones madrileñas, Joni envió su crónica de campo sobre la demografía más madrugadora. ¿Cuál era el plan post-votación de los viejos?",
+      "cita": "Joni: Me comentan que todos los viejos fachas están ya entrando en masa a votar bien temprano para luego ir a hacerse su carajillo y partida de mus",
+      "opciones": [
+        "Misa y cañas de tercio",
+        "Mercadona y siesta de campeones",
+        "Carajillo y partida de mus",
+        "Vermú y partida de domino"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Acto seguido lanzó la pregunta del día: «¿Galapagar cuenta como barrio obrero?»."
+    },
+    {
+      "pregunta": "Miki aportó al debate electoral un sondeo de boca de urna de máxima exclusividad. ¿Qué le confesó su conocido de Berska en Madrid?",
+      "cita": "Miki: El sábado cene con un gay que vive en madrid. Trabaja en berska y me dijo que iba a votarla de cabeza",
+      "opciones": [
+        "Que se abstendría por pura estética",
+        "Que iba a votarla de cabeza",
+        "Que votaba al PSOE por tradición familiar",
+        "Que iba a votar a Más Madrid"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Feme completó el perfil del encuestado: «que va de Che Guevara». Datos de campo de máxima calidad para la noche electoral."
+    },
+    {
+      "pregunta": "Jorge transcribió el sondeo de El País para las elecciones de Madrid con una nomenclatura que ya es patrimonio del grupo. ¿Qué partido sumaba 15?",
+      "cita": "Jorge: Sondeo de primera hora en El País para las elecciones de Madrid: PPGotita: 41 PSOERosa: 34 MMMazorca: 32 UPBerenjena: 15 VOXVerde: 8 Otros⚪: 8",
+      "opciones": [
+        "PSOERosa",
+        "UPBerenjena",
+        "VOXVerde",
+        "MMMazorca"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "PPGotita arrasaba con 41, pero la berenjena de Unidas Podemos se colgaba el 15. «Ojo», advirtió Jorge con la seriedad del caso."
+    },
+    {
+      "pregunta": "El deseo de Joni para Pablo Echenique fue tan detallado que tuvo una consecuencia física inmediata en Humpa. ¿Qué anunció al grupo?",
+      "cita": "Joni: El puto paralítico asqueroso. Ojalá lo secuestren, le quiten los frenos y le tiren rampa abajo en un skatepark",
+      "opciones": [
+        "HE DESPERTADO AL PERRO DEL VECINO",
+        "HE DESPERTADO A LA FINCA",
+        "HE DESPERTADO A LOS VECINOS",
+        "HE DESPERTADO A MEDIA URBANIZACIÓN"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "polemica",
+      "explicacion": "«Ese sí que es el más miserable de todos», remató Joni, mientras Hugo lo calificaba de «reougnante» y la risa sacudía la finca entera."
+    }
+  ]
+}
