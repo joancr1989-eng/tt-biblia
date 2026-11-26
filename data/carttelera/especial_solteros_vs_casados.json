@@ -1,0 +1,1140 @@
+{
+  "titulo_historia": "Solteros vs Casados: La Guerra Civil del Fútbol",
+  "bandos": {
+    "casados": [
+      "Miki (Capitán)",
+      "Humpa (Co-capitán)",
+      "Héctor"
+    ],
+    "solteros": [
+      "Germi",
+      "Joni",
+      "Marzal",
+      "Jorge",
+      "Feme"
+    ]
+  },
+  "total_preguntas": 80,
+  "preguntas": [
+    {
+      "pregunta": "Julio de 2012, los orígenes de la guerra: tras el 'Pobre feme' de Miki, ¿quién sentenció que 'No todo en la vida es tener novia'?",
+      "cita": "Jorge: No todo en la vida es tener novia.",
+      "opciones": [
+        "Germi",
+        "Joni",
+        "Jorge",
+        "Marzal"
+      ],
+      "correcta": 2,
+      "anio": 2012,
+      "categoria": "opinion",
+      "explicacion": "El bando soltero abría fuego filosófico: Jorge se burlaba del 'Pobre feme' de Miki insinuando que al casado le quedaba poco que envidiar. La paz duró poco."
+    },
+    {
+      "pregunta": "Organización de la paella con los solteros ya confirmados: ¿qué condición puso Jorge antes de calcular el arroz?",
+      "cita": "Jorge: Ahora falta que los casados aclareis si vienen o no vuestras respectivas",
+      "opciones": [
+        "Si los casados venían con sus respectivas",
+        "A qué hora empezaba la verbena",
+        "Quién sabía hacer la paella",
+        "Cuántos militares llevarían uniforme"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "'No es lo mismo una paella para 8/9 que para 14/15', razonó Jorge: las respectivas de los casados contaban y mucho en el cálculo arrocero. Primer censo oficial de la guerra."
+    },
+    {
+      "pregunta": "Tras el debate paellero, Feme dejó sus 'conclusiones antes de dormir': ¿a qué país amenazó con fugarse si en una guerra le tocaba defender a Marc and friends?",
+      "cita": "Feme: Si en una guerra me tienen l defender marc and friends... Mejor m voy a jamaica",
+      "opciones": [
+        "Islandia",
+        "Jamaica",
+        "Australia",
+        "Canadá"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Feme, tocado tras el juicio sobre la paella, prefería un exilio caribeño a compartir trinchera con Marc and friends. La confianza en el colectivo ya era cero."
+    },
+    {
+      "pregunta": "El 2 de agosto estalló el escándalo de los topos. ¿Qué denunció Feme con un contundente 'K lamentable!!!'?",
+      "cita": "Feme: O sea k se pasa informacion a las novias?? K lamentable!!!",
+      "opciones": [
+        "Que se pasaba información a las novias",
+        "Que Marzal filtraba las jugadas al rival",
+        "Que se vendían las alineaciones al Summum",
+        "Que el polígrafo del grupo estaba roto"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "Alguien del bando casado estaba pasando información del grupo a las novias: el primer caso oficial de topos en la guerra civil del Triangulito Team."
+    },
+    {
+      "pregunta": "Con el escándalo de los topos sobre la mesa, Jorge propuso lo inevitable: partidos de solteros vs casados. ¿Quién quedó designado capitán del bando casado?",
+      "cita": "Jorge: Miki como capitan de los casados. Con Hugo Marc Humberto y Hector",
+      "opciones": [
+        "Humberto",
+        "Hugo",
+        "Miki",
+        "Héctor"
+      ],
+      "correcta": 2,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "Jorge trazó el mapa de bandos en plena investigación: Miki capitán, escoltado por Hugo, Marc, Humberto y Héctor. La guerra civil ya tenía rosters oficiales."
+    },
+    {
+      "pregunta": "Feme exigió someter a la gente al polígrafo. ¿Cuál fue su primera conclusión como investigador del caso?",
+      "cita": "Feme: Xa empezar los solteros kedams descartados",
+      "opciones": [
+        "Que la novia de Hugo sabía demasiado",
+        "Que los casados eran inocentes",
+        "Que los solteros quedaban descartados",
+        "Que Hugo era el topo principal"
+      ],
+      "correcta": 2,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "Lógica Feme: si la información llegó a las novias, los solteros —sin dueña a la que filtrar— quedaban descartados de entrada. La investigación arrancaba con sesgo, como toda buena guerra civil."
+    },
+    {
+      "pregunta": "La víspera de la final, Joni soltó su particular rueda de prensa. ¿Qué reprochó exactamente a Miki?",
+      "cita": "Joni: Miki menos susurros a marta al oido anoche por delante de cancun 3 camino al botellon y mas estar a lo que hay que estar",
+      "opciones": [
+        "Susurrar a Marta al oído camino del botellón",
+        "Entrenar con la respectiva en el campo",
+        "Llegar tarde al calentamiento",
+        "Firmar autógrafos en el Summum"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "Joni, estilo Mourinho, destapó los susurros de Miki a Marta delante de Cancun 3: el capitán casado estaba más pendiente de la novia que de la final. El EPICFAIL quedó documentado."
+    },
+    {
+      "pregunta": "En los Juegos Olímpicos, Feme constató que 'casi todas las medallas las han ganado tías'. ¿Qué perla soltó a continuación?",
+      "cita": "Feme: Soy espaÑol, a k kieres k te gane mi novia?",
+      "opciones": [
+        "'Confiamos en la medalla de Marzal'",
+        "'Made in mercadillo total'",
+        "'Vivan las perras valencianas'",
+        "'Soy español, ¿a qué quieres que te gane mi novia?'"
+      ],
+      "correcta": 3,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Feme versionó el clásico 'Soy español, ¿a qué quieres que te gane?' a su manera. El grupo respondió con el 'Ahí ahi' de rigor y encomendó la siguiente medalla a Marzal."
+    },
+    {
+      "pregunta": "En la criba de capitanes del Triangulito Team 2013, ¿quién fue 'descartado completamente' y con qué motivo?",
+      "cita": "Feme: German descartado completamente... No sabems kon k humor puede venir al partido",
+      "opciones": [
+        "Vincent, por la caximba",
+        "Hugo, por estar casado",
+        "Germi, por su humor impredecible",
+        "Marzal, por motivos laborales"
+      ],
+      "correcta": 2,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "La criba de Feme era implacable: Germi fuera porque no se sabía con qué humor podía presentarse al partido. 'Querems estabilidad', sentenció el director del casting."
+    },
+    {
+      "pregunta": "¿Cómo definió Joni su entendimiento defensivo con Humberto de cara al equipo 2013?",
+      "cita": "Joni: yo con humber atras me entiendo,el casado manda ordenes y el fumado las ejecuta #compenetracion",
+      "opciones": [
+        "'El tanque frena y el DJ acompaña'",
+        "'El casado manda órdenes y el fumado las ejecuta'",
+        "'El militar dirige y el soltero obedece'",
+        "'El cacique observa y el criado participa'"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Joni selló la primera alianza interbando con hashtag incluido: #compenetracion. Un casado de mando y un fumado de ejecución, la sociedad perfecta según el lateral."
+    },
+    {
+      "pregunta": "Jorge repartió cargos en la estructura del bando casado. ¿Qué puesto oficial recayó en Humberto?",
+      "cita": "Jorge: Humber...eres co-capitan de los casados",
+      "opciones": [
+        "Topo jefe de información",
+        "Co-capitán de los casados",
+        "Capitán absoluto del bando casado",
+        "Delegado de novias y respectivas"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "Humberto ascendió a co-capitán en plena guerra. Feme protestó por vía diplomática al instante: 'Encima no celebra la despedida de soltero eh jorge?'"
+    },
+    {
+      "pregunta": "Ante la falta de solteros útiles, ¿qué medida drástica propuso Joni con la lista de Sandra, Marta, Alba, Ana y la novia de Hugo?",
+      "cita": "Joni: Al final haremos ficha a sandra marta alba ana y la novia de hugo,veras tu que risa",
+      "opciones": [
+        "Someterlas al polígrafo grupal",
+        "Prohibirles la entrada al estadio",
+        "Nombrarlas patrocinadoras del Summum",
+        "Ficharlas para el equipo"
+      ],
+      "correcta": 3,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "El mercado de fichajes llegaba a las respectivas. Jorge celebró con un 'Party time!' irónico antes de sentenciar 'Si si, lamentable!', y Feme admitió que 'x lo menos alguna pondria mas huevos'."
+    },
+    {
+      "pregunta": "La madrugada del 23 de agosto nació el gran pacto soltero. ¿Qué exigieron a cambio de tolerar la 'disponibilidad' de los casados?",
+      "cita": "Feme: Creo k si su disponibilidad depende de sus dueñas... X lo menos estas deberian traer amigas solteras a los partidos o a las cenas",
+      "opciones": [
+        "Que las novias trajeran amigas solteras a partidos y cenas",
+        "Que las novias liberaran a los casados los domingos",
+        "Que las novias pagaran el alquiler del campo",
+        "Que las novias cocinaran la próxima paella"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "El tratado oficial de la guerra: si la disponibilidad de los casados dependía de sus dueñas, las dueñas debían aportar amigas solteras. 'X solteras kiero decir warrillas', precisó Feme en la letra pequeña."
+    },
+    {
+      "pregunta": "Cuando Feme aclaró que por 'solteras' quería decir 'warrillas', ¿cómo lo tradujo Jorge para el resto del grupo?",
+      "cita": "Jorge: Y x warrillas quieres decir cachondas perdidas que con 2 cubatas quieran comer rabo",
+      "opciones": [
+        "'Cachondas perdidas que con 2 cubatas quieran comer rabo'",
+        "'Patrocinadoras oficiales del Summum'",
+        "'Amigas de la novia de Hugo con ganas de paella'",
+        "'Chicas de FiegraPlatos con dos neuronas'"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "'Aqui todos te hemos entendido', zanjó Jorge. El pacto de amigas solteras ya tenía definición técnica oficial, sin eufemismos ni letra pequeña."
+    },
+    {
+      "pregunta": "En la madrugada del 23 de agosto de 2012, Joni bautizó al núcleo duro del bando soltero formado por Jorge, Joni, Orengo, Marzal y Feme. ¿Cuál fue el nombre oficial?",
+      "cita": "Feme: Weno lo k esta claro kien son los unicos k se preocupan... Es lo k tiene la libertad",
+      "opciones": [
+        "Quinteto libre de cargas",
+        "El ghetto poderoso",
+        "Los Beatles del Infierno",
+        "La Satánica Trinidad"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "El núcleo duro de la libertad se bautizó en plena madrugada; la Satánica Trinidad y los Beatles del Infierno fueron evoluciones posteriores del mismo fenómeno."
+    },
+    {
+      "pregunta": "Feme propuso una cena para redactar el régimen del club y Jorge dio el visto bueno con una condición de escenario. ¿Dónde exigió discutirlo 'a ser posible'?",
+      "cita": "Jorge: Hombre lo de la cenita es obligatorio.",
+      "opciones": [
+        "En un botellón",
+        "En el Coco Loco",
+        "En una terraza de la playa de Piles",
+        "En la caseta de Germi"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "Joni completó la propuesta con la condición ideal: discutirlo 'con las novias delante jajajaajja'. Democracia participativa total."
+    },
+    {
+      "pregunta": "Cuando Joni proclamó que en la guerra de los novios 'hay dos claros bandos', ¿quiénes eran 'los malos' para él?",
+      "cita": "Joni: Hay dos claros bandos..y esta claro quienes son los malos jajajajaja",
+      "opciones": [
+        "Los que no pagaban las fichas",
+        "Los casados",
+        "Los que llegaban tarde a los partidos",
+        "Los solteros"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "Para el bando de la libertad, los portadores de alianza eran el mal absoluto. Dos semanas después, la bronca de septiembre les daría munición a ambos lados."
+    },
+    {
+      "pregunta": "Feme anunció que sin Marzal eran 'la Satánica Trinidad'. ¿En qué se convertirían con su llegada?",
+      "cita": "Feme: Xo ahora somos la Satanica Trinidad",
+      "opciones": [
+        "Los Beatles del Infierno",
+        "La Legión Negra de Gandia",
+        "Los Bee Gees del Averno",
+        "Los Rolling del Purgatorio"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Con Marzal completarían el cuarteto perfecto del mal; Joni ya había pedido su presencia 'para ser un ghetto poderoso'."
+    },
+    {
+      "pregunta": "Jorge ofreció 'una semana sin críticas' al primer casado que se manifestara en el chat. ¿Quién se llevó la amnistía?",
+      "cita": "Jorge: El primer casado que se manifieste tendra una semana sin criticas...",
+      "opciones": [
+        "Héctor",
+        "Miki",
+        "JM18",
+        "Humberto"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Miki se coló con un '¿Os ha molado la palabra hype, e?' y de paso confesó su adicción a los bolos. Jorge cantó el 'Tintintintintin' de ganador."
+    },
+    {
+      "pregunta": "Miki anunció que no podía ver el partido con el grupo porque estaba de despedida de soltero. ¿En qué consistía el plan?",
+      "cita": "Feme: I no nos invita a la despedida. K mierda",
+      "opciones": [
+        "Rafting, barranquismo y alcohol por 100€",
+        "Paintball, karting y cena por 50€",
+        "Bolos, billar y cubatas por 30€",
+        "Playa, paella y fiesta por 80€"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Con Héctor de padrino, en un pueblo de Albacete a hora y media. Feme se enteró por el chat y soltó su 'K mierda' de dolor."
+    },
+    {
+      "pregunta": "Tras perderse el Atlético 4-0 con hat-trick de Falcao por culpa de su novia, ¿qué sentenció Héctor a los solteros?",
+      "cita": "Joni: jajajajajajaja yo soltero cule y gozando de tu atleti",
+      "opciones": [
+        "Cuando tengáis novia sabréis lo q es perderse partidos así",
+        "Hay bromas y bromas",
+        "La novia que maree, excluida",
+        "Yo hablo como me sale de los cojones"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "Héctor había exigido 'Foto marcador. Ya' desde su exilio conyugal; Joni celebró su estatus de soltero culé gozando del Atleti ajeno."
+    },
+    {
+      "pregunta": "Cuando Jorge le reprochó a Miki que era 'el que menos puede hablar' de llevar las cosas, ¿qué respondió el capitán casado?",
+      "cita": "Jorge: Miki tio, no hables de como llevar las cosas. Eres el que menos puede hablar",
+      "opciones": [
+        "Lo de solteros/casados cansa bastante",
+        "Si no sabes leer no es mi problema",
+        "Me tiro del barco, ¿qué cojones?",
+        "Jorge para empezar yo hablo como me sale de los cojones"
+      ],
+      "correcta": 3,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "La frase que da nombre a una era. Miki remató: 'Que no creo que haya dicho ninguna barbaridad', convencido de su coherencia absoluta."
+    },
+    {
+      "pregunta": "¿Quién vaticinó en plena bronca que 'por gilipolladas' el grupo iba 'a acabar mal' y que 'lo de solteros/casados cansa bastante'?",
+      "cita": "Héctor: Hay bromas y bromas",
+      "opciones": [
+        "Miki",
+        "Germi",
+        "Humberto",
+        "Joni"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "opinion",
+      "explicacion": "El capitán casado pidió madurez ('Joder ya somos mayores') mientras Héctor zanjaba con su 'Hay bromas y bromas' de juez supremo."
+    },
+    {
+      "pregunta": "Zanjada la bronca con perdones y un 'se dice y se habla', ¿con qué pregunta práctica cerró Jorge la tregua?",
+      "cita": "Joni: Claro,se dice y se habla",
+      "opciones": [
+        "¿Se apunta Humberto o sigue en sus trece?",
+        "¿Habéis reservado?",
+        "¿Quién lleva las cervezas?",
+        "¿Vamos al Summum a celebrarlo?"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "'Yo estare en el bar en cuanto llegue', avisó Jorge. La guerra civil se pausó por protocolo de cañas."
+    },
+    {
+      "pregunta": "Héctor lanzó el aviso oficial para ir a AFES a rellenar las fichas. ¿Cuántas fotos de carnet había que llevar?",
+      "cita": "Héctor: Ponerse de acuerdo para ver q tarde de esta semana vamos a afes a rellenar las fichas. Importante ImportanteImportanteImportanteImportanteImportante",
+      "opciones": [
+        "2",
+        "4",
+        "6",
+        "1"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "Seis 'Importante' seguidos para subrayar la urgencia federativa; la burocracia que luego inspiraría fichas paródicas del club."
+    },
+    {
+      "pregunta": "Con la burocracia federativa en boca de todos, ¿a quiénes propuso Joni hacerles la ficha 'en plan risa' con fotos pilladas de internet?",
+      "cita": "Joni: Recuerdo que aun estamos a punto de no hacerle ficha..",
+      "opciones": [
+        "A Humberto y Héctor",
+        "A Germi y Marzal",
+        "A Guille y Hugo",
+        "A Tormento y Orengo"
+      ],
+      "correcta": 3,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "'Pillamos 4 fotos de internet de cada uno y au', propuso Joni en plena madrugada. La federación TT en estado puro."
+    },
+    {
+      "pregunta": "Joni celebró por el chat que 'sois todos zacaristas'. ¿Cuál era el equipo oficial del movimiento?",
+      "cita": "Joni: Jajajajaj me gusta ver q sois todos zacaristas",
+      "opciones": [
+        "El Montepaschi",
+        "El Alba Berlín",
+        "El Unicaja",
+        "El Siena"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "lore",
+      "explicacion": "Con Vule Avdalovic, Miralles y Zach como ídolos; Joni soñaba con el pabellón berlinés de 10.000 espectadores, 'como el de Gandia'."
+    },
+    {
+      "pregunta": "Miki presumió de estudiar inglés 'todos los días' e incluso los sábados. ¿Qué le replicó Feme sobre su verdadera asignatura?",
+      "cita": "Feme: Las ingles de marta estas estudiando tu",
+      "opciones": [
+        "Que estudiaba las ingles de Marta",
+        "Que estudiaba inglés de negocios",
+        "Que estudiaba turismo como Marzal",
+        "Que estudiaba catalán con Marta"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Miki también alegó hacer turismo, pero Feme aclaró que eso era cosa de Marzal: la verdadera asignatura del capitán casado eran las ingles de su novia."
+    },
+    {
+      "pregunta": "En pleno partido de Stepanek, Hugo soltó una de las frases más brutales del archivo. Según él, de una puta y un gitano nació...",
+      "cita": "Hugo: De una puta y un gitano nacio un murciano!!",
+      "opciones": [
+        "Un catalán",
+        "Un madrileño",
+        "Un murciano",
+        "Un bilbaíno"
+      ],
+      "correcta": 2,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Descripción histórica del tenista checo, que según Hugo llevaba años saliendo con 'xotillas' como Ana Ivanovic. Miki le respondió con la ráfaga de jajajas más larga del archivo."
+    },
+    {
+      "pregunta": "Al estallar el escándalo de los tres que fueron a por las camisetas, ¿qué palabra histórica gritó Feme en el chat?",
+      "cita": "Feme: GUERRA!!!!!!!",
+      "opciones": [
+        "GUERRA!!!!!!!",
+        "TRAICIÓN!!!!!!!",
+        "MOTÍN!!!!!!!!!",
+        "JUICIO FINAL!!!!"
+      ],
+      "correcta": 0,
+      "anio": 2012,
+      "categoria": "polemica",
+      "explicacion": "Jorge señaló al 'cacique y el topo' como culpables del silencio informativo y Feme elevó el caso camisetas a conflicto armado abierto."
+    },
+    {
+      "pregunta": "¿Qué petición dejó Germi por escrito en el chat sabiendo que Humberto lo leería?",
+      "cita": "Germi: Humberto si lees esto, quiero escenas fogosas con sandra para que mañana salgas en deportes cuatro",
+      "opciones": [
+        "Una entrevista sobre el Casados F.C.",
+        "Escenas fogosas con Sandra para salir en Deportes Cuatro",
+        "Un saludo institucional en Deportes Cuatro",
+        "Que Sandra fichara como presentadora"
+      ],
+      "correcta": 1,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "El mismo día que excluía a Marzal y sentenciaba '0 minutos para JM18', Germi pedía a los casados su gala televisiva con Sandra de coprotagonista."
+    },
+    {
+      "pregunta": "Miki compartió un vídeo 'solo sonido' de una noche de grupo. ¿Con qué animal comparó los ronquidos de Héctor?",
+      "cita": "Miki: Adjunto video de Héctor roncando como un Puerco espin( solo sonido)",
+      "opciones": [
+        "Un oso hormiguero",
+        "Un cerdo con asma",
+        "Una moto de GP",
+        "Un puerco espín"
+      ],
+      "correcta": 3,
+      "anio": 2012,
+      "categoria": "momentazo",
+      "explicacion": "Los ronquidos eran tan brutales que Alba tuvo que despertarle. Héctor, procesado en ausencia, se defendió: 'Tengo escusa. La cama'."
+    },
+    {
+      "pregunta": "En el debate sobre el poder de las MILF, ¿qué presentadora estaba vetada en la conversación porque a Miki 'se pone malo'?",
+      "cita": "Jorge: No saques el tema Griso...que Miki se pone malo",
+      "opciones": [
+        "Sofía Vergara",
+        "Mónica Naranjo",
+        "Susana Griso",
+        "Carolina Ferre"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme proclamó 'las milf están al poder' con su lista de cinco, pero el punto débil del capitán casado tenía desk en Antena 3."
+    },
+    {
+      "pregunta": "¿Qué estadística histórica invocó Jorge sobre las visitas de Feme a casa de Germi para ver al Barça?",
+      "cita": "Jorge: Recordemos que Feme vino la unica vez que el FCB ha palmado en casa Germi",
+      "opciones": [
+        "Que siempre se llevó las papas",
+        "Que se fue en el minuto 20",
+        "Que nunca ha pisado la casa",
+        "Que solo vino la única vez que el FCB palmó allí"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme, que ese finde pasaba de todo lo que tuviera que ver con el fútbol, quedó inscrito en el lore como el amuleto del revés culé en territorio Germi."
+    },
+    {
+      "pregunta": "Tras la noche loca del grupo, ¿qué título mundial le concedió Jorge a Héctor?",
+      "cita": "Jorge: El tio con mas porno wn el movil del mundo",
+      "opciones": [
+        "El tío con más novias checas del mundo",
+        "El tío que más ronca del mundo",
+        "El tío con más gafazos del mundo",
+        "El tío con más porno en el móvil del mundo"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "momentazo",
+      "explicacion": "El hermano de Sandra se fue de la noche creyendo que Pau era gay y, según Jorge, todo fue 'por culpa de Héctor' y su archivo móvil sin rival."
+    },
+    {
+      "pregunta": "¿Qué rumor de mercado desesperaba a Jorge horas antes de la cena de kebab?",
+      "cita": "Jorge: Ojala no sean ciertos los rumores que hablan de un fichaje de Marzal por el Casados F.C.",
+      "opciones": [
+        "Un fichaje de Feme por el Madrid",
+        "Un fichaje de Marzal por el Casados F.C.",
+        "La retirada de Hugo del TT",
+        "La marcha de Joni del grupo"
+      ],
+      "correcta": 1,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Guerra de fichajes en estado puro: Joni cotizaba a 2.4 y bajando la opción de que Marzal dijera 'quillo' en lugar de 'chein' en dos meses."
+    },
+    {
+      "pregunta": "¿Qué título invocó Feme cuando Jorge cargó contra Miki en enero de 2014?",
+      "cita": "Feme: Atacando al fundador del TT",
+      "opciones": [
+        "El mejor capitán de la historia",
+        "El capitán de los casados",
+        "El presidente honorífico",
+        "El fundador del TT"
+      ],
+      "correcta": 3,
+      "anio": 2014,
+      "categoria": "lore",
+      "explicacion": "Entre el 'rezagamiento' de Miki en la San Silvestre y su % de cenas de los viernes comparado con el TL de Wilborn, Feme pidió respeto por la casa."
+    },
+    {
+      "pregunta": "Con el Valencia-Barça en marcha, ¿qué pronóstico previo de Miki recordó Jorge para frotárselo por la cara?",
+      "cita": "Jorge: Miguel ha dicho quegana el Barcelona fijo",
+      "opciones": [
+        "Que ganaba el Barcelona fijo",
+        "Que el partido sería un paseo",
+        "Que Messi marcaba hat-trick seguro",
+        "Que el Valencia era un equipo fácil"
+      ],
+      "correcta": 0,
+      "anio": 2014,
+      "categoria": "polemica",
+      "explicacion": "Con la 'mano de Masche dentro del área' y los culés suplicando el final, Jorge remató: 'El que hoy decía que el Valencia se la sudaba'."
+    },
+    {
+      "pregunta": "¿Cómo proponía Joni cobrar los 15€ de la sanción de Orengo?",
+      "cita": "Joni: Ojalá cobrar los 15€ de sanción de Orengo con una múltiple felacion de la sra MILF a los integrantes del TT",
+      "opciones": [
+        "Con una múltiple felación de la sra. MILF a los integrantes del TT",
+        "Con un cheque firmado por la sra. MILF",
+        "Con una cena de la sra. MILF para el grupo",
+        "Con un año de kebabs pagados por Orengo"
+      ],
+      "correcta": 0,
+      "anio": 2014,
+      "categoria": "momentazo",
+      "explicacion": "En plena era 'Power milf', con JM18 encargado de ordenar a Mónica Naranjo, Marta Sánchez y la mamá Orengo, Joni confirmó que 'aquí no hay censura'."
+    },
+    {
+      "pregunta": "Tras el registro policial a Jorge (bolsillos, guantera y maletero), ¿qué habrían encontrado en el maletero de Humberto según Feme?",
+      "cita": "Feme: A hubertus le hubiesen pillado a marta del castillo en el maletero",
+      "opciones": [
+        "Un kebab del de Jardi sin recoger",
+        "A Marta del Castillo",
+        "Las camisetas del TT desaparecidas",
+        "El vídeo de los ronquidos de Héctor"
+      ],
+      "correcta": 1,
+      "anio": 2014,
+      "categoria": "momentazo",
+      "explicacion": "Feme agradeció que el registro le tocara a Jorge: si hubiera sido 'Hubertus', la policía se habría topado con Marta del Castillo en el maletero."
+    },
+    {
+      "pregunta": "¿Qué estaba viendo Miki en lugar del triunfo del TT contra 'los pueblerinos' aquella noche de marzo de 2014?",
+      "cita": "Joni: Echadlo del grupo hasta las 11 y a tomar por culo",
+      "opciones": [
+        "El derbi de Mestalla",
+        "La final de la Champions",
+        "El clásico del Mandril (Real Madrid)",
+        "El Masters 1000 de Miami"
+      ],
+      "correcta": 2,
+      "anio": 2014,
+      "categoria": "polemica",
+      "explicacion": "El capitán de los Casados eligió el clásico del Mandril antes que la victoria del TT. Joni no perdonó la deserción del jefe de filas casado."
+    },
+    {
+      "pregunta": "¿Qué castigo propuso Joni para el capitán Miki tras desertar del TT por el Mandril?",
+      "cita": "Jorge: Miguel se ha perdido una victoria vs los pueblerinos x ver el Mandril",
+      "opciones": [
+        "Multarle con los refrescos del próximo partido",
+        "Retirarle la capitanía de por vida",
+        "Obligarle a ver el resumen del TT",
+        "Echarlo del grupo hasta las 11"
+      ],
+      "correcta": 3,
+      "anio": 2014,
+      "categoria": "polemica",
+      "explicacion": "Miki se defendía desde el sofá ('No me la he perdido la estoy viendo!') pero Joni ya había firmado la sentencia. La disciplina de bandos era implacable, incluso con capitanes."
+    },
+    {
+      "pregunta": "¿Qué confesión de Miki provocó el estupor de Feme con su '¿Vas a currar y no te pones???'?",
+      "cita": "Feme: Vas a currar i no te pones???",
+      "opciones": [
+        "Que usaba colonia de su padre",
+        "Que llevaba tres días sin ducharse",
+        "Que iba en chándal a trabajar",
+        "Que se olvidaba de ponerse desodorante por las mañanas"
+      ],
+      "correcta": 3,
+      "anio": 2014,
+      "categoria": "momentazo",
+      "explicacion": "Miki reconoció que no ponerse desodorante 'empieza a penalizarse demasiado' y que simplemente se le olvida. Germi se limitó a soltar un 'LOL' ante semejante confesión del capitán casado."
+    },
+    {
+      "pregunta": "¿Qué jugador del once de España para el Mundial 2014 fue declarado 'topo' oficial por Jorge, con orden de recordarlo siempre?",
+      "cita": "Jorge: Hay que ir recordandolo siempre aunque no tenga nada que ver",
+      "opciones": [
+        "Iker Casillas",
+        "Fernando Torres",
+        "Xabi Alonso",
+        "Sergio Ramos"
+      ],
+      "correcta": 0,
+      "anio": 2014,
+      "categoria": "polemica",
+      "explicacion": "Jorge decretó que 'Casillas es un topo' y que había que recordarlo 'siempre aunque no tenga nada que ver'. En plena caza de topos del TT, ni el capitán de la Selección se libraba de la lista de sospechosos."
+    },
+    {
+      "pregunta": "¿Qué plan desesperado propuso Miki para que la boda de Moya no coincidiera con los cuartos del Mundial 2014?",
+      "cita": "Feme: O hacemos un sacrificio humano en la proxima torra",
+      "opciones": [
+        "Verlo en la tele del restaurante de la boda",
+        "Pedirle a Del Bosque que adelantara el partido",
+        "Secuestrar a la novia de Moya",
+        "Suspender el Mundial con una carta al rey"
+      ],
+      "correcta": 2,
+      "anio": 2014,
+      "categoria": "momentazo",
+      "explicacion": "Miki lanzó lo de 'secuestra a la novia de Moya o algo', Feme escaló con un sacrificio humano en la próxima torre y Joni sugirió 'hacer la de Fran Perea' para que no hubiera boda. El conflicto boda-fútbol sacó lo peor del TT."
+    },
+    {
+      "pregunta": "¿Quiénes eran los presuntos objetivos del secuestro que Humberto planeaba para el 12 de julio de 2014?",
+      "cita": "Joni: Habría que ir con una botella Gasolina y quemarlo a lo bonzo con su camisa rosa",
+      "opciones": [
+        "A Miki y Héctor",
+        "A Hugo y Aitor",
+        "A Feme o Marzal",
+        "A Germi y Joni"
+      ],
+      "correcta": 2,
+      "anio": 2014,
+      "categoria": "polemica",
+      "explicacion": "Jorge documentó el sereno 'Ok ok' de Humberto mientras planeaba el secuestro de Feme o Marzal el día 12. Joni ya tenía el plan B: botella de gasolina y quemarlo a lo bonzo con su camisa rosa."
+    },
+    {
+      "pregunta": "¿Qué ceremonial inventó Jorge para el día 12 de julio de 2014?",
+      "cita": "Feme: Es posible k trabaje todo el dia",
+      "opciones": [
+        "Un partido homenaje en su honor",
+        "Una placa conmemorativa del TT",
+        "Un acto de proclamación trucho como próximo heredero de la corona",
+        "Una cena de reconciliación en el Summum"
+      ],
+      "correcta": 2,
+      "anio": 2014,
+      "categoria": "lore",
+      "explicacion": "Con Feme posiblemente trabajando todo el día, Jorge ideó el plan perfecto: un acto de proclamación trucho elevando a Humberto a 'próximo heredero de la corona... ¡como príncipe de Asturias, joder!'. El co-capitán casado, tratado como realeza."
+    },
+    {
+      "pregunta": "Según el rumor lanzado por Feme, ¿qué puesto ocuparía Marzal en la cabalgata del orgullo gay de Gandia patrocinada por Maruja?",
+      "cita": "Feme: Se rumorea k maruja sera uno de los patrocinadores de la cabalgata del orgullo gay en gandia",
+      "opciones": [
+        "Juez del certamen",
+        "Abanderado de la cabalgata",
+        "DJ oficial del evento",
+        "Camarero principal"
+      ],
+      "correcta": 3,
+      "anio": 2014,
+      "categoria": "momentazo",
+      "explicacion": "Feme filtró el rumor del siglo: Maruja patrocinando el orgullo y Marzal de 'camarero principal'. Él mismo admitió que su presencia 'se complica' porque posiblemente trabajaría todo el día."
+    },
+    {
+      "pregunta": "¿Qué 'regalo' dejó Héctor en el grupo con la coletilla 'Para los que ayer no estaban en el mundo, de nada'?",
+      "cita": "Miki: A mi me hacéis un favor así voy",
+      "opciones": [
+        "Una lista de 22 álbumes imgur de actrices y famosas",
+        "El vídeo completo del Mundial",
+        "Un dossier táctico para el TT",
+        "Las entradas para el TTClaustro"
+      ],
+      "correcta": 0,
+      "anio": 2014,
+      "categoria": "momentazo",
+      "explicacion": "Héctor soltó 22 álbumes imgur, de Alison Brie a Yvonne Strahovski pasando por Jennifer Lawrence y Kate Upton. Miki lo agradeció con un 'A mi me hacéis un favor así voy'. El co-capitán casado, proveedor oficial del grupo."
+    },
+    {
+      "pregunta": "En la bronca por Del Bosque de septiembre de 2014, ¿a quién se refería Joni con 'el topor'?",
+      "cita": "Jorge: Entiendo que teniendo la polla de Don Vicente en la boca os cueste pronunciarlo",
+      "opciones": [
+        "Juan Mata",
+        "Diego Costa",
+        "Iker Casillas",
+        "Fernando Torres"
+      ],
+      "correcta": 3,
+      "anio": 2014,
+      "categoria": "polemica",
+      "explicacion": "'El topor' era la fusión de Torres y topo: al jugador se le podía parir, pero el que lo ponía era intocable. Jorge defendía a Don Vicente con el rabo restregadito 'como el tomate por el pan', y Miki se declaraba de 'don bigotón' señalando a Marcial (Marzal) como único hater verdadero."
+    },
+    {
+      "pregunta": "¿Qué favor de 'menos de 30 segundos' pidió Héctor al grupo en septiembre de 2014?",
+      "cita": "Héctor: Es rápido y sencillo",
+      "opciones": [
+        "Elegir el escudo nuevo del TT",
+        "Votar a MIOT, el proyecto de Alba, semifinalista del Womenalia StartUp Day",
+        "Votar el once ideal del TT",
+        "Firmar la petición para salvar Maruja"
+      ],
+      "correcta": 1,
+      "anio": 2014,
+      "categoria": "lore",
+      "explicacion": "Héctor pegó el mensaje entero de Alba: MIOT necesitaba votos para el Womenalia StartUp Day. Joni respondió 'Hecho', Miki 'Hexho' y hasta Hugo votó desde la distancia. Causa oficial del grupo."
+    },
+    {
+      "pregunta": "¿Por qué no salió Marta en la tele junto a Miki en la polémica de la sanción del Madrid, según Joni?",
+      "cita": "Feme: Jo paso de verlo... Traidor",
+      "opciones": [
+        "Porque ella rechazó salir en cámara",
+        "Porque estaba de viaje",
+        "Porque no metió suficiente carnaza al asunto",
+        "Porque Antena 3 la tenía vetada"
+      ],
+      "correcta": 2,
+      "anio": 2014,
+      "categoria": "polemica",
+      "explicacion": "Miki salió en Antena 3 y la Sexta ('joder con atresmedia, eso es vicio'), pero a Marta no la sacaron por falta de carnaza. Feme pasó de verlo y lo tachó de 'Traidor'; Germi recordó sus años de Mestalla sin cámara."
+    },
+    {
+      "pregunta": "En la taxonomía de roba novias de Miki de 2015, ¿qué perfil era peor que un simple roba novias?",
+      "cita": "Miki: A quien le levantó la novia Carles a Carles mari o a Pau?",
+      "opciones": [
+        "Un roba novias que la presenta a su madre",
+        "Un roba novias para follar y devolvértela sucia",
+        "Un roba novias que se casa con ella",
+        "Un roba novias que se la lleva a su pueblo"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "categoria": "opinion",
+      "explicacion": "Miki, máxima autoridad casada en asuntos de novias, definió el peor perfil: 'Un roba novias para follaesera y devolvértela sucia'. La conversación terminó trazando la cadena de robos: Carles Mari le quitó la novia a Pau, y Carles Castella a Mari."
+    },
+    {
+      "pregunta": "Tras el lío de Miki con la cadena de roba novias, ¿cómo cerró Jorge el episodio?",
+      "cita": "Jorge: El hateo os vuelve locos... La falta de costumbre",
+      "opciones": [
+        "Proclamando 2015 como 'el año del perdón'",
+        "Declarando la guerra total a los Casados",
+        "Convocando una cena de paz en el Summum",
+        "Exigiendo una disculpa pública en el grupo"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "categoria": "lore",
+      "explicacion": "Jorge sentenció: 'Miguel, no das una... pero os perdono hermanos'. Y proclamó 2015 como el año del perdón. Tregua oficial entre bandos, aunque todos sabían que duraría hasta el próximo hateo."
+    },
+    {
+      "pregunta": "¿Qué institución del bando soltero fue declarada oficialmente 'tocada y hundida' en junio de 2015?",
+      "cita": "Joni: Las ceniTTas como marta del castillo, tocadas y hundidas. DEP",
+      "opciones": [
+        "El liberovision",
+        "La típica pregunta de ceniTTa",
+        "La borromea con atún",
+        "El tuteo post-partido"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "Germi abrió el velatorio ('ya ni se hace la tipica pregunta de ceniTTa') y Joni cantó el responso. La guerra de desgaste de los Casados cobraba su mayor baja institucional."
+    },
+    {
+      "pregunta": "¿Qué condición puso Feme a Hugo de cara a la cena del Edén, recuperando el viejo espíritu del pacto?",
+      "cita": "Feme: Ie hugo si no venen les amigues de la teua novia no fa falta que vingau",
+      "opciones": [
+        "Que vinieran las amigas de su novia",
+        "Que él se encargara de la reserva",
+        "Que no viniera el clan Tormo",
+        "Que llegara antes de las 12:30"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "El viejo pacto de las amigas solteras seguía vigente: sin mercancía nueva en la mesa, el casado sobra. Hugo garantizó que venían y la paz se selló con un heladico."
+    },
+    {
+      "pregunta": "El escándalo de los topos resucitó en la comida del Edén: ¿quién desveló la historia de Miki y Mar?",
+      "cita": "Germi: Marta dijo que Mar desvirgo a miki",
+      "opciones": [
+        "Marta, la novia de Miki",
+        "La hermana de Miki",
+        "Sandra",
+        "La del bla bla"
+      ],
+      "correcta": 0,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "Jorge lo cantó claro: '¿Quién es el topo?'. La novia del capitán filtrando archivos íntimos del vestuario mientras la hermana de Miki solo flipaba. El escándalo de los topos nunca murió."
+    },
+    {
+      "pregunta": "Según la doctrina que Joni expuso en octubre de 2015, ¿dónde debe estar 'teóricamente' la mujer mientras el hombre ve el fútbol?",
+      "cita": "Joni: Es que hoy mismo, conforme pita el pitido final subes a la cocina (donde teóricamente de estar la mujer mientras el hombre ve el fútbol) con la polla fuera te quitas la camisa del Valencia, la tiras a tierra y la empotras",
+      "opciones": [
+        "En la peluquería",
+        "En la cocina",
+        "En la puerta de Mestalla",
+        "En el sofá, pero callada"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "La fantasía completa incluía quitarse la camisa del Valencia y empotrarla a tierra ante la mujer en cuestión. La doctrina TT sobre el lugar de la mujer, documentada sin filtros."
+    },
+    {
+      "pregunta": "¿Qué formato televisivo soñó Joni con Germán como protagonista?",
+      "cita": "Joni: Ojalá un programa tipo hermano mayor pero con Germán yendo a los domicilios donde el sexo ha perdido su parte de importancia en la pareja",
+      "opciones": [
+        "Un dating show grabado en el Spiaggia",
+        "Un docu sobre la guerra Solteros vs Casados",
+        "Un reality de despedidas de soltero",
+        "Un 'Hermano Mayor' para parejas a las que el sexo dejó de importar"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "categoria": "opinion",
+      "explicacion": "Joni soñaba con el capitán soltero inspeccionando hogares de Casados con la libreta de Lorena Berdún. Televisión que el TT merecía."
+    },
+    {
+      "pregunta": "¿Qué categorías manejó Miki al interrogar a Germi por 'esa tía'?",
+      "cita": "Miki: Germán q rollo te llevas con esa tía? Novia? Folla Amiga? O paga fantas?",
+      "opciones": [
+        "Amiga con derechos, ex o futura ex",
+        "Liga de un día, amiga eterna o novia futura",
+        "Novia, amiga o simple conocida",
+        "Novia, folla amiga o paga fantas"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "El capitán de los Casados, notario del matrimonio, catalogando relaciones con precisión bursátil. Germi prometió una contestación para ownearlo y la historia no recoge respuesta."
+    },
+    {
+      "pregunta": "Tras el evasivo 'Pfff' de Germi sobre su estado civil, ¿qué diagnóstico emitió Joni?",
+      "cita": "Joni: Enamorarse de una madraca a 15 días del clásico.. El InfartTino está a la vuelta de la esquina",
+      "opciones": [
+        "Que ya era Casado oficial",
+        "Que le quedaban 15 días de soltería",
+        "Que el clásico le iba a curar",
+        "Que el InfartTino estaba a la vuelta de la esquina"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "categoria": "momentazo",
+      "explicacion": "Enamorarse de una madrileña a 15 días del clásico: síntomas claros de InfartTino agudo. Joni, médico de guardia del bando soltero."
+    },
+    {
+      "pregunta": "Según la lección del capitán de los Casados, ¿qué hay que estar para ir 'a pelo' con todas si no tienes novia?",
+      "cita": "Miki: Ahora sí no tienes novia hay q estar muy pillado para ir a pelo con todas",
+      "opciones": [
+        "Muy cachondo",
+        "Muy pillado",
+        "Muy enamorado",
+        "Muy valiente"
+      ],
+      "correcta": 1,
+      "anio": 2015,
+      "categoria": "opinion",
+      "explicacion": "La sabiduría del capitán casado, certificada por Joni con un 'Ojo, palabra de Lorena Berdun'. Los Casados también daban clase."
+    },
+    {
+      "pregunta": "Cuando Joni temió quedarse como el único single del TT, ¿a qué pactó Feme?",
+      "cita": "Feme: Mai joni. Tu i jo quedarem pa nar a les bodes de tots estos",
+      "opciones": [
+        "Montar una agencia de citas para el TT",
+        "Casarse los dos el mismo día",
+        "Quedarse solteros juntos e ir a las bodas de todos",
+        "Fichar solteros nuevos de urgencia"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "El pacto de los últimos solteros: mientras los Casados se casan, ellos quedan como invitados de oro en todas las bodas."
+    },
+    {
+      "pregunta": "¿Dónde tenía planeado Miki pedirle matrimonio a Marta, según el archivo filtrado por Germi?",
+      "cita": "Germi: Que miki iba a proponerle matrimonio a Marta en Paris, lo saben hasta en casa de Kiko Escriche",
+      "opciones": [
+        "En plena borromea del Spiaggia",
+        "En el césped de Mestalla",
+        "En la sala Bataklan",
+        "En París"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "categoria": "lore",
+      "explicacion": "El plan era tan secreto que, según Germi, lo sabían hasta en casa de Kiko Escriche. La pedida en París quedaba en el punto de mira."
+    },
+    {
+      "pregunta": "Según Jorge, ¿quiénes 'les han jodido la despedida de soltero'?",
+      "cita": "Jorge: Esos terroristas nos han jodido la despedida de soltero",
+      "opciones": [
+        "La lluvia de noviembre",
+        "La directiva del TT",
+        "Unos terroristas",
+        "Los Casados con su agenda"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "En pleno contexto post-atentados de París, la guerra civil TT sumaba un frente exterior: la despedida de soltero, dañada."
+    },
+    {
+      "pregunta": "Descartado París, ¿dónde vaticinó Joni que ocurriría la pedida de mano 'real' de Miki?",
+      "cita": "Joni: Nada jorge ni caso. La pedida de mano será en comics o en plena borromea con atún en spiaggia",
+      "opciones": [
+        "En Tutto Fruto",
+        "En el vestuario del Edén",
+        "Bajo la torre Eiffel",
+        "En plena borromea con atún en el Spiaggia"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "categoria": "momentazo",
+      "explicacion": "'No se contempla otro posible escenario', sentenció Joni. París era demasiado glamuroso para este grupo."
+    },
+    {
+      "pregunta": "¿Qué le soltó Feme a Germi cuando 'la del bla bla' propuso ver el clásico juntos?",
+      "cita": "Feme: Vas a ser tu mas importante que ver el clasico con el TT",
+      "opciones": [
+        "Que llevase a la del bla bla al Edén",
+        "Que el clásico se veía en el Spiaggia",
+        "Que ella iba a ser más importante que el clásico con el TT",
+        "Que el TT nunca pierde un clásico"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "El test de lealtad definitivo para un soltero: la del bla bla o el clásico con el TT. Joni recomendó responder con un audio de 'jejejeje.. Caaaasi'."
+    },
+    {
+      "pregunta": "Diciembre de 2015: la TTorra de reencuentro del TT se frustra y Jorge busca culpables políticos. ¿A qué 'efecto' achacó que ya nos hubieran quitado las TTorradicas?",
+      "cita": "Jorge: Es el efecto podemos | Aun no gobiernan.. | Y ya nos han quitado las TTorradicas",
+      "opciones": [
+        "El efecto Rajoy",
+        "El efecto Sánchez",
+        "El efecto Brexit",
+        "El efecto Podemos"
+      ],
+      "correcta": 3,
+      "anio": 2015,
+      "categoria": "polemica",
+      "explicacion": "Feme había firmado el fracaso con un 'Parecemos el psoe' y Jorge encontró al responsable: Podemos aún no gobernaba y ya había abolido las TTorradicas. Germi protestó que él lo había propuesto para la noche siguiente."
+    },
+    {
+      "pregunta": "Navidad de 2015: Miki tenía casi cerrada la TTorra de reencuentro en su casa, pero apareció un obstáculo insalvable en la agenda familiar. ¿Cuál?",
+      "cita": "Miki: Yo sí mañana fuera fiesta o Marta no currara podríamos ir a mi casa, pero Marta curra y se acuesta pronto",
+      "opciones": [
+        "Que Marta tenía turno de noche",
+        "Que la casa estaba en obras",
+        "Que Marta curraba y se acostaba pronto",
+        "Que no había turrón en ninguna tienda"
+      ],
+      "correcta": 2,
+      "anio": 2015,
+      "categoria": "momentazo",
+      "explicacion": "Joni se desesperó ('Hasta eso nos vas a negar?') y Feme selló el acta del fracaso. La lección de la guerra civil: en territorio casado, la agenda de la pareja manda más que el capitán."
+    },
+    {
+      "pregunta": "En una conversación de 2017 sobre lo que se puede y no se puede hacer, Joni fijó la única frontera innegociable. ¿Qué es lo único que 'no te niega nadie'?",
+      "cita": "Joni: Si los goles no te los niega nadie | Pero todo lo demás sí",
+      "opciones": [
+        "Las siestas",
+        "Los goles",
+        "Las cenas del TT",
+        "El mando de la tele"
+      ],
+      "correcta": 1,
+      "anio": 2017,
+      "categoria": "lore",
+      "explicacion": "La frontera definitiva del statu quo conyugal: el fútbol se ve, pero todo lo demás pasa por la dirección del salón. Jorge remató que con ese régimen 'te aburres todas las noches'."
+    },
+    {
+      "pregunta": "En el eterno debate sobre las excusas para fallar con el TT, Joni confesó su táctica anti-reproches de toda la vida. ¿En qué consistía?",
+      "cita": "Joni: Ya, y yo he dicho muchas veces que no había comido puchero para que no me reprocharan",
+      "opciones": [
+        "Decir que el coche no arrancaba",
+        "Culpar a una lesión fantasma",
+        "Alegar una visita médica urgente",
+        "Decir que no había comido puchero"
+      ],
+      "correcta": 3,
+      "anio": 2017,
+      "categoria": "momentazo",
+      "explicacion": "El puchero, plato pesado donde los haya, como coartada oficial: 'no he comido puchero' y nadie podía reprocharte nada. Joni confesó llevar años explotando la veta."
+    },
+    {
+      "pregunta": "Champions 2019 en Old Trafford: Joni pidió a Germi su valoración 'desde la prudencia y el respeto'. ¿Qué contestó el maestro?",
+      "cita": "Joni: German, desde la prudencia y el respeto.. Buen partido no mostro?",
+      "opciones": [
+        "'Un empate justísimo'",
+        "'Ha sido un truñazo tremendo'",
+        "'Un partidazo de Champions'",
+        "'El mejor partido del año'"
+      ],
+      "correcta": 1,
+      "anio": 2019,
+      "categoria": "opinion",
+      "explicacion": "Se pidió prudencia y respeto y Germi respondió a su manera: truñazo tremendo. Jorge solo pudo lamentar no poder verlo 'with the TT'."
+    },
+    {
+      "pregunta": "Germi avisó en su casa de que 'en dos semanas viene la Champions, prepárate'. ¿Qué respuesta oficial recibió del mando del salón?",
+      "cita": "Germi: A mi Marta me ha dicho 'German ya esta bien' a mi contestacion...'de aqui dos semanas viene la champions, preparate'",
+      "opciones": [
+        "'Ese día ceno con las amigas'",
+        "'German ya está bien'",
+        "'Prepárate tú para mi cumple'",
+        "'La Champions se ve en la cocina'"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Así acabó la guerra que estalló en 2012 por traer novias al fútbol: negociando cada jornada de Champions con la dirección del salón. Feme ya soñaba con una casa del Euromillón para resolverlo."
+    },
+    {
+      "pregunta": "Feme desveló su plan para la convivencia futbolera del TT: ganar el Euromillón y comprar una casa para el grupo. ¿Con qué letra pequeña?",
+      "cita": "Feme: Xe cuando me toque el Euromillon comprare una casa para el TT | Para que podamos ver el futbol | Eso si | Aunque yo la compre, tendre vetada la entrada en los partidos del Barça",
+      "opciones": [
+        "Se prohibiría el móvil durante los partidos",
+        "Solo habría Champions en pantalla gigante",
+        "Se vetaría a sí mismo en los partidos del Barça",
+        "La casa cerraría durante las Fallas"
+      ],
+      "correcta": 2,
+      "anio": 2021,
+      "categoria": "lore",
+      "explicacion": "Una casa para ver el fútbol en comunidad... con el anfitrión expulsado cada vez que jugara el Barça. Los vetos de la guerra civil, ahora en versión autoinfligida."
+    },
+    {
+      "pregunta": "Marzo de 2021: Humpa defendió el pacto PP-PSOE como lo razonable y diagnosticó el problema de fondo con una comparación futbolera. ¿Cuál?",
+      "cita": "Humpa: la política se ha convertido en un madrid barça, y parece imposible que los dos grandes partidos pacten. Cuando sería razonable hacerlo",
+      "opciones": [
+        "En un derbi de barrio",
+        "En un Madrid-Barça",
+        "En un ascenso a Segunda",
+        "En una final de Champions"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "opinion",
+      "explicacion": "Para Humpa, dos grandes 'ambos de centro, uno izquierda y otro derecha' deberían pactar como lo razonable. El hilo, como manda la tradición del grupo, acabó derivando hacia el partido del lunes de Germi."
+    },
+    {
+      "pregunta": "Eurocopa 2021, España-Croacia: Humpa relató su manual de superstición con Sandra durante el torneo. ¿Qué hizo ella cuando Croacia igualó el 3-1?",
+      "cita": "Humpa: Yo me he pasado todo el año sin coger el móvil cuando jugaba el barça, y durante la eurocopa cambiando a Sandra de sitio",
+      "opciones": [
+        "Se fue a la cama de golpe",
+        "Dijo 'vale, me vuelvo a Mercadona'",
+        "Apagó la tele sin decir nada",
+        "Se cambió ella misma de sitio"
+      ],
+      "correcta": 1,
+      "anio": 2021,
+      "categoria": "momentazo",
+      "explicacion": "Humpa pasó el año sin coger el móvil cuando jugaba el Barça y cambiando a Sandra de sitio en la Euro. La guerra de las novias en la grada terminó así: con autoexilios voluntarios al súper."
+    },
+    {
+      "pregunta": "Septiembre de 2021: Jorge publicó el once oficial del Barça para recibir al Bayern (3-5-2 con Luuk de Jong). ¿Cuál fue el pronóstico de Germi?",
+      "cita": "Jorge: Oficial, 3-5-2, con Jordi Alba, sin Dest",
+      "opciones": [
+        "8",
+        "5",
+        "10",
+        "18"
+      ],
+      "correcta": 3,
+      "anio": 2021,
+      "categoria": "opinion",
+      "explicacion": "Con la 'dupla De Jong hechísima' que celebró Joni, Germi ejerció de profeta apocalíptico. Miki lo resumió: que hace un año te dicen que Luuk de Jong es titular contra el Bayern... 'Que surrealismo'."
+    },
+    {
+      "pregunta": "Comida de noviembre de 2024: al cuadrar asistencias con parejas, niños y ausencias, Marzal hizo el recuento con terminología de convocatoria. ¿Cuántos serían 'si iban todos'?",
+      "cita": "Marzal: Si vamos todos.... Somos 11 justos",
+      "opciones": [
+        "13 justos",
+        "12 justos",
+        "11 justos",
+        "9 justos"
+      ],
+      "correcta": 2,
+      "anio": 2024,
+      "categoria": "lore",
+      "explicacion": "El grupo que en 2012 se partió en dos bandos por las novias cuadra ahora sus comidas como un once titular, con parejas, niños y cláusulas de suspensión incluidas."
+    },
+    {
+      "pregunta": "La lista de la comida de 2024 se actualizó tres veces en cuestión de minutos. ¿Qué 'fichaje' celebró el TT con la broma de los 'años de burocracia para adoptar'?",
+      "cita": "Feme: Que bien que vayamos con nuestro niño",
+      "opciones": [
+        "Beltrán, el niño de Humberto",
+        "Jenny, la pareja de Marzal",
+        "Irina, la invitada de Marzal",
+        "Lucas, el hijo de Héctor"
+      ],
+      "correcta": 0,
+      "anio": 2024,
+      "categoria": "momentazo",
+      "explicacion": "Humpa actualizó la lista con 'Humberto feme + Beltrán', Héctor sumó a Lucas y Feme celebró ir 'con nuestro niño'. Miki firmó la broma del año: tras años de burocracia, por fin adoptaban."
+    },
+    {
+      "pregunta": "Nochebuena de 2025: Humpa confesó que antes ni hablaba de política con su familia ni con la de Sandra, pero que ahora tiene una técnica infalible en la mesa. ¿En qué consiste?",
+      "cita": "Humpa: Yo antes no hablaba de política ni con mi familia ni con la de Sandra. Pero desde hace un tiempo me limito a decir una sola frase...",
+      "opciones": [
+        "La del 'en esta mesa no se habla de política'",
+        "La del 'todos los políticos son iguales'",
+        "La del 'indigente intelectual... Un borrego'",
+        "La del 'ya lo hablamos otro día'"
+      ],
+      "correcta": 2,
+      "anio": 2025,
+      "categoria": "opinion",
+      "explicacion": "'Y lo digo eh. Vaya que si lo he dicho', remató Humpa entre risas. La evolución del frente doméstico: del silencio diplomático de antes a la frase-manifiesto en la cena."
+    }
+  ]
+}
