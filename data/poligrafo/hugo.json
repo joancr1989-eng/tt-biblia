@@ -2,7 +2,7 @@
   "titulo_historia": "Informe Robinson: Expediente Hugo",
   "protagonista": "Hugo",
   "periodo": "2012-01-01 a 2026-12-31",
-  "modelo_usado": "glm5.3-flash",
+  "total_preguntas": 126,
   "biografia": {
     "nombre": "Hugo",
     "apodo_titulo": "El Auditor Médico de las Cuentas Divididas",
@@ -24,20 +24,19 @@
     ],
     "total_mensajes": 2842,
     "hora_pico": "22:00h",
-    "periodo_bio": "2020-2026"
+    "periodo": "2020-2026"
   },
-  "total_preguntas": 150,
   "preguntas": [
     {
       "pregunta": "Faltaban 3 jugadores para la pachanga de finales de julio de 2012 y Hugo se ofreció inmediatamente. ¿Qué cantera inagotable activó para completar la convocatoria?",
       "cita": "Hugo: Cuantos hace falta??",
       "opciones": [
-        "Fichar jugadores del equipo del poli",
         "Poner un anuncio en el Winston",
         "Reclutar a sus primos",
-        "Llamar al porro team de Orengo"
+        "Llamar al porro team de Orengo",
+        "Fichar jugadores del equipo del poli"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "Ante la emergencia, Hugo sacó a los primos Tormo del sombrero sin pestañear. Feme lo celebró con un 'Ese hugo ahiiiii'."
@@ -46,12 +45,12 @@
       "pregunta": "En agosto de 2012, Hugo disfrutaba como un niño con las declaraciones que soltaba un personaje público nada más salir de su juicio. ¿De quién se trataba?",
       "cita": "Jorge: Que puto amo (esta senil)",
       "opciones": [
+        "Ruiz Mateos",
         "Bárcenas",
-        "Urdangarin",
         "El Pocero",
-        "Ruiz Mateos"
+        "Urdangarin"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Las perlas extrajudiciales de Ruiz Mateos eran puro espectáculo y Jorge lo bautizó para la historia: 'puto amo (está senil)'."
@@ -60,12 +59,12 @@
       "pregunta": "El grupo montó un juicio paralelo en el chat y Hugo intentó colar el tema de la pachanga en pleno estrado. ¿Cómo reaccionó el tribunal?",
       "cita": "Hugo: Hablamos de la pachanga de hoy!!!",
       "opciones": [
-        "Lo ascendió a abogado de la defensa",
         "Le impuso una multa para pagar las camisetas",
-        "Le concedió dos minutos con el micro cortado",
-        "Le negó el turno de palabra citando su nombre completo"
+        "Le negó el turno de palabra citando su nombre completo",
+        "Lo ascendió a abogado de la defensa",
+        "Le concedió dos minutos con el micro cortado"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "El tribunal le negó la palabra usando su nombre completo, Hugo Tormo Boix, y de paso le remató lo de las greñas distintivas."
@@ -74,12 +73,12 @@
       "pregunta": "Un jueves de septiembre, Hugo llevó al chat un conflicto doméstico de máxima urgencia. ¿Qué estaba pasando en casa de los Tormo?",
       "cita": "Hugo: Cuando seas padre comerás huevos",
       "opciones": [
-        "Que su padre no le dejaba ir a la playa",
+        "Que su padre quería ver el Valencia y Hugo pedía asesoría al grupo",
         "Que su primo Pablo monopolizaba la tele",
         "Que se habían quedado sin pilas en el mando",
-        "Que su padre quería ver el Valencia y Hugo pedía asesoría al grupo"
+        "Que su padre no le dejaba ir a la playa"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "El dilema era que su padre quería ver el Valencia; el comité de sabios lo zanjó con refranero: cuando seas padre comerás huevos."
@@ -88,12 +87,12 @@
       "pregunta": "Cuando Feme pidió recomendaciones de páginas para ver el fútbol, Hugo respondió con la sabiduría tecnológica que le caracteriza. ¿Qué le aconsejó?",
       "cita": "Feme: Me recomendais alguna pagina?",
       "opciones": [
-        "PirloTV",
         "El teletexto",
         "Dale al 6",
+        "PirloTV",
         "Rojadirecta"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "opinion",
       "explicacion": "Feme buscaba una web de streams y Hugo recomendó sintonizar el canal 6 del mando, como si fuera lo más normal del mundo."
@@ -102,12 +101,12 @@
       "pregunta": "¿Cómo se enteró el grupo de que Pablo Tormo, primo de Hugo, se sumaba a la pachanga de ese sábado de septiembre?",
       "cita": "Hugo: Mi primo Pablo me lo dice ahora",
       "opciones": [
-        "Pablo Tormo ficha por el rival",
         "Pablo Tormo confirmado",
+        "Pablo Tormo ficha por el rival",
         "Pablo Tormo lesionado de gravedad",
         "Pablo Tormo pide 50 euros de ficha"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "'Mi primo Pablo me lo dice ahora': Hugo ejercía de portavoz oficial de la dinastía Tormo, con confirmaciones en tiempo real."
@@ -116,12 +115,12 @@
       "pregunta": "Cuando el equipo necesitaba a alguien para llevar las cuentas, Hugo lanzó una campaña con aval paterno incluido. ¿A quién promocionaba y con qué argumento?",
       "cita": "Hugo: Es de playa dice mi padre",
       "opciones": [
-        "A Germi, para capitán, por su liderazgo natural",
         "A Feme, para presidente, por su experiencia en peñas",
         "A Jorge, para tesorero, porque según su padre es de playa",
+        "A Germi, para capitán, por su liderazgo natural",
         "A sí mismo, para tesorero, por su calculadora"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "'Jorge tesorero jorge tesorero' cantaba Hugo, y su único argumento era un informe de Javier Tormo sobre la vocación playera del candidato."
@@ -132,8 +131,8 @@
       "opciones": [
         "Si el suelo seguía siendo el mismo",
         "Si pondrían vestuarios nuevos",
-        "Si subiría el precio del alquiler",
-        "Si el techo aguantaría los despejes"
+        "Si el techo aguantaría los despejes",
+        "Si subiría el precio del alquiler"
       ],
       "correcta": 0,
       "anio": 2012,
@@ -144,10 +143,10 @@
       "pregunta": "¿Con qué argumento realista animaba Hugo al grupo a seguir proponiendo patrocinios para el equipo pese a todos los reveses?",
       "cita": "Hugo: De proponerlo no cuesta nada",
       "opciones": [
-        "Que las empresas nunca dicen que no",
-        "Que el NO ya se tiene de antemano",
         "Que el dinero aparece solo",
-        "Que el SÍ siempre acaba llegando"
+        "Que el NO ya se tiene de antemano",
+        "Que el SÍ siempre acaba llegando",
+        "Que las empresas nunca dicen que no"
       ],
       "correcta": 1,
       "anio": 2012,
@@ -158,12 +157,12 @@
       "pregunta": "¿Qué gestión empresarial de Hugo acabó con Javier Tormo despachando a su hijo a la mierda?",
       "cita": "Hugo: Mi padre me ha enviado a la mierda pero bueno",
       "opciones": [
-        "Buscar patrocinadores para el equipo",
-        "Proponerle pagar la ficha a medias",
+        "Pedirle subir la paga semanal",
         "Pedirle el coche para ir a Gandia",
-        "Pedirle subir la paga semanal"
+        "Proponerle pagar la ficha a medias",
+        "Buscar patrocinadores para el equipo"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "La primera incursión de Hugo en el patrocinio deportivo chocó de frente con la autoridad paterna; lo asumió con estoicismo de directivo."
@@ -172,12 +171,12 @@
       "pregunta": "Hugo acudió diligente a pagar los 100 euros del fútbol sala. ¿Con qué sorpresa se topó al llegar?",
       "cita": "Feme: Tenems k poner 100 euros",
       "opciones": [
+        "Que ya había ido alguien a pagar antes que él",
         "Que el chico no aceptaba tarjeta",
         "Que la cuota había subido a 200 euros",
-        "Que habían perdido su inscripción",
-        "Que ya había ido alguien a pagar antes que él"
+        "Que habían perdido su inscripción"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "La diligencia de Hugo siempre llega segunda: cuando fue a pagar, alguien ya lo había hecho. Gestión de tesorería impecable."
@@ -186,12 +185,12 @@
       "pregunta": "A las 2 de la madrugada, Feme dedicó una trilogía de mensajes exaltados a Hugo. ¿Con qué apodo lo coronó?",
       "cita": "Feme: Viva hugo!!!",
       "opciones": [
-        "'El almirante'",
-        "'El perro'",
         "'El jefe'",
-        "'El faraón'"
+        "'El faraón'",
+        "'El perro'",
+        "'El almirante'"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Entre un 'Betiiiiiiiiiiiiii' y un apodo canino, Feme proclamó su devoción eterna a Hugo en plena madrugada."
@@ -214,12 +213,12 @@
       "pregunta": "Ante la baja del padre de Joni 'por motivos burocráticos familiares', ¿qué teoría sobre los padres lanzó Germi?",
       "cita": "Joni: Chavales,mañana baja sustancial:por motivos burocraticos familiares mi padre no podra asistir a nuestro partido",
       "opciones": [
-        "Que debían dinero al club y se escondían",
-        "Que compartían abogado y les llegó la carta",
+        "Que eran pareja y el de Joni había dejado al padre de Hugo",
         "Que eran hermanos distanciados por una herencia",
-        "Que eran pareja y el de Joni había dejado al padre de Hugo"
+        "Que debían dinero al club y se escondían",
+        "Que compartían abogado y les llegó la carta"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "Germi lo tuvo clarísimo: si la baja era 'burocrática familiar', es que el padre de Joni había dejado al padre de Hugo. Hasta preguntó si se habían peleado."
@@ -229,11 +228,11 @@
       "cita": "Germi: Maaaaa el Javi como la palpa",
       "opciones": [
         "Extremo de corbata",
-        "Delantero-filósofo",
         "Portero-regateador",
+        "Delantero-filósofo",
         "Central-bailarín"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "Hugo anunció con orgullo que su padre 'juega de portero-regateador', una posición que desafía las leyes del fútbol. Germi: 'Maaaaa el Javi como la palpa'."
@@ -242,10 +241,10 @@
       "pregunta": "Hugo movió los hilos para llevar a sus primos al partido. ¿Quién fue el primero de la dinastía en confirmar?",
       "cita": "Hugo: Ahora se lo diré a mis primos",
       "opciones": [
+        "Joshua",
         "Pablo Tormo",
-        "Alex",
         "Izan",
-        "Joshua"
+        "Alex"
       ],
       "correcta": 2,
       "anio": 2013,
@@ -256,9 +255,9 @@
       "pregunta": "¿Con qué dorsal presentó Hugo el fichaje estrella de Alex Tormo por el Triangulito Team?",
       "cita": "Hugo: El 8 esta cogido?",
       "opciones": [
-        "El 23",
         "El 8",
         "El 10",
+        "El 23",
         "El 16"
       ],
       "correcta": 3,
@@ -270,12 +269,12 @@
       "pregunta": "Cuando Hugo retiró a sus primos de la pachanga, ¿qué pasivo deportivo reclamó Joni cobrar?",
       "cita": "Hugo: No contéis con mis primos para mañana la pachanga",
       "opciones": [
-        "El dinero de las espinilleras",
-        "La cuota del vestuario",
         "La sanción de la AFES que debía",
-        "La multa por llegar tarde"
+        "La multa por llegar tarde",
+        "La cuota del vestuario",
+        "El dinero de las espinilleras"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2013,
       "categoria": "polemica",
       "explicacion": "Los primos cancelaron y encima dejaban pasivos: Joni exigió reclamar la sanción de la AFES y remató que 'kiko debe una tarjeta amarilla también'."
@@ -284,12 +283,12 @@
       "pregunta": "¿Qué condición puso el padre de Hugo para ir 'con el Valencia a muerte'?",
       "cita": "Hugo: Mi padre lo tiene más que claro",
       "opciones": [
-        "Que Alcácer marcara de falta",
-        "Que jugara Barragán (todo era ironía)",
         "Que vendieran a Nuno",
-        "Que el Valencia ganara 3-0"
+        "Que el Valencia ganara 3-0",
+        "Que Alcácer marcara de falta",
+        "Que jugara Barragán (en tono irónico)"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2013,
       "categoria": "opinion",
       "explicacion": "'Sí juega Barragán voy con el Valencia a muerte', sentenció el padre de Hugo. Ante el 'Porq?' de Miki, Hugo solo pudo responder: 'Ironía...'."
@@ -299,25 +298,25 @@
       "cita": "Hugo: Me gustaba más master chef",
       "opciones": [
         "Un libro de pucheros",
-        "Un delantal bordado",
+        "Un gorro de chef",
         "Un cuchillo jamonero",
-        "Un gorro de chef"
+        "Un delantal bordado"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "lore",
-      "explicacion": "Jorge ya le preguntó cuándo se presentaba a MasterChef II y Feme propuso el gorro de chef: nació 'MasterHumber'. Joni rezaba porque algún día hicieran puchero."
+      "explicacion": "Jorge ya le preguntó cuándo se presentaba a MasterChef II y Feme propuso el gorro de chef. Joni rezaba porque algún día hicieran puchero."
     },
     {
       "pregunta": "¿Qué apodo de la infancia destapó el primo Borja sobre Vicent Cortell?",
       "cita": "Hugo: Dice mi primo Borja que a Vicent Cortell le llamaban gargamel",
       "opciones": [
-        "Pitufo Gruñón",
         "Gargamel",
+        "El Pastis",
         "Peluquín",
-        "El Pastis"
+        "Pitufo Gruñón"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "El primo Borja, la fuente más fiable de los Tormo, filtró que a Vicent Cortell le llamaban Gargamel. Periodismo de investigación de barrio."
@@ -327,11 +326,11 @@
       "cita": "Hugo: Asta aspra he quedat en el tío flare, danielet, Paulino, el pastis, cabota, peluquín, carabassa, i el tío orxano",
       "opciones": [
         "Los más ricos del pueblo",
+        "Los únicos con carnet de socio",
         "Los amos de la orxata",
-        "Los más borrachos del pueblo",
-        "Los únicos con carnet de socio"
+        "Los más borrachos del pueblo"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2013,
       "categoria": "momentazo",
       "explicacion": "Según Hugo, Carabassa y el tío Orxano eran 'els mes borrachos del poble', en compañía del hijo del médico Pastor y del nebot del alcalde fugado por mafias."
@@ -340,12 +339,12 @@
       "pregunta": "¿Cuál es el linaje oficial del tío Flare según la enciclopedia genealógica de Hugo?",
       "cita": "Hugo: Sí no als conegueu jo mateixa vols presente",
       "opciones": [
-        "Sobrino del alcalde fugado por mafias",
         "Hijo del electricista del pueblo",
+        "Hijo del que fue sacerdote del pueblo en 1492",
         "Nieto de la tía Elverin, que era obrera",
-        "Hijo del que fue sacerdote del pueblo en 1492"
+        "Sobrino del alcalde fugado por mafias"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "Hugo presentó a cada personaje con su árbol genealógico: el tío Flare era hijo del sacerdote del pueblo 'al 1492'. Historia comarcal en estado puro."
@@ -354,12 +353,12 @@
       "pregunta": "¿Para qué magno evento reunió Hugo al tío Flare, Danielet, Paulino, el Pastis, Cabota, Peluquín, Carabassa y el tío Orxano?",
       "cita": "Hugo: Qui sapunta?",
       "opciones": [
-        "La fundación de una peña",
-        "Una calbotada intergeneracional",
         "Una partida al dominó",
-        "Un torneo de truc"
+        "Una calbotada intergeneracional",
+        "Un torneo de truc",
+        "La fundación de una peña"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2013,
       "categoria": "momentazo",
       "explicacion": "Todo ese elenco de sabios y borrachos del pueblo estaba convocado para... una partida de dominó. Hugo, organizador de eventos históricos."
@@ -368,40 +367,26 @@
       "pregunta": "¿Cómo presentó oficialmente Hugo a Joshua, el refuerzo de última hora para el partido?",
       "cita": "Hugo: Xe que es bon xic",
       "opciones": [
-        "Era el amigo de sus primos",
-        "Era su entrenador personal",
         "Era el hijo del médico Pastor",
-        "Era un ojeador del Valencia"
+        "Era un ojeador del Valencia",
+        "Era el amigo de sus primos",
+        "Era su entrenador personal"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "'Uno más, Joshua el amigo de mis primos', anunció Hugo, avalando el fichaje con un 'xe que es bon xic'. Informe de scouting completo."
     },
     {
-      "pregunta": "¿Qué proeza pirotécnica soñaba Feme que cometiera Humber en las fallas, acompañada de un grito ya legendario?",
-      "cita": "Feme: Al grito de \" estic loco!!!!\"",
-      "opciones": [
-        "Plantar una ninot gigante en el Sanedrín",
-        "Quemar todas las fallas el día antes de la Cremà",
-        "Encender la Cremà desde el balcón del ayuntamiento",
-        "Tirar la falla de Na Jordana al río Turia"
-      ],
-      "correcta": 1,
-      "anio": 2013,
-      "categoria": "momentazo",
-      "explicacion": "Feme soñaba con Humber prendiendo TODAS las fallas 24 horas antes de la Cremà al grito de 'estic loco!!!'. Joni ya lo visualizaba en el Sanedrín."
-    },
-    {
       "pregunta": "Con todo el TT organizándose para el plan del día, ¿qué anunció Hugo por el chat?",
       "cita": "Joni: Seriedad por favor",
       "opciones": [
-        "Que ese día se jugaba con la segunda equipación morada",
-        "Que iba a llegar tarde porque se echaba una siesta rápida",
+        "Que el campo estaba inundado y había que llevar botas de agua",
         "Que iba 'a cagar' y que cada uno trajera una botella de agua",
-        "Que el campo estaba inundado y había que llevar botas de agua"
+        "Que ese día se jugaba con la segunda equipación morada",
+        "Que iba a llegar tarde porque se echaba una siesta rápida"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "momentazo",
       "explicacion": "Hugo avisó de su 'vaig a cagar' (corrigiendo el lapsus 'vaig a cargar') y de paso organizó el reparto de botellas de agua. Joni tuvo que reclamar seriedad institucional."
@@ -410,12 +395,12 @@
       "pregunta": "¿Qué motivo escondía la pregunta de Hugo sobre el viejo hostal de Salamanca?",
       "cita": "Hugo: Alguien recuerda el hostal que estuvimos en Salamanca ??",
       "opciones": [
+        "Porque sospechaba que debían al dueño una fianza de 2012",
         "Porque quería reservarlo para la final de la Champions",
-        "Porque sus primos igual pasaban la Nochevieja allí",
-        "Porque le había llegado un cargo misterioso de aquella noche en la tarjeta",
-        "Porque sospechaba que debían al dueño una fianza de 2012"
+        "Porque le había llegado un cargo misterioso de aquella noche",
+        "Porque sus primos igual pasaban la Nochevieja allí"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "La pregunta tenía segunda parte: sus primos igual pasaban la Nochevieja en aquel hostal. Hugo, archivista oficial de la dinastía cachonda."
@@ -424,26 +409,40 @@
       "pregunta": "¿Qué se estaba debatiendo cuando Hugo soltó de sopetón su pregunta sobre Emma García?",
       "cita": "Hugo: La Emma García se ha operado las tetas o son los sujetadores ??",
       "opciones": [
+        "El fichaje de Mata por el United",
         "La fecha de vuelta de Messi tras su lesión",
-        "El sorteo de Champions del Valencia",
         "La racha de Nadal de cara a Roland Garros",
-        "El fichaje de Mata por el United"
+        "El sorteo de Champions del Valencia"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "momentazo",
       "explicacion": "Entre el tuit de Alfredo Martínez sobre la lesión de Messi y las quejas arbitrales, Hugo soltó su teoría sobre el pecho de Emma García sin ningún tipo de transición."
+    },
+    {
+      "pregunta": "¿Qué delantero marcó en realidad el gol que Feme anunció triunfalmente como 'de Alex Tormo'?",
+      "cita": "Feme: Gol de alex tormo!!!!",
+      "opciones": [
+        "Negredo, con el Sevilla en la Europa League",
+        "Luis Suárez, con el Liverpool contra el Cardiff",
+        "Diego Costa, con el Atlético contra el Getafe",
+        "Sergio Agüero, con el City contra el Arsenal"
+      ],
+      "correcta": 3,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "Feme cantó gol de Alex Tormo, pero media hora después aclaró que era Agüero (dorsal 16) contra el Arsenal. El pequeño Tormo, al nivel de los cracks del City."
     },
     {
       "pregunta": "Según la 'radiografía mental' que hizo Hugo de Marc y Tamara, ¿qué pasaba por la cabeza de Marc?",
       "cita": "Hugo: Mente de támara: hay que guapet,viste tan bien...hay que mono",
       "opciones": [
         "Que Tamara parecía su profesora de gimnasia",
-        "Que para una chupadita rápida no estaba mal",
         "Que debía pedirle el número a la hermana de Tamara",
-        "Que la noche acabaría en paellero familiar"
+        "Que la noche acabaría en paellero familiar",
+        "Que para una chupadita rápida no estaba mal"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2014,
       "categoria": "momentazo",
       "explicacion": "Mientras Tamara se quedaba en el 'hay que guapet', la mente de Marc ya gestionaba una chupadita rápida. Hugo, cronista de romances ajenos."
@@ -453,11 +452,11 @@
       "cita": "Hugo: Mi padre dice que fichemos a Juan Carlos Moya",
       "opciones": [
         "Paco Puça, en uno de sus consejos",
+        "Javier Tormo, su padre",
         "Alex Tormo, su hermano pequeño",
-        "Marzal, como castigo al equipo",
-        "Javier Tormo, su padre"
+        "Marzal, como castigo al equipo"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Javier Tormo, ojeador oficial de la casa, dictó el fichaje de Juan Carlos Moya en plena crisis con el equipo más odiado por Marzal. Hugo solo hizo de portavoz."
@@ -466,10 +465,10 @@
       "pregunta": "Cuando Germi abrió el expediente de la foto de perfil de Hugo, ¿quién resultó haberla visto en persona y guardado silencio?",
       "cita": "Germi: Por cierto, no se comenta nada sobre la foto de perfil de hugo",
       "opciones": [
-        "Jorge, que la vio en el móvil de Marzal",
+        "Miki, que la vio desde el andamio de Casa Pastor",
         "Joni, que la vio impresa en la pared del Sanedrín",
         "Feme, que la vio días antes pero calló",
-        "Miki, que la vio desde el andamio de Casa Pastor"
+        "Jorge, que la vio en el móvil de Marzal"
       ],
       "correcta": 2,
       "anio": 2014,
@@ -494,10 +493,10 @@
       "pregunta": "¿En qué condiciones envió Feme su crónica especial sobre Alex Tormo y las milfs?",
       "cita": "Feme: X cierto alex tormo estaba en la fiesta, muxas milf",
       "opciones": [
-        "A las 4 de la madrugada, tras quejarse de llevar 10 horas de pie",
+        "A las 4 de la madrugada, tras llevar 10 horas de pie",
         "A medianoche, en plena siesta post-fallas",
-        "A las 7 de la mañana, desde el bus hacia el trabajo",
-        "Al mediodía, mientras comía en el Sanedrín"
+        "Al mediodía, mientras comía en el Sanedrín",
+        "A las 7 de la mañana, desde el bus hacia el trabajo"
       ],
       "correcta": 0,
       "anio": 2014,
@@ -505,27 +504,13 @@
       "explicacion": "El reportaje llegó a las 4:10 de la madrugada, firmado por un Feme que llevaba 10 horas de pie: Alex Tormo en la fiesta y muchas milfs. Información prioritaria para el grupo."
     },
     {
-      "pregunta": "¿Qué delantero marcó en realidad el gol que Feme anunció triunfalmente como 'de Alex Tormo'?",
-      "cita": "Feme: Gol de alex tormo!!!!",
-      "opciones": [
-        "Negredo, con el Sevilla en la Europa League",
-        "Sergio Agüero, con el City contra el Arsenal",
-        "Luis Suárez, con el Liverpool contra el Cardiff",
-        "Diego Costa, con el Atlético contra el Getafe"
-      ],
-      "correcta": 1,
-      "anio": 2013,
-      "categoria": "lore",
-      "explicacion": "Feme cantó gol de Alex Tormo, pero media hora después aclaró que era Agüero (dorsal 16) contra el Arsenal. El pequeño Tormo, al nivel de los cracks del City."
-    },
-    {
       "pregunta": "En pleno partido de julio de 2014, ¿qué recado trajo Hugo de parte de su padre?",
       "cita": "Hugo: Germán dice mi padre que te pareces al jefecito",
       "opciones": [
+        "Que Feme tenía la barba del jefecito",
         "Que el árbitro era clavado al jefecito",
-        "Que Joni se parecía al jefecito",
         "Que Germán se parecía al jefecito",
-        "Que Feme tenía la barba del jefecito"
+        "Que Joni se parecía al jefecito"
       ],
       "correcta": 2,
       "anio": 2014,
@@ -537,11 +522,11 @@
       "cita": "Feme: El diumenge estava el clan tormo en els xiringuitos... Pero ell no",
       "opciones": [
         "El clan Tormo no apareció... pero Hugo estaba allí con su padre",
+        "El clan Tormo estuvo de xiringuito el domingo... con Hugo de anfitrión",
         "El clan Tormo estaba de xiringuito... pero Hugo estaba en Marrakech",
-        "El clan Tormo estuvo de xiringuito el domingo... pero Hugo no",
-        "El clan Tormo estuvo de xiringuito el domingo... con Hugo de anfitrión"
+        "El clan Tormo estuvo de xiringuito el domingo... pero Hugo no"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Todo el clan Tormo disfrutó de los chiringuitos menos Hugo, que apareció después con un simple 'Presente!' como si no hubiera pasado nada."
@@ -550,54 +535,26 @@
       "pregunta": "Cuando Feme se planteó 'darle una paliza' a la profesora, ¿qué postura defendió Hugo?",
       "cita": "Hugo: Pues sí, la labor del docente es inculcar unos conocimientos que luego debe ver reflejados en los exámenes",
       "opciones": [
+        "Que la labor del docente es evaluar los conocimientos inculcados",
         "Que los profesores deberían cobrar por resultados",
         "Que los exámenes eran una tortura medieval",
-        "Que la labor del docente es inculcar conocimientos que deben reflejarse en los exámenes",
         "Que la universidad era una estafa organizada"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "opinion",
       "explicacion": "Mientras Feme pedía violencia directa contra la docente, Hugo ejerció de abogado del diablo académico con su teoría pedagógica."
     },
     {
-      "pregunta": "¿Qué título honorífico recibió Miki tras su gran noche de octubre de 2014?",
-      "cita": "Jorge: Mr. Mistela",
-      "opciones": [
-        "Don Resaca",
-        "El Duque de la Kas",
-        "Lord Cachirulo",
-        "Mr. Mistela"
-      ],
-      "correcta": 3,
-      "anio": 2014,
-      "categoria": "momentazo",
-      "explicacion": "Tras una noche de gloria con 'Julio Lávate Borracho' de banda sonora, Miki amaneció con título nobiliario y Feme preguntándole por la resaca."
-    },
-    {
-      "pregunta": "¿Qué teoría manejaba Joni sobre el caso de Hermano Mayor que compartió en octubre de 2014?",
-      "cita": "Joni: Igual es mi padre denunciando que tiene un hijo monguer y una mujer que le apaliza",
-      "opciones": [
-        "Que era Marzal buscando fama televisiva",
-        "Que era su vecino pidiendo un hermano mayor para su hijo",
-        "Que era su padre denunciando que tiene un hijo monguer y una mujer que le apaliza",
-        "Que era un casting de laSexta disfrazado"
-      ],
-      "correcta": 2,
-      "anio": 2014,
-      "categoria": "polemica",
-      "explicacion": "Joni vio el caso de #hermanomayorjuanjo y su primera hipótesis fue que el denunciante era su propio padre. Confianza familiar absoluta."
-    },
-    {
       "pregunta": "¿Qué gran evento televisivo logró reunir a Feme sentado 'con el clan Tormo' frente al televisor?",
       "cita": "Feme: Aqui estamos con el clan Tormo viendolo",
       "opciones": [
-        "El documental de nudismo en Cuatro",
+        "La final de la Champions",
         "El sorteo de la Lotería de Navidad",
-        "Un maratón de Hermano Mayor",
-        "La final de la Champions"
+        "El documental de nudismo en Cuatro",
+        "Un maratón de Hermano Mayor"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Jorge avisó de que 'hoy era lo del nudismo en 4' y el clan Tormo no faltó a la cita. Joni cerró la velada: 'las ves en bolas y te las follabas'."
@@ -606,12 +563,12 @@
       "pregunta": "En la contabilidad oficial del TT de noviembre de 2014, ¿quién figuraba aportando sus 10€ como una sola entidad?",
       "cita": "Joni: Pusimos 10€ JM humpa jorge Alberto miki Héctor joni y los tormo = 90€ - 77 que pagamos = 13€ +8€ que había =21€",
       "opciones": [
-        "Don Bigotón",
-        "El abuelo de Joni",
         "El árbitro del partido",
-        "Los Tormo, contabilizados como un solo ser"
+        "Los Tormo, contabilizados como un solo ser",
+        "El abuelo de Joni",
+        "Don Bigotón"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "En la contabilidad del TT los Tormo pagaban en bloque: una cuota, un clan. Eficiencia familiar de libro."
@@ -620,12 +577,12 @@
       "pregunta": "Tras el Levante-Valencia, ¿qué profecía paterna reivindicó Hugo?",
       "cita": "Hugo: Ya lo decía mi padre hace una semana... El Valencia no va a ganar",
       "opciones": [
-        "Que Nuno sería destituido en diciembre",
-        "Que el Levante bajaría a Segunda",
         "Que el Valencia no iba a ganar",
-        "Que Parejo marcaría de falta"
+        "Que el Levante bajaría a Segunda",
+        "Que Parejo marcaría de falta",
+        "Que Nuno sería destituido en diciembre"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Javier Tormo, el oráculo de la casa, acertó con la derrota valencianista una semana antes y Hugo salió a reclamar su merecido reconocimiento."
@@ -635,11 +592,11 @@
       "cita": "Hugo: Mi padre ha comparado el gol con Marzal... Que dice que sí ayer iba dopado??",
       "opciones": [
         "Que el gol lo había marcado su hermano",
+        "Que ayer iba dopado",
         "Que se dejó marcar por dinero",
-        "Que estaba jugando en borrachera",
-        "Que ayer iba dopado"
+        "Que estaba jugando en borrachera"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2014,
       "categoria": "polemica",
       "explicacion": "Javier Tormo insinuó que el golazo solo se explicaba con sustancias ilícitas y Hugo demandó explicaciones. Joni lo bautizó como 'nuevo caso Gurpegui'."
@@ -648,40 +605,26 @@
       "pregunta": "¿Qué comparación de mercado futbolístico hizo Joni con un miembro de la familia Tormo?",
       "cita": "Joni: Alex Tormo >>>>>> Negredo",
       "opciones": [
-        "Que Alex Tormo fichaba por el Valencia en enero",
+        "Que Alex Tormo era mejor que Negredo",
         "Que Negredo era primo secreto de los Tormo",
-        "Que Negredo era mejor que Alex Tormo",
-        "Que Alex Tormo era mejor que Negredo"
+        "Que Alex Tormo fichaba por el Valencia en enero",
+        "Que Negredo era mejor que Alex Tormo"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Con cinco flechas de margen, Joni decretó que Alex Tormo estaba por encima del Negredo profesional. Lore familiar en estado puro."
     },
     {
-      "pregunta": "¿Qué acto de servicio a España anunció Feme desde Barcelona en noviembre de 2014?",
-      "cita": "Feme: Son feas pero me las tirare por la patria",
-      "opciones": [
-        "Que son feas pero se las tiraría por la patria",
-        "Que se afiliaría a ERC por la patria",
-        "Que votaría al PP por la patria",
-        "Que comería paella catalana por la patria"
-      ],
-      "correcta": 0,
-      "anio": 2014,
-      "categoria": "momentazo",
-      "explicacion": "Feme conoció a 3 catalanas unionistas y ejecutó el mayor sacrificio patriótico del siglo: tirárselas por España pese a no estar buenas."
-    },
-    {
       "pregunta": "¿Qué aviso de tráfico de utilidad pública compartió Hugo con el grupo en diciembre de 2014?",
       "cita": "Hugo: Al jefe de mi padre le han multado por ir sentado detrás en el coche sin el cinturón... Para que lo tengáis en cuenta",
       "opciones": [
-        "Que su padre había perdido el carné por puntos",
         "Que el coche familiar había sido robado",
-        "Que multaron al jefe de su padre por ir detrás sin cinturón",
-        "Que la DGT iba a instalar un radar en Alquería"
+        "Que su padre había perdido el carné por puntos",
+        "Que la DGT iba a instalar un radar en Alquería",
+        "Que multaron al jefe de su padre por ir detrás sin cinturón"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Hugo ejerció de portavoz de Tráfico: la multa al jefe de Javier Tormo por no abrocharse detrás merecía ser comunicada a toda la base."
@@ -690,12 +633,12 @@
       "pregunta": "Cuando Joni preguntó si Paco Puça y Melchor vendrían a la cata paellil, ¿qué confirmó Feme?",
       "cita": "Feme: La invitación esta enviado",
       "opciones": [
-        "Que cobraban 50 euros por aparición",
         "Que la invitación ya estaba enviada",
         "Que no existían legalmente",
-        "Que solo vendría Melchor"
+        "Que solo vendría Melchor",
+        "Que cobraban 50 euros por aparición"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "El TT necesitaba por fin ponerles cara a los mitos, y Feme confirmó que la invitación ya estaba en camino. Jorge amenazó con embajonarse si no aparecían."
@@ -705,11 +648,11 @@
       "cita": "Jorge: Necesito que cuenten una anecdota random en valenciano para soltar una risa con megacarcajada",
       "opciones": [
         "Que trajeran vino de su propia bodega",
+        "Que contaran una anécdota en valenciano con megacarcajada",
         "Que bendijeran el arroz en valenciano",
-        "Que cocinaran ellos la paella",
-        "Que contaran una anécdota random en valenciano para soltar una risa con megacarcajada"
+        "Que cocinaran ellos la paella"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Jorge tenía la liturgia clara: anécdota random en valenciano + megacarcajada. Así debían debutar los personajes top del TT en sociedad."
@@ -718,12 +661,12 @@
       "pregunta": "En el programa de televisión que el grupo quiso montar, ¿qué sección quedó asignada al padre de Hugo 'ni se discute'?",
       "cita": "Joni: Que los Manolos lo haría el padre de Hugo ni se discute no?",
       "opciones": [
-        "La crónica partido a partido del TT",
-        "La sección meteorológica desde Beniopa",
         "Los Manolos",
-        "El resumen internacional con Paco Puça"
+        "La sección meteorológica desde Beniopa",
+        "El resumen internacional con Paco Puça",
+        "La crónica partido a partido del TT"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "En el reparto del programa soñado, a Javier Tormo le tocaba 'Los Manolos' sin admitir debate; lo internacional era cosa de Melchor y Paco Puça."
@@ -732,12 +675,12 @@
       "pregunta": "¿Qué aporte técnico dejó Hugo caer en el grupo antes de la próxima barbacoa?",
       "cita": "Hugo: http://modoeficaz.com/como-encender-eficazmente-una-barbacoa-tecnica-del-volcan/",
       "opciones": [
-        "Un enlace a la 'técnica del volcán' para encender la barbacoa eficazmente",
-        "Un truco para robar carbón al vecino sin dejar huellas",
-        "Un manual de maridado de paella con leña del clan Tormo",
-        "Un vídeo de Humberto apagando fogatas a base de cerveza"
+        "Un truco para robar carbón al vecino",
+        "La 'técnica del volcán' para encender la barbacoa",
+        "Un manual de paella con leña del clan Tormo",
+        "Un vídeo de cómo apagar fogatas con cerveza"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2014,
       "categoria": "momentazo",
       "explicacion": "Hugo llegó con un enlace de 'modoeficaz.com' sobre la técnica del volcán para encender barbacoas, rematado con un lacónico 'para la próxima'."
@@ -746,12 +689,12 @@
       "pregunta": "¿A quiénes señaló Joni como los dos fugitivos que podrían estar siendo buscados por la Interpol?",
       "cita": "Joni: Y los 2 buscados por la Interpol.. Podrían ser Paco Puça i Melchor?",
       "opciones": [
-        "Paco Puça i Melchor",
         "JM y TheVasca, en fuga europea",
-        "Hugo y Pablo Tormo, por la final de tenis",
-        "El clan de los Tormo al completo"
+        "El clan de los Tormo al completo",
+        "Paco Puça i Melchor",
+        "Hugo y Pablo Tormo, por la final de tenis"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "Ante dos rostros buscados, Joni no lo dudó: tenían que ser Paco Puça y Melchor. Hugo solo pudo responder con carcajada."
@@ -774,10 +717,10 @@
       "pregunta": "¿Qué irregularidad burocrática empañó la gran goleada del TT en febrero de 2015?",
       "cita": "Joni: es que a uno de los tormo no les apuntaron un gol. Mejor dicho, solo constaba un tormo en acta (o eso dijo JM)",
       "opciones": [
-        "El marcador final se cantó mal y hubo protesta oficial",
-        "El rival alineó a dos Tormo infiltrados sin ficha",
-        "El árbitro borró a un Tormo del acta y un gol quedó sin apuntar",
-        "Hugo fue expulsado por jugar inscrito como su padre"
+        "Hugo fue expulsado por jugar inscrito como su padre",
+        "El marcador final se cantó mal y hubo protesta",
+        "Solo constaba un Tormo en acta y faltó un gol",
+        "El rival alineó a dos Tormo infiltrados sin ficha"
       ],
       "correcta": 2,
       "anio": 2015,
@@ -788,12 +731,12 @@
       "pregunta": "¿Quiénes fueron bautizados como falleros de honor perpetuos de la primera falla sin falleras?",
       "cita": "Joni: Paco Puça, Melchor i Don Francisco Franco falleros de honor perpetuos",
       "opciones": [
-        "Javier Tormo, Pablo Tormo i el DJ mágico",
         "JM, TheVasca i la madre de Orengo",
-        "Paco Puça, Melchor i Don Francisco Franco",
-        "Humberto, Robinson i el fotógrafo de las cochinillas"
+        "Javier Tormo, Pablo Tormo i el DJ mágico",
+        "Humberto, Robinson i el fotógrafo de las cochinillas",
+        "Paco Puça, Melchor i Don Francisco Franco"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "La falla sin falleras necesitaba ilustres: Paco Puça, Melchor y hasta Don Francisco Franco entraron en el panteón perpetuo."
@@ -816,10 +759,10 @@
       "pregunta": "¿Qué 'prueba forense' esgrimió Hugo para identificar a Melchor en la foto recién desclasificada?",
       "cita": "Hugo: Me inclino a que el del medio es melchor, que siempre se le veía la hucha",
       "opciones": [
-        "Porque posaba en el centro, como en las fotos de boda",
-        "Porque llevaba la camiseta del Valencia retro",
+        "Porque posaba en el centro, como en las bodas",
+        "Porque era el único de los tres sin bigote",
         "Porque siempre se le veía la hucha",
-        "Porque era el único de los tres sin bigote"
+        "Porque llevaba la camiseta del Valencia retro"
       ],
       "correcta": 2,
       "anio": 2015,
@@ -830,12 +773,12 @@
       "pregunta": "¿Qué papel de ensueño se reservó en el casting de 'The Fimos' para el trío Paco Puça, Melchor y el padre de Hugo?",
       "cita": "Germi: Paco Puça que haga un cameo. Con Melchor y el padre de hugo",
       "opciones": [
-        "Los doblistas oficiales de Matt Damon",
-        "El equipo de efectos especiales",
         "Un cameo los tres juntos",
-        "Los villanos definitivos de la película"
+        "Los villanos definitivos de la película",
+        "El equipo de efectos especiales",
+        "Los doblistas oficiales de Matt Damon"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "El reparto de 'The Fimos' reservaba un cameo para Paco Puça junto a Melchor y el padre de Hugo: la Santa Trinidad en pantalla grande."
@@ -844,12 +787,12 @@
       "pregunta": "Con el reparto de 'The Fimos' copado de madres del pueblo, ¿a quién exigió Hugo incorporar al proyecto?",
       "cita": "Hugo: Y la madre de Miki ???",
       "opciones": [
-        "TheVasca, para una escena íntima con JM",
-        "La madre de Joni, examinadora del mitjà de valencià",
-        "La madre de Miki",
-        "Rita, la alcaldessa de València"
+        "TheVasca, para una escena con JM",
+        "Rita, la alcaldessa de València",
+        "La madre de Joni, examinadora del mitjà",
+        "La madre de Miki"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "opinion",
       "explicacion": "Con la madre de Orengo ya fichada como milf, Hugo exigió su cuota de reparto: la madre de Miki no podía faltar en 'The Fimos'."
@@ -858,12 +801,12 @@
       "pregunta": "¿Qué 'tenis del bueno' prometió Hugo presenciar el domingo a las 10h?",
       "cita": "Hugo: Chavales, si alguien quiere ver tenis del bueno, este domingo juego la final del ranking social de mi club VS Pablo Tormo, a las 10h",
       "opciones": [
-        "Un amistoso del TT contra el club de tenis de Paco Puça",
-        "La final de Wimbledon retransmitida desde Beniopa",
+        "Su final del ranking social contra Pablo Tormo",
         "El debut en el circuito ATP de Melchor tras la mili",
-        "Su final del ranking social de club contra Pablo Tormo"
+        "Un amistoso del TT contra el club de Paco Puça",
+        "La final de Wimbledon retransmitida desde Beniopa"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2015,
       "categoria": "momentazo",
       "explicacion": "Hugo se plantó en una final del ranking social contra nada menos que un Tormo, y remató el anuncio con un misterioso 'no no...'"
@@ -872,10 +815,10 @@
       "pregunta": "¿Qué refuerzos de peso anunció Hugo que se sumaban a la salida al Edén de ese domingo?",
       "cita": "Hugo: Se une, el clan los Tormo mas sus amigos mas las amigas de mi novia",
       "opciones": [
-        "Nadie: iría solo con la hucha de Melchor como presupuesto",
-        "El clan de los Tormo, sus amigos y las amigas de su novia",
-        "Solo su novia y un par de primos cachondos de refuerzo",
-        "Melchor de guardaespaldas y Paco Puça de DJ invitado"
+        "Solo su novia y un par de primos de refuerzo",
+        "El clan Tormo, sus amigos y las amigas de su novia",
+        "Nadie: iría solo con Melchor como acompañante",
+        "Melchor de guardaespaldas y Paco Puça de DJ"
       ],
       "correcta": 1,
       "anio": 2015,
@@ -886,10 +829,10 @@
       "pregunta": "¿Qué hazaña adivinatoria protagonizó 'el señor Tormo' justo antes de una prórroga?",
       "cita": "Hugo: El señor Tormo ha dicho quien iba a marcar",
       "opciones": [
-        "Pidió alinear a Paco Puça de delantero centro",
         "Se fue a dormir antes del pitido final",
+        "Predijo el resultado exacto al detalle",
         "Adivinó quién iba a marcar",
-        "Predijo el resultado exacto al detalle"
+        "Pidió alinear a Paco Puça de delantero centro"
       ],
       "correcta": 2,
       "anio": 2015,
@@ -900,54 +843,40 @@
       "pregunta": "Según la información policial que manejó Joni, ¿a quién se atribuyó un robo reciente en la zona?",
       "cita": "Joni: el robo se atribuye al famoso clan de los Tormo, que tuvo su mayor época de actividad hace unos 10 años",
       "opciones": [
-        "Al famoso clan de los Tormo, en su mejor época hace unos 10 años",
+        "A la banda del lalqueria",
+        "A los primos cachondos en gira veraniega",
         "A Feme, por ir más rápido que la lux",
-        "A los primos cachondos de Hugo, en gira veraniega",
-        "A la banda del lalqueria, como al padre de Miki"
+        "Al famoso clan de los Tormo"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "polemica",
       "explicacion": "La Policía señalaba al legendario clan Tormo, en activo hace una década. Feme se desmarcó: 'a mí no me pillaron, soy más rápido que la lux'."
     },
     {
-      "pregunta": "Cuando el grupo se disponía a hacerse los sorprendidos ante cierta situación, Joni sacó a la luz un testimonio incómodo de su paso por Barcelona. ¿De qué fueron 'todos testigos' según Joni?",
-      "cita": "Joni: Acaso no fuimos todos testigos de los sobeteos de polla a Humpa en Barcelona?",
-      "opciones": [
-        "De las lagunas mentales de Humpa en Barcelona",
-        "De los sobeteos de polla a Humpa en Barcelona",
-        "Del robo del móvil de Humpa en Barcelona",
-        "De los bailes de Humpa sobre la barra en Barcelona"
-      ],
-      "correcta": 1,
-      "anio": 2015,
-      "categoria": "momentazo",
-      "explicacion": "Joni lo soltó para que nadie se hiciera el sorprendido, con Humpa como protagonista involuntario del recuerdo más gráfico del expediente."
-    },
-    {
-      "pregunta": "En la organización de una cena, Joni anunció con orgullo un logro histórico de uno de los miembros del grupo. ¿Qué hattrick celebró Joni?",
+      "pregunta": "En la organización de una cena, Joni anunció con orgullo un logro histórico de Hugo. ¿Qué hattrick celebró Joni?",
       "cita": "Joni: Sisisi. Hattrick de ceniTTas de Don Hugo Tormo.. Al loro eh, que no estamos tan mal!",
       "opciones": [
+        "Un hattrick de potas en la MAE de Hugo",
+        "Un hattrick de cubatas de Don Hugo Tormo",
         "Un hattrick de cenitas de Don Hugo Tormo",
-        "Un hattrick de resacas seguidas de Don Hugo Tormo",
-        "Un hattrick de potas en la MAE de Don Hugo Tormo",
-        "Un hattrick de cubatas de Don Hugo Tormo"
+        "Un hattrick de resacas seguidas de Hugo"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2015,
       "categoria": "momentazo",
       "explicacion": "Hugo confirmó asistencia con un entusiasta 'Yo!!', demostrando que las cenitas son su verdadero deporte de élite."
     },
     {
-      "pregunta": "Feme preguntó a Hugo si el clan Tormo había comprado un camión, y de ahí salió toda una película. ¿Cuál era el plan soñado para el camión del clan Tormo?",
+      "pregunta": "Feme preguntó a Hugo si el clan Tormo había comprado un camión, y de ahí salió toda una película. ¿Cuál era el plan soñado para el camión?",
       "cita": "Feme: Y conduciera hugo con su cara borraxa",
       "opciones": [
-        "Salir de fiesta por ahí con Hugo conduciendo con su cara borracha y su risa, todo grabado en una caja negra",
-        "Acompañar a los escapados de la Vuelta por las carreteras de Gandia",
-        "Transportar las gambas de la cena de Navidad desde la piscifactoría gallega",
-        "Convertirlo en la discoteca ambulante TTlandia"
+        "Acompañar a los escapados de la Vuelta por Gandia",
+        "Salir de fiesta con Hugo conduciendo borracho y caja negra",
+        "Convertirlo en la discoteca ambulante TTlandia",
+        "Traer las gambas de Navidad desde la piscifactoría"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2015,
       "categoria": "momentazo",
       "explicacion": "Jorge completó la película: caja negra grabando los 'comentarios de bufao' incluidos. Lo que le faltaba al clan Tormo era exactamente eso."
@@ -957,11 +886,11 @@
       "cita": "Feme: El clan tormo sustituiria a la curva nord",
       "opciones": [
         "Vigilar el túnel de vestuarios",
+        "Vender camisetas a las xurris",
         "Cantar el himno en el descanso",
-        "Sustituir a la Curva Nord",
-        "Vender camisetas a las xurris"
+        "Sustituir a la Curva Nord"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "El plan completo incluía a Marc como estrella mediática para vender camisetas y a Miki con silla eléctrica: una descarga por cada queja."
@@ -970,10 +899,10 @@
       "pregunta": "Al organizar la cena de Navidad, Jorge pidió confirmar la asistencia urgentemente por un motivo muy concreto. ¿Qué advirtió Jorge sobre las gambas?",
       "cita": "Jorge: Que luego se compran las gambas justas.. Y se las come todas Hugo",
       "opciones": [
-        "Que Hugo las prueba todas para comprobar que no están malas",
+        "Que Hugo las reparte antes de que llegue nadie",
         "Que se compran las gambas justas y Hugo se las come todas",
         "Que el padre de Hugo se lleva un palé de gambas a casa",
-        "Que Hugo las reparte antes de que llegue nadie"
+        "Que Hugo las prueba todas para ver si están buenas"
       ],
       "correcta": 1,
       "anio": 2015,
@@ -981,15 +910,15 @@
       "explicacion": "Joni remató que aunque la cena se hiciera en la mayor piscifactoría gallega, el resultado sería el mismo. Su padre, eso sí, es más de comer almejas."
     },
     {
-      "pregunta": "Joni aportó el dato de que una etapa de la Vuelta acabaría en Gandia el próximo verano, y el chat ya imaginó la imagen perfecta. ¿Cuál era el papel de los Tormo en la Vuelta?",
+      "pregunta": "Joni aportó el dato de que una etapa de la Vuelta acabaría en Gandia el próximo verano, y el chat ya imaginó la imagen perfecta. ¿Cuál era el papel de los Tormo?",
       "cita": "Joni: Los tormo acompañando a los escapados",
       "opciones": [
-        "Acompañando a los escapados",
+        "Repartiendo cubatas en el podio",
         "Haciendo de comisarios de carrera",
         "Cantando el himno en la meta",
-        "Repartiendo cubatas en el podio"
+        "Acompañando a los escapados"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "Feme ya veía las 'gráficas de perraca' de la familia Tormo persiguiendo ciclistas por las carreteras de Gandia."
@@ -998,66 +927,52 @@
       "pregunta": "Sobre la amenaza de 'os vamos a reventar' escuchada en el túnel de Cornellà, Hugo aportó su análisis de lo que haría Luis Enrique. ¿Cuál fue la teoría de Hugo?",
       "cita": "Hugo: Si es baixa les braguetes",
       "opciones": [
-        "Que si sale del túnel pidiendo perdón",
-        "Que si cambia de camiseta con Valerón",
+        "Que si se baja las braguetas",
         "Que si canta los villancicos que le pidan",
-        "Que si se baja las braguetas"
+        "Que si cambia de camiseta con Valerón",
+        "Que si sale del túnel pidiendo perdón"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2016,
       "categoria": "momentazo",
       "explicacion": "Su teoría encajó con el 'boca a boca' que describió Joni después, donde cualquiera leía 'chupo cualquier rabo con fines laborales'."
     },
     {
-      "pregunta": "Cuando Miki vaticinó que las Palmas eliminaría al Valencia de la Copa, Hugo encontró un parecido razonable inquietante. ¿Con quién comparó Hugo a Miki?",
+      "pregunta": "Cuando Miki vaticinó que Las Palmas eliminaría al Valencia de la Copa, Hugo encontró un parecido razonable inquietante. ¿Con quién comparó Hugo a Miki?",
       "cita": "Hugo: Miki pareces mi padre",
       "opciones": [
         "Con Marzal volviendo de fiesta",
-        "Con Gary Neville en rueda de prensa",
         "Con su padre, que lo dice súper convencido",
+        "Con Gary Neville en rueda de prensa",
         "Con Paco Puça en una pulpería"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Según Hugo, la diferencia era que Javier Tormo lo dice 'súper convencido', aunque él defendió que los análisis de su padre siempre salen bien."
     },
     {
-      "pregunta": "La víspera de una gran jornada gastronómica, Hugo estaba en plan director técnico preocupado por el rendimiento de Paco Puça. ¿Cuál era su gran temor para el día siguiente?",
+      "pregunta": "La víspera de una gran jornada gastronómica, Hugo estaba en plan director técnico preocupado por el rendimiento de Paco Puça. ¿Cuál era su gran temor?",
       "cita": "Hugo: A vore com vaja demà paco puça i no hagen res en les polperes",
       "opciones": [
-        "Que Paco Puça se quedara dormido y no llegara a las pulperías",
-        "Que Paco Puça fuera a las pulperías y no hubiera nada en ellas",
-        "Que Paco Puça confundiera las pulperías con la pescadería",
-        "Que en las pulperías le pusieran el pulpo congelado"
+        "Que confundiera las pulperías con la pescadería",
+        "Que Paco Puça se quedara dormido",
+        "Que fuera a las pulperías y no hubiera nada",
+        "Que en las pulperías le pusieran pulpo congelado"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Hugo velaba por la misión pulpera de Paco Puça como si fuera su seleccionador, aunque se consolaba imaginando su 'paelleta de sepionets amb alls tendres'."
     },
     {
-      "pregunta": "Tras una noche de esas que dejan huella, Joni ideó un plan de venganza silenciosa con nota incluida. ¿Qué decía la nota que planeaba dejar en un coche perfumado a Humpa y Miki?",
-      "cita": "Joni: Una noteta en el cotxe perfumada a Humpa i miki que fique :gracias por esta noche loca. Mar",
-      "opciones": [
-        "'Nunca más os dejamos el coche. Mar'",
-        "'Gracias por la noche, pagad la gasolina. Mar'",
-        "'Se ha quedado algo vuestro dentro. Mar'",
-        "'Gracias por esta noche loca. Mar'"
-      ],
-      "correcta": 3,
-      "anio": 2016,
-      "categoria": "momentazo",
-      "explicacion": "Feme mejoró el plan cambiándolo a 'gracias por OTRA noche loca', dejando claro que aquello ya era costumbre con firma."
-    },
-    {
-      "pregunta": "Con el escándalo de dopaje a punto de destapar nombres y el clan Tormo señalado como implicado en la trama, Hugo hizo una pregunta de lo más urgente. ¿Qué le preguntó Hugo a Joni?",
+      "pregunta": "Con el escándalo de dopaje a punto de destapar nombres y el clan Tormo señalado en broma como implicado, Hugo hizo una pregunta urgente. ¿Qué le preguntó a Joni?",
       "cita": "Hugo: Esta serena williams per ahí??",
       "opciones": [
         "Si Serena Williams andaba por ahí",
-        "Si la BBC iba a destapar su nombre esa misma noche",
+        "Si el clan Tormo tenía abogado para el caso",
         "Si la trama afectaba a sus primos los cachondos",
-        "Si el clan Tormo tenía abogado para el caso"
+        "Si la BBC iba a destapar su nombre esa noche"
       ],
       "correcta": 0,
       "anio": 2016,
@@ -1065,29 +980,15 @@
       "explicacion": "Entre 'amanyadors' de la BBC, top10 y campeones de Grand Slam implicados, Hugo solo priorizó localizar a Serena Williams. Prioridades."
     },
     {
-      "pregunta": "Analizando el estado de forma de Ferrer, Feme encontró la analogía perfecta con una situación muy conocida del grupo. ¿Con qué comparó Feme el momento de Ferrer?",
-      "cita": "Feme: Ahora mismo es como marzal volviendo de fiesta",
-      "opciones": [
-        "Como Marzal en la MAE pidiendo la última ronda",
-        "Como Germi gritando fuck the police a las tantas",
-        "Como Hugo conduciendo el camión del clan Tormo",
-        "Como Marzal volviendo de fiesta: cree que está bien para llegar a casa pero está reventao"
-      ],
-      "correcta": 3,
-      "anio": 2016,
-      "categoria": "opinion",
-      "explicacion": "Feme lo clavó: 'cree que esta bien para llegar a casa, pero esta rebentao'. La ciencia de la resaca aplicada al tenis."
-    },
-    {
-      "pregunta": "Viendo al Valencia incapaz de dar dos pases seguidos ante el Barça, Hugo tomó una drástica decisión para proteger a su padre. ¿Qué decidió hacer Hugo?",
+      "pregunta": "Viendo al Valencia incapaz de dar dos pases seguidos ante el Barça, Hugo tomó una drástica decisión para proteger a su padre. ¿Qué decidió hacer?",
       "cita": "Hugo: Yo le voy a quitar el fútbol a mi padre que sinos le xoger a algo",
       "opciones": [
-        "Quitarle el mando de la tele a su padre",
-        "Quitarle el fútbol a su padre para que no le fuera a pasar nada",
+        "Prohibirle ver las repeticiones del partido",
         "Apuntar a su padre a un grupo de apoyo",
-        "Prohibirle ver las repeticiones del partido"
+        "Quitarle el mando de la tele a su padre",
+        "Quitarle el fútbol a su padre para que no le diera algo"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2016,
       "categoria": "momentazo",
       "explicacion": "Medida de protección filial ante el plantel penoso de Neville: mejor sin fútbol que viendo eso."
@@ -1096,12 +997,12 @@
       "pregunta": "Joni fantaseó con una web que recogiera 'todas las depravaciones del clan Tormo'. ¿Cuál fue el veredicto técnico de Feme sobre el proyecto?",
       "cita": "Joni: Ojalá esa web pudiera contar con todas las depravaciones del clan tormo",
       "opciones": [
-        "Que era imposible: no habría categorías suficientes para tanto Tormo",
-        "Que el clan Tormo exigiría derechos de imagen",
+        "Que solo aceptarían vídeos verificados por la iaia",
+        "Que no habría categorías suficientes para tanto Tormo",
         "Que ya existía y el moderador era Melchor",
-        "Que solo aceptarían vídeos verificados por la iaia"
+        "Que el clan Tormo exigiría derechos de imagen"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Joni soñaba con archivar todas las depravaciones familiares, pero Feme sentenció que ni con todas las categorías de internet daría abasto."
@@ -1110,10 +1011,10 @@
       "pregunta": "Para la futura 'sección propia' del clan Tormo en esa web, ¿qué sistema de puntuación propuso Joni?",
       "cita": "Jorge: Seccion propia para el clan Tormo",
       "opciones": [
-        "En piñazos: del piñazo leve al piñazo estilo JM",
-        "En fanecaes: de media fanecae a la fanecae de oro",
         "En estrellitas, al estilo Michelin",
-        "En tormos: de 1 tormo (poco guarro) a 5 tormos (mega desfase)"
+        "En fanecaes: de media a la fanecae de oro",
+        "En piñazos: del leve al estilo JM",
+        "En tormos: de 1 tormo a 5 tormos (mega desfase)"
       ],
       "correcta": 3,
       "anio": 2016,
@@ -1125,9 +1026,9 @@
       "cita": "Hugo: Que risa interna cada vez que nombraba a su padre",
       "opciones": [
         "La hija de Torró",
-        "La hija del gestor",
         "La madrileña del cuello de Germán",
-        "Irene Junquera, la monguer de turno"
+        "Irene Junquera, la monguer de turno",
+        "La hija del gestor"
       ],
       "correcta": 0,
       "anio": 2016,
@@ -1138,12 +1039,12 @@
       "pregunta": "¿Qué 'informe de valoración' completo emitió Hugo sobre su pasajera de Valencia a Gandia?",
       "cita": "Hugo: Tiene buenas berzas",
       "opciones": [
-        "Que tiene buenas berzas... y operadas",
-        "Que de berzas nada: lo mejor era la conversación",
         "Que las berzas eran lo único salvable del viaje",
-        "Que tenía unas berzas naturales, de la huerta de Gandia"
+        "Que tenía unas berzas naturales de la huerta",
+        "Que tiene buenas berzas... y operadas",
+        "Que de berzas nada: lo mejor era la charla"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2016,
       "categoria": "momentazo",
       "explicacion": "Hugo valoró a su pasajera con ojo de ojeador: buenas berzas y, remate de cronista, operadas."
@@ -1152,12 +1053,12 @@
       "pregunta": "Hugo destapó un olvido imperdonable de Héctor en la charla sobre padres gestores. ¿Qué se le había olvidado?",
       "cita": "Héctor: Para los nombre soy malisimo",
       "opciones": [
-        "Dónde estaba el parkin del Prado",
-        "El nombre de su padre",
+        "Dónde estaba el parking del Prado",
+        "Su propio dorsal en el equipo",
         "El nombre del tío de Marc",
-        "Su propio dorsal en el fantasmas"
+        "El nombre de su padre"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Héctor preguntó qué padre era gestor, Hugo dijo 'el mío'... y Héctor ni siquiera recordaba cómo se llamaba el señor."
@@ -1166,12 +1067,12 @@
       "pregunta": "Tras el fichaje laboral de Joni (con su madre haciendo de Mendes), ¿qué condición puso Hugo para ser 'amics de veres'?",
       "cita": "Joni: Falta que le abonen la cláusula a mi madre que ha sido la Mendes de la negociación",
       "opciones": [
-        "Probar el puchero de la iaia",
-        "Que Joni le consiguiera un bombón decente con su cafetería",
         "Ver juntos los partidos de Ferru en horario laboral",
-        "Que Joni dejara los 8 cigarros diarios"
+        "Que Joni dejara los 8 cigarros diarios",
+        "Probar el puchero de la iaia",
+        "Que Joni le consiguiera un bombón decente"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "La amistad Hugo-Joni tenía un tratado pendiente: hasta que Joni pruebe el puchero de la iaia, no hay paz diplomática."
@@ -1180,12 +1081,12 @@
       "pregunta": "Joni estrenó trabajo amenazando con atropellar a alguien 'fill de puta' si no le contestaban. ¿Qué resultado deportivo de Hugo esperaba?",
       "cita": "Jorge: Negociando cuantos pitis/la hora",
       "opciones": [
-        "Cuántos cigarros cabían en su pausa de la tarde",
+        "Cuántos pitis por hora había negociado Joni",
         "Si a Joni le abonaban la cláusula de su madre",
-        "Cómo había quedado Hugo en la 10k",
-        "Cuántos pitis por hora había negociado Joni"
+        "Cuántos cigarros cabían en su pausa",
+        "Cómo había quedado Hugo en la 10k"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2016,
       "categoria": "momentazo",
       "explicacion": "Entre camiones y horarios de la muerte, la prioridad de Joni era saber cómo había quedado Hugo en la 10k, so pena de atropello."
@@ -1208,12 +1109,12 @@
       "pregunta": "En la racha de 'EXCLUSIVAS SPORT' falsas de Joni (Hitler-Goebbel incluida), ¿cuál involucraba a Paco Puça?",
       "cita": "Joni: #ÚltimaHora| EXCLUSIVA SPORT: Principio de acuerdo entre Hitler y Goebbel por Revivo",
       "opciones": [
-        "Senegal y Zambia por la renovación del tifus por 50 años",
+        "Senegal y Zambia por la renovación del tifus",
+        "Hugo y Morocco para pagarle 3 bailes a Marzal",
         "Jimmy y Speedo por 3 temporadas",
-        "Melchor y Paco Puça por 3 fanecaes de barbastre",
-        "Hugo y Morocco para pagarle 3 bailes a Marzal"
+        "Melchor y Paco Puça por 3 fanecaes de barbastre"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Entre tanto fichaje absurdo, la joya era Melchor y Paco Puça cerrando un principio de acuerdo por 3 fanecaes de barbastre."
@@ -1222,12 +1123,12 @@
       "pregunta": "Feme quiso su propia 'EXCLUSIVA SPORT' con Hugo de protagonista. ¿Cuál fue?",
       "cita": "Joni: #ÚltimaHora| EXCLUSIVA SPORT: Principio de acuerdo entre Jimmy y Speedo por 3 temporadas",
       "opciones": [
-        "Hugo y Speedo por 3 temporadas",
+        "Hugo y Morocco para pagarle 3 bailes a Marzal",
         "Hugo y Goebbel por el fichaje de Revivo",
         "Hugo y Zambia por la renovación del tifus",
-        "Hugo y Morocco para pagarle 3 bailes a Marzal"
+        "Hugo y Speedo por 3 temporadas"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Feme coló su propia exclusiva: Hugo y Morocco juntando cuentas para costearle 3 bailes a Marzal."
@@ -1236,12 +1137,12 @@
       "pregunta": "Mientras se organizaba la paella, ¿qué plan tan específico le atribuyó Miki a Marc... con Hugo incluido en la escena?",
       "cita": "Miki: A qué hora es la puta paella esa?",
       "opciones": [
-        "Cepillarse a una cochina de l'Alquería en la sèquia, junto a los patos y a Hugo",
-        "Montar una orgia tipo Leicester a orillas de la sèquia",
+        "Montar una fiesta tipo Leicester a orillas de la sèquia",
+        "Pescar truchas en la sèquia con Hugo y los patos de público",
         "Hacer de guía turístico de l'Alquería con Hugo de auxiliar",
-        "Pescar truchas en la sèquia con Hugo y los patos de público"
+        "Cepillarse a una cochina de l'Alquería junto a los patos y a Hugo"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2016,
       "categoria": "momentazo",
       "explicacion": "Miki retrató el hipotético idilio rural de Marc con detalle de documental: sèquia, patos, una cochina de l'Alquería y Hugo de testigo."
@@ -1250,10 +1151,10 @@
       "pregunta": "La conversación pizzera de Hugo derivó en juicio público. ¿Qué 'leyenda o verdad' sobre el clan Tormo planteó Joni?",
       "cita": "Joni: Lo de que hay una foto del clan tormo en la puerta de los Domino's de Valencia.. Leyenda o verdad?",
       "opciones": [
-        "Que Paco Puça repartía pizzas antes de dedicarse a las fanecaes",
-        "Que hay una foto del clan Tormo en la puerta de los Domino's de Valencia",
-        "Que los Tormo batió el récord mundial de buffets",
-        "Que el clan Tormo tiene una pizzería con su nombre en Gandia"
+        "Que Paco Puça repartía pizzas antes de las fanecaes",
+        "Que hay una foto del clan Tormo en los Domino's de Valencia",
+        "Que los Tormo batieron el récord mundial de buffets",
+        "Que el clan Tormo tiene una pizzería en Gandia"
       ],
       "correcta": 1,
       "anio": 2016,
@@ -1261,15 +1162,15 @@
       "explicacion": "De la duda del buffet de Hugo se pasó al mito fundacional: la supuesta foto del clan Tormo presidiendo la puerta de los Domino's de Valencia."
     },
     {
-      "pregunta": "¿Qué gran descubrimiento gastronómico compartió Hugo con el grupo?",
+      "pregunta": "¿Qué gran descubrimiento gastronómico compartió Hugo con el grupo en 2016?",
       "cita": "Hugo: Marxal se pot demanar de buffet?",
       "opciones": [
-        "Que el Marxal servía fanecaes rebozadas en formato buffet",
         "Que el puchero de la iaia se podía pedir a domicilio",
-        "Un kebab en Turquía que te destroza las manos de tanto cortar",
-        "Buffets de pizza en Valencia por 7€, con las pizzas que quieras y bebida"
+        "Que el Marxal servía fanecaes rebozadas en buffet",
+        "Buffets de pizza en Valencia por 7€ con bebida",
+        "Un kebab gigante con bebida gratis en Gandia"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Hugo preguntó si el Marxal podía ser buffet y soltó su hallazgo: 7€, pizzas infinitas y bebida. Solo faltaba dilucidar el mínimo de comensales."
@@ -1279,9 +1180,9 @@
       "cita": "Joni: Té un bon polvo però també una bona galtà de quan en quan",
       "opciones": [
         "Son chicas: imposible entenderlas",
-        "Que son como el Leicester: nadie las ve venir",
-        "Que hay que jugar con lámparas iluminadas para entenderlas",
-        "Que el saque lo decide todo en este deporte"
+        "Que hay que jugar con lámparas para entenderlas",
+        "Que el saque lo decide todo en este deporte",
+        "Que son como el Leicester: nadie las ve venir"
       ],
       "correcta": 0,
       "anio": 2016,
@@ -1292,9 +1193,9 @@
       "pregunta": "Tras el 5-1 de España, Feme cantó victoria con sus apuestas. ¿Cuál fue la reacción instantánea del clan Tormo al oler el dinero?",
       "cita": "Jorge: Mira como acuden los Tormo al olor de las apuestas",
       "opciones": [
-        "Javier Tormo pidió reinvertir los 40 eurets en el próximo partido",
+        "Los Tormo se desmarcaron de las apuestas",
         "Hugo exigió su comisión por asesorar la apuesta",
-        "Los Tormo se desmarcaron: las apuestas son del demonio",
+        "Javier Tormo pidió reinvertir los 40 eurets",
         "Hugo apareció de la nada preguntando 'Cuanto money?'"
       ],
       "correcta": 3,
@@ -1306,40 +1207,26 @@
       "pregunta": "Con 'Narcos' en antena, el grupo escribió su propia crónica negra: 'Ha sido detenido en Medellín Marzal Escobar'. ¿Por qué estaba el narco en busca y captura?",
       "cita": "Feme: Se han descubierto grandes alijos de cromos pokemon",
       "opciones": [
-        "Por contratar a Humberto como abogado sin colegiar",
-        "Por haberle propinado una palicilla a un joven español llamado Hugo Tormo",
+        "Por darle una palicilla a un joven español llamado Hugo Tormo",
         "Por estafar 40 eurets en apuestas al clan Tormo",
-        "Por robarle la sonrisa típica a JM"
+        "Por robarle la sonrisa típica a JM",
+        "Por contratar a Humberto como abogado sin colegiar"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2016,
       "categoria": "momentazo",
-      "explicacion": "La ficción situaba al narco busca y captura por dar una palicilla a Hugo Tormo, con alijos de cromos Pokémon y Humberto de abogado 'puro en mano'."
-    },
-    {
-      "pregunta": "Según esa misma falsa noticia de Narcos, ¿cuál era el modus operandi del narco Marzal Escobar con los cromos Pokémon?",
-      "cita": "Jorge: Imagenes de archivo...",
-      "opciones": [
-        "Los cambiaba por la multitap de la PS2",
-        "Los escondía dentro de las palicillas a turistas españoles",
-        "Los vendía en Mestalla cada vez que entraban al área",
-        "Acudía a las puertas de los colegios para enganchar a los más jóvenes"
-      ],
-      "correcta": 3,
-      "anio": 2016,
-      "categoria": "lore",
-      "explicacion": "El delito más grave: enganchar a los más jóvenes a los cromos Pokémon a las puertas de los colegios, con JM y su sonrisa típica de 'verdadero hijoputa' cerrando el reportaje."
+      "explicacion": "La ficción situaba al narco en busca y captura por dar una palicilla a Hugo Tormo, con alijos de cromos Pokémon y Humberto de abogado 'puro en mano'."
     },
     {
       "pregunta": "Joni ofreció la casa de su abuela para ver la maratón de Valencia en diferido. ¿Cuál era el sueño de retransmisión que acompañaba al plan?",
       "cita": "Joni: En casa mi abuela vamos a ver la maratón de Valencia en redifusión",
       "opciones": [
-        "Javier Tormo y TTino narrando, comparando los tiempos de Hugo con los de los keniatas",
-        "Javier Tormo narrando y su hijo Hugo de liebre oficial del maratón",
-        "Paco Puça y TTino narrando, con cámara on board en Hugo",
-        "TTino y Germi narrando, con el chandal de acadef como premio"
+        "TTino y Germi narrando con el chándal de acadef de premio",
+        "Javier Tormo y TTino narrando los tiempos de Hugo vs keniatas",
+        "Paco Puça y TTino narrando con cámara on board en Hugo",
+        "Javier Tormo narrando y Hugo de liebre oficial del maratón"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "El dream team de micros soñado: Javier Tormo y TTino midiendo a Hugo contra la élite keniata, con cámara on board de propina."
@@ -1348,12 +1235,12 @@
       "pregunta": "En plena goleada del Barça y con Mascherano bajo fuego, Hugo citó una profecía en directo de su padre. ¿Qué había dicho Javier Tormo?",
       "cita": "Joni: Que Mascherano siga de titular es una puta vergüenza",
       "opciones": [
-        "Road to Cardiff, aún hay liga",
-        "Este Mascherano ficha por el Valencia en enero",
         "Ahora marcará como la playstation",
+        "Este Mascherano ficha por el Valencia en enero",
+        "Road to Cardiff, aún hay liga",
         "Rakitic se va al City esta misma noche"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2017,
       "categoria": "lore",
       "explicacion": "Ojo clínico del patriarca Tormo: 'ahora marcará como la playstation'. Hugo lo transmitió al grupo como quien narra un milagro."
@@ -1363,39 +1250,25 @@
       "cita": "Hugo: Que malo es el mascherano che",
       "opciones": [
         "El árbitro debe ser de la ACB",
+        "Éramos unos alarmistas",
         "No tienen ni puta idea de hacer centros",
-        "Ha ganado de milagro en Mestalla",
-        "Eramos unos alarmistas"
+        "Ha ganado de milagro en Mestalla"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2017,
       "categoria": "opinion",
       "explicacion": "Veredicto Hugo: ni puta idea de hacer centros. Duro, directo y probablemente cierto."
     },
     {
-      "pregunta": "Jorge abrió el 'prepartido de Nadal' con una conexión especial: 'Conectamos con Humpasca'. ¿Qué ritual propuso para el día siguiente?",
-      "cita": "Jorge: Conectamos con Humpasca",
-      "opciones": [
-        "Un purito como Humberto",
-        "Achante",
-        "Aplicar el 155 a la cena",
-        "Cámara on board desde la bici"
-      ],
-      "correcta": 1,
-      "anio": 2017,
-      "categoria": "lore",
-      "explicacion": "El ritual pre-Nadal con Humpasca tenía nombre propio: 'achante'. Nadie sabe exactamente qué es, pero funciona."
-    },
-    {
       "pregunta": "Hablando del peligro de pedalear por carretera, Hugo soltó un dato escalofriante del entorno de Javier Tormo. ¿Qué contó?",
       "cita": "Miki: Mi padre iba en bici toda la vida, hasta que un coche de una lela se lo llevó por delante",
       "opciones": [
-        "Que De la Peña, el ex del Barça, le enseñó a su padre a pedalear",
-        "Que Javier Tormo dejó la bici al ver el accidente del padre de Miki",
-        "Que su padre iba en bici hasta que una lela se lo llevó por delante",
-        "Que un compañero de su padre, 'De la Peña', también se lo cargaron"
+        "Que a un compañero de su padre, 'De la Peña', también se lo cargaron",
+        "Que Javier Tormo dejó la bici al ver el accidente",
+        "Que su padre se compró una bici estática",
+        "Que De la Peña, el ex del Barça, le enseñó a pedalear"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2017,
       "categoria": "lore",
       "explicacion": "Hugo reveló que a un compañero de su padre apodado 'De la Peña' un coche también se lo cargó. Feme, a lo suyo: '¿Ese no jugaba en el Barça?'"
@@ -1405,25 +1278,25 @@
       "cita": "Joni: Y luego le mostramos por si acaso una foto de Hugo que seguro que a alguna le suena",
       "opciones": [
         "'Ese es el narco de Medellín, busca y captura'",
+        "'Ah sí, a ese me lo follé en un water'",
         "'Ese puso el libro de Magic Alonso en bachiller'",
-        "'Ese me debe los 40 eurets de la apuesta'",
-        "'Ah sí, a ese me lo folle en un water'"
+        "'Ese me debe los 40 eurets de la apuesta'"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2017,
       "categoria": "momentazo",
       "explicacion": "Feme no dudó: la sola imagen de Hugo desataría un 'me lo folle en un water' automático. Confianza absoluta en el producto."
     },
     {
-      "pregunta": "Joni recreó el testimonio de una afortunada que conoció a Hugo en persona. ¿Con qué frase legendaria asegura que él la susurró?",
+      "pregunta": "Joni recreó el testimonio de una afortunada que conoció a Hugo en persona. ¿Con qué frase legendaria asegura que él le susurró?",
       "cita": "Feme: Ah si a ese me lo folle en un water",
       "opciones": [
         "'Tengo grandes alijos de cromos Pokémon'",
         "'Mi padre predice los goles como la playstation'",
-        "'Mi primo Pink te puede montar una pachanga'",
-        "'Mi padre es el alcalde de Alfauir'"
+        "'Mi padre es el alcalde de Alfauir'",
+        "'Mi primo Pink te puede montar una pachanga'"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2017,
       "categoria": "lore",
       "explicacion": "El método Tormo de seducción: acercarse y susurrar 'mi padre es el alcalde de Alfauir'. Irrefutable."
@@ -1432,40 +1305,26 @@
       "pregunta": "Para acompañar la ceniTTa del viernes, Hugo propuso una pachanga y ofreció su red de contactos. ¿A quién prometió reclutar?",
       "cita": "Hugo: Pues estaría gracioso hacer una pachanga",
       "opciones": [
-        "A los Tormo, al olor de las apuestas",
+        "A los compañeros de De la Peña",
         "A Roc Table y Sandro, road to el Sevilla",
-        "A sus primos, a sus amigos y a Pink",
-        "A los compañeros de De la Peña"
+        "A los Tormo, al olor de las apuestas",
+        "A sus primos, a sus amigos y a Pink"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2018,
       "categoria": "lore",
       "explicacion": "Hugo sacó a los cachondos de siempre: sus primos, sus colegas y Pink, listos para la pachanga previa a la ceniTTa."
     },
     {
-      "pregunta": "Jorge pidió a Humpa sinceridad absoluta: 'Di la verdad, ¿qué noticia te gusta más?'. ¿Cuáles eran las dos candidatas del día?",
-      "cita": "Jorge: Humpa, di la verdad. Que noticia te gusta mas",
-      "opciones": [
-        "La gesta de Magic Alonso en bachiller o la detención de Joaquín Reyes disfrazado de Puchimon",
-        "El 5-1 de España o los 40 eurets de Feme",
-        "El 155 de la ceniTTa o el ritual achante de Nadal",
-        "La palicilla de Medellín o los alijos de cromos Pokémon"
-      ],
-      "correcta": 0,
-      "anio": 2018,
-      "categoria": "lore",
-      "explicacion": "La pugna informativa del año: el libro de Magic Alonso desafiendo al profesorado contra Joaquín Reyes hecho un Puchimon. Feme ya había votado: 'esa noticia es la puta risa'."
-    },
-    {
       "pregunta": "Aquella tarde de kebabs y Just Eat, Hugo soltó una bomba laboral que nadie vio venir. ¿Qué anunció?",
       "cita": "Miki: Total, pero bueno como está multi empleado y es top 3 en economía sumergida en la comunitat, se lo perdonamos",
       "opciones": [
+        "Que le habían contratado en una clínica en Gandia",
         "Que se iba de mochilero a Tailandia con Humberto",
         "Que se compraba el kebab donde cenaba Miki",
-        "Que le habían fichado como DJ residente de la discoteca de Liria",
-        "Que le habían contratado en una clínica en Gandia"
+        "Que le habían fichado como DJ en Liria"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2018,
       "categoria": "momentazo",
       "explicacion": "Hugo lo confirmó a lo grande: 'Me han contratado en una clínica! En Gandia'. Con multiempleo y top 3 en economía sumergida, nadie se extrañó."
@@ -1474,12 +1333,12 @@
       "pregunta": "Tras la notificación del pedido de Just Eat de Hugo Tormo y la defensa de Miki ('top 3 en economía sumergida'), Jorge coronó a Hugo con un título honorífico. ¿Cuál?",
       "cita": "Jorge: Hugo, estas en Liria?",
       "opciones": [
+        "El Barón del Kebab",
         "Don Gandia I",
         "Don Negro",
-        "El Barón del Kebab",
         "Don Liria"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2018,
       "categoria": "lore",
       "explicacion": "Entre la notificación de Just Eat y el '¿estás en Liria?', Jorge elevó a Hugo a la nobleza: Don Negro, título vitalicio de la economía sumergida comunitaria."
@@ -1488,68 +1347,40 @@
       "pregunta": "Joni lanzó una teoría perturbadora sobre el uso que el padre de Hugo le daba al Plus de casa. ¿Cuál era?",
       "cita": "Hugo: Miki háblale a Pepe a ver qué dice",
       "opciones": [
-        "Que era la única forma de subir el volumen sin pelearse con la madre de Hugo",
-        "Que lo usaba para pedir el F1 en valenciano sin que se enterara nadie",
-        "Que lo usaba para mandar recados de amor a una vecina de Liria",
-        "Que no sabía decirle a la madre de Hugo que quería follar y le soltaba indirectas a través del Plus"
+        "Que lo usaba para pedir la F1 en valenciano en secreto",
+        "Que le soltaba indirectas sexuales a la madre de Hugo por el Plus",
+        "Que lo usaba para mandar recados a una vecina de Liria",
+        "Que era la única forma de subir el volumen sin pelearse"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2018,
       "categoria": "calfada",
       "explicacion": "Según Joni, Javier Tormo no sabía pedirle directamente sexo a la madre de Hugo y le soltaba indirectas por el Plus. Hugo ni lo negó: pidió interrogar a Pepe como testigo."
     },
     {
-      "pregunta": "Cuando Jorge preguntó por el ambiente del bunkerazo, Joni respondió soltando una confesión de Humberto. ¿Cuál?",
-      "cita": "Jorge: Buen ambiente en el bunkerazo?",
-      "opciones": [
-        "Que Humberto se gastó la paga en garrafas de calimocho",
-        "Que Humberto dijo que se follaba a la Ana Julia",
-        "Que Humberto se declaró a la dueña del bunker por megafonía",
-        "Que Humberto lloró con el final de una telenovela turca"
-      ],
-      "correcta": 1,
-      "anio": 2018,
-      "categoria": "calfada",
-      "explicacion": "Joni respondió con munición pesada: 'Humberto dijo que se follaba a la ana Julia. Te vale Jorge?'. Según Jorge, la broma era muy tuya de Humpa."
-    },
-    {
       "pregunta": "Hugo desveló por fin el lugar exacto donde se grabó el mítico vídeo de Izan. ¿Cuál era?",
       "cita": "Miki: Ostia el vídeo de izan jajaja",
       "opciones": [
-        "En el sofá de casa de Germi, con JM de testigo",
-        "En su piso de Valencia, saliendo después de fiesta con Diego el de Madrid",
-        "En el bunkerazo de Miki, con Joni de director de fotografía",
-        "En la clínica de Gandia, en plena consulta"
-      ],
-      "correcta": 1,
-      "anio": 2018,
-      "categoria": "momentazo",
-      "explicacion": "Germi intentaba situar la escena ('Marc duerme, yo se la tiro') y Hugo confirmó: su piso de Valencia, con after-fiesta con Diego el de Madrid incluido."
-    },
-    {
-      "pregunta": "Joni tranquilizó a Humpa con una teoría de parecido imposible escuchada en su propia casa. ¿Quién se suponía que se parecía a quién?",
-      "cita": "Joni: Humpa, no estás solo en ésto",
-      "opciones": [
-        "El Súper de Los Serrano y Xavi",
-        "Paco Puça y Puyol",
-        "Fran Perea y Fàbregas",
-        "Fran Perea y Iniesta"
+        "En la clínica de Gandia, en plena consulta",
+        "En el bunkerazo de Miki, con Joni de cámara",
+        "En su piso de Valencia, tras salir con Diego el de Madrid",
+        "En el sofá de casa de Germi, con JM de testigo"
       ],
       "correcta": 2,
       "anio": 2018,
-      "categoria": "lore",
-      "explicacion": "El padre de Joni, viendo Los Serrano grabados de FDF, vio a Fran Perea parecido a Fàbregas. Joni consoló a Humpa: no estaba solo en el arte de los parecidos imposibles."
+      "categoria": "momentazo",
+      "explicacion": "Germi intentaba situar la escena ('Marc duerme, yo se la tiro') y Hugo confirmó: su piso de Valencia, con after-fiesta con Diego el de Madrid incluido."
     },
     {
       "pregunta": "En octubre de 2018, Miki propuso enviar un comando de rescate con JM incluido. ¿En qué estado oficial se encontraba Tormo?",
       "cita": "Germi: Es de Leon alli falta el oxigeno",
       "opciones": [
         "De retiro espiritual sin cobertura",
+        "De gira con la banda de folk de su pueblo",
         "En huelga de silencio por una apuesta perdida",
-        "Desaparecido en combate",
-        "De gira con la banda de folk de su pueblo"
+        "Desaparecido en combate"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2018,
       "categoria": "lore",
       "explicacion": "Mientras Germi diseccionaba la vida de una leonesa de 34 años ('allí falta el oxígeno'), Miki propuso un comando con JM y un Tormo 'desaparecido en combate'."
@@ -1558,12 +1389,12 @@
       "pregunta": "Miki soñaba con reforzar el plan deportivo dominical con sangre Tormo. ¿A quién quiso reclutar exactamente?",
       "cita": "Jorge: Miguel, mas en forma que tu esta hasta el JM18 que corria 6 minutos y paraba",
       "opciones": [
-        "A Humberto y su tío",
+        "A Hugo y su padre",
         "A JM18 y su entrenador personal",
-        "A los primos de Jorge y el abuelo",
-        "A Hugo y su padre"
+        "A Humberto y su tío",
+        "A los primos de Jorge y el abuelo"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2019,
       "categoria": "lore",
       "explicacion": "Miki lo pidió claro: 'A ver si hugo y su padre se vienen en domingo'. Hugo se sumó al instante ('Igual si!') y hasta arrastró a Humberto al plan."
@@ -1573,11 +1404,11 @@
       "cita": "Feme: Esto es lo puto cocoloco",
       "opciones": [
         "Javier Tormo",
-        "Hugo",
+        "Nadie, estaban todos",
         "Humberto",
-        "Nadie, estaban todos"
+        "Hugo"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2019,
       "categoria": "momentazo",
       "explicacion": "Miki certificó el 'Tormos in action' y Feme remató: 'Y todo el clan tormo aqui... Falta hugooo'. Al ausente lo despidieron con un 'hugo maricon!' de madrugada."
@@ -1587,11 +1418,11 @@
       "cita": "Hugo: Le he pasado el parte a mi primo",
       "opciones": [
         "A la recepcionista de su clínica",
-        "Al teléfono habilitado de la Comunitat",
         "A su primo",
-        "A Joni, para que lo consulte con su padre"
+        "A Joni, para que lo consulte con su padre",
+        "Al teléfono habilitado de la Comunitat"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2020,
       "categoria": "lore",
       "explicacion": "Con 'dolor de garganta y tos bronca' sobre la mesa, Hugo activó el protocolo familiar y pasó el informe a su primo; al día siguiente lo descartaron por no cursar con fiebre."
@@ -1600,12 +1431,12 @@
       "pregunta": "Hugo compartió un audio que debería estar archivado en la OMS: la teoría de una mujer de la Ribera sobre el origen del virus. Según ella, ¿qué habría evitado la pandemia?",
       "cita": "Hugo: Hay un audio de una mujer de la Ribera que dice si el xino guarro haguera menjat una bona figa això no hauria passat",
       "opciones": [
-        "Que el xino guarro hubiera comido una buena figa",
         "Que los madrileños no hubieran venido a la Safor",
         "Que se hubiera cerrado antes la frontera con China",
+        "Que el xino guarro hubiera comido una buena figa",
         "Que la mujer de la Ribera hubiera avisado antes"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2020,
       "categoria": "momentazo",
       "explicacion": "Hugo rescató el audio definitivo sobre el COVID: una mujer de la Ribera con la teoría de la 'bona figa'. La ciencia aún no ha podido rebatirla."
@@ -1615,8 +1446,8 @@
       "cita": "Humpa: solo recuerdo que hugo siempre lo negó",
       "opciones": [
         "Que Hugo siempre lo negó",
-        "Que aquello fue en el Barceló, no en el Wonder",
         "Que el video lo grabó Germi",
+        "Que aquello fue en el Barceló, no en el Wonder",
         "Que Miki lloró en la puerta del Wonder"
       ],
       "correcta": 0,
@@ -1628,10 +1459,10 @@
       "pregunta": "Confinamiento en Gandia: los padres de Hugo salieron a caminar a las 20:00 con el resto de la España vencida. ¿Cómo acabó la ruta?",
       "cita": "Hugo: Mis padres han salido a caminar sobre las 20h y no dejaban pasar más allá del puente",
       "opciones": [
-        "Una patrulla los escoltó hasta el puerto",
         "Llegaron hasta la Drova sin problema",
+        "Tuvieron que volver por el cauce del río",
         "No les dejaban pasar más allá del puente",
-        "Tuvieron que volver por el cauce del río"
+        "Una patrulla los escoltó hasta el puerto"
       ],
       "correcta": 2,
       "anio": 2020,
@@ -1642,12 +1473,12 @@
       "pregunta": "Los primos de Hugo evocaron una maniobra mítica con nombre de figura de gimnasia. ¿Cuál?",
       "cita": "Hugo: El otro día mis primos recordaban el Marzal Deferr",
       "opciones": [
-        "El Marzal Deferr",
         "El Churu Volador",
         "El Coco Loco de Pau",
-        "El Paretón de Barx"
+        "El Paretón de Barx",
+        "El Marzal Deferr"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2020,
       "categoria": "lore",
       "explicacion": "Maniobra legendaria bautizada como si fuera del ejercicio de suelo olímpico, cuyo requisito técnico imprescindible, según Marzal, es cruzar las piernas."
@@ -1656,12 +1487,12 @@
       "pregunta": "Joni montó el 5 de padres soñado (el de Germi, el suyo y el de Hugo) y Feme vendió a Pau como mediocentro de 'gran pase largo'. ¿Cómo lo bajó Hugo a la realidad?",
       "cita": "Hugo: O de portería a portería",
       "opciones": [
-        "Un pase de coco loco",
-        "Centros medidos desde la banda",
         "O un paretón o de portería a portería",
-        "Rasos a la frontal del área"
+        "Centros medidos desde la banda",
+        "Rasos a la frontal del área",
+        "Un pase de coco loco"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2020,
       "categoria": "lore",
       "explicacion": "Hugo zanjó el debate del pase largo de Pau: paretón o de portería a portería, y avisó de que se lo contarían al Churu."
@@ -1670,12 +1501,12 @@
       "pregunta": "El padre de Humpa ya había sentenciado que Hugo se parecía a Biden corriendo como el pelotón del sargento Hartmann. ¿A quién apunta ahora el tío de Hugo?",
       "cita": "Hugo: Mi tío me dice que me parezco a Nasri",
       "opciones": [
-        "Al doble de Remolin",
-        "A Joe Biden",
+        "A Braithwaite",
         "A Nasri",
-        "A Braithwaite"
+        "A Joe Biden",
+        "Al doble de Remolin"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2020,
       "categoria": "momentazo",
       "explicacion": "Debate de dobles del grupo: la familia de Humpa ve a un Biden en versión Full Metal Jacket y el tío de Hugo apuesta por el futbolista francés."
@@ -1685,9 +1516,9 @@
       "cita": "Hugo: Gritando Deportivooo",
       "opciones": [
         "Gritando 'Deportivooo'",
-        "En silencio, como buen madridista que se precie",
         "Llorando de vergüenza ajena",
-        "Felicitando a José Juan en persona"
+        "Felicitando a José Juan en persona",
+        "En silencio, como buen madridista"
       ],
       "correcta": 0,
       "anio": 2021,
@@ -1698,12 +1529,12 @@
       "pregunta": "En plena charla política, Hugo presumió del deseo más recurrente de su padre. ¿Cuál es?",
       "cita": "Hugo: Yo le parto con mi padre diciendo, me encantaría raparle el pelo al Puigdemont",
       "opciones": [
-        "Rapar a todos los consellers de golpe",
-        "Cerrar la Generalitat de un portazo",
         "Agredir a un testic",
-        "Raparle el pelo a Puigdemont"
+        "Rapar a todos los consellers de golpe",
+        "Raparle el pelo a Puigdemont",
+        "Cerrar la Generalitat de un portazo"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2021,
       "categoria": "lore",
       "explicacion": "Hugo presumía de padre: la fantasía política de Javier Tormo es raparle el pelo a Puigdemont. Su barbería imaginaria tiene lista de espera independentista."
@@ -1712,10 +1543,10 @@
       "pregunta": "Miki soltó un mensaje de 13 palabras del que Humpa solo entendió 6. ¿Qué diagnóstico dio Hugo?",
       "cita": "Hugo: El lenguaje gamer del Miki",
       "opciones": [
-        "La jerga del póker de Edimova",
+        "Valenciano de la Drova profunda",
         "El lenguaje gamer del Miki",
-        "Un efecto secundario del confinamiento",
-        "Valenciano de la Drova profunda"
+        "La jerga del póker de Edimova",
+        "Un efecto secundario del confinamiento"
       ],
       "correcta": 1,
       "anio": 2021,
@@ -1723,15 +1554,15 @@
       "explicacion": "Ante el mensaje críptico, Hugo lo diagnosticó como 'lenguaje gamer' y el grupo propuso traducirlo a jerga de póker: equity, river y una J o un 7."
     },
     {
-      "pregunta": "Jorge acudió al grupo con una emergencia laboral de lo más seria. ¿Qué le ocurría en el vestidor del curro?",
+      "pregunta": "Jorge acudió a Hugo con una emergencia laboral de lo más seria. ¿Qué le ocurría en el vestidor del curro?",
       "cita": "Jorge: Hugo, como habrá sido la cagada de hoy en el curro.. que se me ha dormido completamente la pierna derecha y estoy en el vestidor dando vueltas para no salir cojo...",
       "opciones": [
-        "Se echó desinfectante en los ojos confundiéndolo con colirio",
-        "Se quedó encerrado dentro y tuvo que negociar con el conserje",
-        "Se le rompió el cinturón y tuvo que esperar a que abrieran la tienda",
-        "Se le durmió la pierna derecha tras la cagada y daba vueltas para no salir cojo"
+        "Se le durmió la pierna tras cagar y daba vueltas",
+        "Se le rompió el cinturón en mitad del turno",
+        "Se quedó encerrado y llamó al conserje",
+        "Se echó desinfectante en los ojos por error"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2021,
       "categoria": "momentazo",
       "explicacion": "Una cagada de trabajo dejó la pierna de Jorge dormida y al hombre dando vueltas por el vestidor. Su relato abrió la puerta a la mejor historia clínica de Hugo."
@@ -1740,12 +1571,12 @@
       "pregunta": "En su consulta de fisio, un paciente guardó un secreto que solo confesó en la tercera sesión. ¿Cuál era la verdadera causa de su esguince?",
       "cita": "Hugo: Una vez tuve un paciente que vino por un esguince y ya en la tercera sesión me confesó que se lo hizo tras quedársele la pierna dormida después de cagar",
       "opciones": [
-        "Se lo hizo tras quedársele la pierna dormida después de cagar",
-        "Se lo hizo bailando en la barra de un pub de Gandía",
-        "Cayó de la moto parando en un semáforo sin bajar el pie",
-        "Se lo hizo su perro enredándose entre las escaleras"
+        "Se lo hizo su perro en las escaleras",
+        "Se lo hizo bailando en la barra de un pub",
+        "Cayó de la moto parando en un semáforo",
+        "Se le durmió la pierna después de cagar"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2021,
       "categoria": "lore",
       "explicacion": "Dos sesiones enteras de tratamiento aguantó el hombre antes de confesar que el esguince nació en el trono. Hugo lo relató con la serenidad de un caso clínico más."
@@ -1756,8 +1587,8 @@
       "opciones": [
         "Entre Juanma Rodríguez y Carles Marí",
         "Entre Javi Tormo Terrades y Juanma Rodríguez",
-        "Entre Paco Puça y el exalcalde Orengo",
-        "Entre Javi Tormo Terrades y el gordo de Toni Galo"
+        "Entre Javi Tormo Terrades y Toni Galo",
+        "Entre Paco Puça y el exalcalde Orengo"
       ],
       "correcta": 1,
       "anio": 2021,
@@ -1769,23 +1600,23 @@
       "cita": "Marzal: Ya se va el falso José Javier Tormo",
       "opciones": [
         "El clon de Juanma Rodríguez",
+        "El primo perdido de los Cachondos",
         "El falso José Javier Tormo",
-        "El doble de Carles Marí",
-        "El primo perdido de los Cachondos"
+        "El doble de Carles Marí"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2021,
       "categoria": "lore",
       "explicacion": "Dos avistamientos en un día, siempre con el semáforo en rojo: la única explicación posible era que el hombre era el falso José Javier Tormo."
     },
     {
-      "pregunta": "¿Dónde estaba Hugo ya antes de que diera comienzo la celebración?",
+      "pregunta": "¿Dónde estaba Hugo ya antes de que diera comienzo la celebración de la boda?",
       "cita": "Feme: Hugo ja esta en el convit / Probanr els aperitius",
       "opciones": [
         "En el convit, probando los aperitivos",
+        "En el gimnasio, preparando el cuerpo",
         "En la playa, haciendo boca con una birra",
-        "En el gimnasio, preparando el cuerpo para la noche",
-        "Dormitando en el sofá para aguantar hasta las seis"
+        "Dormitando en el sofá para aguantar"
       ],
       "correcta": 0,
       "anio": 2021,
@@ -1797,37 +1628,23 @@
       "cita": "Joni: Hugo tendrá hijos.. Mientras Roberto no le denuncie en una comisaría",
       "opciones": [
         "Que deje de cerrar los bares de Gandía",
-        "Que sobreviva a la próxima despedida sin secuelas",
         "Que aprenda a llegar puntual a las bodas",
-        "Que Roberto no le denuncie antes en una comisaría"
-      ],
-      "correcta": 3,
-      "anio": 2021,
-      "categoria": "polemica",
-      "explicacion": "Lo que Hugo le hizo o intentó hacerle a Roberto en la boda rozó lo procesable. Feme solo pudo exclamar un 'Ostia Roberto' al oírlo."
-    },
-    {
-      "pregunta": "El DJ de la boda emitió su veredicto oficial sobre el evento. ¿Cuál fue?",
-      "cita": "Feme: Por cierto el Dj confirma que es una boda de las mas desfases que ha estado",
-      "opciones": [
-        "Que se le fundó el equipo por el humo de las piras",
-        "Que nunca había cobrado tan bien un sábado",
-        "Que era de las bodas más desfases en las que ha estado",
-        "Que los novios le pidieron perdón por el desmadre"
+        "Que Roberto no le denuncie antes en comisaría",
+        "Que sobreviva a la próxima despedida"
       ],
       "correcta": 2,
       "anio": 2021,
-      "categoria": "momentazo",
-      "explicacion": "Cuando hasta el DJ, que lo ha visto todo en su carrera, la cataloga entre sus bodas más desfases, es que el nivel de desmadre dejó huella histórica."
+      "categoria": "polemica",
+      "explicacion": "Lo que Hugo le hizo o intentó hacerle a Roberto en la boda rozó lo procesable. Feme solo pudo exclamar un 'Ostia Roberto' al oírlo."
     },
     {
       "pregunta": "En pleno debate sobre Laporta, Jorge rescató del archivo una 'mentira padre' de Hugo. ¿En qué consistía?",
       "cita": "Jorge: Ahi era Hugo diciendo que seguia la fiesta en su terraza",
       "opciones": [
         "Que la fiesta seguía en su terraza",
-        "Que la fiesta se había mudado a su chalet de la playa",
-        "Que Laporta le había llamado para fichar por el Barça",
-        "Que la fiesta la pagaba el presidente en persona"
+        "Que Laporta le había llamado para fichar",
+        "Que la fiesta se había mudado a la playa",
+        "Que la fiesta la pagaba el presidente"
       ],
       "correcta": 0,
       "anio": 2021,
@@ -1838,40 +1655,26 @@
       "pregunta": "Un vídeo viral llevó al grupo a presentar a su protagonista como 'el Hugo Tormo del futuro'. ¿Qué estaba haciendo el personaje?",
       "cita": "Jorge: El Hugo Tormo del futuro / Vaya zurriagazo",
       "opciones": [
-        "Soltar un zurriagazo con el bastón tras avisar insistentemente",
         "Bailar hasta el amanecer en unas bodas de oro",
-        "Aparcar la moto en la acera y discutir con la policía",
-        "Ganar un pulso a un veinteañero en la barra del bar"
+        "Aparcar la moto en la acera y discutir",
+        "Soltar un zurriagazo con el bastón tras avisar",
+        "Ganar un pulso a un chaval en la barra"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2022,
       "categoria": "momentazo",
       "explicacion": "Un anciano que avisa, avisa y avisa hasta que suelta el hostiazón: el parecido con el Hugo del futuro fue tan evidente que Feme lo declaró 'idolo'."
     },
     {
-      "pregunta": "Joni dedicó un análisis táctico de alto nivel al viejo del bastón. ¿Cuál es, según él, su técnica?",
-      "cita": "Joni: El viejo avisa, avisa, en ningún momento rebaja su tono amenazante, y cuando ya dices va, hasta aquí.. Le suelta una hostia en plan 'te estaba avisando'",
-      "opciones": [
-        "Avisar sin rebajar el tono y golpear justo cuando te confías",
-        "Negociar la paz y guardar el bastón por si acaso",
-        "Golpear sin previo aviso y salir corriendo",
-        "Simular que se cae para atacar desde el suelo"
-      ],
-      "correcta": 0,
-      "anio": 2022,
-      "categoria": "lore",
-      "explicacion": "El viejo baja el bastón en plan 'que se confíe': hostiazo y hasta luego. Humpa completó el informe señalando que después se va corriendo."
-    },
-    {
       "pregunta": "En una de las sesiones de adivinanzas del grupo, ¿qué nombre sacó Marzal del sombrero como primera opción?",
       "cita": "Marzal: Javier Tormo Terrades?",
       "opciones": [
-        "El gordo de Toni Galo",
         "Javier Tormo Terrades",
-        "El exalcalde Orengo",
-        "Carles Marí"
+        "Carles Marí",
+        "El gordo de Toni Galo",
+        "El exalcalde Orengo"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2022,
       "categoria": "lore",
       "explicacion": "Marzal escuchó la descripción y lo primero que se le ocurrió fue el padre de Hugo. No era la solución, pero el intento quedó registrado para la posteridad."
@@ -1880,94 +1683,52 @@
       "pregunta": "Cuando Jorge se quejó de que la invitación de la boda no llegaba, Germi soltó la verdad en bruto. ¿Cómo exactamente?",
       "cita": "Germi: que va no te la he enviado aun (risa de JAvier Tormo)",
       "opciones": [
-        "'Está en camino, la trae el cartero en persona'",
-        "'Que va, no te la he enviado aún', con risa de Javier Tormo",
-        "'Te la doy en mano en el próximo almuerzo'",
-        "'Se me ha perdido entre los sobres del curro'"
+        "'Se me ha perdido entre los sobres'",
+        "'Te la doy en mano en el almuerzo'",
+        "'Está en camino, la trae el cartero'",
+        "'Que va, no te la he enviado aún', con risa de Javier Tormo"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2022,
       "categoria": "lore",
       "explicacion": "La risa con la que Germi lo confesó era tan inconfundible que hubo que transcribirla como 'risa de Javier Tormo'. Jorge solo pudo responder con dos ojos de búho."
     },
     {
-      "pregunta": "En junio de 2022, Germi soltó en el grupo un 'Hijas esconder a vuestras madres, madres esconder a vuestras hijas'. ¿Con qué aclaración histórica remató la frase?",
+      "pregunta": "En junio de 2022, Germi soltó en el grupo un 'Hijas esconder a vuestras madres, madres esconder a vuestras hijas'. ¿Con qué aclaración remató la frase?",
       "cita": "Germi: Hijas esconder a vuestras madres, madres esconder a vuestras hijas",
       "opciones": [
-        "(Aplausos del pleno del TT)",
         "(Risa Javier Tormo)",
         "(Risa Maleno en el banquillo)",
-        "(Datos de la Vuelta a Burgos)"
+        "(Datos de la Vuelta a Burgos)",
+        "(Aplausos del pleno del TT)"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2022,
       "categoria": "lore",
       "explicacion": "Germi imitó al patriarca con su risa incluida: si hay un Tormo suelto, ni las madres están a salvo de la calfada hereditaria."
     },
     {
-      "pregunta": "Noviembre de 2022, el momento más serio de la historia del TT: Feme compartió una dura noticia sobre su padre. ¿Qué anunció sobre Paco?",
-      "cita": "Germi: Joder Femeeeeee tioooo, animooo a Paco. El TT esta con él, cualquier cosa aqui estamos!!!!!",
-      "opciones": [
-        "Que Paco vendía la casa de Alquería y se iba a la playa",
-        "Que Paco Puça se había apuntado al crossfit de Germi",
-        "Que a Paco le habían detectado un tumor, pero tratable y 'vamos a por él'",
-        "Que Paco se presentaba a las elecciones de Alquería"
-      ],
-      "correcta": 2,
-      "anio": 2022,
-      "categoria": "lore",
-      "explicacion": "Feme lo contó con su optimismo de siempre ('es tratable y vamos a por él') y todo el TT se puso a disposición de Paco al segundo."
-    },
-    {
-      "pregunta": "En noviembre de 2022, Joni informó de que 'Kid Hugo' había pasado una noche infernal por gastroenteritis. ¿Cómo reaccionó Humpa, padre del afectado, con una sola palabra?",
-      "cita": "Joni: Prims, Hugo (Kid Hugo) está con gastroenteritis, ha pasado una noche infernal.",
-      "opciones": [
-        "Pobret",
-        "Máquina",
-        "Campeón",
-        "Guerrer"
-      ],
-      "correcta": 0,
-      "anio": 2022,
-      "categoria": "lore",
-      "explicacion": "Todo el cariño paternal de un Tormo condensado en un 'pobret'; si no mejoraba, el pequeño se quedaba bajo tutela de Joni."
-    },
-    {
       "pregunta": "Para la cena de diciembre de 2022, Humpa cerró la reserva del año: 'RESEVADO VIERNES A LAS 22.30 EN CASA SANCHIS FUERA PERO HAY ESTUFAS'. ¿A nombre de quién quedó la mesa?",
       "cita": "Humpa: RESEVADO VIERNES A LAS 22.30 EN CASA SANCHIS FUERA PERO HAY ESTUFAS",
       "opciones": [
+        "A nombre de 'La Familia Tormo'",
+        "A nombre de Feme",
         "A nombre de Don Voro Femenía",
-        "A nombre de 'La Familia Tormo Completa'",
-        "A nombre de Hugo Tormo",
-        "A nombre de Feme, que estaba en el hospital"
+        "A nombre de Hugo Tormo"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2022,
       "categoria": "momentazo",
       "explicacion": "Reserva fuera pero con estufas a nombre de Hugo Tormo, con amenaza de primer turno de 20 a 22 para los que se quejaran."
     },
     {
-      "pregunta": "Humpa confesó por qué colgó los esquís de pequeño: 'Se giró y mira si venía cabreada hacia mi que mi padre me cogió y me puso detrás de él'. ¿Qué había hecho para merecer eso?",
-      "cita": "Humpa: Se giró y mira si venía cabreada hacia mi que mi padre me cogió y me puso detrás de él",
-      "opciones": [
-        "Se tiró de cabeza por la pista negra sin saber esquiar",
-        "Le arrolló con el trineo ensayando su técnica punta-final",
-        "Le escondió las botas de esquí dentro del árbol de Navidad",
-        "Le lanzó una bola de nieve desde muy lejos y le dio en la cabeza a su madre"
-      ],
-      "correcta": 3,
-      "anio": 2023,
-      "categoria": "lore",
-      "explicacion": "Bola de nieve a la cabeza de su madre desde distancia olímpica; Javier Tormo activó el protocolo de escudo humano. Desde entonces: nieve sí, esquís no."
-    },
-    {
       "pregunta": "En la noche electoral de mayo de 2023, Jorge hizo el recuento de papeletas del TT y destapó el voto de Hugo Tormo, definido como 'votndo a la antigua'. ¿A qué formación?",
       "cita": "Jorge: Votndo a la antigua",
       "opciones": [
+        "Compromís",
         "PSOE",
-        "Podemos",
         "Alianza Popular",
-        "Compromís"
+        "Podemos"
       ],
       "correcta": 2,
       "anio": 2023,
@@ -1975,153 +1736,55 @@
       "explicacion": "Según el escrutinio de Jorge, Hugo votó Alianza Popular como en los viejos tiempos; esa noche Joni navegaba por Muyzorras.com y Jorge pedía gritar un '¡Viva Franco!' a viva voz."
     },
     {
-      "pregunta": "A la muerte de Pepe Domingo Castaño, mientras Joni lo despedía como 'la magia de la radio', Humpa hizo una predicción exacta sobre su padre. ¿Qué pronosticó que haría Don Javier?",
-      "cita": "Joni: Hombre, tragate un elche Mallorca a las 16.15 sin darle vida. Ese hombre era la magia de la radio",
-      "opciones": [
-        "A la tercera noticia del fallecimiento, soltaría un 'joder, qué pesados'",
-        "Ponerse su radio antigua y escuchar reemisiones toda la tarde",
-        "Contar que Pepe Domingo le saludó una vez en persona",
-        "Llamar a la radio para dar el pésame en directo"
-      ],
-      "correcta": 0,
-      "anio": 2023,
-      "categoria": "lore",
-      "explicacion": "Humpa conoce a su padre al milímetro: dos noticias de respeto y a la tercera, el clásico 'joder, qué pesados' del patriarca. Predicción cumplida."
-    },
-    {
-      "pregunta": "Septiembre de 2023: se firmó la venta de 'la casa de todos' en Alquería y el TT despidió una era dorada de 'grandes anécdotas vividas allí'. ¿Qué detalle mítico recordó Jorge de la casa?",
-      "cita": "Germi: Grandes anecdotas vividas alli",
-      "opciones": [
-        "El sofá comprado en el derribo de un cine",
-        "La piscina que se vaciaba sola cada agosto",
-        "El billar con trampas incluidas de serie",
-        "Su puerta directa al campo"
-      ],
-      "correcta": 3,
-      "anio": 2023,
-      "categoria": "lore",
-      "explicacion": "La legendaria puerta directa al campo se despedía; Feme prometió recomprarla cuando sea millonario y quedar localizable 'oteando el horizonte' en la playa."
-    },
-    {
-      "pregunta": "En diciembre de 2023, Humpa reveló su manía: 'Desde entonces nunca dejo la chaqueta en ningún sitio. He ido a eventos y no me la he quitado'. ¿Qué se destapó después?",
-      "cita": "Humpa: Desde entonces nunca dejo la chaqueta en ningún sitio",
-      "opciones": [
-        "Que era de alquiler y acumulaba recargos semanales",
-        "Que la había olvidado en Casa Sanchis dos años atrás",
-        "Que era la chaqueta de gala de Javier Tormo de los 80",
-        "Que era, en realidad, la chaqueta de Miki"
-      ],
-      "correcta": 3,
-      "anio": 2023,
-      "categoria": "momentazo",
-      "explicacion": "Miki la echaba en falta desde que su padre fue a otra boda: llevaba meses desaparecida y resultó ser la chaqueta oficial de eventos de Humpa. 'Vaya liada'."
-    },
-    {
       "pregunta": "En pleno Hornergate de la F1, con Miki explicando que hasta el padre de Verstappen podía estar detrás, Joni dictó sentencia comparativa. ¿Cuál fue su frase histórica?",
       "cita": "Miki: Por qué quiere echar a horner por en teoria tontear con su novia (la de verstappen padre)",
       "opciones": [
-        "Que Horner es más pesado que las noticias de Pepe Domingo",
-        "Que Horner es más calfao que el clan Tormo",
-        "Que Horner tiene más líos que la casa de Alquería en plena torra",
-        "Que Horner es más falso que el DNI de los primos los cachondos"
+        "Que Horner es más falso que un billete de 3€",
+        "Que Horner tiene más líos que la casa de Alquería",
+        "Que Horner es más pesado que las noticias",
+        "Que Horner es más calfao que el clan Tormo"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2024,
       "categoria": "opinion",
       "explicacion": "Sentencia histórica: ni todo el clan Tormo junto, institución mundial de la calfada, alcanzaba el nivel del jefe de Red Bull."
     },
     {
-      "pregunta": "En el quiz fotográfico de julio de 2024 apareció un rostro ilustre y Humpa confesó: 'Lo sabía enseguida (evidentemente)'. ¿Qué detalle fue 'decisivo' para identificar a Don Javier Tormo?",
-      "cita": "Humpa: Lo sabía enseguida ( evidentemente)",
-      "opciones": [
-        "Los zapatos",
-        "La pose de brazos cruzados de patriarca",
-        "La sonrisa de quien sabe que en casa hay torra",
-        "El reloj heredado del abuelo"
-      ],
-      "correcta": 0,
-      "anio": 2024,
-      "categoria": "lore",
-      "explicacion": "Germi lo cantó al instante, Marzal lo registró como José Javier Tormo Terrades y Jorge sentenció que todo se decidió por 'los zapatos decisivos'."
-    },
-    {
-      "pregunta": "Marzal avisó con un 'Ojo míticos Tormo' y Humpa confirmó el encuentro imposible del verano. ¿Dónde se cruzó Hugo con los míticos Tormo?",
-      "cita": "Humpa: Tío fui a pasar el finde a la feria de allí y me encontré con ellos",
-      "opciones": [
-        "En la feria de Albacete",
-        "En la boda de un primo en Alquería",
-        "En la cola del Fitzgerald pidiendo su batido",
-        "En el crossfit de Germi un sábado"
-      ],
-      "correcta": 0,
-      "anio": 2024,
-      "categoria": "lore",
-      "explicacion": "Hugo se fue de finde a la feria de Albacete y el destino quiso que se topara con los míticos Tormo. El clan no tiene fronteras ni horarios."
-    },
-    {
-      "pregunta": "Humpa explicaba su engorro para ver el fútbol: 'Ya tengo el Yomvi porque mi padre tiene Movistar', solo visible por ordenador con cable HDMI. ¿Qué pregunta existencial lanzó Jorge a continuación?",
-      "cita": "Humpa: Yo es que ya tengo el Yomvi porque mi padre tiene Movistar",
-      "opciones": [
-        "¿Y el porno?",
-        "¿Y si se entera el clan Tormo de que pagas Movistar?",
-        "¿Y los resúmenes de LaLiga en el móvil?",
-        "¿Y si tu padre cambia la contraseña en pleno partido?"
-      ],
-      "correcta": 0,
-      "anio": 2024,
-      "categoria": "momentazo",
-      "explicacion": "Jorge fue directo a lo importante y remató que Humpa no tenía por qué aguantar el Yomvi 'en tu propia casa' sin sentirse incómodo."
-    },
-    {
-      "pregunta": "En la noche electoral de mayo de 2023, entre Jorge pidiendo que perdiera 'todo el PSOE', Feme dio el resultado que de verdad importaba. ¿Qué pasó en Alquería?",
-      "cita": "Jorge: Necesito que pierdan todo el PSOE",
-      "opciones": [
-        "Hubo empate técnico y la alcaldía se decidió a cara o cruz",
-        "Don Voro Femenía logró 5 concejales y mayoría absoluta",
-        "Don Voro Femenía se quedó a las puertas con 4 concejales",
-        "Paco Puça arrasó con el 100% de los votos en su mesa"
-      ],
-      "correcta": 1,
-      "anio": 2023,
-      "categoria": "lore",
-      "explicacion": "Mientras el país miraba el Congreso, Alquería dio su veredicto histórico: Don Voro Femenía, 5 concejales y mayoría absoluta."
-    },
-    {
-      "pregunta": "En el análisis futbolero de julio de 2026, Joni ya había sentenciado que entre la mano y el palo 'cabe un balón y medio'. Al recordar la otra ocasión cantada con Lamine solo, ¿cómo describió el chut que remató la faena?",
-      "cita": "Joni: Entre la mano y el palo igual cabe un balón y medio",
-      "opciones": [
-        "E hizo un chut de falta de Miki en el FIFA",
-        "E hizo un chut que aún sigue en el aire",
-        "E hizo un chut digno de Hugo Tormo",
-        "E hizo un chut digno de Marzal en los derbis"
-      ],
-      "correcta": 2,
-      "anio": 2026,
-      "categoria": "momentazo",
-      "explicacion": "Joni convirtió la puntería de Hugo Tormo en la unidad oficial de medida del chut fallido; Hugo ni se asomó al hilo para defender su honor."
-    },
-    {
-      "pregunta": "Para la II Comida Chiringuito TT con sorteo de camisetas retro (2025), mientras Feme reclamaba su talla XL y Marzal etiquetaba a Hugo para leer las bases, ¿cuál fue la única intervención de Hugo en todo el hilo?",
+      "pregunta": "Para la II Comida Chiringuito TT con sorteo de camisetas retro (2025), mientras Feme reclamaba su talla XL y Marzal etiquetaba a Hugo, ¿cuál fue la única intervención de Hugo?",
       "cita": "Feme: Feme talla XL PERFAVOR",
       "opciones": [
-        "Yo a la comida si, para la camiseta no",
         "Yo a la camiseta si, para la comida no",
         "Yo camiseta talla XL PERFAVOR",
-        "Yo paso del sorteo, pero apuntadme a la sobremesa"
+        "Yo a la comida si, para la camiseta no",
+        "Yo paso del sorteo, apuntadme a la sobremesa"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2025,
       "categoria": "lore",
       "explicacion": "Hugo se apuntó al banquete pero esquivó el sorteo de camisetas retro: comida sí, compromiso cero. La XL y lo de profe de spinning eran monopolio de Feme."
     },
     {
-      "pregunta": "En la comida de septiembre de 2026, Hugo avisó por la mañana de su retraso al restaurante. Con el grupo ya dentro y la caña de Feme pedida y servida, ¿qué mensaje envió Hugo a las 14:25?",
+      "pregunta": "En el análisis futbolero de julio de 2026, Joni ya había sentenciado que entre la mano y el palo 'cabe un balón y medio'. Al recordar la otra ocasión cantada, ¿cómo describió el chut?",
+      "cita": "Joni: Entre la mano y el palo igual cabe un balón y medio",
+      "opciones": [
+        "Un chut digno de Marzal en los derbis",
+        "Un chut digno de Hugo Tormo",
+        "Un chut de falta de Miki en el FIFA",
+        "Un chut que aún sigue en el aire"
+      ],
+      "correcta": 1,
+      "anio": 2026,
+      "categoria": "momentazo",
+      "explicacion": "Joni convirtió la puntería de Hugo Tormo en la unidad oficial de medida del chut fallido; Hugo ni se asomó al hilo para defender su honor."
+    },
+    {
+      "pregunta": "En la comida de septiembre de 2026, Hugo avisó por la mañana de su retraso al restaurante. Con el grupo ya dentro y la caña de Feme servida, ¿qué mensaje envió Hugo a las 14:25?",
       "cita": "Hugo: Nos vemos en el restaurante que se me ha hecho tarde",
       "opciones": [
         "Donde estáis ?",
-        "Empezad sin mí que tardo más",
         "¿En qué mesa estáis?",
-        "Pedidme caña que aparo el coche"
+        "Pedidme caña que aparco el coche",
+        "Empezad sin mí que tardo más"
       ],
       "correcta": 0,
       "anio": 2026,
