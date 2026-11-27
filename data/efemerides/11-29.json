@@ -7,12 +7,12 @@
       "pregunta": "¿Qué célebre anécdota de la NBA compartió Feme tras leer un artículo de Michael Jordan en JotDown?",
       "cita": "Siempre recordare la noche que Mike y yo nos comprenetamos para meter 70 puntos entre los 2",
       "opciones": [
-        "Que Jordan metió 69 y Stacey King solo 1",
         "Que Steve Kerr falló el tiro ganador aposta",
         "Que Scottie Pippen se negó a salir a jugar",
+        "Que Jordan metió 69 y Stacey King solo 1",
         "Que Phil Jackson les prohibió tirar triples"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Feme rescató la divertidísima frase de Stacey King presumiendo de haber metido 70 puntos a medias con Michael Jordan... habiendo anotado Jordan 69 de ellos.",
       "anio": 2012
     },
@@ -20,25 +20,25 @@
       "pregunta": "¿A quiénes definió Jorge como 'las 2 caras de una misma moneda' al hablar de las tarjetas del equipo?",
       "cita": "Marzal el marrullero y Joni el pacificador. Las 2 caras de una misma moneda",
       "opciones": [
-        "Germi y Héctor",
         "Marzal y Joni",
-        "Hugo y Feme",
-        "Humpa y Miki"
+        "Humpa y Miki",
+        "Germi y Héctor",
+        "Hugo y Feme"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "Jorge bautizó con precisión quirúrgica los dos extremos disciplinarios del equipo: Marzal buscando bronca y Joni poniendo paz.",
       "anio": 2012
     },
     {
-      "pregunta": "Cuando Miki sacó a colación la autobiografía de José María Aznar, ¿qué advertencia lanzó Jorge al grupo?",
+      "pregunta": "¿Qué advirtió Jorge cuando salió a relucir la autobiografía de José María Aznar?",
       "cita": "Si en este grupo se le va a faltar el respeto a Chemari, yo lo dejo eh",
       "opciones": [
-        "Amenazó con marcharse del grupo",
-        "Dijo que quemaría el carnet del club",
-        "Aseguró que votaría a Izquierda Unida",
-        "Pidió que no se hablara de política en el chat"
+        "Que prohibía hablar de política durante toda la semana",
+        "Que si faltaban al respeto a 'Chemari', dejaba el grupo",
+        "Que votaría a otro partido en las siguientes elecciones",
+        "Que no compraría el libro ni aunque se lo regalaran"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Jorge defendió con ironía al expresidente del gobierno proclamando que si faltaban al respeto a 'Chemari', él abandonaba el grupo.",
       "anio": 2012
     },
@@ -46,12 +46,12 @@
       "pregunta": "A Humberto le anularon una clase en la universidad tras haber madrugado y cogido el tren. ¿Qué radical consejo le dio Héctor?",
       "cita": "Quema un contenedor de basura",
       "opciones": [
+        "No vuelvas a pisar la facultad en un mes",
         "Pide una hoja de reclamaciones al rector",
         "Quema un contenedor de basura",
-        "No vuelvas a pisar la facultad en un mes",
         "Denuncia a Renfe por hacerte viajar"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "Héctor no anduvo con medias tintas ante la faena de Humberto y le propuso incendiar mobiliario urbano como desahogo.",
       "anio": 2012
     },
@@ -59,56 +59,56 @@
       "pregunta": "Germi convocó una cena para repartir equipaciones nuevas. ¿Por qué Jorge tenía tantas ganas de la suya?",
       "cita": "Entende que yo no tuve del Milan..es un megacaramelazo",
       "opciones": [
-        "Porque era la primera vez que lucía el dorsal 10",
-        "Porque en su día se quedó sin la camiseta del Milan",
         "Porque le habían puesto su apellido mal impreso",
-        "Porque quería usarla para salir de fiesta esa misma noche"
+        "Porque en su día se quedó sin la camiseta del Milan",
+        "Porque quería usarla para salir de fiesta esa misma noche",
+        "Porque era la primera vez que lucía el dorsal 10"
       ],
       "correcta": 1,
       "explicacion": "Jorge tenía 'monazo' puro de estrenar camiseta porque en la anterior tanda no pudo tener la elástica rossonera del Milan.",
       "anio": 2012
     },
     {
-      "pregunta": "¿Quién soltó en 2012 una cadena surrealista diciendo que WhatsApp sería de pago salvo que te metieras una pluma por el culo y bailaras la macarena?",
+      "pregunta": "¿Quién compartió en 2012 una cadena absurda sobre WhatsApp siendo de pago?",
       "cita": "Whasapp sera de pago a partir del 2080. Pero si te metes una pluma por el culo mientras bailas la macarena...",
       "opciones": [
-        "Germi",
-        "Hugo",
         "Feme",
+        "Hugo",
+        "Germi",
         "Joni"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Germi compartió un bulo paródico lleno de bates con clavos, pimienta y dinosaurios de colores para mofarse de las cadenas de WhatsApp.",
       "anio": 2012
     },
     {
-      "pregunta": "Hablando de citas míticas, ¿qué supuesta cita de Nelson Piquet sobre Senna compartió Feme?",
+      "pregunta": "¿Quién compartió en 2012 una frase atribuida a Nelson Piquet sobre Ayrton Senna?",
       "cita": "Se matara si es necesario para llegar al titulo y ser considerado el mejor de todos los tiempos",
       "opciones": [
-        "Feme",
         "Jorge",
+        "Feme",
         "Miki",
         "Héctor"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Feme venía motivado con la lectura deportiva y compartió la cruda y profética frase de Piquet sobre el límite de Senna.",
       "anio": 2012
     },
     {
-      "pregunta": "Joni desveló en el chat que un miembro del grupo tenía una cita con una mujer madura. ¿Cómo se llamaba?",
+      "pregunta": "¿Cómo se llamaba la mujer con la que Joni bromeaba que tenía cita Humberto en 2012?",
       "cita": "Ahora luego ha quedado con una madurita que responde al nombre de adelina..sobrevivira?",
       "opciones": [
-        "Adelina",
-        "Esperanza",
         "Rosario",
-        "Maricarmen"
+        "Esperanza",
+        "Maricarmen",
+        "Adelina"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Joni bromeó con que Humberto tenía una cita con 'Adelina' preguntándose abiertamente si lograría salir vivo de la experiencia.",
       "anio": 2012
     },
     {
-      "pregunta": "En pleno 2012, ¿quién demostró sus dificultades técnicas con su iPhone preguntando cómo pasar un vídeo?",
+      "pregunta": "¿Quién preguntó en 2012 cómo pasar un vídeo de YouTube por WhatsApp?",
       "cita": "Alguien sabe como compartir por wasap un video de Youtube ???",
       "opciones": [
         "Hugo",
@@ -121,26 +121,26 @@
       "anio": 2012
     },
     {
-      "pregunta": "¿Qué le preguntó Jorge a Humberto cuando este se quejaba de su profesora de la universidad?",
+      "pregunta": "¿Quién le preguntó a Humberto si su profesora de la universidad era una 'milf'?",
       "cita": "Humber...yo d ti le metia un puro a la profesora...(sta buena? Es una milf?)",
       "opciones": [
+        "Joni",
         "Jorge",
-        "Germi",
         "Miki",
-        "Joni"
+        "Germi"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Jorge mezcló la indignación académica con el interés hormonal preguntando si la docente era una 'milf'.",
       "anio": 2012
     },
     {
-      "pregunta": "En 2013, Jorge se interesó por la 'ópera prima' de Cabrera y rápidamente dedujo la cruda realidad. ¿Cuál era?",
+      "pregunta": "¿Qué dedujo Jorge rápidamente cuando Cabrera hablaba de su 'ópera prima' en 2013?",
       "cita": "Vamos, que has vuelto a fumar...",
       "opciones": [
-        "Que no había escrito ni una sola línea",
-        "Que se había gastado todo el dinero en apuestas",
+        "Que se había gastado la paga en apuestas",
+        "Que había dejado la carrera a medias",
         "Que había vuelto a fumar",
-        "Que le habían suspendido el máster"
+        "Que no había escrito ni una línea"
       ],
       "correcta": 2,
       "explicacion": "Jorge leyó entre líneas las evasivas de Cabrera y sentenció al momento que había vuelto a caer en el vicio del tabaco.",
@@ -150,12 +150,12 @@
       "pregunta": "Marzal lució un tremendo mostacho en 2014. ¿Qué apodo de futbolista 'azzurro' de España 82 le puso Feme?",
       "cita": "Joseppo Marzaletti",
       "opciones": [
-        "Joseppo Marzaletti",
         "Paolo Marzallini",
+        "Joseppo Marzaletti",
         "Claudio Gentilzal",
         "Dino Zoffett"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Ante el look clásico y bigotudo de Marzal, Feme lo rebautizó instantáneamente con el mítico mote de 'Joseppo Marzaletti'.",
       "anio": 2014
     },
@@ -164,50 +164,50 @@
       "cita": "Jo el pague tots els cubates d una nit Quan torne",
       "opciones": [
         "Pagarle la cuota del equipo de fútbol",
-        "Pagarle todos los cubatas de una noche entera",
         "Comprarle la camiseta oficial de la selección italiana",
+        "Pagarle todos los cubatas de una noche entera",
         "Invitarle a una cena en un asador"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "Feme estaba tan fascinado con el bigote de Marzal que prometió pagarle toda la barra libre de copas en su próxima fiesta si no se afeitaba.",
       "anio": 2014
     },
     {
-      "pregunta": "Tras ganar 4-2 el sábado, ¿por qué Miki cargó con saña contra la entrada de Marzal al campo?",
+      "pregunta": "¿Por qué le echó Miki la bronca a Marzal tras ganar 4-2 el partido de 2014?",
       "cita": "Calla Marzal q ha sido entrar tu y gol",
       "opciones": [
-        "Porque nada más entrar él les encajaron un gol",
-        "Porque cometió penalti en su primera jugada",
-        "Porque falló una ocasión cantada sin portero",
-        "Porque le sacaron tarjeta amarilla en 10 segundos"
+        "Porque nada más entrar él al campo les metieron un gol",
+        "Porque perdió un balón peligroso cerca del área",
+        "Porque protestó al árbitro y vio tarjeta amarilla",
+        "Porque falló un mano a mano claro en el descuento"
       ],
       "correcta": 0,
       "explicacion": "Miki no dejó pasar la oportunidad de hundir la moral de Marzal recordándole el gafe instantáneo de haber pisado el césped y recibir un tanto.",
       "anio": 2014
     },
     {
-      "pregunta": "Durante una pésima tarde de Cristiano Ronaldo, ¿qué sentencia soltó Miki tajantemente en 2015?",
+      "pregunta": "¿Quién soltó en 2015 la sentencia rotunda de que Cristiano Ronaldo era malísimo?",
       "cita": "Cristiano Ronaldo es malísimo",
       "opciones": [
-        "Miki",
+        "Feme",
         "Joni",
         "Germi",
-        "Feme"
+        "Miki"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Viendo cómo Cristiano fallaba mano a mano contra el portero, Miki no dudó en catalogarlo con toda tranquilidad como 'malísimo'.",
       "anio": 2015
     },
     {
-      "pregunta": "Tras la dimisión de Nuno Espirito Santo en el Valencia CF y el rumor de Gary Neville, ¿qué aguda reflexión fonética hizo Joni?",
+      "pregunta": "¿Qué comentó Joni sobre el cántico de protesta tras la llegada de Gary Neville?",
       "cita": "Neville vete ya no té la sonoritat de Nuno vete ya",
       "opciones": [
-        "Dijo que Neville vete ya no tenía la misma sonoridad que Nuno vete ya",
-        "Dijo que Lim nunca contrataría a un inglés que no supiera español",
-        "Aseguró que Mestalla no sabía pronunciar su apellido",
-        "Comentó que el cántico sonaba mejor en inglés"
+        "Que en inglés sonaba más fuerte que el cántico valenciano",
+        "Que 'Neville vete ya' no tenía la sonoridad de 'Nuno vete ya'",
+        "Que no duraría ni dos jornadas si no ganaba fuera",
+        "Que Mestalla tardaría meses en aprender a pronunciarlo"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Joni analizó la acústica de Mestalla y lamentó que el 'Neville vete ya' careciera de la contundencia poética del clásico 'Nuno vete ya'.",
       "anio": 2015
     },
@@ -215,25 +215,25 @@
       "pregunta": "Cuando se confirmó la salida de Nuno en 2015, ¿qué disparate de sustituto para el banquillo che soltó Feme a modo de broma?",
       "cita": "Suena rijkaard",
       "opciones": [
-        "Suena rijkaard",
-        "Vuelve Benítez",
+        "Llega Maradona",
         "Calienta Caparrós",
-        "Llega Maradona"
+        "Suena rijkaard",
+        "Vuelve Benítez"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "En medio del baile de nombres random para entrenar al Valencia, Feme tiró de hemeroteca absurda diciendo que sonaba Frank Rijkaard.",
       "anio": 2015
     },
     {
-      "pregunta": "La mañana en que se conoció el fatal accidente del Chapecoense en 2016, ¿qué comentario de humor negro/curioso soltó Jorge sobre el club?",
+      "pregunta": "¿Qué comentó Jorge sobre el nombre del Chapecoense el día de su tragedia aérea?",
       "cita": "Nombre molon donde los haya",
       "opciones": [
-        "Nombre molon donde los haya",
-        "Vaya tela con los vuelos chárter",
-        "No los conocía ni su familia",
-        "Pintaba a año histórico para ellos"
+        "Que nunca había oído hablar de ese club",
+        "Que era un nombre molón donde los haya",
+        "Que era difícil de pronunciar del tirón",
+        "Que le recordaba a un equipo de su infancia"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Al saltar la trágica noticia en las alertas, a Jorge le llamó la atención la peculiar denominación del conjunto brasileño y lo calificó de 'nombre molón'.",
       "anio": 2016
     },
@@ -241,142 +241,142 @@
       "pregunta": "¿A dónde dijo Germi que se marchaba justo el fin de semana que se jugaba la histórica final de Libertadores River-Boca en el Bernabéu?",
       "cita": "No no, ese dia estoy en Gandia mostro",
       "opciones": [
-        "A Gandia",
-        "A La Bombonera",
         "A Buenos Aires",
+        "A La Bombonera",
+        "A Gandia",
         "A Benidorm"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Cuando Joni le propuso pasearse por el Manzanares para el partido de vuelta en Madrid, Germi aclaró que ese día estaría 'en Gandia mostro'.",
       "anio": 2018
     },
     {
-      "pregunta": "¿Quién se arrancó por cánticos de la hinchada bostera en mayúsculas cuando se anunció el Boca-River en el Bernabéu?",
+      "pregunta": "¿Quién empezó a cantar en mayúsculas sobre la Copa Libertadores al anunciarse la final en Madrid?",
       "cita": "LA COPA LIBERTADORES ES MI OBSESION",
       "opciones": [
         "Jorge",
-        "Germi",
+        "Joni",
         "Humpa",
-        "Joni"
+        "Germi"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "explicacion": "Germi se vino completamente arriba al saber que la final se jugaría en Madrid y empezó a cantar consignas de Boca Juniors contra River Plate.",
       "anio": 2018
     },
     {
-      "pregunta": "¿Qué miembro del grupo soltó la concisa y económica frase 'Es hora de mover la panoja' en noviembre de 2018?",
+      "pregunta": "¿Quién soltó en noviembre de 2018 la frase 'Es hora de mover la panoja'?",
       "cita": "Es hora de mover la panoja",
       "opciones": [
-        "Feme",
-        "Miki",
         "Marzal",
-        "Germi"
+        "Germi",
+        "Miki",
+        "Feme"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Feme apareció de repente en el chat soltando esta mítica frase para abrir la tarde de finanzas.",
       "anio": 2018
     },
     {
-      "pregunta": "¿Quién soltó esta tremenda barbaridad esperando altercados ultras en la final de la Libertadores en Madrid?",
+      "pregunta": "¿Quién soltó un comentario fuera de tono deseando altercados en la final de Madrid?",
       "cita": "Espero que los nazis de Madrid estén a la altura y haya aquí los muertos que tocaban el domingo pasado",
       "opciones": [
-        "Germi",
+        "Humpa",
         "Jorge",
-        "Joni",
-        "Humpa"
+        "Germi",
+        "Joni"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "explicacion": "Joni no tuvo pelos en la lengua al comentar el traslado de la conflictiva final de Libertadores a España tras los incidentes en Argentina.",
       "anio": 2018
     },
     {
-      "pregunta": "Tras ver el escalofriante accidente de Grosjean en Baréin en 2020, ¿qué preguntó inocentemente Miki dejando claro lo desconectado que estaba de la F1?",
+      "pregunta": "¿Quién preguntó en 2020 qué era lo que llevaban los pilotos de F1 sobre la cabeza?",
       "cita": "Eso que llevan en la cabeza los pilotos? Desde cuando? Por si vuelca el coche?",
       "opciones": [
-        "Miki",
+        "Hugo",
         "Feme",
         "Héctor",
-        "Hugo"
+        "Miki"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Miki llevaba años sin ver la F1 y acababa de descubrir el 'halo', que se había introducido en 2018.",
       "anio": 2020
     },
     {
-      "pregunta": "Cuando Humpa le vaciló a Miki diciéndole que Schumacher volvía a la F1, ¿cómo se imaginó Miki que competiría el kaiser?",
+      "pregunta": "¿Cómo bromeó Miki sobre cómo correría Michael Schumacher si volvía a la F1?",
       "cita": "Jajaja ralf? O Michael con el carricoche conduciendo con la barbilla o la lengua",
       "opciones": [
-        "Por telepatía desde la cama",
-        "Conduciendo con la barbilla o la lengua en un carricoche",
-        "Como copiloto de Fernando Alonso",
-        "Manejando el simulador de Ferrari desde su casa"
+        "Haciendo solo vueltas de exhibición al final",
+        "Conduciendo un carricoche con la barbilla o la lengua",
+        "Desde el simulador de boxes sin salir a pista",
+        "Pilotando un coche adaptado con botones extra"
       ],
       "correcta": 1,
       "explicacion": "Miki soltó una de sus ocurrencias más negras imaginándose al heptacampeón manejando el monoplaza con la barbilla o la lengua.",
       "anio": 2020
     },
     {
-      "pregunta": "Siguiendo el troleo de los supuestos regresos a la Fórmula 1, ¿quién propuso la vuelta de Kartikeyan, Takuma Sato y Juan Pablo Montoya?",
+      "pregunta": "¿Quién propuso el regreso de pilotos como Narain Karthikeyan y Takuma Sato en el troleo de F1?",
       "cita": "Kartikeyan y takuma sato también vuelven",
       "opciones": [
-        "Humpa",
         "Jorge",
         "Joni",
-        "Miki"
+        "Miki",
+        "Humpa"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "explicacion": "Joni se sumó al festival de nostalgia mencionando a ilustres pilotos kamikazes de los 2000.",
       "anio": 2020
     },
     {
-      "pregunta": "¿Qué brutalidad propuso Joni que harían los demás pilotos en la primera curva contra el hipotético regreso de Schumacher?",
+      "pregunta": "¿Quién bromeó diciendo que en la primera recta irían todos a chocar contra Schumacher?",
       "cita": "En la primera recta todos a estamparse contra Schumacher, a ver quien lo revienta más",
       "opciones": [
-        "Humpa",
         "Jorge",
-        "Joni",
-        "Feme"
+        "Humpa",
+        "Feme",
+        "Joni"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "explicacion": "Joni remató la broma macabra diciendo que en la primera recta irían todos a embestir a Schumacher para ver quién lo remataba.",
       "anio": 2020
     },
     {
-      "pregunta": "En plena época del pasaporte COVID a finales de 2021, ¿qué medida radical propuso Humpa para los no vacunados?",
+      "pregunta": "¿Qué medida exagerada soltó Humpa en 2021 sobre los no vacunados?",
       "cita": "Perfecto  , ahora solo hace falta que pongan una etiqueta roja en la frente de los no vacunados para poder ser linchados públicamente",
       "opciones": [
-        "Encerrarlos en un búnker en Gandía",
-        "Ponerles una etiqueta roja en la frente para lincharlos públicamente",
-        "Quitarles el carné de conducir y el móvil",
-        "Obligarles a ver todas las carreras de F1"
+        "Ponerles una etiqueta roja en la frente para lincharlos",
+        "Prohibirles entrar a cualquier bar o restaurante",
+        "Multarles cada vez que salieran a la calle",
+        "Mandarles a pasar cuarentena en un albergue"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "Humpa soltó su habitual ironía (o no) deseando etiquetas rojas en la frente para escarnio público de los no vacunados.",
       "anio": 2021
     },
     {
-      "pregunta": "¿Con qué comparó Joni el atreverse a votar a Vox para convencer a Miki de que diera el paso?",
+      "pregunta": "¿Con qué comparó Joni animar a Miki a votar a Vox en 2021?",
       "cita": "Tranqui miki. Esto es como las drogas. Siempre con el \"no que da miedo, está mal vista etc\". Luego un día te entra la cosita y pam, primera raya.",
       "opciones": [
-        "Con mudarse a un pueblo",
+        "Con pedir la primera copa de la madrugada",
         "Con probar las drogas y meterse la primera raya",
-        "Con tirarse en paracaídas",
-        "Con beberse el primer cubata de madrugada"
+        "Con cambiarse de barrio para empezar de cero",
+        "Con tirarse en paracaídas sin pensarlo dos veces"
       ],
       "correcta": 1,
       "explicacion": "Joni elaboró una loca analogía entre probar las drogas por primera vez y atreverse a votar a Vox sin complejos.",
       "anio": 2021
     },
     {
-      "pregunta": "¿A qué mítico personaje de Los Simpson aludió Joni para decirle a Miki que los medios le manipulaban el cerebro?",
+      "pregunta": "¿A qué personaje de Los Simpson puso Joni de ejemplo al hablar de los medios y Miki?",
       "cita": "Pero los mass media le tienen comido la cabeza como el consejo del huevo a Lenny",
       "opciones": [
-        "Lenny",
-        "Homer",
+        "Moe",
         "Barney",
-        "Moe"
+        "Lenny",
+        "Homer"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Joni comparó la mente de Miki con la escena en la que Lenny dice: 'No aprietes... ese consejo del consejo del huevo no se me olvida'.",
       "anio": 2021
     },
@@ -386,8 +386,8 @@
       "opciones": [
         "Mariano Rajoy",
         "Pablo Casado",
-        "Núñez Feijóo",
-        "José María Aznar"
+        "José María Aznar",
+        "Núñez Feijóo"
       ],
       "correcta": 1,
       "explicacion": "Miki se defendía de los que le decían que votara a Vox confesando que incluso votar al PP le costaba por culpa de Pablo Casado.",
@@ -397,17 +397,17 @@
       "pregunta": "Tras ganar Messi su séptimo Balón de Oro en 2021, ¿de quién echaba en falta Humpa un tweet de felicitación?",
       "cita": "No hay Tweet de piqué dando felicitando a Leo , no ?",
       "opciones": [
-        "Cristiano Ronaldo",
         "Gerard Piqué",
         "Sergio Ramos",
+        "Cristiano Ronaldo",
         "Laporta"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "Humpa preguntó con sorna si Piqué se había dignado a felicitar públicamente a Leo Messi tras ganar el galardón.",
       "anio": 2021
     },
     {
-      "pregunta": "¿Qué titular en tercera persona se inventó Feme para vanagloriarse de sus preferencias amorosas rurales?",
+      "pregunta": "¿Quién se inventó un titular en tercera persona presumiendo de preferir una chica de pueblo antes que a Jennifer Aniston?",
       "cita": "Adrià Femenia desvela los motivos para elegir follarse a una de poble en lugar de Jennifer Aniston",
       "opciones": [
         "Jorge",
@@ -420,28 +420,28 @@
       "anio": 2022
     },
     {
-      "pregunta": "¿Quién proclamó de manera grandilocuente que 'ha ganado la civilización y occidente' tras contar un supuesto final de guerra?",
+      "pregunta": "¿Quién escribió en mayúsculas 'GANAMOS! HA GANADO LA CIVILIZACIÓN Y OCCIDENTE'?",
       "cita": "GANAMOS! HA GANADO LA CIVILIZACIÓN Y OCCIDENTE",
       "opciones": [
-        "Jorge",
-        "Germi",
+        "Humpa",
         "Miki",
-        "Humpa"
+        "Germi",
+        "Jorge"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Jorge se marcó un discurso de victoria épica en mayúsculas proclamando el triunfo de la civilización y occidente.",
       "anio": 2022
     },
     {
-      "pregunta": "¿A qué misterioso personaje contactó Joni para pedir presupuesto y camisetas o ropa para el grupo?",
+      "pregunta": "¿A quién le envió Joni un correo pidiendo precio para equipaciones en 2023?",
       "cita": "correo enviado a don Jimmy. en cuanto me diga precio os aviso",
       "opciones": [
-        "Don Jimmy",
-        "Don Paco",
         "Señor Chen",
+        "Don Paco",
+        "Don Jimmy",
         "Don Walter"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Joni avisó al grupo de que ya le había mandado un correo a 'don Jimmy' esperando sus tarifas.",
       "anio": 2023
     },
@@ -450,11 +450,11 @@
       "cita": "Hoy hacen el último episodio de cuéntame. Quería verlo hasta que me he dado cuenta que empieza a las 23:00",
       "opciones": [
         "Porque no soportaba a Imanol Arias",
-        "Porque tenía cena en Romanova",
         "Porque empezaba tardísimo, a las 23:00",
-        "Porque prefería ver el Hormiguero con Pérez-Reverte"
+        "Porque prefería ver el Hormiguero con Pérez-Reverte",
+        "Porque tenía cena en Romanova"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "explicacion": "Miki tenía la sana intención de despedir la serie histórica de TVE, pero la pereza del horario nocturno (23:00) le venció.",
       "anio": 2023
     },
@@ -462,12 +462,12 @@
       "pregunta": "¿Qué película destrozó Feme en una crítica cinematográfica demoledora comparándola con las de superhéroes?",
       "cita": "Luego Miki no quiere que mire Marvel Menuda mierda Napoleon",
       "opciones": [
-        "Oppenheimer",
-        "Napoleón",
+        "Dune",
         "Gladiator",
-        "Dune"
+        "Napoleón",
+        "Oppenheimer"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "Feme salió horrorizado de ver Napoleón y le reprochó a Miki que luego le critique a él por ver cine de Marvel.",
       "anio": 2023
     }
