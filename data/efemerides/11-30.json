@@ -7,12 +7,12 @@
       "pregunta": "¿Qué alarmante error de redacción cometió Hugo al contar por el grupo el intento de atraco que acababa de sufrir de camino a Superclub?",
       "cita": "hasta que me coge a mi y me apuñala con una navaja/cuchillo en el cuello.",
       "opciones": [
-        "Escribió que le habían apuñalado en el cuello en vez de que le habían apuntado",
         "Puso que le habían disparado en el pecho con una escopeta",
         "Dijo que le habían cortado la yugular pero que estaba bien",
+        "Escribió que le habían apuñalado en el cuello en vez de que le habían apuntado",
         "Contó que el atracador le había robado el coche y la cartera"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Hugo escribió por error que el tío le había apuñalado en el cuello, desatando la alarma hasta que aclaró que iba borracho o el corrector le cambió 'apuntar' por 'apuñalar'.",
       "anio": 2012
     },
@@ -20,12 +20,12 @@
       "pregunta": "¿Quién fue el primero en saltar asustado preguntando si de verdad habían apuñalado a Hugo tras leer su confuso mensaje?",
       "cita": "Xo el va apunyalar??",
       "opciones": [
-        "Jorge",
         "Feme",
-        "Germi",
-        "Héctor"
+        "Jorge",
+        "Héctor",
+        "Germi"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "Feme leyó perplejo el mensaje de Hugo y preguntó inmediatamente si de verdad le habían clavado la navaja.",
       "anio": 2012
     },
@@ -33,12 +33,12 @@
       "pregunta": "¿Qué redundante frase de Hugo rescató Jorge para mofarse de su capacidad redactora estando de resaca?",
       "cita": "Pero esta es aun mejor... \"Acabo de ser amenazado un buen rato con una puta amenaza\".",
       "opciones": [
-        "Acabo de ser asaltado por un asaltante",
         "Acabo de ser amenazado un buen rato con una puta amenaza",
-        "Me acaban de robar en un robo a mano armada",
-        "He sufrido una agresión con un agresor agresivo"
+        "Acabo de ser asaltado por un asaltante",
+        "He sufrido una agresión con un agresor agresivo",
+        "Me acaban de robar en un robo a mano armada"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "Jorge no dejó pasar la oportunidad de burlarse de Hugo y citó su gloriosa perla: 'Acabo de ser amenazado un buen rato con una puta amenaza'.",
       "anio": 2012
     },
@@ -48,10 +48,10 @@
       "opciones": [
         "Que no se puede salir de fiesta por Valencia de noche",
         "Que la policía no hace absolutamente nada",
-        "Que hace falta él en este país para poner las cosas en orden",
-        "Que Hugo no sabe defenderse en una pelea callejera"
+        "Que Hugo no sabe defenderse en una pelea callejera",
+        "Que hace falta él en este país para poner las cosas en orden"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "explicacion": "Feme se vino arriba afirmando que lo negativo de todo el asunto era la evidencia de que él hacía falta en este país para poner orden.",
       "anio": 2012
     },
@@ -59,10 +59,10 @@
       "pregunta": "Tras pasar el mal trago del atracador con la navaja, ¿cómo terminó la noche de Hugo y sus colegas en Superclub?",
       "cita": "Pues al final nos mamamos",
       "opciones": [
-        "Se fueron a la comisaría a poner la denuncia",
         "Se volvieron a casa del susto sin entrar a la discoteca",
+        "Se pegaron con los porteros de la entrada",
         "Se mamaron como ratas dentro de la discoteca",
-        "Se pegaron con los porteros de la entrada"
+        "Se fueron a la comisaría a poner la denuncia"
       ],
       "correcta": 2,
       "explicacion": "Hugo confesó que, tras el tremendo susto en el semáforo, acabaron dentro mamándose 'como ratas'.",
@@ -73,8 +73,8 @@
       "cita": "Parte de las fotos robadas",
       "opciones": [
         "Héctor",
-        "Miki",
         "Germi",
+        "Miki",
         "Joni"
       ],
       "correcta": 0,
@@ -85,10 +85,10 @@
       "pregunta": "¿Qué comentario soltó Feme al ver las fotos que Héctor mandó desde Deusto?",
       "cita": "Y luego dicen k las vascas son secas",
       "opciones": [
-        "Menudo frío tiene que hacer por allí",
+        "Pasa más fotos que esto promete",
         "Y luego dicen k las vascas son secas",
-        "Ahí no aprueba nadie ni de broma",
-        "Pasa más fotos que esto promete"
+        "Menudo frío tiene que hacer por allí",
+        "Ahí no aprueba nadie ni de broma"
       ],
       "correcta": 1,
       "explicacion": "Feme quedó gratamente impresionado con las chicas de la universidad vasca y soltó el tópico con ironía.",
@@ -98,12 +98,12 @@
       "pregunta": "¿Qué teoría expuso Jorge para presionar a Feme y que no se fuera de Valencia a mediodía?",
       "cita": "A mediodia se bajan los maricones. Los hombres se esperan a que sus amigos acaben clase a las 6.",
       "opciones": [
-        "Los hombres de verdad se quedan a comer kebabs",
-        "A mediodia se bajan los maricones. Los hombres se esperan a que sus amigos acaben clase a las 6.",
         "Si te vas a mediodía no tienes derecho a jugar de titular mañana",
-        "Bajar a mediodía es de pseudotrianguleros sin palabra"
+        "Bajar a mediodía es de pseudotrianguleros sin palabra",
+        "Los hombres de verdad se quedan a comer kebabs",
+        "A mediodia se bajan los maricones. Los hombres se esperan a que sus amigos acaben clase a las 6."
       ],
-      "correcta": 1,
+      "correcta": 3,
       "explicacion": "Jorge intentó convencer a Feme de hacer tiempo en Valencia hasta las seis de la tarde con su particular filosofía de 'hombres'.",
       "anio": 2012
     },
@@ -111,12 +111,12 @@
       "pregunta": "¿Cuál era la razón innegociable por la que Feme tenía que irse a mediodía hacia la Safor en lugar de esperar a Jorge?",
       "cita": "Xo Marc mi compaÑero de piso tiene k estar en su pueblo pronto",
       "opciones": [
-        "Tenía que llevar a su compañero de piso Marc a Beniarjó temprano",
         "Tenía entrenamiento obligatorio con su otro equipo",
         "Se le caducaba la comida de la nevera del pueblo",
+        "Tenía que llevar a su compañero de piso Marc a Beniarjó temprano",
         "Tenía que pasar la ITV del coche a primera hora de la tarde"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Feme explicó que no podía quedarse hasta las seis porque tenía que llevar en coche a su compañero Marc, que debía estar pronto en Beniarjó.",
       "anio": 2012
     },
@@ -124,10 +124,10 @@
       "pregunta": "¿Cómo reaccionó Jorge con orgullo triangulero al enterarse de que Feme priorizaba a su compañero de piso antes que a él?",
       "cita": "Marc... Who is Marc? Yo soy el 14 del TT",
       "opciones": [
-        "Me da igual Marc, yo voy primero",
-        "Marc... Who is Marc? Yo soy el 14 del TT",
         "Marc no ha metido un gol en su vida",
-        "El Triangulito Team está por encima de tus compañeros de piso"
+        "Marc... Who is Marc? Yo soy el 14 del TT",
+        "El Triangulito Team está por encima de tus compañeros de piso",
+        "Me da igual Marc, yo voy primero"
       ],
       "correcta": 1,
       "explicacion": "Jorge tiró de galones e identidad de vestuario reclamando su estatus: 'Marc... Who is Marc? Yo soy el 14 del TT'.",
@@ -137,12 +137,12 @@
       "pregunta": "¿Qué hito de la cultura digital de 2012 compartió Feme en pleno debate de transporte?",
       "cita": "El gangma style es el video mas visto de la historia",
       "opciones": [
-        "El Harlem Shake lo está petando",
-        "El gangma style es el video mas visto de la historia",
         "Justin Bieber ha perdido el récord de YouTube",
-        "El vídeo de la caída de Edgar ya no es el más visto"
+        "El Harlem Shake lo está petando",
+        "El vídeo de la caída de Edgar ya no es el más visto",
+        "El gangma style es el video mas visto de la historia"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "explicacion": "Feme soltó de pronto el dato viral del momento: el 'Gangnam Style' acababa de coronarse como el vídeo más visto de YouTube.",
       "anio": 2012
     },
@@ -151,9 +151,9 @@
       "cita": "Eso de dejarse la piel en el campo En tu caso es verdad Eres el puyi del ekipo",
       "opciones": [
         "Humpa",
-        "Germi",
+        "Marzal",
         "Miki",
-        "Marzal"
+        "Germi"
       ],
       "correcta": 0,
       "explicacion": "Humpa (Humberto) recibió un balonazo o golpe en la cara y Feme y Jorge estuvieron diez minutos hilando frases hechas: 'partido a cara de perro', 'la cara visible', 'salió todo de cara'...",
@@ -176,12 +176,12 @@
       "pregunta": "¿Qué otro clamoroso fallo de fabricación descubrieron los miembros del grupo en las camisetas del Dortmund?",
       "cita": "Estrellas torcidas?",
       "opciones": [
-        "Las mangas eran de distinto largo",
-        "Las estrellas del escudo venían torcidas en todas las camisetas",
+        "El nombre del equipo venía con faltas de ortografía",
         "El cuello estaba cosido por fuera",
-        "El nombre del equipo venía con faltas de ortografía"
+        "Las mangas eran de distinto largo",
+        "Las estrellas del escudo venían torcidas en todas las camisetas"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "explicacion": "Jorge y Germi confirmaron la tragedia estética: en todas las camisetas del pedido las estrellas del escudo estaban completamente torcidas.",
       "anio": 2012
     },
@@ -189,12 +189,12 @@
       "pregunta": "¿Cómo defendió Germi la calidad del pedido de camisetas ante las quejas y acusaciones de timo de Feme?",
       "cita": "Pero que quereis por 30€??? Firmada por Lewandoswki??",
       "opciones": [
+        "A mí me dijeron que eran réplicas exactas",
         "Si queríais calidad haberos ido a la tienda oficial",
         "Pero que quereis por 30€??? Firmada por Lewandoswki??",
-        "Bastante que han llegado antes del partido",
-        "A mí me dijeron que eran réplicas exactas"
+        "Bastante que han llegado antes del partido"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "Germi se plantó ante las críticas recordando el ajustado precio pagado: '¿Pero qué queréis por 30€? ¿Firmada por Lewandowski?'.",
       "anio": 2012
     },
@@ -202,12 +202,12 @@
       "pregunta": "¿A qué famoso personaje mediático de la época culpó Germi por el desastre de las camisetas?",
       "cita": "Han llegado, el estado de ellas no es cosa mia Es culpa de Gao",
       "opciones": [
-        "Gao Ping",
-        "Cobocalleja",
         "AliExpress",
-        "Al Chino Cudeiro"
+        "Al Chino Cudeiro",
+        "Cobocalleja",
+        "Gao Ping"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "En pleno apogeo del caso judicial de Gao Ping, Germi y Feme bromearon con que la culpa de la pésima confección era del mismísimo Gao Ping.",
       "anio": 2012
     },
@@ -215,10 +215,10 @@
       "pregunta": "¿A quién acusó Jorge de haber ocultado el defecto de las estrellas torcidas durante tres días mediante la maniobra 'JM18'?",
       "cita": "Escurrimiento de bulto by JM18",
       "opciones": [
-        "Germi",
-        "Marzal",
         "Humpa",
-        "Joni"
+        "Marzal",
+        "Joni",
+        "Germi"
       ],
       "correcta": 1,
       "explicacion": "Jorge señaló a Jose Marzal (JM18) por haberse callado el fallo de las estrellas desde el martes: '3 días de mutis por el foro. Sabes que has escondido ese detalle'.",
@@ -228,12 +228,12 @@
       "pregunta": "¿Qué brutal comparativa histórica soltó Jorge contra Humberto y Marzal por supuestamente censurar los defectos de las camisetas?",
       "cita": "Tapais informacion. Humberto l cacique y Marzal el jefe de propaganda Hitler y Goebbels",
       "opciones": [
-        "Lenin y Stalin",
         "Hitler y Goebbels",
+        "Mussolini y Ciano",
         "César y Bruto",
-        "Mussolini y Ciano"
+        "Lenin y Stalin"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "Jorge encendió la hipérbole acusando a Humpa de ser el cacique y a Marzal de ser su ministro de propaganda, rematando con un exagerado 'Hitler y Goebbels'.",
       "anio": 2012
     },
@@ -241,12 +241,12 @@
       "pregunta": "¿Quién señaló a 'el cacique y el topo' como los culpables de ocultar información sobre las camisetas?",
       "cita": "El cacique y el topo filtra o no informacion. Son ellos los culpables",
       "opciones": [
-        "Jorge",
-        "Feme",
         "Germi",
-        "Héctor"
+        "Feme",
+        "Héctor",
+        "Jorge"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Jorge estaba indignadísimo porque nadie avisó del supuesto fallo en la estampación de las camisetas y cargó contra los emisarios.",
       "anio": 2012
     },
@@ -255,9 +255,9 @@
       "cita": "Humberto no contesta xk esta haciendo coxinadas en el tren",
       "opciones": [
         "Haciendo coxinadas",
-        "Estudiando para un examen",
         "Durmiendo la mona",
-        "Sin cobertura en el túnel"
+        "Sin cobertura en el túnel",
+        "Estudiando para un examen"
       ],
       "correcta": 0,
       "explicacion": "Feme tiró de imaginación para justificar la sonada ausencia de Humpa durante el debate del grupo.",
@@ -269,8 +269,8 @@
       "opciones": [
         "Germi",
         "Jorge",
-        "Feme",
-        "Hugo"
+        "Hugo",
+        "Feme"
       ],
       "correcta": 1,
       "explicacion": "Jorge se autoproclamó vencedor junto a Feme en el acalorado debate de las equipaciones.",
@@ -280,12 +280,12 @@
       "pregunta": "¿Quién inmortalizó la mítica contradicción de Marzal sentenciando 'Yo no me lo calle, simplemente no dije nada'?",
       "cita": "Yo no me lo calle, simplemente no dije nada",
       "opciones": [
-        "Feme",
+        "Héctor",
         "Germi",
-        "Joni",
-        "Héctor"
+        "Feme",
+        "Joni"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Feme se mofó de la curiosa defensa dialéctica de Marzal para justificar que no hubiera avisado de los fallos de las camisetas.",
       "anio": 2012
     },
@@ -293,12 +293,12 @@
       "pregunta": "¿Quién aconsejó a Marzal no subir fotos íntimas 'en plena guerra'?",
       "cita": "En plena guerra no debes subir fotos intimas",
       "opciones": [
-        "Jorge",
-        "Germi",
         "Feme",
-        "Hugo"
+        "Germi",
+        "Hugo",
+        "Jorge"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "explicacion": "Feme le reprochó a Marzal que en mitad de la batalla dialéctica compartiera contenido comprometedor.",
       "anio": 2012
     },
@@ -306,12 +306,12 @@
       "pregunta": "¿Quién asustó al grupo a las 3:37 de la madrugada avisando de que acababa de sufrir un altercado?",
       "cita": "Acabo de ser amenazado un buen rato con una puta amenaza",
       "opciones": [
-        "Hugo",
         "Miki",
         "Joni",
+        "Hugo",
         "Jorge"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Hugo escribió de madrugada conmocionado tras haber sido increpado y amenazado por la calle.",
       "anio": 2012
     },
@@ -319,12 +319,12 @@
       "pregunta": "Tras el susto nocturno de Hugo, ¿quién abrió el chat por la mañana con un dato fiestero totalmente aleatorio?",
       "cita": "David guetta en noxevieja estara en Playa del Carmen!",
       "opciones": [
-        "Joni",
-        "Feme",
+        "Miki",
         "Germi",
-        "Miki"
+        "Joni",
+        "Feme"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "explicacion": "Feme pasó de los dramas nocturnos y soltó a primera hora dónde iba a pinchar David Guetta en Nochevieja.",
       "anio": 2012
     },
@@ -332,12 +332,12 @@
       "pregunta": "En plena tensión por las camisetas del equipo, ¿quién acusó al resto de quedarse 'callados como una ratas'?",
       "cita": "Se ha demostrado que no hablasteis porque os quedasteis callados como una ratas",
       "opciones": [
-        "Jorge",
-        "Feme",
         "Germi",
+        "Feme",
+        "Jorge",
         "Hugo"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Jorge no perdonaba que los que recogieron las equipaciones no avisaran de los supuestos fallos.",
       "anio": 2012
     },
@@ -345,12 +345,12 @@
       "pregunta": "¿Qué problema físico tenía Germi que le hacía dudar sobre si ir a entrenar?",
       "cita": "Que esty mal de la espalda",
       "opciones": [
-        "Estaba mal de la espalda",
+        "Dolor de muelas",
         "Tenía esguince de tobillo",
         "Sobrecarga en los gemelos",
-        "Dolor de muelas"
+        "Estaba mal de la espalda"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Germi avisó a Feme de que la espalda le estaba dando la lata y probablemente se perdería el entreno.",
       "anio": 2012
     },
@@ -384,12 +384,12 @@
       "pregunta": "¿Quién celebró la victoria del equipo con un spanglish impecable: 'Another saturday more el TT se la saca again'?",
       "cita": "Another saturday more el TT se la saca again",
       "opciones": [
-        "Joni",
-        "Jorge",
         "Feme",
-        "Miki"
+        "Miki",
+        "Jorge",
+        "Joni"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Joni resumió la habitual superioridad del Triangulito Team en las pistas de fútbol sala mezclando idiomas con soltura.",
       "anio": 2013
     },
@@ -397,12 +397,12 @@
       "pregunta": "Cuando Feme marcó un gol en su partido de la tarde, ¿cómo se mofó Jorge de él?",
       "cita": "El mismo Feme que ni ha visto el partido con nosotros? El mismo Feme que Feme y las judias magicas?",
       "opciones": [
-        "Jorge",
-        "Miki",
-        "Joni",
-        "Germi"
+        "Le respondió que marcar en solteros no contaba para las estadísticas",
+        "Le dijo que seguro que había sido un gol en propia puerta de rebote",
+        "Le preguntó si era el mismo Feme de las judías mágicas que ni vio el partido",
+        "Le soltó que con ese gol ya podía pedir la ficha profesional"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Jorge no daba crédito al gol de Femao y le recordó que ni siquiera se había quedado a ver al Triangulito Team entero.",
       "anio": 2013
     },
@@ -410,12 +410,12 @@
       "pregunta": "Feme agradeció conmovido que se quedaran a ver su partido, pero ¿quién le pinchó el globo con total sinceridad?",
       "cita": "No,si en verdad era porqie estábamos cansados y no había nada mejor que hacer jajajajaja com heu quedat?",
       "opciones": [
-        "Joni",
-        "Jorge",
         "Germi",
-        "Héctor"
+        "Joni",
+        "Héctor",
+        "Jorge"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Joni aclaró que no fue por apoyo fraternal, sino porque estaban reventados en la grada y sin mejor plan.",
       "anio": 2013
     },
@@ -424,9 +424,9 @@
       "cita": "Viva el black friday! Viva media mark! I viva gladiator!!!",
       "opciones": [
         "Feme",
-        "Germi",
+        "Jorge",
         "Hugo",
-        "Jorge"
+        "Germi"
       ],
       "correcta": 0,
       "explicacion": "Feme tuvo un momento de máxima euforia consumista y cinéfila celebrando las gangas del Black Friday.",
@@ -436,12 +436,12 @@
       "pregunta": "En 2014, Jorge le pidió a Miki que mandara un audio imitando a...",
       "cita": "Imitando a John Cobreit",
       "opciones": [
-        "John Cobreit",
+        "Matías Prats",
         "Torrente",
         "Julio Iglesias",
-        "Matías Prats"
+        "John Cobreit"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Jorge le pidió a Miki una de sus míticas imitaciones de John Cobrety.",
       "anio": 2014
     },
@@ -449,12 +449,12 @@
       "pregunta": "Al leer las noticias del suceso ultra en el río Manzanares, ¿quién soltó con sarcasmo: 'Que raro si no son nada violentos'?",
       "cita": "Que raro si no son nada violentos",
       "opciones": [
+        "Germi",
         "Feme",
         "Hugo",
-        "Jorge",
-        "Germi"
+        "Jorge"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Feme tiró de fina ironía ante las noticias sobre la batalla campal del Frente Atlético.",
       "anio": 2014
     },
@@ -462,12 +462,12 @@
       "pregunta": "Mientras Germi preguntaba qué culé iba a su casa a ver el partido, ¿qué desconcertante mezcla gastronómica soltó Feme?",
       "cita": "Kebab japones",
       "opciones": [
-        "Kebab japones",
         "Durum de sushi",
+        "Pizza de paella",
         "Taco valenciano",
-        "Pizza de paella"
+        "Kebab japones"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Feme soltó de repente 'Kebab japones' sin venir a cuento, desatando las risas de Hugo.",
       "anio": 2014
     },
@@ -475,12 +475,12 @@
       "pregunta": "En mitad de la madrugada de 2014, ¿qué surrealista percance doméstico compartió Feme dejando a todos atónitos?",
       "cita": "Me ha caido una escalera en la cabeza",
       "opciones": [
+        "Me ha picado una avispa en la frente",
         "Me ha caido una escalera en la cabeza",
         "Me he comido una farola volviendo a pie",
-        "Se me ha caído el termo en el pie",
-        "Me ha picado una avispa en la frente"
+        "Se me ha caído el termo en el pie"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Feme apareció a las 2:39 de la madrugada diciendo que le había caído una escalera en la cabeza y que ahora tenía 'el cap mes gran i tot'.",
       "anio": 2014
     },
@@ -488,12 +488,12 @@
       "pregunta": "Tras celebrar un gol agónico del Barça en 2014, ¿con qué sincera reflexión resumió Jorge el subidón del momento?",
       "cita": "Pero durante 5 mintos te la suda todo",
       "opciones": [
-        "Pero durante 5 mintos te la suda todo",
-        "Pero la posesión ha sido lamentable",
         "Pero Luis Enrique no llega a enero",
-        "Pero Germi se ha quedado mudo"
+        "Pero Germi se ha quedado mudo",
+        "Pero la posesión ha sido lamentable",
+        "Pero durante 5 mintos te la suda todo"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Jorge reconoció que jugando así no iban a ningún lado, pero que la euforia momentánea lo eclipsaba todo.",
       "anio": 2014
     },
@@ -501,12 +501,12 @@
       "pregunta": "Cuando a Feme le confirmaron cita para el traumatólogo de cara a una operación, ¿de qué bromeó que le iban a poner una pieza?",
       "cita": "Van a ficarme uno de madrra",
       "opciones": [
-        "Van a ficarme uno de madrra",
+        "Van a trasplantarme el gemelo de Miki",
         "Van a ponerme titanio de la NASA",
-        "Me meterán un muelle de tractor",
-        "Van a trasplantarme el gemelo de Miki"
+        "Van a ficarme uno de madrra",
+        "Me meterán un muelle de tractor"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Feme bromeó con que le iban a poner un implante de madera y que acabaría pareciendo un androide de Dragon Ball.",
       "anio": 2015
     },
@@ -514,12 +514,12 @@
       "pregunta": "En la tensa previa de un Clásico en 2016, ¿qué polémica confesión previa de Marzal fue rescatada por Jorge como un escándalo moral?",
       "cita": "Que el mariconazo ese me cae bien",
       "opciones": [
-        "Que el mariconazo ese me cae bien",
-        "Que el Bernabéu en realidad está muy guapo",
+        "Que Sergio Ramos tiene mucho carisma",
         "Que Cristiano se merecía el Balón de Oro",
-        "Que Sergio Ramos tiene mucho carisma"
+        "Que el Bernabéu en realidad está muy guapo",
+        "Que el mariconazo ese me cae bien"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Jorge desempolvó una captura donde Marzal reconocía que cierto personaje rival le caía bien, montando un juicio grupal sobre la 'autoridad moral'.",
       "anio": 2016
     },
@@ -528,8 +528,8 @@
       "cita": "Tengo la cami de Ronaldinho",
       "opciones": [
         "Tengo la cami de Ronaldinho",
-        "Tengo la bufanda del Gamper 2009",
         "Tengo los calzoncillos de Puyol",
+        "Tengo la bufanda del Gamper 2009",
         "Tengo el póster firmado de Saviola"
       ],
       "correcta": 0,
@@ -540,12 +540,12 @@
       "pregunta": "Cuando las Fallas fueron declaradas Patrimonio Inmaterial de la Humanidad, ¿qué drástica solución política deseó Joni para Gandía?",
       "cita": "Ojalá Trump se presente en Gandía de alcalde y proponga la abolición fallera",
       "opciones": [
+        "Prefiero que el Madrid gane el triplete antes que ver un monumento",
         "Ojalá Trump se presente en Gandía de alcalde y proponga la abolición fallera",
         "Haria una recolecta para quemar el museo fallero entero",
-        "Deberían prohibir los petardos por orden de la OTAN",
-        "Prefiero que el Madrid gane el triplete antes que ver un monumento"
+        "Deberían prohibir los petardos por orden de la OTAN"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Joni soltó una de sus míticas rajadas antfalleras deseando que Trump llegara a la alcaldía de Gandía con un programa de abolición total.",
       "anio": 2016
     },
@@ -553,12 +553,12 @@
       "pregunta": "En pleno debate sobre la UNESCO y las Fallas, ¿qué gamberrada propuso Jorge financiar contra Joni?",
       "cita": "Haria una recolecta",
       "opciones": [
-        "Para qu plantaran una falla justo en la puerta de joni",
-        "Para comprarle un traje de fallero a medida",
+        "Para llevarlo en andas a la ofrenda de flores",
         "Para ponerle una charanga debajo del balcón",
-        "Para llevarlo en andas a la ofrenda de flores"
+        "Para que le plantaran una falla justo en la puerta a Joni",
+        "Para comprarle un traje de fallero a medida"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Jorge dijo que pondría dinero de una recolecta con tal de que le plantaran un monumento fallero en la misma puerta a Joni para verle sufrir.",
       "anio": 2016
     },
@@ -567,8 +567,8 @@
       "cita": "Porque los de la UNESCO se han puesto a vender abrigos ahi en el desierto del Kalahari y se han hinchao",
       "opciones": [
         "Porque los de la UNESCO se han puesto a vender abrigos ahi en el desierto del Kalahari y se han hinchao",
-        "Porque la UNESCO vende humo a precio de oro en las rebajas",
         "Porque le darían patrimonio hasta a las croquetas de Mercadona",
+        "Porque la UNESCO vende humo a precio de oro en las rebajas",
         "Porque están sobornados por la junta central de Valencia"
       ],
       "correcta": 0,
@@ -579,12 +579,12 @@
       "pregunta": "¿Quién irrumpió con un 'SIUUUUUUU' de la nada en el grupo para crispar los nervios a la bancada culé?",
       "cita": "SIUUUUUUU",
       "opciones": [
-        "Miki",
-        "Hugo",
         "Germi",
-        "Humpa"
+        "Humpa",
+        "Hugo",
+        "Miki"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Miki soltó su 'SIUUUUUUU' en mayúsculas a las ocho de la tarde provocando que Feme saltase al segundo con un 'Ostia miki, puto madridista'.",
       "anio": 2016
     },
@@ -592,12 +592,12 @@
       "pregunta": "Viendo un partido soporífero del Barça, ¿por quién propuso Jorge cambiar a Arda Turan de inmediato?",
       "cita": "Arda por el pichichi del equipo de los sordos ahora mismo",
       "opciones": [
-        "Arda por el pichichi del equipo de los sordos ahora mismo",
-        "Arda por un cono de entrenamiento de regional",
         "Arda por Douglas de lateral derecho",
-        "Arda por el utilero del filial"
+        "Arda por el utilero del filial",
+        "Arda por el pichichi del equipo de los sordos ahora mismo",
+        "Arda por un cono de entrenamiento de regional"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El nivel de Arda Turan desesperó tanto a Jorge y a Joni que empezaron a ofrecer a cualquier persona sobre la faz de la tierra como recambio.",
       "anio": 2016
     },
@@ -607,8 +607,8 @@
       "opciones": [
         "Ye Cillesen no os da la sensación de que se vaya a morir en cualquier momento?",
         "Cillessen parece que le hayan quitado el alma al saltar",
-        "Cillessen transmite menos seguridad que Pinto cojo",
-        "Cillessen mide dos metros pero pesa veinte kilos"
+        "Cillessen mide dos metros pero pesa veinte kilos",
+        "Cillessen transmite menos seguridad que Pinto cojo"
       ],
       "correcta": 0,
       "explicacion": "Joni lo vio tan pálido y frágil que preguntó con toda naturalidad si no parecía que el guardameta fuera a fallecer en directo.",
@@ -618,12 +618,12 @@
       "pregunta": "Harto del aburrido partido de Copa del Barça, ¿con qué serie de televisión amenazó Jorge con ponerse?",
       "cita": "El partido esta.. Para ponersd con Velvet",
       "opciones": [
-        "El partido esta.. Para ponersd con Velvet",
+        "Prefiero ver Pasión de Gavilanes que este pestiño",
         "Me voy a poner Aquí no hay quien viva",
         "Esto no se aguanta, cambio a MasterChef",
-        "Prefiero ver Pasión de Gavilanes que este pestiño"
+        "El partido esta.. Para ponersd con Velvet"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Jorge prefirió ver 'Velvet' antes que seguir sufriendo el partido, aprovechando de paso para criticar a Paula Echevarría.",
       "anio": 2016
     },
@@ -632,9 +632,9 @@
       "cita": "Mucho Islandia mucho Islandia",
       "opciones": [
         "Islandia",
+        "Suiza",
         "Grecia",
-        "Irlanda del Norte",
-        "Suiza"
+        "Irlanda del Norte"
       ],
       "correcta": 0,
       "explicacion": "Germi se quejó de la fiebre con Islandia afirmando que su juego era 'soporífero' e insufrible de analizar.",
@@ -644,12 +644,12 @@
       "pregunta": "¿Cómo fechó Joni la antigüedad de la junta de tubería que le causó una inundación de goteras en casa?",
       "cita": "Una junta de la tubería de cuando mi abuela era virgen que ha hecho chooof",
       "opciones": [
-        "Una junta de la tubería de cuando mi abuela era virgen que ha hecho chooof",
-        "Un tubo de plomo de la época de la dictadura",
+        "Una instalación de cuando reinaba Alfonso XIII",
         "Una tubería de cuando en Gandía no había ni asfalto",
-        "Una instalación de cuando reinaba Alfonso XIII"
+        "Una junta de la tubería de cuando mi abuela era virgen que ha hecho chooof",
+        "Un tubo de plomo de la época de la dictadura"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Joni explicó el origen de las goteras con su peculiar sentido temporal sobre la virginal juventud de su abuela.",
       "anio": 2018
     },
@@ -657,12 +657,12 @@
       "pregunta": "Según Joni, ¿qué insólita historia de pueblo le relató su abuela al operario del seguro que fue a reparar las goteras?",
       "cita": "va vindre tota beniopa a donar-los el pésame",
       "opciones": [
-        "Que se murió una de sus tres jacas y vino toda Beniopa a dar el pésame",
-        "Que guardaban un cerdo en el patio durante la posguerra",
         "Que se cayó un cura del campanario y nadie lo recogió",
-        "Que el pozo de la casa tenía agua bendita de Lourdes"
+        "Que guardaban un cerdo en el patio durante la posguerra",
+        "Que el pozo de la casa tenía agua bendita de Lourdes",
+        "Que se murió una de sus tres jacas y vino toda Beniopa a dar el pésame"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Joni contó cómo su abuela tenía activado el 'modo aleatorio' explicándole al fontanero el entierro de una jaca en Beniopa a la que fue todo el vecindario.",
       "anio": 2018
     },
@@ -670,25 +670,25 @@
       "pregunta": "¿Qué dato histórico de los Mundiales le sorprendió descubrir a Miki sobre Jorge Valdano?",
       "cita": "Valdano marcó en la final de un mundial eh",
       "opciones": [
+        "Valdano fue pichichi de la liga dos veces",
         "Valdano marcó en la final de un mundial eh",
-        "Valdano ganó la Copa América lesionado",
         "Valdano jugó en el Deportivo Alavés antes que en el Madrid",
-        "Valdano fue pichichi de la liga dos veces"
+        "Valdano ganó la Copa América lesionado"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Miki confesó en el grupo que creía que la carrera de Valdano había sido más intrascendente hasta descubrir que marcó en la final de México 86.",
       "anio": 2020
     },
     {
-      "pregunta": "Al plantear celebrar la cena de Navidad un 25 de diciembre, ¿qué estampa cómica se imaginó Jorge para animar el plan?",
+      "pregunta": "Al plantear celebrar la cena de Navidad un 25 de diciembre, ¿qué se imaginó Jorge que haría Feme disfrazado de Papá Noel?",
       "cita": "Ver a Feme disfrazado de Papa Noel",
       "opciones": [
-        "Intentando hacer un fingerroll puro",
+        "Tirando triples con la barriga postiza",
         "Repartiendo cubatas en el Bunker",
-        "Bailando villancicos en una rotonda",
-        "Tirando triples con la barriga postiza"
+        "Intentando hacer un fingerroll puro",
+        "Bailando villancicos en una rotonda"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "A Jorge le hacía ilusión cenar el día 25 solo por ver a Feme con el traje de Papá Noel intentando encestar con su característico 'fingerroll'.",
       "anio": 2021
     },
@@ -696,12 +696,12 @@
       "pregunta": "Cuando Hugo propuso recuperar la pachanga de 'solteros contra casados', ¿qué obstáculo insalvable recordó Humpa?",
       "cita": "Hasta que no se case Aitor nada jajajajaja",
       "opciones": [
-        "Hasta que no se case Aitor nada jajajajaja",
         "Hasta que Feme no tenga novia oficial no hay partido",
-        "Hasta que Germi no pierda cinco kilos no se juega",
-        "Hasta que Miki no vuelva a Gandía se suspende"
+        "Hasta que Miki no vuelva a Gandía se suspende",
+        "Hasta que no se case Aitor nada jajajajaja",
+        "Hasta que Germi no pierda cinco kilos no se juega"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Humpa zanjó la idea del partido recordando que sin la boda de Aitor las plantillas no cuadraban de ninguna manera.",
       "anio": 2021
     },
@@ -722,12 +722,12 @@
       "pregunta": "Marzal dice que puede quedar el 23, pero Jorge le recuerda una parada obligatoria previa para evitar desastres económicos. ¿Cuál?",
       "cita": "Ve primero a casa de Joni a dejarte la cartera",
       "opciones": [
-        "Pásate por el cajero a sacar suelto",
-        "Ve primero a casa de Joni a dejarte la cartera",
+        "Acuérdate de traer tabaco",
         "Págale a Germi lo que le debes",
-        "Acuérdate de traer tabaco"
+        "Ve primero a casa de Joni a dejarte la cartera",
+        "Pásate por el cajero a sacar suelto"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "Jorge le soltó a Marzal que primero fuera a casa de Joni a dejar la cartera para evitar que se dejara las perras o la perdiera.",
       "anio": 2021
     },
@@ -735,12 +735,12 @@
       "pregunta": "Miki está de Rodríguez y quiere ver el partido con Germi, pero este dice que entrena niños hasta las 20:30. ¿Qué excusa médica le sugiere Miki?",
       "cita": "di que te duele el pelo",
       "opciones": [
-        "di que te ha dado un tirón",
-        "di que tienes cagalera",
+        "di que te ha dado COVID",
         "di que te duele el pelo",
-        "di que te ha dado COVID"
+        "di que te ha dado un tirón",
+        "di que tienes cagalera"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "explicacion": "Miki quería montar cena y partido a toda costa, así que le propuso a Germi la excusa médica más inverosímil del mundo.",
       "anio": 2022
     },
@@ -748,12 +748,12 @@
       "pregunta": "Como Germi tiene que pedir permiso a Marzal para librar del entrenamiento, ¿cómo bautizó Jorge a Marzal en versión Pokémon?",
       "cita": "El líder del Gimnasio Benirredrá",
       "opciones": [
-        "El Alto Mando de Gandía",
         "El líder del Gimnasio Benirredrá",
         "Profesor Oak de La Safor",
-        "El Campeón de la Liga Conde"
+        "El Campeón de la Liga Conde",
+        "El Alto Mando de Gandía"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "Jorge convirtió a Marzal en líder de gimnasio Pokémon de Benirredrà al que había que derrotar para conseguir fiesta.",
       "anio": 2022
     },
@@ -763,10 +763,10 @@
       "opciones": [
         "La Medalla Trueno",
         "La Medalla Cascada",
-        "Además obtendrás la Medalla Roca",
-        "La Medalla Pantano"
+        "La Medalla Pantano",
+        "La Medalla Roca"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "explicacion": "Jorge remató diciendo que si le ganabas a Marzal, los pokémons de nivel menor a 30 te obedecerían y te llevarías la Medalla Roca.",
       "anio": 2022
     },
@@ -775,9 +775,9 @@
       "cita": "Esta en la constitución",
       "opciones": [
         "Esta en la constitución",
+        "Es delito de sedición",
         "Lo dice la FIFA",
-        "Lo firmó el Rey",
-        "Es delito de sedición"
+        "Lo firmó el Rey"
       ],
       "correcta": 0,
       "explicacion": "Para Feme, si juega la selección no se entrena bajo ningún concepto: 'Se anula. Esta en la constitución'.",
@@ -788,11 +788,11 @@
       "cita": "eso en el Conde",
       "opciones": [
         "eso en el Oliva",
-        "eso en el Conde",
         "eso en el Portuarios",
+        "eso en el Conde",
         "eso en el Gandía"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "Germi le tiró la pulla a Feme de que suspender entrenamientos para ver el Mundial solo se hace en el CF UE Tavernes / campo del Conde.",
       "anio": 2022
     },
@@ -801,11 +801,11 @@
       "cita": "Grande stoisny",
       "opciones": [
         "Grande Dibu",
-        "Grande stoisny",
         "Grande Courtois",
-        "Grande Bono"
+        "Grande Bono",
+        "Grande stoisny"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "explicacion": "Germi quiso elogiar a Wojciech Szczęsny tras el penalti injusto y le salió escribir un fantástico 'stoisny'.",
       "anio": 2022
     },
@@ -813,10 +813,10 @@
       "pregunta": "En plena fase de grupos del Mundial se comenta que un grupo se decide por tarjetas amarillas. ¿Quién recordó que a Senegal ya le ocurrió eso en el pasado?",
       "cita": "Eso ya le paso a Senegal creo",
       "opciones": [
+        "Germi",
         "Joni",
-        "Jorge",
         "Feme",
-        "Germi"
+        "Jorge"
       ],
       "correcta": 2,
       "explicacion": "Feme sacó a relucir sus conocimientos futboleros recordando el precedente de Senegal cayendo eliminada por 'fair play' de amarillas.",
@@ -826,12 +826,12 @@
       "pregunta": "Debatiendo sobre el futuro Mundial de 48 selecciones y partidos intrascendentes, ¿qué apasionante emparejamiento vaticinó Germi?",
       "cita": "se viene el Tunez - Nueva Zelanda",
       "opciones": [
-        "se viene el Tunez - Nueva Zelanda",
-        "se viene el Catar - Panamá",
+        "se viene el Bolivia - Islandia",
         "se viene el Irán - Honduras",
-        "se viene el Bolivia - Islandia"
+        "se viene el Catar - Panamá",
+        "se viene el Tunez - Nueva Zelanda"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "Germi se imaginó el horror de fase de grupos con 48 selecciones augurando un tremendo 'Túnez - Nueva Zelanda'.",
       "anio": 2022
     },
@@ -839,12 +839,12 @@
       "pregunta": "A la predicción de partidos infames del Mundial de Germi, ¿qué partidazo alternativo propuso Joni?",
       "cita": "Birmania - Madagascar",
       "opciones": [
-        "Haití - Kazajistán",
         "Birmania - Madagascar",
+        "Haití - Kazajistán",
         "Fiyi - Surinam",
         "Laos - Yibuti"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "Joni redobló la apuesta por el fútbol gourmet de selecciones proponiendo un 'Birmania - Madagascar'.",
       "anio": 2022
     },
@@ -852,12 +852,12 @@
       "pregunta": "Al criticar la cobertura de la Cadena Cope y los ataques a Luis Enrique en 2022, ¿quién habló de la 'bilis madridista'?",
       "cita": "La bilis madridista",
       "opciones": [
-        "Germi",
-        "Jorge",
+        "Joni",
         "Feme",
-        "Joni"
+        "Jorge",
+        "Germi"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "explicacion": "Joni cargó contra la campaña mediática de la prensa madrileña hacia Luis Enrique calificándola directamente de 'bilis madridista'.",
       "anio": 2022
     },
@@ -866,11 +866,11 @@
       "cita": "Que frondosidad en el.cabello de Hugo",
       "opciones": [
         "Que patillas de torero",
+        "Vaya pelazo afro",
         "Que frondosidad en el.cabello de Hugo",
-        "Que bigotito de prepúber",
-        "Vaya pelazo afro"
+        "Que bigotito de prepúber"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "Marzal comentó con sorna el antiguo pelazo tupido de Hugo al ver una foto vieja en el grupo.",
       "anio": 2023
     },
@@ -878,12 +878,12 @@
       "pregunta": "Siguiendo con la foto retrospectiva, ¿a qué cliché televisivo ochentero dijo Marzal que se parecía la cara de Miki?",
       "cita": "Follador de Melrose Place",
       "opciones": [
-        "Galán de Dinastía",
         "Detective de Miami Vice",
-        "Follador de Melrose Place",
-        "Secundario de Salvados por la campana"
+        "Galán de Dinastía",
+        "Secundario de Salvados por la campana",
+        "Follador de Melrose Place"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "explicacion": "Marzal vio la pose de Miki en la foto y no dudó en catalogarlo como un 'Follador de Melrose Place'.",
       "anio": 2023
     },
@@ -891,12 +891,12 @@
       "pregunta": "Continuando con los parecidos razonables de Miki en esa foto, ¿con qué personaje de American Pie lo comparó Marzal?",
       "cita": "Se parece a Stifler",
       "opciones": [
-        "Se parece a Finch",
-        "Se parece a Jim",
         "Se parece a Stifler",
-        "Se parece a Oz"
+        "Se parece a Finch",
+        "Se parece a Oz",
+        "Se parece a Jim"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "explicacion": "Tras lo de Melrose Place, Marzal remató comparando la cara de pícaro de Miki con el mismísimo Stifler.",
       "anio": 2023
     },
@@ -906,10 +906,10 @@
       "opciones": [
         "18€ por camiseta",
         "20€ por camiseta",
-        "Prims, son 23€ por camiseta",
-        "25€ por camiseta"
+        "25€ por camiseta",
+        "23€ por camiseta"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "explicacion": "Joni mandó el aviso a los 'prims' para que rulasen los bizums de 23 euros exactos por camiseta.",
       "anio": 2023
     },
@@ -917,10 +917,10 @@
       "pregunta": "Humpa convocó un almuerzo matutino taggeando a la tropa, pero Miki le cortó el rollo. ¿Dónde estaba metido?",
       "cita": "Pues estoy en pedreguer. No puedo hoy. Mañana si podría",
       "opciones": [
-        "Pues estoy en pedreguer. No puedo hoy. Mañana si podría",
-        "Estoy en Valencia currando",
-        "Me he quedado dormido en Gandía",
-        "Estoy de viaje en Madrid"
+        "En Pedreguer",
+        "En Madrid",
+        "En Gandía",
+        "En Valencia"
       ],
       "correcta": 0,
       "explicacion": "Miki no pudo acudir al reclamo gastronómico de Humpa porque se encontraba en Pedreguer esa mañana.",
@@ -930,12 +930,12 @@
       "pregunta": "Tras una dolorosa derrota en casa del Barça ante Las Palmas en 2024, ¿a quién pidió Jorge que pusiera Flick en portería en vez de a Iñaki Peña?",
       "cita": "Que priebe al portero fumeta",
       "opciones": [
-        "Que priebe al portero fumeta",
+        "Que juegue Ter Stegen cojo",
         "Que suba al chaval del filial",
-        "Que fiche a De Gea",
-        "Que juegue Ter Stegen cojo"
+        "Que priebe al portero fumeta",
+        "Que fiche a De Gea"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "Harto de los goles encajados por Iñaki Peña, Jorge exigió que Flick probase a Szczęsny, apodado cariñosamente 'el portero fumeta'.",
       "anio": 2024
     }
