@@ -1,18 +1,17 @@
 {
   "titulo_historia": "Especial CarTTelera: El TT (Triangulito Team FC)",
-  "modelo_usado": "glm5.3-flash",
-  "total_preguntas": 150,
+  "total_preguntas": 148,
   "preguntas": [
     {
       "pregunta": "Héctor advirtió que ese tema no se iba a hablar, pero la indumentaria 2012/2013 acabó saliendo igualmente. ¿Cuál fue la primera propuesta formal de kit?",
       "cita": "Héctor: Sabéis q no vamos a hablar de ese tema",
       "opciones": [
-        "La camiseta negra con león, ajustada xa negros",
-        "La segunda del Levante, verde, con el logo de la Comunitat",
+        "Bolsas de basura negras, prendas completamente térmicas",
         "Camisetas de tirantes, por ser agosto",
-        "Bolsas de basura negras, prendas completamente térmicas"
+        "La segunda del Levante, verde, con el logo de la Comunitat",
+        "La camiseta negra con león, ajustada xa negros"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "Feme la solucionó en dos mensajes: 'Bolsas de basura negras' y 'prendas completamente termicas'; Joni ya avisó que el político iría a casa de un constructor a exigirlas pa blanquear dinero."
@@ -21,12 +20,12 @@
       "pregunta": "¿Qué medida 'salida del cerebro desfasado de Joni' contaba con el apoyo incondicional de Feme?",
       "cita": "Feme: Apoyo cualkier medida k salga del cerebro desfasado de joni",
       "opciones": [
-        "Jugar con la tercera del Milan",
         "Cambiar los aros olímpicos por triángulos",
         "Fichar al portero supergordo de la liga de AFES",
-        "Pillar la segunda del Levante, verde, con el logo de la Comunitat Valenciana en el pecho"
+        "Pillar la segunda del Levante, verde, con el logo de la Comunitat Valenciana en el pecho",
+        "Jugar con la tercera del Milan"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2012,
       "categoria": "opinion",
       "explicacion": "El plan de Joni era fardar de comunidad autónoma joder; Feme apoyaba cualquier cosa que saliera de aquel cerebro, coherencia cero."
@@ -35,12 +34,12 @@
       "pregunta": "Mientras las españolas arrasaban en el vóley playa, ¿qué expansión deportiva se estaba tramitando en las oficinas del Triangulito Team?",
       "cita": "Feme: Veo k se esta tramitando una posible expansion del triangulito team xa formar tamb un ekipo de waterpolo",
       "opciones": [
-        "Un equipo de vóley playa",
-        "Una peña de windsurf en les motes",
         "Una sección de judo profesional",
-        "Un equipo de waterpolo"
+        "Un equipo de waterpolo",
+        "Una peña de windsurf en les motes",
+        "Un equipo de vóley playa"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "El TT soñaba con ser multiolímpico mientras Marzal ejercía de 'corrector' en el vóley playa; la máquina de fichar secciones no paraba."
@@ -49,12 +48,12 @@
       "pregunta": "¿Qué maniobra legendaria ejecutó Jorge en la piscina antes de salir con 'un chorro de sangre guapo' y perderse el arranque de la pretemporada del TT?",
       "cita": "Jorge: No no, el socorrista me ha atentido...pero la herida me imposibilita empezar mis entrenamientos de pretemporada triangulito team",
       "opciones": [
-        "La clásica maniobra de Iván Pérez, el ídolo de Marzal",
-        "El piscinazo oficial de Joni",
+        "La maniobra que practicaban los españoles al conquistar América",
         "La Marzalada de tres toques",
-        "La maniobra que practicaban los españoles al conquistar América"
+        "La clásica maniobra de Iván Pérez, el ídolo de Marzal",
+        "El piscinazo oficial de Joni"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Un cuadradito suelto del fondo, el ídolo de Marzal implicado y la pretemporada imposibilitada; a todos se nos vino a la cabeza Humberto."
@@ -63,10 +62,10 @@
       "pregunta": "¿Qué diagnóstico constaba en el parte médico oficial que Joni emitió sobre Joan Climent?",
       "cita": "Joni: dicho esto,no quiero culpar a nadie de tal infortunio pero mucha casualidad es que se sucediera media hora despues de estar con josep marzal pastor,aspirante a plaza en el triangulito team y tambien lesionado",
       "opciones": [
-        "Punxa crónica enviada por Marta Domínguez",
-        "Dolor que flipas en la ingle reiterado y persistente, baja de 3 semanas a 1 mes",
         "Rotura fibrilar de grado 3, baja de 6 meses",
-        "Contusión mítica, alta inmediata con volada"
+        "Dolor que flipas en la ingle reiterado y persistente, baja de 3 semanas a 1 mes",
+        "Contusión mítica, alta inmediata con volada",
+        "Punxa crónica enviada por Marta Domínguez"
       ],
       "correcta": 1,
       "anio": 2012,
@@ -93,10 +92,10 @@
       "opciones": [
         "Porque ya tenía reservada la verde del Levante",
         "Porque Hugo no la encontró en el almacén de los chinos",
-        "Porque prefería invertir en la del Everton",
-        "30 euros por una camiseta que no le gusta, con varias negras con número, repitiendo kit y solo 4 partidos"
+        "Por pagar 30€ por una camiseta fea, teniendo varias negras y para solo 4 partidos",
+        "Porque prefería invertir en la del Everton"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "Feme lo tuvo clarísimo y Hugo lanzó la herejía máxima: reciclar la del año pasado; la guerra de la indumentaria no daba tregua."
@@ -105,12 +104,12 @@
       "pregunta": "Según la crónica de Joni sobre el reality de moda, ¿qué rostro conocido de nuestra liga de AFES formaba parte del reparto?",
       "cita": "Joni: Oye el gandia shore de discapacitados q es como los jjoo despues de los no disminuidos?tormento,el portero supergordo que jugo en nuestra liga de afes,miguelin el primo de marzal y el colorao",
       "opciones": [
-        "El viejo de AFES, fichado como mánager",
+        "El poli que controlaba la liga",
         "El encargado de sellar las fichas y fotos de carnet",
-        "El portero supergordo que jugó en nuestra liga de AFES",
-        "El poli que controlaba la liga"
+        "El viejo de AFES, fichado como mánager",
+        "El portero supergordo que jugó en nuestra liga de AFES"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "El reparto lo completaban Miguelín, el primo de Marzal, y el Colorao; el viejo de AFES sigue esperando la llamada del casting."
@@ -121,8 +120,8 @@
       "opciones": [
         "Que Germi comunicara que las terceras equipaciones no se conseguían",
         "Que Hugo volviera de Barcelona vendehumos y sin camiseta",
-        "Que se impusiera jugar con la del año pasado",
-        "Que su voto por el Everton fuera anulado por el Capi"
+        "Que su voto por el Everton fuera anulado por el Capi",
+        "Que se impusiera jugar con la del año pasado"
       ],
       "correcta": 0,
       "anio": 2012,
@@ -133,12 +132,12 @@
       "pregunta": "En septiembre de 2012 se aprobó por votación una equipación que Hugo detestaba ('no me gusta nada nada') y que obligó a Héctor a plantearse un problema logístico con los petos. ¿Cuál era?",
       "cita": "Hugo: Estáis todos de acuerdo en que la camiseta del TT sea la del Betis??? Personalmente no me gusta nada nada...",
       "opciones": [
-        "La camiseta del Betis",
-        "La camiseta de la selección española",
         "La camiseta de la Roma",
+        "La camiseta de la selección española",
+        "La camiseta del Betis",
         "La camiseta del Borussia Dortmund"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "La democracia decretó la verdiblanca; Hugo no la soportaba y Héctor avisó del drama: tocaría comprar petos de otro color."
@@ -147,12 +146,12 @@
       "pregunta": "En el listado oficial de dorsales que escribió Germi, ¿qué número le tocó a Humberto, el Capi?",
       "cita": "Germi: 1 aitor, 2 joni, 4 german, 5 orengo, 6 hugo, 7 kiko, 8 humpasca, 9 marc, 10 hector, 11 miki, 14 jorge, 18 marzal, 21/23 feme",
       "opciones": [
-        "El 21",
-        "El 1",
+        "El 8",
         "El 18",
-        "El 8"
+        "El 1",
+        "El 21"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "El Capi se quedó el 8 con apodo incluido ('humpasca'); el 1 fue para El Santo Aitor y el 18, propiedad exclusiva de Marzal."
@@ -162,11 +161,11 @@
       "cita": "Héctor: cambió el nombre del grupo a 'Kiko o no Kiko????'. El debate",
       "opciones": [
         "El Encierro",
-        "Kiko o no Kiko????",
+        "ForZa Tri!",
         "Yonkis del TT",
-        "ForZa Tri!"
+        "Kiko o no Kiko????"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "El gran debate existencial del TT: si Kiko seguía o no tras su famosa costumbre de tirarse al suelo protestando por la defensa."
@@ -177,8 +176,8 @@
       "opciones": [
         "Kiko tirado en el suelo diciendo que no defendían una mierda",
         "Aitor sacando un pie de gol imposible",
-        "Marzal borrándose del campo",
-        "Guille dando la charla táctica"
+        "Guille dando la charla táctica",
+        "Marzal borrándose del campo"
       ],
       "correcta": 0,
       "anio": 2012,
@@ -189,12 +188,12 @@
       "pregunta": "¿A qué dúo del Barça comparó Joni la delantera formada por Marzal y Orengo?",
       "cita": "Joni: Jugar con marzal y orengo arriba puede ser como jugar con giuly y saviola",
       "opciones": [
-        "Messi y Villa",
         "Eto'o y Ronaldinho",
-        "Giuly y Saviola",
-        "Pedro y Bojan"
+        "Pedro y Bojan",
+        "Messi y Villa",
+        "Giuly y Saviola"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2012,
       "categoria": "opinion",
       "explicacion": "Joni vendía la dupla de 'esencia rata' como el nuevo Giuly-Saviola; Feme recordó que Marzal se borró cuando les estaban dando un baño."
@@ -203,12 +202,12 @@
       "pregunta": "Según Germi, ¿qué dos equipos se ofrecieron a hacer de sparrings del TT?",
       "cita": "Germi: El inter y el pozo se han ofrecido a hacernos de sparrings para el TT",
       "opciones": [
-        "El Inter y el Pozo",
         "El Expobar y la Crem",
-        "El Calce Team y los sordos",
-        "Casa Concha y el Raval"
+        "El Inter y el Pozo",
+        "Casa Concha y el Raval",
+        "El Calce Team y los sordos"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Germi saludó con 'Hola yonkis del TT' y soltó el honor: el Inter y el Pozo querían prepararlos. La humildad del club, intacta."
@@ -217,12 +216,12 @@
       "pregunta": "Tras saber que un crack del Real Madrid había pedido irse del club, ¿a quién 'fichó' Joni en broma para el Triangulito Team?",
       "cita": "Joni: Estando con irina si se viene al Triangulito Team si que iba a haber tension!habria ostias por estar en el banquillo!",
       "opciones": [
-        "Luka Modric",
         "Cristiano Ronaldo",
-        "Karim Benzema",
-        "Iker Casillas"
+        "Luka Modric",
+        "Iker Casillas",
+        "Karim Benzema"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Con la noticia de que CR7 pedía salir del Madrid, Joni ya lo veía en el TT: 'habría ostias por estar en el banquillo' con Irina mirando."
@@ -232,11 +231,11 @@
       "cita": "Germi: El TT vence al lider y gana el partido en los despachos",
       "opciones": [
         "Marzal se borra",
-        "El Kaiser del fútbol sala",
         "El TT vence al líder y gana el partido en los despachos",
-        "La hija de Albano y su líder caen humillados"
+        "La hija de Albano y su líder caen humillados",
+        "El Kaiser del fútbol sala"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Con una sola foto ya soñaban con portadas; Feme aportó la contraportada: 'titular Marzal se borra'."
@@ -245,10 +244,10 @@
       "pregunta": "¿Qué plan nutricional de élite prescribió el míster-jugador Marzal a Joni para la temporada del TT?",
       "cita": "Joni: Cerdos yo estoy en valencia,ya he hablado con mister marzal,me ha reducido la dieta a 25 gramos de polen/hierba a la semana #atopeprimmmmss",
       "opciones": [
+        "Un chocotano diario en ayunas",
         "Solo pasta del comedor de Marxuquera",
-        "25 gramos de avena con miel antes de cada partido",
         "25 gramos de polen/hierba a la semana",
-        "Un chocotano diario en ayunas"
+        "25 gramos de avena con miel antes de cada partido"
       ],
       "correcta": 2,
       "anio": 2012,
@@ -259,12 +258,12 @@
       "pregunta": "¿Cuál es la frase de Miki que quedó como definición oficial del sistema de puntualidad de Marzal en las convocatorias?",
       "cita": "Miki: Marzal cabron si no tardas no eres tu",
       "opciones": [
-        "Si no pide el cambio al minuto 5, no eres tú",
-        "Si no llega con la equipación puesta, no es Marzal",
         "Si no tardas, no eres tú",
-        "Si no protesta al árbitro, no es Marzal"
+        "Si no pide el cambio al minuto 5, no eres tú",
+        "Si no protesta al árbitro, no es Marzal",
+        "Si no llega con la equipación puesta, no es Marzal"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "Jorge lo ratificó en el mismo hilo: 'Marzal es el más tardón con diferencia'. Diagnóstico unánime del vestuario."
@@ -273,12 +272,12 @@
       "pregunta": "¿Qué 'punzante detalle' añadió Joni al bulo de Orengo atrapado en una trampilla de la cloaca?",
       "cita": "Joni: He añadido el punzante detalle de que tenia un chocotano en mano..pa hacerlo mas creible jajaja",
       "opciones": [
-        "Que pidió auxilio gritando el himno del TT",
-        "Que iba acompañado del viejo de AFES",
+        "Que iba vestido con la equipación City",
         "Que iba con un chocotano en mano",
-        "Que iba vestido con la equipación City"
+        "Que pidió auxilio gritando el himno del TT",
+        "Que iba acompañado del viejo de AFES"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Con Gandia devastada por el tornado, 'Hágase el bulo hermanos': Orengo, la trampilla de la cloaca y su chocotano. Periodismo de alto nivel vía TT."
@@ -287,12 +286,12 @@
       "pregunta": "En pleno tornado de Gandia, ¿qué información exclusiva lanzó Jorge 'en primeeeera, vía el TT'?",
       "cita": "Jorge: Yo le traigo a ustedes un Triangulito Team libre. De ustedes. En primeeeera! Via el TT!",
       "opciones": [
-        "Que Orengo había sido evacuado por los bomberos",
-        "Que la noria había aterrizado en el campo de Marxuquera",
+        "Un Triangulito Team libre, de ustedes, en primeeeera",
         "Que el TT entrenaría a las 7:30 pese al tornado",
-        "Un Triangulito Team libre, de ustedes, en primeeeera"
+        "Que la noria había aterrizado en el campo de Marxuquera",
+        "Que Orengo había sido evacuado por los bomberos"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Mientras caía la noria y Teo Jurado tuiteaba, Jorge ejerció de corresponsal de guerra del equipo. Información de último minuto, en primera."
@@ -301,12 +300,12 @@
       "pregunta": "¿Cuál era el plan de Joni para hacerle la ficha 'en plan risa' a Tormento y Orengo?",
       "cita": "Joni: Y si le hacemos ficha a tormento y orengo en plan risa?pillamos 4 fotos de internet de cada uno y au",
       "opciones": [
-        "Reutilizar las fotos de carnet de la temporada anterior",
         "Fotocopiar la ficha de Humpa y cambiar el nombre",
-        "Pillar 4 fotos de internet de cada uno y au",
-        "Pedir cita con el viejo de AFES y hacer las fotos allí"
+        "Reutilizar las fotos de carnet de la temporada anterior",
+        "Pedir cita con el viejo de AFES y hacer las fotos allí",
+        "Pillar 4 fotos de internet de cada uno y au"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "Burocracia AFES resuelta con ingenio: si no hay fotos de carnet, internet provee. Y eso que a Jorge casi le dejan sin ficha."
@@ -329,12 +328,12 @@
       "pregunta": "¿Qué le prometió Feme a AFES cuando llamaron por las fichas siendo él el delegado del año anterior?",
       "cita": "Feme: En els meus virtuds politikes, les he dicho k trankilos k l viernes estaran. K es un ekipo k va a luchar x la liga",
       "opciones": [
-        "Que ese año el TT jugaba de blanco por sanción",
         "Que las fichas las pagaba el ayuntamiento",
         "Que el TT se fusionaba con otro equipo de la liga",
-        "Que el TT era un equipo que iba a luchar por la liga"
+        "Que el TT era un equipo que iba a luchar por la liga",
+        "Que ese año el TT jugaba de blanco por sanción"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "Feme, delegado saliente, vendió humo de primera a AFES: fichas el viernes y TT luchando por la liga. Aprovechó para preguntar lo de los sordos."
@@ -343,12 +342,12 @@
       "pregunta": "¿Qué mérito avaló a Germi como MVP según la crónica oficial de Joni?",
       "cita": "Joni: MVP germi que ha abierto doblemente el marcador,el 1-0 y el 2-1 justo antes del descanso",
       "opciones": [
-        "Abrió el marcador dos veces: el 1-0 y el 2-1 antes del descanso",
+        "Marcó el gol de la victoria en el último segundo",
         "Paró los lanzamientos de la tanda de penaltis",
         "Jugó de portero sustituyendo a Aitor",
-        "Marcó el gol de la victoria en el último segundo"
+        "Abrió el marcador dos veces: el 1-0 y el 2-1 antes del descanso"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "Doble apertura del marcador del 'sucumbidor' y remate de crónica: 'el equipo rival se negó a hacer declaraciones en zona mixta'."
@@ -357,12 +356,12 @@
       "pregunta": "Según la ciencia estadística de Joni, ¿cuánto durará Falcao en el Atlético de Madrid?",
       "cita": "Joni: Jajaja os va a durar en el atleti lo que tardamos en meter 5 a los sordos en la 2a parte",
       "opciones": [
-        "Lo que tarda Marzal en llegar a Marxuquera",
         "Lo que tardamos en meter 5 a los sordos en la 2ª parte",
-        "Lo que duró la equipación Roma antes de morir",
-        "Lo que tarda Humpa en cobrar una cuota pendiente"
+        "Lo que tarda Marzal en llegar a Marxuquera",
+        "Lo que tarda Humpa en cobrar una cuota pendiente",
+        "Lo que duró la equipación Roma antes de morir"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "La unidad de medida oficial del TT aplicada al mercado de fichajes: cinco goles a los sordos en la segunda parte como variable temporal."
@@ -371,12 +370,12 @@
       "pregunta": "Tras visionar las repeticiones de un partido del TT, Germi dictó sentencia sobre una mano 'pegada al cuerpo'. ¿Cuál fue su veredicto en mayúsculas?",
       "cita": "Germi: Claramente las manos pegadas al cuerpo",
       "opciones": [
-        "FUERA DE JUEGO INVENTADO",
-        "PENALTI CLARÍSIMO",
         "LEGALIDAD ABSOLUTA",
-        "ROBAZO"
+        "ROBAZO",
+        "PENALTI CLARÍSIMO",
+        "FUERA DE JUEGO INVENTADO"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "Germi gritó ROBAZO y Miki celebró que 'robazo ya tocaba' después de las tarjetas que les habían freído; Feme apeló al reglamento en vano."
@@ -386,11 +385,11 @@
       "cita": "Germi: Yo me quedo con la celebracion de rabia de JC3",
       "opciones": [
         "Una vaselina del Tanque",
-        "El hat-trick de Marzal",
         "Las 20 paradas del Santo",
-        "La celebración de rabia de JC3"
+        "La celebración de rabia de JC3",
+        "El hat-trick de Marzal"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "JC3, el 3 del tri, marcó en el 6-1 y celebró con rabia; Joni lo elevó a 'reivindicación del defensa total'. El resto, historia."
@@ -399,12 +398,12 @@
       "pregunta": "Tras un partido del TT, Joni hizo una confesión sobre el estado en el que él y Orengo saltaron al campo. ¿Cuál era?",
       "cita": "Joni: Yo jugue bajo los efectos del mono,orengo bajo los efectos de su consumo",
       "opciones": [
-        "Los dos con resaca monumental",
         "Joni con el mono y Orengo con el consumo",
         "Los dos ayunando por orden del míster",
+        "Los dos con resaca monumental",
         "Joni con fiebre y Orengo con el tobillo"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "El TT jugó con todo: Joni con el mono encima y Orengo con el consumo dentro. Farmacológicamente, el equipo cubría todos los espectros."
@@ -415,8 +414,8 @@
       "opciones": [
         "10€",
         "15€",
-        "50€",
-        "30€"
+        "30€",
+        "50€"
       ],
       "correcta": 1,
       "anio": 2012,
@@ -427,8 +426,8 @@
       "pregunta": "Antes del partido decisivo por el título, Jorge lanzó una advertencia misteriosa: había que contrarrestar algo. ¿Qué?",
       "cita": "Jorge: Hay que contrarrestar lo de 2010",
       "opciones": [
-        "Lo de 2009",
         "El escupitajo de Beniopa",
+        "Lo de 2009",
         "Lo de 2010",
         "El caso de la ficha de Feme"
       ],
@@ -441,12 +440,12 @@
       "pregunta": "De cara al partido decisivo, Héctor planteó una duda burocrática sobre Feme. ¿Cuál?",
       "cita": "Héctor: Feme aún no tiene ficha?",
       "opciones": [
-        "Que la foto del carnet salió movida",
         "Que aún no tenía ficha",
-        "Que estaba sancionado por el viejo de AFES",
-        "Que debía tres cuotas"
+        "Que la foto del carnet salió movida",
+        "Que debía tres cuotas",
+        "Que estaba sancionado por el viejo de AFES"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "La maquinaria de AFES y sus fichas, rival habitual: Héctor dudaba entre la ficha pendiente de Feme o que tuviera partido con otro equipo ese día."
@@ -455,12 +454,12 @@
       "pregunta": "La entrega de camisetas estaba bloqueada por cuatro morosos del TT. ¿Quiénes eran?",
       "cita": "Jorge: Hasta que no paguemos todos no habra camisetas",
       "opciones": [
-        "Hugo, Marzal, Humberto y Jorge",
         "Todos menos Miki",
         "Miki, Joni, Orengo y Quico",
-        "Feme, Marc, Héctor y German"
+        "Feme, Marc, Héctor y German",
+        "Hugo, Marzal, Humberto y Jorge"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "Jorge publicó la lista de pagados 'con tono de cajera de supermercado'; remate final: el propio Germi, negociador del chándal, estaba entre los deudores."
@@ -469,12 +468,12 @@
       "pregunta": "Al ver de cerca las flamantes camisetas del TT, Feme sacó una conclusión sobre el proveedor. ¿Cuál?",
       "cita": "Feme: Mos enganyen com a xinos",
       "opciones": [
+        "Que nos engañan como a chinos",
         "Que nos venden humo como a turistas",
-        "Que nos timan como a guiris",
         "Que nos la cuelan como a pardillos",
-        "Que nos engañan como a chinos"
+        "Que nos timan como a guiris"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "El kit estilo Borussia Dortmund llegó bajo sospecha de réplica asiática, con 'estrellas torcidas' en el debate y un '#timazo' de Feme para que 'os salga la rabia'."
@@ -484,11 +483,11 @@
       "cita": "Jorge: Sin Aitor nos meten entre 10-12",
       "opciones": [
         "Sin Aitor jugamos todo el partido con 10",
-        "Sin Aitor nos meten entre 10-12",
+        "Sin Aitor el TT se disuelve como club",
         "Sin Aitor no llegamos vivos al descanso",
-        "Sin Aitor el TT se disuelve como club"
+        "Sin Aitor nos meten entre 10-12"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2012,
       "categoria": "momentazo",
       "explicacion": "El Santo firmó un partidazo de otro planeta y hasta Joni le dio el título de 'el crack' en los premios post-partido del grupo."
@@ -497,12 +496,12 @@
       "pregunta": "¿Qué agravio arbitral denunció Germi contra el colegiado Boluda en la crónica del partido?",
       "cita": "Germi: El hijo puta de boluda no nos ha concedido in tiempo mierto en el ultimo minuto",
       "opciones": [
-        "Anuló un gol legal de Germi por fuera de juego",
         "No nos concedió un tiempo muerto en el último minuto",
         "Expulsó a Hugo por una patada táctica",
+        "Anuló un gol legal de Germi por fuera de juego",
         "Pitó un penalty imposible contra el TT"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "polemica",
       "explicacion": "Boluda entró en el panteón de árbitros villanos del TT por negar un tiempo muerto en el minuto final con el partido al rojo vivo."
@@ -513,8 +512,8 @@
       "opciones": [
         "De llegar tarde al calentamiento",
         "De alterador del equipo con sus indicaciones desde la banda",
-        "De robar las fichas de AFES",
-        "De filtrar la alineación al rival"
+        "De filtrar la alineación al rival",
+        "De robar las fichas de AFES"
       ],
       "correcta": 1,
       "anio": 2012,
@@ -525,12 +524,12 @@
       "pregunta": "¿Por qué Feme tuvo que pagar los 60 euros íntegros (más número y nombre) por su equipación en la boutique del TT?",
       "cita": "Feme: Y al no tener la fixa de AFES no m hicieron descuento",
       "opciones": [
-        "Germi se negó a tramitarle el carnet de socio",
         "Al no tener la ficha de AFES no le hicieron descuento",
+        "Germi se negó a tramitarle el carnet de socio",
         "Le aplicaron la multa por desertor del botellón",
         "Era la edición limitada con póster de Benzema"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "La burocracia de AFES golpeó de nuevo: sin ficha no hay descuento, aunque Feme juró que a nivel federativo ni forma parte del TT."
@@ -568,36 +567,22 @@
       "cita": "Feme: Mr. Huevo vuelve a casa",
       "opciones": [
         "El Dandy: misión cumplida",
+        "El Santo regresa entre nosotros",
         "El Tanque reloaded",
-        "Mr. Huevo vuelve a casa",
-        "El Santo regresa entre nosotros"
+        "Mr. Huevo vuelve a casa"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2012,
       "categoria": "lore",
       "explicacion": "Miki viajó a Valencia para que le pincharan 'un bulto en el huevo' y le sacaran la pus; de ahí su título honorífico de Mr. Huevo."
     },
     {
-      "pregunta": "¿Qué equipación se impuso en la votación más tensa de la historia del TT, dejando a media plantilla en contra?",
-      "cita": "Joni: THE WINNER IS NAPOLI",
-      "opciones": [
-        "La del Santos en plan retro",
-        "La celeste del City",
-        "La roma clásica de siempre",
-        "La azul del Napoli"
-      ],
-      "correcta": 3,
-      "anio": 2013,
-      "categoria": "polemica",
-      "explicacion": "Jorge exigió dejar constancia de que jamás apoyó esa camiseta y denunció que 'la democracia es una lacra'; Feme la comparó con la del Santos 'xo en plan fea'."
-    },
-    {
       "pregunta": "Según el manual táctico de Joni, ¿en qué consiste el legendario 'rigor táctico' que ni el Barça ni el Pozo poseen?",
       "cita": "Joni: el barça ni el pozo tienen el rigor tactico del TT.nuestra tactica es que aitor pare 20 veces,se desquicien y marcar en una ratonada",
       "opciones": [
+        "El puchero pre-partido como suplemento energético",
         "El líbero de Marzal y el caballito de Jorge",
         "Presión alta durante los 40 minutos",
-        "El puchero pre-partido como suplemento energético",
         "Que Aitor pare 20 veces, se desquicien y marcar en una ratonada"
       ],
       "correcta": 3,
@@ -606,15 +591,29 @@
       "explicacion": "Feme había avisado de que al futsal no se juega con un líbero, pero la táctica del Santo es inquebrantable y, por ahora, funcionaba."
     },
     {
+      "pregunta": "¿Qué equipación se impuso en la votación más tensa de la historia del TT, dejando a media plantilla en contra?",
+      "cita": "Joni: THE WINNER IS NAPOLI",
+      "opciones": [
+        "La azul del Napoli",
+        "La del Santos en plan retro",
+        "La roma clásica de siempre",
+        "La celeste del City"
+      ],
+      "correcta": 0,
+      "anio": 2013,
+      "categoria": "polemica",
+      "explicacion": "Jorge exigió dejar constancia de que jamás apoyó esa camiseta y denunció que 'la democracia es una lacra'; Feme la comparó con la del Santos 'xo en plan fea'."
+    },
+    {
       "pregunta": "El 'Gol del partit patrocinat per Bancaixa': con 3-2 y falta al borde del área, Alex la abrió y alguien la mandó 'al escaire' con sutileza extrema. ¿Quién firmó semejante obra de arte?",
       "cita": "Joni: El Gol del partit patrocinat per Bancaixa : con 3-2 palmando,falta al borde del área,Alex la abre a Jorge que de sutileza extrema la manda al escaire",
       "opciones": [
-        "Humpa, THE CAPTAIN",
         "Héctor, el Dandy",
         "Alex",
-        "Jorge"
+        "Jorge",
+        "Humpa, THE CAPTAIN"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2013,
       "categoria": "momentazo",
       "explicacion": "Alex abrió la jugada, Jorge definió con 'sutileza extrema' y Bancaixa patrocinó el momentazo sin enterarse. Debut con victoria 3-2."
@@ -623,26 +622,26 @@
       "pregunta": "Discutiendo los entrenamientos con cambios, ¿qué contradicción cósmica del club destapó Feme?",
       "cita": "Feme: K un ekipo k se llama Triangulito Team sea tan reacio a los triangulares es bastante raro",
       "opciones": [
-        "Que un equipo llamado Triangulito Team fuese tan reacio a los triangulares",
-        "Que Humpa fuese capitán tras regalar el 2-2",
         "Que el TT nunca tuviera dinero para las equipaciones",
-        "Que AFES cobrara la inscripción por duplicado"
+        "Que AFES cobrara la inscripción por duplicado",
+        "Que Humpa fuese capitán tras regalar el 2-2",
+        "Que un equipo llamado Triangulito Team fuese tan reacio a los triangulares"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2013,
       "categoria": "opinion",
       "explicacion": "Triangulito Team, alérgico a los triangulares desde los orígenes. Feme lo dijo todo sin querer, como siempre."
     },
     {
-      "pregunta": "En el entrenamiento con cambios que diseñó Hugo, el TT se medía a Pablo, Joshua y 'otro que se flama hugo'... ¿qué estrella planetary completaba el equipo rival?",
+      "pregunta": "En el entrenamiento con cambios que diseñó Hugo, el TT se medía a Pablo, Joshua y 'otro que se flama hugo'... ¿qué estrella planetaria completaba el equipo rival?",
       "cita": "Hugo: Humberto,Jorge,Joni,Marzal ,hugo,alex,Héctor Vs Pablo,Joshua,cristiano Ronaldo y otro que s flama hugo",
       "opciones": [
         "Lionel Messi",
+        "Cristiano Ronaldo",
         "Zlatan Ibrahimovic",
-        "Neymar",
-        "Cristiano Ronaldo"
+        "Neymar"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "momentazo",
       "explicacion": "Pablo, Joshua, otro Hugo y Cristiano Ronaldo: el sparring más caro de la historia de las pachangas del TT."
@@ -651,10 +650,10 @@
       "pregunta": "¿Qué gran noticia institucional celebró Joni con el histórico lema 'Keep calm and believe in the Santo'?",
       "cita": "Joni: Sisisi aitor se ha hecho la ficha con nosotros. Keep calm and believe in the Santo",
       "opciones": [
-        "Aitor había fichado por el Expobar",
         "Aitor había parado 20 penaltis en el debut",
+        "Aitor había pagado él solo la deuda de 177 euros",
         "Aitor se había hecho la ficha con el TT",
-        "Aitor había pagado él solo la deuda de 177 euros"
+        "Aitor había fichado por el Expobar"
       ],
       "correcta": 2,
       "anio": 2013,
@@ -665,9 +664,9 @@
       "pregunta": "Feme quería saber cuándo acabó la liga anterior y Miki lo tuvo claro: el último partido fue el de copa. ¿Qué rival recibió aquel 'palizón' histórico?",
       "cita": "Miki: El último partido fue el de copa. El palizon a expobar",
       "opciones": [
-        "Beniopa",
-        "Crem",
         "Casa Concha",
+        "Crem",
+        "Beniopa",
         "Expobar"
       ],
       "correcta": 3,
@@ -679,12 +678,12 @@
       "pregunta": "Joni quería preguntarle a MisterChip el porcentaje de victorias del TT sin un jugador en el campo. ¿Qué crack escondía el apodo 'Mike Mistela'?",
       "cita": "Joni: Por cierto,habría que preguntarle a @2010misterchip el % de victorias del TT sin Mike Mistela..",
       "opciones": [
-        "Cabrera",
         "Miki",
+        "Alex",
         "Hugo",
-        "Alex"
+        "Cabrera"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "Este año 1/1 sin él y la mejor primera vuelta de la historia la pasada. 'Fue llegar yo de Londres y acabose', confesó el implicado."
@@ -693,12 +692,12 @@
       "pregunta": "Comentando el tenis, ¿desde qué posición soñó Joni con poder por fin 'tirarlo a tierra' al árbitro Boluda?",
       "cita": "Joni: Que si boluda arbitrara desde una silla en el tenis ya lo habríamos tirado a tierra lo sabe hasta el cachorro de la foto de miki",
       "opciones": [
-        "Juez de silla en un partido de tenis",
-        "Vocal del comité de competición de AFES",
         "Juez de línea en Mestalla",
-        "Árbitro de waterpolo"
+        "Juez de silla en un partido de tenis",
+        "Árbitro de waterpolo",
+        "Vocal del comité de competición de AFES"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "opinion",
       "explicacion": "En la silla de tenis, Boluda habría caído al primer 'fuera' pedido por el TT. Hasta el cachorro de la foto de Miki lo veía claro."
@@ -707,8 +706,8 @@
       "pregunta": "Al inscribir al TT en AFES para la temporada 2013-14, ¿cuánta deuda histórica arrastraba el club, incluidas las fichas cedidas de Orengo y Quico?",
       "cita": "Joni: Hay que pagar 35 € de inscripción y 177 € que debemos, aunq en esos 177 está lo de orengo y quico porq me han dao sus fichas",
       "opciones": [
-        "35 euros",
         "165 euros",
+        "35 euros",
         "200 euros",
         "177 euros"
       ],
@@ -722,11 +721,11 @@
       "cita": "Feme: Debut i gol",
       "opciones": [
         "Debut i lesion de tobillo",
+        "Debut i roja directa",
         "Debut i gol",
-        "Debut i fitxa extraviada",
-        "Debut i roja directa"
+        "Debut i fitxa extraviada"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2013,
       "categoria": "momentazo",
       "explicacion": "El estreno soñado: Feme debutó con el TT y se marcó un gol en su primera actuación oficial. Nyas."
@@ -735,12 +734,12 @@
       "pregunta": "¿Cuál era el plan de Joni para forrarse si la liga de AFES estuviera disponible en bet365?",
       "cita": "Joni: Ostia..tan sencillo como apostar a que palmamos y le decimos a aitor que esa semana descansamos",
       "opciones": [
-        "Apostar a las 20 paradas por partido del Santo",
-        "Apostar a que Crem y Expobar empatan a cero",
+        "Apostar a que palmaban y decirle a Aitor que descansara esa semana",
         "Sobornar a Boluda con las cuotas impagadas",
-        "Apostar a que palmaban y decirle a Aitor que descansara esa semana"
+        "Apostar a que Crem y Expobar empatan a cero",
+        "Apostar a las 20 paradas por partido del Santo"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "Germi ya avisó que Crem y Expobar 'se hacen de oro' con amaños, y Joni aportó el plan maestro: apostar contra el TT y dar descanso al Santo."
@@ -749,12 +748,12 @@
       "pregunta": "Tras ver la caída de 10 metros de un aficionado del Ajax, ¿qué sentenció Joni sobre el árbitro Boluda?",
       "cita": "Joni: Para Boluda seguro no es nada",
       "opciones": [
-        "Que para Boluda seguro no es nada",
         "Que Boluda le habría enseñado la amarilla",
+        "Que para Boluda seguro no es nada",
         "Que Boluda le habría pitado penalti",
         "Que hasta Boluda habría parado el partido"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "Ningún lance impresiona al colegiado de la AFES: para Boluda, un vuelo de 10 metros es rutina de domingo."
@@ -763,8 +762,8 @@
       "pregunta": "¿Con qué saludo despertó Jorge a la plantilla la mañana del partido en el Raval?",
       "cita": "Jorge: Buenos dias yonkis del TT! A las 3:30 todos en el raval (Aitor Joni Hugo Jorge Hector Alex Marzal)",
       "opciones": [
-        "'Buenos dias leyendas del rectángulo!'",
         "'Soldados del TT, a formar!'",
+        "'Buenos dias leyendas del rectángulo!'",
         "'Buenos dias yonkis del TT!'",
         "'A despertar, cracks del TT!'"
       ],
@@ -777,12 +776,12 @@
       "pregunta": "Según Joni, ¿cuándo se vivió la mayor racha de imbatibilidad de la historia del TT?",
       "cita": "Joni: No olvidemos que la mayor racha de imbatibilidad de la historia del TT vino con miki in london y esos 2 'desertores' en el equipo",
       "opciones": [
-        "Con Miki in London y los dos 'desertores' en el equipo",
         "Con la equipación de la Dortmund recién estrenada",
-        "Con el viejo de AFES dejando pasar las fichas",
-        "Con Boluda pitando todas las jornadas seguidas"
+        "Con Miki in London y los dos 'desertores' en el equipo",
+        "Con Boluda pitando todas las jornadas seguidas",
+        "Con el viejo de AFES dejando pasar las fichas"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "El argumento estrella de Joni en el juicio: la época dorada llegó con Miki en Londres y los dos 'desertores' en el equipo."
@@ -791,12 +790,12 @@
       "pregunta": "Miki presumió de haber marcado 'el gol de la liga'. ¿Qué le reprochó Jorge?",
       "cita": "Jorge: Miki, te deje el gol en bandeja y ni una mencion a mi jugadica a 12 kms/h",
       "opciones": [
-        "No mencionar su jugadica a 12 km/h que dejó el gol en bandeja",
+        "No invitarle al kebab de Alquería",
         "No dedicarle el gol a la grada de AFES",
         "No avisar de que el partido era a las 4",
-        "No invitarle al kebab de Alquería"
+        "No mencionar su jugadica a 12 km/h que dejó el gol en bandeja"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2013,
       "categoria": "momentazo",
       "explicacion": "La jugadica más lenta de la historia del TT (12 km/h de pura clase) se quedó sin gala, y Feme aún pregunta '¿k liga???'"
@@ -805,12 +804,12 @@
       "pregunta": "¿Por qué bautizaron a Miki como 'el Robben del TT'?",
       "cita": "Jorge: Miki es Robben del TT... Nunca se puede hablar de plazos de recuperacion en su caso",
       "opciones": [
-        "Porque nunca suelta el balón en las contras",
         "Porque nunca se puede hablar de plazos de recuperación en su caso",
-        "Porque corre tapándose la cara",
-        "Porque siempre se tira dentro del área"
+        "Porque siempre se tira dentro del área",
+        "Porque nunca suelta el balón en las contras",
+        "Porque corre tapándose la cara"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "Joni completó el expediente: 'eterno lesionado y con una vena marrullera muy arraigada', la versión Vicentin del TT."
@@ -820,25 +819,39 @@
       "cita": "Joni: Higuain callejon reina y rafa gorditez a la calle me produce la misma tristeza que cuando le ganamos al hater del TT también conocido como mister de femao",
       "opciones": [
         "El viejo de AFES",
-        "El árbitro Boluda",
         "El mister de Feme",
+        "El árbitro Boluda",
         "El entrenador del Comandante Team"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2013,
       "categoria": "lore",
       "explicacion": "El rival más odiado del TT no era un equipo: era el mister de Feme, hater confeso del Triangulito Team."
     },
     {
+      "pregunta": "¿Qué propuso en broma Jorge al ver la supuesta tercera equipación blanca del Barça?",
+      "cita": "Jorge: Equipaje del TT para la 14-15?",
+      "opciones": [
+        "Que era un homenaje a la equipación Roma del TT",
+        "Que era la equipación de los sordos del Raval",
+        "Que sería la equipación del TT para la 14-15",
+        "Que la había diseñado el Dortmund para el TT"
+      ],
+      "correcta": 2,
+      "anio": 2013,
+      "categoria": "lore",
+      "explicacion": "La 'tercera equipación' blanca culé fue candidata en broma a convertirse en la nueva equipación del Triangulito Team para la 14-15."
+    },
+    {
       "pregunta": "En el juicio del TT contra el delegado traidor, ¿cuál era el castigo máximo contemplado?",
       "cita": "Jorge: Las penas van desde...la absolucion del acusado (y su posterior cara y pose comicas)",
       "opciones": [
-        "Una paliza cual Iginio Robaesteras y la posterior quema de su camiseta y su ficha",
-        "Jugar una temporada con la equipación de bolsas de basura",
         "Ser traspasado al Calce Team sin cláusula de rescisión",
-        "Pagar de golpe todas las cuotas impagadas de AFES"
+        "Jugar una temporada con la equipación de bolsas de basura",
+        "Pagar de golpe todas las cuotas impagadas de AFES",
+        "Una paliza cual Iginio Robaesteras y la posterior quema de su camiseta y su ficha"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2014,
       "categoria": "polemica",
       "explicacion": "El tribunal del TT barajaba desde la absolución con pose cómica hasta la paliza y la quema de camiseta y ficha del acusado."
@@ -847,10 +860,10 @@
       "pregunta": "Tras quejarse de que Marzal nos tomaba 'por el pito del sereno', ¿cuál era la 'primera medida' que propuso Jorge?",
       "cita": "Jorge: O ese tio nos toma por el pito del sereno",
       "opciones": [
-        "Retirarle la equipación Dortmund en pleno vestuario",
+        "Prohibirle la entrada a la pista de AFES de por vida",
         "Pedirle su dirección y enviar un comando de Marc y Humberto a darle un susto",
-        "Denunciarle ante el árbitro Gironès por antideportivo",
-        "Prohibirle la entrada a la pista de AFES de por vida"
+        "Retirarle la equipación Dortmund en pleno vestuario",
+        "Denunciarle ante el árbitro Gironès por antideportivo"
       ],
       "correcta": 1,
       "anio": 2014,
@@ -861,12 +874,12 @@
       "pregunta": "Según el alegato de Joni en plena guerra por la delegación, ¿quién había impuesto a Marzal a dedo?",
       "cita": "Joni: Recordemos que su relación con los orígenes del TT son nulos,fue impuesto a dedo por miki aka \"el patriarca\"",
       "opciones": [
-        "El poli del polideportivo, por orden superior",
-        "El viejo de AFES, a cambio de las fichas",
         "Humberto, usando su autoridad de Capi",
-        "Miki, alias 'el patriarca'"
+        "El poli del polideportivo, por orden superior",
+        "Miki, alias 'el patriarca'",
+        "El viejo de AFES, a cambio de las fichas"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Joni destapó que Marzal llegó a dedo, impuesto por el 'patriarca' Miki, pese a no tener relación con los orígenes del TT."
@@ -875,12 +888,12 @@
       "pregunta": "¿Qué episodio del 'pasado turbio' de Marzal sacó a relucir Jorge en plena campaña electoral?",
       "cita": "Jorge: Aparecer ebrio entregamdo las fichas en el ultimo segundo ayudaria...",
       "opciones": [
-        "Que fichó a Quico y Orengo sin consultar a nadie",
-        "Que vendió las fotos de carnet al rival",
         "Que perdió la mochila del club en la basurica",
-        "Que apareció ebrio a entregar las fichas en el último segundo"
+        "Que apareció ebrio a entregar las fichas en el último segundo",
+        "Que vendió las fotos de carnet al rival",
+        "Que fichó a Quico y Orengo sin consultar a nadie"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "anio": 2014,
       "categoria": "momentazo",
       "explicacion": "Entre los antecedentes del delegado: llegar bebido a entregar las fichas de AFES en el último segundo. Implicación innegable."
@@ -889,12 +902,12 @@
       "pregunta": "Cuando España marcó un 'gol estilo TT', ¿qué sentenció Joni sobre el chut?",
       "cita": "Joni: No me jodas, Aitor esa la para.el chut era una mierda",
       "opciones": [
-        "Que ni con 20 paradas por partido llegaría El Santo",
         "Que Aitor la habría parado porque el chut era una mierda",
         "Que era mejor que el gol de la liga de Miki",
+        "Que ni con 20 paradas por partido llegaría El Santo",
         "Que solo se marca así en la pista de AFES"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "El espíritu del TT se apodera de España: hasta los goles de la selección se medían con la vara de El Santo Aitor."
@@ -903,40 +916,26 @@
       "pregunta": "¿Qué destapó la 'crónica rosa' de Hugo durante el match del TT?",
       "cita": "Hugo: Fuentes extra confidenciales afirman que se le ha visto en dos ocasiones hablar cariñosamente a una mujer con gafitas en la puerta de la entrada al recinto mientras se estaba disputando el match del tt",
       "opciones": [
-        "Que Marzal vendía entradas piratas en la puerta del recinto",
         "Que Marzal hablaba cariñosamente con una mujer con gafitas a la puerta del recinto",
+        "Que el viejo de AFES tenía una fan en la grada",
         "Que el árbitro Oliveta Negra tenía una admiradora secreta",
-        "Que el viejo de AFES tenía una fan en la grada"
+        "Que Marzal vendía entradas piratas en la puerta del recinto"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "momentazo",
       "explicacion": "El corresponsal rosa del TT, Hugo 'Daimiel', pilló a Marzal con su admiradora: '¡Ahi marzalet!'"
     },
     {
-      "pregunta": "¿Qué propuso en broma Jorge al ver la supuesta tercera equipación blanca del Barça?",
-      "cita": "Jorge: Equipaje del TT para la 14-15?",
-      "opciones": [
-        "Que era la equipación de los sordos del Raval",
-        "Que la había diseñado el Dortmund para el TT",
-        "Que sería la equipación del TT para la 14-15",
-        "Que era un homenaje a la equipación Roma del TT"
-      ],
-      "correcta": 2,
-      "anio": 2013,
-      "categoria": "lore",
-      "explicacion": "La 'tercera equipación' blanca culé fue candidata en broma a convertirse en la nueva equipación del Triangulito Team para la 14-15."
-    },
-    {
       "pregunta": "En el debate sobre aplazar el partido por el Barça-Valencia, ¿qué defendió Joni?",
       "cita": "Joni: A mi un barça valencia me pone pero quedando media liga aún me apetece mas jugar con el TT",
       "opciones": [
+        "Jugar igualmente con el TT, que aún quedaba media liga",
         "Jugar y ver el partido desde la banda con la radio",
         "Aplazar y ver el clásico todos juntos en AFES",
-        "Jugar igualmente con el TT, que aún quedaba media liga",
         "Suspender la jornada entera por el clásico"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "opinion",
       "explicacion": "Hugo y Alex votaron NO aplazar y Joni lo zanjó: un Barça-Valencia mola, pero más el match del TT."
@@ -945,12 +944,12 @@
       "pregunta": "¿Qué 'recado' le dejó caer Miki a Pastoret en plena guerra por el cargo de delegado?",
       "cita": "Miki: Por cierto pastoret, tu mochila está en la basurica",
       "opciones": [
-        "Que el viejo de AFES seguía buscando su foto de carnet",
-        "Que su mochila estaba en la basurica",
+        "Que su camiseta había acabado quemada tras el juicio",
         "Que su ficha estaba caducada desde la 12/13",
-        "Que su camiseta había acabado quemada tras el juicio"
+        "Que su mochila estaba en la basurica",
+        "Que el viejo de AFES seguía buscando su foto de carnet"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2014,
       "categoria": "polemica",
       "explicacion": "La campaña de desgaste contra Marzal incluyó hasta el aviso de que su mochila acababa en la basura."
@@ -959,12 +958,12 @@
       "pregunta": "Al ver dos goles marcados desde fuera del área, ¿a qué equipo comparó Joni la jugada?",
       "cita": "Joni: Mira,como el TT.dos goles de fuera del área",
       "opciones": [
+        "El TT",
         "Al Barça de Guardiola",
         "Al Raval de Feme",
-        "Al fútbol holandés de los 70",
-        "El TT"
+        "Al fútbol holandés de los 70"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Dos cañonazos lejanos en un partido de élite y Joni solo acertó a decir 'como el TT': el estilo Triangulito, reconocido a nivel mundial."
@@ -973,12 +972,12 @@
       "pregunta": "¿En qué equipo tuvo que confiar el TT para que le dieran la 3a plaza de la liga?",
       "cita": "Joni: La 3a plaza del TT pasa por nuestros amigos de benicadell",
       "opciones": [
+        "Consultoría GF",
         "Benicadell",
         "Casa Concha",
-        "Consultoría GF",
         "Expobar"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Tras quedar charlando con los sordos y ver al Benicadell 'apalizándo' a unos de verde, el TT se hizo hincha de terceros para salvar su 3a plaza."
@@ -987,12 +986,12 @@
       "pregunta": "¿Qué cargo de Marzal reivindicó Feme 'a pesar de las continuas quejas sin argumentos'?",
       "cita": "Feme: Marzal a vuelto a demostrar k es el delegado d este ekipo",
       "opciones": [
-        "El segundo entrenador",
         "El delegado del equipo",
-        "El delegado de AFES",
-        "El delegado del rival"
+        "El segundo entrenador",
+        "El delegado del rival",
+        "El delegado de AFES"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Entre confraternizar con el 'enemigo íntimo del TT' y los haters pidiendo su pasaporte para Nicaragua, Marzal revalidó su cargo de delegado ejemplar."
@@ -1001,12 +1000,12 @@
       "pregunta": "¿Qué documental estrenó TTV, el canal oficial del TT?",
       "cita": "Joni: TTV,el canal oficial del TT,emitirá hoy un documental a las 22:00 \"Jorge,Uno di Noi\" donde se repasa la carrera del miembro del TT que más ha defendido este nuestro escudo",
       "opciones": [
-        "\"Marzal, el líbero de acero\"",
-        "\"Jorge, Uno di Noi\"",
+        "\"El Santo: 20 paradas por partido\"",
         "\"Humpa, el Capi eterno\"",
-        "\"El Santo: 20 paradas por partido\""
+        "\"Jorge, Uno di Noi\"",
+        "\"Marzal, el líbero de acero\""
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2014,
       "categoria": "momentazo",
       "explicacion": "Feme prometió anécdotas de las 'múltiples internacionalidades' de Jorge, la jugada vs el equipo de su hermano y hasta conflictos de vestuario."
@@ -1015,12 +1014,12 @@
       "pregunta": "Según Hugo, ¿qué duelo formaba parte de 'nuestra liga'?",
       "cita": "Hugo: 2 consultoría de empresas VS 1 casa concha. Esa es nuestra liga",
       "opciones": [
+        "Expobar vs Crem",
         "Beniopa vs Raval",
-        "Consultoría de empresas vs Casa Concha",
         "Calce Team vs los sordos",
-        "Expobar vs Crem"
+        "Consultoría de empresas vs Casa Concha"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "La cartelera de la liga del TT incluía joyas como Consultoría vs Casa Concha, duelo que dejó a Miki lamentando el 'bajón' de Casa Concha."
@@ -1029,10 +1028,10 @@
       "pregunta": "Cuando el City palma tras ir ganando, ¿a qué superstición echa mano Jorge?",
       "cita": "Jorge: El gafe TT parece que sigue en pie. El City palma 2-0",
       "opciones": [
-        "La maldición del vestuario de AFES",
         "La camiseta maldita de Dortmund",
+        "El pulpo Paul",
         "El gafe TT",
-        "El pulpo Paul"
+        "La maldición del vestuario de AFES"
       ],
       "correcta": 2,
       "anio": 2014,
@@ -1043,8 +1042,8 @@
       "pregunta": "¿Qué 'versión' del TT anunció Joni tras presenciar una remontada fallida de infarto?",
       "cita": "Joni: Increible,el TT versión tenistica",
       "opciones": [
-        "La versión FIFA Street",
         "La versión FIFA",
+        "La versión FIFA Street",
         "La versión pádel",
         "La versión tenística"
       ],
@@ -1057,12 +1056,12 @@
       "pregunta": "¿Por qué también pararon a Marzal en el control de Gandia, según Feme?",
       "cita": "Feme: A marzal tamb, x practicar sexo en un lugar público",
       "opciones": [
-        "Por practicar sexo en un lugar público",
-        "Por llevar botas de tacos en la guantera",
         "Por no llevar la ficha de AFES encima",
-        "Por conducir sin carnet"
+        "Por practicar sexo en un lugar público",
+        "Por conducir sin carnet",
+        "Por llevar botas de tacos en la guantera"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2014,
       "categoria": "polemica",
       "explicacion": "Jorge vaciando bolsillos, guantera y maletero en el control; y Marzal, de propina, pillado por 'practicar sexo en un lugar público'. Qué achante."
@@ -1071,12 +1070,12 @@
       "pregunta": "El TT se quiso inscribir 'en la LFP' con un tuit-parodia a AFES que dejó al grupo en llamas... ¿de quién fue la 'sacada'?",
       "cita": "Joni: @afes : Alberto Álvarez, el bueno de los Álvarez, y Aitor López, el bueno de los López, en el quinteto titular de la Jornada 1 patrocinado por Pinturas Boluda",
       "opciones": [
-        "De Joni",
         "De Humberto, el Capi",
         "De Germi",
-        "De Feme"
+        "De Feme",
+        "De Joni"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "momentazo",
       "explicacion": "Joni solo difundió el tuit con el 'quinteto titular' y el patrocinio de Pinturas Boluda (guiño al colegiado); Jorge destapó al autor: 'Que sacada de Humberto... estás gozándolo eh capi?'."
@@ -1085,12 +1084,12 @@
       "pregunta": "Joni reclamó un recordatorio semanal con los dos mandamientos del viernes: la ceniTTa y el lavado de la camiseta del TT... ¿para quién era el aviso?",
       "cita": "Joni: Necesitamos a alguien que le recuerde que los viernes hay ceniTTa y que la camiseta del TT conviene sacarla de la bolsa y lavarla después de cada partido",
       "opciones": [
-        "A Miki y su agenda imposible",
+        "A Feme y sus turnos de trabajo",
         "A Hugo y sus escapadas al barranc",
-        "A Marzal y sus mañanas de cama",
-        "A Feme y sus turnos de trabajo"
+        "A Miki y su agenda imposible",
+        "A Marzal y sus mañanas de cama"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2014,
       "categoria": "polemica",
       "explicacion": "Jorge ya lo había diagnosticado: 'Necesitas una secretaria Miki... el problema es que la tiene'. La elástica oficial vivía en su bolsa y Feme suplicó: 'No em feu parlar de la camiseta del TT perfavor'."
@@ -1099,12 +1098,12 @@
       "pregunta": "La justicia interna del TT tiene un caso abierto por robo de patrimonio histórico del vestuario... ¿qué caso persigue Jorge?",
       "cita": "Jorge: Habla Feme habla. Hay que desenmascarar al farsante que le robo el 9 a Marc",
       "opciones": [
+        "El robo del dorsal 9 a Marc",
         "El robo del brazalete de Humberto",
-        "El robo de la bolsa de las camisetas",
         "El robo de los guantes de Aitor",
-        "El robo del dorsal 9 a Marc"
+        "El robo de la bolsa de las camisetas"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "polemica",
       "explicacion": "El 9 estaba en litigio: Marc lo reclamaba mientras el portador actual se autoproclamaba 'el 9 de España' y Joni certificó que 'denota alcoholismo en vena'."
@@ -1113,12 +1112,12 @@
       "pregunta": "El 3-2 de Alex en un partidazo del TT estuvo a punto de no subir al marcador por un defecto muy de la categoría... ¿cuál?",
       "cita": "Joni: Bua que maxi achante cuando el 3-2 de Alex se ha salido por el trozo sin red y pensaba que no había entrada",
       "opciones": [
-        "Un foco que se apagó en la jugada",
-        "Un trozo de la red que faltaba",
+        "La línea de banda pintada a medias",
         "Un balón reventado que se quedó a medio camino",
-        "La línea de banda pintada a medias"
+        "Un foco que se apagó en la jugada",
+        "Un trozo de la red que faltaba"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2014,
       "categoria": "momentazo",
       "explicacion": "Partidazo con todos 'defendiendo a muerte' (MLTA), pero la red del campo tenía un boquete por el que se escapó el balón, y Joni tardó en celebrar."
@@ -1127,12 +1126,12 @@
       "pregunta": "En pleno Mundial 2014, Joni vio reflejado al Triangulito Team en una selección valiente 'contra los peces gordos'... ¿cuál?",
       "cita": "Joni: Partido muy del TT contra los peces gordos, ordenados, implicación colectiva y llegando cuando pueden con peligro (?)",
       "opciones": [
-        "México",
         "Costa Rica",
         "Chile",
-        "Argelia"
+        "Argelia",
+        "México"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2014,
       "categoria": "opinion",
       "explicacion": "Con banderas argelinas flotando en el chat, Joni equiparó a Argelia con el TT: orden, implicación colectiva y peligro a rachas; Jorge añadió un 'Liazo regateando y gol. ClassicTT'."
@@ -1155,12 +1154,12 @@
       "pregunta": "La auditoría del TT tras el ingreso en AFES reveló el destino real del dinero de las cuotas... ¿a qué fue a parar?",
       "cita": "Jorge: Viendo que lo que se pago ayer fue para pagar la deuda de la temporada 13-14, no veo logico que mi hermano tuviera que pagar 25 euros",
       "opciones": [
-        "A financiar las motos SFX del estadio",
-        "A pagar la deuda de la temporada 13-14",
+        "A un recargo del viejo de AFES",
         "A comprar las fotos de carnet de los fichajes",
-        "A un recargo del viejo de AFES"
+        "A pagar la deuda de la temporada 13-14",
+        "A financiar las motos SFX del estadio"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2014,
       "categoria": "polemica",
       "explicacion": "La deuda histórica devoró el bote: Joni cuadró que 'debemos 77+35 y hay 45€ de bote', y hasta el hermano de Jorge pidió exención por no haber jugado la 13-14."
@@ -1169,12 +1168,12 @@
       "pregunta": "Joni repartió títulos honoríficos del TT comparando a un miembro con el central culé más criticado... ¿quién fue coronado 'Piqué del TT'?",
       "cita": "Joni: Por cierto miki el plan de ayer que era ver capítulos de Aguado repetidos? ahora mismo eres el Piqué del TT, la gente ya está un poco harta",
       "opciones": [
-        "Hugo",
+        "Miki",
         "Marzal",
         "Feme",
-        "Miki"
+        "Hugo"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "El plan de Miki de ver 'capítulos de Aguado repetidos' agotó la paciencia del grupo y Joni le entregó el título: 'la gente ya está un poco harta'."
@@ -1183,12 +1182,12 @@
       "pregunta": "Para la expedición económica del TT rumbo a AFES, Jorge fijó la tarifa oficial... ¿cuánto tocaba poner 'x cabeza'?",
       "cita": "Jorge: Ok, pues solo la pasta entonces. 25 x cabeza?",
       "opciones": [
-        "25 euros",
+        "15 euros",
         "35 euros",
-        "10 euros",
-        "15 euros"
+        "25 euros",
+        "10 euros"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2014,
       "categoria": "lore",
       "explicacion": "Nueve efectivos en la lista ('a falta de saber lo de Alex'), 25 pavos por cabeza y la propuesta estrella de Miki para rematar la gestión: 'Podríamos ir a afes y luego cenita'."
@@ -1197,12 +1196,12 @@
       "pregunta": "Tras el código de mallas de Feme, ¿qué propuso Joni para poner orden en el TT?",
       "cita": "Feme: Las mallas solo pueden ser llevadas si va una pantaloneta encima",
       "opciones": [
-        "Redactar un régimen interno del TT",
         "Prohibir los emoticonos con corazones en el grupo",
         "Fichar un preparador físico que controle las mallas",
-        "Comprar pantalonetas para toda la plantilla"
+        "Comprar pantalonetas para toda la plantilla",
+        "Redactar un régimen interno del TT"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "Entre el fundador en mallas y el Capi hateando al primer CD de Melendi, Joni pidió normas por escrito: 'es que aquí todo vale', remató Germi."
@@ -1211,12 +1210,12 @@
       "pregunta": "¿Qué plan B propusieron los de Beniopa mientras mareaban al árbitro Fernández?",
       "cita": "Joni: Vam aplegar a beniopa i la tia encarregada de obrir no estava jajajaja",
       "opciones": [
+        "Jugar sin árbitro y con el conserje de linesman",
         "Ir al Raval a jugar, 'si aneu anant'",
         "Aplazar el partido a la semana siguiente",
-        "Jugar sin árbitro y con el conserje de linesman",
         "Jugar en un campo de tierra sin líneas"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2015,
       "categoria": "momentazo",
       "explicacion": "La encargada de abrir no apareció y los de Beniopa marearon a Fernández con eso de ir al Raval 'si aneu anant'; el Rodra acabó tot alterat."
@@ -1225,12 +1224,12 @@
       "pregunta": "¿Qué árbitro del comité se ganó la ira del TT por no apuntar un gol de los Tormo en el acta?",
       "cita": "Joni: 7 mínimo, pero es que a uno de los tormo no les apuntaron un gol. Mejor dicho, solo constaba un tormo en acta (o eso dijo JM)",
       "opciones": [
-        "Oliveta Negra",
         "Gironès",
         "Fernández",
+        "Oliveta Negra",
         "Boluda"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2015,
       "categoria": "polemica",
       "explicacion": "Goleada ante el Crem empañada por el 'Puto Girones', que dejó un gol de los Tormo sin anotar en acta; el TT ganó por delante y por detrás."
@@ -1239,10 +1238,10 @@
       "pregunta": "¿Qué confesión de Miki desató la petición de expulsión inmediata del grupo?",
       "cita": "Joni: Échale del grupo, en que hemos convertido el TT? En un club de lectura para marujas?",
       "opciones": [
-        "Que entrenaba a escondidas con el Expobar",
+        "Que era del Barça desde pequeño",
         "Que se había leído los tres libros de 50 Sombras de Grey",
         "Que llevaba las cuotas de medio equipo sin pagar",
-        "Que era del Barça desde pequeño"
+        "Que entrenaba a escondidas con el Expobar"
       ],
       "correcta": 1,
       "anio": 2015,
@@ -1250,15 +1249,15 @@
       "explicacion": "Miki no solo iba al cine: confesó 'me he leído los 3 libros'; Feme lo certificó como el único tío capaz de semejante hazaña literaria."
     },
     {
-      "pregunta": "¿Quién ostentaba el título de máximo goleador de la historia del TT?",
+      "pregunta": "¿Quién ostentaba el título de máximo goleador de la historia del TT según Joni en 2015?",
       "cita": "Joni: Germi, que opinas de los que hatean al máximo goleador de la historia del TT por centrarse en el portu?",
       "opciones": [
-        "El Tanque Marc",
         "Marzal",
-        "El Capi Humpa",
-        "Pepito"
+        "El Tanque Marc",
+        "Pepito",
+        "El Capi Humpa"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "Joni salió en defensa de Marzal ante los hateos por centrarse en el portero; Germi zanjó el debate con un 'to el TT hasta la nuertr'."
@@ -1281,12 +1280,12 @@
       "pregunta": "¿De quién era la familia del Raval con la que el TT selló hermandad a base de cassalla?",
       "cita": "Feme: Menuda amistad hicimos el año pasado a base de cassalla",
       "opciones": [
-        "De Germi, con su tío en la junta fallera",
-        "De Jorge, por línea de su hermano",
+        "De Feme, por partida doble",
         "Del Rodra, en plan embajada",
-        "De Feme, por partida doble"
+        "De Jorge, por línea de su hermano",
+        "De Germi, con su tío en la junta fallera"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "momentazo",
       "explicacion": "La familia del Raval de Germi era 'de puta madre' según Feme, con un tío en la junta fallera capaz de pagar un cubata a todo el TT."
@@ -1309,12 +1308,12 @@
       "pregunta": "Crisis de fichas antes del partido: JM llegó sin los documentos y el TT montó un guion de emergencia. ¿Qué excusa iban a darle al árbitro por la ausencia de Marzal?",
       "cita": "Joni: Decimos que le han llamado para currar que era urgente y que no ha podido traer las fichas",
       "opciones": [
-        "Que AFES las retenía por las cuotas impagadas",
         "Que las dejó, sin querer, dentro del coche de Miki",
-        "Que se las había robado un rastafari en el paseo",
-        "Que le habían llamado para currar urgente y no pudo traerlas"
+        "Que AFES las retenía por las cuotas impagadas",
+        "Que le habían llamado para currar urgente y no pudo traerlas",
+        "Que se las había robado un rastafari en el paseo"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2015,
       "categoria": "momentazo",
       "explicacion": "El guion oficial era el 'infortunio' laboral de Marzal, al que 'lo conocen todos'. Y si tocaba el Zarza, mejor; incluso Gironès era 'un tío razonable'."
@@ -1323,10 +1322,10 @@
       "pregunta": "Joni radiografió el trabajo de AFES con una teoría sobre a dónde va el dinero de las cuotas. ¿Cuál era su diagnóstico?",
       "cita": "Joni: Para lo que hacen es una vergüenza, solo se dedican a poner horarios y clasificación, estás que pagan por usar las instalaciones, le dan cuatro mierdas a los árbitros y ale, a trincar",
       "opciones": [
-        "Gestionaban la liga con esmero y trataban de lujo a los árbitros",
-        "Solo ponían horarios y clasificación, daban cuatro mierdas a los árbitros y a trincar",
         "Perseguían sin descanso las fichas falsas de la competición",
-        "Reinvertían todo en mejorar las instalaciones"
+        "Solo ponían horarios y clasificación, daban cuatro mierdas a los árbitros y a trincar",
+        "Reinvertían todo en mejorar las instalaciones",
+        "Gestionaban la liga con esmero y trataban de lujo a los árbitros"
       ],
       "correcta": 1,
       "anio": 2015,
@@ -1337,12 +1336,12 @@
       "pregunta": "Un perro se convirtió en el nuevo 'jefazo' del grupo y Feme decretó que había superado a una institución del TT. ¿A cuál?",
       "cita": "Feme: Ha superado a la mascota dl TT Alf the cat!",
       "opciones": [
-        "Alf the cat, la mascota oficial del TT",
-        "Marzal el líbero y su jerarquía defensiva",
         "El Santo y sus 20 paradas por partido",
+        "Marzal el líbero y su jerarquía defensiva",
+        "Alf the cat, la mascota oficial del TT",
         "Mr. Huevo, el talismán del vestuario"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "La era felina tocaba a su fin, aunque Jorge defendió su honor: 'Alf the cat jamas habria bajado a comer un pussy'."
@@ -1352,11 +1351,11 @@
       "cita": "Joni: Jaaaa espera. Una gota de meao de Aitor vale más que él entero",
       "opciones": [
         "'Aitor habría parado eso con la rodilla rota'",
-        "'Ni Aitor en su mejor día habría parado eso'",
         "'Ese payaso ni con ficha falsa llega a las botas de Aitor'",
-        "'Una gota de meao de Aitor vale más que él entero'"
+        "'Una gota de meao de Aitor vale más que él entero'",
+        "'Ni Aitor en su mejor día habría parado eso'"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2015,
       "categoria": "opinion",
       "explicacion": "Análisis técnico impecable: la orina del Santo vale más que el rival completo. Al burlón lo mandaron al exilio con un 'payaso'."
@@ -1365,12 +1364,12 @@
       "pregunta": "Lama salió en defensa de Germi ante los haters con un discurso épico. ¿Qué título histórico esgrimió?",
       "cita": "Joni: Lama : 'Pero como puede haber gente hateando a Germi, máximo goleador histórico del TT, con todo lo que nos ha dado. Es un mito, una leyenda'",
       "opciones": [
-        "Portero de las 20 paradas por partido",
         "Máximo goleador histórico del TT",
         "Primer capitán con la ficha en regla",
+        "Portero de las 20 paradas por partido",
         "El líbero más laureado de la era AFES"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "'Es un mito, una leyenda', sentenció Lama. El Pichichi eterno del Triangulito Team, con todo lo que nos ha dado."
@@ -1379,12 +1378,12 @@
       "pregunta": "Joni propuso celebrar en Barcelona el ascenso 'de nuestra equipación 12/13'. ¿De qué camiseta hablaba?",
       "cita": "Joni: A Barcelona vamos a celebrar el ascenso de nuestra equipación 12/13 por unos momentos, el beTTis",
       "opciones": [
-        "Del Betis, la mítica 'beTTis'",
         "De la Roma, la primera joya del armario TT",
-        "Del Dortmund, la amarilla del barro",
-        "Del City, la celeste de los cuadros"
+        "Del City, la celeste de los cuadros",
+        "Del Betis, la mítica 'beTTis'",
+        "Del Dortmund, la amarilla del barro"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "La equipación 12/13 del TT era la verdiblanca. Feme ya soñaba con pillar la del 24 de Rubén Castro, 'el maltratador del área', para Humberto."
@@ -1395,8 +1394,8 @@
       "opciones": [
         "Abogado defensor",
         "Delegado oficial de fichas del TT",
-        "Árbitro colegiado de la liga",
-        "Presidente honorario de AFES"
+        "Presidente honorario de AFES",
+        "Árbitro colegiado de la liga"
       ],
       "correcta": 0,
       "anio": 2015,
@@ -1407,12 +1406,12 @@
       "pregunta": "Con el goalaverage en juego, Miki desplegó diplomacia paralela con Casa Concha. ¿En qué consistía el plan?",
       "cita": "Miki: Les digo que si presentan y rascan algo les pagamos una cena o algo jaja",
       "opciones": [
-        "Pagarles una cena si se presentaban y rascaban algo",
-        "Fichar a su portero fumeta como informante",
         "Impugnarles la jornada por la ficha falsa del portero",
+        "Fichar a su portero fumeta como informante",
+        "Pagarles una cena si se presentaban y rascaban algo",
         "Pedir a Gironès un 3-0 administrativo"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2015,
       "categoria": "polemica",
       "explicacion": "'La opción soborno estaba ahí': cena del TT a cambio de que Casa Concha se presentara y rascara puntos frente a Reformes."
@@ -1421,12 +1420,12 @@
       "pregunta": "Joni estaba dispuesto a hacer un desembolso histórico por una GoPro en la aerox de Marzal. ¿Cuánto ofreció y qué presupuesto usó de referencia?",
       "cita": "Joni: Daría alrededor de 600€ (lo que deberemos a afes aprox) por poner una go pro en la aerox de Marzal",
       "opciones": [
-        "1.000€, la recaudación íntegra de las cuotas impagadas",
+        "600€, aproximadamente lo que el TT le debía a AFES",
         "150€, lo que costaba una equipación de la guerra de camisetas",
-        "300€, justo el precio de las fichas de la temporada",
-        "600€, aproximadamente lo que el TT le debía a AFES"
+        "1.000€, la recaudación íntegra de las cuotas impagadas",
+        "300€, justo el precio de las fichas de la temporada"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "La deuda con AFES tenía un destino científico: financiar el documental de la aerox del líbero Marzal. Prioridades de club."
@@ -1435,12 +1434,12 @@
       "pregunta": "Con bombos y platillos y saludo oficial a los 'yonkis del TT', ¿qué comunicó Germi en septiembre de 2015?",
       "cita": "Germi: HOLA YONKIS DEL TT: QUIERO INFORMAROS DE QUE UN SERVIDOR AL 95% IMPARTIRA EL CURSO ACADEMICO 15/16 EN LA UNIVERSIDAD DE GRANADA, CON MOTIVO DE UN MASTER",
       "opciones": [
-        "Que se iba a la Universidad de Granada a hacer un máster",
-        "Que se marchaba a Varsovia a montar la filial del TT",
         "Que fichaba como míster-jugador de un equipo granadino",
-        "Que el TT disputaría la final de liga en Granada"
+        "Que el TT disputaría la final de liga en Granada",
+        "Que se marchaba a Varsovia a montar la filial del TT",
+        "Que se iba a la Universidad de Granada a hacer un máster"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "Germi decretó la era Granada del TT con piso compartido 'que lo saben hasta en Corea del Norte'. Jorge lo celebró con un 'ope ope ope' ritual."
@@ -1450,9 +1449,9 @@
       "cita": "Joni: No os embajoneis. Si hubierais aprendido algo de guille es que muchos negros contra 0 negros es derrota asegurada",
       "opciones": [
         "\"Muchos negros contra 0 negros es derrota asegurada\"",
-        "\"Contra los sordos hay que gritar las jugadas más fuerte\"",
+        "\"El que no suea en el calentamiento, no juega el partido\"",
         "\"Si vas perdiendo 0-4, cambia de equipación y a correr\"",
-        "\"El que no suea en el calentamiento, no juega el partido\""
+        "\"Contra los sordos hay que gritar las jugadas más fuerte\""
       ],
       "correcta": 0,
       "anio": 2015,
@@ -1460,29 +1459,15 @@
       "explicacion": "La doctrina Guille aplicada al baloncesto internacional; Miki la recibió con un 'q grande guille' entre carcajadas."
     },
     {
-      "pregunta": "Tras un robo con huellas y espera burocrática incluidas, Joni leyó el parte oficial. ¿Quién era el principal sospechoso?",
-      "cita": "Joni: Según información de la Policía Local, el robo se atribuye al famoso clan de los Tormo, que tuvo su mayor época de actividad hace unos 10 años",
-      "opciones": [
-        "A la vieja guardia burocrática de AFES",
-        "Al famoso clan de los Tormo",
-        "A los sordos del Raval, en venganza mítica",
-        "Al clan Orengo y sus primos de la comarca"
-      ],
-      "correcta": 1,
-      "anio": 2015,
-      "categoria": "polemica",
-      "explicacion": "Joni completó el parte con el botín: una combinada del ATP 250 de Rotterdam y un kit de encordar raquetas. Feme se libró: 'soy más rápido que la lux'."
-    },
-    {
       "pregunta": "Germi anunció una visita ilustre a Gandia con título oficial incluido. ¿A quién coronó como máximo goleador de la historia del TT?",
       "cita": "Germi: El maximo goleador de la historia del TT ( si miki el maximo goleador) pisara tierras gandienses esta noche",
       "opciones": [
-        "Miki, sí: el máximo goleador histórico del TT",
-        "Alberto, el goleador silencioso del Raval",
+        "Marc, el Tanque de los goles imposibles",
         "Aitor, el Santo que también marca de portero",
-        "Marc, el Tanque de los goles imposibles"
+        "Alberto, el goleador silencioso del Raval",
+        "Miki, sí: el máximo goleador histórico del TT"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2015,
       "categoria": "lore",
       "explicacion": "Germi subrayó dos veces el dato ('sí, Miki, el máximo goleador'). Hugo lo resumió: '¿pero qué haces con tu vida, chele?'"
@@ -1491,12 +1476,12 @@
       "pregunta": "Cuando el Barça cerró el fichaje de Robert, delantero del Fluminense, ¿cuál fue el análisis de Joni?",
       "cita": "Joni: Vamos a fichar al primo de Miki. Enga, suerte",
       "opciones": [
-        "Que lo habían fichado para saldar la deuda del TT",
-        "Que era el sobrino del clan Tormo",
         "Que era el primo de Miki",
-        "Que era el yerno del viejo de AFES"
+        "Que lo habían fichado para saldar la deuda del TT",
+        "Que era el yerno del viejo de AFES",
+        "Que era el sobrino del clan Tormo"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2015,
       "categoria": "opinion",
       "explicacion": "Feme lo bautizó 'Robert lewandoski' y atribuyó el fichaje a 'negocios en Brasil'. La cantera del TT llega lejos."
@@ -1516,29 +1501,15 @@
       "explicacion": "Miki lo confesó tiempo después: 'se me fue, luego llamé a Marc y le pedí perdón'. Aquel 4-4 en el Raval fue también el 'debuTT' de Joni."
     },
     {
-      "pregunta": "Para la web que recopilaría todas las depravaciones del clan Tormo, ¿qué sistema de calificación propuso Joni?",
-      "cita": "Joni: Y calificación de los videos según su grado de cerdismo en tormos. Poco guarro 1 tormo, mega desfase 5 tormos",
-      "opciones": [
-        "En humpas: según los gritos históricos por acción",
-        "En tormos: de 'poco guarro' (1 tormo) a 'mega desfase' (5 tormos)",
-        "En afes: según los meses de cuota impagada del protagonista",
-        "En marzales: según la velocidad de la aerox del videíto"
-      ],
-      "correcta": 1,
-      "anio": 2016,
-      "categoria": "lore",
-      "explicacion": "Feme sentenció que la web era inviable: 'no n'hi ha prou categories'. El clan desbordaba cualquier arquitectura de datos."
-    },
-    {
       "pregunta": "Según el estudio de mercado de Feme, ¿qué grito histórico suelta Humpa cuando está con latinas?",
       "cita": "Feme: Humber es de negras / Y latinas mientras les grita : \"1492\"!!!!!",
       "opciones": [
-        "\"¡Por AFES y por su viejo!\"",
-        "\"¡Vamos mi TT!\"",
         "\"¡1492!\"",
-        "\"¡Gol de Marzal!\""
+        "\"¡Vamos mi TT!\"",
+        "\"¡Gol de Marzal!\"",
+        "\"¡Por AFES y por su viejo!\""
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2016,
       "categoria": "momentazo",
       "explicacion": "El Capi celebrando el descubrimiento de América en plena acción. Historia, pasión y TT en un solo grito."
@@ -1561,12 +1532,12 @@
       "pregunta": "Los 'máquinas' amigos de Orengo tenían claro dónde querían jugar el partido aplazado... ¿qué terreno exigían?",
       "cita": "Joni: Que los máquinas amigos de Orengo querían que fuéramos al Raval a jugarlo",
       "opciones": [
-        "A la sede de AFES",
         "Al Raval",
         "Al campo del Expobar",
+        "A la sede de AFES",
         "Al pabellón del Gandua"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Desplazamiento puro: los 'máquinas' de Orengo pretendían resolverlo en el Raval, campo visitante en toda regla."
@@ -1576,11 +1547,11 @@
       "cita": "Feme: El tanque tiene la mejor media del TT goles/partidos",
       "opciones": [
         "El Capi Humberto",
-        "El Tanque Marc",
         "Marzal el líbero",
+        "El Tanque Marc",
         "El Santo Aitor"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Joni había invocado su año en Badajoz como tope de sequía goleadora; Feme salió a la defensa del #TheRealNumber9."
@@ -1589,10 +1560,10 @@
       "pregunta": "¿Qué dos cracks profesionales quedarían, según Joni, también en el banquillo del XI histórico del TT?",
       "cita": "Joni: Isco y James.. Serían también suplentes en el XI histórico del TT",
       "opciones": [
-        "Bale y Benzema",
+        "Iniesta y Busquets",
         "Isco y James",
-        "Messi y Cristiano",
-        "Iniesta y Busquets"
+        "Bale y Benzema",
+        "Messi y Cristiano"
       ],
       "correcta": 1,
       "anio": 2016,
@@ -1603,12 +1574,12 @@
       "pregunta": "¿Qué fantasía burocrática imaginó Feme para una visita de rutina a AFES?",
       "cita": "Feme: Como molaria ir a afes y que estuviera del bosque ahi",
       "opciones": [
-        "Que Del Bosque estuviera allí haciendo las fichas",
-        "Que la cuota se pagara con fichas de Comunio",
         "Que el viejo de AFES les firmara el ascenso",
-        "Que Boluda pitara los entrenamientos"
+        "Que Boluda pitara los entrenamientos",
+        "Que la cuota se pagara con fichas de Comunio",
+        "Que Del Bosque estuviera allí haciendo las fichas"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Jorge completó el dream team de la ventanilla: Del Bosque sellando fichas y Boluda de recepcionista."
@@ -1617,12 +1588,12 @@
       "pregunta": "¿Qué comunicado oficial lanzó Jorge a toda la plantilla del TT en agosto de 2016?",
       "cita": "Jorge: RECORDATORIO A TODOS LOS MIEMBROS DEL TT - A partir de hoy se puede pujar y vender en la Liga de Comuniame.",
       "opciones": [
-        "La apertura del mercado de pujas de la Liga de Comuniame del TT",
-        "El cambio de equipación de la Roma al Dortmund",
         "La destitución del míster Feme desde la banda",
-        "La convocatoria oficial de fotos de carnet en AFES"
+        "La apertura del mercado de pujas de la Liga de Comuniame del TT",
+        "La convocatoria oficial de fotos de carnet en AFES",
+        "El cambio de equipación de la Roma al Dortmund"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Pujas abiertas, 10 millones extra por manager y Héctor peleándose con el Play Store para poder fichar: el mercado del TT también se sufre."
@@ -1631,12 +1602,12 @@
       "pregunta": "¿Con qué jugador era imparable Orengo según Joni en el Pro 6?",
       "cita": "Joni: Pf, ni orengo en el pro 6 con obafemi martins",
       "opciones": [
-        "Con Ronaldinho",
         "Con Obafemi Martins",
         "Con Robinho",
-        "Con Adriano"
+        "Con Adriano",
+        "Con Ronaldinho"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2016,
       "categoria": "lore",
       "explicacion": "Ni la jugada más vergonzosa del partido igualaba las galopadas de Orengo con el Martins del Pro 6."
@@ -1645,9 +1616,9 @@
       "pregunta": "¿A quién del TT comparó Joni con el linier que no vio una falta clamorosa?",
       "cita": "Joni: Ese linier esta más ciego que JM en un partido del TT",
       "opciones": [
-        "Con Hugo",
         "Con Héctor",
         "Con Germi",
+        "Con Hugo",
         "Con JM"
       ],
       "correcta": 3,
@@ -1659,12 +1630,12 @@
       "pregunta": "Feme confesó que aquella tarde no pudo ponerse a ver el partido. ¿Qué se lo impidió?",
       "cita": "Joni: Hombre, solo faltaba que Messi rindiera como si fuera Enzo Pérez",
       "opciones": [
+        "Recalcular la jornada del comunio",
         "Ver una peli donde Jennifer Aniston hace de cachonda",
-        "Escuchar el Spotify de Jorge",
         "Buscar la ratilla de Guille en la foto",
-        "Recalcular la jornada del comunio"
+        "Escuchar el Spotify de Jorge"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2017,
       "categoria": "momentazo",
       "explicacion": "Prioridades de Feme: si Jennifer Aniston hace de cachonda en la tele, el partido puede esperar."
@@ -1673,12 +1644,12 @@
       "pregunta": "Germi repasó los 'momentos épicos del TT' que vivió en carne propia. ¿Qué remontada citó con marcador incluido?",
       "cita": "Germi: Y la final de la Copa B tambien Versus Crem con paliza",
       "opciones": [
-        "Del 1-0 al 5-1 contra el Raval",
         "Del 2-4 al 6-4 contra Beniopa",
         "Del 0-3 al 4-3 contra Casa Concha",
-        "Del 5-2 al 9-5 contra los sordos"
+        "Del 5-2 al 9-5 contra los sordos",
+        "Del 1-0 al 5-1 contra el Raval"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2017,
       "categoria": "momentazo",
       "explicacion": "Del 5-2 en contra al 9-5 final ante los sordos: la remontada que Germi sitúa en el olimpo del Triangulito Team."
@@ -1687,12 +1658,12 @@
       "pregunta": "Entre los momentos épicos del TT hay una final de la Copa B resuelta 'con paliza'. ¿Contra qué rival se jugó?",
       "cita": "Germi: Yo vivi los momentos epicos del TT",
       "opciones": [
+        "Beniopa",
         "Expobar",
-        "El Crem",
         "Los sordos",
-        "Beniopa"
+        "El Crem"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2017,
       "categoria": "momentazo",
       "explicacion": "La final de la Copa B contra el Crem acabó, según la crónica oficial de Germi, en paliza deportiva."
@@ -1701,10 +1672,10 @@
       "pregunta": "Germi confirmó que también jugó aquella remontada ante Expobar y soltó un dato de plantilla. ¿Cuántos eran sobre el campo?",
       "cita": "Germi: Tambien estuve",
       "opciones": [
-        "Ocho",
+        "Cinco",
         "Seis",
         "Siete",
-        "Cinco"
+        "Ocho"
       ],
       "correcta": 1,
       "anio": 2017,
@@ -1716,11 +1687,11 @@
       "cita": "Germi: Si tio, se echa de menos",
       "opciones": [
         "Hugo",
-        "German",
         "El Tanque",
-        "Marzal"
+        "Marzal",
+        "German"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2017,
       "categoria": "lore",
       "explicacion": "El propio Germi reivindicó su media de 4 goles por partido; Feme, por si acaso, le recordó que tenía 'una galta en la ma oberta'."
@@ -1729,12 +1700,12 @@
       "pregunta": "Jorge tenía claro que Mou y sus excusas por los 'goles de rebote' del City no llegaban al nivel de un clásico del grupo. ¿De quién?",
       "cita": "Jorge: Diciendo que los goles del city eran de rebote y no se que",
       "opciones": [
-        "Guille cuadrando alineaciones",
-        "Julito Parrondo perdiendo al FIFA",
+        "El viejo de AFES con las fichas",
         "Boluda pitando en contra",
-        "El viejo de AFES con las fichas"
+        "Julito Parrondo perdiendo al FIFA",
+        "Guille cuadrando alineaciones"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2017,
       "categoria": "opinion",
       "explicacion": "Ni Julito Parrondo, cuando perdía al FIFA, soltaba tantas excusas como Mou con lo de los 'goles de rebote' del City."
@@ -1745,8 +1716,8 @@
       "opciones": [
         "Su ratilla",
         "Sus ojeras de guardia",
-        "Su corte de melena",
-        "Su bigote de 2005"
+        "Su bigote de 2005",
+        "Su corte de melena"
       ],
       "correcta": 0,
       "anio": 2018,
@@ -1757,12 +1728,12 @@
       "pregunta": "Germi arrancó su teoría sobre Valverde y los 90 minutos de titulares con un 'Pero...' dirigido a un compañero. ¿A quién?",
       "cita": "Jorge: Es un cagon. Y ya esta. Esta superadisimo",
       "opciones": [
-        "A Humpa, el Capi",
         "A Guille",
         "A Marzal",
+        "A Humpa, el Capi",
         "Al Tanque"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "anio": 2018,
       "categoria": "polemica",
       "explicacion": "Germi espetó su bronca futbolera al propio Humpa, el Capi del TT, en pleno debate de banqueta."
@@ -1772,11 +1743,11 @@
       "cita": "Joni: Has tirado de foto del mitin del PSOE para demostrar tu rojura?",
       "opciones": [
         "Robar la pancarta para decorar su salón",
-        "Usar una foto de huelga para presumir de currante",
         "Tirar de foto del mitin del PSOE para demostrar su rojura",
+        "Usar una foto de huelga para presumir de currante",
         "Colarse en el mitin para salir en la foto oficial"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2018,
       "categoria": "polemica",
       "explicacion": "El debate sindical acabó con Miki radiografiando la foto ('todo lleno de calvos') y Jorge soltando un 'hijos de puta' de cierre."
@@ -1785,12 +1756,12 @@
       "pregunta": "Tras el episodio del chaval de los globos, ¿qué informe de carácter emitió Hugo sobre El Santo?",
       "cita": "Hugo: Que buena persona es Aitor. Bonachón!",
       "opciones": [
-        "Que buena persona es Aitor. Bonachón!",
         "Aitor, el más cascarrabias del vestuario del TT",
+        "Aitor es un tipo serio, de los que no perdonan un despiste bajo palos",
         "Aitor no se fía ni de su sombra, ojo con él",
-        "Aitor es un tipo serio, de los que no perdonan un despiste bajo palos"
+        "Que buena persona es Aitor. Bonachón!"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2019,
       "categoria": "lore",
       "explicacion": "Joni se había cruzado con el hermano de Germi jugando con los globos, y Hugo defendió el buen corazón de Aitor; Feme matizó que el hermano 'es un refilldeputee'."
@@ -1799,12 +1770,12 @@
       "pregunta": "Para que el Valencia pagara los 20 kilos que pedían por Denis, ¿qué 'plus logístico' ofreció Joni?",
       "cita": "Joni: Que por cierto, si ponéis los 20 kilos que pedimos (?) por Denis os lo lleva Germán en blabla desde Las Rozas al segundo de firmarse el contrato",
       "opciones": [
-        "Que Germán se lo lleva en blabla desde Las Rozas al segundo de firmar",
         "Que el TT juega un amistoso benéfico en Mestalla",
+        "Que Germán se lo lleva en blabla desde Las Rozas al segundo de firmar",
         "Que el Capi le cede la portería del TT una temporada",
         "Que Marzal actúa de agente libre en la operación"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2019,
       "categoria": "opinion",
       "explicacion": "Chanza eterna sobre el blabla de Germi: Joni lo ofrecía como transporte oficial del fichaje, con Las Rozas como origen de la operación."
@@ -1813,12 +1784,12 @@
       "pregunta": "Tras presumir Germi de que dos de sus recomendados acabaron en Valladolid y Valencia, ¿qué doble apodo le granjeó Feme?",
       "cita": "Feme: Puto amo sherman. The Especialet One",
       "opciones": [
-        "El sabueso de La Talavera. The Moneyball One",
-        "Puto amo sherman. The Especialet One",
+        "El ojeador de AFES. The Estadistiquet One",
         "Mister carnet de puntos. The Scouting One",
-        "El ojeador de AFES. The Estadistiquet One"
+        "El sabueso de La Talavera. The Moneyball One",
+        "Puto amo sherman. The Especialet One"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2021,
       "categoria": "lore",
       "explicacion": "Germi presumió de sus dos 'fichajes' de cantera ('pos ale, uno al Valladolid y otro al Valencia') y Feme lo coronó como ojeador total."
@@ -1827,12 +1798,12 @@
       "pregunta": "¿A qué rostro televisivo confesó Germi aquella noche que le estaba 'poniendo burro'?",
       "cita": "Germi: Susanna Griso. Madre mia. Me esta poniendo burro eehhh",
       "opciones": [
-        "Sara Carbonero",
-        "Mariló Montero",
         "Ana Rosa Quintana",
-        "Susanna Griso"
+        "Mariló Montero",
+        "Susanna Griso",
+        "Sara Carbonero"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2021,
       "categoria": "momentazo",
       "explicacion": "Entre ojeadores y debates serios, Germi soltó su confesión más sincera mirando la tele; el grupo ya le conoce las debilidades."
@@ -1841,12 +1812,12 @@
       "pregunta": "¿Qué ritual de superstición narró Germi en plena Copa América 2021?",
       "cita": "Germi: Primer partido con la camiseta de Argentina, vinito y pocadita y no ganamo. Segundo partido sin la camiseta, sin vinito y sin picasita y ganmos. Porque tengo que ir con los chicos ahora?",
       "opciones": [
-        "Comer churros con el abuelo antes de cada compromiso albiceleste",
         "Camiseta de Argentina, vinito y picadita el primer partido; sin nada de eso, el segundo",
+        "Comer churros con el abuelo antes de cada compromiso albiceleste",
         "Ver los partidos con la equipación Roma del TT y cerveza sin frío",
         "Meditar diez minutos antes de cada partido con la camiseta de Messi"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2021,
       "categoria": "momentazo",
       "explicacion": "Monólogo de superstición argentina con vinito y picadita: el ritual falló el primer partido y Germi se cuestionó su relación con 'los chicos'."
@@ -1856,11 +1827,11 @@
       "cita": "Humpa: Nah , me bajo del fútbol. No puedo ver el barça sabiendo que messi está en otro equipo. Es asqueroso",
       "opciones": [
         "Ver solo la Champions con el sonido apagado hasta nueva orden",
-        "Bajarse del fútbol: no puede ver al Barça sabiendo que Messi está en otro equipo",
         "Quemar la camiseta y fichar por la peña del City",
+        "Bajarse del fútbol: no puede ver al Barça sabiendo que Messi está en otro equipo",
         "Hacerse socio del Valencia para empezar de cero"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2021,
       "categoria": "polemica",
       "explicacion": "El Capi firmó la renuncia más solemne al fútbol en la historia del grupo, con 'es asqueroso' incluido en el acta."
@@ -1869,12 +1840,12 @@
       "pregunta": "¿Qué 'scoop' trajo Miki con sus fuentes sobre el caso Messi en agosto de 2021?",
       "cita": "Miki: Mateu tío…. Es bueno pero no es mago. Tengo entendido que la situación es prácticamente irreversible. Me lo confirman mis fuentes",
       "opciones": [
-        "Que la situación era prácticamente irreversible, según sus fuentes",
+        "Que Laporta lo solucionaría con una cena de hermandad",
         "Que LaLiga bajaría el límite salarial por el bien del espectáculo",
         "Que Messi ya había firmado por el PSG esa misma tarde",
-        "Que Laporta lo solucionaría con una cena de hermandad"
+        "Que la situación era prácticamente irreversible, según sus fuentes"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "anio": 2021,
       "categoria": "lore",
       "explicacion": "Miki activó su agencia de información habitual ('me lo confirman mis fuentes') para certificar que ni Mateu Alemany podía hacer magia."
@@ -1883,12 +1854,12 @@
       "pregunta": "2022, las pachangas del TT renacieron 'por mis cojones'. ¿Qué reliquia se envió por correo hasta Paseo Germanias 94, 2º, puerta 4?",
       "cita": "Jorge: Alguien que reciba el balón de la liga para las proximas pachangas (que por mis cojones sí se van a disputar) del TT",
       "opciones": [
-        "El balón de la liga",
         "La equipación Dortmund original",
-        "El silbato de Boluda",
-        "Las fichas de AFES sin sellar"
+        "El balón de la liga",
+        "Las fichas de AFES sin sellar",
+        "El silbato de Boluda"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "anio": 2022,
       "categoria": "momentazo",
       "explicacion": "Jorge custodiaba el balón de la liga y lo mandó a casa de Humpa: las pachangas del TT volvían por decreto, con envío incluido."
@@ -1897,12 +1868,12 @@
       "pregunta": "¿Qué estaba haciendo Jorge cuando Marzal lo acusó de 'querer imitar a don Javier'?",
       "cita": "Marzal: Queriendo imitar a don Javier",
       "opciones": [
-        "Dar charlas tácticas pre-partido",
         "Engullir comida sin ningún control",
-        "Presionar al árbitro desde la banda",
-        "Fichar jugadores para el TT"
+        "Dar charlas tácticas pre-partido",
+        "Fichar jugadores para el TT",
+        "Presionar al árbitro desde la banda"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2022,
       "categoria": "momentazo",
       "explicacion": "Jorge respondió un lacónico 'Engulliendo' y Marzal lo comparó con don Javier: el nivel gastronómico del grupo sigue imbatible."
@@ -1911,12 +1882,12 @@
       "pregunta": "Estalló la guerra entre las 23 fallas de Gandia y Germi soltó un grito de guerra de quince letras. ¿A quién invocaba con tanta pasión?",
       "cita": "Germi: GUUIIIIIILLLLLLEEEEEEMMMMMM",
       "opciones": [
-        "Javier Tormo",
-        "Guillem",
+        "Marzal",
         "Humpa",
-        "Marzal"
+        "Guillem",
+        "Javier Tormo"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "anio": 2023,
       "categoria": "momentazo",
       "explicacion": "Con la falla de Corea metiendo cizaña y todas las comisiones alzadas en asamblea, Germi invocó a Guillem como quien pide refuerzos al cielo."
@@ -1925,12 +1896,12 @@
       "pregunta": "En plena guerra de fallas, Joni reivindicó una gesta histórica del padre de Orengo. ¿Cuál fue?",
       "cita": "Joni: Orgullo de Corea, metiendo cizaña. Ojalá haya sido el padre de Orengo, como cuando pidió civismo ante los 2 aficionados rivales que expulsó la policía del pabellón por tirar una valla",
       "opciones": [
-        "Fichar a Marzal el líbero para salvar la temporada",
         "Pedir civismo ante los 2 aficionados rivales que la policía expulsó del pabellón por tirar una valla",
+        "Convencer al viejo de AFES de prorrogar todas las fichas",
         "Marcar de falta desde el medio del campo en Marxu",
-        "Convencer al viejo de AFES de prorrogar todas las fichas"
+        "Fichar a Marzal el líbero para salvar la temporada"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "anio": 2023,
       "categoria": "lore",
       "explicacion": "Dos aficionados rivales, una valla volada y la policía expulsándolos del pabellón: el padre de Orengo pidió civismo y nació una leyenda."
@@ -1939,12 +1910,12 @@
       "pregunta": "En el debate del nuevo mandamás del Barça, Germi fue clarísimo con el mercado: tras el sueño de Haaland, ¿cuál era el fichaje 'asequible'?",
       "cita": "Germi: Que se pensara que vendra al Barça y podra fichar a Haaland y como mucho podras fichar a Marc The Real Number 9",
       "opciones": [
-        "Marzal el líbero en su mejor prime",
         "El Santo con su media de 20 paradas por partido",
         "Aaaaalejandro con todas sus aes incluidas",
-        "Marc The Real Number 9"
+        "Marc The Real Number 9",
+        "Marzal el líbero en su mejor prime"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2023,
       "categoria": "lore",
       "explicacion": "Con Haaland como sueño imposible, el techo real del mercado era un delantero del TT: Marc, The Real Number 9, sin cláusulas ni comisiones."
@@ -1953,12 +1924,12 @@
       "pregunta": "En el sorteo de camisetas retro, ¿qué jugada maestra propuso Joni para que TTino no se quedara sin su regalo?",
       "cita": "Joni: Habría que meter a TTino, pero hacer un BIIIIISCOTAZO y que todos le tengamos que comprar una a él además del que te toque",
       "opciones": [
+        "Un BIIIIISCOTAZO: que entre todos le compráramos una además del regalo que nos tocara",
         "Que se comprara él mismo la suya y santas pascuas",
         "Cambiar el sorteo por un draft cerrado",
-        "Un BIIIIISCOTAZO: que entre todos le compráramos una además del regalo que nos tocara",
         "Dejarle fuera del sorteo por no tener email"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "anio": 2023,
       "categoria": "lore",
       "explicacion": "El BIIIIISCOTAZO de Joni: todos comprándole camiseta a TTino además del regalo que les tocara. Solidaridad al máximo nivel."
@@ -1967,12 +1938,12 @@
       "pregunta": "Llegó la hora de repartir tallas para las camisetas retro. ¿Cómo dejó constancia oficial Jorge de la suya?",
       "cita": "Jorge: Yo quiero usarla cabrón, XL JAJAJAJA",
       "opciones": [
-        "Mandando su foto de carnet de la liga",
         "Con una ficha de AFES debidamente sellada",
         "Por bizzum, con la talla en el concepto",
-        "Con un 'Yo quiero usarla cabrón, XL' y a otra cosa"
+        "Con un 'Yo quiero usarla cabrón, XL' y a otra cosa",
+        "Mandando su foto de carnet de la liga"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "anio": 2023,
       "categoria": "momentazo",
       "explicacion": "Entre las L y M del resto de la plantilla, Jorge registró su XL con la elegancia habitual: 'cabrón' incluido en la ficha técnica."
@@ -1981,26 +1952,26 @@
       "pregunta": "Joni confesó las presiones que sufrió para regalarle a Humpa la camiseta groguet del aeropuerto de Castellón. ¿Por qué el fichaje no llegó a buen puerto?",
       "cita": "Joni: Pero como dijiste expresamente 'una camiseta con la que pueda entrar a casa', priorice la conciliación familiar al racismo, valor claramente en alza y bien visto dentro de esta nuestra sociedad",
       "opciones": [
-        "Porque el aeropuerto de Castellón dejó de patrocinar",
         "Porque el chino no tenía esa talla en catálogo",
-        "Porque pidió 'una camiseta con la que pueda entrar a casa' y Joni priorizó la conciliación familiar al racismo",
-        "Porque Marzal la vetó en la asamblea de fallas"
+        "Porque el aeropuerto de Castellón dejó de patrocinar",
+        "Porque Marzal la vetó en la asamblea de fallas",
+        "Porque pidió 'una camiseta con la que pueda entrar a casa' y Joni priorizó la conciliación familiar al racismo"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "anio": 2023,
       "categoria": "polemica",
       "explicacion": "Hubo presión para el traspaso groguet, pero la cláusula de 'entrar a casa' de Humpa activó el protocolo de conciliación familiar sobre el racismo."
     },
     {
-      "pregunta": "Se anuncia la *Vuelta del TT* y Joni se apunta a la lista con una única condición. ¿Cuál?",
+      "pregunta": "Se anuncia la Vuelta del TT y Joni se apunta a la lista con una única condición. ¿Cuál?",
       "cita": "Joni: Y la condición es que vayamos equipados como haga falta, y cuando digo hasta donde haga falta es incluyendo todo",
       "opciones": [
-        "Que nunca más se juegue contra los sordos",
-        "Que Humpa liquide las cuotas atrasadas de AFES",
+        "Que el Santo vuelva a hacer 20 paradas por partido",
         "Que vayamos equipados como haga falta, incluyendo todo",
-        "Que el Santo vuelva a hacer 20 paradas por partido"
+        "Que Humpa liquide las cuotas atrasadas de AFES",
+        "Que nunca más se juegue contra los sordos"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2024,
       "categoria": "momentazo",
       "explicacion": "Joni volvió al TT con dos enlaces de AliExpress bajo el brazo. Humpa lo bautizó al instante: 'es espíritu TT'."
@@ -2023,12 +1994,12 @@
       "pregunta": "¿Para qué gran evento planeaba el grupo estrenar las camisetas de España recién compradas?",
       "cita": "Feme: Nos la pondremos para ver el mundial / Y la finalisima esa contra los boludos",
       "opciones": [
-        "Para el derbi histórico contra Beniopa",
-        "Para ver el mundial y la finalísima contra los boludos",
         "Para la final de las peñas de Futbol7",
-        "Para el retorno oficial del TT a la liga de AFES"
+        "Para el retorno oficial del TT a la liga de AFES",
+        "Para el derbi histórico contra Beniopa",
+        "Para ver el mundial y la finalísima contra los boludos"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2024,
       "categoria": "lore",
       "explicacion": "Estrenar equipación para ver el fútbol desde el sofá: la cumbre del espíritu TT. Y contra los boludos, mejor."
@@ -2037,10 +2008,10 @@
       "pregunta": "¿Qué último 'fichaje' sorpresa coló Jorge en la lista de la cena sábado?",
       "cita": "Jorge: *cena sábado* -Feme -Guille -Miki -Héctor -Humberto -Humberto Jr.",
       "opciones": [
+        "El hijo de TTino",
         "Germán López de 5°B",
-        "El nieto del viejo de AFES",
         "Humberto Jr.",
-        "El hijo de TTino"
+        "El nieto del viejo de AFES"
       ],
       "correcta": 2,
       "anio": 2024,
@@ -2065,12 +2036,12 @@
       "pregunta": "Tras el grito de 'INDAPENDENSIA' de Jorge, ¿con qué lema firmó Feme la declaración de Beniopa?",
       "cita": "Feme: Gandia Feixista, Beniopa independentista!!✊✊",
       "opciones": [
-        "Frontera en el barranc y paz mundial",
-        "Gandia Feixista, Beniopa independentista!!",
         "Gandia Roma, Beniopa Dortmund",
-        "Gandia Afesista, Beniopa Paxanguera"
+        "Gandia Afesista, Beniopa Paxanguera",
+        "Frontera en el barranc y paz mundial",
+        "Gandia Feixista, Beniopa independentista!!"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "anio": 2026,
       "categoria": "polemica",
       "explicacion": "El rival de liga también quiere nación. Humpa aportó el contexto: 'en Beniopa se vivía mejor antes de la anexión'."
@@ -2094,11 +2065,11 @@
       "cita": "Joni: Pero al igual que en 2010, me mantengo con mi camiseta de antes de ganarlo. Imagina superar llevar el 7 De Don Ferran",
       "opciones": [
         "La blanca falsa de Miki",
-        "La 23 de Feme",
         "El 7 de Don Ferran",
+        "La 23 de Feme",
         "La Roma del TT con una estrella"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "anio": 2026,
       "categoria": "lore",
       "explicacion": "Llevar el 7 de Don Ferran antes de que ganara nada: fe camisetera imposible de superar. Fiel hasta la muerte."
